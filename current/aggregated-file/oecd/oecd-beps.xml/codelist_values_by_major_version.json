@@ -29,17 +29,18 @@
       "5": 1
     },
     ".//document-link/@format": {
-      "text/html": 3,
+      "text/html": 6,
       "application/pdf": 1
     },
     ".//document-link/category/@code": {
-      "B01": 1,
+      "B01": 3,
       "A07": 1,
       "A12": 1,
-      "A02": 1
+      "A02": 1,
+      "B03": 1
     },
     ".//document-link/language/@code": {
-      "en": 4
+      "en": 7
     },
     ".//other-identifier/@type": {
       "A1": 1
@@ -63,17 +64,17 @@
     ".//policy-marker/@vocabulary": {
       "1": 1
     },
-    ".//recipient-country/@code": {
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "998": 1
     },
     ".//reporting-org/@type": {
       "40": 1
     },
     ".//result/@type": {
-      "9": 23
+      "9": 29
     },
     ".//result/indicator/@measure": {
-      "1": 29
+      "1": 37
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "15114": 1
@@ -82,11 +83,11 @@
       "1": 1
     },
     ".//transaction/transaction-type/@code": {
-      "1": 5,
-      "4": 4
+      "1": 6,
+      "4": 5
     },
     ".//@xml:lang": {
-      "en": 57
+      "en": 74
     }
   }
 }

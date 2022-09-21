@@ -8,9 +8,9 @@
   },
   ".//@xml:lang": {
     "en": {
-      "oecd-beps.xml": 57,
-      "oecd-development_taxation.xml": 29,
-      "oecd-global_forum.xml": 43
+      "oecd-beps.xml": 74,
+      "oecd-development_taxation.xml": 48,
+      "oecd-global_forum.xml": 62
     }
   },
   ".//activity-date/@type": {
@@ -76,19 +76,19 @@
   },
   ".//document-link/@format": {
     "text/html": {
-      "oecd-beps.xml": 3,
-      "oecd-development_taxation.xml": 3
+      "oecd-beps.xml": 6,
+      "oecd-development_taxation.xml": 8
     },
     "application/pdf": {
       "oecd-beps.xml": 1,
       "oecd-development_taxation.xml": 1,
-      "oecd-global_forum.xml": 2
+      "oecd-global_forum.xml": 5
     }
   },
   ".//document-link/category/@code": {
     "B01": {
-      "oecd-beps.xml": 1,
-      "oecd-global_forum.xml": 1
+      "oecd-beps.xml": 3,
+      "oecd-global_forum.xml": 4
     },
     "A07": {
       "oecd-beps.xml": 1
@@ -98,15 +98,18 @@
     },
     "A02": {
       "oecd-beps.xml": 1,
-      "oecd-development_taxation.xml": 4,
+      "oecd-development_taxation.xml": 9,
       "oecd-global_forum.xml": 1
+    },
+    "B03": {
+      "oecd-beps.xml": 1
     }
   },
   ".//document-link/language/@code": {
     "en": {
-      "oecd-beps.xml": 4,
-      "oecd-development_taxation.xml": 4,
-      "oecd-global_forum.xml": 2
+      "oecd-beps.xml": 7,
+      "oecd-development_taxation.xml": 9,
+      "oecd-global_forum.xml": 5
     }
   },
   ".//other-identifier/@type": {
@@ -171,7 +174,7 @@
       "oecd-global_forum.xml": 1
     }
   },
-  ".//recipient-country/@code": {
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "998": {
       "oecd-beps.xml": 1,
       "oecd-development_taxation.xml": 1,
@@ -187,16 +190,16 @@
   },
   ".//result/@type": {
     "9": {
-      "oecd-beps.xml": 23,
-      "oecd-development_taxation.xml": 12,
-      "oecd-global_forum.xml": 20
+      "oecd-beps.xml": 29,
+      "oecd-development_taxation.xml": 19,
+      "oecd-global_forum.xml": 28
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "oecd-beps.xml": 29,
-      "oecd-development_taxation.xml": 12,
-      "oecd-global_forum.xml": 20
+      "oecd-beps.xml": 37,
+      "oecd-development_taxation.xml": 19,
+      "oecd-global_forum.xml": 28
     }
   },
   ".//sector/@vocabulary": {
@@ -215,14 +218,14 @@
   },
   ".//transaction/transaction-type/@code": {
     "1": {
-      "oecd-beps.xml": 5,
-      "oecd-development_taxation.xml": 3,
+      "oecd-beps.xml": 6,
+      "oecd-development_taxation.xml": 4,
       "oecd-global_forum.xml": 3
     },
     "4": {
-      "oecd-beps.xml": 4,
-      "oecd-development_taxation.xml": 2,
-      "oecd-global_forum.xml": 2
+      "oecd-beps.xml": 5,
+      "oecd-development_taxation.xml": 3,
+      "oecd-global_forum.xml": 3
     }
   }
 }

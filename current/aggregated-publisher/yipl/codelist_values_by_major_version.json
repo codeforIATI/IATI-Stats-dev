@@ -1,120 +1,119 @@
 {
   "2": {
     ".//@default-currency": {
-      "GBP": 6
+      "USD": 4
     },
     ".//activity-date/@type": {
       "1": 2,
-      "4": 2,
-      "2": 4
+      "2": 2,
+      "3": 2
     },
     ".//activity-status/@code": {
-      "3": 2,
       "2": 4
     },
     ".//activity-scope/@code": {
-      "2": 2,
-      "3": 4
+      "1": 2
     },
     ".//budget/@status": {
-      "2": 22
+      "2": 8
     },
     ".//budget/@type": {
-      "1": 2,
-      "2": 20
-    },
-    ".//budget/value/@currency": {
-      "GBP": 2
-    },
-    ".//collaboration-type/@code": {
-      "4": 4
-    },
-    ".//contact-info/@type": {
-      "1": 4
-    },
-    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "A02": 2,
-      "D02": 4
-    },
-    ".//default-aid-type/@vocabulary": {
-      "1": 6
-    },
-    ".//default-finance-type/@code": {
-      "110": 6
-    },
-    ".//default-flow-type/@code": {
-      "30": 2,
-      "10": 4
-    },
-    ".//default-tied-status/@code": {
-      "5": 6
-    },
-    ".//description/@type": {
-      "2": 2,
-      "1": 4
-    },
-    ".//participating-org/@role": {
-      "1": 8
-    },
-    ".//participating-org/@type": {
-      "70": 2,
-      "10": 2,
-      "21": 4
-    },
-    ".//planned-disbursement/@type": {
+      "1": 4,
       "2": 4
     },
+    ".//budget/value/@currency": {
+      "EUR": 8
+    },
+    ".//country-budget-items/@vocabulary": {
+      "1": 2
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "A01": 2
+    },
+    ".//default-aid-type/@vocabulary": {
+      "1": 2
+    },
+    ".//default-finance-type/@code": {
+      "110": 2
+    },
+    ".//default-flow-type/@code": {
+      "30": 2
+    },
+    ".//default-tied-status/@code": {
+      "5": 2
+    },
+    ".//description/@type": {
+      "1": 2,
+      "2": 2
+    },
+    ".//document-link/@format": {
+      "application/pdf": 2
+    },
+    ".//document-link/category/@code": {
+      "B01": 2
+    },
+    ".//document-link/language/@code": {
+      "en": 2
+    },
+    ".//participating-org/@role": {
+      "2": 2,
+      "4": 2,
+      "1": 2
+    },
+    ".//participating-org/@type": {
+      "22": 2,
+      "70": 2,
+      "10": 2
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "3": 2
+    },
+    ".//policy-marker/@significance": {
+      "2": 2
+    },
+    ".//policy-marker/@vocabulary": {
+      "1": 2
+    },
     ".//recipient-country/@code": {
-      "AX": 2,
-      "DZ": 2,
-      "CD": 4,
-      "CF": 4,
-      "ET": 4
+      "NP": 2,
+      "KE": 2,
+      "AL": 2
     },
     ".//reporting-org/@type": {
-      "70": 6
+      "70": 4
     },
     ".//result/@type": {
-      "1": 10
+      "2": 4,
+      "1": 22,
+      "3": 2
     },
     ".//result/indicator/@measure": {
-      "2": 40,
-      "1": 58
+      "1": 26,
+      "2": 2
     },
     ".//result/indicator/reference/@vocabulary": {
-      "99": 98
-    },
-    ".//result/reference/@vocabulary": {
-      "99": 10
+      "99": 24
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "11110": 2,
-      "15160": 96
+      "11120": 2,
+      "12281": 2,
+      "12110": 2
     },
     ".//sector/@vocabulary": {
-      "1": 98
+      "1": 6
     },
     ".//transaction/provider-org/@type": {
-      "21": 20
-    },
-    ".//transaction/receiver-org/@type": {
-      "70": 20
-    },
-    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15160": 96
-    },
-    ".//transaction/sector/@vocabulary": {
-      "1": 96
+      "21": 2
     },
     ".//transaction/transaction-type/@code": {
-      "4": 48,
-      "1": 48
+      "4": 2,
+      "1": 4
     },
     ".//transaction/value/@currency": {
-      "GBP": 40
+      "USD": 2
     },
     ".//@xml:lang": {
-      "en": 286
+      "en": 18
     }
   }
 }

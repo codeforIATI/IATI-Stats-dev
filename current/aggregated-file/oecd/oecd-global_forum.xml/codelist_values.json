@@ -3,7 +3,7 @@
     "EUR": 1
   },
   ".//@xml:lang": {
-    "en": 43
+    "en": 62
   },
   ".//activity-date/@type": {
     "2": 1,
@@ -31,14 +31,14 @@
     "5": 1
   },
   ".//document-link/@format": {
-    "application/pdf": 2
+    "application/pdf": 5
   },
   ".//document-link/category/@code": {
-    "B01": 1,
+    "B01": 4,
     "A02": 1
   },
   ".//document-link/language/@code": {
-    "en": 2
+    "en": 5
   },
   ".//other-identifier/@type": {
     "A1": 1
@@ -62,17 +62,17 @@
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "3": 1
   },
-  ".//recipient-country/@code": {
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "998": 1
   },
   ".//reporting-org/@type": {
     "40": 1
   },
   ".//result/@type": {
-    "9": 20
+    "9": 28
   },
   ".//result/indicator/@measure": {
-    "1": 20
+    "1": 28
   },
   ".//sector/@vocabulary": {
     "1": 1
@@ -82,6 +82,6 @@
   },
   ".//transaction/transaction-type/@code": {
     "1": 3,
-    "4": 2
+    "4": 3
   }
 }

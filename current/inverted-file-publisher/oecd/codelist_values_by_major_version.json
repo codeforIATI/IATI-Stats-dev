@@ -104,41 +104,42 @@
     },
     ".//document-link/@format": {
       "oecd-beps.xml": {
-        "text/html": 3,
+        "text/html": 6,
         "application/pdf": 1
       },
       "oecd-development_taxation.xml": {
         "application/pdf": 1,
-        "text/html": 3
+        "text/html": 8
       },
       "oecd-global_forum.xml": {
-        "application/pdf": 2
+        "application/pdf": 5
       }
     },
     ".//document-link/category/@code": {
       "oecd-beps.xml": {
-        "B01": 1,
+        "B01": 3,
         "A07": 1,
         "A12": 1,
-        "A02": 1
+        "A02": 1,
+        "B03": 1
       },
       "oecd-development_taxation.xml": {
-        "A02": 4
+        "A02": 9
       },
       "oecd-global_forum.xml": {
-        "B01": 1,
+        "B01": 4,
         "A02": 1
       }
     },
     ".//document-link/language/@code": {
       "oecd-beps.xml": {
-        "en": 4
+        "en": 7
       },
       "oecd-development_taxation.xml": {
-        "en": 4
+        "en": 9
       },
       "oecd-global_forum.xml": {
-        "en": 2
+        "en": 5
       }
     },
     ".//other-identifier/@type": {
@@ -219,7 +220,7 @@
         "1": 1
       }
     },
-    ".//recipient-country/@code": {
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "oecd-beps.xml": {
         "998": 1
       },
@@ -243,24 +244,24 @@
     },
     ".//result/@type": {
       "oecd-beps.xml": {
-        "9": 23
+        "9": 29
       },
       "oecd-development_taxation.xml": {
-        "9": 12
+        "9": 19
       },
       "oecd-global_forum.xml": {
-        "9": 20
+        "9": 28
       }
     },
     ".//result/indicator/@measure": {
       "oecd-beps.xml": {
-        "1": 29
+        "1": 37
       },
       "oecd-development_taxation.xml": {
-        "1": 12
+        "1": 19
       },
       "oecd-global_forum.xml": {
-        "1": 20
+        "1": 28
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -287,27 +288,27 @@
     },
     ".//transaction/transaction-type/@code": {
       "oecd-beps.xml": {
-        "1": 5,
-        "4": 4
+        "1": 6,
+        "4": 5
       },
       "oecd-development_taxation.xml": {
-        "1": 3,
-        "4": 2
+        "1": 4,
+        "4": 3
       },
       "oecd-global_forum.xml": {
         "1": 3,
-        "4": 2
+        "4": 3
       }
     },
     ".//@xml:lang": {
       "oecd-beps.xml": {
-        "en": 57
+        "en": 74
       },
       "oecd-development_taxation.xml": {
-        "en": 29
+        "en": 48
       },
       "oecd-global_forum.xml": {
-        "en": 43
+        "en": 62
       }
     }
   }

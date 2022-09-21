@@ -2,300 +2,298 @@
   "2": {
     ".//@default-currency": {
       "yipl-activities.xml": {
-        "GBP": 3
+        "USD": 2
       },
       "yipl-activity.xml": {
-        "GBP": 3
+        "USD": 2
       }
     },
     ".//activity-date/@type": {
       "yipl-activities.xml": {
         "1": 1,
-        "4": 1,
-        "2": 2
+        "2": 1,
+        "3": 1
       },
       "yipl-activity.xml": {
         "1": 1,
-        "4": 1,
-        "2": 2
+        "2": 1,
+        "3": 1
       }
     },
     ".//activity-status/@code": {
       "yipl-activities.xml": {
-        "3": 1,
         "2": 2
       },
       "yipl-activity.xml": {
-        "3": 1,
         "2": 2
       }
     },
     ".//activity-scope/@code": {
       "yipl-activities.xml": {
-        "2": 1,
-        "3": 2
+        "1": 1
       },
       "yipl-activity.xml": {
-        "2": 1,
-        "3": 2
+        "1": 1
       }
     },
     ".//budget/@status": {
       "yipl-activities.xml": {
-        "2": 11
+        "2": 4
       },
       "yipl-activity.xml": {
-        "2": 11
+        "2": 4
       }
     },
     ".//budget/@type": {
       "yipl-activities.xml": {
-        "1": 1,
-        "2": 10
+        "1": 2,
+        "2": 2
       },
       "yipl-activity.xml": {
-        "1": 1,
-        "2": 10
+        "1": 2,
+        "2": 2
       }
     },
     ".//budget/value/@currency": {
       "yipl-activities.xml": {
-        "GBP": 1
+        "EUR": 4
       },
       "yipl-activity.xml": {
-        "GBP": 1
+        "EUR": 4
       }
     },
-    ".//collaboration-type/@code": {
+    ".//country-budget-items/@vocabulary": {
       "yipl-activities.xml": {
-        "4": 2
+        "1": 1
       },
       "yipl-activity.xml": {
-        "4": 2
-      }
-    },
-    ".//contact-info/@type": {
-      "yipl-activities.xml": {
-        "1": 2
-      },
-      "yipl-activity.xml": {
-        "1": 2
+        "1": 1
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "yipl-activities.xml": {
-        "A02": 1,
-        "D02": 2
+        "A01": 1
       },
       "yipl-activity.xml": {
-        "A02": 1,
-        "D02": 2
+        "A01": 1
       }
     },
     ".//default-aid-type/@vocabulary": {
       "yipl-activities.xml": {
-        "1": 3
+        "1": 1
       },
       "yipl-activity.xml": {
-        "1": 3
+        "1": 1
       }
     },
     ".//default-finance-type/@code": {
       "yipl-activities.xml": {
-        "110": 3
+        "110": 1
       },
       "yipl-activity.xml": {
-        "110": 3
+        "110": 1
       }
     },
     ".//default-flow-type/@code": {
       "yipl-activities.xml": {
-        "30": 1,
-        "10": 2
+        "30": 1
       },
       "yipl-activity.xml": {
-        "30": 1,
-        "10": 2
+        "30": 1
       }
     },
     ".//default-tied-status/@code": {
       "yipl-activities.xml": {
-        "5": 3
+        "5": 1
       },
       "yipl-activity.xml": {
-        "5": 3
+        "5": 1
       }
     },
     ".//description/@type": {
       "yipl-activities.xml": {
-        "2": 1,
-        "1": 2
+        "1": 1,
+        "2": 1
       },
       "yipl-activity.xml": {
-        "2": 1,
-        "1": 2
+        "1": 1,
+        "2": 1
+      }
+    },
+    ".//document-link/@format": {
+      "yipl-activities.xml": {
+        "application/pdf": 1
+      },
+      "yipl-activity.xml": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "yipl-activities.xml": {
+        "B01": 1
+      },
+      "yipl-activity.xml": {
+        "B01": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "yipl-activities.xml": {
+        "en": 1
+      },
+      "yipl-activity.xml": {
+        "en": 1
       }
     },
     ".//participating-org/@role": {
       "yipl-activities.xml": {
-        "1": 4
+        "2": 1,
+        "4": 1,
+        "1": 1
       },
       "yipl-activity.xml": {
-        "1": 4
+        "2": 1,
+        "4": 1,
+        "1": 1
       }
     },
     ".//participating-org/@type": {
       "yipl-activities.xml": {
+        "22": 1,
         "70": 1,
-        "10": 1,
-        "21": 2
+        "10": 1
       },
       "yipl-activity.xml": {
+        "22": 1,
         "70": 1,
-        "10": 1,
-        "21": 2
+        "10": 1
       }
     },
-    ".//planned-disbursement/@type": {
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "yipl-activities.xml": {
-        "2": 2
+        "3": 1
       },
       "yipl-activity.xml": {
-        "2": 2
+        "3": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "yipl-activities.xml": {
+        "2": 1
+      },
+      "yipl-activity.xml": {
+        "2": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "yipl-activities.xml": {
+        "1": 1
+      },
+      "yipl-activity.xml": {
+        "1": 1
       }
     },
     ".//recipient-country/@code": {
       "yipl-activities.xml": {
-        "AX": 1,
-        "DZ": 1,
-        "CD": 2,
-        "CF": 2,
-        "ET": 2
+        "NP": 1,
+        "KE": 1,
+        "AL": 1
       },
       "yipl-activity.xml": {
-        "AX": 1,
-        "DZ": 1,
-        "CD": 2,
-        "CF": 2,
-        "ET": 2
+        "NP": 1,
+        "KE": 1,
+        "AL": 1
       }
     },
     ".//reporting-org/@type": {
       "yipl-activities.xml": {
-        "70": 3
+        "70": 2
       },
       "yipl-activity.xml": {
-        "70": 3
+        "70": 2
       }
     },
     ".//result/@type": {
       "yipl-activities.xml": {
-        "1": 5
+        "2": 2,
+        "1": 11,
+        "3": 1
       },
       "yipl-activity.xml": {
-        "1": 5
+        "2": 2,
+        "1": 11,
+        "3": 1
       }
     },
     ".//result/indicator/@measure": {
       "yipl-activities.xml": {
-        "2": 20,
-        "1": 29
+        "1": 13,
+        "2": 1
       },
       "yipl-activity.xml": {
-        "2": 20,
-        "1": 29
+        "1": 13,
+        "2": 1
       }
     },
     ".//result/indicator/reference/@vocabulary": {
       "yipl-activities.xml": {
-        "99": 49
+        "99": 12
       },
       "yipl-activity.xml": {
-        "99": 49
-      }
-    },
-    ".//result/reference/@vocabulary": {
-      "yipl-activities.xml": {
-        "99": 5
-      },
-      "yipl-activity.xml": {
-        "99": 5
+        "99": 12
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "yipl-activities.xml": {
-        "11110": 1,
-        "15160": 48
+        "11120": 1,
+        "12281": 1,
+        "12110": 1
       },
       "yipl-activity.xml": {
-        "11110": 1,
-        "15160": 48
+        "11120": 1,
+        "12281": 1,
+        "12110": 1
       }
     },
     ".//sector/@vocabulary": {
       "yipl-activities.xml": {
-        "1": 49
+        "1": 3
       },
       "yipl-activity.xml": {
-        "1": 49
+        "1": 3
       }
     },
     ".//transaction/provider-org/@type": {
       "yipl-activities.xml": {
-        "21": 10
+        "21": 1
       },
       "yipl-activity.xml": {
-        "21": 10
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "yipl-activities.xml": {
-        "70": 10
-      },
-      "yipl-activity.xml": {
-        "70": 10
-      }
-    },
-    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "yipl-activities.xml": {
-        "15160": 48
-      },
-      "yipl-activity.xml": {
-        "15160": 48
-      }
-    },
-    ".//transaction/sector/@vocabulary": {
-      "yipl-activities.xml": {
-        "1": 48
-      },
-      "yipl-activity.xml": {
-        "1": 48
+        "21": 1
       }
     },
     ".//transaction/transaction-type/@code": {
       "yipl-activities.xml": {
-        "4": 24,
-        "1": 24
+        "4": 1,
+        "1": 2
       },
       "yipl-activity.xml": {
-        "4": 24,
-        "1": 24
+        "4": 1,
+        "1": 2
       }
     },
     ".//transaction/value/@currency": {
       "yipl-activities.xml": {
-        "GBP": 20
+        "USD": 1
       },
       "yipl-activity.xml": {
-        "GBP": 20
+        "USD": 1
       }
     },
     ".//@xml:lang": {
       "yipl-activities.xml": {
-        "en": 143
+        "en": 9
       },
       "yipl-activity.xml": {
-        "en": 143
+        "en": 9
       }
     }
   }
