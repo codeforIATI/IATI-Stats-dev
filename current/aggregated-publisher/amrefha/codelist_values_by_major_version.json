@@ -16,8 +16,8 @@
       "4": 1
     },
     ".//budget/@status": {
-      "2": 39,
-      "1": 18
+      "1": 18,
+      "2": 39
     },
     ".//budget/@type": {
       "1": 45,
@@ -26,6 +26,9 @@
     ".//budget/value/@currency": {
       "GBP": 40,
       "ZAR": 7
+    },
+    ".//contact-info/@type": {
+      "1": 7
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 25,
@@ -50,15 +53,21 @@
       "3": 22,
       "4": 1
     },
+    ".//location/location-reach/@code": {
+      "2": 1
+    },
+    ".//other-identifier/@type": {
+      "A1": 1
+    },
     ".//participating-org/@role": {
-      "1": 32,
       "4": 24,
+      "1": 32,
       "2": 17,
       "3": 1
     },
     ".//participating-org/@type": {
-      "71": 7,
       "21": 36,
+      "71": 7,
       "22": 9,
       "60": 16,
       "40": 1,
@@ -68,9 +77,9 @@
       "70": 1
     },
     ".//recipient-country/@code": {
-      "ET": 7,
       "KE": 9,
       "MW": 2,
+      "ET": 7,
       "AO": 1,
       "BI": 1,
       "LS": 1,
@@ -85,11 +94,17 @@
       "BW": 1,
       "ZA": 1
     },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "289": 18,
+      "298": 6
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 24
+    },
     ".//reporting-org/@type": {
       "21": 26
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "12250": 2,
       "12182": 1,
       "12220": 3,
       "12261": 2,
@@ -100,6 +115,7 @@
       "14032": 1,
       "16020": 1,
       "14050": 1,
+      "12250": 2,
       "12191": 1
     },
     ".//sector/@vocabulary": {
@@ -111,28 +127,12 @@
       "4": 29,
       "11": 1
     },
-    ".//@xml:lang": {
-      "en": 110
-    },
-    ".//contact-info/@type": {
-      "1": 7
-    },
-    ".//location/location-reach/@code": {
-      "2": 1
-    },
-    ".//other-identifier/@type": {
-      "A1": 1
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "289": 18,
-      "298": 6
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 24
-    },
     ".//transaction/value/@currency": {
       "GBP": 134,
       "ZAR": 2
+    },
+    ".//@xml:lang": {
+      "en": 110
     },
     ".//document-link/@format": {
       "application/pdf": 1,

@@ -23,23 +23,20 @@
       "1": 2
     },
     ".//participating-org/@role": {
-      "Extending": 1,
+      "Funding": 2,
       "Implementing": 3,
-      "Funding": 2
+      "Extending": 1
     },
     ".//participating-org/@type": {
       "10": 3,
       "70": 3
     },
     ".//recipient-country/@code": {
-      "PK": 1,
-      "KE": 1
+      "KE": 1,
+      "PK": 1
     },
     ".//reporting-org/@type": {
       "70": 2
-    },
-    ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
-      "1": 1
     },
     ".//transaction/aid-type/@code": {
       "D02": 5
@@ -57,14 +54,17 @@
       "5": 5
     },
     ".//transaction/transaction-type/@code": {
-      "IF": 2,
-      "E": 3
+      "E": 3,
+      "IF": 2
     },
     ".//transaction/value/@currency": {
       "GBP": 5
     },
     ".//@xml:lang": {
       "en": 9
+    },
+    ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+      "1": 1
     }
   }
 }

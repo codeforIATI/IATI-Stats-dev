@@ -1,23 +1,23 @@
 {
   ".//@default-currency": {
     "EUR": {
-      "solidarites-international-679.xml": 1,
       "solidarites-international-1028.xml": 2,
-      "solidarites-international-589.xml": 2
+      "solidarites-international-589.xml": 2,
+      "solidarites-international-679.xml": 1
     }
   },
   ".//@xml:lang": {
     "en": {
-      "solidarites-international-679.xml": 11,
       "solidarites-international-1028.xml": 57,
-      "solidarites-international-589.xml": 99
+      "solidarites-international-589.xml": 99,
+      "solidarites-international-679.xml": 11
     }
   },
   ".//activity-date/@type": {
     "2": {
-      "solidarites-international-679.xml": 1,
       "solidarites-international-1028.xml": 2,
-      "solidarites-international-589.xml": 2
+      "solidarites-international-589.xml": 2,
+      "solidarites-international-679.xml": 1
     },
     "4": {
       "solidarites-international-1028.xml": 1,
@@ -26,9 +26,9 @@
   },
   ".//activity-status/@code": {
     "2": {
-      "solidarites-international-679.xml": 1,
       "solidarites-international-1028.xml": 1,
-      "solidarites-international-589.xml": 1
+      "solidarites-international-589.xml": 1,
+      "solidarites-international-679.xml": 1
     },
     "4": {
       "solidarites-international-1028.xml": 1,
@@ -37,26 +37,26 @@
   },
   ".//budget/@status": {
     "2": {
-      "solidarites-international-679.xml": 5,
       "solidarites-international-1028.xml": 4,
-      "solidarites-international-589.xml": 2
+      "solidarites-international-589.xml": 2,
+      "solidarites-international-679.xml": 5
     }
   },
   ".//budget/@type": {
-    "2": {
-      "solidarites-international-679.xml": 1,
-      "solidarites-international-589.xml": 1
-    },
     "1": {
-      "solidarites-international-679.xml": 4,
       "solidarites-international-1028.xml": 4,
-      "solidarites-international-589.xml": 1
+      "solidarites-international-589.xml": 1,
+      "solidarites-international-679.xml": 4
+    },
+    "2": {
+      "solidarites-international-589.xml": 1,
+      "solidarites-international-679.xml": 1
     }
   },
   ".//budget/value/@currency": {
     "GBP": {
-      "solidarites-international-679.xml": 5,
-      "solidarites-international-1028.xml": 4
+      "solidarites-international-1028.xml": 4,
+      "solidarites-international-679.xml": 5
     },
     "EUR": {
       "solidarites-international-589.xml": 2
@@ -64,22 +64,22 @@
   },
   ".//contact-info/@type": {
     "1": {
-      "solidarites-international-679.xml": 1,
       "solidarites-international-1028.xml": 2,
-      "solidarites-international-589.xml": 2
+      "solidarites-international-589.xml": 2,
+      "solidarites-international-679.xml": 1
     }
   },
   ".//default-aid-type/@vocabulary": {
     "1": {
-      "solidarites-international-679.xml": 1,
       "solidarites-international-1028.xml": 2,
-      "solidarites-international-589.xml": 2
+      "solidarites-international-589.xml": 2,
+      "solidarites-international-679.xml": 1
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "A01": {
-      "solidarites-international-679.xml": 1,
-      "solidarites-international-1028.xml": 2
+      "solidarites-international-1028.xml": 2,
+      "solidarites-international-679.xml": 1
     },
     "C01": {
       "solidarites-international-589.xml": 2
@@ -87,15 +87,15 @@
   },
   ".//default-finance-type/@code": {
     "110": {
-      "solidarites-international-679.xml": 1,
       "solidarites-international-1028.xml": 2,
-      "solidarites-international-589.xml": 2
+      "solidarites-international-589.xml": 2,
+      "solidarites-international-679.xml": 1
     }
   },
   ".//default-flow-type/@code": {
     "10": {
-      "solidarites-international-679.xml": 1,
-      "solidarites-international-1028.xml": 2
+      "solidarites-international-1028.xml": 2,
+      "solidarites-international-679.xml": 1
     },
     "30": {
       "solidarites-international-589.xml": 1
@@ -106,19 +106,19 @@
   },
   ".//default-tied-status/@code": {
     "5": {
-      "solidarites-international-679.xml": 1,
       "solidarites-international-1028.xml": 2,
-      "solidarites-international-589.xml": 2
+      "solidarites-international-589.xml": 2,
+      "solidarites-international-679.xml": 1
     }
   },
   ".//description/@type": {
-    "2": {
-      "solidarites-international-679.xml": 1,
-      "solidarites-international-1028.xml": 2
-    },
     "1": {
       "solidarites-international-1028.xml": 2,
       "solidarites-international-589.xml": 2
+    },
+    "2": {
+      "solidarites-international-1028.xml": 2,
+      "solidarites-international-679.xml": 1
     },
     "3": {
       "solidarites-international-1028.xml": 2,
@@ -131,8 +131,8 @@
   },
   ".//document-link/@format": {
     "text/example": {
-      "solidarites-international-679.xml": 1,
-      "solidarites-international-1028.xml": 4
+      "solidarites-international-1028.xml": 4,
+      "solidarites-international-679.xml": 1
     },
     "application/pdf": {
       "solidarites-international-589.xml": 1
@@ -140,8 +140,8 @@
   },
   ".//document-link/category/@code": {
     "A02": {
-      "solidarites-international-679.xml": 1,
-      "solidarites-international-1028.xml": 4
+      "solidarites-international-1028.xml": 4,
+      "solidarites-international-679.xml": 1
     },
     "B06": {
       "solidarites-international-589.xml": 1
@@ -149,22 +149,22 @@
   },
   ".//document-link/language/@code": {
     "en": {
-      "solidarites-international-679.xml": 1,
       "solidarites-international-1028.xml": 4,
-      "solidarites-international-589.xml": 1
+      "solidarites-international-589.xml": 1,
+      "solidarites-international-679.xml": 1
     }
   },
   ".//participating-org/@crs-channel-code": {
     "21000": {
-      "solidarites-international-679.xml": 1,
-      "solidarites-international-1028.xml": 2
+      "solidarites-international-1028.xml": 2,
+      "solidarites-international-679.xml": 1
     }
   },
   ".//participating-org/@role": {
     "4": {
-      "solidarites-international-679.xml": 1,
       "solidarites-international-1028.xml": 2,
-      "solidarites-international-589.xml": 3
+      "solidarites-international-589.xml": 3,
+      "solidarites-international-679.xml": 1
     },
     "1": {
       "solidarites-international-589.xml": 3
@@ -175,9 +175,9 @@
   },
   ".//participating-org/@type": {
     "21": {
-      "solidarites-international-679.xml": 1,
       "solidarites-international-1028.xml": 2,
-      "solidarites-international-589.xml": 4
+      "solidarites-international-589.xml": 4,
+      "solidarites-international-679.xml": 1
     },
     "10": {
       "solidarites-international-589.xml": 3
@@ -185,19 +185,19 @@
   },
   ".//policy-marker/@significance": {
     "1": {
-      "solidarites-international-679.xml": 1,
-      "solidarites-international-1028.xml": 2
+      "solidarites-international-1028.xml": 2,
+      "solidarites-international-679.xml": 1
     },
     "0": {
       "solidarites-international-589.xml": 1
     }
   },
   ".//policy-marker/@vocabulary": {
-    "99": {
-      "solidarites-international-679.xml": 1
-    },
     "1": {
       "solidarites-international-1028.xml": 2
+    },
+    "99": {
+      "solidarites-international-679.xml": 1
     }
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -212,9 +212,6 @@
     }
   },
   ".//recipient-country/@code": {
-    "MM": {
-      "solidarites-international-679.xml": 1
-    },
     "CF": {
       "solidarites-international-1028.xml": 1
     },
@@ -223,38 +220,41 @@
     },
     "YE": {
       "solidarites-international-589.xml": 2
+    },
+    "MM": {
+      "solidarites-international-679.xml": 1
     }
   },
   ".//recipient-region/@vocabulary": {
     "1": {
-      "solidarites-international-679.xml": 1,
       "solidarites-international-1028.xml": 2,
-      "solidarites-international-589.xml": 2
+      "solidarites-international-589.xml": 2,
+      "solidarites-international-679.xml": 1
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "679": {
-      "solidarites-international-679.xml": 1
-    },
     "1028": {
       "solidarites-international-1028.xml": 2
     },
     "589": {
       "solidarites-international-589.xml": 2
+    },
+    "679": {
+      "solidarites-international-679.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "21": {
-      "solidarites-international-679.xml": 1,
       "solidarites-international-1028.xml": 2,
-      "solidarites-international-589.xml": 2
+      "solidarites-international-589.xml": 2,
+      "solidarites-international-679.xml": 1
     }
   },
   ".//result/@type": {
     "2": {
-      "solidarites-international-679.xml": 1,
       "solidarites-international-1028.xml": 1,
-      "solidarites-international-589.xml": 8
+      "solidarites-international-589.xml": 8,
+      "solidarites-international-679.xml": 1
     },
     "1": {
       "solidarites-international-1028.xml": 3,
@@ -266,27 +266,27 @@
   },
   ".//result/document-link/@format": {
     "text/example": {
-      "solidarites-international-679.xml": 1,
-      "solidarites-international-1028.xml": 4
+      "solidarites-international-1028.xml": 4,
+      "solidarites-international-679.xml": 1
     }
   },
   ".//result/document-link/category/@code": {
     "A02": {
-      "solidarites-international-679.xml": 1,
-      "solidarites-international-1028.xml": 4
+      "solidarites-international-1028.xml": 4,
+      "solidarites-international-679.xml": 1
     }
   },
   ".//result/document-link/language/@code": {
     "en": {
-      "solidarites-international-679.xml": 1,
-      "solidarites-international-1028.xml": 4
+      "solidarites-international-1028.xml": 4,
+      "solidarites-international-679.xml": 1
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "solidarites-international-679.xml": 1,
       "solidarites-international-1028.xml": 5,
-      "solidarites-international-589.xml": 12
+      "solidarites-international-589.xml": 12,
+      "solidarites-international-679.xml": 1
     },
     "2": {
       "solidarites-international-1028.xml": 2,
@@ -302,12 +302,12 @@
     }
   },
   ".//sector/@vocabulary": {
-    "99": {
-      "solidarites-international-679.xml": 1
-    },
     "1": {
       "solidarites-international-1028.xml": 2,
       "solidarites-international-589.xml": 3
+    },
+    "99": {
+      "solidarites-international-679.xml": 1
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {

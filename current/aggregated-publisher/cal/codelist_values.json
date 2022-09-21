@@ -16,12 +16,12 @@
     "1": 1
   },
   ".//activity-status/@code": {
-    "4": 5,
-    "2": 5
+    "2": 5,
+    "4": 5
   },
   ".//budget/@status": {
-    "2": 32,
-    "1": 27
+    "1": 27,
+    "2": 32
   },
   ".//budget/@type": {
     "1": 56,
@@ -55,9 +55,9 @@
     "2": 1
   },
   ".//document-link/@format": {
-    "application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml": 1,
     "application/pdf": 3,
     "application/vnd.ms-word.document.macroEnabled.12": 2,
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml": 1,
     "application/vnd.ms-office.activeX+xml": 2,
     "text/html": 1
   },
@@ -68,13 +68,13 @@
     "en": 8
   },
   ".//participating-org/@role": {
-    "4": 15,
     "1": 8,
+    "4": 15,
     "2": 3
   },
   ".//participating-org/@type": {
-    "70": 13,
     "10": 8,
+    "70": 13,
     "21": 5
   },
   ".//policy-marker/@vocabulary": {
@@ -85,12 +85,12 @@
     "3": 2
   },
   ".//recipient-country/@code": {
-    "KG": 1,
     "NP": 4,
-    "NG": 1,
     "KE": 1,
     "ZW": 2,
-    "MM": 1
+    "MM": 1,
+    "KG": 1,
+    "NG": 1
   },
   ".//recipient-region/@vocabulary": {
     "1": 4
@@ -103,17 +103,17 @@
     "70": 10
   },
   ".//sector/@vocabulary": {
-    "2": 1,
-    "1": 9
+    "1": 9,
+    "2": 1
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "23111": 1,
     "11120": 1,
-    "12191": 1,
     "23067": 2,
+    "23111": 1,
     "24030": 1,
     "72050": 1,
-    "15111": 2
+    "15111": 2,
+    "12191": 1
   },
   ".//sector[@vocabulary = '2']/@code": {
     "151": 1
@@ -131,10 +131,10 @@
     "71": 1
   },
   ".//transaction/receiver-org/@type": {
-    "10": 5,
-    "70": 152,
     "60": 4,
+    "70": 152,
     "21": 34,
+    "10": 5,
     "22": 7,
     "23": 5,
     "15": 1,
@@ -149,8 +149,8 @@
   ".//transaction/transaction-type/@code": {
     "1": 97,
     "4": 111,
-    "11": 5,
-    "3": 448
+    "3": 448,
+    "11": 5
   },
   ".//transaction/value/@currency": {
     "GBP": 644,

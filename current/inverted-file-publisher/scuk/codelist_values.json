@@ -1,8 +1,8 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "scuk-zz.xml": 1,
-      "scuk-scukppa.xml": 1
+      "scuk-scukppa.xml": 1,
+      "scuk-zz.xml": 1
     },
     "gbp": {
       "scuk-archive.xml": 183
@@ -10,43 +10,43 @@
   },
   ".//@xml:lang": {
     "en": {
-      "scuk-zz.xml": 1,
       "scuk-scukppa.xml": 1,
-      "scuk-archive.xml": 183
+      "scuk-archive.xml": 183,
+      "scuk-zz.xml": 1
     }
   },
   ".//activity-date/@type": {
-    "2": {
-      "scuk-zz.xml": 1,
-      "scuk-scukppa.xml": 1,
-      "scuk-archive.xml": 183
-    },
-    "3": {
-      "scuk-zz.xml": 1,
-      "scuk-scukppa.xml": 1
-    },
     "1": {
       "scuk-scukppa.xml": 1
+    },
+    "2": {
+      "scuk-scukppa.xml": 1,
+      "scuk-archive.xml": 183,
+      "scuk-zz.xml": 1
+    },
+    "3": {
+      "scuk-scukppa.xml": 1,
+      "scuk-zz.xml": 1
     },
     "4": {
       "scuk-archive.xml": 183
     }
   },
   ".//activity-status/@code": {
-    "3": {
-      "scuk-zz.xml": 1
-    },
     "2": {
       "scuk-scukppa.xml": 1
     },
     "4": {
       "scuk-archive.xml": 183
+    },
+    "3": {
+      "scuk-zz.xml": 1
     }
   },
   ".//budget/@type": {
     "1": {
-      "scuk-zz.xml": 1,
-      "scuk-scukppa.xml": 5
+      "scuk-scukppa.xml": 5,
+      "scuk-zz.xml": 1
     }
   },
   ".//budget/value/@currency": {
@@ -56,46 +56,46 @@
   },
   ".//collaboration-type/@code": {
     "3": {
-      "scuk-zz.xml": 1,
       "scuk-scukppa.xml": 1,
-      "scuk-archive.xml": 183
+      "scuk-archive.xml": 183,
+      "scuk-zz.xml": 1
     }
   },
   ".//contact-info/@type": {
     "1": {
-      "scuk-zz.xml": 1,
       "scuk-scukppa.xml": 1,
-      "scuk-archive.xml": 183
+      "scuk-archive.xml": 183,
+      "scuk-zz.xml": 1
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "B03": {
-      "scuk-zz.xml": 1,
-      "scuk-archive.xml": 183
-    },
     "B01": {
       "scuk-scukppa.xml": 1
+    },
+    "B03": {
+      "scuk-archive.xml": 183,
+      "scuk-zz.xml": 1
     }
   },
   ".//default-finance-type/@code": {
     "110": {
-      "scuk-zz.xml": 1,
       "scuk-scukppa.xml": 1,
-      "scuk-archive.xml": 183
+      "scuk-archive.xml": 183,
+      "scuk-zz.xml": 1
     }
   },
   ".//default-flow-type/@code": {
     "10": {
-      "scuk-zz.xml": 1,
       "scuk-scukppa.xml": 1,
-      "scuk-archive.xml": 183
+      "scuk-archive.xml": 183,
+      "scuk-zz.xml": 1
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "scuk-zz.xml": 1,
       "scuk-scukppa.xml": 1,
-      "scuk-archive.xml": 183
+      "scuk-archive.xml": 183,
+      "scuk-zz.xml": 1
     }
   },
   ".//description/@type": {
@@ -135,32 +135,32 @@
     }
   },
   ".//participating-org/@role": {
-    "2": {
-      "scuk-zz.xml": 1,
+    "1": {
       "scuk-scukppa.xml": 1,
-      "scuk-archive.xml": 14
+      "scuk-archive.xml": 183,
+      "scuk-zz.xml": 1
+    },
+    "2": {
+      "scuk-scukppa.xml": 1,
+      "scuk-archive.xml": 14,
+      "scuk-zz.xml": 1
     },
     "4": {
-      "scuk-zz.xml": 1,
       "scuk-scukppa.xml": 1,
-      "scuk-archive.xml": 179
-    },
-    "1": {
-      "scuk-zz.xml": 1,
-      "scuk-scukppa.xml": 1,
-      "scuk-archive.xml": 183
+      "scuk-archive.xml": 179,
+      "scuk-zz.xml": 1
     }
   },
   ".//participating-org/@type": {
-    "21": {
-      "scuk-zz.xml": 2,
-      "scuk-scukppa.xml": 2,
-      "scuk-archive.xml": 193
-    },
     "10": {
-      "scuk-zz.xml": 1,
       "scuk-scukppa.xml": 1,
-      "scuk-archive.xml": 95
+      "scuk-archive.xml": 95,
+      "scuk-zz.xml": 1
+    },
+    "21": {
+      "scuk-scukppa.xml": 2,
+      "scuk-archive.xml": 193,
+      "scuk-zz.xml": 2
     },
     "40": {
       "scuk-archive.xml": 88
@@ -168,26 +168,23 @@
   },
   ".//policy-marker/@significance": {
     "3": {
-      "scuk-zz.xml": 1,
-      "scuk-archive.xml": 183
+      "scuk-archive.xml": 183,
+      "scuk-zz.xml": 1
     }
   },
   ".//policy-marker/@vocabulary": {
     "1": {
-      "scuk-zz.xml": 1,
-      "scuk-archive.xml": 183
+      "scuk-archive.xml": 183,
+      "scuk-zz.xml": 1
     }
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "2": {
-      "scuk-zz.xml": 1,
-      "scuk-archive.xml": 183
+      "scuk-archive.xml": 183,
+      "scuk-zz.xml": 1
     }
   },
   ".//recipient-country/@code": {
-    "GB": {
-      "scuk-zz.xml": 1
-    },
     "ZA": {
       "scuk-archive.xml": 2
     },
@@ -283,6 +280,9 @@
     },
     "ML": {
       "scuk-archive.xml": 1
+    },
+    "GB": {
+      "scuk-zz.xml": 1
     }
   },
   ".//recipient-region/@vocabulary": {
@@ -297,9 +297,9 @@
   },
   ".//reporting-org/@type": {
     "21": {
-      "scuk-zz.xml": 1,
       "scuk-scukppa.xml": 1,
-      "scuk-archive.xml": 183
+      "scuk-archive.xml": 183,
+      "scuk-zz.xml": 1
     }
   },
   ".//result/@type": {
@@ -322,19 +322,19 @@
     }
   },
   ".//sector/@vocabulary": {
-    "1": {
-      "scuk-zz.xml": 1
-    },
     "99": {
       "scuk-archive.xml": 204
+    },
+    "1": {
+      "scuk-zz.xml": 1
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "15160": {
-      "scuk-zz.xml": 1
-    },
     "43010": {
       "scuk-scukppa.xml": 1
+    },
+    "15160": {
+      "scuk-zz.xml": 1
     }
   },
   ".//transaction/provider-org/@type": {
@@ -343,19 +343,19 @@
     }
   },
   ".//transaction/transaction-type/@code": {
-    "3": {
-      "scuk-zz.xml": 10
-    },
     "1": {
-      "scuk-zz.xml": 14,
       "scuk-scukppa.xml": 22,
-      "scuk-archive.xml": 402
-    },
-    "2": {
-      "scuk-zz.xml": 1
+      "scuk-archive.xml": 402,
+      "scuk-zz.xml": 14
     },
     "4": {
       "scuk-archive.xml": 749
+    },
+    "3": {
+      "scuk-zz.xml": 10
+    },
+    "2": {
+      "scuk-zz.xml": 1
     }
   },
   ".//transaction/value/@currency": {

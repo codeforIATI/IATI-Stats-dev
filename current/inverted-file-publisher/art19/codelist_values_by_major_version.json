@@ -1,10 +1,10 @@
 {
   "2": {
     ".//@default-currency": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "GBP": 1
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "GBP": 1
       },
       "art19-gb.xml": {
@@ -15,11 +15,11 @@
       }
     },
     ".//activity-date/@type": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "2": 1,
         "3": 1
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "2": 1,
         "3": 1
       },
@@ -35,10 +35,10 @@
       }
     },
     ".//activity-status/@code": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "2": 1
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "2": 1
       },
       "art19-gb.xml": {
@@ -50,10 +50,10 @@
       }
     },
     ".//budget/@status": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "1": 5
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "1": 5
       },
       "art19-gb.xml": {
@@ -65,11 +65,11 @@
       }
     },
     ".//budget/@type": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "1": 3,
         "2": 2
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "1": 3,
         "2": 2
       },
@@ -82,10 +82,10 @@
       }
     },
     ".//budget/value/@currency": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "GBP": 2
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "GBP": 2
       },
       "art19-gb.xml": {
@@ -96,10 +96,10 @@
       }
     },
     ".//default-flow-type/@code": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "30": 1
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "30": 1
       },
       "art19-gb.xml": {
@@ -111,10 +111,10 @@
       }
     },
     ".//description/@type": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "2": 1
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "2": 1
       },
       "art19-gb.xml": {
@@ -128,36 +128,36 @@
       }
     },
     ".//document-link/@format": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "application/pdf": 1
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "application/pdf": 1
       }
     },
     ".//document-link/category/@code": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "B01": 1
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "B01": 1
       }
     },
     ".//document-link/language/@code": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "en": 1
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "en": 1
       }
     },
     ".//participating-org/@role": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "1": 1,
         "3": 1,
         "4": 5
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "1": 1,
         "3": 1,
         "4": 5
@@ -174,11 +174,11 @@
       }
     },
     ".//participating-org/@type": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "10": 1,
         "21": 6
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "10": 1,
         "21": 6
       },
@@ -192,10 +192,10 @@
       }
     },
     ".//planned-disbursement/value/@currency": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "GBP": 5
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "GBP": 5
       },
       "art19-gb.xml": {
@@ -206,14 +206,14 @@
       }
     },
     ".//recipient-country/@code": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "SN": 1,
         "KE": 1,
         "BD": 1,
         "BR": 1,
         "MM": 1
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "SN": 1,
         "KE": 1,
         "BD": 1,
@@ -237,10 +237,10 @@
       }
     },
     ".//reporting-org/@type": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "21": 1
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "21": 1
       },
       "art19-gb.xml": {
@@ -251,15 +251,15 @@
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "art19-sn.xml": {
-        "15163": 70,
-        "91010": 23,
-        "15162": 11
-      },
       "art19-activities.xml": {
         "15163": 70,
         "15162": 11,
         "91010": 23
+      },
+      "art19-sn.xml": {
+        "15163": 70,
+        "91010": 23,
+        "15162": 11
       },
       "art19-gb.xml": {
         "15162": 11,
@@ -271,10 +271,10 @@
       }
     },
     ".//sector/@vocabulary": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "1": 104
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "1": 104
       },
       "art19-gb.xml": {
@@ -285,34 +285,26 @@
       }
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "art19-sn.xml": {
-        "B01": 30,
-        "B03": 38
-      },
       "art19-activities.xml": {
         "B03": 38,
         "B01": 30
+      },
+      "art19-sn.xml": {
+        "B01": 30,
+        "B03": 38
       },
       "art19-gb.xml": {
         "B03": 10
       }
     },
-    ".//transaction/aid-type/@vocabulary": {
-      "art19-sn.xml": {
-        "1": 68
-      },
-      "art19-gb.xml": {
-        "1": 10
-      }
-    },
     ".//transaction/disbursement-channel/@code": {
-      "art19-sn.xml": {
-        "3": 3,
-        "2": 73
-      },
       "art19-activities.xml": {
         "2": 73,
         "3": 3
+      },
+      "art19-sn.xml": {
+        "3": 3,
+        "2": 73
       },
       "art19-gb.xml": {
         "2": 3
@@ -322,10 +314,10 @@
       }
     },
     ".//transaction/finance-type/@code": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "310": 69
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "310": 69
       },
       "art19-gb.xml": {
@@ -336,10 +328,10 @@
       }
     },
     ".//transaction/flow-type/@code": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "30": 70
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "30": 70
       },
       "art19-gb.xml": {
@@ -351,11 +343,11 @@
       }
     },
     ".//transaction/provider-org/@type": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "21": 3,
         "10": 2
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "21": 3,
         "10": 2
       },
@@ -369,11 +361,11 @@
       }
     },
     ".//transaction/receiver-org/@type": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "10": 2,
         "21": 1
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "10": 2,
         "21": 1
       },
@@ -385,15 +377,15 @@
       }
     },
     ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "art19-sn.xml": {
-        "15163": 70,
-        "91010": 23,
-        "15162": 11
-      },
       "art19-activities.xml": {
         "15163": 70,
         "15162": 11,
         "91010": 23
+      },
+      "art19-sn.xml": {
+        "15163": 70,
+        "91010": 23,
+        "15162": 11
       },
       "art19-gb.xml": {
         "15162": 11,
@@ -401,10 +393,10 @@
       }
     },
     ".//transaction/sector/@vocabulary": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "1": 104
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "1": 104
       },
       "art19-gb.xml": {
@@ -412,10 +404,10 @@
       }
     },
     ".//transaction/tied-status/@code": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "5": 22
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "5": 22
       },
       "art19-gb.xml": {
@@ -423,16 +415,16 @@
       }
     },
     ".//transaction/transaction-type/@code": {
-      "art19-sn.xml": {
-        "3": 31,
-        "2": 26,
-        "1": 28,
-        "4": 19
-      },
       "art19-activities.xml": {
         "2": 26,
         "1": 28,
         "3": 31,
+        "4": 19
+      },
+      "art19-sn.xml": {
+        "3": 31,
+        "2": 26,
+        "1": 28,
         "4": 19
       },
       "art19-gb.xml": {
@@ -447,10 +439,10 @@
       }
     },
     ".//transaction/value/@currency": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "GBP": 69
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "GBP": 69
       },
       "art19-gb.xml": {
@@ -461,7 +453,7 @@
       }
     },
     ".//@xml:lang": {
-      "art19-sn.xml": {
+      "art19-activities.xml": {
         "en": 121,
         "fr": 1,
         "sw": 1,
@@ -469,7 +461,7 @@
         "pt": 1,
         "my": 1
       },
-      "art19-activities.xml": {
+      "art19-sn.xml": {
         "en": 121,
         "fr": 1,
         "sw": 1,
@@ -486,6 +478,14 @@
       },
       "art19-ke.xml": {
         "en": 27
+      }
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "art19-sn.xml": {
+        "1": 68
+      },
+      "art19-gb.xml": {
+        "1": 10
       }
     },
     ".//activity-scope/@code": {

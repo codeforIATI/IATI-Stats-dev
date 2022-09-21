@@ -1,34 +1,34 @@
 {
   "1": {
     ".//@default-currency": {
-      "france-local.xml": {
-        "EUR": 48
-      },
-      "france-fsp.xml": {
-        "EUR": 334
-      },
       "france-food.xml": {
         "EUR": 89
       },
+      "france-local.xml": {
+        "EUR": 48
+      },
       "france-codev.xml": {
         "EUR": 55
+      },
+      "france-fsp.xml": {
+        "EUR": 334
       },
       "france-humanitaire.xml": {
         "EUR": 108
       }
     },
     ".//collaboration-type/@code": {
-      "france-local.xml": {
-        "1": 48
-      },
-      "france-fsp.xml": {
-        "1": 334
-      },
       "france-food.xml": {
         "1": 89
       },
+      "france-local.xml": {
+        "1": 48
+      },
       "france-codev.xml": {
         "1": 55
+      },
+      "france-fsp.xml": {
+        "1": 334
       },
       "france-humanitaire.xml": {
         "1": 106,
@@ -36,17 +36,17 @@
       }
     },
     ".//default-aid-type/@code": {
-      "france-local.xml": {
-        "C01": 48
-      },
-      "france-fsp.xml": {
-        "C01": 334
-      },
       "france-food.xml": {
         "C01": 89
       },
+      "france-local.xml": {
+        "C01": 48
+      },
       "france-codev.xml": {
         "C01": 55
+      },
+      "france-fsp.xml": {
+        "C01": 334
       },
       "france-humanitaire.xml": {
         "C01": 106,
@@ -54,17 +54,17 @@
       }
     },
     ".//default-finance-type/@code": {
-      "france-local.xml": {
-        "110": 48
-      },
-      "france-fsp.xml": {
-        "110": 334
-      },
       "france-food.xml": {
         "110": 89
       },
+      "france-local.xml": {
+        "110": 48
+      },
       "france-codev.xml": {
         "110": 55
+      },
+      "france-fsp.xml": {
+        "110": 334
       },
       "france-humanitaire.xml": {
         "110": 106,
@@ -72,17 +72,17 @@
       }
     },
     ".//default-flow-type/@code": {
-      "france-local.xml": {
-        "10": 48
-      },
-      "france-fsp.xml": {
-        "10": 334
-      },
       "france-food.xml": {
         "10": 89
       },
+      "france-local.xml": {
+        "10": 48
+      },
       "france-codev.xml": {
         "10": 55
+      },
+      "france-fsp.xml": {
+        "10": 334
       },
       "france-humanitaire.xml": {
         "10": 106,
@@ -90,42 +90,42 @@
       }
     },
     ".//default-tied-status/@code": {
-      "france-local.xml": {
-        "5": 48
-      },
-      "france-fsp.xml": {
-        "5": 334
-      },
       "france-food.xml": {
         "5": 89
       },
+      "france-local.xml": {
+        "5": 48
+      },
       "france-codev.xml": {
         "5": 55
+      },
+      "france-fsp.xml": {
+        "5": 334
       },
       "france-humanitaire.xml": {
         "5": 108
       }
     },
     ".//participating-org/@role": {
-      "france-local.xml": {
-        "Funding": 48,
-        "Extending": 48,
-        "Implementing": 48
-      },
-      "france-fsp.xml": {
-        "Funding": 334,
-        "Extending": 334,
-        "Implementing": 334
-      },
       "france-food.xml": {
         "Funding": 89,
         "Extending": 89,
         "Implementing": 89
       },
+      "france-local.xml": {
+        "Funding": 48,
+        "Extending": 48,
+        "Implementing": 48
+      },
       "france-codev.xml": {
         "Funding": 55,
         "Extending": 55,
         "Implementing": 55
+      },
+      "france-fsp.xml": {
+        "Funding": 334,
+        "Extending": 334,
+        "Implementing": 334
       },
       "france-humanitaire.xml": {
         "Funding": 108,
@@ -134,6 +134,34 @@
       }
     },
     ".//recipient-country/@code": {
+      "france-food.xml": {
+        "AF": 2,
+        "NE": 7,
+        "BF": 4,
+        "LB": 6,
+        "TD": 7,
+        "KP": 5,
+        "SO": 2,
+        "MM": 3,
+        "CF": 10,
+        "YE": 1,
+        "HT": 1,
+        "SS": 4,
+        "SY": 4,
+        "JO": 6,
+        "CM": 3,
+        "ET": 2,
+        "IQ": 2,
+        "KE": 1,
+        "MG": 2,
+        "MR": 2,
+        "UG": 1,
+        "TR": 3,
+        "GN": 1,
+        "ML": 3,
+        "SD": 2,
+        "PS": 5
+      },
       "france-local.xml": {
         "ZA": 1,
         "DZ": 1,
@@ -165,6 +193,22 @@
         "TG": 1,
         "TN": 1,
         "PS": 1
+      },
+      "france-codev.xml": {
+        "CM": 14,
+        "SN": 7,
+        "MU": 1,
+        "TN": 5,
+        "ML": 2,
+        "KM": 4,
+        "GH": 1,
+        "CG": 4,
+        "BJ": 5,
+        "RW": 1,
+        "BF": 3,
+        "CV": 1,
+        "MA": 3,
+        "GN": 2
       },
       "france-fsp.xml": {
         "NE": 19,
@@ -216,50 +260,6 @@
         "LB": 3,
         "SR": 1
       },
-      "france-food.xml": {
-        "AF": 2,
-        "NE": 7,
-        "BF": 4,
-        "LB": 6,
-        "TD": 7,
-        "KP": 5,
-        "SO": 2,
-        "MM": 3,
-        "CF": 10,
-        "YE": 1,
-        "HT": 1,
-        "SS": 4,
-        "SY": 4,
-        "JO": 6,
-        "CM": 3,
-        "ET": 2,
-        "IQ": 2,
-        "KE": 1,
-        "MG": 2,
-        "MR": 2,
-        "UG": 1,
-        "TR": 3,
-        "GN": 1,
-        "ML": 3,
-        "SD": 2,
-        "PS": 5
-      },
-      "france-codev.xml": {
-        "CM": 14,
-        "SN": 7,
-        "MU": 1,
-        "TN": 5,
-        "ML": 2,
-        "KM": 4,
-        "GH": 1,
-        "CG": 4,
-        "BJ": 5,
-        "RW": 1,
-        "BF": 3,
-        "CV": 1,
-        "MA": 3,
-        "GN": 2
-      },
       "france-humanitaire.xml": {
         "CF": 7,
         "PH": 4,
@@ -288,25 +288,10 @@
         "EG": 2
       }
     },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "france-local.xml": {
-        "998": 18
-      },
-      "france-fsp.xml": {
-        "298": 13,
-        "998": 10,
-        "289": 53,
-        "189": 6,
-        "679": 1
-      },
-      "france-codev.xml": {
-        "998": 2
-      },
-      "france-humanitaire.xml": {
-        "998": 6
-      }
-    },
     ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+      "france-food.xml": {
+        "52010": 89
+      },
       "france-local.xml": {
         "43010": 34,
         "15112": 7,
@@ -316,6 +301,27 @@
         "15150": 1,
         "14031": 1,
         "52010": 1
+      },
+      "france-codev.xml": {
+        "12230": 4,
+        "25010": 3,
+        "99820": 1,
+        "11330": 5,
+        "24030": 1,
+        "43010": 15,
+        "11420": 1,
+        "11230": 8,
+        "31163": 1,
+        "13030": 1,
+        "31161": 1,
+        "14030": 6,
+        "31194": 1,
+        "12191": 1,
+        "13010": 1,
+        "31162": 1,
+        "14032": 1,
+        "12262": 2,
+        "12110": 1
       },
       "france-fsp.xml": {
         "16020": 8,
@@ -358,30 +364,6 @@
         "13020": 43,
         "12250": 2
       },
-      "france-food.xml": {
-        "52010": 89
-      },
-      "france-codev.xml": {
-        "12230": 4,
-        "25010": 3,
-        "99820": 1,
-        "11330": 5,
-        "24030": 1,
-        "43010": 15,
-        "11420": 1,
-        "11230": 8,
-        "31163": 1,
-        "13030": 1,
-        "31161": 1,
-        "14030": 6,
-        "31194": 1,
-        "12191": 1,
-        "13010": 1,
-        "31162": 1,
-        "14032": 1,
-        "12262": 2,
-        "12110": 1
-      },
       "france-humanitaire.xml": {
         "73010": 12,
         "72040": 8,
@@ -392,21 +374,21 @@
       }
     },
     ".//transaction/transaction-type/@code": {
-      "france-local.xml": {
-        "D": 48,
-        "C": 48
-      },
-      "france-fsp.xml": {
-        "D": 309,
-        "C": 71
-      },
       "france-food.xml": {
         "D": 89,
         "C": 89
       },
+      "france-local.xml": {
+        "D": 48,
+        "C": 48
+      },
       "france-codev.xml": {
         "D": 55,
         "C": 8
+      },
+      "france-fsp.xml": {
+        "D": 309,
+        "C": 71
       },
       "france-humanitaire.xml": {
         "D": 107,
@@ -414,72 +396,84 @@
       }
     },
     ".//transaction/value/@currency": {
-      "france-local.xml": {
-        "EUR": 96
-      },
-      "france-fsp.xml": {
-        "EUR": 380
-      },
       "france-food.xml": {
         "EUR": 178
+      },
+      "france-local.xml": {
+        "EUR": 96
       },
       "france-codev.xml": {
         "EUR": 63
       },
+      "france-fsp.xml": {
+        "EUR": 380
+      },
       "france-humanitaire.xml": {
         "EUR": 213
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "france-local.xml": {
+        "998": 18
+      },
+      "france-codev.xml": {
+        "998": 2
+      },
+      "france-fsp.xml": {
+        "298": 13,
+        "998": 10,
+        "289": 53,
+        "189": 6,
+        "679": 1
+      },
+      "france-humanitaire.xml": {
+        "998": 6
       }
     }
   },
   "2": {
     ".//@default-currency": {
-      "france-et.xml": {
-        "EUR": 20
+      "france-mm.xml": {
+        "EUR": 27
+      },
+      "france-gt.xml": {
+        "EUR": 11
+      },
+      "france-sd.xml": {
+        "EUR": 23
+      },
+      "france-br.xml": {
+        "EUR": 118
+      },
+      "france-bdi.xml": {
+        "EUR": 9
+      },
+      "france-eg.xml": {
+        "EUR": 13
       },
       "france-bd.xml": {
         "EUR": 3
       },
-      "france-ga.xml": {
+      "france-ug.xml": {
         "EUR": 14
-      },
-      "france-ng.xml": {
-        "EUR": 34
-      },
-      "france-bo.xml": {
-        "EUR": 5
-      },
-      "france-jo.xml": {
-        "EUR": 14
-      },
-      "france-sn.xml": {
-        "EUR": 20
-      },
-      "france-la.xml": {
-        "EUR": 7
-      },
-      "france-mdg.xml": {
-        "EUR": 31
-      },
-      "france-td.xml": {
-        "EUR": 88
-      },
-      "france-cm.xml": {
-        "EUR": 12
-      },
-      "france-rca.xml": {
-        "EUR": 149
       },
       "france-af.xml": {
         "EUR": 10
       },
-      "france-mt.xml": {
-        "EUR": 84
+      "france-rca.xml": {
+        "EUR": 149
       },
-      "france-bf.xml": {
-        "EUR": 21
+      "france-do.xml": {
+        "EUR": 4
       },
-      "france-tk.xml": {
-        "EUR": 21
+      "france-tgo.xml": {
+        "EUR": 55
+      },
+      "france-ne.xml": {
+        "EUR": 19
+      },
+      "france-cd.xml": {
+        "EUR": 47
       },
       "france-gh.xml": {
         "EUR": 71
@@ -487,160 +481,160 @@
       "france-co.xml": {
         "EUR": 49
       },
+      "france-ht.xml": {
+        "EUR": 33
+      },
       "france-ke.xml": {
         "EUR": 32
+      },
+      "france-bo.xml": {
+        "EUR": 5
       },
       "france-ct.xml": {
         "EUR": 15
       },
-      "france-ht.xml": {
-        "EUR": 33
+      "france-mdg.xml": {
+        "EUR": 31
       },
-      "france-kh.xml": {
-        "EUR": 26
-      },
-      "france-za.xml": {
-        "EUR": 70
-      },
-      "france-do.xml": {
-        "EUR": 4
-      },
-      "france-ec.xml": {
-        "EUR": 20
-      },
-      "france-eg.xml": {
-        "EUR": 13
-      },
-      "france-bn.xml": {
-        "EUR": 10
-      },
-      "france-cd.xml": {
-        "EUR": 47
-      },
-      "france-ug.xml": {
-        "EUR": 14
+      "france-la.xml": {
+        "EUR": 7
       },
       "france-cg.xml": {
         "EUR": 66
       },
-      "france-mm.xml": {
-        "EUR": 27
+      "france-sn.xml": {
+        "EUR": 20
       },
-      "france-tn.xml": {
-        "EUR": 33
+      "france-td.xml": {
+        "EUR": 88
       },
-      "france-sd.xml": {
-        "EUR": 23
+      "france-bn.xml": {
+        "EUR": 10
       },
-      "france-ne.xml": {
-        "EUR": 19
-      },
-      "france-cl.xml": {
-        "EUR": 40
-      },
-      "france-ml.xml": {
-        "EUR": 162
+      "france-ng.xml": {
+        "EUR": 34
       },
       "france-dji.xml": {
         "EUR": 9
       },
-      "france-tgo.xml": {
-        "EUR": 55
+      "france-et.xml": {
+        "EUR": 20
       },
-      "france-gt.xml": {
-        "EUR": 11
+      "france-za.xml": {
+        "EUR": 70
       },
-      "france-ma.xml": {
-        "EUR": 90
+      "france-pk.xml": {
+        "EUR": 4
       },
-      "france-bdi.xml": {
-        "EUR": 9
+      "france-cl.xml": {
+        "EUR": 40
       },
-      "france-ph.xml": {
-        "EUR": 21
-      },
-      "france-mz.xml": {
-        "EUR": 66
+      "france-ga.xml": {
+        "EUR": 14
       },
       "france-tz.xml": {
         "EUR": 3
       },
+      "france-ec.xml": {
+        "EUR": 20
+      },
+      "france-jo.xml": {
+        "EUR": 14
+      },
+      "france-tn.xml": {
+        "EUR": 33
+      },
+      "france-mz.xml": {
+        "EUR": 66
+      },
+      "france-ma.xml": {
+        "EUR": 90
+      },
       "france-gn.xml": {
         "EUR": 48
       },
-      "france-br.xml": {
-        "EUR": 118
+      "france-tk.xml": {
+        "EUR": 21
       },
-      "france-pk.xml": {
-        "EUR": 4
+      "france-ml.xml": {
+        "EUR": 162
+      },
+      "france-kh.xml": {
+        "EUR": 26
+      },
+      "france-mt.xml": {
+        "EUR": 84
+      },
+      "france-ph.xml": {
+        "EUR": 21
+      },
+      "france-cm.xml": {
+        "EUR": 12
+      },
+      "france-bf.xml": {
+        "EUR": 21
       }
     },
     ".//activity-date/@type": {
-      "france-et.xml": {
-        "1": 20,
-        "3": 20
+      "france-mm.xml": {
+        "1": 27,
+        "3": 27
+      },
+      "france-gt.xml": {
+        "1": 11,
+        "3": 11
+      },
+      "france-sd.xml": {
+        "1": 23,
+        "3": 23
+      },
+      "france-br.xml": {
+        "1": 118,
+        "3": 118
+      },
+      "france-bdi.xml": {
+        "1": 9,
+        "3": 9
+      },
+      "france-eg.xml": {
+        "1": 13,
+        "3": 12,
+        "4": 1
       },
       "france-bd.xml": {
         "1": 3,
         "3": 3
       },
-      "france-ga.xml": {
+      "france-ug.xml": {
         "1": 14,
         "3": 14
-      },
-      "france-ng.xml": {
-        "1": 34,
-        "3": 34
-      },
-      "france-bo.xml": {
-        "1": 5,
-        "3": 5
-      },
-      "france-jo.xml": {
-        "1": 14,
-        "3": 14
-      },
-      "france-sn.xml": {
-        "1": 20,
-        "3": 20
-      },
-      "france-la.xml": {
-        "1": 7,
-        "3": 7
-      },
-      "france-mdg.xml": {
-        "1": 31,
-        "3": 30,
-        "4": 1
-      },
-      "france-td.xml": {
-        "1": 88,
-        "3": 88
-      },
-      "france-cm.xml": {
-        "1": 12,
-        "3": 12
-      },
-      "france-rca.xml": {
-        "1": 149,
-        "3": 149
       },
       "france-af.xml": {
         "1": 10,
         "3": 10
       },
-      "france-mt.xml": {
-        "1": 84,
-        "3": 84
+      "france-rca.xml": {
+        "1": 149,
+        "3": 149
       },
-      "france-bf.xml": {
-        "1": 21,
-        "3": 20,
+      "france-do.xml": {
+        "1": 4,
+        "3": 4
+      },
+      "france-tgo.xml": {
+        "1": 55,
+        "3": 54,
         "4": 1
       },
-      "france-tk.xml": {
-        "1": 21,
-        "3": 21
+      "france-ne.xml": {
+        "1": 19,
+        "3": 18,
+        "4": 1
+      },
+      "france-cd.xml": {
+        "1": 47,
+        "3": 45,
+        "4": 2
       },
       "france-gh.xml": {
         "1": 71,
@@ -650,181 +644,178 @@
         "1": 49,
         "3": 48
       },
+      "france-ht.xml": {
+        "1": 33,
+        "3": 33
+      },
       "france-ke.xml": {
         "1": 32,
         "3": 32
+      },
+      "france-bo.xml": {
+        "1": 5,
+        "3": 5
       },
       "france-ct.xml": {
         "1": 15,
         "3": 15
       },
-      "france-ht.xml": {
-        "1": 33,
-        "3": 33
+      "france-mdg.xml": {
+        "1": 31,
+        "3": 30,
+        "4": 1
       },
-      "france-kh.xml": {
-        "1": 26,
-        "3": 26
+      "france-la.xml": {
+        "1": 7,
+        "3": 7
       },
-      "france-za.xml": {
-        "1": 70,
-        "3": 67,
-        "4": 3
+      "france-cg.xml": {
+        "1": 66,
+        "3": 66
       },
-      "france-do.xml": {
-        "1": 4,
-        "3": 4
-      },
-      "france-ec.xml": {
+      "france-sn.xml": {
         "1": 20,
         "3": 20
       },
-      "france-eg.xml": {
-        "1": 13,
-        "3": 12,
-        "4": 1
+      "france-td.xml": {
+        "1": 88,
+        "3": 88
       },
       "france-bn.xml": {
         "1": 10,
         "3": 7,
         "4": 3
       },
-      "france-cd.xml": {
-        "1": 47,
-        "3": 45,
-        "4": 2
-      },
-      "france-ug.xml": {
-        "1": 14,
-        "3": 14
-      },
-      "france-cg.xml": {
-        "1": 66,
-        "3": 66
-      },
-      "france-mm.xml": {
-        "1": 27,
-        "3": 27
-      },
-      "france-tn.xml": {
-        "1": 33,
-        "3": 32
-      },
-      "france-sd.xml": {
-        "1": 23,
-        "3": 23
-      },
-      "france-ne.xml": {
-        "1": 19,
-        "3": 18,
-        "4": 1
-      },
-      "france-cl.xml": {
-        "1": 40,
-        "3": 40
-      },
-      "france-ml.xml": {
-        "1": 162,
-        "3": 160
+      "france-ng.xml": {
+        "1": 34,
+        "3": 34
       },
       "france-dji.xml": {
         "1": 9,
         "3": 8,
         "4": 1
       },
-      "france-tgo.xml": {
-        "1": 55,
-        "3": 54,
-        "4": 1
+      "france-et.xml": {
+        "1": 20,
+        "3": 20
       },
-      "france-gt.xml": {
-        "1": 11,
-        "3": 11
+      "france-za.xml": {
+        "1": 70,
+        "3": 67,
+        "4": 3
       },
-      "france-ma.xml": {
-        "1": 90,
-        "3": 90
+      "france-pk.xml": {
+        "1": 4,
+        "3": 4
       },
-      "france-bdi.xml": {
-        "1": 9,
-        "3": 9
+      "france-cl.xml": {
+        "1": 40,
+        "3": 40
       },
-      "france-ph.xml": {
-        "1": 21,
-        "3": 21
+      "france-ga.xml": {
+        "1": 14,
+        "3": 14
+      },
+      "france-tz.xml": {
+        "1": 3,
+        "3": 3
+      },
+      "france-ec.xml": {
+        "1": 20,
+        "3": 20
+      },
+      "france-jo.xml": {
+        "1": 14,
+        "3": 14
+      },
+      "france-tn.xml": {
+        "1": 33,
+        "3": 32
       },
       "france-mz.xml": {
         "1": 66,
         "3": 64,
         "4": 2
       },
-      "france-tz.xml": {
-        "1": 3,
-        "3": 3
+      "france-ma.xml": {
+        "1": 90,
+        "3": 90
       },
       "france-gn.xml": {
         "1": 48,
         "3": 48
       },
-      "france-br.xml": {
-        "1": 118,
-        "3": 118
+      "france-tk.xml": {
+        "1": 21,
+        "3": 21
       },
-      "france-pk.xml": {
-        "1": 4,
-        "3": 4
+      "france-ml.xml": {
+        "1": 162,
+        "3": 160
+      },
+      "france-kh.xml": {
+        "1": 26,
+        "3": 26
+      },
+      "france-mt.xml": {
+        "1": 84,
+        "3": 84
+      },
+      "france-ph.xml": {
+        "1": 21,
+        "3": 21
+      },
+      "france-cm.xml": {
+        "1": 12,
+        "3": 12
+      },
+      "france-bf.xml": {
+        "1": 21,
+        "3": 20,
+        "4": 1
       }
     },
     ".//activity-status/@code": {
-      "france-et.xml": {
-        "2": 16,
-        "3": 4
+      "france-mm.xml": {
+        "3": 20,
+        "4": 2,
+        "2": 5
+      },
+      "france-gt.xml": {
+        "3": 5,
+        "2": 6
+      },
+      "france-sd.xml": {
+        "3": 8,
+        "2": 14,
+        "1": 1
+      },
+      "france-br.xml": {
+        "3": 86,
+        "2": 23,
+        "1": 9
+      },
+      "france-bdi.xml": {
+        "3": 3,
+        "2": 5,
+        "1": 1
+      },
+      "france-eg.xml": {
+        "2": 6,
+        "3": 2,
+        "4": 5
       },
       "france-bd.xml": {
         "2": 1,
         "3": 2
       },
-      "france-ga.xml": {
-        "3": 2,
-        "2": 11,
+      "france-ug.xml": {
+        "3": 11,
+        "2": 2,
         "1": 1
       },
-      "france-ng.xml": {
-        "3": 24,
+      "france-af.xml": {
         "2": 10
-      },
-      "france-bo.xml": {
-        "2": 3,
-        "3": 1,
-        "4": 1
-      },
-      "france-jo.xml": {
-        "2": 8,
-        "3": 6
-      },
-      "france-sn.xml": {
-        "3": 5,
-        "2": 15
-      },
-      "france-la.xml": {
-        "2": 6,
-        "3": 1
-      },
-      "france-mdg.xml": {
-        "3": 19,
-        "2": 12
-      },
-      "france-td.xml": {
-        "3": 47,
-        "2": 33,
-        "4": 5,
-        "6": 1,
-        "1": 2
-      },
-      "france-cm.xml": {
-        "2": 9,
-        "1": 1,
-        "3": 2
       },
       "france-rca.xml": {
         "3": 57,
@@ -833,25 +824,22 @@
         "5": 1,
         "4": 1
       },
-      "france-af.xml": {
-        "2": 10
+      "france-do.xml": {
+        "2": 4
       },
-      "france-mt.xml": {
-        "3": 74,
-        "4": 1,
-        "2": 7,
-        "1": 2
-      },
-      "france-bf.xml": {
-        "3": 9,
-        "2": 11,
-        "1": 1
-      },
-      "france-tk.xml": {
-        "3": 12,
-        "2": 4,
+      "france-tgo.xml": {
+        "3": 38,
         "4": 4,
+        "2": 12,
         "1": 1
+      },
+      "france-ne.xml": {
+        "3": 14,
+        "2": 5
+      },
+      "france-cd.xml": {
+        "3": 26,
+        "2": 21
       },
       "france-gh.xml": {
         "3": 53,
@@ -864,10 +852,19 @@
         "2": 13,
         "1": 1
       },
+      "france-ht.xml": {
+        "2": 12,
+        "3": 21
+      },
       "france-ke.xml": {
         "3": 21,
         "5": 3,
         "2": 8
+      },
+      "france-bo.xml": {
+        "2": 3,
+        "3": 1,
+        "4": 1
       },
       "france-ct.xml": {
         "4": 5,
@@ -875,81 +872,37 @@
         "3": 1,
         "1": 2
       },
-      "france-ht.xml": {
-        "2": 12,
-        "3": 21
+      "france-mdg.xml": {
+        "3": 19,
+        "2": 12
       },
-      "france-kh.xml": {
-        "3": 12,
-        "2": 13,
-        "1": 1
-      },
-      "france-za.xml": {
-        "3": 48,
-        "4": 3,
-        "2": 17,
-        "1": 2
-      },
-      "france-do.xml": {
-        "2": 4
-      },
-      "france-ec.xml": {
-        "3": 9,
-        "2": 8,
-        "1": 3
-      },
-      "france-eg.xml": {
+      "france-la.xml": {
         "2": 6,
-        "3": 2,
-        "4": 5
-      },
-      "france-bn.xml": {
-        "3": 7,
-        "2": 3
-      },
-      "france-cd.xml": {
-        "3": 26,
-        "2": 21
-      },
-      "france-ug.xml": {
-        "3": 11,
-        "2": 2,
-        "1": 1
+        "3": 1
       },
       "france-cg.xml": {
         "3": 44,
         "5": 1,
         "2": 21
       },
-      "france-mm.xml": {
-        "3": 20,
-        "4": 2,
-        "2": 5
+      "france-sn.xml": {
+        "3": 5,
+        "2": 15
       },
-      "france-tn.xml": {
-        "3": 18,
-        "2": 12,
-        "1": 3
+      "france-td.xml": {
+        "3": 47,
+        "2": 33,
+        "4": 5,
+        "6": 1,
+        "1": 2
       },
-      "france-sd.xml": {
-        "3": 8,
-        "2": 14,
-        "1": 1
+      "france-bn.xml": {
+        "3": 7,
+        "2": 3
       },
-      "france-ne.xml": {
-        "3": 14,
-        "2": 5
-      },
-      "france-cl.xml": {
-        "3": 33,
-        "2": 6,
-        "6": 1
-      },
-      "france-ml.xml": {
-        "3": 122,
-        "2": 29,
-        "4": 1,
-        "1": 10
+      "france-ng.xml": {
+        "3": 24,
+        "2": 10
       },
       "france-dji.xml": {
         "3": 5,
@@ -957,101 +910,143 @@
         "2": 2,
         "1": 1
       },
-      "france-tgo.xml": {
-        "3": 38,
-        "4": 4,
+      "france-et.xml": {
+        "2": 16,
+        "3": 4
+      },
+      "france-za.xml": {
+        "3": 48,
+        "4": 3,
+        "2": 17,
+        "1": 2
+      },
+      "france-pk.xml": {
+        "2": 1,
+        "3": 3
+      },
+      "france-cl.xml": {
+        "3": 33,
+        "2": 6,
+        "6": 1
+      },
+      "france-ga.xml": {
+        "3": 2,
+        "2": 11,
+        "1": 1
+      },
+      "france-tz.xml": {
+        "2": 3
+      },
+      "france-ec.xml": {
+        "3": 9,
+        "2": 8,
+        "1": 3
+      },
+      "france-jo.xml": {
+        "2": 8,
+        "3": 6
+      },
+      "france-tn.xml": {
+        "3": 18,
         "2": 12,
-        "1": 1
-      },
-      "france-gt.xml": {
-        "3": 5,
-        "2": 6
-      },
-      "france-ma.xml": {
-        "3": 30,
-        "2": 56,
-        "1": 4
-      },
-      "france-bdi.xml": {
-        "3": 3,
-        "2": 5,
-        "1": 1
-      },
-      "france-ph.xml": {
-        "3": 15,
-        "2": 6
+        "1": 3
       },
       "france-mz.xml": {
         "2": 36,
         "3": 27,
         "1": 3
       },
-      "france-tz.xml": {
-        "2": 3
+      "france-ma.xml": {
+        "3": 30,
+        "2": 56,
+        "1": 4
       },
       "france-gn.xml": {
         "3": 37,
         "2": 11
       },
-      "france-br.xml": {
-        "3": 86,
-        "2": 23,
-        "1": 9
+      "france-tk.xml": {
+        "3": 12,
+        "2": 4,
+        "4": 4,
+        "1": 1
       },
-      "france-pk.xml": {
-        "2": 1,
-        "3": 3
+      "france-ml.xml": {
+        "3": 122,
+        "2": 29,
+        "4": 1,
+        "1": 10
+      },
+      "france-kh.xml": {
+        "3": 12,
+        "2": 13,
+        "1": 1
+      },
+      "france-mt.xml": {
+        "3": 74,
+        "4": 1,
+        "2": 7,
+        "1": 2
+      },
+      "france-ph.xml": {
+        "3": 15,
+        "2": 6
+      },
+      "france-cm.xml": {
+        "2": 9,
+        "1": 1,
+        "3": 2
+      },
+      "france-bf.xml": {
+        "3": 9,
+        "2": 11,
+        "1": 1
       }
     },
     ".//collaboration-type/@code": {
-      "france-et.xml": {
-        "1": 20
+      "france-mm.xml": {
+        "1": 27
+      },
+      "france-gt.xml": {
+        "1": 11
+      },
+      "france-sd.xml": {
+        "1": 23
+      },
+      "france-br.xml": {
+        "1": 118
+      },
+      "france-bdi.xml": {
+        "1": 9
+      },
+      "france-eg.xml": {
+        "1": 13
       },
       "france-bd.xml": {
         "1": 3
       },
-      "france-ga.xml": {
+      "france-ug.xml": {
         "1": 14
-      },
-      "france-ng.xml": {
-        "1": 34
-      },
-      "france-bo.xml": {
-        "1": 5
-      },
-      "france-jo.xml": {
-        "1": 14
-      },
-      "france-sn.xml": {
-        "1": 20
-      },
-      "france-la.xml": {
-        "1": 7
-      },
-      "france-mdg.xml": {
-        "1": 28,
-        "2": 3
-      },
-      "france-td.xml": {
-        "1": 88
-      },
-      "france-cm.xml": {
-        "1": 12
-      },
-      "france-rca.xml": {
-        "1": 149
       },
       "france-af.xml": {
         "1": 10
       },
-      "france-mt.xml": {
-        "1": 84
+      "france-rca.xml": {
+        "1": 149
       },
-      "france-bf.xml": {
-        "1": 21
+      "france-do.xml": {
+        "1": 4
       },
-      "france-tk.xml": {
-        "1": 21
+      "france-tgo.xml": {
+        "1": 55
+      },
+      "france-ne.xml": {
+        "1": 19
+      },
+      "france-cd.xml": {
+        "2": 4,
+        "3": 1,
+        "1": 42
       },
       "france-gh.xml": {
         "1": 69,
@@ -1060,151 +1055,149 @@
       "france-co.xml": {
         "1": 49
       },
+      "france-ht.xml": {
+        "1": 33
+      },
       "france-ke.xml": {
         "1": 32
+      },
+      "france-bo.xml": {
+        "1": 5
       },
       "france-ct.xml": {
         "1": 15
       },
-      "france-ht.xml": {
-        "1": 33
+      "france-mdg.xml": {
+        "1": 28,
+        "2": 3
       },
-      "france-kh.xml": {
-        "1": 26
+      "france-la.xml": {
+        "1": 7
+      },
+      "france-cg.xml": {
+        "1": 66
+      },
+      "france-sn.xml": {
+        "1": 20
+      },
+      "france-td.xml": {
+        "1": 88
+      },
+      "france-bn.xml": {
+        "1": 10
+      },
+      "france-ng.xml": {
+        "1": 34
+      },
+      "france-dji.xml": {
+        "1": 9
+      },
+      "france-et.xml": {
+        "1": 20
       },
       "france-za.xml": {
         "1": 50,
         "3": 8,
         "7": 12
       },
-      "france-do.xml": {
+      "france-pk.xml": {
         "1": 4
+      },
+      "france-cl.xml": {
+        "1": 40
+      },
+      "france-ga.xml": {
+        "1": 14
+      },
+      "france-tz.xml": {
+        "1": 3
       },
       "france-ec.xml": {
         "1": 20
       },
-      "france-eg.xml": {
-        "1": 13
-      },
-      "france-bn.xml": {
-        "1": 10
-      },
-      "france-cd.xml": {
-        "2": 4,
-        "3": 1,
-        "1": 42
-      },
-      "france-ug.xml": {
+      "france-jo.xml": {
         "1": 14
-      },
-      "france-cg.xml": {
-        "1": 66
-      },
-      "france-mm.xml": {
-        "1": 27
       },
       "france-tn.xml": {
         "1": 33
       },
-      "france-sd.xml": {
-        "1": 23
+      "france-mz.xml": {
+        "1": 66
       },
-      "france-ne.xml": {
-        "1": 19
+      "france-ma.xml": {
+        "1": 90
       },
-      "france-cl.xml": {
-        "1": 40
+      "france-gn.xml": {
+        "1": 48
+      },
+      "france-tk.xml": {
+        "1": 21
       },
       "france-ml.xml": {
         "1": 161,
         "2": 1
       },
-      "france-dji.xml": {
-        "1": 9
+      "france-kh.xml": {
+        "1": 26
       },
-      "france-tgo.xml": {
-        "1": 55
-      },
-      "france-gt.xml": {
-        "1": 11
-      },
-      "france-ma.xml": {
-        "1": 90
-      },
-      "france-bdi.xml": {
-        "1": 9
+      "france-mt.xml": {
+        "1": 84
       },
       "france-ph.xml": {
         "1": 21
       },
-      "france-mz.xml": {
-        "1": 66
+      "france-cm.xml": {
+        "1": 12
       },
-      "france-tz.xml": {
-        "1": 3
-      },
-      "france-gn.xml": {
-        "1": 48
-      },
-      "france-br.xml": {
-        "1": 118
-      },
-      "france-pk.xml": {
-        "1": 4
+      "france-bf.xml": {
+        "1": 21
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "france-et.xml": {
-        "C01": 20
+      "france-mm.xml": {
+        "C01": 27
+      },
+      "france-gt.xml": {
+        "C01": 11
+      },
+      "france-sd.xml": {
+        "C01": 23
+      },
+      "france-br.xml": {
+        "C01": 105,
+        "D02": 11,
+        "E01": 2
+      },
+      "france-bdi.xml": {
+        "C01": 8,
+        "B01": 1
+      },
+      "france-eg.xml": {
+        "C01": 13
       },
       "france-bd.xml": {
         "C01": 3
       },
-      "france-ga.xml": {
+      "france-ug.xml": {
         "C01": 14
-      },
-      "france-ng.xml": {
-        "C01": 34
-      },
-      "france-bo.xml": {
-        "C01": 5
-      },
-      "france-jo.xml": {
-        "C01": 14
-      },
-      "france-sn.xml": {
-        "C01": 20
-      },
-      "france-la.xml": {
-        "C01": 7
-      },
-      "france-mdg.xml": {
-        "C01": 28,
-        "D01": 1,
-        "B03": 1,
-        "B01": 1
-      },
-      "france-td.xml": {
-        "C01": 88
-      },
-      "france-cm.xml": {
-        "C01": 12
-      },
-      "france-rca.xml": {
-        "C01": 149
       },
       "france-af.xml": {
         "C01": 10
       },
-      "france-mt.xml": {
-        "B01": 1,
-        "C01": 83
+      "france-rca.xml": {
+        "C01": 149
       },
-      "france-bf.xml": {
-        "C01": 21
+      "france-do.xml": {
+        "C01": 4
       },
-      "france-tk.xml": {
-        "C01": 21
+      "france-tgo.xml": {
+        "C01": 55
+      },
+      "france-ne.xml": {
+        "C01": 19
+      },
+      "france-cd.xml": {
+        "C01": 47
       },
       "france-gh.xml": {
         "C01": 71
@@ -1212,150 +1205,151 @@
       "france-co.xml": {
         "C01": 49
       },
+      "france-ht.xml": {
+        "C01": 33
+      },
       "france-ke.xml": {
         "C01": 32
+      },
+      "france-bo.xml": {
+        "C01": 5
       },
       "france-ct.xml": {
         "C01": 15
       },
-      "france-ht.xml": {
-        "C01": 33
+      "france-mdg.xml": {
+        "C01": 28,
+        "D01": 1,
+        "B03": 1,
+        "B01": 1
       },
-      "france-kh.xml": {
-        "C01": 26
+      "france-la.xml": {
+        "C01": 7
+      },
+      "france-cg.xml": {
+        "C01": 66
+      },
+      "france-sn.xml": {
+        "C01": 20
+      },
+      "france-td.xml": {
+        "C01": 88
+      },
+      "france-bn.xml": {
+        "C01": 10
+      },
+      "france-ng.xml": {
+        "C01": 34
+      },
+      "france-dji.xml": {
+        "A01": 4,
+        "C01": 5
+      },
+      "france-et.xml": {
+        "C01": 20
       },
       "france-za.xml": {
         "C01": 60,
         "E01": 1,
         "B01": 9
       },
-      "france-do.xml": {
+      "france-pk.xml": {
         "C01": 4
+      },
+      "france-cl.xml": {
+        "C01": 40
+      },
+      "france-ga.xml": {
+        "C01": 14
+      },
+      "france-tz.xml": {
+        "C01": 3
       },
       "france-ec.xml": {
         "C01": 20
       },
-      "france-eg.xml": {
-        "C01": 13
-      },
-      "france-bn.xml": {
-        "C01": 10
-      },
-      "france-cd.xml": {
-        "C01": 47
-      },
-      "france-ug.xml": {
+      "france-jo.xml": {
         "C01": 14
-      },
-      "france-cg.xml": {
-        "C01": 66
-      },
-      "france-mm.xml": {
-        "C01": 27
       },
       "france-tn.xml": {
         "C01": 33
       },
-      "france-sd.xml": {
-        "C01": 23
+      "france-mz.xml": {
+        "C01": 66
       },
-      "france-ne.xml": {
-        "C01": 19
+      "france-ma.xml": {
+        "C01": 90
       },
-      "france-cl.xml": {
-        "C01": 40
+      "france-gn.xml": {
+        "C01": 48
+      },
+      "france-tk.xml": {
+        "C01": 21
       },
       "france-ml.xml": {
         "C01": 160,
         "B02": 1,
         "A02": 1
       },
-      "france-dji.xml": {
-        "A01": 4,
-        "C01": 5
+      "france-kh.xml": {
+        "C01": 26
       },
-      "france-tgo.xml": {
-        "C01": 55
-      },
-      "france-gt.xml": {
-        "C01": 11
-      },
-      "france-ma.xml": {
-        "C01": 90
-      },
-      "france-bdi.xml": {
-        "C01": 8,
-        "B01": 1
+      "france-mt.xml": {
+        "B01": 1,
+        "C01": 83
       },
       "france-ph.xml": {
         "C01": 21
       },
-      "france-mz.xml": {
-        "C01": 66
+      "france-cm.xml": {
+        "C01": 12
       },
-      "france-tz.xml": {
-        "C01": 3
-      },
-      "france-gn.xml": {
-        "C01": 48
-      },
-      "france-br.xml": {
-        "C01": 105,
-        "D02": 11,
-        "E01": 2
-      },
-      "france-pk.xml": {
-        "C01": 4
+      "france-bf.xml": {
+        "C01": 21
       }
     },
     ".//default-finance-type/@code": {
-      "france-et.xml": {
-        "110": 20
+      "france-mm.xml": {
+        "110": 27
+      },
+      "france-gt.xml": {
+        "110": 11
+      },
+      "france-sd.xml": {
+        "110": 23
+      },
+      "france-br.xml": {
+        "110": 118
+      },
+      "france-bdi.xml": {
+        "110": 9
+      },
+      "france-eg.xml": {
+        "110": 13
       },
       "france-bd.xml": {
         "110": 3
       },
-      "france-ga.xml": {
+      "france-ug.xml": {
         "110": 14
-      },
-      "france-ng.xml": {
-        "110": 34
-      },
-      "france-bo.xml": {
-        "110": 5
-      },
-      "france-jo.xml": {
-        "110": 14
-      },
-      "france-sn.xml": {
-        "110": 20
-      },
-      "france-la.xml": {
-        "110": 7
-      },
-      "france-mdg.xml": {
-        "110": 31
-      },
-      "france-td.xml": {
-        "110": 88
-      },
-      "france-cm.xml": {
-        "110": 12
-      },
-      "france-rca.xml": {
-        "110": 149
       },
       "france-af.xml": {
         "110": 10
       },
-      "france-mt.xml": {
-        "110": 84
+      "france-rca.xml": {
+        "110": 149
       },
-      "france-bf.xml": {
-        "110": 21
+      "france-do.xml": {
+        "110": 4
       },
-      "france-tk.xml": {
-        "110": 21
+      "france-tgo.xml": {
+        "110": 55
+      },
+      "france-ne.xml": {
+        "110": 19
+      },
+      "france-cd.xml": {
+        "110": 47
       },
       "france-gh.xml": {
         "110": 71
@@ -1363,142 +1357,143 @@
       "france-co.xml": {
         "110": 49
       },
+      "france-ht.xml": {
+        "110": 33
+      },
       "france-ke.xml": {
         "110": 32
+      },
+      "france-bo.xml": {
+        "110": 5
       },
       "france-ct.xml": {
         "110": 15
       },
-      "france-ht.xml": {
-        "110": 33
+      "france-mdg.xml": {
+        "110": 31
       },
-      "france-kh.xml": {
-        "110": 26
-      },
-      "france-za.xml": {
-        "110": 70
-      },
-      "france-do.xml": {
-        "110": 4
-      },
-      "france-ec.xml": {
-        "110": 20
-      },
-      "france-eg.xml": {
-        "110": 13
-      },
-      "france-bn.xml": {
-        "110": 10
-      },
-      "france-cd.xml": {
-        "110": 47
-      },
-      "france-ug.xml": {
-        "110": 14
+      "france-la.xml": {
+        "110": 7
       },
       "france-cg.xml": {
         "110": 66
       },
-      "france-mm.xml": {
-        "110": 27
+      "france-sn.xml": {
+        "110": 20
       },
-      "france-tn.xml": {
-        "110": 33
+      "france-td.xml": {
+        "110": 88
       },
-      "france-sd.xml": {
-        "110": 23
+      "france-bn.xml": {
+        "110": 10
       },
-      "france-ne.xml": {
-        "110": 19
-      },
-      "france-cl.xml": {
-        "110": 40
-      },
-      "france-ml.xml": {
-        "110": 162
+      "france-ng.xml": {
+        "110": 34
       },
       "france-dji.xml": {
         "110": 9
       },
-      "france-tgo.xml": {
-        "110": 55
+      "france-et.xml": {
+        "110": 20
       },
-      "france-gt.xml": {
-        "110": 11
+      "france-za.xml": {
+        "110": 70
       },
-      "france-ma.xml": {
-        "110": 90
+      "france-pk.xml": {
+        "110": 4
       },
-      "france-bdi.xml": {
-        "110": 9
+      "france-cl.xml": {
+        "110": 40
       },
-      "france-ph.xml": {
-        "110": 21
-      },
-      "france-mz.xml": {
-        "110": 66
+      "france-ga.xml": {
+        "110": 14
       },
       "france-tz.xml": {
         "110": 3
       },
+      "france-ec.xml": {
+        "110": 20
+      },
+      "france-jo.xml": {
+        "110": 14
+      },
+      "france-tn.xml": {
+        "110": 33
+      },
+      "france-mz.xml": {
+        "110": 66
+      },
+      "france-ma.xml": {
+        "110": 90
+      },
       "france-gn.xml": {
         "110": 48
       },
-      "france-br.xml": {
-        "110": 118
+      "france-tk.xml": {
+        "110": 21
       },
-      "france-pk.xml": {
-        "110": 4
+      "france-ml.xml": {
+        "110": 162
+      },
+      "france-kh.xml": {
+        "110": 26
+      },
+      "france-mt.xml": {
+        "110": 84
+      },
+      "france-ph.xml": {
+        "110": 21
+      },
+      "france-cm.xml": {
+        "110": 12
+      },
+      "france-bf.xml": {
+        "110": 21
       }
     },
     ".//default-flow-type/@code": {
-      "france-et.xml": {
-        "10": 20
+      "france-mm.xml": {
+        "10": 26,
+        "30": 1
+      },
+      "france-gt.xml": {
+        "10": 11
+      },
+      "france-sd.xml": {
+        "10": 23
+      },
+      "france-br.xml": {
+        "10": 118
+      },
+      "france-bdi.xml": {
+        "10": 9
+      },
+      "france-eg.xml": {
+        "10": 13
       },
       "france-bd.xml": {
         "10": 3
       },
-      "france-ga.xml": {
+      "france-ug.xml": {
         "10": 14
-      },
-      "france-ng.xml": {
-        "10": 34
-      },
-      "france-bo.xml": {
-        "10": 5
-      },
-      "france-jo.xml": {
-        "10": 14
-      },
-      "france-sn.xml": {
-        "10": 20
-      },
-      "france-la.xml": {
-        "10": 7
-      },
-      "france-mdg.xml": {
-        "10": 31
-      },
-      "france-td.xml": {
-        "10": 88
-      },
-      "france-cm.xml": {
-        "10": 12
-      },
-      "france-rca.xml": {
-        "10": 149
       },
       "france-af.xml": {
         "10": 10
       },
-      "france-mt.xml": {
-        "10": 84
+      "france-rca.xml": {
+        "10": 149
       },
-      "france-bf.xml": {
-        "10": 21
+      "france-do.xml": {
+        "10": 4
       },
-      "france-tk.xml": {
-        "10": 21
+      "france-tgo.xml": {
+        "10": 55
+      },
+      "france-ne.xml": {
+        "10": 19
+      },
+      "france-cd.xml": {
+        "10": 47
       },
       "france-gh.xml": {
         "10": 71
@@ -1506,143 +1501,142 @@
       "france-co.xml": {
         "10": 49
       },
+      "france-ht.xml": {
+        "10": 33
+      },
       "france-ke.xml": {
         "10": 32
+      },
+      "france-bo.xml": {
+        "10": 5
       },
       "france-ct.xml": {
         "10": 15
       },
-      "france-ht.xml": {
-        "10": 33
+      "france-mdg.xml": {
+        "10": 31
       },
-      "france-kh.xml": {
-        "10": 26
-      },
-      "france-za.xml": {
-        "10": 70
-      },
-      "france-do.xml": {
-        "10": 4
-      },
-      "france-ec.xml": {
-        "10": 20
-      },
-      "france-eg.xml": {
-        "10": 13
-      },
-      "france-bn.xml": {
-        "10": 10
-      },
-      "france-cd.xml": {
-        "10": 47
-      },
-      "france-ug.xml": {
-        "10": 14
+      "france-la.xml": {
+        "10": 7
       },
       "france-cg.xml": {
         "10": 66
       },
-      "france-mm.xml": {
-        "10": 26,
-        "30": 1
+      "france-sn.xml": {
+        "10": 20
       },
-      "france-tn.xml": {
-        "10": 33
+      "france-td.xml": {
+        "10": 88
       },
-      "france-sd.xml": {
-        "10": 23
+      "france-bn.xml": {
+        "10": 10
       },
-      "france-ne.xml": {
-        "10": 19
-      },
-      "france-cl.xml": {
-        "10": 40
-      },
-      "france-ml.xml": {
-        "10": 162
+      "france-ng.xml": {
+        "10": 34
       },
       "france-dji.xml": {
         "10": 9
       },
-      "france-tgo.xml": {
-        "10": 55
+      "france-et.xml": {
+        "10": 20
       },
-      "france-gt.xml": {
-        "10": 11
+      "france-za.xml": {
+        "10": 70
       },
-      "france-ma.xml": {
-        "10": 90
+      "france-pk.xml": {
+        "10": 4
       },
-      "france-bdi.xml": {
-        "10": 9
+      "france-cl.xml": {
+        "10": 40
       },
-      "france-ph.xml": {
-        "10": 21
-      },
-      "france-mz.xml": {
-        "10": 66
+      "france-ga.xml": {
+        "10": 14
       },
       "france-tz.xml": {
         "10": 3
       },
+      "france-ec.xml": {
+        "10": 20
+      },
+      "france-jo.xml": {
+        "10": 14
+      },
+      "france-tn.xml": {
+        "10": 33
+      },
+      "france-mz.xml": {
+        "10": 66
+      },
+      "france-ma.xml": {
+        "10": 90
+      },
       "france-gn.xml": {
         "10": 48
       },
-      "france-br.xml": {
-        "10": 118
+      "france-tk.xml": {
+        "10": 21
       },
-      "france-pk.xml": {
-        "10": 4
+      "france-ml.xml": {
+        "10": 162
+      },
+      "france-kh.xml": {
+        "10": 26
+      },
+      "france-mt.xml": {
+        "10": 84
+      },
+      "france-ph.xml": {
+        "10": 21
+      },
+      "france-cm.xml": {
+        "10": 12
+      },
+      "france-bf.xml": {
+        "10": 21
       }
     },
     ".//default-tied-status/@code": {
-      "france-et.xml": {
-        "5": 20
+      "france-mm.xml": {
+        "5": 27
+      },
+      "france-gt.xml": {
+        "5": 11
+      },
+      "france-sd.xml": {
+        "5": 23
+      },
+      "france-br.xml": {
+        "5": 118
+      },
+      "france-bdi.xml": {
+        "5": 9
+      },
+      "france-eg.xml": {
+        "5": 13
       },
       "france-bd.xml": {
         "5": 3
       },
-      "france-ga.xml": {
+      "france-ug.xml": {
         "5": 14
-      },
-      "france-ng.xml": {
-        "5": 34
-      },
-      "france-bo.xml": {
-        "5": 5
-      },
-      "france-jo.xml": {
-        "5": 14
-      },
-      "france-sn.xml": {
-        "5": 20
-      },
-      "france-la.xml": {
-        "5": 7
-      },
-      "france-mdg.xml": {
-        "5": 31
-      },
-      "france-td.xml": {
-        "5": 88
-      },
-      "france-cm.xml": {
-        "5": 12
-      },
-      "france-rca.xml": {
-        "5": 149
       },
       "france-af.xml": {
         "5": 10
       },
-      "france-mt.xml": {
-        "5": 84
+      "france-rca.xml": {
+        "5": 149
       },
-      "france-bf.xml": {
-        "5": 21
+      "france-do.xml": {
+        "5": 4
       },
-      "france-tk.xml": {
-        "5": 21
+      "france-tgo.xml": {
+        "5": 55
+      },
+      "france-ne.xml": {
+        "5": 19
+      },
+      "france-cd.xml": {
+        "5": 47
       },
       "france-gh.xml": {
         "5": 71
@@ -1650,143 +1644,143 @@
       "france-co.xml": {
         "5": 49
       },
+      "france-ht.xml": {
+        "5": 33
+      },
       "france-ke.xml": {
         "5": 32
+      },
+      "france-bo.xml": {
+        "5": 5
       },
       "france-ct.xml": {
         "5": 15
       },
-      "france-ht.xml": {
-        "5": 33
+      "france-mdg.xml": {
+        "5": 31
       },
-      "france-kh.xml": {
-        "5": 26
-      },
-      "france-za.xml": {
-        "5": 70
-      },
-      "france-do.xml": {
-        "5": 4
-      },
-      "france-ec.xml": {
-        "5": 20
-      },
-      "france-eg.xml": {
-        "5": 13
-      },
-      "france-bn.xml": {
-        "5": 10
-      },
-      "france-cd.xml": {
-        "5": 47
-      },
-      "france-ug.xml": {
-        "5": 14
+      "france-la.xml": {
+        "5": 7
       },
       "france-cg.xml": {
         "5": 66
       },
-      "france-mm.xml": {
-        "5": 27
+      "france-sn.xml": {
+        "5": 20
+      },
+      "france-td.xml": {
+        "5": 88
+      },
+      "france-bn.xml": {
+        "5": 10
+      },
+      "france-ng.xml": {
+        "5": 34
+      },
+      "france-dji.xml": {
+        "5": 9
+      },
+      "france-et.xml": {
+        "5": 20
+      },
+      "france-za.xml": {
+        "5": 70
+      },
+      "france-pk.xml": {
+        "5": 4
+      },
+      "france-cl.xml": {
+        "5": 40
+      },
+      "france-ga.xml": {
+        "5": 14
+      },
+      "france-tz.xml": {
+        "5": 3
+      },
+      "france-ec.xml": {
+        "5": 20
+      },
+      "france-jo.xml": {
+        "5": 14
       },
       "france-tn.xml": {
         "5": 33
       },
-      "france-sd.xml": {
-        "5": 23
+      "france-mz.xml": {
+        "5": 66
       },
-      "france-ne.xml": {
-        "5": 19
+      "france-ma.xml": {
+        "5": 90
       },
-      "france-cl.xml": {
-        "5": 40
+      "france-gn.xml": {
+        "5": 48
+      },
+      "france-tk.xml": {
+        "5": 21
       },
       "france-ml.xml": {
         "4": 1,
         "5": 161
       },
-      "france-dji.xml": {
-        "5": 9
+      "france-kh.xml": {
+        "5": 26
       },
-      "france-tgo.xml": {
-        "5": 55
-      },
-      "france-gt.xml": {
-        "5": 11
-      },
-      "france-ma.xml": {
-        "5": 90
-      },
-      "france-bdi.xml": {
-        "5": 9
+      "france-mt.xml": {
+        "5": 84
       },
       "france-ph.xml": {
         "5": 21
       },
-      "france-mz.xml": {
-        "5": 66
+      "france-cm.xml": {
+        "5": 12
       },
-      "france-tz.xml": {
-        "5": 3
-      },
-      "france-gn.xml": {
-        "5": 48
-      },
-      "france-br.xml": {
-        "5": 118
-      },
-      "france-pk.xml": {
-        "5": 4
+      "france-bf.xml": {
+        "5": 21
       }
     },
     ".//location/administrative/@vocabulary": {
-      "france-et.xml": {
-        "G1": 11
+      "france-mm.xml": {
+        "G1": 121
+      },
+      "france-gt.xml": {
+        "G1": 12
+      },
+      "france-sd.xml": {
+        "G1": 23
+      },
+      "france-br.xml": {
+        "G1": 141
+      },
+      "france-bdi.xml": {
+        "G1": 38
+      },
+      "france-eg.xml": {
+        "G1": 10
       },
       "france-bd.xml": {
         "G1": 3
       },
-      "france-ga.xml": {
-        "G1": 12
-      },
-      "france-ng.xml": {
-        "G1": 45
-      },
-      "france-bo.xml": {
-        "G1": 11
-      },
-      "france-jo.xml": {
-        "G1": 4
-      },
-      "france-sn.xml": {
-        "G1": 20
-      },
-      "france-la.xml": {
-        "G1": 6
-      },
-      "france-mdg.xml": {
-        "G1": 128
-      },
-      "france-td.xml": {
-        "G1": 121
-      },
-      "france-cm.xml": {
-        "G1": 10
-      },
-      "france-rca.xml": {
-        "G1": 159
+      "france-ug.xml": {
+        "G1": 27
       },
       "france-af.xml": {
         "G1": 56
       },
-      "france-mt.xml": {
-        "G1": 143
+      "france-rca.xml": {
+        "G1": 159
       },
-      "france-bf.xml": {
+      "france-do.xml": {
         "G1": 16
       },
-      "france-tk.xml": {
-        "G1": 20
+      "france-tgo.xml": {
+        "G1": 60
+      },
+      "france-ne.xml": {
+        "G1": 22
+      },
+      "france-cd.xml": {
+        "G1": 45
       },
       "france-gh.xml": {
         "G1": 91
@@ -1794,142 +1788,142 @@
       "france-co.xml": {
         "G1": 53
       },
+      "france-ht.xml": {
+        "G1": 48
+      },
       "france-ke.xml": {
         "G1": 33
+      },
+      "france-bo.xml": {
+        "G1": 11
       },
       "france-ct.xml": {
         "G1": 20
       },
-      "france-ht.xml": {
-        "G1": 48
+      "france-mdg.xml": {
+        "G1": 128
       },
-      "france-kh.xml": {
-        "G1": 24
-      },
-      "france-za.xml": {
-        "G1": 74
-      },
-      "france-do.xml": {
-        "G1": 16
-      },
-      "france-ec.xml": {
-        "G1": 43
-      },
-      "france-eg.xml": {
-        "G1": 10
-      },
-      "france-bn.xml": {
-        "G1": 56
-      },
-      "france-cd.xml": {
-        "G1": 45
-      },
-      "france-ug.xml": {
-        "G1": 27
+      "france-la.xml": {
+        "G1": 6
       },
       "france-cg.xml": {
         "G1": 73
       },
-      "france-mm.xml": {
+      "france-sn.xml": {
+        "G1": 20
+      },
+      "france-td.xml": {
         "G1": 121
       },
-      "france-tn.xml": {
-        "G1": 19
+      "france-bn.xml": {
+        "G1": 56
       },
-      "france-sd.xml": {
-        "G1": 23
-      },
-      "france-ne.xml": {
-        "G1": 22
-      },
-      "france-cl.xml": {
-        "G1": 38
-      },
-      "france-ml.xml": {
-        "G1": 228
+      "france-ng.xml": {
+        "G1": 45
       },
       "france-dji.xml": {
         "G1": 19
       },
-      "france-tgo.xml": {
-        "G1": 60
+      "france-et.xml": {
+        "G1": 11
       },
-      "france-gt.xml": {
-        "G1": 12
+      "france-za.xml": {
+        "G1": 74
       },
-      "france-ma.xml": {
-        "G1": 140
+      "france-pk.xml": {
+        "G1": 5
       },
-      "france-bdi.xml": {
+      "france-cl.xml": {
         "G1": 38
       },
-      "france-ph.xml": {
-        "G1": 31
-      },
-      "france-mz.xml": {
-        "G1": 78
+      "france-ga.xml": {
+        "G1": 12
       },
       "france-tz.xml": {
         "G1": 13
       },
+      "france-ec.xml": {
+        "G1": 43
+      },
+      "france-jo.xml": {
+        "G1": 4
+      },
+      "france-tn.xml": {
+        "G1": 19
+      },
+      "france-mz.xml": {
+        "G1": 78
+      },
+      "france-ma.xml": {
+        "G1": 140
+      },
       "france-gn.xml": {
         "G1": 31
       },
-      "france-br.xml": {
-        "G1": 141
+      "france-tk.xml": {
+        "G1": 20
       },
-      "france-pk.xml": {
-        "G1": 5
+      "france-ml.xml": {
+        "G1": 228
+      },
+      "france-kh.xml": {
+        "G1": 24
+      },
+      "france-mt.xml": {
+        "G1": 143
+      },
+      "france-ph.xml": {
+        "G1": 31
+      },
+      "france-cm.xml": {
+        "G1": 10
+      },
+      "france-bf.xml": {
+        "G1": 16
       }
     },
     ".//location/feature-designation/@code": {
-      "france-et.xml": {
+      "france-mm.xml": {
+        "ADMD": 121
+      },
+      "france-gt.xml": {
         "ADMD": 11
+      },
+      "france-sd.xml": {
+        "ADMD": 22
+      },
+      "france-br.xml": {
+        "ADMD": 128
+      },
+      "france-bdi.xml": {
+        "ADMD": 38
+      },
+      "france-eg.xml": {
+        "ADMD": 10
       },
       "france-bd.xml": {
         "ADMD": 3
       },
-      "france-ga.xml": {
-        "ADMD": 12
-      },
-      "france-ng.xml": {
-        "ADMD": 42
-      },
-      "france-bo.xml": {
-        "ADMD": 11
-      },
-      "france-jo.xml": {
-        "ADMD": 4
-      },
-      "france-sn.xml": {
-        "ADMD": 19
-      },
-      "france-la.xml": {
-        "ADMD": 6
-      },
-      "france-mdg.xml": {
-        "ADMD": 125
-      },
-      "france-td.xml": {
-        "ADMD": 116
-      },
-      "france-cm.xml": {
-        "ADMD": 10
-      },
-      "france-rca.xml": {
-        "ADMD": 138
+      "france-ug.xml": {
+        "ADMD": 15
       },
       "france-af.xml": {
         "ADMD": 56
       },
-      "france-mt.xml": {
-        "ADMD": 104
+      "france-rca.xml": {
+        "ADMD": 138
       },
-      "france-bf.xml": {
-        "ADMD": 14
+      "france-do.xml": {
+        "ADMD": 15
       },
-      "france-tk.xml": {
-        "ADMD": 20
+      "france-tgo.xml": {
+        "ADMD": 48
+      },
+      "france-ne.xml": {
+        "ADMD": 22
+      },
+      "france-cd.xml": {
+        "ADMD": 44
       },
       "france-gh.xml": {
         "ADMD": 90
@@ -1937,142 +1931,142 @@
       "france-co.xml": {
         "ADMD": 53
       },
+      "france-ht.xml": {
+        "ADMD": 29
+      },
       "france-ke.xml": {
         "ADMD": 32
+      },
+      "france-bo.xml": {
+        "ADMD": 11
       },
       "france-ct.xml": {
         "ADMD": 20
       },
-      "france-ht.xml": {
-        "ADMD": 29
+      "france-mdg.xml": {
+        "ADMD": 125
       },
-      "france-kh.xml": {
-        "ADMD": 24
-      },
-      "france-za.xml": {
-        "ADMD": 69
-      },
-      "france-do.xml": {
-        "ADMD": 15
-      },
-      "france-ec.xml": {
-        "ADMD": 40
-      },
-      "france-eg.xml": {
-        "ADMD": 10
-      },
-      "france-bn.xml": {
-        "ADMD": 52
-      },
-      "france-cd.xml": {
-        "ADMD": 44
-      },
-      "france-ug.xml": {
-        "ADMD": 15
+      "france-la.xml": {
+        "ADMD": 6
       },
       "france-cg.xml": {
         "ADMD": 70
       },
-      "france-mm.xml": {
-        "ADMD": 121
-      },
-      "france-tn.xml": {
+      "france-sn.xml": {
         "ADMD": 19
       },
-      "france-sd.xml": {
-        "ADMD": 22
+      "france-td.xml": {
+        "ADMD": 116
       },
-      "france-ne.xml": {
-        "ADMD": 22
+      "france-bn.xml": {
+        "ADMD": 52
       },
-      "france-cl.xml": {
-        "ADMD": 36
-      },
-      "france-ml.xml": {
-        "ADMD": 187
+      "france-ng.xml": {
+        "ADMD": 42
       },
       "france-dji.xml": {
         "ADMD": 19
       },
-      "france-tgo.xml": {
-        "ADMD": 48
-      },
-      "france-gt.xml": {
+      "france-et.xml": {
         "ADMD": 11
       },
-      "france-ma.xml": {
-        "ADMD": 103
+      "france-za.xml": {
+        "ADMD": 69
       },
-      "france-bdi.xml": {
-        "ADMD": 38
+      "france-pk.xml": {
+        "ADMD": 5
       },
-      "france-ph.xml": {
-        "ADMD": 21
+      "france-cl.xml": {
+        "ADMD": 36
       },
-      "france-mz.xml": {
-        "ADMD": 68
+      "france-ga.xml": {
+        "ADMD": 12
       },
       "france-tz.xml": {
         "ADMD": 13
       },
+      "france-ec.xml": {
+        "ADMD": 40
+      },
+      "france-jo.xml": {
+        "ADMD": 4
+      },
+      "france-tn.xml": {
+        "ADMD": 19
+      },
+      "france-mz.xml": {
+        "ADMD": 68
+      },
+      "france-ma.xml": {
+        "ADMD": 103
+      },
       "france-gn.xml": {
         "ADMD": 30
       },
-      "france-br.xml": {
-        "ADMD": 128
+      "france-tk.xml": {
+        "ADMD": 20
       },
-      "france-pk.xml": {
-        "ADMD": 5
+      "france-ml.xml": {
+        "ADMD": 187
+      },
+      "france-kh.xml": {
+        "ADMD": 24
+      },
+      "france-mt.xml": {
+        "ADMD": 104
+      },
+      "france-ph.xml": {
+        "ADMD": 21
+      },
+      "france-cm.xml": {
+        "ADMD": 10
+      },
+      "france-bf.xml": {
+        "ADMD": 14
       }
     },
     ".//location/location-class/@code": {
-      "france-et.xml": {
+      "france-mm.xml": {
+        "1": 121
+      },
+      "france-gt.xml": {
         "1": 11
+      },
+      "france-sd.xml": {
+        "1": 22
+      },
+      "france-br.xml": {
+        "1": 128
+      },
+      "france-bdi.xml": {
+        "1": 38
+      },
+      "france-eg.xml": {
+        "1": 10
       },
       "france-bd.xml": {
         "1": 3
       },
-      "france-ga.xml": {
-        "1": 12
-      },
-      "france-ng.xml": {
-        "1": 42
-      },
-      "france-bo.xml": {
-        "1": 11
-      },
-      "france-jo.xml": {
-        "1": 4
-      },
-      "france-sn.xml": {
-        "1": 19
-      },
-      "france-la.xml": {
-        "1": 6
-      },
-      "france-mdg.xml": {
-        "1": 125
-      },
-      "france-td.xml": {
-        "1": 116
-      },
-      "france-cm.xml": {
-        "1": 10
-      },
-      "france-rca.xml": {
-        "1": 138
+      "france-ug.xml": {
+        "1": 15
       },
       "france-af.xml": {
         "1": 56
       },
-      "france-mt.xml": {
-        "1": 104
+      "france-rca.xml": {
+        "1": 138
       },
-      "france-bf.xml": {
-        "1": 14
+      "france-do.xml": {
+        "1": 15
       },
-      "france-tk.xml": {
-        "1": 20
+      "france-tgo.xml": {
+        "1": 48
+      },
+      "france-ne.xml": {
+        "1": 22
+      },
+      "france-cd.xml": {
+        "1": 44
       },
       "france-gh.xml": {
         "1": 90
@@ -2080,142 +2074,142 @@
       "france-co.xml": {
         "1": 53
       },
+      "france-ht.xml": {
+        "1": 29
+      },
       "france-ke.xml": {
         "1": 32
+      },
+      "france-bo.xml": {
+        "1": 11
       },
       "france-ct.xml": {
         "1": 20
       },
-      "france-ht.xml": {
-        "1": 29
+      "france-mdg.xml": {
+        "1": 125
       },
-      "france-kh.xml": {
-        "1": 24
-      },
-      "france-za.xml": {
-        "1": 69
-      },
-      "france-do.xml": {
-        "1": 15
-      },
-      "france-ec.xml": {
-        "1": 40
-      },
-      "france-eg.xml": {
-        "1": 10
-      },
-      "france-bn.xml": {
-        "1": 52
-      },
-      "france-cd.xml": {
-        "1": 44
-      },
-      "france-ug.xml": {
-        "1": 15
+      "france-la.xml": {
+        "1": 6
       },
       "france-cg.xml": {
         "1": 70
       },
-      "france-mm.xml": {
-        "1": 121
-      },
-      "france-tn.xml": {
+      "france-sn.xml": {
         "1": 19
       },
-      "france-sd.xml": {
-        "1": 22
+      "france-td.xml": {
+        "1": 116
       },
-      "france-ne.xml": {
-        "1": 22
+      "france-bn.xml": {
+        "1": 52
       },
-      "france-cl.xml": {
-        "1": 36
-      },
-      "france-ml.xml": {
-        "1": 187
+      "france-ng.xml": {
+        "1": 42
       },
       "france-dji.xml": {
         "1": 19
       },
-      "france-tgo.xml": {
-        "1": 48
-      },
-      "france-gt.xml": {
+      "france-et.xml": {
         "1": 11
       },
-      "france-ma.xml": {
-        "1": 103
+      "france-za.xml": {
+        "1": 69
       },
-      "france-bdi.xml": {
-        "1": 38
+      "france-pk.xml": {
+        "1": 5
       },
-      "france-ph.xml": {
-        "1": 21
+      "france-cl.xml": {
+        "1": 36
       },
-      "france-mz.xml": {
-        "1": 68
+      "france-ga.xml": {
+        "1": 12
       },
       "france-tz.xml": {
         "1": 13
       },
+      "france-ec.xml": {
+        "1": 40
+      },
+      "france-jo.xml": {
+        "1": 4
+      },
+      "france-tn.xml": {
+        "1": 19
+      },
+      "france-mz.xml": {
+        "1": 68
+      },
+      "france-ma.xml": {
+        "1": 103
+      },
       "france-gn.xml": {
         "1": 30
       },
-      "france-br.xml": {
-        "1": 128
+      "france-tk.xml": {
+        "1": 20
       },
-      "france-pk.xml": {
-        "1": 5
+      "france-ml.xml": {
+        "1": 187
+      },
+      "france-kh.xml": {
+        "1": 24
+      },
+      "france-mt.xml": {
+        "1": 104
+      },
+      "france-ph.xml": {
+        "1": 21
+      },
+      "france-cm.xml": {
+        "1": 10
+      },
+      "france-bf.xml": {
+        "1": 14
       }
     },
     ".//location/location-id/@vocabulary": {
-      "france-et.xml": {
+      "france-mm.xml": {
+        "G1": 121
+      },
+      "france-gt.xml": {
         "G1": 11
+      },
+      "france-sd.xml": {
+        "G1": 22
+      },
+      "france-br.xml": {
+        "G1": 128
+      },
+      "france-bdi.xml": {
+        "G1": 38
+      },
+      "france-eg.xml": {
+        "G1": 10
       },
       "france-bd.xml": {
         "G1": 3
       },
-      "france-ga.xml": {
-        "G1": 12
-      },
-      "france-ng.xml": {
-        "G1": 42
-      },
-      "france-bo.xml": {
-        "G1": 11
-      },
-      "france-jo.xml": {
-        "G1": 4
-      },
-      "france-sn.xml": {
-        "G1": 19
-      },
-      "france-la.xml": {
-        "G1": 6
-      },
-      "france-mdg.xml": {
-        "G1": 125
-      },
-      "france-td.xml": {
-        "G1": 116
-      },
-      "france-cm.xml": {
-        "G1": 10
-      },
-      "france-rca.xml": {
-        "G1": 138
+      "france-ug.xml": {
+        "G1": 15
       },
       "france-af.xml": {
         "G1": 56
       },
-      "france-mt.xml": {
-        "G1": 104
+      "france-rca.xml": {
+        "G1": 138
       },
-      "france-bf.xml": {
-        "G1": 14
+      "france-do.xml": {
+        "G1": 15
       },
-      "france-tk.xml": {
-        "G1": 20
+      "france-tgo.xml": {
+        "G1": 48
+      },
+      "france-ne.xml": {
+        "G1": 22
+      },
+      "france-cd.xml": {
+        "G1": 44
       },
       "france-gh.xml": {
         "G1": 90
@@ -2223,142 +2217,142 @@
       "france-co.xml": {
         "G1": 53
       },
+      "france-ht.xml": {
+        "G1": 29
+      },
       "france-ke.xml": {
         "G1": 32
+      },
+      "france-bo.xml": {
+        "G1": 11
       },
       "france-ct.xml": {
         "G1": 20
       },
-      "france-ht.xml": {
-        "G1": 29
+      "france-mdg.xml": {
+        "G1": 125
       },
-      "france-kh.xml": {
-        "G1": 24
-      },
-      "france-za.xml": {
-        "G1": 69
-      },
-      "france-do.xml": {
-        "G1": 15
-      },
-      "france-ec.xml": {
-        "G1": 40
-      },
-      "france-eg.xml": {
-        "G1": 10
-      },
-      "france-bn.xml": {
-        "G1": 52
-      },
-      "france-cd.xml": {
-        "G1": 44
-      },
-      "france-ug.xml": {
-        "G1": 15
+      "france-la.xml": {
+        "G1": 6
       },
       "france-cg.xml": {
         "G1": 70
       },
-      "france-mm.xml": {
-        "G1": 121
-      },
-      "france-tn.xml": {
+      "france-sn.xml": {
         "G1": 19
       },
-      "france-sd.xml": {
-        "G1": 22
+      "france-td.xml": {
+        "G1": 116
       },
-      "france-ne.xml": {
-        "G1": 22
+      "france-bn.xml": {
+        "G1": 52
       },
-      "france-cl.xml": {
-        "G1": 36
-      },
-      "france-ml.xml": {
-        "G1": 187
+      "france-ng.xml": {
+        "G1": 42
       },
       "france-dji.xml": {
         "G1": 19
       },
-      "france-tgo.xml": {
-        "G1": 48
-      },
-      "france-gt.xml": {
+      "france-et.xml": {
         "G1": 11
       },
-      "france-ma.xml": {
-        "G1": 103
+      "france-za.xml": {
+        "G1": 69
       },
-      "france-bdi.xml": {
-        "G1": 38
+      "france-pk.xml": {
+        "G1": 5
       },
-      "france-ph.xml": {
-        "G1": 21
+      "france-cl.xml": {
+        "G1": 36
       },
-      "france-mz.xml": {
-        "G1": 68
+      "france-ga.xml": {
+        "G1": 12
       },
       "france-tz.xml": {
         "G1": 13
       },
+      "france-ec.xml": {
+        "G1": 40
+      },
+      "france-jo.xml": {
+        "G1": 4
+      },
+      "france-tn.xml": {
+        "G1": 19
+      },
+      "france-mz.xml": {
+        "G1": 68
+      },
+      "france-ma.xml": {
+        "G1": 103
+      },
       "france-gn.xml": {
         "G1": 30
       },
-      "france-br.xml": {
-        "G1": 128
+      "france-tk.xml": {
+        "G1": 20
       },
-      "france-pk.xml": {
-        "G1": 5
+      "france-ml.xml": {
+        "G1": 187
+      },
+      "france-kh.xml": {
+        "G1": 24
+      },
+      "france-mt.xml": {
+        "G1": 104
+      },
+      "france-ph.xml": {
+        "G1": 21
+      },
+      "france-cm.xml": {
+        "G1": 10
+      },
+      "france-bf.xml": {
+        "G1": 14
       }
     },
     ".//location/location-reach/@code": {
-      "france-et.xml": {
+      "france-mm.xml": {
+        "1": 121
+      },
+      "france-gt.xml": {
         "1": 11
+      },
+      "france-sd.xml": {
+        "1": 22
+      },
+      "france-br.xml": {
+        "1": 128
+      },
+      "france-bdi.xml": {
+        "1": 38
+      },
+      "france-eg.xml": {
+        "1": 10
       },
       "france-bd.xml": {
         "1": 3
       },
-      "france-ga.xml": {
-        "1": 12
-      },
-      "france-ng.xml": {
-        "1": 42
-      },
-      "france-bo.xml": {
-        "1": 11
-      },
-      "france-jo.xml": {
-        "1": 4
-      },
-      "france-sn.xml": {
-        "1": 19
-      },
-      "france-la.xml": {
-        "1": 6
-      },
-      "france-mdg.xml": {
-        "1": 125
-      },
-      "france-td.xml": {
-        "1": 116
-      },
-      "france-cm.xml": {
-        "1": 10
-      },
-      "france-rca.xml": {
-        "1": 138
+      "france-ug.xml": {
+        "1": 15
       },
       "france-af.xml": {
         "1": 56
       },
-      "france-mt.xml": {
-        "1": 104
+      "france-rca.xml": {
+        "1": 138
       },
-      "france-bf.xml": {
-        "1": 14
+      "france-do.xml": {
+        "1": 15
       },
-      "france-tk.xml": {
-        "1": 20
+      "france-tgo.xml": {
+        "1": 48
+      },
+      "france-ne.xml": {
+        "1": 22
+      },
+      "france-cd.xml": {
+        "1": 44
       },
       "france-gh.xml": {
         "1": 90
@@ -2366,174 +2360,170 @@
       "france-co.xml": {
         "1": 53
       },
+      "france-ht.xml": {
+        "1": 29
+      },
       "france-ke.xml": {
         "1": 32
+      },
+      "france-bo.xml": {
+        "1": 11
       },
       "france-ct.xml": {
         "1": 20
       },
-      "france-ht.xml": {
-        "1": 29
+      "france-mdg.xml": {
+        "1": 125
       },
-      "france-kh.xml": {
-        "1": 24
-      },
-      "france-za.xml": {
-        "1": 69
-      },
-      "france-do.xml": {
-        "1": 15
-      },
-      "france-ec.xml": {
-        "1": 40
-      },
-      "france-eg.xml": {
-        "1": 10
-      },
-      "france-bn.xml": {
-        "1": 52
-      },
-      "france-cd.xml": {
-        "1": 44
-      },
-      "france-ug.xml": {
-        "1": 15
+      "france-la.xml": {
+        "1": 6
       },
       "france-cg.xml": {
         "1": 70
       },
-      "france-mm.xml": {
-        "1": 121
-      },
-      "france-tn.xml": {
+      "france-sn.xml": {
         "1": 19
       },
-      "france-sd.xml": {
-        "1": 22
+      "france-td.xml": {
+        "1": 116
       },
-      "france-ne.xml": {
-        "1": 22
+      "france-bn.xml": {
+        "1": 52
       },
-      "france-cl.xml": {
-        "1": 36
-      },
-      "france-ml.xml": {
-        "1": 187
+      "france-ng.xml": {
+        "1": 42
       },
       "france-dji.xml": {
         "1": 19
       },
-      "france-tgo.xml": {
-        "1": 48
-      },
-      "france-gt.xml": {
+      "france-et.xml": {
         "1": 11
       },
-      "france-ma.xml": {
-        "1": 103
+      "france-za.xml": {
+        "1": 69
       },
-      "france-bdi.xml": {
-        "1": 38
+      "france-pk.xml": {
+        "1": 5
       },
-      "france-ph.xml": {
-        "1": 21
+      "france-cl.xml": {
+        "1": 36
       },
-      "france-mz.xml": {
-        "1": 68
+      "france-ga.xml": {
+        "1": 12
       },
       "france-tz.xml": {
         "1": 13
       },
+      "france-ec.xml": {
+        "1": 40
+      },
+      "france-jo.xml": {
+        "1": 4
+      },
+      "france-tn.xml": {
+        "1": 19
+      },
+      "france-mz.xml": {
+        "1": 68
+      },
+      "france-ma.xml": {
+        "1": 103
+      },
       "france-gn.xml": {
         "1": 30
       },
-      "france-br.xml": {
-        "1": 128
+      "france-tk.xml": {
+        "1": 20
       },
-      "france-pk.xml": {
-        "1": 5
+      "france-ml.xml": {
+        "1": 187
+      },
+      "france-kh.xml": {
+        "1": 24
+      },
+      "france-mt.xml": {
+        "1": 104
+      },
+      "france-ph.xml": {
+        "1": 21
+      },
+      "france-cm.xml": {
+        "1": 10
+      },
+      "france-bf.xml": {
+        "1": 14
       }
     },
     ".//participating-org/@role": {
-      "france-et.xml": {
-        "1": 20,
-        "4": 20,
-        "3": 20
+      "france-mm.xml": {
+        "1": 27,
+        "4": 27,
+        "3": 27
+      },
+      "france-gt.xml": {
+        "1": 11,
+        "4": 11,
+        "3": 11
+      },
+      "france-sd.xml": {
+        "1": 23,
+        "4": 23,
+        "3": 23
+      },
+      "france-br.xml": {
+        "1": 118,
+        "4": 118,
+        "3": 118
+      },
+      "france-bdi.xml": {
+        "1": 9,
+        "4": 9,
+        "3": 9
+      },
+      "france-eg.xml": {
+        "1": 13,
+        "4": 13,
+        "3": 13
       },
       "france-bd.xml": {
         "1": 3,
         "4": 3,
         "3": 3
       },
-      "france-ga.xml": {
+      "france-ug.xml": {
         "1": 14,
         "4": 14,
         "3": 14
-      },
-      "france-ng.xml": {
-        "1": 34,
-        "4": 34,
-        "3": 34
-      },
-      "france-bo.xml": {
-        "1": 5,
-        "4": 5,
-        "3": 5
-      },
-      "france-jo.xml": {
-        "1": 14,
-        "4": 14,
-        "3": 14
-      },
-      "france-sn.xml": {
-        "1": 20,
-        "4": 20,
-        "3": 20
-      },
-      "france-la.xml": {
-        "1": 7,
-        "4": 7,
-        "3": 7
-      },
-      "france-mdg.xml": {
-        "1": 31,
-        "4": 31,
-        "3": 31
-      },
-      "france-td.xml": {
-        "1": 88,
-        "4": 88,
-        "3": 88
-      },
-      "france-cm.xml": {
-        "1": 12,
-        "4": 12,
-        "3": 12
-      },
-      "france-rca.xml": {
-        "1": 149,
-        "4": 149,
-        "3": 149
       },
       "france-af.xml": {
         "1": 10,
         "4": 10,
         "3": 10
       },
-      "france-mt.xml": {
-        "1": 84,
-        "4": 84,
-        "3": 84
+      "france-rca.xml": {
+        "1": 149,
+        "4": 149,
+        "3": 149
       },
-      "france-bf.xml": {
-        "1": 21,
-        "4": 21,
-        "3": 21
+      "france-do.xml": {
+        "1": 4,
+        "4": 4,
+        "3": 4
       },
-      "france-tk.xml": {
-        "1": 21,
-        "4": 21,
-        "3": 21
+      "france-tgo.xml": {
+        "1": 55,
+        "4": 55,
+        "3": 55
+      },
+      "france-ne.xml": {
+        "1": 19,
+        "4": 19,
+        "3": 19
+      },
+      "france-cd.xml": {
+        "1": 47,
+        "4": 47,
+        "3": 47
       },
       "france-gh.xml": {
         "1": 71,
@@ -2545,200 +2535,204 @@
         "4": 49,
         "3": 49
       },
+      "france-ht.xml": {
+        "1": 33,
+        "4": 33,
+        "3": 33
+      },
       "france-ke.xml": {
         "1": 32,
         "4": 32,
         "3": 32
+      },
+      "france-bo.xml": {
+        "1": 5,
+        "4": 5,
+        "3": 5
       },
       "france-ct.xml": {
         "1": 15,
         "4": 15,
         "3": 15
       },
-      "france-ht.xml": {
-        "1": 33,
-        "4": 33,
-        "3": 33
+      "france-mdg.xml": {
+        "1": 31,
+        "4": 31,
+        "3": 31
       },
-      "france-kh.xml": {
-        "1": 26,
-        "4": 26,
-        "3": 26
-      },
-      "france-za.xml": {
-        "1": 70,
-        "4": 70,
-        "3": 70
-      },
-      "france-do.xml": {
-        "1": 4,
-        "4": 4,
-        "3": 4
-      },
-      "france-ec.xml": {
-        "1": 20,
-        "4": 20,
-        "3": 20
-      },
-      "france-eg.xml": {
-        "1": 13,
-        "4": 13,
-        "3": 13
-      },
-      "france-bn.xml": {
-        "1": 10,
-        "4": 10,
-        "3": 10
-      },
-      "france-cd.xml": {
-        "1": 47,
-        "4": 47,
-        "3": 47
-      },
-      "france-ug.xml": {
-        "1": 14,
-        "4": 14,
-        "3": 14
+      "france-la.xml": {
+        "1": 7,
+        "4": 7,
+        "3": 7
       },
       "france-cg.xml": {
         "1": 66,
         "4": 66,
         "3": 66
       },
-      "france-mm.xml": {
-        "1": 27,
-        "4": 27,
-        "3": 27
+      "france-sn.xml": {
+        "1": 20,
+        "4": 20,
+        "3": 20
       },
-      "france-tn.xml": {
-        "1": 33,
-        "4": 33,
-        "3": 33
+      "france-td.xml": {
+        "1": 88,
+        "4": 88,
+        "3": 88
       },
-      "france-sd.xml": {
-        "1": 23,
-        "4": 23,
-        "3": 23
+      "france-bn.xml": {
+        "1": 10,
+        "4": 10,
+        "3": 10
       },
-      "france-ne.xml": {
-        "1": 19,
-        "4": 19,
-        "3": 19
-      },
-      "france-cl.xml": {
-        "1": 40,
-        "4": 40,
-        "3": 40
-      },
-      "france-ml.xml": {
-        "1": 162,
-        "4": 162,
-        "3": 162
+      "france-ng.xml": {
+        "1": 34,
+        "4": 34,
+        "3": 34
       },
       "france-dji.xml": {
         "1": 9,
         "4": 9,
         "3": 9
       },
-      "france-tgo.xml": {
-        "1": 55,
-        "4": 55,
-        "3": 55
+      "france-et.xml": {
+        "1": 20,
+        "4": 20,
+        "3": 20
       },
-      "france-gt.xml": {
-        "1": 11,
-        "4": 11,
-        "3": 11
+      "france-za.xml": {
+        "1": 70,
+        "4": 70,
+        "3": 70
       },
-      "france-ma.xml": {
-        "1": 90,
-        "4": 90,
-        "3": 90
+      "france-pk.xml": {
+        "1": 4,
+        "4": 4,
+        "3": 4
       },
-      "france-bdi.xml": {
-        "1": 9,
-        "4": 9,
-        "3": 9
+      "france-cl.xml": {
+        "1": 40,
+        "4": 40,
+        "3": 40
       },
-      "france-ph.xml": {
-        "1": 21,
-        "4": 21,
-        "3": 21
-      },
-      "france-mz.xml": {
-        "1": 66,
-        "4": 66,
-        "3": 66
+      "france-ga.xml": {
+        "1": 14,
+        "4": 14,
+        "3": 14
       },
       "france-tz.xml": {
         "1": 3,
         "4": 3,
         "3": 3
       },
+      "france-ec.xml": {
+        "1": 20,
+        "4": 20,
+        "3": 20
+      },
+      "france-jo.xml": {
+        "1": 14,
+        "4": 14,
+        "3": 14
+      },
+      "france-tn.xml": {
+        "1": 33,
+        "4": 33,
+        "3": 33
+      },
+      "france-mz.xml": {
+        "1": 66,
+        "4": 66,
+        "3": 66
+      },
+      "france-ma.xml": {
+        "1": 90,
+        "4": 90,
+        "3": 90
+      },
       "france-gn.xml": {
         "1": 48,
         "4": 48,
         "3": 48
       },
-      "france-br.xml": {
-        "1": 118,
-        "4": 118,
-        "3": 118
+      "france-tk.xml": {
+        "1": 21,
+        "4": 21,
+        "3": 21
       },
-      "france-pk.xml": {
-        "1": 4,
-        "4": 4,
-        "3": 4
+      "france-ml.xml": {
+        "1": 162,
+        "4": 162,
+        "3": 162
+      },
+      "france-kh.xml": {
+        "1": 26,
+        "4": 26,
+        "3": 26
+      },
+      "france-mt.xml": {
+        "1": 84,
+        "4": 84,
+        "3": 84
+      },
+      "france-ph.xml": {
+        "1": 21,
+        "4": 21,
+        "3": 21
+      },
+      "france-cm.xml": {
+        "1": 12,
+        "4": 12,
+        "3": 12
+      },
+      "france-bf.xml": {
+        "1": 21,
+        "4": 21,
+        "3": 21
       }
     },
     ".//participating-org/@type": {
-      "france-et.xml": {
-        "10": 40
+      "france-mm.xml": {
+        "10": 54
+      },
+      "france-gt.xml": {
+        "10": 22
+      },
+      "france-sd.xml": {
+        "10": 46
+      },
+      "france-br.xml": {
+        "10": 236
+      },
+      "france-bdi.xml": {
+        "10": 18
+      },
+      "france-eg.xml": {
+        "10": 26
       },
       "france-bd.xml": {
         "10": 6
       },
-      "france-ga.xml": {
+      "france-ug.xml": {
         "10": 28
-      },
-      "france-ng.xml": {
-        "10": 68
-      },
-      "france-bo.xml": {
-        "10": 10
-      },
-      "france-jo.xml": {
-        "10": 28
-      },
-      "france-sn.xml": {
-        "10": 40
-      },
-      "france-la.xml": {
-        "10": 14
-      },
-      "france-mdg.xml": {
-        "10": 62
-      },
-      "france-td.xml": {
-        "10": 176
-      },
-      "france-cm.xml": {
-        "10": 24
-      },
-      "france-rca.xml": {
-        "10": 298
       },
       "france-af.xml": {
         "10": 20
       },
-      "france-mt.xml": {
-        "10": 168
+      "france-rca.xml": {
+        "10": 298
       },
-      "france-bf.xml": {
-        "10": 42
+      "france-do.xml": {
+        "10": 8
       },
-      "france-tk.xml": {
-        "10": 42
+      "france-tgo.xml": {
+        "10": 110
+      },
+      "france-ne.xml": {
+        "10": 38
+      },
+      "france-cd.xml": {
+        "10": 94
       },
       "france-gh.xml": {
         "10": 142
@@ -2746,142 +2740,142 @@
       "france-co.xml": {
         "10": 98
       },
+      "france-ht.xml": {
+        "10": 66
+      },
       "france-ke.xml": {
         "10": 64
+      },
+      "france-bo.xml": {
+        "10": 10
       },
       "france-ct.xml": {
         "10": 30
       },
-      "france-ht.xml": {
-        "10": 66
+      "france-mdg.xml": {
+        "10": 62
       },
-      "france-kh.xml": {
-        "10": 52
-      },
-      "france-za.xml": {
-        "10": 140
-      },
-      "france-do.xml": {
-        "10": 8
-      },
-      "france-ec.xml": {
-        "10": 40
-      },
-      "france-eg.xml": {
-        "10": 26
-      },
-      "france-bn.xml": {
-        "10": 20
-      },
-      "france-cd.xml": {
-        "10": 94
-      },
-      "france-ug.xml": {
-        "10": 28
+      "france-la.xml": {
+        "10": 14
       },
       "france-cg.xml": {
         "10": 132
       },
-      "france-mm.xml": {
-        "10": 54
+      "france-sn.xml": {
+        "10": 40
       },
-      "france-tn.xml": {
-        "10": 66
+      "france-td.xml": {
+        "10": 176
       },
-      "france-sd.xml": {
-        "10": 46
+      "france-bn.xml": {
+        "10": 20
       },
-      "france-ne.xml": {
-        "10": 38
-      },
-      "france-cl.xml": {
-        "10": 80
-      },
-      "france-ml.xml": {
-        "10": 324
+      "france-ng.xml": {
+        "10": 68
       },
       "france-dji.xml": {
         "10": 18
       },
-      "france-tgo.xml": {
-        "10": 110
+      "france-et.xml": {
+        "10": 40
       },
-      "france-gt.xml": {
-        "10": 22
+      "france-za.xml": {
+        "10": 140
       },
-      "france-ma.xml": {
-        "10": 180
+      "france-pk.xml": {
+        "10": 8
       },
-      "france-bdi.xml": {
-        "10": 18
+      "france-cl.xml": {
+        "10": 80
       },
-      "france-ph.xml": {
-        "10": 42
-      },
-      "france-mz.xml": {
-        "10": 132
+      "france-ga.xml": {
+        "10": 28
       },
       "france-tz.xml": {
         "10": 6
       },
+      "france-ec.xml": {
+        "10": 40
+      },
+      "france-jo.xml": {
+        "10": 28
+      },
+      "france-tn.xml": {
+        "10": 66
+      },
+      "france-mz.xml": {
+        "10": 132
+      },
+      "france-ma.xml": {
+        "10": 180
+      },
       "france-gn.xml": {
         "10": 96
       },
-      "france-br.xml": {
-        "10": 236
+      "france-tk.xml": {
+        "10": 42
       },
-      "france-pk.xml": {
-        "10": 8
+      "france-ml.xml": {
+        "10": 324
+      },
+      "france-kh.xml": {
+        "10": 52
+      },
+      "france-mt.xml": {
+        "10": 168
+      },
+      "france-ph.xml": {
+        "10": 42
+      },
+      "france-cm.xml": {
+        "10": 24
+      },
+      "france-bf.xml": {
+        "10": 42
       }
     },
     ".//recipient-country/@code": {
-      "france-et.xml": {
-        "ET": 20
+      "france-mm.xml": {
+        "MM": 27
+      },
+      "france-gt.xml": {
+        "GT": 11
+      },
+      "france-sd.xml": {
+        "SD": 23
+      },
+      "france-br.xml": {
+        "BR": 118
+      },
+      "france-bdi.xml": {
+        "BI": 9
+      },
+      "france-eg.xml": {
+        "EG": 13
       },
       "france-bd.xml": {
         "BD": 3
       },
-      "france-ga.xml": {
-        "GA": 14
-      },
-      "france-ng.xml": {
-        "NG": 34
-      },
-      "france-bo.xml": {
-        "BO": 5
-      },
-      "france-jo.xml": {
-        "JO": 14
-      },
-      "france-sn.xml": {
-        "SN": 20
-      },
-      "france-la.xml": {
-        "LA": 7
-      },
-      "france-mdg.xml": {
-        "MG": 31
-      },
-      "france-td.xml": {
-        "TD": 88
-      },
-      "france-cm.xml": {
-        "CM": 12
-      },
-      "france-rca.xml": {
-        "CF": 149
+      "france-ug.xml": {
+        "UG": 14
       },
       "france-af.xml": {
         "AF": 10
       },
-      "france-mt.xml": {
-        "MR": 84
+      "france-rca.xml": {
+        "CF": 149
       },
-      "france-bf.xml": {
-        "BF": 21
+      "france-do.xml": {
+        "DO": 4
       },
-      "france-tk.xml": {
-        "TR": 21
+      "france-tgo.xml": {
+        "TG": 55
+      },
+      "france-ne.xml": {
+        "NE": 19
+      },
+      "france-cd.xml": {
+        "CD": 47
       },
       "france-gh.xml": {
         "GH": 71
@@ -2889,142 +2883,142 @@
       "france-co.xml": {
         "KM": 49
       },
+      "france-ht.xml": {
+        "HT": 33
+      },
       "france-ke.xml": {
         "KE": 32
+      },
+      "france-bo.xml": {
+        "BO": 5
       },
       "france-ct.xml": {
         "CI": 15
       },
-      "france-ht.xml": {
-        "HT": 33
+      "france-mdg.xml": {
+        "MG": 31
       },
-      "france-kh.xml": {
-        "KH": 26
-      },
-      "france-za.xml": {
-        "ZA": 70
-      },
-      "france-do.xml": {
-        "DO": 4
-      },
-      "france-ec.xml": {
-        "EC": 20
-      },
-      "france-eg.xml": {
-        "EG": 13
-      },
-      "france-bn.xml": {
-        "BJ": 10
-      },
-      "france-cd.xml": {
-        "CD": 47
-      },
-      "france-ug.xml": {
-        "UG": 14
+      "france-la.xml": {
+        "LA": 7
       },
       "france-cg.xml": {
         "CG": 66
       },
-      "france-mm.xml": {
-        "MM": 27
+      "france-sn.xml": {
+        "SN": 20
       },
-      "france-tn.xml": {
-        "TN": 33
+      "france-td.xml": {
+        "TD": 88
       },
-      "france-sd.xml": {
-        "SD": 23
+      "france-bn.xml": {
+        "BJ": 10
       },
-      "france-ne.xml": {
-        "NE": 19
-      },
-      "france-cl.xml": {
-        "CO": 40
-      },
-      "france-ml.xml": {
-        "ML": 162
+      "france-ng.xml": {
+        "NG": 34
       },
       "france-dji.xml": {
         "DJ": 9
       },
-      "france-tgo.xml": {
-        "TG": 55
+      "france-et.xml": {
+        "ET": 20
       },
-      "france-gt.xml": {
-        "GT": 11
+      "france-za.xml": {
+        "ZA": 70
       },
-      "france-ma.xml": {
-        "MA": 90
+      "france-pk.xml": {
+        "PK": 4
       },
-      "france-bdi.xml": {
-        "BI": 9
+      "france-cl.xml": {
+        "CO": 40
       },
-      "france-ph.xml": {
-        "PH": 21
-      },
-      "france-mz.xml": {
-        "MZ": 66
+      "france-ga.xml": {
+        "GA": 14
       },
       "france-tz.xml": {
         "TZ": 3
       },
+      "france-ec.xml": {
+        "EC": 20
+      },
+      "france-jo.xml": {
+        "JO": 14
+      },
+      "france-tn.xml": {
+        "TN": 33
+      },
+      "france-mz.xml": {
+        "MZ": 66
+      },
+      "france-ma.xml": {
+        "MA": 90
+      },
       "france-gn.xml": {
         "GN": 48
       },
-      "france-br.xml": {
-        "BR": 118
+      "france-tk.xml": {
+        "TR": 21
       },
-      "france-pk.xml": {
-        "PK": 4
+      "france-ml.xml": {
+        "ML": 162
+      },
+      "france-kh.xml": {
+        "KH": 26
+      },
+      "france-mt.xml": {
+        "MR": 84
+      },
+      "france-ph.xml": {
+        "PH": 21
+      },
+      "france-cm.xml": {
+        "CM": 12
+      },
+      "france-bf.xml": {
+        "BF": 21
       }
     },
     ".//reporting-org/@type": {
-      "france-et.xml": {
-        "10": 20
+      "france-mm.xml": {
+        "10": 27
+      },
+      "france-gt.xml": {
+        "10": 11
+      },
+      "france-sd.xml": {
+        "10": 23
+      },
+      "france-br.xml": {
+        "10": 118
+      },
+      "france-bdi.xml": {
+        "10": 9
+      },
+      "france-eg.xml": {
+        "10": 13
       },
       "france-bd.xml": {
         "10": 3
       },
-      "france-ga.xml": {
+      "france-ug.xml": {
         "10": 14
-      },
-      "france-ng.xml": {
-        "10": 34
-      },
-      "france-bo.xml": {
-        "10": 5
-      },
-      "france-jo.xml": {
-        "10": 14
-      },
-      "france-sn.xml": {
-        "10": 20
-      },
-      "france-la.xml": {
-        "10": 7
-      },
-      "france-mdg.xml": {
-        "10": 31
-      },
-      "france-td.xml": {
-        "10": 88
-      },
-      "france-cm.xml": {
-        "10": 12
-      },
-      "france-rca.xml": {
-        "10": 149
       },
       "france-af.xml": {
         "10": 10
       },
-      "france-mt.xml": {
-        "10": 84
+      "france-rca.xml": {
+        "10": 149
       },
-      "france-bf.xml": {
-        "10": 21
+      "france-do.xml": {
+        "10": 4
       },
-      "france-tk.xml": {
-        "10": 21
+      "france-tgo.xml": {
+        "10": 55
+      },
+      "france-ne.xml": {
+        "10": 19
+      },
+      "france-cd.xml": {
+        "10": 47
       },
       "france-gh.xml": {
         "10": 71
@@ -3032,233 +3026,220 @@
       "france-co.xml": {
         "10": 49
       },
+      "france-ht.xml": {
+        "10": 33
+      },
       "france-ke.xml": {
         "10": 32
+      },
+      "france-bo.xml": {
+        "10": 5
       },
       "france-ct.xml": {
         "10": 15
       },
-      "france-ht.xml": {
-        "10": 33
+      "france-mdg.xml": {
+        "10": 31
       },
-      "france-kh.xml": {
-        "10": 26
-      },
-      "france-za.xml": {
-        "10": 70
-      },
-      "france-do.xml": {
-        "10": 4
-      },
-      "france-ec.xml": {
-        "10": 20
-      },
-      "france-eg.xml": {
-        "10": 13
-      },
-      "france-bn.xml": {
-        "10": 10
-      },
-      "france-cd.xml": {
-        "10": 47
-      },
-      "france-ug.xml": {
-        "10": 14
+      "france-la.xml": {
+        "10": 7
       },
       "france-cg.xml": {
         "10": 66
       },
-      "france-mm.xml": {
-        "10": 27
+      "france-sn.xml": {
+        "10": 20
       },
-      "france-tn.xml": {
-        "10": 33
+      "france-td.xml": {
+        "10": 88
       },
-      "france-sd.xml": {
-        "10": 23
+      "france-bn.xml": {
+        "10": 10
       },
-      "france-ne.xml": {
-        "10": 19
-      },
-      "france-cl.xml": {
-        "10": 40
-      },
-      "france-ml.xml": {
-        "10": 162
+      "france-ng.xml": {
+        "10": 34
       },
       "france-dji.xml": {
         "10": 9
       },
-      "france-tgo.xml": {
-        "10": 55
+      "france-et.xml": {
+        "10": 20
       },
-      "france-gt.xml": {
-        "10": 11
+      "france-za.xml": {
+        "10": 70
       },
-      "france-ma.xml": {
-        "10": 90
+      "france-pk.xml": {
+        "10": 4
       },
-      "france-bdi.xml": {
-        "10": 9
+      "france-cl.xml": {
+        "10": 40
       },
-      "france-ph.xml": {
-        "10": 21
-      },
-      "france-mz.xml": {
-        "10": 66
+      "france-ga.xml": {
+        "10": 14
       },
       "france-tz.xml": {
         "10": 3
       },
+      "france-ec.xml": {
+        "10": 20
+      },
+      "france-jo.xml": {
+        "10": 14
+      },
+      "france-tn.xml": {
+        "10": 33
+      },
+      "france-mz.xml": {
+        "10": 66
+      },
+      "france-ma.xml": {
+        "10": 90
+      },
       "france-gn.xml": {
         "10": 48
       },
-      "france-br.xml": {
-        "10": 118
+      "france-tk.xml": {
+        "10": 21
       },
-      "france-pk.xml": {
-        "10": 4
+      "france-ml.xml": {
+        "10": 162
+      },
+      "france-kh.xml": {
+        "10": 26
+      },
+      "france-mt.xml": {
+        "10": 84
+      },
+      "france-ph.xml": {
+        "10": 21
+      },
+      "france-cm.xml": {
+        "10": 12
+      },
+      "france-bf.xml": {
+        "10": 21
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "france-et.xml": {
-        "11110": 2,
-        "11420": 2,
+      "france-mm.xml": {
+        "15150": 4,
+        "15153": 4,
+        "52010": 2,
+        "15151": 1,
+        "72040": 3,
+        "14010": 1,
+        "16061": 6,
+        "14050": 1,
+        "15160": 1,
+        "14020": 1,
+        "23040": 1,
+        "11420": 1,
+        "41040": 1
+      },
+      "france-gt.xml": {
+        "16061": 1,
+        "11110": 3,
+        "41010": 1,
+        "11230": 1,
+        "41040": 2,
+        "11130": 1,
+        "15220": 1,
+        "11240": 1
+      },
+      "france-sd.xml": {
+        "15160": 16,
+        "72040": 2,
+        "31140": 1,
+        "31162": 1,
+        "15110": 2,
+        "11130": 1
+      },
+      "france-br.xml": {
+        "15160": 9,
+        "15110": 8,
+        "15170": 8,
+        "12250": 2,
+        "24010": 2,
+        "12281": 8,
+        "12110": 6,
+        "11110": 7,
+        "12182": 3,
+        "31182": 1,
+        "32268": 1,
+        "41010": 1,
+        "99810": 9,
+        "23070": 1,
+        "11330": 2,
+        "12191": 4,
+        "12240": 1,
+        "13040": 3,
+        "11420": 6,
+        "12220": 3,
+        "41081": 4,
+        "31165": 3,
+        "31110": 1,
+        "23010": 1,
+        "41082": 2,
+        "12181": 1,
+        "13010": 2,
+        "16010": 1,
+        "31192": 1,
         "11230": 3,
-        "33210": 1,
-        "16061": 8,
-        "12191": 1,
-        "72040": 1,
-        "15153": 1,
-        "11182": 1
+        "15130": 4,
+        "15210": 1,
+        "31194": 1,
+        "31281": 1,
+        "41030": 1,
+        "14050": 1,
+        "31181": 1,
+        "41020": 1,
+        "16050": 1,
+        "43040": 1,
+        "31140": 1
+      },
+      "france-bdi.xml": {
+        "11320": 1,
+        "15110": 1,
+        "43010": 2,
+        "15160": 1,
+        "11110": 2,
+        "15150": 1,
+        "15170": 1
+      },
+      "france-eg.xml": {
+        "15170": 3,
+        "12220": 2,
+        "12261": 4,
+        "11330": 1,
+        "99810": 1,
+        "11240": 1,
+        "11130": 1
       },
       "france-bd.xml": {
         "11230": 1,
         "12182": 1,
         "15150": 1
       },
-      "france-ga.xml": {
-        "15150": 2,
-        "32140": 4,
-        "12261": 1,
-        "11230": 2,
-        "13040": 1,
-        "13030": 1,
-        "41040": 1,
-        "11330": 1,
-        "15170": 1
-      },
-      "france-ng.xml": {
-        "15150": 1,
-        "15160": 7,
-        "72040": 4,
-        "52010": 4,
-        "16050": 2,
-        "31165": 1,
-        "12240": 3,
-        "15220": 5,
-        "15261": 1,
-        "41081": 1,
-        "12250": 2,
-        "12220": 1,
-        "14030": 2
-      },
-      "france-bo.xml": {
-        "12110": 1,
-        "12230": 1,
-        "11110": 1,
-        "41081": 1,
-        "43081": 1
-      },
-      "france-jo.xml": {
-        "11330": 2,
-        "15130": 2,
-        "11420": 2,
-        "43081": 1,
-        "15170": 2,
-        "15160": 1,
-        "33181": 1,
-        "12250": 1,
-        "16061": 1,
-        "73010": 1
-      },
-      "france-sn.xml": {
-        "14031": 3,
-        "14021": 2,
-        "15130": 1,
-        "15150": 5,
-        "15113": 1,
-        "11110": 1,
-        "41081": 1,
-        "11240": 1,
-        "15170": 1,
-        "11130": 1,
-        "13030": 1,
-        "11420": 2
-      },
-      "france-la.xml": {
-        "15150": 2,
-        "11110": 3,
-        "11120": 1,
-        "72040": 1
-      },
-      "france-mdg.xml": {
-        "31182": 1,
-        "16061": 3,
-        "15110": 2,
-        "43010": 3,
-        "11130": 1,
-        "11420": 3,
-        "15130": 2,
-        "31181": 1,
-        "99810": 2,
-        "52010": 1,
-        "41082": 1,
-        "11330": 2,
-        "16010": 1,
-        "15151": 1,
-        "72040": 1,
-        "11320": 2,
-        "15170": 1,
-        "15150": 2,
-        "15112": 1
-      },
-      "france-td.xml": {
-        "51010": 23,
-        "72040": 6,
-        "72010": 1,
+      "france-ug.xml": {
+        "93010": 2,
         "73010": 1,
-        "11110": 2,
-        "11420": 4,
-        "43082": 1,
-        "15110": 5,
-        "15112": 2,
-        "15113": 1,
-        "15130": 2,
         "15150": 3,
-        "16061": 4,
-        "12240": 6,
-        "41081": 1,
-        "15160": 2,
-        "32130": 2,
-        "11330": 3,
-        "11230": 5,
-        "12220": 3,
-        "11320": 1,
-        "15153": 1,
-        "99810": 1,
-        "31120": 1,
-        "52010": 2,
-        "15220": 2,
-        "15170": 2,
-        "12281": 1
+        "31165": 1,
+        "72040": 1,
+        "11110": 1,
+        "52010": 1,
+        "12220": 1,
+        "11330": 1,
+        "12240": 1,
+        "31161": 1
       },
-      "france-cm.xml": {
-        "15150": 2,
-        "15220": 5,
-        "41081": 2,
-        "15112": 1,
-        "52010": 2
+      "france-af.xml": {
+        "12191": 1,
+        "11120": 1,
+        "11420": 4,
+        "15110": 2,
+        "43082": 1,
+        "16061": 1
       },
       "france-rca.xml": {
         "11120": 4,
@@ -3308,64 +3289,74 @@
         "22030": 1,
         "72040": 3
       },
-      "france-af.xml": {
-        "12191": 1,
-        "11120": 1,
-        "11420": 4,
-        "15110": 2,
-        "43082": 1,
-        "16061": 1
-      },
-      "france-mt.xml": {
-        "16061": 12,
-        "15150": 29,
-        "11420": 6,
-        "41010": 1,
-        "15111": 1,
-        "52010": 1,
-        "15112": 2,
-        "43030": 1,
-        "15160": 2,
-        "72040": 1,
-        "11330": 1,
-        "14030": 1,
-        "15170": 1,
-        "11110": 10,
-        "12191": 1,
-        "11230": 6,
-        "72050": 1,
-        "12181": 1,
-        "11430": 1,
-        "99820": 2,
-        "41081": 1,
-        "11240": 1,
-        "15153": 1
-      },
-      "france-bf.xml": {
+      "france-do.xml": {
         "15130": 1,
-        "32210": 1,
-        "11330": 1,
-        "15114": 1,
-        "43010": 1,
-        "11420": 3,
-        "15150": 3,
-        "41081": 1,
-        "15160": 1,
-        "11230": 1,
-        "14050": 1,
-        "15110": 1,
-        "16062": 1,
-        "11110": 1,
-        "16061": 1,
-        "99810": 1,
-        "33130": 1
+        "41082": 1,
+        "11420": 1,
+        "33210": 1
       },
-      "france-tk.xml": {
-        "15160": 11,
-        "16061": 5,
-        "15153": 1,
-        "15170": 3,
-        "12250": 1
+      "france-tgo.xml": {
+        "11420": 1,
+        "15112": 1,
+        "15130": 1,
+        "15110": 1,
+        "41081": 1,
+        "41030": 4,
+        "31261": 2,
+        "99810": 2,
+        "14050": 6,
+        "43040": 2,
+        "31120": 8,
+        "12220": 3,
+        "15170": 2,
+        "31165": 3,
+        "41020": 1,
+        "11330": 5,
+        "41082": 1,
+        "31194": 1,
+        "15153": 2,
+        "14081": 1,
+        "23082": 1,
+        "31140": 1,
+        "31181": 1,
+        "23030": 1,
+        "14030": 1,
+        "16061": 1,
+        "11110": 1
+      },
+      "france-ne.xml": {
+        "15111": 1,
+        "16061": 1,
+        "43010": 1,
+        "11230": 2,
+        "32130": 2,
+        "15150": 7,
+        "11420": 2,
+        "15113": 1,
+        "15160": 1,
+        "13030": 1
+      },
+      "france-cd.xml": {
+        "15150": 5,
+        "52010": 16,
+        "15130": 2,
+        "32130": 2,
+        "16050": 1,
+        "15160": 2,
+        "31194": 1,
+        "31220": 2,
+        "15151": 2,
+        "15110": 2,
+        "31320": 1,
+        "15170": 1,
+        "15152": 1,
+        "22040": 1,
+        "32210": 2,
+        "16061": 1,
+        "72040": 1,
+        "11110": 2,
+        "11330": 1,
+        "11230": 1
       },
       "france-gh.xml": {
         "15150": 7,
@@ -3421,6 +3412,19 @@
         "31165": 1,
         "11110": 5
       },
+      "france-ht.xml": {
+        "52010": 2,
+        "16010": 2,
+        "15112": 2,
+        "15210": 2,
+        "11420": 6,
+        "16061": 9,
+        "15150": 3,
+        "11110": 2,
+        "15110": 1,
+        "41081": 2,
+        "15160": 2
+      },
       "france-ke.xml": {
         "11120": 6,
         "32167": 1,
@@ -3442,6 +3446,13 @@
         "43030": 2,
         "52010": 1
       },
+      "france-bo.xml": {
+        "12110": 1,
+        "12230": 1,
+        "11110": 1,
+        "41081": 1,
+        "43081": 1
+      },
       "france-ct.xml": {
         "15160": 5,
         "15170": 2,
@@ -3453,129 +3464,32 @@
         "31181": 1,
         "99810": 1
       },
-      "france-ht.xml": {
-        "52010": 2,
-        "16010": 2,
-        "15112": 2,
-        "15210": 2,
-        "11420": 6,
-        "16061": 9,
-        "15150": 3,
-        "11110": 2,
-        "15110": 1,
-        "41081": 2,
-        "15160": 2
-      },
-      "france-kh.xml": {
-        "32140": 1,
-        "22030": 1,
-        "11420": 11,
-        "41040": 3,
-        "43030": 1,
-        "15160": 2,
-        "12182": 2,
-        "41081": 1,
-        "11110": 1,
+      "france-mdg.xml": {
+        "31182": 1,
+        "16061": 3,
+        "15110": 2,
+        "43010": 3,
+        "11130": 1,
+        "11420": 3,
+        "15130": 2,
+        "31181": 1,
         "99810": 2,
-        "11230": 1
-      },
-      "france-za.xml": {
-        "15150": 6,
-        "15160": 13,
-        "11120": 4,
-        "11420": 1,
-        "11130": 10,
-        "11230": 8,
-        "11330": 4,
-        "11110": 4,
-        "11320": 2,
-        "15153": 1,
-        "99820": 1,
-        "13030": 1,
-        "12220": 1,
-        "15130": 2,
-        "15110": 2,
-        "31165": 1,
-        "16010": 1,
-        "72010": 2,
-        "72040": 1,
-        "15170": 4,
-        "12250": 1
-      },
-      "france-do.xml": {
-        "15130": 1,
-        "41082": 1,
-        "11420": 1,
-        "33210": 1
-      },
-      "france-ec.xml": {
-        "15130": 3,
-        "31120": 1,
-        "15160": 2,
-        "41010": 1,
-        "33210": 3,
-        "16061": 1,
-        "15170": 1,
-        "13040": 2,
-        "99810": 1,
-        "31165": 1,
-        "11420": 1,
-        "12220": 1,
-        "15150": 2
-      },
-      "france-eg.xml": {
-        "15170": 3,
-        "12220": 2,
-        "12261": 4,
-        "11330": 1,
-        "99810": 1,
-        "11240": 1,
-        "11130": 1
-      },
-      "france-bn.xml": {
-        "11330": 1,
-        "15150": 1,
-        "15210": 1,
-        "33210": 2,
-        "11130": 2,
-        "15160": 1,
-        "11230": 1,
-        "15170": 1
-      },
-      "france-cd.xml": {
-        "15150": 5,
-        "52010": 16,
-        "15130": 2,
-        "32130": 2,
-        "16050": 1,
-        "15160": 2,
-        "31194": 1,
-        "31220": 2,
-        "15151": 2,
-        "15110": 2,
-        "31320": 1,
-        "15170": 1,
-        "15152": 1,
-        "22040": 1,
-        "32210": 2,
-        "16061": 1,
-        "72040": 1,
-        "11110": 2,
-        "11330": 1,
-        "11230": 1
-      },
-      "france-ug.xml": {
-        "93010": 2,
-        "73010": 1,
-        "15150": 3,
-        "31165": 1,
-        "72040": 1,
-        "11110": 1,
         "52010": 1,
-        "12220": 1,
-        "11330": 1,
-        "12240": 1,
-        "31161": 1
+        "41082": 1,
+        "11330": 2,
+        "16010": 1,
+        "15151": 1,
+        "72040": 1,
+        "11320": 2,
+        "15170": 1,
+        "15150": 2,
+        "15112": 1
+      },
+      "france-la.xml": {
+        "15150": 2,
+        "11110": 3,
+        "11120": 1,
+        "72040": 1
       },
       "france-cg.xml": {
         "15170": 4,
@@ -3610,61 +3524,123 @@
         "12181": 1,
         "72040": 1
       },
-      "france-mm.xml": {
-        "15150": 4,
-        "15153": 4,
-        "52010": 2,
-        "15151": 1,
-        "72040": 3,
-        "14010": 1,
-        "16061": 6,
-        "14050": 1,
-        "15160": 1,
-        "14020": 1,
-        "23040": 1,
-        "11420": 1,
-        "41040": 1
-      },
-      "france-tn.xml": {
+      "france-sn.xml": {
+        "14031": 3,
+        "14021": 2,
+        "15130": 1,
         "15150": 5,
-        "43010": 1,
-        "15153": 2,
-        "15170": 3,
-        "12182": 1,
-        "12110": 2,
-        "16010": 1,
+        "15113": 1,
         "11110": 1,
-        "12191": 1,
-        "11420": 3,
-        "15112": 1,
-        "15151": 1,
-        "16061": 3,
         "41081": 1,
-        "11430": 1,
-        "13040": 1,
+        "11240": 1,
+        "15170": 1,
+        "11130": 1,
+        "13030": 1,
+        "11420": 2
+      },
+      "france-td.xml": {
+        "51010": 23,
+        "72040": 6,
+        "72010": 1,
+        "73010": 1,
+        "11110": 2,
+        "11420": 4,
+        "43082": 1,
+        "15110": 5,
+        "15112": 2,
+        "15113": 1,
+        "15130": 2,
+        "15150": 3,
+        "16061": 4,
+        "12240": 6,
+        "41081": 1,
+        "15160": 2,
+        "32130": 2,
+        "11330": 3,
+        "11230": 5,
+        "12220": 3,
+        "11320": 1,
+        "15153": 1,
+        "99810": 1,
+        "31120": 1,
+        "52010": 2,
+        "15220": 2,
+        "15170": 2,
+        "12281": 1
+      },
+      "france-bn.xml": {
+        "11330": 1,
+        "15150": 1,
+        "15210": 1,
+        "33210": 2,
+        "11130": 2,
+        "15160": 1,
         "11230": 1,
-        "11130": 3,
+        "15170": 1
+      },
+      "france-ng.xml": {
+        "15150": 1,
+        "15160": 7,
+        "72040": 4,
+        "52010": 4,
+        "16050": 2,
+        "31165": 1,
+        "12240": 3,
+        "15220": 5,
+        "15261": 1,
+        "41081": 1,
+        "12250": 2,
+        "12220": 1,
+        "14030": 2
+      },
+      "france-dji.xml": {
+        "15110": 1,
+        "11110": 2,
+        "11420": 2,
+        "43081": 1,
+        "11130": 1,
+        "11330": 1,
+        "15170": 1
+      },
+      "france-et.xml": {
+        "11110": 2,
+        "11420": 2,
+        "11230": 3,
+        "33210": 1,
+        "16061": 8,
+        "12191": 1,
+        "72040": 1,
+        "15153": 1,
         "11182": 1
       },
-      "france-sd.xml": {
-        "15160": 16,
-        "72040": 2,
-        "31140": 1,
-        "31162": 1,
+      "france-za.xml": {
+        "15150": 6,
+        "15160": 13,
+        "11120": 4,
+        "11420": 1,
+        "11130": 10,
+        "11230": 8,
+        "11330": 4,
+        "11110": 4,
+        "11320": 2,
+        "15153": 1,
+        "99820": 1,
+        "13030": 1,
+        "12220": 1,
+        "15130": 2,
         "15110": 2,
-        "11130": 1
+        "31165": 1,
+        "16010": 1,
+        "72010": 2,
+        "72040": 1,
+        "15170": 4,
+        "12250": 1
       },
-      "france-ne.xml": {
-        "15111": 1,
-        "16061": 1,
-        "43010": 1,
-        "11230": 2,
-        "32130": 2,
-        "15150": 7,
-        "11420": 2,
-        "15113": 1,
-        "15160": 1,
-        "13030": 1
+      "france-pk.xml": {
+        "15110": 1,
+        "15150": 1,
+        "12240": 1,
+        "15160": 1
       },
       "france-cl.xml": {
         "43040": 2,
@@ -3693,6 +3669,139 @@
         "31163": 1,
         "31120": 2,
         "12191": 1
+      },
+      "france-ga.xml": {
+        "15150": 2,
+        "32140": 4,
+        "12261": 1,
+        "11230": 2,
+        "13040": 1,
+        "13030": 1,
+        "41040": 1,
+        "11330": 1,
+        "15170": 1
+      },
+      "france-tz.xml": {
+        "15170": 1,
+        "15150": 1,
+        "31181": 1
+      },
+      "france-ec.xml": {
+        "15130": 3,
+        "31120": 1,
+        "15160": 2,
+        "41010": 1,
+        "33210": 3,
+        "16061": 1,
+        "15170": 1,
+        "13040": 2,
+        "99810": 1,
+        "31165": 1,
+        "11420": 1,
+        "12220": 1,
+        "15150": 2
+      },
+      "france-jo.xml": {
+        "11330": 2,
+        "15130": 2,
+        "11420": 2,
+        "43081": 1,
+        "15170": 2,
+        "15160": 1,
+        "33181": 1,
+        "12250": 1,
+        "16061": 1,
+        "73010": 1
+      },
+      "france-tn.xml": {
+        "15150": 5,
+        "43010": 1,
+        "15153": 2,
+        "15170": 3,
+        "12182": 1,
+        "12110": 2,
+        "16010": 1,
+        "11110": 1,
+        "12191": 1,
+        "11420": 3,
+        "15112": 1,
+        "15151": 1,
+        "16061": 3,
+        "41081": 1,
+        "11430": 1,
+        "13040": 1,
+        "11230": 1,
+        "11130": 3,
+        "11182": 1
+      },
+      "france-mz.xml": {
+        "15160": 8,
+        "15170": 11,
+        "11230": 3,
+        "15150": 11,
+        "14032": 1,
+        "11330": 11,
+        "15111": 1,
+        "41081": 7,
+        "52010": 2,
+        "41020": 3,
+        "14050": 1,
+        "31181": 1,
+        "11130": 1,
+        "99810": 1,
+        "31165": 1,
+        "23070": 1,
+        "41040": 1,
+        "41050": 1
+      },
+      "france-ma.xml": {
+        "11220": 1,
+        "16061": 5,
+        "15160": 4,
+        "11110": 3,
+        "11230": 8,
+        "99810": 55,
+        "15150": 6,
+        "31181": 1,
+        "15112": 1,
+        "14050": 1,
+        "15170": 1,
+        "41081": 1,
+        "16010": 3
+      },
+      "france-gn.xml": {
+        "12182": 2,
+        "15130": 4,
+        "99810": 6,
+        "12220": 1,
+        "14031": 1,
+        "99820": 2,
+        "15160": 4,
+        "16010": 5,
+        "11230": 1,
+        "16061": 2,
+        "31165": 1,
+        "11240": 2,
+        "11110": 1,
+        "11130": 2,
+        "11330": 2,
+        "15170": 1,
+        "31181": 1,
+        "15150": 2,
+        "23068": 1,
+        "31191": 1,
+        "41020": 1,
+        "15114": 2,
+        "15113": 1,
+        "41081": 1,
+        "11182": 1
+      },
+      "france-tk.xml": {
+        "15160": 11,
+        "16061": 5,
+        "15153": 1,
+        "15170": 3,
+        "12250": 1
       },
       "france-ml.xml": {
         "11110": 4,
@@ -3742,77 +3851,43 @@
         "12281": 1,
         "11130": 1
       },
-      "france-dji.xml": {
-        "15110": 1,
-        "11110": 2,
-        "11420": 2,
-        "43081": 1,
-        "11130": 1,
-        "11330": 1,
-        "15170": 1
-      },
-      "france-tgo.xml": {
-        "11420": 1,
-        "15112": 1,
-        "15130": 1,
-        "15110": 1,
+      "france-kh.xml": {
+        "32140": 1,
+        "22030": 1,
+        "11420": 11,
+        "41040": 3,
+        "43030": 1,
+        "15160": 2,
+        "12182": 2,
         "41081": 1,
-        "41030": 4,
-        "31261": 2,
+        "11110": 1,
         "99810": 2,
-        "14050": 6,
-        "43040": 2,
-        "31120": 8,
-        "12220": 3,
-        "15170": 2,
-        "31165": 3,
-        "41020": 1,
-        "11330": 5,
-        "41082": 1,
-        "31194": 1,
-        "15153": 2,
-        "14081": 1,
-        "23082": 1,
-        "31140": 1,
-        "31181": 1,
-        "23030": 1,
-        "14030": 1,
-        "16061": 1,
-        "11110": 1
+        "11230": 1
       },
-      "france-gt.xml": {
-        "16061": 1,
-        "11110": 3,
+      "france-mt.xml": {
+        "16061": 12,
+        "15150": 29,
+        "11420": 6,
         "41010": 1,
-        "11230": 1,
-        "41040": 2,
-        "11130": 1,
-        "15220": 1,
-        "11240": 1
-      },
-      "france-ma.xml": {
-        "11220": 1,
-        "16061": 5,
-        "15160": 4,
-        "11110": 3,
-        "11230": 8,
-        "99810": 55,
-        "15150": 6,
-        "31181": 1,
-        "15112": 1,
-        "14050": 1,
+        "15111": 1,
+        "52010": 1,
+        "15112": 2,
+        "43030": 1,
+        "15160": 2,
+        "72040": 1,
+        "11330": 1,
+        "14030": 1,
         "15170": 1,
+        "11110": 10,
+        "12191": 1,
+        "11230": 6,
+        "72050": 1,
+        "12181": 1,
+        "11430": 1,
+        "99820": 2,
         "41081": 1,
-        "16010": 3
-      },
-      "france-bdi.xml": {
-        "11320": 1,
-        "15110": 1,
-        "43010": 2,
-        "15160": 1,
-        "11110": 2,
-        "15150": 1,
-        "15170": 1
+        "11240": 1,
+        "15153": 1
       },
       "france-ph.xml": {
         "11110": 2,
@@ -3831,156 +3906,75 @@
         "41030": 1,
         "31165": 1
       },
-      "france-mz.xml": {
-        "15160": 8,
-        "15170": 11,
-        "11230": 3,
-        "15150": 11,
-        "14032": 1,
-        "11330": 11,
-        "15111": 1,
-        "41081": 7,
-        "52010": 2,
-        "41020": 3,
-        "14050": 1,
-        "31181": 1,
-        "11130": 1,
-        "99810": 1,
-        "31165": 1,
-        "23070": 1,
-        "41040": 1,
-        "41050": 1
-      },
-      "france-tz.xml": {
-        "15170": 1,
-        "15150": 1,
-        "31181": 1
-      },
-      "france-gn.xml": {
-        "12182": 2,
-        "15130": 4,
-        "99810": 6,
-        "12220": 1,
-        "14031": 1,
-        "99820": 2,
-        "15160": 4,
-        "16010": 5,
-        "11230": 1,
-        "16061": 2,
-        "31165": 1,
-        "11240": 2,
-        "11110": 1,
-        "11130": 2,
-        "11330": 2,
-        "15170": 1,
-        "31181": 1,
+      "france-cm.xml": {
         "15150": 2,
-        "23068": 1,
-        "31191": 1,
-        "41020": 1,
-        "15114": 2,
-        "15113": 1,
+        "15220": 5,
+        "41081": 2,
+        "15112": 1,
+        "52010": 2
+      },
+      "france-bf.xml": {
+        "15130": 1,
+        "32210": 1,
+        "11330": 1,
+        "15114": 1,
+        "43010": 1,
+        "11420": 3,
+        "15150": 3,
         "41081": 1,
-        "11182": 1
-      },
-      "france-br.xml": {
-        "15160": 9,
-        "15110": 8,
-        "15170": 8,
-        "12250": 2,
-        "24010": 2,
-        "12281": 8,
-        "12110": 6,
-        "11110": 7,
-        "12182": 3,
-        "31182": 1,
-        "32268": 1,
-        "41010": 1,
-        "99810": 9,
-        "23070": 1,
-        "11330": 2,
-        "12191": 4,
-        "12240": 1,
-        "13040": 3,
-        "11420": 6,
-        "12220": 3,
-        "41081": 4,
-        "31165": 3,
-        "31110": 1,
-        "23010": 1,
-        "41082": 2,
-        "12181": 1,
-        "13010": 2,
-        "16010": 1,
-        "31192": 1,
-        "11230": 3,
-        "15130": 4,
-        "15210": 1,
-        "31194": 1,
-        "31281": 1,
-        "41030": 1,
+        "15160": 1,
+        "11230": 1,
         "14050": 1,
-        "31181": 1,
-        "41020": 1,
-        "16050": 1,
-        "43040": 1,
-        "31140": 1
-      },
-      "france-pk.xml": {
         "15110": 1,
-        "15150": 1,
-        "12240": 1,
-        "15160": 1
+        "16062": 1,
+        "11110": 1,
+        "16061": 1,
+        "99810": 1,
+        "33130": 1
       }
     },
     ".//sector/@vocabulary": {
-      "france-et.xml": {
-        "1": 20
+      "france-mm.xml": {
+        "1": 27
+      },
+      "france-gt.xml": {
+        "1": 11
+      },
+      "france-sd.xml": {
+        "1": 23
+      },
+      "france-br.xml": {
+        "1": 118
+      },
+      "france-bdi.xml": {
+        "1": 9
+      },
+      "france-eg.xml": {
+        "1": 13
       },
       "france-bd.xml": {
         "1": 3
       },
-      "france-ga.xml": {
+      "france-ug.xml": {
         "1": 14
-      },
-      "france-ng.xml": {
-        "1": 34
-      },
-      "france-bo.xml": {
-        "1": 5
-      },
-      "france-jo.xml": {
-        "1": 14
-      },
-      "france-sn.xml": {
-        "1": 20
-      },
-      "france-la.xml": {
-        "1": 7
-      },
-      "france-mdg.xml": {
-        "1": 31
-      },
-      "france-td.xml": {
-        "1": 88
-      },
-      "france-cm.xml": {
-        "1": 12
-      },
-      "france-rca.xml": {
-        "1": 149
       },
       "france-af.xml": {
         "1": 10
       },
-      "france-mt.xml": {
-        "1": 84
+      "france-rca.xml": {
+        "1": 149
       },
-      "france-bf.xml": {
-        "1": 21
+      "france-do.xml": {
+        "1": 4
       },
-      "france-tk.xml": {
-        "1": 21
+      "france-tgo.xml": {
+        "1": 55
+      },
+      "france-ne.xml": {
+        "1": 19
+      },
+      "france-cd.xml": {
+        "1": 47
       },
       "france-gh.xml": {
         "1": 71
@@ -3988,158 +3982,156 @@
       "france-co.xml": {
         "1": 49
       },
+      "france-ht.xml": {
+        "1": 33
+      },
       "france-ke.xml": {
         "1": 32
+      },
+      "france-bo.xml": {
+        "1": 5
       },
       "france-ct.xml": {
         "1": 15
       },
-      "france-ht.xml": {
-        "1": 33
+      "france-mdg.xml": {
+        "1": 31
       },
-      "france-kh.xml": {
-        "1": 26
-      },
-      "france-za.xml": {
-        "1": 70
-      },
-      "france-do.xml": {
-        "1": 4
-      },
-      "france-ec.xml": {
-        "1": 20
-      },
-      "france-eg.xml": {
-        "1": 13
-      },
-      "france-bn.xml": {
-        "1": 10
-      },
-      "france-cd.xml": {
-        "1": 47
-      },
-      "france-ug.xml": {
-        "1": 14
+      "france-la.xml": {
+        "1": 7
       },
       "france-cg.xml": {
         "1": 66
       },
-      "france-mm.xml": {
-        "1": 27
+      "france-sn.xml": {
+        "1": 20
       },
-      "france-tn.xml": {
-        "1": 33
+      "france-td.xml": {
+        "1": 88
       },
-      "france-sd.xml": {
-        "1": 23
+      "france-bn.xml": {
+        "1": 10
       },
-      "france-ne.xml": {
-        "1": 19
-      },
-      "france-cl.xml": {
-        "1": 40
-      },
-      "france-ml.xml": {
-        "1": 162
+      "france-ng.xml": {
+        "1": 34
       },
       "france-dji.xml": {
         "1": 9
       },
-      "france-tgo.xml": {
-        "1": 55
+      "france-et.xml": {
+        "1": 20
       },
-      "france-gt.xml": {
-        "1": 11
+      "france-za.xml": {
+        "1": 70
       },
-      "france-ma.xml": {
-        "1": 90
+      "france-pk.xml": {
+        "1": 4
       },
-      "france-bdi.xml": {
-        "1": 9
+      "france-cl.xml": {
+        "1": 40
       },
-      "france-ph.xml": {
-        "1": 21
-      },
-      "france-mz.xml": {
-        "1": 66
+      "france-ga.xml": {
+        "1": 14
       },
       "france-tz.xml": {
         "1": 3
       },
+      "france-ec.xml": {
+        "1": 20
+      },
+      "france-jo.xml": {
+        "1": 14
+      },
+      "france-tn.xml": {
+        "1": 33
+      },
+      "france-mz.xml": {
+        "1": 66
+      },
+      "france-ma.xml": {
+        "1": 90
+      },
       "france-gn.xml": {
         "1": 48
       },
-      "france-br.xml": {
-        "1": 118
+      "france-tk.xml": {
+        "1": 21
       },
-      "france-pk.xml": {
-        "1": 4
+      "france-ml.xml": {
+        "1": 162
+      },
+      "france-kh.xml": {
+        "1": 26
+      },
+      "france-mt.xml": {
+        "1": 84
+      },
+      "france-ph.xml": {
+        "1": 21
+      },
+      "france-cm.xml": {
+        "1": 12
+      },
+      "france-bf.xml": {
+        "1": 21
       }
     },
     ".//transaction/transaction-type/@code": {
-      "france-et.xml": {
-        "2": 20,
+      "france-mm.xml": {
+        "2": 74,
+        "3": 89
+      },
+      "france-gt.xml": {
+        "2": 8,
+        "3": 8
+      },
+      "france-sd.xml": {
+        "2": 23,
         "3": 20
+      },
+      "france-br.xml": {
+        "2": 116,
+        "3": 115
+      },
+      "france-bdi.xml": {
+        "2": 9,
+        "3": 9
+      },
+      "france-eg.xml": {
+        "2": 15,
+        "3": 15
       },
       "france-bd.xml": {
         "2": 3,
         "3": 3
       },
-      "france-ga.xml": {
+      "france-ug.xml": {
         "2": 14,
-        "3": 14
-      },
-      "france-ng.xml": {
-        "2": 35,
-        "3": 36
-      },
-      "france-bo.xml": {
-        "2": 6,
-        "3": 7
-      },
-      "france-jo.xml": {
-        "2": 14,
-        "3": 15
-      },
-      "france-sn.xml": {
-        "2": 18,
-        "3": 18
-      },
-      "france-la.xml": {
-        "2": 6,
-        "3": 7
-      },
-      "france-mdg.xml": {
-        "2": 31,
-        "3": 28
-      },
-      "france-td.xml": {
-        "2": 88,
-        "3": 88
-      },
-      "france-cm.xml": {
-        "2": 12,
-        "3": 12
-      },
-      "france-rca.xml": {
-        "2": 148,
-        "3": 148
+        "3": 13
       },
       "france-af.xml": {
         "2": 10,
         "3": 10
       },
-      "france-mt.xml": {
-        "2": 84,
-        "3": 82
+      "france-rca.xml": {
+        "2": 148,
+        "3": 148
       },
-      "france-bf.xml": {
-        "2": 20,
-        "3": 18
+      "france-do.xml": {
+        "2": 4,
+        "3": 4
       },
-      "france-tk.xml": {
-        "2": 21,
-        "3": 20
+      "france-tgo.xml": {
+        "2": 55,
+        "3": 53
+      },
+      "france-ne.xml": {
+        "2": 19,
+        "3": 19
+      },
+      "france-cd.xml": {
+        "2": 47,
+        "3": 43
       },
       "france-gh.xml": {
         "2": 71,
@@ -4149,171 +4141,173 @@
         "2": 49,
         "3": 49
       },
+      "france-ht.xml": {
+        "2": 33,
+        "3": 33
+      },
       "france-ke.xml": {
         "2": 32,
         "3": 32
+      },
+      "france-bo.xml": {
+        "2": 6,
+        "3": 7
       },
       "france-ct.xml": {
         "2": 15,
         "3": 22
       },
-      "france-ht.xml": {
-        "2": 33,
-        "3": 33
+      "france-mdg.xml": {
+        "2": 31,
+        "3": 28
       },
-      "france-kh.xml": {
-        "2": 26,
-        "3": 25
-      },
-      "france-za.xml": {
-        "2": 77,
-        "3": 84
-      },
-      "france-do.xml": {
-        "2": 4,
-        "3": 4
-      },
-      "france-ec.xml": {
-        "2": 18,
-        "3": 16
-      },
-      "france-eg.xml": {
-        "2": 15,
-        "3": 15
-      },
-      "france-bn.xml": {
-        "2": 13,
-        "3": 12
-      },
-      "france-cd.xml": {
-        "2": 47,
-        "3": 43
-      },
-      "france-ug.xml": {
-        "2": 14,
-        "3": 13
+      "france-la.xml": {
+        "2": 6,
+        "3": 7
       },
       "france-cg.xml": {
         "2": 80,
         "3": 82
       },
-      "france-mm.xml": {
-        "2": 74,
-        "3": 89
+      "france-sn.xml": {
+        "2": 18,
+        "3": 18
       },
-      "france-tn.xml": {
-        "2": 33,
-        "3": 31
+      "france-td.xml": {
+        "2": 88,
+        "3": 88
       },
-      "france-sd.xml": {
-        "2": 23,
-        "3": 20
+      "france-bn.xml": {
+        "2": 13,
+        "3": 12
       },
-      "france-ne.xml": {
-        "2": 19,
-        "3": 19
-      },
-      "france-cl.xml": {
-        "2": 40,
-        "3": 39
-      },
-      "france-ml.xml": {
-        "2": 162,
-        "3": 153
+      "france-ng.xml": {
+        "2": 35,
+        "3": 36
       },
       "france-dji.xml": {
         "2": 13,
         "3": 17
       },
-      "france-tgo.xml": {
-        "2": 55,
-        "3": 53
+      "france-et.xml": {
+        "2": 20,
+        "3": 20
       },
-      "france-gt.xml": {
-        "2": 8,
-        "3": 8
+      "france-za.xml": {
+        "2": 77,
+        "3": 84
       },
-      "france-ma.xml": {
-        "2": 89,
-        "3": 89
+      "france-pk.xml": {
+        "2": 4,
+        "3": 4
       },
-      "france-bdi.xml": {
-        "2": 9,
-        "3": 9
+      "france-cl.xml": {
+        "2": 40,
+        "3": 39
       },
-      "france-ph.xml": {
-        "2": 21,
-        "3": 21
-      },
-      "france-mz.xml": {
-        "2": 90,
-        "3": 120
+      "france-ga.xml": {
+        "2": 14,
+        "3": 14
       },
       "france-tz.xml": {
         "2": 4,
         "3": 5
       },
+      "france-ec.xml": {
+        "2": 18,
+        "3": 16
+      },
+      "france-jo.xml": {
+        "2": 14,
+        "3": 15
+      },
+      "france-tn.xml": {
+        "2": 33,
+        "3": 31
+      },
+      "france-mz.xml": {
+        "2": 90,
+        "3": 120
+      },
+      "france-ma.xml": {
+        "2": 89,
+        "3": 89
+      },
       "france-gn.xml": {
         "2": 48,
         "3": 47
       },
-      "france-br.xml": {
-        "2": 116,
-        "3": 115
+      "france-tk.xml": {
+        "2": 21,
+        "3": 20
       },
-      "france-pk.xml": {
-        "2": 4,
-        "3": 4
+      "france-ml.xml": {
+        "2": 162,
+        "3": 153
+      },
+      "france-kh.xml": {
+        "2": 26,
+        "3": 25
+      },
+      "france-mt.xml": {
+        "2": 84,
+        "3": 82
+      },
+      "france-ph.xml": {
+        "2": 21,
+        "3": 21
+      },
+      "france-cm.xml": {
+        "2": 12,
+        "3": 12
+      },
+      "france-bf.xml": {
+        "2": 20,
+        "3": 18
       }
     },
     ".//@xml:lang": {
-      "france-et.xml": {
-        "fr": 20
+      "france-mm.xml": {
+        "fr": 27
+      },
+      "france-gt.xml": {
+        "fr": 11
+      },
+      "france-sd.xml": {
+        "fr": 23
+      },
+      "france-br.xml": {
+        "fr": 118
+      },
+      "france-bdi.xml": {
+        "fr": 9
+      },
+      "france-eg.xml": {
+        "fr": 13
       },
       "france-bd.xml": {
         "fr": 3
       },
-      "france-ga.xml": {
+      "france-ug.xml": {
         "fr": 14
-      },
-      "france-ng.xml": {
-        "fr": 34
-      },
-      "france-bo.xml": {
-        "fr": 5
-      },
-      "france-jo.xml": {
-        "fr": 14
-      },
-      "france-sn.xml": {
-        "fr": 20
-      },
-      "france-la.xml": {
-        "fr": 7
-      },
-      "france-mdg.xml": {
-        "fr": 31
-      },
-      "france-td.xml": {
-        "fr": 88
-      },
-      "france-cm.xml": {
-        "fr": 12
-      },
-      "france-rca.xml": {
-        "fr": 149
       },
       "france-af.xml": {
         "fr": 10
       },
-      "france-mt.xml": {
-        "fr": 84
+      "france-rca.xml": {
+        "fr": 149
       },
-      "france-bf.xml": {
-        "fr": 21
+      "france-do.xml": {
+        "fr": 4
       },
-      "france-tk.xml": {
-        "fr": 21
+      "france-tgo.xml": {
+        "fr": 55
+      },
+      "france-ne.xml": {
+        "fr": 19
+      },
+      "france-cd.xml": {
+        "fr": 47
       },
       "france-gh.xml": {
         "fr": 71
@@ -4321,92 +4315,98 @@
       "france-co.xml": {
         "fr": 49
       },
+      "france-ht.xml": {
+        "fr": 33
+      },
       "france-ke.xml": {
         "fr": 32
+      },
+      "france-bo.xml": {
+        "fr": 5
       },
       "france-ct.xml": {
         "fr": 15
       },
-      "france-ht.xml": {
-        "fr": 33
+      "france-mdg.xml": {
+        "fr": 31
       },
-      "france-kh.xml": {
-        "fr": 26
-      },
-      "france-za.xml": {
-        "fr": 70
-      },
-      "france-do.xml": {
-        "fr": 4
-      },
-      "france-ec.xml": {
-        "fr": 20
-      },
-      "france-eg.xml": {
-        "fr": 13
-      },
-      "france-bn.xml": {
-        "fr": 10
-      },
-      "france-cd.xml": {
-        "fr": 47
-      },
-      "france-ug.xml": {
-        "fr": 14
+      "france-la.xml": {
+        "fr": 7
       },
       "france-cg.xml": {
         "fr": 66
       },
-      "france-mm.xml": {
-        "fr": 27
+      "france-sn.xml": {
+        "fr": 20
       },
-      "france-tn.xml": {
-        "fr": 33
+      "france-td.xml": {
+        "fr": 88
       },
-      "france-sd.xml": {
-        "fr": 23
+      "france-bn.xml": {
+        "fr": 10
       },
-      "france-ne.xml": {
-        "fr": 19
-      },
-      "france-cl.xml": {
-        "fr": 40
-      },
-      "france-ml.xml": {
-        "fr": 162
+      "france-ng.xml": {
+        "fr": 34
       },
       "france-dji.xml": {
         "fr": 9
       },
-      "france-tgo.xml": {
-        "fr": 55
+      "france-et.xml": {
+        "fr": 20
       },
-      "france-gt.xml": {
-        "fr": 11
+      "france-za.xml": {
+        "fr": 70
       },
-      "france-ma.xml": {
-        "fr": 90
+      "france-pk.xml": {
+        "fr": 4
       },
-      "france-bdi.xml": {
-        "fr": 9
+      "france-cl.xml": {
+        "fr": 40
       },
-      "france-ph.xml": {
-        "fr": 21
-      },
-      "france-mz.xml": {
-        "fr": 66
+      "france-ga.xml": {
+        "fr": 14
       },
       "france-tz.xml": {
         "fr": 3
       },
+      "france-ec.xml": {
+        "fr": 20
+      },
+      "france-jo.xml": {
+        "fr": 14
+      },
+      "france-tn.xml": {
+        "fr": 33
+      },
+      "france-mz.xml": {
+        "fr": 66
+      },
+      "france-ma.xml": {
+        "fr": 90
+      },
       "france-gn.xml": {
         "fr": 48
       },
-      "france-br.xml": {
-        "fr": 118
+      "france-tk.xml": {
+        "fr": 21
       },
-      "france-pk.xml": {
-        "fr": 4
+      "france-ml.xml": {
+        "fr": 162
+      },
+      "france-kh.xml": {
+        "fr": 26
+      },
+      "france-mt.xml": {
+        "fr": 84
+      },
+      "france-ph.xml": {
+        "fr": 21
+      },
+      "france-cm.xml": {
+        "fr": 12
+      },
+      "france-bf.xml": {
+        "fr": 21
       }
     }
   }

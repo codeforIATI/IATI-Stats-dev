@@ -100,7 +100,6 @@
     "iati-activity/recipient-region/narrative": 144,
     "iati-activity/recipient-region/@code": 174,
     "iati-activity/recipient-region/@vocabulary": 144,
-    "iati-activity/recipient-region/@vocabulary-uri": 70,
     "iati-activity/location": 375,
     "iati-activity/location/location-reach": 375,
     "iati-activity/location/location-reach/@code": 375,
@@ -108,11 +107,13 @@
     "iati-activity/location/name/narrative": 375,
     "iati-activity/location/description": 375,
     "iati-activity/location/description/narrative": 375,
+    "iati-activity/location/point": 318,
+    "iati-activity/location/point/pos": 318,
+    "iati-activity/location/point/@srsName": 318,
     "iati-activity/location/exactness": 375,
     "iati-activity/location/exactness/@code": 375,
     "iati-activity/location/location-class": 375,
     "iati-activity/location/location-class/@code": 375,
-    "iati-activity/location/@ref": 311,
     "iati-activity/sector": 412,
     "iati-activity/sector/narrative": 406,
     "iati-activity/sector/@code": 412,
@@ -205,9 +206,8 @@
     "iati-activity/recipient-country/@code": 223,
     "iati-activity/result/indicator/period/target/comment": 128,
     "iati-activity/result/indicator/period/target/comment/narrative": 128,
-    "iati-activity/location/point": 318,
-    "iati-activity/location/point/pos": 318,
-    "iati-activity/location/point/@srsName": 318
+    "iati-activity/recipient-region/@vocabulary-uri": 70,
+    "iati-activity/location/@ref": 311
   },
   "elements_total": {
     "iati-activity": 412,
@@ -245,7 +245,6 @@
     "iati-activity/recipient-region/narrative": 167,
     "iati-activity/recipient-region/@code": 197,
     "iati-activity/recipient-region/@vocabulary": 167,
-    "iati-activity/recipient-region/@vocabulary-uri": 93,
     "iati-activity/location": 1808,
     "iati-activity/location/location-reach": 1808,
     "iati-activity/location/location-reach/@code": 1808,
@@ -253,11 +252,13 @@
     "iati-activity/location/name/narrative": 1808,
     "iati-activity/location/description": 1808,
     "iati-activity/location/description/narrative": 1808,
+    "iati-activity/location/point": 1464,
+    "iati-activity/location/point/pos": 1464,
+    "iati-activity/location/point/@srsName": 1464,
     "iati-activity/location/exactness": 1808,
     "iati-activity/location/exactness/@code": 1808,
     "iati-activity/location/location-class": 1808,
     "iati-activity/location/location-class/@code": 1808,
-    "iati-activity/location/@ref": 1508,
     "iati-activity/sector": 1991,
     "iati-activity/sector/narrative": 1985,
     "iati-activity/sector/@code": 1991,
@@ -350,9 +351,8 @@
     "iati-activity/recipient-country/@code": 223,
     "iati-activity/result/indicator/period/target/comment": 4912,
     "iati-activity/result/indicator/period/target/comment/narrative": 4912,
-    "iati-activity/location/point": 1464,
-    "iati-activity/location/point/pos": 1464,
-    "iati-activity/location/point/@srsName": 1464
+    "iati-activity/recipient-region/@vocabulary-uri": 93,
+    "iati-activity/location/@ref": 1508
   },
   "forwardlooking_activities_current": {
     "2022": 0,
@@ -370,23 +370,23 @@
     "2024": 0
   },
   "forwardlooking_currency_year": {
-    "2020": {
-      "CHF": 2209960428.75
-    },
-    "2022": {
-      "CHF": 2771623959.19
-    },
     "2019": {
       "CHF": 2150043500.97
     },
     "2017": {
       "CHF": 1986533946.21
     },
-    "2018": {
-      "CHF": 2051686585.71
-    },
     "2021": {
       "CHF": 2408237168.38
+    },
+    "2020": {
+      "CHF": 2209960428.75
+    },
+    "2022": {
+      "CHF": 2771623959.19
+    },
+    "2018": {
+      "CHF": 2051686585.71
     }
   }
 }

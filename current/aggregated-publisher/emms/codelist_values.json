@@ -12,15 +12,15 @@
     "1": 1
   },
   ".//activity-scope/@code": {
+    "4": 4,
     "5": 4,
     "7": 2,
-    "6": 2,
-    "4": 4
+    "6": 2
   },
   ".//activity-status/@code": {
-    "4": 12,
     "2": 14,
     "3": 2,
+    "4": 12,
     "1": 1
   },
   ".//budget/@status": {
@@ -96,31 +96,31 @@
     "2": 2
   },
   ".//location/feature-designation/@code": {
-    "HSP": 20,
-    "PPLL": 1,
     "PPL": 2,
     "AREA": 1,
+    "HSP": 20,
     "BLDO": 1,
-    "BLDG": 1
+    "BLDG": 1,
+    "PPLL": 1
   },
   ".//location/location-class/@code": {
-    "1": 2,
+    "2": 5,
     "3": 19,
-    "2": 5
+    "1": 2
   },
   ".//location/location-reach/@code": {
-    "1": 21,
-    "2": 4
+    "2": 4,
+    "1": 21
   },
   ".//participating-org/@role": {
-    "4": 68,
     "2": 26,
-    "3": 26,
-    "1": 33
+    "1": 33,
+    "4": 68,
+    "3": 26
   },
   ".//participating-org/@type": {
-    "22": 46,
     "21": 100,
+    "22": 46,
     "10": 6,
     "70": 1
   },
@@ -131,10 +131,10 @@
     "GBP": 1
   },
   ".//recipient-country/@code": {
-    "IN": 8,
-    "NP": 5,
     "GB": 1,
-    "MW": 15
+    "MW": 15,
+    "NP": 5,
+    "IN": 8
   },
   ".//related-activity/@type": {
     "2": 1,
@@ -145,8 +145,8 @@
     "21": 29
   },
   ".//result/@type": {
-    "2": 8,
     "1": 7,
+    "2": 8,
     "3": 3
   },
   ".//result/indicator/@measure": {
@@ -157,15 +157,15 @@
     "7": 10
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "12230": 1,
-    "12220": 12,
-    "13020": 3,
-    "72040": 3,
-    "72010": 3,
     "12191": 1,
+    "12220": 12,
+    "72010": 3,
+    "72040": 3,
     "13040": 1,
     "73010": 1,
-    "23030": 1
+    "23030": 1,
+    "12230": 1,
+    "13020": 3
   },
   ".//sector[@vocabulary = '7']/@code": {
     "3": 9,
@@ -192,8 +192,8 @@
     "70": 11
   },
   ".//transaction/receiver-org/@type": {
-    "22": 82,
     "21": 13,
+    "22": 82,
     "24": 22
   },
   ".//transaction/tied-status/@code": {

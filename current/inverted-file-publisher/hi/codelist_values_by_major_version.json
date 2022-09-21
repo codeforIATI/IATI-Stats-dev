@@ -90,6 +90,9 @@
   },
   "2": {
     ".//@default-currency": {
+      "hi-ke.xml": {
+        "GBP": 1
+      },
       "hi-tz.xml": {
         "GBP": 1
       },
@@ -97,32 +100,32 @@
         "GBP": 1
       },
       "hi-ao.xml": {
-        "GBP": 1
-      },
-      "hi-ke.xml": {
         "GBP": 1
       }
     },
     ".//activity-date/@type": {
-      "hi-tz.xml": {
-        "2": 1,
-        "3": 1
-      },
-      "hi-lk.xml": {
-        "2": 1,
-        "4": 1
-      },
-      "hi-ao.xml": {
-        "2": 1,
-        "3": 1
-      },
       "hi-ke.xml": {
         "2": 1,
         "3": 1,
         "4": 1
+      },
+      "hi-tz.xml": {
+        "2": 1,
+        "3": 1
+      },
+      "hi-lk.xml": {
+        "2": 1,
+        "4": 1
+      },
+      "hi-ao.xml": {
+        "2": 1,
+        "3": 1
       }
     },
     ".//activity-status/@code": {
+      "hi-ke.xml": {
+        "4": 1
+      },
       "hi-tz.xml": {
         "4": 1
       },
@@ -131,12 +134,12 @@
       },
       "hi-ao.xml": {
         "4": 1
-      },
-      "hi-ke.xml": {
-        "4": 1
       }
     },
     ".//budget/@type": {
+      "hi-ke.xml": {
+        "2": 4
+      },
       "hi-tz.xml": {
         "1": 3,
         "2": 1
@@ -146,12 +149,12 @@
       },
       "hi-ao.xml": {
         "2": 1
-      },
-      "hi-ke.xml": {
-        "2": 4
       }
     },
     ".//budget/value/@currency": {
+      "hi-ke.xml": {
+        "GBP": 1
+      },
       "hi-tz.xml": {
         "GBP": 1
       },
@@ -159,13 +162,13 @@
         "GBP": 1
       },
       "hi-ao.xml": {
-        "GBP": 1
-      },
-      "hi-ke.xml": {
         "GBP": 1
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "hi-ke.xml": {
+        "C01": 1
+      },
       "hi-tz.xml": {
         "C01": 1
       },
@@ -173,38 +176,27 @@
         "C01": 1
       },
       "hi-ao.xml": {
-        "C01": 1
-      },
-      "hi-ke.xml": {
         "C01": 1
       }
     },
     ".//default-flow-type/@code": {
-      "hi-tz.xml": {
-        "30": 1
-      },
-      "hi-lk.xml": {
-        "30": 1
-      },
-      "hi-ao.xml": {
-        "30": 1
-      },
       "hi-ke.xml": {
         "30": 1
-      }
-    },
-    ".//description/@type": {
+      },
       "hi-tz.xml": {
-        "1": 1
+        "30": 1
       },
       "hi-lk.xml": {
-        "1": 1
+        "30": 1
       },
       "hi-ao.xml": {
-        "1": 1
+        "30": 1
       }
     },
     ".//participating-org/@role": {
+      "hi-ke.xml": {
+        "4": 2
+      },
       "hi-tz.xml": {
         "4": 3
       },
@@ -213,12 +205,12 @@
       },
       "hi-ao.xml": {
         "4": 2
-      },
-      "hi-ke.xml": {
-        "4": 2
       }
     },
     ".//participating-org/@type": {
+      "hi-ke.xml": {
+        "22": 1
+      },
       "hi-tz.xml": {
         "21": 1,
         "22": 2
@@ -229,12 +221,12 @@
       "hi-ao.xml": {
         "21": 1,
         "22": 1
-      },
-      "hi-ke.xml": {
-        "22": 1
       }
     },
     ".//recipient-country/@code": {
+      "hi-ke.xml": {
+        "KE": 1
+      },
       "hi-tz.xml": {
         "TZ": 1,
         "ZW": 1
@@ -244,12 +236,12 @@
       },
       "hi-ao.xml": {
         "AO": 1
-      },
-      "hi-ke.xml": {
-        "KE": 1
       }
     },
     ".//reporting-org/@type": {
+      "hi-ke.xml": {
+        "21": 1
+      },
       "hi-tz.xml": {
         "21": 1
       },
@@ -258,12 +250,12 @@
       },
       "hi-ao.xml": {
         "21": 1
-      },
-      "hi-ke.xml": {
-        "21": 1
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "hi-ke.xml": {
+        "14030": 1
+      },
       "hi-tz.xml": {
         "14030": 1
       },
@@ -273,12 +265,12 @@
       },
       "hi-ao.xml": {
         "15150": 1
-      },
-      "hi-ke.xml": {
-        "14030": 1
       }
     },
     ".//sector/@vocabulary": {
+      "hi-ke.xml": {
+        "1": 1
+      },
       "hi-tz.xml": {
         "1": 1
       },
@@ -287,12 +279,12 @@
       },
       "hi-ao.xml": {
         "1": 1
-      },
-      "hi-ke.xml": {
-        "1": 1
       }
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "hi-ke.xml": {
+        "C01": 3
+      },
       "hi-tz.xml": {
         "C01": 4,
         "G01": 4
@@ -302,12 +294,13 @@
       },
       "hi-ao.xml": {
         "C01": 1
-      },
-      "hi-ke.xml": {
-        "C01": 3
       }
     },
     ".//transaction/disbursement-channel/@code": {
+      "hi-ke.xml": {
+        "3": 18,
+        "2": 11
+      },
       "hi-tz.xml": {
         "2": 16,
         "3": 25
@@ -318,44 +311,46 @@
       },
       "hi-ao.xml": {
         "3": 1
-      },
-      "hi-ke.xml": {
-        "3": 18,
-        "2": 11
       }
     },
     ".//transaction/finance-type/@code": {
-      "hi-tz.xml": {
-        "110": 8
-      },
       "hi-ke.xml": {
         "110": 3
+      },
+      "hi-tz.xml": {
+        "110": 8
       }
     },
     ".//transaction/flow-type/@code": {
+      "hi-ke.xml": {
+        "30": 3
+      },
       "hi-tz.xml": {
         "30": 4,
         "35": 4
       },
       "hi-lk.xml": {
         "30": 1
-      },
-      "hi-ke.xml": {
-        "30": 3
       }
     },
     ".//transaction/tied-status/@code": {
+      "hi-ke.xml": {
+        "5": 3
+      },
       "hi-tz.xml": {
         "5": 8
       },
       "hi-ao.xml": {
         "5": 1
-      },
-      "hi-ke.xml": {
-        "5": 3
       }
     },
     ".//transaction/transaction-type/@code": {
+      "hi-ke.xml": {
+        "2": 2,
+        "1": 12,
+        "3": 11,
+        "4": 4
+      },
       "hi-tz.xml": {
         "3": 16,
         "4": 8,
@@ -373,15 +368,12 @@
         "1": 2,
         "3": 2,
         "4": 1
-      },
-      "hi-ke.xml": {
-        "2": 2,
-        "1": 12,
-        "3": 11,
-        "4": 4
       }
     },
     ".//transaction/value/@currency": {
+      "hi-ke.xml": {
+        "GBP": 8
+      },
       "hi-tz.xml": {
         "GBP": 21
       },
@@ -390,12 +382,12 @@
       },
       "hi-ao.xml": {
         "GBP": 5
-      },
-      "hi-ke.xml": {
-        "GBP": 8
       }
     },
     ".//@xml:lang": {
+      "hi-ke.xml": {
+        "en": 10
+      },
       "hi-tz.xml": {
         "en": 38
       },
@@ -404,9 +396,17 @@
       },
       "hi-ao.xml": {
         "en": 9
+      }
+    },
+    ".//description/@type": {
+      "hi-tz.xml": {
+        "1": 1
       },
-      "hi-ke.xml": {
-        "en": 10
+      "hi-lk.xml": {
+        "1": 1
+      },
+      "hi-ao.xml": {
+        "1": 1
       }
     },
     ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {

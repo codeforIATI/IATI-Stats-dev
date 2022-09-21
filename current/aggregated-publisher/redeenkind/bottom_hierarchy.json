@@ -133,19 +133,19 @@
     "iati-activity/transaction/description": 13,
     "iati-activity/transaction/description/narrative": 13,
     "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 13,
+    "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 13,
+    "iati-activity/@default-currency": 13,
+    "iati-activity/@last-updated-datetime": 13,
     "iati-activity/transaction/provider-org": 10,
     "iati-activity/transaction/provider-org/narrative": 10,
     "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 10,
-    "iati-activity/transaction/provider-org/@ref": 8,
-    "iati-activity/transaction/provider-org/@provider-activity-id": 8,
     "iati-activity/transaction/provider-org/@type": 10,
     "iati-activity/transaction/receiver-org": 11,
     "iati-activity/transaction/receiver-org/narrative": 11,
     "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 11,
+    "iati-activity/transaction/provider-org/@ref": 8,
+    "iati-activity/transaction/provider-org/@provider-activity-id": 8,
     "iati-activity/transaction/receiver-org/@ref": 2,
-    "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 13,
-    "iati-activity/@default-currency": 13,
-    "iati-activity/@last-updated-datetime": 13,
     "iati-activity/result": 1,
     "iati-activity/result/title": 1,
     "iati-activity/result/title/narrative": 1,
@@ -241,19 +241,19 @@
     "iati-activity/transaction/description": 165,
     "iati-activity/transaction/description/narrative": 165,
     "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 165,
+    "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 13,
+    "iati-activity/@default-currency": 13,
+    "iati-activity/@last-updated-datetime": 13,
     "iati-activity/transaction/provider-org": 29,
     "iati-activity/transaction/provider-org/narrative": 29,
     "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 29,
-    "iati-activity/transaction/provider-org/@ref": 26,
-    "iati-activity/transaction/provider-org/@provider-activity-id": 26,
     "iati-activity/transaction/provider-org/@type": 29,
     "iati-activity/transaction/receiver-org": 140,
     "iati-activity/transaction/receiver-org/narrative": 140,
     "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 140,
+    "iati-activity/transaction/provider-org/@ref": 26,
+    "iati-activity/transaction/provider-org/@provider-activity-id": 26,
     "iati-activity/transaction/receiver-org/@ref": 23,
-    "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 13,
-    "iati-activity/@default-currency": 13,
-    "iati-activity/@last-updated-datetime": 13,
     "iati-activity/result": 13,
     "iati-activity/result/title": 13,
     "iati-activity/result/title/narrative": 13,
@@ -296,6 +296,12 @@
     "2024": 0
   },
   "forwardlooking_currency_year": {
+    "2022": {
+      "EUR": 4012922.28
+    },
+    "2021": {
+      "EUR": 5499904.92
+    },
     "2017": {
       "EUR": 1841327.0
     },
@@ -307,12 +313,6 @@
     },
     "2020": {
       "EUR": 2071913.0
-    },
-    "2021": {
-      "EUR": 5499904.92
-    },
-    "2022": {
-      "EUR": 4012922.28
     }
   }
 }

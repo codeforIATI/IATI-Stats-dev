@@ -1,16 +1,20 @@
 {
   "2": {
     ".//@default-currency": {
-      "EUR": 5,
-      "USD": 1
+      "USD": 1,
+      "EUR": 5
     },
     ".//activity-date/@type": {
-      "1": 2,
       "2": 4,
-      "3": 3
+      "3": 3,
+      "1": 2
     },
     ".//activity-status/@code": {
       "2": 6
+    },
+    ".//activity-scope/@code": {
+      "3": 1,
+      "4": 2
     },
     ".//budget/@status": {
       "1": 5,
@@ -45,16 +49,19 @@
       "1": 6
     },
     ".//participating-org/@role": {
-      "4": 12,
       "1": 6,
+      "4": 12,
       "2": 4
     },
     ".//participating-org/@type": {
-      "22": 10,
-      "21": 12
+      "21": 12,
+      "22": 10
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "1": 6
+    },
+    ".//policy-marker/@significance": {
+      "2": 3
     },
     ".//policy-marker/@vocabulary": {
       "1": 6
@@ -64,13 +71,6 @@
       "RW": 4,
       "MA": 2
     },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "589": 1,
-      "289": 1
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 2
-    },
     ".//related-activity/@type": {
       "1": 5,
       "2": 3
@@ -79,14 +79,17 @@
       "21": 6
     },
     ".//result/@type": {
+      "3": 12,
       "2": 25,
-      "1": 21,
-      "3": 12
+      "1": 21
     },
     ".//result/indicator/@measure": {
       "1": 72,
       "2": 7,
       "5": 14
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "99": 32
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "15164": 6,
@@ -103,12 +106,12 @@
       "21": 9
     },
     ".//transaction/transaction-type/@code": {
+      "3": 38,
       "4": 8,
-      "2": 4,
       "1": 57,
       "11": 5,
-      "3": 38,
-      "7": 3
+      "7": 3,
+      "2": 4
     },
     ".//transaction/value/@currency": {
       "EUR": 51,
@@ -117,15 +120,12 @@
     ".//@xml:lang": {
       "en": 251
     },
-    ".//activity-scope/@code": {
-      "4": 2,
-      "3": 1
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "589": 1,
+      "289": 1
     },
-    ".//policy-marker/@significance": {
-      "2": 3
-    },
-    ".//result/indicator/reference/@vocabulary": {
-      "99": 32
+    ".//recipient-region/@vocabulary": {
+      "1": 2
     }
   }
 }

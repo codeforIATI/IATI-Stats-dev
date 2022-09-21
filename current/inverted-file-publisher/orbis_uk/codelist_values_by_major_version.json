@@ -1,17 +1,21 @@
 {
   "2": {
     ".//@default-currency": {
+      "orbis_uk-np.xml": {
+        "GBP": 1
+      },
       "orbis_uk-zm.xml": {
         "GBP": 1
       },
       "orbis_uk-et.xml": {
         "GBP": 1
-      },
-      "orbis_uk-np.xml": {
-        "GBP": 1
       }
     },
     ".//activity-date/@type": {
+      "orbis_uk-np.xml": {
+        "2": 1,
+        "3": 1
+      },
       "orbis_uk-zm.xml": {
         "2": 1,
         "3": 1
@@ -21,40 +25,348 @@
         "2": 1,
         "3": 1,
         "4": 1
-      },
-      "orbis_uk-np.xml": {
-        "2": 1,
-        "3": 1
       }
     },
     ".//activity-status/@code": {
+      "orbis_uk-np.xml": {
+        "2": 1
+      },
       "orbis_uk-zm.xml": {
         "4": 1
       },
       "orbis_uk-et.xml": {
         "4": 1
-      },
-      "orbis_uk-np.xml": {
-        "2": 1
       }
     },
     ".//budget/@status": {
+      "orbis_uk-np.xml": {
+        "2": 4
+      },
       "orbis_uk-zm.xml": {
         "2": 4
       },
       "orbis_uk-et.xml": {
         "2": 5
-      },
-      "orbis_uk-np.xml": {
-        "2": 4
       }
     },
     ".//budget/@type": {
-      "orbis_uk-zm.xml": {
-        "1": 4
-      },
       "orbis_uk-np.xml": {
         "1": 4
+      },
+      "orbis_uk-zm.xml": {
+        "1": 4
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "orbis_uk-np.xml": {
+        "C01": 1
+      },
+      "orbis_uk-zm.xml": {
+        "C01": 1
+      },
+      "orbis_uk-et.xml": {
+        "C01": 1
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "orbis_uk-np.xml": {
+        "1": 1
+      },
+      "orbis_uk-zm.xml": {
+        "1": 1
+      },
+      "orbis_uk-et.xml": {
+        "1": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "orbis_uk-np.xml": {
+        "110": 1
+      },
+      "orbis_uk-zm.xml": {
+        "110": 1
+      },
+      "orbis_uk-et.xml": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "orbis_uk-np.xml": {
+        "10": 1
+      },
+      "orbis_uk-zm.xml": {
+        "10": 1
+      },
+      "orbis_uk-et.xml": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "orbis_uk-np.xml": {
+        "4": 1
+      },
+      "orbis_uk-zm.xml": {
+        "4": 1
+      },
+      "orbis_uk-et.xml": {
+        "4": 1
+      }
+    },
+    ".//description/@type": {
+      "orbis_uk-np.xml": {
+        "1": 1
+      },
+      "orbis_uk-zm.xml": {
+        "1": 1
+      },
+      "orbis_uk-et.xml": {
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "orbis_uk-np.xml": {
+        "application/vnd.ms-excel": 1,
+        "application/pdf": 1
+      },
+      "orbis_uk-zm.xml": {
+        "application/pdf": 3
+      },
+      "orbis_uk-et.xml": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "orbis_uk-np.xml": {
+        "A02": 2
+      },
+      "orbis_uk-zm.xml": {
+        "A03": 1,
+        "A05": 1,
+        "A02": 1
+      },
+      "orbis_uk-et.xml": {
+        "A02": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "orbis_uk-np.xml": {
+        "en": 2
+      },
+      "orbis_uk-zm.xml": {
+        "en": 3
+      },
+      "orbis_uk-et.xml": {
+        "en": 1
+      }
+    },
+    ".//location/location-reach/@code": {
+      "orbis_uk-np.xml": {
+        "1": 2
+      },
+      "orbis_uk-zm.xml": {
+        "1": 1
+      },
+      "orbis_uk-et.xml": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@crs-channel-code": {
+      "orbis_uk-np.xml": {
+        "20000": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "orbis_uk-np.xml": {
+        "2": 1,
+        "1": 1,
+        "3": 1,
+        "4": 2
+      },
+      "orbis_uk-zm.xml": {
+        "2": 1,
+        "1": 1,
+        "4": 2,
+        "3": 1
+      },
+      "orbis_uk-et.xml": {
+        "1": 1,
+        "2": 1,
+        "4": 2,
+        "3": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "orbis_uk-np.xml": {
+        "21": 2,
+        "10": 1,
+        "70": 1,
+        "22": 1
+      },
+      "orbis_uk-zm.xml": {
+        "21": 3,
+        "10": 1,
+        "70": 1
+      },
+      "orbis_uk-et.xml": {
+        "10": 1,
+        "21": 2,
+        "22": 1,
+        "70": 1
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "orbis_uk-np.xml": {
+        "11": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "orbis_uk-np.xml": {
+        "NP": 1
+      },
+      "orbis_uk-zm.xml": {
+        "ZM": 1
+      },
+      "orbis_uk-et.xml": {
+        "ET": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "orbis_uk-np.xml": {
+        "21": 1
+      },
+      "orbis_uk-zm.xml": {
+        "21": 1
+      },
+      "orbis_uk-et.xml": {
+        "21": 1
+      }
+    },
+    ".//result/@type": {
+      "orbis_uk-np.xml": {
+        "2": 1,
+        "1": 3
+      },
+      "orbis_uk-zm.xml": {
+        "1": 4,
+        "2": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "orbis_uk-np.xml": {
+        "2": 2,
+        "1": 11
+      },
+      "orbis_uk-zm.xml": {
+        "1": 8,
+        "2": 6
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "orbis_uk-np.xml": {
+        "12261": 1,
+        "12220": 1
+      },
+      "orbis_uk-zm.xml": {
+        "12281": 1,
+        "12261": 1,
+        "12220": 1
+      },
+      "orbis_uk-et.xml": {
+        "12220": 1,
+        "12261": 1,
+        "12250": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "orbis_uk-np.xml": {
+        "1": 2
+      },
+      "orbis_uk-zm.xml": {
+        "1": 3
+      },
+      "orbis_uk-et.xml": {
+        "1": 3
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "orbis_uk-np.xml": {
+        "2": 19
+      },
+      "orbis_uk-zm.xml": {
+        "2": 11
+      },
+      "orbis_uk-et.xml": {
+        "2": 27
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "orbis_uk-np.xml": {
+        "70": 10,
+        "21": 21
+      },
+      "orbis_uk-zm.xml": {
+        "21": 21,
+        "70": 5,
+        "10": 6
+      },
+      "orbis_uk-et.xml": {
+        "21": 26,
+        "10": 1,
+        "70": 14
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "orbis_uk-np.xml": {
+        "21": 18
+      },
+      "orbis_uk-zm.xml": {
+        "21": 19,
+        "22": 1
+      },
+      "orbis_uk-et.xml": {
+        "21": 25
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "orbis_uk-np.xml": {
+        "1": 10,
+        "3": 9,
+        "4": 11,
+        "2": 2
+      },
+      "orbis_uk-zm.xml": {
+        "3": 13,
+        "1": 12,
+        "4": 12,
+        "2": 1
+      },
+      "orbis_uk-et.xml": {
+        "4": 14,
+        "2": 2,
+        "1": 14,
+        "3": 11
+      }
+    },
+    ".//transaction/value/@currency": {
+      "orbis_uk-np.xml": {
+        "GBP": 32
+      },
+      "orbis_uk-zm.xml": {
+        "GBP": 34
+      },
+      "orbis_uk-et.xml": {
+        "GBP": 39
+      }
+    },
+    ".//@xml:lang": {
+      "orbis_uk-np.xml": {
+        "en": 4
+      },
+      "orbis_uk-zm.xml": {
+        "en": 55
+      },
+      "orbis_uk-et.xml": {
+        "en": 7
       }
     },
     ".//budget/value/@currency": {
@@ -73,227 +385,6 @@
         "1": 1
       }
     },
-    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "orbis_uk-zm.xml": {
-        "C01": 1
-      },
-      "orbis_uk-et.xml": {
-        "C01": 1
-      },
-      "orbis_uk-np.xml": {
-        "C01": 1
-      }
-    },
-    ".//default-aid-type/@vocabulary": {
-      "orbis_uk-zm.xml": {
-        "1": 1
-      },
-      "orbis_uk-et.xml": {
-        "1": 1
-      },
-      "orbis_uk-np.xml": {
-        "1": 1
-      }
-    },
-    ".//default-finance-type/@code": {
-      "orbis_uk-zm.xml": {
-        "110": 1
-      },
-      "orbis_uk-et.xml": {
-        "110": 1
-      },
-      "orbis_uk-np.xml": {
-        "110": 1
-      }
-    },
-    ".//default-flow-type/@code": {
-      "orbis_uk-zm.xml": {
-        "10": 1
-      },
-      "orbis_uk-et.xml": {
-        "10": 1
-      },
-      "orbis_uk-np.xml": {
-        "10": 1
-      }
-    },
-    ".//default-tied-status/@code": {
-      "orbis_uk-zm.xml": {
-        "4": 1
-      },
-      "orbis_uk-et.xml": {
-        "4": 1
-      },
-      "orbis_uk-np.xml": {
-        "4": 1
-      }
-    },
-    ".//description/@type": {
-      "orbis_uk-zm.xml": {
-        "1": 1
-      },
-      "orbis_uk-et.xml": {
-        "1": 1
-      },
-      "orbis_uk-np.xml": {
-        "1": 1
-      }
-    },
-    ".//document-link/@format": {
-      "orbis_uk-zm.xml": {
-        "application/pdf": 3
-      },
-      "orbis_uk-et.xml": {
-        "application/pdf": 1
-      },
-      "orbis_uk-np.xml": {
-        "application/vnd.ms-excel": 1,
-        "application/pdf": 1
-      }
-    },
-    ".//document-link/category/@code": {
-      "orbis_uk-zm.xml": {
-        "A03": 1,
-        "A05": 1,
-        "A02": 1
-      },
-      "orbis_uk-et.xml": {
-        "A02": 1
-      },
-      "orbis_uk-np.xml": {
-        "A02": 2
-      }
-    },
-    ".//document-link/language/@code": {
-      "orbis_uk-zm.xml": {
-        "en": 3
-      },
-      "orbis_uk-et.xml": {
-        "en": 1
-      },
-      "orbis_uk-np.xml": {
-        "en": 2
-      }
-    },
-    ".//location/location-reach/@code": {
-      "orbis_uk-zm.xml": {
-        "1": 1
-      },
-      "orbis_uk-et.xml": {
-        "1": 1
-      },
-      "orbis_uk-np.xml": {
-        "1": 2
-      }
-    },
-    ".//participating-org/@role": {
-      "orbis_uk-zm.xml": {
-        "2": 1,
-        "1": 1,
-        "4": 2,
-        "3": 1
-      },
-      "orbis_uk-et.xml": {
-        "1": 1,
-        "2": 1,
-        "4": 2,
-        "3": 1
-      },
-      "orbis_uk-np.xml": {
-        "2": 1,
-        "1": 1,
-        "3": 1,
-        "4": 2
-      }
-    },
-    ".//participating-org/@type": {
-      "orbis_uk-zm.xml": {
-        "21": 3,
-        "10": 1,
-        "70": 1
-      },
-      "orbis_uk-et.xml": {
-        "10": 1,
-        "21": 2,
-        "22": 1,
-        "70": 1
-      },
-      "orbis_uk-np.xml": {
-        "21": 2,
-        "10": 1,
-        "70": 1,
-        "22": 1
-      }
-    },
-    ".//recipient-country/@code": {
-      "orbis_uk-zm.xml": {
-        "ZM": 1
-      },
-      "orbis_uk-et.xml": {
-        "ET": 1
-      },
-      "orbis_uk-np.xml": {
-        "NP": 1
-      }
-    },
-    ".//reporting-org/@type": {
-      "orbis_uk-zm.xml": {
-        "21": 1
-      },
-      "orbis_uk-et.xml": {
-        "21": 1
-      },
-      "orbis_uk-np.xml": {
-        "21": 1
-      }
-    },
-    ".//result/@type": {
-      "orbis_uk-zm.xml": {
-        "1": 4,
-        "2": 1
-      },
-      "orbis_uk-np.xml": {
-        "2": 1,
-        "1": 3
-      }
-    },
-    ".//result/indicator/@measure": {
-      "orbis_uk-zm.xml": {
-        "1": 8,
-        "2": 6
-      },
-      "orbis_uk-np.xml": {
-        "2": 2,
-        "1": 11
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "orbis_uk-zm.xml": {
-        "12281": 1,
-        "12261": 1,
-        "12220": 1
-      },
-      "orbis_uk-et.xml": {
-        "12220": 1,
-        "12261": 1,
-        "12250": 1
-      },
-      "orbis_uk-np.xml": {
-        "12261": 1,
-        "12220": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "orbis_uk-zm.xml": {
-        "1": 3
-      },
-      "orbis_uk-et.xml": {
-        "1": 3
-      },
-      "orbis_uk-np.xml": {
-        "1": 2
-      }
-    },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "orbis_uk-zm.xml": {
         "C01": 26
@@ -308,17 +399,6 @@
       },
       "orbis_uk-et.xml": {
         "1": 2
-      }
-    },
-    ".//transaction/disbursement-channel/@code": {
-      "orbis_uk-zm.xml": {
-        "2": 11
-      },
-      "orbis_uk-et.xml": {
-        "2": 27
-      },
-      "orbis_uk-np.xml": {
-        "2": 19
       }
     },
     ".//transaction/finance-type/@code": {
@@ -337,34 +417,6 @@
         "10": 2
       }
     },
-    ".//transaction/provider-org/@type": {
-      "orbis_uk-zm.xml": {
-        "21": 21,
-        "70": 5,
-        "10": 6
-      },
-      "orbis_uk-et.xml": {
-        "21": 26,
-        "10": 1,
-        "70": 14
-      },
-      "orbis_uk-np.xml": {
-        "70": 10,
-        "21": 21
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "orbis_uk-zm.xml": {
-        "21": 19,
-        "22": 1
-      },
-      "orbis_uk-et.xml": {
-        "21": 25
-      },
-      "orbis_uk-np.xml": {
-        "21": 18
-      }
-    },
     ".//transaction/tied-status/@code": {
       "orbis_uk-zm.xml": {
         "4": 26
@@ -372,58 +424,6 @@
       "orbis_uk-et.xml": {
         "4": 1,
         "5": 1
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "orbis_uk-zm.xml": {
-        "3": 13,
-        "1": 12,
-        "4": 12,
-        "2": 1
-      },
-      "orbis_uk-et.xml": {
-        "4": 14,
-        "2": 2,
-        "1": 14,
-        "3": 11
-      },
-      "orbis_uk-np.xml": {
-        "1": 10,
-        "3": 9,
-        "4": 11,
-        "2": 2
-      }
-    },
-    ".//transaction/value/@currency": {
-      "orbis_uk-zm.xml": {
-        "GBP": 34
-      },
-      "orbis_uk-et.xml": {
-        "GBP": 39
-      },
-      "orbis_uk-np.xml": {
-        "GBP": 32
-      }
-    },
-    ".//@xml:lang": {
-      "orbis_uk-zm.xml": {
-        "en": 55
-      },
-      "orbis_uk-et.xml": {
-        "en": 7
-      },
-      "orbis_uk-np.xml": {
-        "en": 4
-      }
-    },
-    ".//participating-org/@crs-channel-code": {
-      "orbis_uk-np.xml": {
-        "20000": 1
-      }
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "orbis_uk-np.xml": {
-        "11": 1
       }
     }
   }

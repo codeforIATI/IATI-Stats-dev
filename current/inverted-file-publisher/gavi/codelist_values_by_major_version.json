@@ -1,29 +1,30 @@
 {
   "2": {
     ".//@default-currency": {
-      "gavi-covax.xml": {
-        "USD": 92
-      },
       "gavi-tca-activities.xml": {
         "USD": 92
+      },
+      "gavi-country-activities.xml": {
+        "USD": 78
       },
       "gavi-vaccine-activities.xml": {
         "USD": 865
       },
-      "gavi-country-activities.xml": {
-        "USD": 78
+      "gavi-covax.xml": {
+        "USD": 92
       }
     },
     ".//activity-date/@type": {
-      "gavi-covax.xml": {
-        "1": 92,
-        "2": 92,
-        "3": 92
-      },
       "gavi-tca-activities.xml": {
         "1": 92,
         "2": 92,
         "3": 92
+      },
+      "gavi-country-activities.xml": {
+        "1": 78,
+        "2": 78,
+        "3": 78,
+        "4": 6
       },
       "gavi-vaccine-activities.xml": {
         "1": 865,
@@ -31,185 +32,189 @@
         "3": 865,
         "4": 447
       },
-      "gavi-country-activities.xml": {
-        "1": 78,
-        "2": 78,
-        "3": 78,
-        "4": 6
+      "gavi-covax.xml": {
+        "1": 92,
+        "2": 92,
+        "3": 92
       }
     },
     ".//activity-status/@code": {
-      "gavi-covax.xml": {
-        "2": 92
-      },
       "gavi-tca-activities.xml": {
         "2": 92
+      },
+      "gavi-country-activities.xml": {
+        "2": 72,
+        "4": 6
       },
       "gavi-vaccine-activities.xml": {
         "2": 418,
         "3": 447
       },
-      "gavi-country-activities.xml": {
-        "2": 72,
-        "4": 6
+      "gavi-covax.xml": {
+        "2": 92
       }
     },
     ".//activity-scope/@code": {
-      "gavi-covax.xml": {
-        "4": 92
-      },
       "gavi-tca-activities.xml": {
         "4": 92
+      },
+      "gavi-country-activities.xml": {
+        "4": 78
       },
       "gavi-vaccine-activities.xml": {
         "4": 865
       },
-      "gavi-country-activities.xml": {
-        "4": 78
+      "gavi-covax.xml": {
+        "4": 92
       }
     },
     ".//budget/@status": {
-      "gavi-covax.xml": {
-        "2": 182
-      },
       "gavi-tca-activities.xml": {
         "2": 308
       },
       "gavi-vaccine-activities.xml": {
         "2": 5309
+      },
+      "gavi-covax.xml": {
+        "2": 182
       }
     },
     ".//budget/@type": {
-      "gavi-covax.xml": {
-        "2": 182
-      },
       "gavi-tca-activities.xml": {
         "2": 308
       },
       "gavi-vaccine-activities.xml": {
         "2": 5309
+      },
+      "gavi-covax.xml": {
+        "2": 182
       }
     },
     ".//collaboration-type/@code": {
-      "gavi-covax.xml": {
-        "2": 92
-      },
       "gavi-tca-activities.xml": {
         "2": 92
+      },
+      "gavi-country-activities.xml": {
+        "2": 78
       },
       "gavi-vaccine-activities.xml": {
         "2": 865
       },
-      "gavi-country-activities.xml": {
-        "2": 78
+      "gavi-covax.xml": {
+        "2": 92
       }
     },
     ".//conditions/condition/@type": {
-      "gavi-covax.xml": {
-        "2": 92
-      },
       "gavi-tca-activities.xml": {
         "2": 92
       },
       "gavi-vaccine-activities.xml": {
         "3": 865
+      },
+      "gavi-covax.xml": {
+        "2": 92
       }
     },
     ".//contact-info/@type": {
-      "gavi-covax.xml": {
-        "1": 92
-      },
       "gavi-tca-activities.xml": {
         "1": 92
+      },
+      "gavi-country-activities.xml": {
+        "1": 78
       },
       "gavi-vaccine-activities.xml": {
         "1": 865
       },
-      "gavi-country-activities.xml": {
-        "1": 78
+      "gavi-covax.xml": {
+        "1": 92
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "gavi-covax.xml": {
-        "C01": 92
-      },
       "gavi-tca-activities.xml": {
         "C01": 92
+      },
+      "gavi-country-activities.xml": {
+        "B03": 78
       },
       "gavi-vaccine-activities.xml": {
         "C01": 865
       },
-      "gavi-country-activities.xml": {
-        "B03": 78
+      "gavi-covax.xml": {
+        "C01": 92
       }
     },
     ".//default-finance-type/@code": {
-      "gavi-covax.xml": {
-        "110": 92
-      },
       "gavi-tca-activities.xml": {
         "110": 92
+      },
+      "gavi-country-activities.xml": {
+        "110": 78
       },
       "gavi-vaccine-activities.xml": {
         "110": 865
       },
-      "gavi-country-activities.xml": {
-        "110": 78
+      "gavi-covax.xml": {
+        "110": 92
       }
     },
     ".//default-flow-type/@code": {
-      "gavi-covax.xml": {
-        "10": 92
-      },
       "gavi-tca-activities.xml": {
         "10": 92
+      },
+      "gavi-country-activities.xml": {
+        "10": 78
       },
       "gavi-vaccine-activities.xml": {
         "10": 865
       },
-      "gavi-country-activities.xml": {
-        "10": 78
+      "gavi-covax.xml": {
+        "10": 92
       }
     },
     ".//default-tied-status/@code": {
-      "gavi-covax.xml": {
-        "5": 92
-      },
       "gavi-tca-activities.xml": {
         "5": 92
+      },
+      "gavi-country-activities.xml": {
+        "5": 78
       },
       "gavi-vaccine-activities.xml": {
         "5": 865
       },
-      "gavi-country-activities.xml": {
-        "5": 78
+      "gavi-covax.xml": {
+        "5": 92
       }
     },
     ".//description/@type": {
-      "gavi-covax.xml": {
-        "1": 92,
-        "4": 92
-      },
       "gavi-tca-activities.xml": {
         "1": 92
+      },
+      "gavi-country-activities.xml": {
+        "1": 78,
+        "4": 78
       },
       "gavi-vaccine-activities.xml": {
         "1": 865,
         "4": 865
       },
-      "gavi-country-activities.xml": {
-        "1": 78,
-        "4": 78
+      "gavi-covax.xml": {
+        "1": 92,
+        "4": 92
       }
     },
     ".//document-link/@format": {
-      "gavi-covax.xml": {
-        "text/html": 92,
-        "application/pdf": 53
-      },
       "gavi-tca-activities.xml": {
         "application/pdf": 655,
         "text/html": 368
+      },
+      "gavi-country-activities.xml": {
+        "text/html": 386,
+        "application/pdf": 3481,
+        "application/msword": 487,
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document": 8,
+        "application/octet-stream": 4,
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": 1,
+        "application/vnd.ms-excel": 2
       },
       "gavi-vaccine-activities.xml": {
         "application/pdf": 3909,
@@ -226,32 +231,26 @@
         "application/xml": 38,
         "image/png": 4
       },
-      "gavi-country-activities.xml": {
-        "text/html": 386,
-        "application/pdf": 3481,
-        "application/msword": 487,
-        "application/vnd.openxmlformats-officedocument.wordprocessingml.document": 8,
-        "application/octet-stream": 4,
-        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": 1,
-        "application/vnd.ms-excel": 2
+      "gavi-covax.xml": {
+        "text/html": 92,
+        "application/pdf": 53
       }
     },
     ".//document-link/category/@code": {
-      "gavi-covax.xml": {
-        "A12": 92,
-        "A02": 92,
-        "A03": 92,
-        "A04": 145,
-        "A05": 53,
-        "A06": 53,
-        "A09": 53,
-        "A11": 53
-      },
       "gavi-tca-activities.xml": {
         "A05": 471,
         "A02": 471,
         "A12": 368,
         "A04": 184
+      },
+      "gavi-country-activities.xml": {
+        "A12": 231,
+        "A07": 3093,
+        "A08": 3329,
+        "A02": 719,
+        "A05": 719,
+        "A03": 186,
+        "A10": 78
       },
       "gavi-vaccine-activities.xml": {
         "A01": 3372,
@@ -265,30 +264,22 @@
         "A12": 1113,
         "A08": 156
       },
-      "gavi-country-activities.xml": {
-        "A12": 231,
-        "A07": 3093,
-        "A08": 3329,
-        "A02": 719,
-        "A05": 719,
-        "A03": 186,
-        "A10": 78
+      "gavi-covax.xml": {
+        "A12": 92,
+        "A02": 92,
+        "A03": 92,
+        "A04": 145,
+        "A05": 53,
+        "A06": 53,
+        "A09": 53,
+        "A11": 53
       }
     },
     ".//document-link/language/@code": {
-      "gavi-covax.xml": {
-        "en": 145
-      },
       "gavi-tca-activities.xml": {
         "en": 659,
         "fr": 356,
         "es": 8
-      },
-      "gavi-vaccine-activities.xml": {
-        "en": 5482,
-        "fr": 1784,
-        "ru": 18,
-        "es": 62
       },
       "gavi-country-activities.xml": {
         "fr": 863,
@@ -296,128 +287,32 @@
         "pt": 2,
         "ru": 24,
         "es": 32
-      }
-    },
-    ".//humanitarian-scope/@type": {
+      },
+      "gavi-vaccine-activities.xml": {
+        "en": 5482,
+        "fr": 1784,
+        "ru": 18,
+        "es": 62
+      },
       "gavi-covax.xml": {
-        "1": 92,
-        "2": 92
-      }
-    },
-    ".//humanitarian-scope/@vocabulary": {
-      "gavi-covax.xml": {
-        "1-2": 92,
-        "2-1": 92
+        "en": 145
       }
     },
     ".//location/administrative/@vocabulary": {
-      "gavi-covax.xml": {
-        "A4": 91
-      },
       "gavi-tca-activities.xml": {
         "A4": 92
+      },
+      "gavi-country-activities.xml": {
+        "A4": 78
       },
       "gavi-vaccine-activities.xml": {
         "A4": 865
       },
-      "gavi-country-activities.xml": {
-        "A4": 78
+      "gavi-covax.xml": {
+        "A4": 91
       }
     },
     ".//location/administrative[@vocabulary = 'A4']/@code": {
-      "gavi-covax.xml": {
-        "AF": 1,
-        "AO": 1,
-        "BJ": 1,
-        "BF": 1,
-        "BD": 1,
-        "BO": 1,
-        "CF": 1,
-        "CI": 1,
-        "CM": 1,
-        "CD": 1,
-        "CG": 1,
-        "KM": 1,
-        "CV": 1,
-        "DJ": 1,
-        "DM": 1,
-        "DZ": 1,
-        "EG": 1,
-        "ET": 1,
-        "FJ": 1,
-        "FM": 1,
-        "GH": 1,
-        "GN": 1,
-        "GM": 1,
-        "GW": 1,
-        "GD": 1,
-        "GY": 1,
-        "HN": 1,
-        "HT": 1,
-        "ID": 1,
-        "IN": 1,
-        "KE": 1,
-        "KH": 1,
-        "KI": 1,
-        "LA": 1,
-        "LR": 1,
-        "LC": 1,
-        "LK": 1,
-        "LS": 1,
-        "MA": 1,
-        "MD": 1,
-        "MV": 1,
-        "MH": 1,
-        "ML": 1,
-        "MM": 1,
-        "MZ": 1,
-        "MR": 1,
-        "MW": 1,
-        "NE": 1,
-        "NG": 1,
-        "NI": 1,
-        "PK": 1,
-        "PH": 1,
-        "PG": 1,
-        "KP": 1,
-        "RW": 1,
-        "SD": 1,
-        "SN": 1,
-        "SB": 1,
-        "SL": 1,
-        "SV": 1,
-        "SO": 1,
-        "SS": 1,
-        "ST": 1,
-        "SZ": 1,
-        "SY": 1,
-        "TD": 1,
-        "TG": 1,
-        "TL": 1,
-        "TO": 1,
-        "TN": 1,
-        "TV": 1,
-        "UG": 1,
-        "UA": 1,
-        "VC": 1,
-        "VN": 1,
-        "VU": 1,
-        "WS": 1,
-        "XK": 1,
-        "ZM": 1,
-        "ZW": 1,
-        "BT": 1,
-        "KG": 1,
-        "MN": 1,
-        "NP": 1,
-        "PS": 1,
-        "TJ": 1,
-        "UZ": 1,
-        "YE": 1,
-        "TZ": 1,
-        "MG": 1,
-        "IR": 1
-      },
       "gavi-tca-activities.xml": {
         "AF": 1,
         "AO": 1,
@@ -512,6 +407,86 @@
         "ZM": 1,
         "ZW": 1
       },
+      "gavi-country-activities.xml": {
+        "AF": 1,
+        "AL": 1,
+        "AM": 1,
+        "AO": 1,
+        "AZ": 1,
+        "BA": 1,
+        "BD": 1,
+        "BF": 1,
+        "BI": 1,
+        "BJ": 1,
+        "BO": 1,
+        "BT": 1,
+        "CD": 1,
+        "CF": 1,
+        "CG": 1,
+        "CI": 1,
+        "CM": 1,
+        "CN": 1,
+        "CU": 1,
+        "DJ": 1,
+        "ER": 1,
+        "ET": 1,
+        "GE": 1,
+        "GH": 1,
+        "GM": 1,
+        "GN": 1,
+        "GW": 1,
+        "GY": 1,
+        "HN": 1,
+        "HT": 1,
+        "ID": 1,
+        "IN": 1,
+        "KE": 1,
+        "KG": 1,
+        "KH": 1,
+        "KI": 1,
+        "KM": 1,
+        "KP": 1,
+        "LA": 1,
+        "LK": 1,
+        "LR": 1,
+        "LS": 1,
+        "MD": 1,
+        "MG": 1,
+        "ML": 1,
+        "MM": 1,
+        "MN": 1,
+        "MR": 1,
+        "MW": 1,
+        "MZ": 1,
+        "NE": 1,
+        "NG": 1,
+        "NI": 1,
+        "NP": 1,
+        "PG": 1,
+        "PK": 1,
+        "RW": 1,
+        "SB": 1,
+        "SD": 1,
+        "SL": 1,
+        "SN": 1,
+        "SO": 1,
+        "SS": 1,
+        "ST": 1,
+        "SY": 1,
+        "TD": 1,
+        "TG": 1,
+        "TJ": 1,
+        "TL": 1,
+        "TM": 1,
+        "TZ": 1,
+        "UA": 1,
+        "UG": 1,
+        "UZ": 1,
+        "VN": 1,
+        "YE": 1,
+        "ZM": 1,
+        "ZW": 1
+      },
       "gavi-vaccine-activities.xml": {
         "AF": 13,
         "AO": 10,
@@ -592,185 +567,194 @@
         "UA": 2,
         "SY": 5
       },
-      "gavi-country-activities.xml": {
+      "gavi-covax.xml": {
         "AF": 1,
-        "AL": 1,
-        "AM": 1,
         "AO": 1,
-        "AZ": 1,
-        "BA": 1,
-        "BD": 1,
-        "BF": 1,
-        "BI": 1,
         "BJ": 1,
+        "BF": 1,
+        "BD": 1,
         "BO": 1,
-        "BT": 1,
-        "CD": 1,
         "CF": 1,
-        "CG": 1,
         "CI": 1,
         "CM": 1,
-        "CN": 1,
-        "CU": 1,
+        "CD": 1,
+        "CG": 1,
+        "KM": 1,
+        "CV": 1,
         "DJ": 1,
-        "ER": 1,
+        "DM": 1,
+        "DZ": 1,
+        "EG": 1,
         "ET": 1,
-        "GE": 1,
+        "FJ": 1,
+        "FM": 1,
         "GH": 1,
-        "GM": 1,
         "GN": 1,
+        "GM": 1,
         "GW": 1,
+        "GD": 1,
         "GY": 1,
         "HN": 1,
         "HT": 1,
         "ID": 1,
         "IN": 1,
         "KE": 1,
-        "KG": 1,
         "KH": 1,
         "KI": 1,
-        "KM": 1,
-        "KP": 1,
         "LA": 1,
-        "LK": 1,
         "LR": 1,
+        "LC": 1,
+        "LK": 1,
         "LS": 1,
+        "MA": 1,
         "MD": 1,
-        "MG": 1,
+        "MV": 1,
+        "MH": 1,
         "ML": 1,
         "MM": 1,
-        "MN": 1,
+        "MZ": 1,
         "MR": 1,
         "MW": 1,
-        "MZ": 1,
         "NE": 1,
         "NG": 1,
         "NI": 1,
-        "NP": 1,
-        "PG": 1,
         "PK": 1,
+        "PH": 1,
+        "PG": 1,
+        "KP": 1,
         "RW": 1,
-        "SB": 1,
         "SD": 1,
-        "SL": 1,
         "SN": 1,
+        "SB": 1,
+        "SL": 1,
+        "SV": 1,
         "SO": 1,
         "SS": 1,
         "ST": 1,
+        "SZ": 1,
         "SY": 1,
         "TD": 1,
         "TG": 1,
-        "TJ": 1,
         "TL": 1,
-        "TM": 1,
-        "TZ": 1,
-        "UA": 1,
+        "TO": 1,
+        "TN": 1,
+        "TV": 1,
         "UG": 1,
-        "UZ": 1,
+        "UA": 1,
+        "VC": 1,
         "VN": 1,
-        "YE": 1,
+        "VU": 1,
+        "WS": 1,
+        "XK": 1,
         "ZM": 1,
-        "ZW": 1
+        "ZW": 1,
+        "BT": 1,
+        "KG": 1,
+        "MN": 1,
+        "NP": 1,
+        "PS": 1,
+        "TJ": 1,
+        "UZ": 1,
+        "YE": 1,
+        "TZ": 1,
+        "MG": 1,
+        "IR": 1
       }
     },
     ".//location/location-class/@code": {
-      "gavi-covax.xml": {
-        "2": 91
-      },
       "gavi-tca-activities.xml": {
         "2": 92
+      },
+      "gavi-country-activities.xml": {
+        "2": 78
       },
       "gavi-vaccine-activities.xml": {
         "2": 865
       },
-      "gavi-country-activities.xml": {
-        "2": 78
+      "gavi-covax.xml": {
+        "2": 91
       }
     },
     ".//location/location-id/@vocabulary": {
-      "gavi-covax.xml": {
-        "A4": 91
-      },
       "gavi-tca-activities.xml": {
         "A4": 92
+      },
+      "gavi-country-activities.xml": {
+        "A4": 78
       },
       "gavi-vaccine-activities.xml": {
         "A4": 865
       },
-      "gavi-country-activities.xml": {
-        "A4": 78
+      "gavi-covax.xml": {
+        "A4": 91
       }
     },
     ".//location/location-reach/@code": {
-      "gavi-covax.xml": {
-        "1": 91
-      },
       "gavi-tca-activities.xml": {
         "1": 92
+      },
+      "gavi-country-activities.xml": {
+        "1": 78
       },
       "gavi-vaccine-activities.xml": {
         "1": 865
       },
-      "gavi-country-activities.xml": {
-        "1": 78
+      "gavi-covax.xml": {
+        "1": 91
       }
     },
     ".//location/exactness/@code": {
-      "gavi-covax.xml": {
-        "2": 91
-      },
       "gavi-tca-activities.xml": {
         "2": 92
+      },
+      "gavi-country-activities.xml": {
+        "2": 78
       },
       "gavi-vaccine-activities.xml": {
         "2": 865
       },
-      "gavi-country-activities.xml": {
-        "2": 78
+      "gavi-covax.xml": {
+        "2": 91
       }
     },
     ".//other-identifier/@type": {
-      "gavi-covax.xml": {
-        "B1": 92
-      },
       "gavi-tca-activities.xml": {
         "B1": 92
+      },
+      "gavi-country-activities.xml": {
+        "B1": 78
       },
       "gavi-vaccine-activities.xml": {
         "B1": 865,
         "A3": 3340
       },
-      "gavi-country-activities.xml": {
-        "B1": 78
+      "gavi-covax.xml": {
+        "B1": 92
       }
     },
     ".//participating-org/@role": {
-      "gavi-covax.xml": {
-        "1": 92,
-        "3": 92,
-        "4": 204
-      },
       "gavi-tca-activities.xml": {
         "1": 92,
         "3": 92,
         "4": 525
+      },
+      "gavi-country-activities.xml": {
+        "1": 78,
+        "3": 78,
+        "4": 78
       },
       "gavi-vaccine-activities.xml": {
         "1": 865,
         "3": 865,
         "4": 2470
       },
-      "gavi-country-activities.xml": {
-        "1": 78,
-        "3": 78,
-        "4": 78
+      "gavi-covax.xml": {
+        "1": 92,
+        "3": 92,
+        "4": 204
       }
     },
     ".//participating-org/@type": {
-      "gavi-covax.xml": {
-        "40": 276,
-        "10": 112
-      },
       "gavi-tca-activities.xml": {
         "40": 382,
         "10": 93,
@@ -778,143 +762,54 @@
         "80": 58,
         "21": 20
       },
+      "gavi-country-activities.xml": {
+        "40": 156,
+        "10": 78
+      },
       "gavi-vaccine-activities.xml": {
         "40": 2820,
         "10": 1174,
         "70": 13,
         "21": 1
       },
-      "gavi-country-activities.xml": {
-        "40": 156,
-        "10": 78
+      "gavi-covax.xml": {
+        "40": 276,
+        "10": 112
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "gavi-covax.xml": {
-        "1": 92,
-        "9": 92
-      },
       "gavi-tca-activities.xml": {
         "1": 92,
         "9": 92
+      },
+      "gavi-country-activities.xml": {
+        "1": 78,
+        "9": 78
       },
       "gavi-vaccine-activities.xml": {
         "1": 865,
         "9": 865
       },
-      "gavi-country-activities.xml": {
-        "1": 78,
-        "9": 78
+      "gavi-covax.xml": {
+        "1": 92,
+        "9": 92
       }
     },
     ".//policy-marker/@significance": {
-      "gavi-covax.xml": {
-        "2": 184
-      },
       "gavi-tca-activities.xml": {
         "2": 184
+      },
+      "gavi-country-activities.xml": {
+        "2": 156
       },
       "gavi-vaccine-activities.xml": {
         "2": 1730
       },
-      "gavi-country-activities.xml": {
-        "2": 156
+      "gavi-covax.xml": {
+        "2": 184
       }
     },
     ".//recipient-country/@code": {
-      "gavi-covax.xml": {
-        "AF": 1,
-        "AO": 1,
-        "BJ": 1,
-        "BF": 1,
-        "BD": 1,
-        "BO": 1,
-        "CF": 1,
-        "CI": 1,
-        "CM": 1,
-        "CD": 1,
-        "CG": 1,
-        "KM": 1,
-        "CV": 1,
-        "DJ": 1,
-        "DM": 1,
-        "DZ": 1,
-        "EG": 1,
-        "ET": 1,
-        "FJ": 1,
-        "FM": 1,
-        "GH": 1,
-        "GN": 1,
-        "GM": 1,
-        "GW": 1,
-        "GD": 1,
-        "GY": 1,
-        "HN": 1,
-        "HT": 1,
-        "ID": 1,
-        "IN": 1,
-        "KE": 1,
-        "KH": 1,
-        "KI": 1,
-        "LA": 1,
-        "LR": 1,
-        "LC": 1,
-        "LK": 1,
-        "LS": 1,
-        "MA": 1,
-        "MD": 1,
-        "MV": 1,
-        "MH": 1,
-        "ML": 1,
-        "MM": 1,
-        "MZ": 1,
-        "MR": 1,
-        "MW": 1,
-        "NE": 1,
-        "NG": 1,
-        "NI": 1,
-        "PK": 1,
-        "PH": 1,
-        "PG": 1,
-        "KP": 1,
-        "RW": 1,
-        "SD": 1,
-        "SN": 1,
-        "SB": 1,
-        "SL": 1,
-        "SV": 1,
-        "SO": 1,
-        "SS": 1,
-        "ST": 1,
-        "SZ": 1,
-        "SY": 1,
-        "TD": 1,
-        "TG": 1,
-        "TL": 1,
-        "TO": 1,
-        "TN": 1,
-        "TV": 1,
-        "UG": 1,
-        "UA": 1,
-        "VC": 1,
-        "VN": 1,
-        "VU": 1,
-        "WS": 1,
-        "XK": 1,
-        "ZM": 1,
-        "ZW": 1,
-        "BT": 1,
-        "KG": 1,
-        "MN": 1,
-        "NP": 1,
-        "PS": 1,
-        "TJ": 1,
-        "UZ": 1,
-        "YE": 1,
-        "TZ": 1,
-        "MG": 1,
-        "IR": 1
-      },
       "gavi-tca-activities.xml": {
         "AF": 1,
         "AO": 1,
@@ -1009,6 +904,86 @@
         "ZM": 1,
         "ZW": 1
       },
+      "gavi-country-activities.xml": {
+        "AF": 1,
+        "AL": 1,
+        "AM": 1,
+        "AO": 1,
+        "AZ": 1,
+        "BA": 1,
+        "BD": 1,
+        "BF": 1,
+        "BI": 1,
+        "BJ": 1,
+        "BO": 1,
+        "BT": 1,
+        "CD": 1,
+        "CF": 1,
+        "CG": 1,
+        "CI": 1,
+        "CM": 1,
+        "CN": 1,
+        "CU": 1,
+        "DJ": 1,
+        "ER": 1,
+        "ET": 1,
+        "GE": 1,
+        "GH": 1,
+        "GM": 1,
+        "GN": 1,
+        "GW": 1,
+        "GY": 1,
+        "HN": 1,
+        "HT": 1,
+        "ID": 1,
+        "IN": 1,
+        "KE": 1,
+        "KG": 1,
+        "KH": 1,
+        "KI": 1,
+        "KM": 1,
+        "KP": 1,
+        "LA": 1,
+        "LK": 1,
+        "LR": 1,
+        "LS": 1,
+        "MD": 1,
+        "MG": 1,
+        "ML": 1,
+        "MM": 1,
+        "MN": 1,
+        "MR": 1,
+        "MW": 1,
+        "MZ": 1,
+        "NE": 1,
+        "NG": 1,
+        "NI": 1,
+        "NP": 1,
+        "PG": 1,
+        "PK": 1,
+        "RW": 1,
+        "SB": 1,
+        "SD": 1,
+        "SL": 1,
+        "SN": 1,
+        "SO": 1,
+        "SS": 1,
+        "ST": 1,
+        "SY": 1,
+        "TD": 1,
+        "TG": 1,
+        "TJ": 1,
+        "TL": 1,
+        "TM": 1,
+        "TZ": 1,
+        "UA": 1,
+        "UG": 1,
+        "UZ": 1,
+        "VN": 1,
+        "YE": 1,
+        "ZM": 1,
+        "ZW": 1
+      },
       "gavi-vaccine-activities.xml": {
         "AF": 13,
         "AO": 10,
@@ -1089,129 +1064,129 @@
         "UA": 2,
         "SY": 5
       },
-      "gavi-country-activities.xml": {
+      "gavi-covax.xml": {
         "AF": 1,
-        "AL": 1,
-        "AM": 1,
         "AO": 1,
-        "AZ": 1,
-        "BA": 1,
-        "BD": 1,
-        "BF": 1,
-        "BI": 1,
         "BJ": 1,
+        "BF": 1,
+        "BD": 1,
         "BO": 1,
-        "BT": 1,
-        "CD": 1,
         "CF": 1,
-        "CG": 1,
         "CI": 1,
         "CM": 1,
-        "CN": 1,
-        "CU": 1,
+        "CD": 1,
+        "CG": 1,
+        "KM": 1,
+        "CV": 1,
         "DJ": 1,
-        "ER": 1,
+        "DM": 1,
+        "DZ": 1,
+        "EG": 1,
         "ET": 1,
-        "GE": 1,
+        "FJ": 1,
+        "FM": 1,
         "GH": 1,
-        "GM": 1,
         "GN": 1,
+        "GM": 1,
         "GW": 1,
+        "GD": 1,
         "GY": 1,
         "HN": 1,
         "HT": 1,
         "ID": 1,
         "IN": 1,
         "KE": 1,
-        "KG": 1,
         "KH": 1,
         "KI": 1,
-        "KM": 1,
-        "KP": 1,
         "LA": 1,
-        "LK": 1,
         "LR": 1,
+        "LC": 1,
+        "LK": 1,
         "LS": 1,
+        "MA": 1,
         "MD": 1,
-        "MG": 1,
+        "MV": 1,
+        "MH": 1,
         "ML": 1,
         "MM": 1,
-        "MN": 1,
+        "MZ": 1,
         "MR": 1,
         "MW": 1,
-        "MZ": 1,
         "NE": 1,
         "NG": 1,
         "NI": 1,
-        "NP": 1,
-        "PG": 1,
         "PK": 1,
+        "PH": 1,
+        "PG": 1,
+        "KP": 1,
         "RW": 1,
-        "SB": 1,
         "SD": 1,
-        "SL": 1,
         "SN": 1,
+        "SB": 1,
+        "SL": 1,
+        "SV": 1,
         "SO": 1,
         "SS": 1,
         "ST": 1,
+        "SZ": 1,
         "SY": 1,
         "TD": 1,
         "TG": 1,
-        "TJ": 1,
         "TL": 1,
-        "TM": 1,
-        "TZ": 1,
-        "UA": 1,
+        "TO": 1,
+        "TN": 1,
+        "TV": 1,
         "UG": 1,
-        "UZ": 1,
+        "UA": 1,
+        "VC": 1,
         "VN": 1,
-        "YE": 1,
+        "VU": 1,
+        "WS": 1,
+        "XK": 1,
         "ZM": 1,
-        "ZW": 1
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "gavi-covax.xml": {
-        "998": 1
-      }
-    },
-    ".//recipient-region/@vocabulary": {
-      "gavi-covax.xml": {
-        "1": 1
+        "ZW": 1,
+        "BT": 1,
+        "KG": 1,
+        "MN": 1,
+        "NP": 1,
+        "PS": 1,
+        "TJ": 1,
+        "UZ": 1,
+        "YE": 1,
+        "TZ": 1,
+        "MG": 1,
+        "IR": 1
       }
     },
     ".//related-activity/@type": {
-      "gavi-covax.xml": {
-        "1": 92
-      },
       "gavi-tca-activities.xml": {
         "1": 70
+      },
+      "gavi-country-activities.xml": {
+        "2": 955
       },
       "gavi-vaccine-activities.xml": {
         "1": 865
       },
-      "gavi-country-activities.xml": {
-        "2": 955
+      "gavi-covax.xml": {
+        "1": 92
       }
     },
     ".//reporting-org/@type": {
-      "gavi-covax.xml": {
-        "40": 92
-      },
       "gavi-tca-activities.xml": {
         "40": 92
+      },
+      "gavi-country-activities.xml": {
+        "40": 78
       },
       "gavi-vaccine-activities.xml": {
         "40": 865
       },
-      "gavi-country-activities.xml": {
-        "40": 78
+      "gavi-covax.xml": {
+        "40": 92
       }
     },
     ".//result/@type": {
-      "gavi-covax.xml": {
-        "1": 90
-      },
       "gavi-tca-activities.xml": {
         "1": 1015
       },
@@ -1219,67 +1194,55 @@
         "1": 7915,
         "2": 9,
         "9": 6
+      },
+      "gavi-covax.xml": {
+        "1": 90
       }
     },
     ".//result/indicator/@measure": {
-      "gavi-covax.xml": {
-        "1": 90
-      },
       "gavi-tca-activities.xml": {
         "5": 3302
       },
       "gavi-vaccine-activities.xml": {
         "1": 7640,
         "2": 290
+      },
+      "gavi-covax.xml": {
+        "1": 90
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "gavi-covax.xml": {
-        "12250": 92
-      },
       "gavi-tca-activities.xml": {
         "12250": 92
+      },
+      "gavi-country-activities.xml": {
+        "12250": 78
       },
       "gavi-vaccine-activities.xml": {
         "12250": 865
       },
-      "gavi-country-activities.xml": {
-        "12250": 78
+      "gavi-covax.xml": {
+        "12250": 92
       }
     },
     ".//sector/@vocabulary": {
-      "gavi-covax.xml": {
-        "1": 92,
-        "99": 92
-      },
       "gavi-tca-activities.xml": {
         "1": 92,
         "99": 92
+      },
+      "gavi-country-activities.xml": {
+        "1": 78
       },
       "gavi-vaccine-activities.xml": {
         "1": 865,
         "99": 865
       },
-      "gavi-country-activities.xml": {
-        "1": 78
+      "gavi-covax.xml": {
+        "1": 92,
+        "99": 92
       }
     },
     ".//tag[@vocabulary = '2']/@code": {
-      "gavi-covax.xml": {
-        "1": 92,
-        "2": 92,
-        "3": 92,
-        "4": 92,
-        "5": 92,
-        "7": 92,
-        "8": 92,
-        "9": 92,
-        "10": 92,
-        "11": 92,
-        "13": 92,
-        "16": 92,
-        "17": 92
-      },
       "gavi-tca-activities.xml": {
         "1": 92,
         "2": 92,
@@ -1294,6 +1257,21 @@
         "13": 92,
         "16": 92,
         "17": 92
+      },
+      "gavi-country-activities.xml": {
+        "1": 78,
+        "2": 78,
+        "3": 78,
+        "4": 78,
+        "5": 78,
+        "7": 78,
+        "8": 78,
+        "9": 78,
+        "10": 78,
+        "11": 78,
+        "13": 78,
+        "16": 78,
+        "17": 78
       },
       "gavi-vaccine-activities.xml": {
         "1": 865,
@@ -1310,53 +1288,49 @@
         "16": 865,
         "17": 865
       },
-      "gavi-country-activities.xml": {
-        "1": 78,
-        "2": 78,
-        "3": 78,
-        "4": 78,
-        "5": 78,
-        "7": 78,
-        "8": 78,
-        "9": 78,
-        "10": 78,
-        "11": 78,
-        "13": 78,
-        "16": 78,
-        "17": 78
+      "gavi-covax.xml": {
+        "1": 92,
+        "2": 92,
+        "3": 92,
+        "4": 92,
+        "5": 92,
+        "7": 92,
+        "8": 92,
+        "9": 92,
+        "10": 92,
+        "11": 92,
+        "13": 92,
+        "16": 92,
+        "17": 92
       }
     },
     ".//tag/@vocabulary": {
-      "gavi-covax.xml": {
-        "2": 1196,
-        "99": 92
-      },
       "gavi-tca-activities.xml": {
         "2": 1196
+      },
+      "gavi-country-activities.xml": {
+        "2": 1014
       },
       "gavi-vaccine-activities.xml": {
         "2": 11245
       },
-      "gavi-country-activities.xml": {
-        "2": 1014
+      "gavi-covax.xml": {
+        "2": 1196,
+        "99": 92
       }
     },
     ".//transaction/provider-org/@type": {
-      "gavi-covax.xml": {
-        "40": 4002
-      },
       "gavi-tca-activities.xml": {
         "40": 4683
       },
       "gavi-vaccine-activities.xml": {
         "40": 24098
+      },
+      "gavi-covax.xml": {
+        "40": 4002
       }
     },
     ".//transaction/receiver-org/@type": {
-      "gavi-covax.xml": {
-        "40": 3789,
-        "10": 213
-      },
       "gavi-tca-activities.xml": {
         "70": 809,
         "80": 661,
@@ -1369,13 +1343,13 @@
         "40": 16892,
         "21": 2,
         "70": 120
+      },
+      "gavi-covax.xml": {
+        "40": 3789,
+        "10": 213
       }
     },
     ".//transaction/transaction-type/@code": {
-      "gavi-covax.xml": {
-        "2": 182,
-        "3": 3826
-      },
       "gavi-tca-activities.xml": {
         "2": 1267,
         "3": 3416
@@ -1383,34 +1357,28 @@
       "gavi-vaccine-activities.xml": {
         "2": 5309,
         "3": 18789
+      },
+      "gavi-covax.xml": {
+        "2": 182,
+        "3": 3826
       }
     },
     ".//@xml:lang": {
-      "gavi-covax.xml": {
-        "en": 93,
-        "fr": 276
-      },
       "gavi-tca-activities.xml": {
         "en": 185,
         "fr": 276
+      },
+      "gavi-country-activities.xml": {
+        "en": 309,
+        "fr": 311
       },
       "gavi-vaccine-activities.xml": {
         "en": 866,
         "fr": 2595
       },
-      "gavi-country-activities.xml": {
-        "en": 309,
-        "fr": 311
-      }
-    },
-    ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
       "gavi-covax.xml": {
-        "EP-2020-000012-001": 92
-      }
-    },
-    ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
-      "gavi-covax.xml": {
-        "HCOVD20": 92
+        "en": 93,
+        "fr": 276
       }
     },
     ".//result/document-link/@format": {
@@ -1421,6 +1389,38 @@
     ".//result/document-link/category/@code": {
       "gavi-vaccine-activities.xml": {
         "A08": 156
+      }
+    },
+    ".//humanitarian-scope/@type": {
+      "gavi-covax.xml": {
+        "1": 92,
+        "2": 92
+      }
+    },
+    ".//humanitarian-scope/@vocabulary": {
+      "gavi-covax.xml": {
+        "1-2": 92,
+        "2-1": 92
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "gavi-covax.xml": {
+        "998": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "gavi-covax.xml": {
+        "1": 1
+      }
+    },
+    ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
+      "gavi-covax.xml": {
+        "EP-2020-000012-001": 92
+      }
+    },
+    ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
+      "gavi-covax.xml": {
+        "HCOVD20": 92
       }
     }
   }

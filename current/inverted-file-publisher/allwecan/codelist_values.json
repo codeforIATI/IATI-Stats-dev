@@ -1,134 +1,134 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     }
   },
   ".//@xml:lang": {
     "en": {
-      "allwecan-ug.xml": 17,
-      "allwecan-cm.xml": 54
+      "allwecan-cm.xml": 54,
+      "allwecan-ug.xml": 17
     }
   },
   ".//activity-date/@type": {
     "start-actual": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     },
     "end-planned": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     }
   },
   ".//activity-status/@code": {
     "2": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     }
   },
   ".//budget/@type": {
     "1": {
-      "allwecan-ug.xml": 2,
-      "allwecan-cm.xml": 6
+      "allwecan-cm.xml": 6,
+      "allwecan-ug.xml": 2
     }
   },
   ".//budget/value/@currency": {
     "GBP": {
-      "allwecan-ug.xml": 3,
-      "allwecan-cm.xml": 6
+      "allwecan-cm.xml": 6,
+      "allwecan-ug.xml": 3
     }
   },
   ".//default-aid-type/@code": {
     "C01": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     }
   },
   ".//default-flow-type/@code": {
     "30": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     }
   },
   ".//description/@type": {
     "1": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     }
   },
   ".//document-link/@format": {
     "text/html": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     }
   },
   ".//document-link/category/@code": {
     "A02": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     }
   },
   ".//location/location-type/@code": {
-    "ADM2": {
-      "allwecan-ug.xml": 1
-    },
     "ADM1": {
       "allwecan-cm.xml": 1
+    },
+    "ADM2": {
+      "allwecan-ug.xml": 1
     }
   },
   ".//participating-org/@role": {
     "Funding": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     },
     "Extending": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     },
     "Implementing": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     }
   },
   ".//participating-org/@type": {
     "10": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     },
     "21": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     },
     "23": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     }
   },
   ".//planned-disbursement/value/@currency": {
     "GBP": {
-      "allwecan-ug.xml": 5,
-      "allwecan-cm.xml": 4
+      "allwecan-cm.xml": 4,
+      "allwecan-ug.xml": 5
     }
   },
   ".//recipient-country/@code": {
-    "UG": {
-      "allwecan-ug.xml": 1
-    },
     "CM": {
       "allwecan-cm.xml": 1
+    },
+    "UG": {
+      "allwecan-ug.xml": 1
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "298": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "21": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     }
   },
   ".//sector/@vocabulary": {
@@ -137,9 +137,6 @@
     }
   },
   ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
-    "14030": {
-      "allwecan-ug.xml": 1
-    },
     "164": {
       "allwecan-cm.xml": 1
     },
@@ -163,59 +160,62 @@
     },
     "42": {
       "allwecan-cm.xml": 1
+    },
+    "14030": {
+      "allwecan-ug.xml": 1
     }
   },
   ".//transaction/aid-type/@code": {
     "C01": {
-      "allwecan-ug.xml": 23,
-      "allwecan-cm.xml": 32
+      "allwecan-cm.xml": 32,
+      "allwecan-ug.xml": 23
     }
   },
   ".//transaction/disbursement-channel/@code": {
     "2": {
-      "allwecan-ug.xml": 23,
-      "allwecan-cm.xml": 32
+      "allwecan-cm.xml": 32,
+      "allwecan-ug.xml": 23
     }
   },
   ".//transaction/finance-type/@code": {
     "110": {
-      "allwecan-ug.xml": 23,
-      "allwecan-cm.xml": 32
+      "allwecan-cm.xml": 32,
+      "allwecan-ug.xml": 23
     }
   },
   ".//transaction/flow-type/@code": {
     "30": {
-      "allwecan-ug.xml": 23,
-      "allwecan-cm.xml": 31
+      "allwecan-cm.xml": 31,
+      "allwecan-ug.xml": 23
     }
   },
   ".//transaction/tied-status/@code": {
     "5": {
-      "allwecan-ug.xml": 23,
-      "allwecan-cm.xml": 32
+      "allwecan-cm.xml": 32,
+      "allwecan-ug.xml": 23
     }
   },
   ".//transaction/transaction-type/@code": {
     "C": {
-      "allwecan-ug.xml": 1,
-      "allwecan-cm.xml": 1
-    },
-    "IF": {
-      "allwecan-ug.xml": 11,
-      "allwecan-cm.xml": 18
+      "allwecan-cm.xml": 1,
+      "allwecan-ug.xml": 1
     },
     "D": {
-      "allwecan-ug.xml": 11,
-      "allwecan-cm.xml": 12
+      "allwecan-cm.xml": 12,
+      "allwecan-ug.xml": 11
     },
     "E": {
       "allwecan-cm.xml": 1
+    },
+    "IF": {
+      "allwecan-cm.xml": 18,
+      "allwecan-ug.xml": 11
     }
   },
   ".//transaction/value/@currency": {
     "GBP": {
-      "allwecan-ug.xml": 19,
-      "allwecan-cm.xml": 28
+      "allwecan-cm.xml": 28,
+      "allwecan-ug.xml": 19
     }
   }
 }

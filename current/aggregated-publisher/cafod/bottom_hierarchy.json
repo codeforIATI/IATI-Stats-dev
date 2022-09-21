@@ -137,6 +137,10 @@
     "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 789,
     "iati-activity/@default-currency": 789,
     "iati-activity/@last-updated-datetime": 789,
+    "iati-activity/recipient-region": 45,
+    "iati-activity/recipient-region/narrative": 45,
+    "iati-activity/recipient-region/@code": 45,
+    "iati-activity/recipient-region/@vocabulary": 45,
     "iati-activity/transaction/provider-org/@ref": 14,
     "iati-activity/transaction/provider-org/@type": 14,
     "iati-activity/document-link": 12,
@@ -147,11 +151,7 @@
     "iati-activity/document-link/language": 12,
     "iati-activity/document-link/language/@code": 12,
     "iati-activity/document-link/@format": 12,
-    "iati-activity/document-link/@url": 12,
-    "iati-activity/recipient-region": 45,
-    "iati-activity/recipient-region/narrative": 45,
-    "iati-activity/recipient-region/@code": 45,
-    "iati-activity/recipient-region/@vocabulary": 45
+    "iati-activity/document-link/@url": 12
   },
   "elements_total": {
     "iati-activity": 789,
@@ -226,6 +226,10 @@
     "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 789,
     "iati-activity/@default-currency": 789,
     "iati-activity/@last-updated-datetime": 789,
+    "iati-activity/recipient-region": 45,
+    "iati-activity/recipient-region/narrative": 45,
+    "iati-activity/recipient-region/@code": 45,
+    "iati-activity/recipient-region/@vocabulary": 45,
     "iati-activity/transaction/provider-org/@ref": 62,
     "iati-activity/transaction/provider-org/@type": 62,
     "iati-activity/document-link": 17,
@@ -236,11 +240,7 @@
     "iati-activity/document-link/language": 17,
     "iati-activity/document-link/language/@code": 17,
     "iati-activity/document-link/@format": 17,
-    "iati-activity/document-link/@url": 17,
-    "iati-activity/recipient-region": 45,
-    "iati-activity/recipient-region/narrative": 45,
-    "iati-activity/recipient-region/@code": 45,
-    "iati-activity/recipient-region/@vocabulary": 45
+    "iati-activity/document-link/@url": 17
   },
   "forwardlooking_activities_current": {
     "2022": 116,
@@ -258,6 +258,12 @@
     "2024": 0
   },
   "forwardlooking_currency_year": {
+    "2019": {
+      "GBP": 11389481.1619
+    },
+    "2020": {
+      "GBP": 16668682.2959
+    },
     "2021": {
       "GBP": 27624964.6583
     },
@@ -267,11 +273,11 @@
     "2018": {
       "GBP": 7230035.4174
     },
-    "2019": {
-      "GBP": 11389481.1619
+    "2013": {
+      "GBP": 101887.62
     },
-    "2020": {
-      "GBP": 16668682.2959
+    "2014": {
+      "GBP": 227200.217
     },
     "2015": {
       "GBP": 331970.4834
@@ -290,12 +296,6 @@
     },
     "2010": {
       "GBP": 50000.0
-    },
-    "2013": {
-      "GBP": 101887.62
-    },
-    "2014": {
-      "GBP": 227200.217
     }
   }
 }

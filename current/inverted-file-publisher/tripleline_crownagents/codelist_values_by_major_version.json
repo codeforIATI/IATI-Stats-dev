@@ -1,64 +1,39 @@
 {
   "1": {
     ".//@default-currency": {
-      "tripleline_crownagents-incoming.xml": {
-        "GBP": 2
-      },
       "tripleline_crownagents-cscf.xml": {
         "GBP": 111
+      },
+      "tripleline_crownagents-incoming.xml": {
+        "GBP": 2
       }
     },
     ".//activity-status/@code": {
-      "tripleline_crownagents-incoming.xml": {
-        "2": 2
-      },
       "tripleline_crownagents-cscf.xml": {
         "2": 111
+      },
+      "tripleline_crownagents-incoming.xml": {
+        "2": 2
       }
     },
     ".//participating-org/@role": {
-      "tripleline_crownagents-incoming.xml": {
-        "Funding": 2,
-        "Extending": 2
-      },
       "tripleline_crownagents-cscf.xml": {
         "Extending": 111,
         "Funding": 111
+      },
+      "tripleline_crownagents-incoming.xml": {
+        "Funding": 2,
+        "Extending": 2
       }
     },
     ".//participating-org/@type": {
-      "tripleline_crownagents-incoming.xml": {
-        "10": 2,
-        "70": 2
-      },
       "tripleline_crownagents-cscf.xml": {
         "70": 111,
         "10": 111
-      }
-    },
-    ".//reporting-org/@type": {
+      },
       "tripleline_crownagents-incoming.xml": {
+        "10": 2,
         "70": 2
-      },
-      "tripleline_crownagents-cscf.xml": {
-        "70": 111
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "tripleline_crownagents-incoming.xml": {
-        "IF": 35
-      },
-      "tripleline_crownagents-cscf.xml": {
-        "IF": 377,
-        "D": 377
-      }
-    },
-    ".//@xml:lang": {
-      "tripleline_crownagents-incoming.xml": {
-        "en": 2
-      },
-      "tripleline_crownagents-cscf.xml": {
-        "en": 111
       }
     },
     ".//recipient-country/@code": {
@@ -116,6 +91,31 @@
         "VN": 1,
         "MA": 1,
         "TN": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "tripleline_crownagents-cscf.xml": {
+        "70": 111
+      },
+      "tripleline_crownagents-incoming.xml": {
+        "70": 2
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "tripleline_crownagents-cscf.xml": {
+        "IF": 377,
+        "D": 377
+      },
+      "tripleline_crownagents-incoming.xml": {
+        "IF": 35
+      }
+    },
+    ".//@xml:lang": {
+      "tripleline_crownagents-cscf.xml": {
+        "en": 111
+      },
+      "tripleline_crownagents-incoming.xml": {
+        "en": 2
       }
     }
   }

@@ -180,7 +180,6 @@
     "iati-activity/transaction/@{http://afdb.org/iati/}finance-type-id": 4729,
     "iati-activity/transaction/description": 4299,
     "iati-activity/transaction/description/narrative": 4299,
-    "iati-activity/transaction/receiver-org/@ref": 2611,
     "iati-activity/document-link": 4729,
     "iati-activity/document-link/title": 4729,
     "iati-activity/document-link/title/narrative": 4729,
@@ -209,13 +208,14 @@
     "iati-activity/result/indicator/period/target": 2078,
     "iati-activity/result/indicator/period/target/@value": 2078,
     "iati-activity/result/indicator/period/actual": 2078,
+    "iati-activity/result/indicator/period/actual/@value": 1536,
     "iati-activity/result/indicator/@measure": 2078,
     "iati-activity/result/@type": 2078,
     "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 4729,
     "iati-activity/@default-currency": 4729,
     "iati-activity/@hierarchy": 4729,
     "iati-activity/@last-updated-datetime": 4729,
-    "iati-activity/result/indicator/period/actual/@value": 1536,
+    "iati-activity/transaction/receiver-org/@ref": 2611,
     "iati-activity/recipient-region": 745,
     "iati-activity/recipient-region/@code": 745
   },
@@ -335,7 +335,6 @@
     "iati-activity/transaction/@{http://afdb.org/iati/}finance-type-id": 98241,
     "iati-activity/transaction/description": 90441,
     "iati-activity/transaction/description/narrative": 90441,
-    "iati-activity/transaction/receiver-org/@ref": 53379,
     "iati-activity/document-link": 33801,
     "iati-activity/document-link/title": 33801,
     "iati-activity/document-link/title/narrative": 33801,
@@ -364,13 +363,14 @@
     "iati-activity/result/indicator/period/target": 29418,
     "iati-activity/result/indicator/period/target/@value": 29418,
     "iati-activity/result/indicator/period/actual": 29418,
+    "iati-activity/result/indicator/period/actual/@value": 21812,
     "iati-activity/result/indicator/@measure": 29418,
     "iati-activity/result/@type": 29418,
     "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 4729,
     "iati-activity/@default-currency": 4729,
     "iati-activity/@hierarchy": 4729,
     "iati-activity/@last-updated-datetime": 4729,
-    "iati-activity/result/indicator/period/actual/@value": 21812,
+    "iati-activity/transaction/receiver-org/@ref": 53379,
     "iati-activity/recipient-region": 745,
     "iati-activity/recipient-region/@code": 745
   },
@@ -390,6 +390,12 @@
     "2024": 285
   },
   "forwardlooking_currency_year": {
+    "2019": {
+      "XDR": 5259368194.329688
+    },
+    "2020": {
+      "XDR": 6572964789.732935
+    },
     "2021": {
       "XDR": 5430464515.161665
     },
@@ -399,47 +405,23 @@
     "2023": {
       "XDR": 2870340969.980404
     },
-    "2024": {
-      "XDR": 1697928731.306828
-    },
-    "2025": {
-      "XDR": 1102400417.227676
-    },
-    "2026": {
-      "XDR": 598552560.181351
-    },
-    "2019": {
-      "XDR": 5259368194.329688
-    },
-    "2020": {
-      "XDR": 6572964789.732935
-    },
     "2018": {
       "XDR": 4472964292.678848
     },
-    "2016": {
-      "XDR": 5318612223.812416
+    "1997": {
+      "XDR": 968511849.283858
     },
-    "2017": {
-      "XDR": 5534168418.632353
+    "1998": {
+      "XDR": 973809896.358313
     },
-    "2010": {
-      "XDR": 3046861502.524814
+    "1999": {
+      "XDR": 991903270.722943
     },
-    "2011": {
-      "XDR": 3516911147.820706
+    "2000": {
+      "XDR": 862322818.197803
     },
-    "2012": {
-      "XDR": 3252802667.727487
-    },
-    "2013": {
-      "XDR": 3043496044.735266
-    },
-    "2014": {
-      "XDR": 3490811793.433318
-    },
-    "2015": {
-      "XDR": 3246589868.800462
+    "2001": {
+      "XDR": 926837858.69028
     },
     "2002": {
       "XDR": 1156248967.114904
@@ -450,26 +432,8 @@
     "2004": {
       "XDR": 1403198786.28974
     },
-    "2005": {
-      "XDR": 1439551496.626844
-    },
-    "1991": {
-      "XDR": 1278752627.449402
-    },
-    "1992": {
-      "XDR": 1655904865.361589
-    },
-    "1993": {
-      "XDR": 1877618671.800638
-    },
-    "1994": {
-      "XDR": 1385825549.164452
-    },
-    "1995": {
-      "XDR": 1239728687.432062
-    },
-    "1996": {
-      "XDR": 1087415203.986302
+    "1984": {
+      "XDR": 309238425.435956
     },
     "1985": {
       "XDR": 355466497.669237
@@ -489,14 +453,23 @@
     "1990": {
       "XDR": 1045076894.108978
     },
-    "1979": {
-      "XDR": 159495346.784026
+    "1991": {
+      "XDR": 1278752627.449402
     },
-    "1980": {
-      "XDR": 185722690.212147
+    "1992": {
+      "XDR": 1655904865.361589
     },
-    "1981": {
-      "XDR": 206606143.483783
+    "1993": {
+      "XDR": 1877618671.800638
+    },
+    "1994": {
+      "XDR": 1385825549.164452
+    },
+    "1995": {
+      "XDR": 1239728687.432062
+    },
+    "1996": {
+      "XDR": 1087415203.986302
     },
     "1982": {
       "XDR": 220190327.276158
@@ -504,23 +477,56 @@
     "1983": {
       "XDR": 261656152.741444
     },
-    "1984": {
-      "XDR": 309238425.435956
+    "2005": {
+      "XDR": 1439551496.626844
     },
-    "1997": {
-      "XDR": 968511849.283858
+    "2006": {
+      "XDR": 1486871397.191166
     },
-    "1998": {
-      "XDR": 973809896.358313
+    "2009": {
+      "XDR": 2955448379.982145
     },
-    "1999": {
-      "XDR": 991903270.722943
+    "2010": {
+      "XDR": 3046861502.524814
     },
-    "1974": {
-      "XDR": 35067955.914243
+    "2013": {
+      "XDR": 3043496044.735266
     },
-    "1975": {
-      "XDR": 61932276.399208
+    "2014": {
+      "XDR": 3490811793.433318
+    },
+    "2015": {
+      "XDR": 3246589868.800462
+    },
+    "2016": {
+      "XDR": 5318612223.812416
+    },
+    "2017": {
+      "XDR": 5534168418.632353
+    },
+    "2011": {
+      "XDR": 3516911147.820706
+    },
+    "2012": {
+      "XDR": 3252802667.727487
+    },
+    "2008": {
+      "XDR": 2412945341.996308
+    },
+    "2024": {
+      "XDR": 1697928731.306828
+    },
+    "2025": {
+      "XDR": 1102400417.227676
+    },
+    "2007": {
+      "XDR": 1795827483.733906
+    },
+    "1980": {
+      "XDR": 185722690.212147
+    },
+    "1981": {
+      "XDR": 206606143.483783
     },
     "1976": {
       "XDR": 81742779.11165
@@ -531,41 +537,41 @@
     "1978": {
       "XDR": 140567529.22669
     },
-    "2009": {
-      "XDR": 2955448379.982145
-    },
-    "2000": {
-      "XDR": 862322818.197803
-    },
-    "2001": {
-      "XDR": 926837858.69028
-    },
-    "2006": {
-      "XDR": 1486871397.191166
-    },
-    "2007": {
-      "XDR": 1795827483.733906
-    },
-    "2008": {
-      "XDR": 2412945341.996308
+    "1979": {
+      "XDR": 159495346.784026
     },
     "1970": {
       "XDR": 5662213.69683
     },
+    "1967": {
+      "XDR": 530769.230769
+    },
+    "1968": {
+      "XDR": 1610499.473884
+    },
+    "1969": {
+      "XDR": 2150677.439519
+    },
     "1971": {
       "XDR": 7956483.353904
-    },
-    "1973": {
-      "XDR": 20257282.105229
-    },
-    "2027": {
-      "XDR": 159372230.906398
     },
     "1972": {
       "XDR": 9691575.106239
     },
-    "1969": {
-      "XDR": 2150677.439519
+    "1973": {
+      "XDR": 20257282.105229
+    },
+    "1974": {
+      "XDR": 35067955.914243
+    },
+    "1975": {
+      "XDR": 61932276.399208
+    },
+    "2026": {
+      "XDR": 598552560.181351
+    },
+    "2027": {
+      "XDR": 159372230.906398
     },
     "2028": {
       "XDR": 27013714.255965
@@ -581,12 +587,6 @@
     },
     "2032": {
       "XDR": 413967.316272
-    },
-    "1968": {
-      "XDR": 1610499.473884
-    },
-    "1967": {
-      "XDR": 530769.230769
     }
   }
 }

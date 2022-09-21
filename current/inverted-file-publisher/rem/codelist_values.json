@@ -1,20 +1,20 @@
 {
   ".//@default-currency": {
-    "EUR": {
-      "rem-cd.xml": 1
-    },
     "GBP": {
       "rem-congo.xml": 1,
-      "rem-lr.xml": 1,
-      "rem-lk.xml": 1
+      "rem-lk.xml": 1,
+      "rem-lr.xml": 1
+    },
+    "EUR": {
+      "rem-cd.xml": 1
     }
   },
   ".//@xml:lang": {
     "en": {
-      "rem-cd.xml": 19,
       "rem-congo.xml": 24,
-      "rem-lr.xml": 16,
-      "rem-lk.xml": 18
+      "rem-cd.xml": 19,
+      "rem-lk.xml": 18,
+      "rem-lr.xml": 16
     },
     "fr": {
       "rem-congo.xml": 1
@@ -22,25 +22,25 @@
   },
   ".//activity-date/@type": {
     "start-actual": {
-      "rem-cd.xml": 1,
       "rem-congo.xml": 1,
-      "rem-lr.xml": 1,
-      "rem-lk.xml": 1
+      "rem-cd.xml": 1,
+      "rem-lk.xml": 1,
+      "rem-lr.xml": 1
     },
     "end-planned": {
-      "rem-cd.xml": 1,
       "rem-congo.xml": 1,
+      "rem-cd.xml": 1,
       "rem-lk.xml": 1
     },
     "end-actual": {
-      "rem-lr.xml": 1,
-      "rem-lk.xml": 1
+      "rem-lk.xml": 1,
+      "rem-lr.xml": 1
     }
   },
   ".//activity-status/@code": {
     "2": {
-      "rem-cd.xml": 1,
       "rem-congo.xml": 1,
+      "rem-cd.xml": 1,
       "rem-lk.xml": 1
     },
     "3": {
@@ -49,66 +49,66 @@
   },
   ".//budget/@type": {
     "1": {
-      "rem-cd.xml": 1,
       "rem-congo.xml": 1,
-      "rem-lr.xml": 1,
-      "rem-lk.xml": 1
+      "rem-cd.xml": 1,
+      "rem-lk.xml": 1,
+      "rem-lr.xml": 1
     }
   },
   ".//budget/value/@currency": {
     "EUR": {
-      "rem-cd.xml": 1,
-      "rem-congo.xml": 1
-    },
-    "USD": {
-      "rem-lr.xml": 1
+      "rem-congo.xml": 1,
+      "rem-cd.xml": 1
     },
     "GBP": {
       "rem-lk.xml": 1
+    },
+    "USD": {
+      "rem-lr.xml": 1
     }
   },
   ".//description/@type": {
     "1": {
-      "rem-cd.xml": 1,
       "rem-congo.xml": 1,
-      "rem-lr.xml": 1,
-      "rem-lk.xml": 1
+      "rem-cd.xml": 1,
+      "rem-lk.xml": 1,
+      "rem-lr.xml": 1
     }
   },
   ".//document-link/@format": {
     "text/html": {
-      "rem-cd.xml": 1,
-      "rem-congo.xml": 1
+      "rem-congo.xml": 1,
+      "rem-cd.xml": 1
     }
   },
   ".//document-link/category/@code": {
-    "A06": {
-      "rem-cd.xml": 1
-    },
     "A02": {
       "rem-congo.xml": 1
+    },
+    "A06": {
+      "rem-cd.xml": 1
     }
   },
   ".//participating-org/@role": {
     "Funding": {
-      "rem-cd.xml": 1,
       "rem-congo.xml": 2,
-      "rem-lr.xml": 1,
-      "rem-lk.xml": 1
+      "rem-cd.xml": 1,
+      "rem-lk.xml": 1,
+      "rem-lr.xml": 1
     },
     "Implementing": {
       "rem-congo.xml": 2
     }
   },
   ".//participating-org/@type": {
-    "40": {
-      "rem-cd.xml": 1,
-      "rem-congo.xml": 1,
-      "rem-lr.xml": 1
-    },
     "10": {
       "rem-congo.xml": 1,
       "rem-lk.xml": 1
+    },
+    "40": {
+      "rem-congo.xml": 1,
+      "rem-cd.xml": 1,
+      "rem-lr.xml": 1
     },
     "21": {
       "rem-congo.xml": 1
@@ -118,10 +118,6 @@
     }
   },
   ".//recipient-country/@code": {
-    "CD": {
-      "rem-cd.xml": 1,
-      "rem-congo.xml": 1
-    },
     "CG": {
       "rem-congo.xml": 1
     },
@@ -134,91 +130,95 @@
     "CM": {
       "rem-congo.xml": 1
     },
-    "LR": {
-      "rem-lr.xml": 1
+    "CD": {
+      "rem-congo.xml": 1,
+      "rem-cd.xml": 1
     },
     "LK": {
       "rem-lk.xml": 1
+    },
+    "LR": {
+      "rem-lr.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "21": {
-      "rem-cd.xml": 1,
       "rem-congo.xml": 1,
-      "rem-lr.xml": 1,
-      "rem-lk.xml": 1
+      "rem-cd.xml": 1,
+      "rem-lk.xml": 1,
+      "rem-lr.xml": 1
     }
   },
   ".//sector/@vocabulary": {
     "DAC": {
-      "rem-cd.xml": 2,
-      "rem-congo.xml": 2
+      "rem-congo.xml": 2,
+      "rem-cd.xml": 2
     },
     "ADT": {
-      "rem-lr.xml": 2,
-      "rem-lk.xml": 1
+      "rem-lk.xml": 1,
+      "rem-lr.xml": 2
     }
   },
   ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
     "15150": {
-      "rem-cd.xml": 1,
-      "rem-congo.xml": 1
+      "rem-congo.xml": 1,
+      "rem-cd.xml": 1
     },
     "31210": {
-      "rem-cd.xml": 1,
-      "rem-congo.xml": 1
+      "rem-congo.xml": 1,
+      "rem-cd.xml": 1
     }
   },
   ".//transaction/aid-type/@code": {
     "C01": {
-      "rem-cd.xml": 2,
       "rem-congo.xml": 2,
-      "rem-lr.xml": 1,
-      "rem-lk.xml": 3
+      "rem-cd.xml": 2,
+      "rem-lk.xml": 3,
+      "rem-lr.xml": 1
     }
   },
   ".//transaction/finance-type/@code": {
     "110": {
-      "rem-cd.xml": 2,
       "rem-congo.xml": 2,
-      "rem-lr.xml": 1,
-      "rem-lk.xml": 3
+      "rem-cd.xml": 2,
+      "rem-lk.xml": 3,
+      "rem-lr.xml": 1
     }
   },
   ".//transaction/flow-type/@code": {
     "10": {
-      "rem-cd.xml": 2,
       "rem-congo.xml": 2,
-      "rem-lr.xml": 1,
-      "rem-lk.xml": 3
+      "rem-cd.xml": 2,
+      "rem-lk.xml": 3,
+      "rem-lr.xml": 1
     }
   },
   ".//transaction/tied-status/@code": {
     "5": {
-      "rem-cd.xml": 2,
       "rem-congo.xml": 2,
-      "rem-lr.xml": 1,
-      "rem-lk.xml": 3
+      "rem-cd.xml": 2,
+      "rem-lk.xml": 3,
+      "rem-lr.xml": 1
     }
   },
   ".//transaction/transaction-type/@code": {
     "E": {
-      "rem-cd.xml": 2,
       "rem-congo.xml": 2,
-      "rem-lr.xml": 1,
-      "rem-lk.xml": 3
+      "rem-cd.xml": 2,
+      "rem-lk.xml": 3,
+      "rem-lr.xml": 1
     }
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "rem-cd.xml": 2,
-      "rem-congo.xml": 2
-    },
-    "USD": {
-      "rem-lr.xml": 1
+      "rem-congo.xml": 2,
+      "rem-cd.xml": 2
     },
     "GBP": {
       "rem-lk.xml": 3
+    },
+    "USD": {
+      "rem-lr.xml": 1
     }
   }
 }

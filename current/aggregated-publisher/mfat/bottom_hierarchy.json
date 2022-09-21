@@ -110,6 +110,10 @@
     "iati-activity/sector/@vocabulary": 2206,
     "iati-activity/sector/@code": 2206,
     "iati-activity/sector/@percentage": 2206,
+    "iati-activity/policy-marker": 2084,
+    "iati-activity/policy-marker/@vocabulary": 2084,
+    "iati-activity/policy-marker/@code": 2084,
+    "iati-activity/policy-marker/@significance": 2084,
     "iati-activity/collaboration-type": 2206,
     "iati-activity/collaboration-type/@code": 2206,
     "iati-activity/default-flow-type": 2206,
@@ -154,10 +158,10 @@
     "iati-activity/@last-updated-datetime": 2206,
     "iati-activity/@humanitarian": 2206,
     "iati-activity/@hierarchy": 2206,
-    "iati-activity/policy-marker": 2084,
-    "iati-activity/policy-marker/@vocabulary": 2084,
-    "iati-activity/policy-marker/@code": 2084,
-    "iati-activity/policy-marker/@significance": 2084,
+    "iati-activity/recipient-region": 655,
+    "iati-activity/recipient-region/@code": 655,
+    "iati-activity/recipient-region/@vocabulary": 655,
+    "iati-activity/recipient-region/@percentage": 655,
     "iati-activity/capital-spend": 706,
     "iati-activity/capital-spend/@percentage": 706,
     "iati-activity/budget": 333,
@@ -178,11 +182,7 @@
     "iati-activity/location/point/pos": 268,
     "iati-activity/location/point/@srsName": 268,
     "iati-activity/location/exactness": 268,
-    "iati-activity/location/exactness/@code": 268,
-    "iati-activity/recipient-region": 655,
-    "iati-activity/recipient-region/@code": 655,
-    "iati-activity/recipient-region/@vocabulary": 655,
-    "iati-activity/recipient-region/@percentage": 655
+    "iati-activity/location/exactness/@code": 268
   },
   "elements_total": {
     "iati-activity": 2206,
@@ -230,6 +230,10 @@
     "iati-activity/sector/@vocabulary": 2737,
     "iati-activity/sector/@code": 2737,
     "iati-activity/sector/@percentage": 2737,
+    "iati-activity/policy-marker": 19302,
+    "iati-activity/policy-marker/@vocabulary": 19302,
+    "iati-activity/policy-marker/@code": 19302,
+    "iati-activity/policy-marker/@significance": 19302,
     "iati-activity/collaboration-type": 2206,
     "iati-activity/collaboration-type/@code": 2206,
     "iati-activity/default-flow-type": 2206,
@@ -274,10 +278,10 @@
     "iati-activity/@last-updated-datetime": 2206,
     "iati-activity/@humanitarian": 2206,
     "iati-activity/@hierarchy": 2206,
-    "iati-activity/policy-marker": 19302,
-    "iati-activity/policy-marker/@vocabulary": 19302,
-    "iati-activity/policy-marker/@code": 19302,
-    "iati-activity/policy-marker/@significance": 19302,
+    "iati-activity/recipient-region": 745,
+    "iati-activity/recipient-region/@code": 745,
+    "iati-activity/recipient-region/@vocabulary": 745,
+    "iati-activity/recipient-region/@percentage": 745,
     "iati-activity/capital-spend": 706,
     "iati-activity/capital-spend/@percentage": 706,
     "iati-activity/budget": 995,
@@ -298,11 +302,7 @@
     "iati-activity/location/point/pos": 268,
     "iati-activity/location/point/@srsName": 268,
     "iati-activity/location/exactness": 268,
-    "iati-activity/location/exactness/@code": 268,
-    "iati-activity/recipient-region": 745,
-    "iati-activity/recipient-region/@code": 745,
-    "iati-activity/recipient-region/@vocabulary": 745,
-    "iati-activity/recipient-region/@percentage": 745
+    "iati-activity/location/exactness/@code": 268
   },
   "forwardlooking_activities_current": {
     "2022": 411,
@@ -323,6 +323,9 @@
     "2022": {
       "NZD": 386162771.58
     },
+    "2021": {
+      "NZD": 4446013.87
+    },
     "2023": {
       "NZD": 245616917.47
     },
@@ -331,9 +334,6 @@
     },
     "2025": {
       "NZD": 44577972.74
-    },
-    "2021": {
-      "NZD": 4446013.87
     }
   }
 }

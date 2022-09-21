@@ -5,18 +5,21 @@
       "gbp": 183
     },
     ".//activity-date/@type": {
+      "1": 1,
       "2": 185,
       "3": 2,
-      "1": 1,
       "4": 183
     },
     ".//activity-status/@code": {
-      "3": 1,
       "2": 1,
-      "4": 183
+      "4": 183,
+      "3": 1
     },
     ".//budget/@type": {
       "1": 6
+    },
+    ".//budget/value/@currency": {
+      "GBP": 5
     },
     ".//collaboration-type/@code": {
       "3": 185
@@ -25,8 +28,8 @@
       "1": 185
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "B03": 184,
-      "B01": 1
+      "B01": 1,
+      "B03": 184
     },
     ".//default-finance-type/@code": {
       "110": 185
@@ -37,21 +40,51 @@
     ".//default-tied-status/@code": {
       "5": 185
     },
-    ".//humanitarian-scope/@type": {
+    ".//description/@type": {
       "1": 1
     },
-    ".//humanitarian-scope/@vocabulary": {
-      "99": 1
+    ".//document-link/@format": {
+      "application/pdf": 5,
+      "application/vnd.ms-excel": 4
+    },
+    ".//document-link/category/@code": {
+      "B01": 5,
+      "A02": 4
+    },
+    ".//document-link/language/@code": {
+      "en": 9
     },
     ".//participating-org/@role": {
+      "1": 185,
       "2": 16,
-      "4": 181,
-      "1": 185
+      "4": 181
     },
     ".//participating-org/@type": {
-      "21": 197,
       "10": 97,
+      "21": 197,
       "40": 88
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "998": 1
+    },
+    ".//reporting-org/@type": {
+      "21": 185
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "43010": 1,
+      "15160": 1
+    },
+    ".//transaction/transaction-type/@code": {
+      "1": 438,
+      "4": 749,
+      "3": 10,
+      "2": 1
+    },
+    ".//transaction/value/@currency": {
+      "GBP": 22
+    },
+    ".//@xml:lang": {
+      "en": 185
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "2": 184
@@ -63,7 +96,6 @@
       "1": 184
     },
     ".//recipient-country/@code": {
-      "GB": 1,
       "ZA": 2,
       "KE": 4,
       "CN": 9,
@@ -95,10 +127,21 @@
       "HT": 1,
       "SY": 1,
       "BF": 1,
-      "ML": 1
+      "ML": 1,
+      "GB": 1
     },
-    ".//reporting-org/@type": {
-      "21": 185
+    ".//recipient-region/@vocabulary": {
+      "99": 32
+    },
+    ".//sector/@vocabulary": {
+      "99": 204,
+      "1": 1
+    },
+    ".//humanitarian-scope/@type": {
+      "1": 1
+    },
+    ".//humanitarian-scope/@vocabulary": {
+      "99": 1
     },
     ".//result/@type": {
       "3": 1,
@@ -109,51 +152,8 @@
       "2": 3,
       "1": 13
     },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15160": 1,
-      "43010": 1
-    },
-    ".//sector/@vocabulary": {
-      "1": 1,
-      "99": 204
-    },
     ".//transaction/provider-org/@type": {
       "10": 15
-    },
-    ".//transaction/transaction-type/@code": {
-      "3": 10,
-      "1": 438,
-      "2": 1,
-      "4": 749
-    },
-    ".//@xml:lang": {
-      "en": 185
-    },
-    ".//budget/value/@currency": {
-      "GBP": 5
-    },
-    ".//description/@type": {
-      "1": 1
-    },
-    ".//document-link/@format": {
-      "application/pdf": 5,
-      "application/vnd.ms-excel": 4
-    },
-    ".//document-link/category/@code": {
-      "B01": 5,
-      "A02": 4
-    },
-    ".//document-link/language/@code": {
-      "en": 9
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "998": 1
-    },
-    ".//transaction/value/@currency": {
-      "GBP": 22
-    },
-    ".//recipient-region/@vocabulary": {
-      "99": 32
     }
   }
 }

@@ -5,22 +5,22 @@
     },
     ".//activity-date/@type": {
       "2": 119,
-      "4": 41,
       "3": 95,
+      "4": 41,
       "1": 11
     },
     ".//activity-status/@code": {
-      "4": 39,
       "2": 51,
+      "4": 39,
       "3": 35
     },
     ".//activity-scope/@code": {
       "4": 77,
-      "5": 1,
       "2": 3,
-      "6": 4,
       "1": 5,
-      "3": 4
+      "3": 4,
+      "6": 4,
+      "5": 1
     },
     ".//budget/@status": {
       "2": 221,
@@ -73,10 +73,10 @@
     },
     ".//participating-org/@type": {
       "21": 451,
-      "60": 3,
-      "15": 2,
-      "10": 18,
       "22": 12,
+      "10": 18,
+      "15": 2,
+      "60": 3,
       "80": 1
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -87,44 +87,44 @@
     },
     ".//policy-marker/@significance": {
       "1": 67,
-      "0": 4,
       "4": 7,
+      "0": 4,
       "2": 8
     },
     ".//policy-marker/@vocabulary": {
       "1": 105
     },
     ".//recipient-country/@code": {
-      "ET": 3,
+      "PS": 1,
+      "ID": 3,
+      "AF": 3,
+      "VN": 1,
+      "IN": 3,
+      "BD": 2,
+      "UG": 2,
+      "NG": 20,
+      "YE": 7,
       "UA": 5,
       "PL": 1,
       "RO": 1,
-      "ZM": 1,
-      "SO": 5,
-      "SS": 33,
-      "NG": 20,
-      "MZ": 2,
-      "UG": 2,
-      "AF": 3,
-      "PS": 1,
-      "LB": 4,
-      "VN": 1,
-      "CI": 1,
       "ML": 3,
-      "YE": 7,
-      "CO": 1,
       "SY": 4,
-      "IN": 3,
-      "ID": 3,
-      "BD": 2,
-      "MW": 1,
+      "SS": 33,
       "NL": 2,
+      "ZM": 1,
+      "CI": 1,
+      "CO": 1,
+      "MZ": 2,
+      "MW": 1,
+      "BF": 3,
       "IQ": 2,
-      "JO": 1,
+      "ET": 3,
       "CF": 1,
-      "NE": 2,
+      "SO": 5,
+      "LB": 4,
       "MG": 1,
-      "BF": 3
+      "NE": 2,
+      "JO": 1
     },
     ".//related-activity/@type": {
       "1": 90,
@@ -144,66 +144,49 @@
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "72010": 73,
-      "72040": 25,
-      "72050": 33,
-      "14031": 1,
-      "12240": 6,
-      "23183": 1,
+      "72011": 1,
       "16070": 7,
       "15160": 6,
-      "32182": 2,
-      "12340": 3,
-      "72011": 1,
-      "11231": 5,
-      "14020": 1,
+      "23183": 1,
+      "52010": 1,
+      "14030": 5,
+      "72040": 25,
+      "72050": 33,
       "99810": 3,
+      "15180": 1,
+      "14020": 1,
+      "11231": 5,
+      "73010": 1,
+      "12340": 3,
+      "12240": 6,
       "15150": 4,
       "15110": 4,
-      "14030": 5,
-      "73010": 1,
+      "32182": 2,
       "11220": 1,
       "16010": 1,
       "15220": 1,
-      "52010": 1,
-      "15180": 1
+      "14031": 1
     },
     ".//sector/@vocabulary": {
       "1": 186
     },
-    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 155,
-      "B03": 2
-    },
-    ".//transaction/disbursement-channel/@code": {
-      "2": 56
-    },
-    ".//transaction/finance-type/@code": {
-      "110": 156
-    },
-    ".//transaction/flow-type/@code": {
-      "10": 153
-    },
     ".//transaction/provider-org/@type": {
       "21": 1040,
-      "15": 5,
       "10": 45,
+      "15": 5,
       "60": 2
     },
     ".//transaction/receiver-org/@type": {
       "21": 999,
-      "80": 1,
-      "10": 2
-    },
-    ".//transaction/tied-status/@code": {
-      "5": 143,
-      "4": 1
+      "10": 2,
+      "80": 1
     },
     ".//transaction/transaction-type/@code": {
-      "1": 233,
       "2": 185,
-      "4": 167,
-      "7": 336,
       "11": 93,
+      "7": 336,
+      "1": 233,
+      "4": 167,
       "3": 292
     },
     ".//transaction/value/@currency": {
@@ -212,21 +195,47 @@
     },
     ".//@xml:lang": {
       "en": 1399,
-      "nl": 1,
-      "fr": 23
+      "fr": 23,
+      "nl": 1
     },
     ".//result/indicator/reference/@vocabulary": {
       "99": 262
     },
+    ".//result/reference/@vocabulary": {
+      "99": 12
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "C01": 155,
+      "B03": 2
+    },
     ".//transaction/aid-type/@vocabulary": {
       "1": 149
     },
-    ".//humanitarian-scope/@type": {
-      "1": 2
+    ".//transaction/finance-type/@code": {
+      "110": 156
     },
-    ".//humanitarian-scope/@vocabulary": {
-      "99": 1,
-      "2-1": 1
+    ".//transaction/flow-type/@code": {
+      "10": 153
+    },
+    ".//transaction/tied-status/@code": {
+      "5": 143,
+      "4": 1
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "679": 1,
+      "619": 1,
+      "998": 6,
+      "289": 2,
+      "589": 5,
+      "689": 1,
+      "298": 11
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 24,
+      "99": 1
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "2": 56
     },
     ".//document-link/@format": {
       "application/http": 11,
@@ -234,26 +243,13 @@
       "application/1d-interleaved-parityfec": 4
     },
     ".//document-link/category/@code": {
-      "A07": 4,
       "B01": 18,
       "A08": 10,
-      "A05": 1
+      "A05": 1,
+      "A07": 4
     },
     ".//document-link/language/@code": {
       "en": 28
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "298": 11,
-      "998": 6,
-      "289": 2,
-      "619": 1,
-      "679": 1,
-      "589": 5,
-      "689": 1
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 24,
-      "99": 1
     },
     ".//result/document-link/@format": {
       "application/1d-interleaved-parityfec": 4
@@ -261,8 +257,12 @@
     ".//result/document-link/category/@code": {
       "A08": 4
     },
-    ".//result/reference/@vocabulary": {
-      "99": 12
+    ".//humanitarian-scope/@type": {
+      "1": 2
+    },
+    ".//humanitarian-scope/@vocabulary": {
+      "2-1": 1,
+      "99": 1
     },
     ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
       "HCOVD20": 1

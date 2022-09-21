@@ -109,6 +109,9 @@
     "iati-activity/location": 65367,
     "iati-activity/location/description": 65367,
     "iati-activity/location/description/narrative": 65367,
+    "iati-activity/location/point": 56428,
+    "iati-activity/location/point/pos": 56428,
+    "iati-activity/location/point/@srsName": 56428,
     "iati-activity/sector": 65367,
     "iati-activity/sector/narrative": 65367,
     "iati-activity/sector/@vocabulary": 65367,
@@ -127,8 +130,6 @@
     "iati-activity/default-finance-type/@code": 65367,
     "iati-activity/default-aid-type": 65367,
     "iati-activity/default-aid-type/@code": 65367,
-    "iati-activity/default-tied-status": 20870,
-    "iati-activity/default-tied-status/@code": 20870,
     "iati-activity/budget": 65367,
     "iati-activity/budget/period-start": 65367,
     "iati-activity/budget/period-start/@iso-date": 65367,
@@ -164,8 +165,6 @@
     "iati-activity/transaction/finance-type/@code": 64273,
     "iati-activity/transaction/aid-type": 64423,
     "iati-activity/transaction/aid-type/@code": 64423,
-    "iati-activity/transaction/tied-status": 19963,
-    "iati-activity/transaction/tied-status/@code": 19963,
     "iati-activity/transaction/@ref": 64426,
     "iati-activity/transaction/@humanitarian": 64426,
     "iati-activity/related-activity": 63966,
@@ -178,17 +177,6 @@
     "iati-activity/@default-currency": 65367,
     "iati-activity/@humanitarian": 65367,
     "iati-activity/@hierarchy": 65367,
-    "iati-activity/location/point": 56428,
-    "iati-activity/location/point/pos": 56428,
-    "iati-activity/location/point/@srsName": 56428,
-    "iati-activity/crs-add": 5675,
-    "iati-activity/crs-add/other-flags": 5675,
-    "iati-activity/crs-add/other-flags/@code": 5675,
-    "iati-activity/crs-add/other-flags/@significance": 5675,
-    "iati-activity/tag": 7465,
-    "iati-activity/tag/@vocabulary": 7465,
-    "iati-activity/tag/@code": 7465,
-    "iati-activity/tag/narrative": 7371,
     "iati-activity/document-link": 16623,
     "iati-activity/document-link/title": 16623,
     "iati-activity/document-link/title/narrative": 16623,
@@ -198,19 +186,14 @@
     "iati-activity/document-link/language/@code": 16623,
     "iati-activity/document-link/@url": 16623,
     "iati-activity/document-link/@format": 16623,
-    "iati-activity/planned-disbursement": 6506,
-    "iati-activity/planned-disbursement/period-start": 6506,
-    "iati-activity/planned-disbursement/period-start/@iso-date": 6506,
-    "iati-activity/planned-disbursement/period-end": 6506,
-    "iati-activity/planned-disbursement/period-end/@iso-date": 6506,
-    "iati-activity/planned-disbursement/value": 6506,
-    "iati-activity/planned-disbursement/value/@currency": 6506,
-    "iati-activity/planned-disbursement/value/@value-date": 6506,
-    "iati-activity/planned-disbursement/provider-org": 6506,
-    "iati-activity/planned-disbursement/provider-org/narrative": 6506,
-    "iati-activity/planned-disbursement/provider-org/@provider-activity-id": 6506,
-    "iati-activity/planned-disbursement/provider-org/@type": 6506,
-    "iati-activity/planned-disbursement/@type": 6506,
+    "iati-activity/crs-add": 5675,
+    "iati-activity/crs-add/other-flags": 5675,
+    "iati-activity/crs-add/other-flags/@code": 5675,
+    "iati-activity/crs-add/other-flags/@significance": 5675,
+    "iati-activity/default-tied-status": 20870,
+    "iati-activity/default-tied-status/@code": 20870,
+    "iati-activity/transaction/tied-status": 19963,
+    "iati-activity/transaction/tied-status/@code": 19963,
     "iati-activity/result": 393,
     "iati-activity/result/title": 393,
     "iati-activity/result/title/narrative": 393,
@@ -243,11 +226,28 @@
     "iati-activity/result/indicator/@ascending": 367,
     "iati-activity/result/@type": 393,
     "iati-activity/result/@aggregation-status": 393,
+    "iati-activity/planned-disbursement": 6506,
+    "iati-activity/planned-disbursement/period-start": 6506,
+    "iati-activity/planned-disbursement/period-start/@iso-date": 6506,
+    "iati-activity/planned-disbursement/period-end": 6506,
+    "iati-activity/planned-disbursement/period-end/@iso-date": 6506,
+    "iati-activity/planned-disbursement/value": 6506,
+    "iati-activity/planned-disbursement/value/@currency": 6506,
+    "iati-activity/planned-disbursement/value/@value-date": 6506,
+    "iati-activity/planned-disbursement/provider-org": 6506,
+    "iati-activity/planned-disbursement/provider-org/narrative": 6506,
+    "iati-activity/planned-disbursement/provider-org/@provider-activity-id": 6506,
+    "iati-activity/planned-disbursement/provider-org/@type": 6506,
+    "iati-activity/planned-disbursement/@type": 6506,
+    "iati-activity/tag": 7465,
+    "iati-activity/tag/narrative": 7371,
+    "iati-activity/tag/@vocabulary": 7465,
+    "iati-activity/tag/@code": 7465,
     "iati-activity/recipient-region": 12040,
     "iati-activity/recipient-region/narrative": 12040,
-    "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 6160,
     "iati-activity/recipient-region/@code": 12040,
-    "iati-activity/recipient-region/@vocabulary": 12040
+    "iati-activity/recipient-region/@vocabulary": 12040,
+    "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 6160
   },
   "elements_total": {
     "iati-activity": 65367,
@@ -294,6 +294,9 @@
     "iati-activity/location": 66695,
     "iati-activity/location/description": 66695,
     "iati-activity/location/description/narrative": 66695,
+    "iati-activity/location/point": 57756,
+    "iati-activity/location/point/pos": 57756,
+    "iati-activity/location/point/@srsName": 57756,
     "iati-activity/sector": 68619,
     "iati-activity/sector/narrative": 68619,
     "iati-activity/sector/@vocabulary": 68619,
@@ -312,8 +315,6 @@
     "iati-activity/default-finance-type/@code": 65367,
     "iati-activity/default-aid-type": 65367,
     "iati-activity/default-aid-type/@code": 65367,
-    "iati-activity/default-tied-status": 20870,
-    "iati-activity/default-tied-status/@code": 20870,
     "iati-activity/budget": 67913,
     "iati-activity/budget/period-start": 67913,
     "iati-activity/budget/period-start/@iso-date": 67913,
@@ -349,8 +350,6 @@
     "iati-activity/transaction/finance-type/@code": 225860,
     "iati-activity/transaction/aid-type": 227060,
     "iati-activity/transaction/aid-type/@code": 227060,
-    "iati-activity/transaction/tied-status": 66451,
-    "iati-activity/transaction/tied-status/@code": 66451,
     "iati-activity/transaction/@ref": 227157,
     "iati-activity/transaction/@humanitarian": 227157,
     "iati-activity/related-activity": 65538,
@@ -363,17 +362,6 @@
     "iati-activity/@default-currency": 65367,
     "iati-activity/@humanitarian": 65367,
     "iati-activity/@hierarchy": 65367,
-    "iati-activity/location/point": 57756,
-    "iati-activity/location/point/pos": 57756,
-    "iati-activity/location/point/@srsName": 57756,
-    "iati-activity/crs-add": 5675,
-    "iati-activity/crs-add/other-flags": 5675,
-    "iati-activity/crs-add/other-flags/@code": 5675,
-    "iati-activity/crs-add/other-flags/@significance": 5675,
-    "iati-activity/tag": 16765,
-    "iati-activity/tag/@vocabulary": 16765,
-    "iati-activity/tag/@code": 16765,
-    "iati-activity/tag/narrative": 15814,
     "iati-activity/document-link": 16623,
     "iati-activity/document-link/title": 16623,
     "iati-activity/document-link/title/narrative": 16623,
@@ -383,19 +371,14 @@
     "iati-activity/document-link/language/@code": 16623,
     "iati-activity/document-link/@url": 16623,
     "iati-activity/document-link/@format": 16623,
-    "iati-activity/planned-disbursement": 16785,
-    "iati-activity/planned-disbursement/period-start": 16785,
-    "iati-activity/planned-disbursement/period-start/@iso-date": 16785,
-    "iati-activity/planned-disbursement/period-end": 16785,
-    "iati-activity/planned-disbursement/period-end/@iso-date": 16785,
-    "iati-activity/planned-disbursement/value": 16785,
-    "iati-activity/planned-disbursement/value/@currency": 16785,
-    "iati-activity/planned-disbursement/value/@value-date": 16785,
-    "iati-activity/planned-disbursement/provider-org": 16785,
-    "iati-activity/planned-disbursement/provider-org/narrative": 16785,
-    "iati-activity/planned-disbursement/provider-org/@provider-activity-id": 16785,
-    "iati-activity/planned-disbursement/provider-org/@type": 16785,
-    "iati-activity/planned-disbursement/@type": 16785,
+    "iati-activity/crs-add": 5675,
+    "iati-activity/crs-add/other-flags": 5675,
+    "iati-activity/crs-add/other-flags/@code": 5675,
+    "iati-activity/crs-add/other-flags/@significance": 5675,
+    "iati-activity/default-tied-status": 20870,
+    "iati-activity/default-tied-status/@code": 20870,
+    "iati-activity/transaction/tied-status": 66451,
+    "iati-activity/transaction/tied-status/@code": 66451,
     "iati-activity/result": 2592,
     "iati-activity/result/title": 2592,
     "iati-activity/result/title/narrative": 2592,
@@ -428,11 +411,28 @@
     "iati-activity/result/indicator/@ascending": 2184,
     "iati-activity/result/@type": 2592,
     "iati-activity/result/@aggregation-status": 2592,
+    "iati-activity/planned-disbursement": 16785,
+    "iati-activity/planned-disbursement/period-start": 16785,
+    "iati-activity/planned-disbursement/period-start/@iso-date": 16785,
+    "iati-activity/planned-disbursement/period-end": 16785,
+    "iati-activity/planned-disbursement/period-end/@iso-date": 16785,
+    "iati-activity/planned-disbursement/value": 16785,
+    "iati-activity/planned-disbursement/value/@currency": 16785,
+    "iati-activity/planned-disbursement/value/@value-date": 16785,
+    "iati-activity/planned-disbursement/provider-org": 16785,
+    "iati-activity/planned-disbursement/provider-org/narrative": 16785,
+    "iati-activity/planned-disbursement/provider-org/@provider-activity-id": 16785,
+    "iati-activity/planned-disbursement/provider-org/@type": 16785,
+    "iati-activity/planned-disbursement/@type": 16785,
+    "iati-activity/tag": 16765,
+    "iati-activity/tag/narrative": 15814,
+    "iati-activity/tag/@vocabulary": 16765,
+    "iati-activity/tag/@code": 16765,
     "iati-activity/recipient-region": 12040,
     "iati-activity/recipient-region/narrative": 12040,
-    "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 6160,
     "iati-activity/recipient-region/@code": 12040,
-    "iati-activity/recipient-region/@vocabulary": 12040
+    "iati-activity/recipient-region/@vocabulary": 12040,
+    "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 6160
   },
   "forwardlooking_activities_current": {
     "2022": 3031,
@@ -450,82 +450,85 @@
     "2024": 62
   },
   "forwardlooking_currency_year": {
-    "2013": {
+    "2006": {
       "EUR": 0.0
     },
     "null": {
       "EUR": 0.0
     },
-    "2019": {
-      "EUR": 0.0
-    },
-    "2012": {
-      "EUR": 0.0
-    },
-    "2014": {
-      "EUR": 0.0
-    },
-    "2015": {
-      "EUR": 0.0
-    },
-    "2016": {
-      "EUR": 0.0
-    },
-    "2017": {
-      "EUR": 0.0
-    },
-    "2020": {
-      "EUR": 0.0
-    },
-    "2022": {
-      "EUR": 221139413.0
-    },
-    "2023": {
-      "EUR": 0.0
-    },
-    "2009": {
-      "EUR": 0.0
-    },
-    "2006": {
-      "EUR": 0.0
-    },
     "2008": {
-      "EUR": 0.0
-    },
-    "2003": {
-      "EUR": 0.0
-    },
-    "2005": {
-      "EUR": 0.0
-    },
-    "2004": {
-      "EUR": 0.0
-    },
-    "2007": {
-      "EUR": 0.0
-    },
-    "2010": {
       "EUR": 0.0
     },
     "2011": {
       "EUR": 0.0
     },
+    "2010": {
+      "EUR": 0.0
+    },
+    "2012": {
+      "EUR": 0.0
+    },
+    "2013": {
+      "EUR": 0.0
+    },
+    "2015": {
+      "EUR": 0.0
+    },
+    "2017": {
+      "EUR": 0.0
+    },
+    "2007": {
+      "EUR": 0.0
+    },
+    "2002": {
+      "EUR": 0.0
+    },
+    "2003": {
+      "EUR": 0.0
+    },
+    "2004": {
+      "EUR": 0.0
+    },
+    "2005": {
+      "EUR": 0.0
+    },
+    "2009": {
+      "EUR": 0.0
+    },
+    "2014": {
+      "EUR": 0.0
+    },
+    "2022": {
+      "EUR": 221139413.0
+    },
+    "2016": {
+      "EUR": 0.0
+    },
     "2018": {
       "EUR": 0.0
     },
+    "2019": {
+      "EUR": 0.0
+    },
     "2021": {
+      "EUR": 0.0
+    },
+    "2020": {
+      "EUR": 0.0
+    },
+    "2023": {
+      "EUR": 0.0
+    },
+    "2001": {
+      "EUR": 0.0
+    },
+    "2050": {
       "EUR": 0.0
     },
     "2000": {
       "EUR": 0.0
     },
     "1994": {
-      "EUR": 0.0
-    },
-    "2002": {
-      "EUR": 0.0
-    },
-    "2050": {
       "EUR": 0.0
     },
     "1999": {
@@ -538,9 +541,6 @@
       "EUR": 0.0
     },
     "2024": {
-      "EUR": 0.0
-    },
-    "2001": {
       "EUR": 0.0
     },
     "1995": {

@@ -7,15 +7,15 @@
     "en": 185
   },
   ".//activity-date/@type": {
+    "1": 1,
     "2": 185,
     "3": 2,
-    "1": 1,
     "4": 183
   },
   ".//activity-status/@code": {
-    "3": 1,
     "2": 1,
-    "4": 183
+    "4": 183,
+    "3": 1
   },
   ".//budget/@type": {
     "1": 6
@@ -30,8 +30,8 @@
     "1": 185
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "B03": 184,
-    "B01": 1
+    "B01": 1,
+    "B03": 184
   },
   ".//default-finance-type/@code": {
     "110": 185
@@ -63,13 +63,13 @@
     "99": 1
   },
   ".//participating-org/@role": {
+    "1": 185,
     "2": 16,
-    "4": 181,
-    "1": 185
+    "4": 181
   },
   ".//participating-org/@type": {
-    "21": 197,
     "10": 97,
+    "21": 197,
     "40": 88
   },
   ".//policy-marker/@significance": {
@@ -82,7 +82,6 @@
     "2": 184
   },
   ".//recipient-country/@code": {
-    "GB": 1,
     "ZA": 2,
     "KE": 4,
     "CN": 9,
@@ -114,7 +113,8 @@
     "HT": 1,
     "SY": 1,
     "BF": 1,
-    "ML": 1
+    "ML": 1,
+    "GB": 1
   },
   ".//recipient-region/@vocabulary": {
     "99": 32
@@ -135,21 +135,21 @@
     "1": 13
   },
   ".//sector/@vocabulary": {
-    "1": 1,
-    "99": 204
+    "99": 204,
+    "1": 1
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "15160": 1,
-    "43010": 1
+    "43010": 1,
+    "15160": 1
   },
   ".//transaction/provider-org/@type": {
     "10": 15
   },
   ".//transaction/transaction-type/@code": {
-    "3": 10,
     "1": 438,
-    "2": 1,
-    "4": 749
+    "4": 749,
+    "3": 10,
+    "2": 1
   },
   ".//transaction/value/@currency": {
     "GBP": 22

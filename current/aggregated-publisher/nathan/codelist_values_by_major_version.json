@@ -4,17 +4,17 @@
       "GBP": 14
     },
     ".//activity-date/@type": {
-      "1": 3,
-      "3": 5,
       "2": 11,
+      "3": 5,
+      "1": 3,
       "4": 2
     },
     ".//activity-status/@code": {
       "2": 14
     },
     ".//budget/@status": {
-      "2": 53,
-      "1": 3
+      "1": 3,
+      "2": 53
     },
     ".//budget/@type": {
       "1": 54
@@ -26,22 +26,19 @@
       "1": 14
     },
     ".//document-link/@format": {
-      "application/CDFX+XML": 1,
       "application/vnd.fsc.weblaunch": 2,
       "application/pdf": 42,
-      "application/vnd.cups-pdf": 1
+      "application/vnd.cups-pdf": 1,
+      "application/CDFX+XML": 1
     },
     ".//document-link/category/@code": {
-      "A12": 1,
       "A02": 23,
       "A08": 21,
+      "A12": 1,
       "A06": 1
     },
     ".//document-link/language/@code": {
       "en": 36
-    },
-    ".//participating-org/@crs-channel-code": {
-      "11000": 2
     },
     ".//participating-org/@role": {
       "1": 11,
@@ -54,9 +51,9 @@
       "21": 2
     },
     ".//recipient-country/@code": {
-      "VN": 2,
       "SL": 2,
       "GH": 3,
+      "VN": 2,
       "ZM": 8,
       "BD": 4
     },
@@ -83,6 +80,9 @@
     },
     ".//@xml:lang": {
       "en": 385
+    },
+    ".//participating-org/@crs-channel-code": {
+      "11000": 2
     },
     ".//transaction/recipient-country/@code": {
       "ZM": 6

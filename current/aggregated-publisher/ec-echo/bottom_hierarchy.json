@@ -104,6 +104,8 @@
     "iati-activity/recipient-country/@code": 6576,
     "iati-activity/recipient-country/@percentage": 6576,
     "iati-activity/location": 7128,
+    "iati-activity/location/description": 6317,
+    "iati-activity/location/description/narrative": 6317,
     "iati-activity/location/point": 6576,
     "iati-activity/location/point/pos": 6576,
     "iati-activity/location/point/@srsName": 6576,
@@ -116,6 +118,9 @@
     "iati-activity/sector/@code": 7128,
     "iati-activity/sector/@vocabulary": 7128,
     "iati-activity/sector/@percentage": 7128,
+    "iati-activity/tag": 706,
+    "iati-activity/tag/@code": 706,
+    "iati-activity/tag/@vocabulary": 706,
     "iati-activity/collaboration-type": 7128,
     "iati-activity/collaboration-type/@code": 7128,
     "iati-activity/default-flow-type": 7128,
@@ -151,9 +156,10 @@
     "iati-activity/transaction/provider-org/@provider-activity-id": 7128,
     "iati-activity/transaction/provider-org/@type": 7128,
     "iati-activity/transaction/receiver-org": 7128,
-    "iati-activity/transaction/receiver-org/@ref": 7128,
-    "iati-activity/transaction/receiver-org/@receiver-activity-id": 7128,
     "iati-activity/transaction/receiver-org/narrative": 7128,
+    "iati-activity/transaction/receiver-org/@ref": 7128,
+    "iati-activity/transaction/receiver-org/@type": 719,
+    "iati-activity/transaction/receiver-org/@receiver-activity-id": 7128,
     "iati-activity/transaction/@ref": 6773,
     "iati-activity/document-link": 7128,
     "iati-activity/document-link/title": 7128,
@@ -178,20 +184,14 @@
     "iati-activity/@hierarchy": 7128,
     "iati-activity/@linked-data-uri": 7128,
     "iati-activity/@humanitarian": 7128,
-    "iati-activity/recipient-region": 626,
-    "iati-activity/recipient-region/@code": 626,
-    "iati-activity/recipient-region/@vocabulary": 626,
-    "iati-activity/recipient-region/@percentage": 626,
-    "iati-activity/location/description": 6317,
-    "iati-activity/location/description/narrative": 6317,
-    "iati-activity/tag": 706,
-    "iati-activity/tag/@code": 706,
-    "iati-activity/tag/@vocabulary": 706,
-    "iati-activity/transaction/receiver-org/@type": 719,
     "iati-activity/humanitarian-scope": 872,
     "iati-activity/humanitarian-scope/@type": 872,
     "iati-activity/humanitarian-scope/@vocabulary": 872,
     "iati-activity/humanitarian-scope/@code": 872,
+    "iati-activity/recipient-region": 626,
+    "iati-activity/recipient-region/@code": 626,
+    "iati-activity/recipient-region/@vocabulary": 626,
+    "iati-activity/recipient-region/@percentage": 626,
     "iati-activity/transaction/description": 818,
     "iati-activity/transaction/description/narrative": 818
   },
@@ -235,6 +235,8 @@
     "iati-activity/recipient-country/@code": 6708,
     "iati-activity/recipient-country/@percentage": 6708,
     "iati-activity/location": 7352,
+    "iati-activity/location/description": 6541,
+    "iati-activity/location/description/narrative": 6541,
     "iati-activity/location/point": 6708,
     "iati-activity/location/point/pos": 6708,
     "iati-activity/location/point/@srsName": 6708,
@@ -247,6 +249,9 @@
     "iati-activity/sector/@code": 31723,
     "iati-activity/sector/@vocabulary": 31723,
     "iati-activity/sector/@percentage": 31723,
+    "iati-activity/tag": 758,
+    "iati-activity/tag/@code": 758,
+    "iati-activity/tag/@vocabulary": 758,
     "iati-activity/collaboration-type": 7128,
     "iati-activity/collaboration-type/@code": 7128,
     "iati-activity/default-flow-type": 7128,
@@ -282,9 +287,10 @@
     "iati-activity/transaction/provider-org/@provider-activity-id": 39425,
     "iati-activity/transaction/provider-org/@type": 39425,
     "iati-activity/transaction/receiver-org": 39425,
-    "iati-activity/transaction/receiver-org/@ref": 8677,
-    "iati-activity/transaction/receiver-org/@receiver-activity-id": 8677,
     "iati-activity/transaction/receiver-org/narrative": 31467,
+    "iati-activity/transaction/receiver-org/@ref": 8677,
+    "iati-activity/transaction/receiver-org/@type": 719,
+    "iati-activity/transaction/receiver-org/@receiver-activity-id": 8677,
     "iati-activity/transaction/@ref": 22904,
     "iati-activity/document-link": 15692,
     "iati-activity/document-link/title": 15692,
@@ -309,20 +315,14 @@
     "iati-activity/@hierarchy": 7128,
     "iati-activity/@linked-data-uri": 7128,
     "iati-activity/@humanitarian": 7128,
-    "iati-activity/recipient-region": 644,
-    "iati-activity/recipient-region/@code": 644,
-    "iati-activity/recipient-region/@vocabulary": 644,
-    "iati-activity/recipient-region/@percentage": 644,
-    "iati-activity/location/description": 6541,
-    "iati-activity/location/description/narrative": 6541,
-    "iati-activity/tag": 758,
-    "iati-activity/tag/@code": 758,
-    "iati-activity/tag/@vocabulary": 758,
-    "iati-activity/transaction/receiver-org/@type": 719,
     "iati-activity/humanitarian-scope": 872,
     "iati-activity/humanitarian-scope/@type": 872,
     "iati-activity/humanitarian-scope/@vocabulary": 872,
     "iati-activity/humanitarian-scope/@code": 872,
+    "iati-activity/recipient-region": 644,
+    "iati-activity/recipient-region/@code": 644,
+    "iati-activity/recipient-region/@vocabulary": 644,
+    "iati-activity/recipient-region/@percentage": 644,
     "iati-activity/transaction/description": 4394,
     "iati-activity/transaction/description/narrative": 4394
   },
@@ -342,35 +342,20 @@
     "2024": 34
   },
   "forwardlooking_currency_year": {
-    "2012": {
-      "EUR": 1188809613.92
-    },
     "2013": {
       "EUR": 1346860080.1
-    },
-    "2011": {
-      "EUR": 389582877.35
     },
     "2014": {
       "EUR": 1422519771.53
     },
+    "2012": {
+      "EUR": 1188809613.92
+    },
     "2015": {
       "EUR": 1860610438.65
     },
-    "2016": {
-      "EUR": 2015470186.26
-    },
-    "2018": {
-      "EUR": 1537201927.89
-    },
-    "2017": {
-      "EUR": 2883838005.75
-    },
-    "2019": {
-      "EUR": 2415648840.43
-    },
-    "2020": {
-      "EUR": 1803764366.24
+    "2011": {
+      "EUR": 389582877.35
     },
     "2021": {
       "EUR": 1985778151.28
@@ -386,6 +371,21 @@
     },
     "2025": {
       "EUR": 600000.0
+    },
+    "2019": {
+      "EUR": 2415648840.43
+    },
+    "2020": {
+      "EUR": 1803764366.24
+    },
+    "2016": {
+      "EUR": 2015470186.26
+    },
+    "2017": {
+      "EUR": 2883838005.75
+    },
+    "2018": {
+      "EUR": 1537201927.89
     }
   }
 }

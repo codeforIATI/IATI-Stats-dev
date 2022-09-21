@@ -1,17 +1,17 @@
 {
   ".//@default-currency": {
-    "": 1,
-    "EUR": 11
+    "EUR": 11,
+    "": 1
   },
   ".//@xml:lang": {
+    "en": 196,
     "EN": 14,
-    "nl": 24,
-    "en": 196
+    "nl": 24
   },
   ".//activity-date/@type": {
-    "1": 8,
-    "3": 12,
     "2": 5,
+    "3": 12,
+    "1": 8,
     "4": 1
   },
   ".//activity-status/@code": {
@@ -36,8 +36,8 @@
     "1": 7
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "B03": 1,
-    "C01": 7
+    "C01": 7,
+    "B03": 1
   },
   ".//default-finance-type/@code": {
     "110": 12
@@ -61,26 +61,26 @@
     "B9": 7
   },
   ".//participating-org/@role": {
-    "2": 12,
     "1": 12,
+    "2": 12,
     "4": 11
   },
   ".//participating-org/@type": {
-    "22": 1,
-    "21": 34
+    "21": 34,
+    "22": 1
   },
   ".//policy-marker/@significance": {
-    "4": 1,
     "1": 8,
-    "2": 33
+    "2": 33,
+    "4": 1
   },
   ".//policy-marker/@vocabulary": {
     "1": 42
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "3": 12,
     "1": 11,
     "2": 4,
+    "3": 12,
     "6": 4,
     "7": 4,
     "9": 7
@@ -94,9 +94,9 @@
     "ET": 2
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "1027": 5,
     "1029": 1,
     "189": 1,
+    "1027": 5,
     "289": 1
   },
   ".//related-activity/@type": {
@@ -104,8 +104,8 @@
     "2": 3
   },
   ".//reporting-org/@type": {
-    "22": 1,
-    "21": 11
+    "21": 11,
+    "22": 1
   },
   ".//result/@type": {
     "2": 48,
@@ -121,10 +121,10 @@
     "1": 17
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "15152": 1,
     "15150": 5,
     "41010": 4,
-    "13020": 7
+    "13020": 7,
+    "15152": 1
   },
   ".//transaction/provider-org/@type": {
     "21": 19
@@ -145,9 +145,9 @@
   },
   ".//transaction/transaction-type/@code": {
     "11": 12,
-    "1": 4,
+    "2": 8,
     "4": 10,
-    "2": 8
+    "1": 4
   },
   ".//transaction/value/@currency": {
     "EUR": 8

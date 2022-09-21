@@ -6,21 +6,21 @@
     "en": 297
   },
   ".//activity-date/@type": {
-    "1": 13,
     "2": 24,
-    "3": 13,
-    "4": 11
+    "4": 11,
+    "1": 13,
+    "3": 13
   },
   ".//activity-scope/@code": {
     "4": 8,
-    "5": 12,
     "6": 2,
+    "5": 12,
     "3": 5
   },
   ".//activity-status/@code": {
-    "2": 17,
+    "3": 7,
     "4": 5,
-    "3": 7
+    "2": 17
   },
   ".//budget/@status": {
     "2": 49,
@@ -42,8 +42,8 @@
     "A1": 2
   },
   ".//location/exactness/@code": {
-    "2": 6,
-    "1": 6
+    "1": 6,
+    "2": 6
   },
   ".//location/feature-designation/@code": {
     "ADM1": 2
@@ -68,34 +68,34 @@
     "4": 62
   },
   ".//participating-org/@type": {
+    "15": 1,
     "60": 32,
-    "21": 37,
     "22": 37,
-    "10": 1,
-    "15": 1
+    "21": 37,
+    "10": 1
   },
   ".//recipient-country/@code": {
-    "ET": 7,
-    "CF": 4,
     "CO": 2,
+    "NL": 2,
+    "CF": 4,
+    "ET": 7,
     "SO": 12,
-    "MZ": 1,
-    "ZW": 1,
-    "MG": 1,
     "ML": 6,
     "NG": 6,
-    "NL": 2,
+    "UA": 1,
     "SD": 1,
-    "UA": 1
+    "MZ": 1,
+    "ZW": 1,
+    "MG": 1
   },
   ".//recipient-region/@vocabulary": {
     "1": 13,
     "99": 1
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "298": 8,
+    "489": 1,
     "289": 4,
-    "489": 1
+    "298": 8
   },
   ".//related-activity/@type": {
     "1": 4,
@@ -106,28 +106,28 @@
   },
   ".//result/@type": {
     "1": 263,
-    "9": 2,
-    "2": 16
+    "2": 16,
+    "9": 2
   },
   ".//result/indicator/@measure": {
-    "1": 250,
+    "3": 9,
     "2": 23,
-    "3": 9
+    "1": 250
   },
   ".//sector/@vocabulary": {
-    "10": 5,
     "2": 16,
-    "1": 23
+    "1": 23,
+    "10": 5
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "72040": 4,
     "72050": 5,
     "72010": 5,
-    "12240": 1,
-    "14031": 1,
+    "72040": 4,
     "16020": 1,
     "32130": 3,
-    "11230": 3
+    "11230": 3,
+    "12240": 1,
+    "14031": 1
   },
   ".//sector[@vocabulary = '10']/@code": {
     "WASH": 1,
@@ -144,8 +144,8 @@
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": 16,
-    "H02": 2,
-    "B03": 20
+    "B03": 20,
+    "H02": 2
   },
   ".//transaction/disbursement-channel/@code": {
     "2": 57,
@@ -160,12 +160,12 @@
   },
   ".//transaction/provider-org/@type": {
     "21": 178,
-    "10": 8,
-    "60": 12
+    "60": 12,
+    "10": 8
   },
   ".//transaction/receiver-org/@type": {
-    "21": 108,
     "22": 66,
+    "21": 108,
     "60": 12
   },
   ".//transaction/tied-status/@code": {
@@ -174,8 +174,8 @@
   },
   ".//transaction/transaction-type/@code": {
     "3": 92,
-    "2": 55,
     "1": 48,
+    "2": 55,
     "11": 26
   },
   ".//transaction/value/@currency": {

@@ -82,6 +82,7 @@
     "iati-activity/participating-org/@role": 318532,
     "iati-activity/participating-org/@type": 318532,
     "iati-activity/participating-org/{http://www.foreignassistance.gov}office-name": 310238,
+    "iati-activity/participating-org/{http://www.foreignassistance.gov}duns-number": 97694,
     "iati-activity/other-identifier": 318532,
     "iati-activity/other-identifier/owner-org": 316811,
     "iati-activity/other-identifier/owner-org/narrative": 316811,
@@ -91,7 +92,6 @@
     "iati-activity/activity-status": 318532,
     "iati-activity/activity-status/@code": 318532,
     "iati-activity/activity-date": 318532,
-    "iati-activity/activity-date/narrative": 292345,
     "iati-activity/activity-date/@iso-date": 318532,
     "iati-activity/activity-date/@type": 318532,
     "iati-activity/contact-info": 318532,
@@ -115,8 +115,6 @@
     "iati-activity/location/location-reach/@code": 316811,
     "iati-activity/location/name": 317418,
     "iati-activity/location/name/narrative": 317418,
-    "iati-activity/location/description": 232359,
-    "iati-activity/location/description/narrative": 232359,
     "iati-activity/location/exactness": 317177,
     "iati-activity/location/exactness/@code": 317177,
     "iati-activity/location/location-class": 316570,
@@ -132,6 +130,14 @@
     "iati-activity/default-aid-type/@code": 318532,
     "iati-activity/default-tied-status": 318532,
     "iati-activity/default-tied-status/@code": 318532,
+    "iati-activity/budget": 32992,
+    "iati-activity/budget/period-start": 32992,
+    "iati-activity/budget/period-start/@iso-date": 32992,
+    "iati-activity/budget/period-end": 32992,
+    "iati-activity/budget/period-end/@iso-date": 32992,
+    "iati-activity/budget/value": 32992,
+    "iati-activity/budget/value/@currency": 32992,
+    "iati-activity/budget/value/@value-date": 32992,
     "iati-activity/capital-spend": 264551,
     "iati-activity/capital-spend/@percentage": 264551,
     "iati-activity/transaction": 318372,
@@ -175,23 +181,20 @@
     "iati-activity/@last-updated-datetime": 318532,
     "iati-activity/@humanitarian": 316811,
     "iati-activity/@hierarchy": 316811,
-    "iati-activity/participating-org/{http://www.foreignassistance.gov}duns-number": 97694,
+    "iati-activity/activity-date/narrative": 292345,
     "iati-activity/policy-marker": 36621,
     "iati-activity/policy-marker/@code": 36621,
     "iati-activity/policy-marker/@significance": 34900,
-    "iati-activity/budget": 32992,
-    "iati-activity/budget/period-start": 32992,
-    "iati-activity/budget/period-start/@iso-date": 32992,
-    "iati-activity/budget/period-end": 32992,
-    "iati-activity/budget/period-end/@iso-date": 32992,
-    "iati-activity/budget/value": 32992,
-    "iati-activity/budget/value/@currency": 32992,
-    "iati-activity/budget/value/@value-date": 32992,
     "iati-activity/transaction/flow-type": 401,
     "iati-activity/transaction/flow-type/@code": 401,
+    "iati-activity/location/description": 232359,
+    "iati-activity/location/description/narrative": 232359,
     "iati-activity/recipient-region": 80757,
     "iati-activity/recipient-region/@code": 80757,
     "iati-activity/recipient-region/@percentage": 80689,
+    "iati-activity/conditions/condition": 70,
+    "iati-activity/conditions/condition/narrative": 70,
+    "iati-activity/conditions/condition/@type": 70,
     "iati-activity/recipient-country/narrative": 1653,
     "iati-activity/location/point": 563,
     "iati-activity/location/point/pos": 563,
@@ -227,10 +230,7 @@
     "iati-activity/result/@aggregation-status": 631,
     "iati-activity/recipient-region/narrative": 68,
     "iati-activity/recipient-region/@vocabulary": 68,
-    "iati-activity/recipient-region/@vocabulary-uri": 68,
-    "iati-activity/conditions/condition": 70,
-    "iati-activity/conditions/condition/narrative": 70,
-    "iati-activity/conditions/condition/@type": 70
+    "iati-activity/recipient-region/@vocabulary-uri": 68
   },
   "elements_total": {
     "iati-activity": 318532,
@@ -250,6 +250,7 @@
     "iati-activity/participating-org/@role": 1257617,
     "iati-activity/participating-org/@type": 1090148,
     "iati-activity/participating-org/{http://www.foreignassistance.gov}office-name": 310238,
+    "iati-activity/participating-org/{http://www.foreignassistance.gov}duns-number": 97694,
     "iati-activity/other-identifier": 320099,
     "iati-activity/other-identifier/owner-org": 316811,
     "iati-activity/other-identifier/owner-org/narrative": 316811,
@@ -259,7 +260,6 @@
     "iati-activity/activity-status": 318532,
     "iati-activity/activity-status/@code": 318532,
     "iati-activity/activity-date": 1269209,
-    "iati-activity/activity-date/narrative": 1046003,
     "iati-activity/activity-date/@iso-date": 1269209,
     "iati-activity/activity-date/@type": 1269209,
     "iati-activity/contact-info": 318532,
@@ -283,8 +283,6 @@
     "iati-activity/location/location-reach/@code": 316811,
     "iati-activity/location/name": 330622,
     "iati-activity/location/name/narrative": 330622,
-    "iati-activity/location/description": 232359,
-    "iati-activity/location/description/narrative": 232359,
     "iati-activity/location/exactness": 330381,
     "iati-activity/location/exactness/@code": 330381,
     "iati-activity/location/location-class": 316570,
@@ -300,6 +298,14 @@
     "iati-activity/default-aid-type/@code": 318532,
     "iati-activity/default-tied-status": 318532,
     "iati-activity/default-tied-status/@code": 318532,
+    "iati-activity/budget": 54751,
+    "iati-activity/budget/period-start": 54751,
+    "iati-activity/budget/period-start/@iso-date": 54751,
+    "iati-activity/budget/period-end": 54751,
+    "iati-activity/budget/period-end/@iso-date": 54751,
+    "iati-activity/budget/value": 54751,
+    "iati-activity/budget/value/@currency": 54751,
+    "iati-activity/budget/value/@value-date": 54751,
     "iati-activity/capital-spend": 264551,
     "iati-activity/capital-spend/@percentage": 264551,
     "iati-activity/transaction": 1744402,
@@ -343,23 +349,20 @@
     "iati-activity/@last-updated-datetime": 318532,
     "iati-activity/@humanitarian": 316811,
     "iati-activity/@hierarchy": 316811,
-    "iati-activity/participating-org/{http://www.foreignassistance.gov}duns-number": 97694,
+    "iati-activity/activity-date/narrative": 1046003,
     "iati-activity/policy-marker": 37115,
     "iati-activity/policy-marker/@code": 37115,
     "iati-activity/policy-marker/@significance": 35394,
-    "iati-activity/budget": 54751,
-    "iati-activity/budget/period-start": 54751,
-    "iati-activity/budget/period-start/@iso-date": 54751,
-    "iati-activity/budget/period-end": 54751,
-    "iati-activity/budget/period-end/@iso-date": 54751,
-    "iati-activity/budget/value": 54751,
-    "iati-activity/budget/value/@currency": 54751,
-    "iati-activity/budget/value/@value-date": 54751,
     "iati-activity/transaction/flow-type": 1720,
     "iati-activity/transaction/flow-type/@code": 1720,
+    "iati-activity/location/description": 232359,
+    "iati-activity/location/description/narrative": 232359,
     "iati-activity/recipient-region": 80757,
     "iati-activity/recipient-region/@code": 80757,
     "iati-activity/recipient-region/@percentage": 80689,
+    "iati-activity/conditions/condition": 70,
+    "iati-activity/conditions/condition/narrative": 70,
+    "iati-activity/conditions/condition/@type": 70,
     "iati-activity/recipient-country/narrative": 1653,
     "iati-activity/location/point": 11074,
     "iati-activity/location/point/pos": 11074,
@@ -395,10 +398,7 @@
     "iati-activity/result/@aggregation-status": 2023,
     "iati-activity/recipient-region/narrative": 68,
     "iati-activity/recipient-region/@vocabulary": 68,
-    "iati-activity/recipient-region/@vocabulary-uri": 68,
-    "iati-activity/conditions/condition": 70,
-    "iati-activity/conditions/condition/narrative": 70,
-    "iati-activity/conditions/condition/@type": 70
+    "iati-activity/recipient-region/@vocabulary-uri": 68
   },
   "forwardlooking_activities_current": {
     "2022": 1791,
@@ -416,17 +416,17 @@
     "2024": 0
   },
   "forwardlooking_currency_year": {
-    "2019": {
-      "USD": 50354007614.73
-    },
-    "2018": {
-      "USD": 14112986642.71
-    },
     "2021": {
       "USD": 50086765517.88
     },
     "2020": {
       "USD": 91470235715.43
+    },
+    "2019": {
+      "USD": 50354007614.73
+    },
+    "2018": {
+      "USD": 14112986642.71
     },
     "2017": {
       "USD": 134087943528.01
@@ -440,23 +440,23 @@
     "2014": {
       "USD": 23606276446.51
     },
-    "2012": {
-      "USD": 3312484750.7
+    "2010": {
+      "USD": 82329094.08
     },
     "2011": {
       "USD": 88481947.1
     },
-    "2010": {
-      "USD": 82329094.08
+    "2012": {
+      "USD": 3312484750.7
     },
     "2013": {
       "USD": 22972879164.72
     },
-    "2009": {
-      "USD": 31833395.27
-    },
     "2022": {
       "USD": 3548913.77
+    },
+    "2009": {
+      "USD": 31833395.27
     }
   }
 }

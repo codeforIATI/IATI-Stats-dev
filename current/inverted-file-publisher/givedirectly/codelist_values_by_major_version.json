@@ -1,182 +1,246 @@
 {
   "2": {
     ".//@default-currency": {
-      "givedirectly-ug.xml": {
+      "givedirectly-ke.xml": {
         "USD": 1
       },
-      "givedirectly-ke.xml": {
+      "givedirectly-ug.xml": {
         "USD": 1
       }
     },
     ".//activity-date/@type": {
+      "givedirectly-ke.xml": {
+        "2": 1,
+        "3": 1,
+        "1": 1
+      },
       "givedirectly-ug.xml": {
         "2": 1,
         "3": 1,
         "4": 1,
-        "1": 1
-      },
-      "givedirectly-ke.xml": {
-        "2": 1,
-        "3": 1,
         "1": 1
       }
     },
     ".//activity-status/@code": {
-      "givedirectly-ug.xml": {
+      "givedirectly-ke.xml": {
         "2": 1
       },
-      "givedirectly-ke.xml": {
+      "givedirectly-ug.xml": {
         "2": 1
       }
     },
     ".//budget/@status": {
-      "givedirectly-ug.xml": {
-        "1": 1
-      },
       "givedirectly-ke.xml": {
         "2": 1
+      },
+      "givedirectly-ug.xml": {
+        "1": 1
       }
     },
     ".//budget/@type": {
-      "givedirectly-ug.xml": {
-        "2": 1
-      },
       "givedirectly-ke.xml": {
         "1": 1
+      },
+      "givedirectly-ug.xml": {
+        "2": 1
       }
     },
     ".//budget/value/@currency": {
-      "givedirectly-ug.xml": {
-        "USD": 1
-      },
       "givedirectly-ke.xml": {
         "GBP": 1
+      },
+      "givedirectly-ug.xml": {
+        "USD": 1
       }
     },
     ".//contact-info/@type": {
-      "givedirectly-ug.xml": {
+      "givedirectly-ke.xml": {
         "1": 1
       },
-      "givedirectly-ke.xml": {
+      "givedirectly-ug.xml": {
         "1": 1
       }
     },
     ".//description/@type": {
-      "givedirectly-ug.xml": {
-        "1": 1,
-        "2": 1,
-        "3": 1
-      },
       "givedirectly-ke.xml": {
         "1": 1,
         "3": 1,
         "2": 1
+      },
+      "givedirectly-ug.xml": {
+        "1": 1,
+        "2": 1,
+        "3": 1
       }
     },
     ".//document-link/@format": {
+      "givedirectly-ke.xml": {
+        "application/pdf": 1
+      },
       "givedirectly-ug.xml": {
         "application/pdf": 3,
         "application/vnd.ms-excel": 1
-      },
-      "givedirectly-ke.xml": {
-        "application/pdf": 1
       }
     },
     ".//document-link/category/@code": {
+      "givedirectly-ke.xml": {
+        "A06": 1
+      },
       "givedirectly-ug.xml": {
         "A02": 2,
         "A11": 1,
         "B09": 1
-      },
-      "givedirectly-ke.xml": {
-        "A06": 1
       }
     },
     ".//document-link/language/@code": {
-      "givedirectly-ug.xml": {
-        "en": 4
-      },
       "givedirectly-ke.xml": {
         "en": 1
+      },
+      "givedirectly-ug.xml": {
+        "en": 4
       }
     },
     ".//participating-org/@role": {
-      "givedirectly-ug.xml": {
-        "1": 1,
-        "4": 1,
-        "2": 1
-      },
       "givedirectly-ke.xml": {
         "1": 1,
         "2": 1,
         "4": 1
+      },
+      "givedirectly-ug.xml": {
+        "1": 1,
+        "4": 1,
+        "2": 1
       }
     },
     ".//participating-org/@type": {
-      "givedirectly-ug.xml": {
+      "givedirectly-ke.xml": {
         "10": 1,
         "21": 2
       },
-      "givedirectly-ke.xml": {
+      "givedirectly-ug.xml": {
         "10": 1,
         "21": 2
       }
     },
     ".//recipient-country/@code": {
-      "givedirectly-ug.xml": {
-        "UG": 1
-      },
       "givedirectly-ke.xml": {
         "KE": 1
+      },
+      "givedirectly-ug.xml": {
+        "UG": 1
       }
     },
     ".//reporting-org/@type": {
-      "givedirectly-ug.xml": {
+      "givedirectly-ke.xml": {
         "21": 1
       },
-      "givedirectly-ke.xml": {
+      "givedirectly-ug.xml": {
         "21": 1
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "givedirectly-ke.xml": {
+        "72010": 5
+      },
       "givedirectly-ug.xml": {
         "43010": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "givedirectly-ke.xml": {
+        "1": 5
       },
+      "givedirectly-ug.xml": {
+        "1": 1
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "givedirectly-ke.xml": {
+        "B03": 5
+      },
+      "givedirectly-ug.xml": {
+        "C01": 12
+      }
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "givedirectly-ke.xml": {
+        "1": 5
+      },
+      "givedirectly-ug.xml": {
+        "1": 12
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "givedirectly-ke.xml": {
+        "2": 4,
+        "1": 1
+      },
+      "givedirectly-ug.xml": {
+        "2": 11
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "givedirectly-ke.xml": {
+        "10": 5
+      },
+      "givedirectly-ug.xml": {
+        "60": 10,
+        "10": 2,
+        "21": 6
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "givedirectly-ke.xml": {
+        "21": 5
+      },
+      "givedirectly-ug.xml": {
+        "21": 12
+      }
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "givedirectly-ke.xml": {
         "72010": 5
       }
     },
-    ".//sector/@vocabulary": {
-      "givedirectly-ug.xml": {
-        "1": 1
-      },
+    ".//transaction/sector/@vocabulary": {
       "givedirectly-ke.xml": {
         "1": 5
       }
     },
-    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "givedirectly-ug.xml": {
-        "C01": 12
-      },
+    ".//transaction/tied-status/@code": {
       "givedirectly-ke.xml": {
-        "B03": 5
+        "3": 5
+      },
+      "givedirectly-ug.xml": {
+        "5": 12
       }
     },
-    ".//transaction/aid-type/@vocabulary": {
-      "givedirectly-ug.xml": {
-        "1": 12
-      },
+    ".//transaction/transaction-type/@code": {
       "givedirectly-ke.xml": {
-        "1": 5
+        "1": 4,
+        "11": 1
+      },
+      "givedirectly-ug.xml": {
+        "1": 6,
+        "11": 6,
+        "4": 7
       }
     },
-    ".//transaction/disbursement-channel/@code": {
-      "givedirectly-ug.xml": {
-        "2": 11
-      },
+    ".//transaction/value/@currency": {
       "givedirectly-ke.xml": {
-        "2": 4,
-        "1": 1
+        "GBP": 5
+      },
+      "givedirectly-ug.xml": {
+        "USD": 16,
+        "GBP": 2
+      }
+    },
+    ".//@xml:lang": {
+      "givedirectly-ke.xml": {
+        "en": 22
+      },
+      "givedirectly-ug.xml": {
+        "en": 29
       }
     },
     ".//transaction/finance-type/@code": {
@@ -188,70 +252,6 @@
       "givedirectly-ug.xml": {
         "30": 10,
         "10": 2
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "givedirectly-ug.xml": {
-        "60": 10,
-        "10": 2,
-        "21": 6
-      },
-      "givedirectly-ke.xml": {
-        "10": 5
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "givedirectly-ug.xml": {
-        "21": 12
-      },
-      "givedirectly-ke.xml": {
-        "21": 5
-      }
-    },
-    ".//transaction/tied-status/@code": {
-      "givedirectly-ug.xml": {
-        "5": 12
-      },
-      "givedirectly-ke.xml": {
-        "3": 5
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "givedirectly-ug.xml": {
-        "1": 6,
-        "11": 6,
-        "4": 7
-      },
-      "givedirectly-ke.xml": {
-        "1": 4,
-        "11": 1
-      }
-    },
-    ".//transaction/value/@currency": {
-      "givedirectly-ug.xml": {
-        "USD": 16,
-        "GBP": 2
-      },
-      "givedirectly-ke.xml": {
-        "GBP": 5
-      }
-    },
-    ".//@xml:lang": {
-      "givedirectly-ug.xml": {
-        "en": 29
-      },
-      "givedirectly-ke.xml": {
-        "en": 22
-      }
-    },
-    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "givedirectly-ke.xml": {
-        "72010": 5
-      }
-    },
-    ".//transaction/sector/@vocabulary": {
-      "givedirectly-ke.xml": {
-        "1": 5
       }
     }
   }

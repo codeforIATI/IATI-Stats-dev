@@ -100,9 +100,11 @@
     "iati-activity/contact-info/@type": 5226,
     "iati-activity/activity-scope": 5226,
     "iati-activity/activity-scope/@code": 4853,
-    "iati-activity/recipient-country": 2866,
-    "iati-activity/recipient-country/@code": 2866,
-    "iati-activity/recipient-country/@percentage": 2866,
+    "iati-activity/recipient-region": 2229,
+    "iati-activity/recipient-region/@code": 2229,
+    "iati-activity/recipient-region/@percentage": 2229,
+    "iati-activity/recipient-region/@vocabulary": 2229,
+    "iati-activity/recipient-region/@vocabulary-uri": 2229,
     "iati-activity/sector": 5226,
     "iati-activity/sector/@code": 5226,
     "iati-activity/sector/@vocabulary": 5226,
@@ -153,11 +155,9 @@
     "iati-activity/@default-currency": 5226,
     "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 5226,
     "iati-activity/@last-updated-datetime": 5226,
-    "iati-activity/recipient-region": 2229,
-    "iati-activity/recipient-region/@code": 2229,
-    "iati-activity/recipient-region/@percentage": 2229,
-    "iati-activity/recipient-region/@vocabulary": 2229,
-    "iati-activity/recipient-region/@vocabulary-uri": 2229,
+    "iati-activity/recipient-country": 2866,
+    "iati-activity/recipient-country/@code": 2866,
+    "iati-activity/recipient-country/@percentage": 2866,
     "iati-activity/document-link": 109,
     "iati-activity/document-link/title": 109,
     "iati-activity/document-link/title/narrative": 109,
@@ -204,9 +204,11 @@
     "iati-activity/contact-info/@type": 5226,
     "iati-activity/activity-scope": 5226,
     "iati-activity/activity-scope/@code": 4853,
-    "iati-activity/recipient-country": 5079,
-    "iati-activity/recipient-country/@code": 5079,
-    "iati-activity/recipient-country/@percentage": 5079,
+    "iati-activity/recipient-region": 2914,
+    "iati-activity/recipient-region/@code": 2914,
+    "iati-activity/recipient-region/@percentage": 2914,
+    "iati-activity/recipient-region/@vocabulary": 2914,
+    "iati-activity/recipient-region/@vocabulary-uri": 2914,
     "iati-activity/sector": 33576,
     "iati-activity/sector/@code": 33576,
     "iati-activity/sector/@vocabulary": 33576,
@@ -257,11 +259,9 @@
     "iati-activity/@default-currency": 5226,
     "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 5226,
     "iati-activity/@last-updated-datetime": 5226,
-    "iati-activity/recipient-region": 2914,
-    "iati-activity/recipient-region/@code": 2914,
-    "iati-activity/recipient-region/@percentage": 2914,
-    "iati-activity/recipient-region/@vocabulary": 2914,
-    "iati-activity/recipient-region/@vocabulary-uri": 2914,
+    "iati-activity/recipient-country": 5079,
+    "iati-activity/recipient-country/@code": 5079,
+    "iati-activity/recipient-country/@percentage": 5079,
     "iati-activity/document-link": 278,
     "iati-activity/document-link/title": 278,
     "iati-activity/document-link/title/narrative": 278,
@@ -288,6 +288,12 @@
     "2024": 90
   },
   "forwardlooking_currency_year": {
+    "2019": {
+      "USD": 379723814.0
+    },
+    "2020": {
+      "USD": 226277231.0
+    },
     "2021": {
       "USD": 1016256535.0
     },
@@ -299,12 +305,6 @@
     },
     "2024": {
       "USD": 0.0
-    },
-    "2019": {
-      "USD": 379723814.0
-    },
-    "2020": {
-      "USD": 226277231.0
     }
   }
 }

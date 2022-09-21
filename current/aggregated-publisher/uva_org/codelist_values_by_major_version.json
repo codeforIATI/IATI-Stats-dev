@@ -4,26 +4,29 @@
       "EUR": 13
     },
     ".//activity-date/@type": {
-      "2": 1,
       "1": 12,
-      "3": 12
+      "3": 12,
+      "2": 1
     },
     ".//activity-status/@code": {
-      "2": 1,
-      "4": 12
+      "4": 12,
+      "2": 1
     },
     ".//budget/@status": {
       "2": 13
     },
     ".//budget/@type": {
-      "1": 1,
-      "2": 12
+      "2": 12,
+      "1": 1
     },
     ".//budget/value/@currency": {
       "EUR": 13
     },
     ".//collaboration-type/@code": {
       "1": 13
+    },
+    ".//contact-info/@type": {
+      "2": 12
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 13
@@ -32,8 +35,8 @@
       "110": 13
     },
     ".//default-flow-type/@code": {
-      "20": 1,
-      "30": 12
+      "30": 12,
+      "20": 1
     },
     ".//default-tied-status/@code": {
       "5": 13
@@ -45,14 +48,23 @@
       "4": 12
     },
     ".//participating-org/@role": {
+      "2": 12,
       "1": 2,
-      "4": 2,
-      "2": 12
+      "4": 2
     },
     ".//participating-org/@type": {
+      "21": 14,
       "10": 1,
-      "80": 1,
-      "21": 14
+      "80": 1
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "1": 12
+    },
+    ".//policy-marker/@significance": {
+      "4": 12
+    },
+    ".//policy-marker/@vocabulary": {
+      "1": 12
     },
     ".//recipient-country/@code": {
       "BD": 7,
@@ -67,42 +79,20 @@
       "SL": 3,
       "UG": 6
     },
+    ".//related-activity/@type": {
+      "1": 11
+    },
     ".//reporting-org/@type": {
-      "80": 1,
-      "21": 12
+      "21": 12,
+      "80": 1
     },
     ".//result/@type": {
       "1": 46,
       "2": 2
     },
     ".//result/indicator/@measure": {
-      "2": 6,
-      "1": 42
-    },
-    ".//result/indicator/reference/@vocabulary": {
-      "99": 5
-    },
-    ".//sector/@vocabulary": {
-      "6": 1
-    },
-    ".//@xml:lang": {
-      "en": 47,
-      "nl": 1
-    },
-    ".//contact-info/@type": {
-      "2": 12
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "1": 12
-    },
-    ".//policy-marker/@significance": {
-      "4": 12
-    },
-    ".//policy-marker/@vocabulary": {
-      "1": 12
-    },
-    ".//related-activity/@type": {
-      "1": 11
+      "1": 42,
+      "2": 6
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "15164": 12
@@ -114,6 +104,16 @@
     },
     ".//transaction/value/@currency": {
       "EUR": 64
+    },
+    ".//@xml:lang": {
+      "en": 47,
+      "nl": 1
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "99": 5
+    },
+    ".//sector/@vocabulary": {
+      "6": 1
     }
   }
 }
