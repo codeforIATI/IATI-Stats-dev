@@ -1,0 +1,42 @@
+{
+  ".//@default-currency": {
+    "USD": 5
+  },
+  ".//@xml:lang": {
+    "en": 5
+  },
+  ".//activity-date/@type": {
+    "2": 5
+  },
+  ".//budget/@type": {
+    "1": 5
+  },
+  ".//contact-info/@type": {
+    "1": 5
+  },
+  ".//description/@type": {
+    "1": 5
+  },
+  ".//participating-org/@role": {
+    "4": 5,
+    "2": 5
+  },
+  ".//participating-org/@type": {
+    "40": 10
+  },
+  ".//recipient-country/@code": {
+    "BS": 5
+  },
+  ".//reporting-org/@type": {
+    "40": 5
+  },
+  ".//sector/@vocabulary": {
+    "1": 5
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "41010": 5
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": 5
+  }
+}

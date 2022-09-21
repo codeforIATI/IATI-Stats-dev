@@ -1,0 +1,498 @@
+{
+  ".//@default-currency": {
+    "USD": {
+      "sfcg-activities.xml": 20
+    },
+    "GBP": {
+      "sfcg-activities.xml": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "sfcg-activities.xml": 257
+    },
+    "fr": {
+      "sfcg-activities.xml": 11
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "sfcg-activities.xml": 20
+    },
+    "3": {
+      "sfcg-activities.xml": 16
+    },
+    "4": {
+      "sfcg-activities.xml": 4
+    },
+    "1": {
+      "sfcg-activities.xml": 6
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "sfcg-activities.xml": 17
+    },
+    "3": {
+      "sfcg-activities.xml": 1
+    },
+    "4": {
+      "sfcg-activities.xml": 3
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "sfcg-activities.xml": 68
+    },
+    "1": {
+      "sfcg-activities.xml": 7
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "sfcg-activities.xml": 65
+    },
+    "2": {
+      "sfcg-activities.xml": 5
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "sfcg-activities.xml": 67
+    },
+    "GBP": {
+      "sfcg-activities.xml": 8
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "sfcg-activities.xml": 8
+    },
+    "3": {
+      "sfcg-activities.xml": 1
+    },
+    "2": {
+      "sfcg-activities.xml": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "sfcg-activities.xml": 20
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "sfcg-activities.xml": 2
+    },
+    "B03": {
+      "sfcg-activities.xml": 19
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "sfcg-activities.xml": 21
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "sfcg-activities.xml": 5
+    },
+    "10": {
+      "sfcg-activities.xml": 16
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "sfcg-activities.xml": 5
+    },
+    "3": {
+      "sfcg-activities.xml": 16
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "sfcg-activities.xml": 20
+    },
+    "2": {
+      "sfcg-activities.xml": 8
+    },
+    "3": {
+      "sfcg-activities.xml": 5
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "sfcg-activities.xml": 30
+    },
+    "application/vnd.ms-word.document.macroEnabled.12": {
+      "sfcg-activities.xml": 1
+    },
+    "application/msword": {
+      "sfcg-activities.xml": 2
+    }
+  },
+  ".//document-link/category/@code": {
+    "A08": {
+      "sfcg-activities.xml": 20
+    },
+    "A07": {
+      "sfcg-activities.xml": 5
+    },
+    "B01": {
+      "sfcg-activities.xml": 7
+    },
+    "A12": {
+      "sfcg-activities.xml": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "sfcg-activities.xml": 33
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "sfcg-activities.xml": 2
+    }
+  },
+  ".//location/location-class/@code": {
+    "2": {
+      "sfcg-activities.xml": 1
+    }
+  },
+  ".//location/location-id/@vocabulary": {
+    "A4": {
+      "sfcg-activities.xml": 1
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "sfcg-activities.xml": 13
+    }
+  },
+  ".//participating-org/@crs-channel-code": {
+    "20000": {
+      "sfcg-activities.xml": 15
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "sfcg-activities.xml": 21
+    },
+    "2": {
+      "sfcg-activities.xml": 15
+    },
+    "4": {
+      "sfcg-activities.xml": 24
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "sfcg-activities.xml": 7
+    },
+    "21": {
+      "sfcg-activities.xml": 48
+    },
+    "80": {
+      "sfcg-activities.xml": 3
+    },
+    "22": {
+      "sfcg-activities.xml": 2
+    }
+  },
+  ".//planned-disbursement/@type": {
+    "1": {
+      "sfcg-activities.xml": 2
+    },
+    "2": {
+      "sfcg-activities.xml": 2
+    }
+  },
+  ".//planned-disbursement/provider-org/@type": {
+    "10": {
+      "sfcg-activities.xml": 5
+    }
+  },
+  ".//planned-disbursement/receiver-org/@type": {
+    "21": {
+      "sfcg-activities.xml": 5
+    }
+  },
+  ".//planned-disbursement/value/@currency": {
+    "GBP": {
+      "sfcg-activities.xml": 8
+    },
+    "EUR": {
+      "sfcg-activities.xml": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "sfcg-activities.xml": 4
+    },
+    "0": {
+      "sfcg-activities.xml": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "sfcg-activities.xml": 9
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "3": {
+      "sfcg-activities.xml": 11
+    },
+    "1": {
+      "sfcg-activities.xml": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "ML": {
+      "sfcg-activities.xml": 18
+    },
+    "BF": {
+      "sfcg-activities.xml": 1
+    },
+    "LB": {
+      "sfcg-activities.xml": 1
+    },
+    "TN": {
+      "sfcg-activities.xml": 2
+    },
+    "CD": {
+      "sfcg-activities.xml": 1
+    },
+    "YE": {
+      "sfcg-activities.xml": 2
+    },
+    "NP": {
+      "sfcg-activities.xml": 1
+    },
+    "NG": {
+      "sfcg-activities.xml": 3
+    },
+    "NE": {
+      "sfcg-activities.xml": 11
+    },
+    "AF": {
+      "sfcg-activities.xml": 7
+    },
+    "SS": {
+      "sfcg-activities.xml": 7
+    },
+    "BE": {
+      "sfcg-activities.xml": 4
+    },
+    "IQ": {
+      "sfcg-activities.xml": 4
+    },
+    "KE": {
+      "sfcg-activities.xml": 2
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "99": {
+      "sfcg-activities.xml": 1
+    },
+    "1": {
+      "sfcg-activities.xml": 2
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "589": {
+      "sfcg-activities.xml": 1
+    },
+    "189": {
+      "sfcg-activities.xml": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "sfcg-activities.xml": 12
+    },
+    "2": {
+      "sfcg-activities.xml": 10
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "sfcg-activities.xml": 21
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "sfcg-activities.xml": 52
+    },
+    "2": {
+      "sfcg-activities.xml": 26
+    },
+    "3": {
+      "sfcg-activities.xml": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "sfcg-activities.xml": 83
+    },
+    "2": {
+      "sfcg-activities.xml": 8
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "sfcg-activities.xml": 60
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "sfcg-activities.xml": 62
+    },
+    "7": {
+      "sfcg-activities.xml": 1
+    },
+    "2": {
+      "sfcg-activities.xml": 2
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15220": {
+      "sfcg-activities.xml": 8
+    },
+    "15160": {
+      "sfcg-activities.xml": 8
+    },
+    "15137": {
+      "sfcg-activities.xml": 1
+    },
+    "15150": {
+      "sfcg-activities.xml": 6
+    },
+    "15131": {
+      "sfcg-activities.xml": 30
+    },
+    "15210": {
+      "sfcg-activities.xml": 4
+    },
+    "15130": {
+      "sfcg-activities.xml": 4
+    },
+    "15110": {
+      "sfcg-activities.xml": 1
+    }
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "152": {
+      "sfcg-activities.xml": 2
+    }
+  },
+  ".//sector[@vocabulary = '7']/@code": {
+    "16": {
+      "sfcg-activities.xml": 1
+    }
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "2": {
+      "sfcg-activities.xml": 2
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '2']/@code": {
+    "3": {
+      "sfcg-activities.xml": 2
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "sfcg-activities.xml": 2
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "sfcg-activities.xml": 3
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "sfcg-activities.xml": 3
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "sfcg-activities.xml": 20
+    },
+    "23": {
+      "sfcg-activities.xml": 94
+    },
+    "21": {
+      "sfcg-activities.xml": 10
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "sfcg-activities.xml": 4
+    },
+    "23": {
+      "sfcg-activities.xml": 59
+    },
+    "22": {
+      "sfcg-activities.xml": 35
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "NE": {
+      "sfcg-activities.xml": 11
+    },
+    "AF": {
+      "sfcg-activities.xml": 7
+    },
+    "ML": {
+      "sfcg-activities.xml": 13
+    },
+    "SS": {
+      "sfcg-activities.xml": 7
+    },
+    "BE": {
+      "sfcg-activities.xml": 3
+    }
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": {
+      "sfcg-activities.xml": 30
+    }
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15131": {
+      "sfcg-activities.xml": 30
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "sfcg-activities.xml": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "sfcg-activities.xml": 39
+    },
+    "4": {
+      "sfcg-activities.xml": 43
+    },
+    "11": {
+      "sfcg-activities.xml": 13
+    },
+    "2": {
+      "sfcg-activities.xml": 28
+    },
+    "3": {
+      "sfcg-activities.xml": 37
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "sfcg-activities.xml": 127
+    },
+    "GBP": {
+      "sfcg-activities.xml": 32
+    }
+  }
+}

@@ -1,0 +1,743 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "irc_inc-activities.xml": 45
+    },
+    "USD": {
+      "irc_inc-activities.xml": 62
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "irc_inc-activities.xml": 1048
+    },
+    "fr": {
+      "irc_inc-activities.xml": 4
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "irc_inc-activities.xml": 109
+    },
+    "3": {
+      "irc_inc-activities.xml": 74
+    },
+    "4": {
+      "irc_inc-activities.xml": 32
+    },
+    "1": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "irc_inc-activities.xml": 2
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "irc_inc-activities.xml": 53
+    },
+    "4": {
+      "irc_inc-activities.xml": 39
+    },
+    "3": {
+      "irc_inc-activities.xml": 15
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "irc_inc-activities.xml": 103
+    },
+    "2": {
+      "irc_inc-activities.xml": 150
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "irc_inc-activities.xml": 156
+    },
+    "2": {
+      "irc_inc-activities.xml": 81
+    }
+  },
+  ".//budget/value/@currency": {
+    "USD": {
+      "irc_inc-activities.xml": 32
+    },
+    "GBP": {
+      "irc_inc-activities.xml": 192
+    },
+    "SEK": {
+      "irc_inc-activities.xml": 5
+    },
+    "DKK": {
+      "irc_inc-activities.xml": 2
+    },
+    "NOK": {
+      "irc_inc-activities.xml": 3
+    },
+    "EUR": {
+      "irc_inc-activities.xml": 6
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "irc_inc-activities.xml": 75
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "irc_inc-activities.xml": 58
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "A01": {
+      "irc_inc-activities.xml": 73
+    },
+    "C01": {
+      "irc_inc-activities.xml": 24
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "irc_inc-activities.xml": 97
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "irc_inc-activities.xml": 96
+    },
+    "30": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "irc_inc-activities.xml": 96
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "irc_inc-activities.xml": 107
+    },
+    "4": {
+      "irc_inc-activities.xml": 1
+    },
+    "2": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "irc_inc-activities.xml": 173
+    },
+    "application/vnd.fsc.weblaunch": {
+      "irc_inc-activities.xml": 6
+    },
+    "application/msword": {
+      "irc_inc-activities.xml": 6
+    },
+    "application/vnd.ms-word.document.macroEnabled.12": {
+      "irc_inc-activities.xml": 3
+    },
+    "application/vnd.ms-excel.sheet.macroEnabled.12": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "B01": {
+      "irc_inc-activities.xml": 143
+    },
+    "A07": {
+      "irc_inc-activities.xml": 14
+    },
+    "A08": {
+      "irc_inc-activities.xml": 31
+    },
+    "A12": {
+      "irc_inc-activities.xml": 7
+    },
+    "A02": {
+      "irc_inc-activities.xml": 6
+    },
+    "A06": {
+      "irc_inc-activities.xml": 6
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "irc_inc-activities.xml": 154
+    }
+  },
+  ".//humanitarian-scope/@type": {
+    "1": {
+      "irc_inc-activities.xml": 6
+    },
+    "2": {
+      "irc_inc-activities.xml": 8
+    }
+  },
+  ".//humanitarian-scope/@vocabulary": {
+    "1-2": {
+      "irc_inc-activities.xml": 6
+    },
+    "2-1": {
+      "irc_inc-activities.xml": 8
+    }
+  },
+  ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
+    "OT-2011-000025-SYR": {
+      "irc_inc-activities.xml": 2
+    },
+    "CE-2014-000105-LBN": {
+      "irc_inc-activities.xml": 1
+    },
+    "OT-2014-000138-JOR": {
+      "irc_inc-activities.xml": 2
+    },
+    "OT-2016-000069-IRQ": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
+    "HSYR17": {
+      "irc_inc-activities.xml": 1
+    },
+    "RSYR17": {
+      "irc_inc-activities.xml": 4
+    },
+    "HIRQ17": {
+      "irc_inc-activities.xml": 1
+    },
+    "HCMR18": {
+      "irc_inc-activities.xml": 1
+    },
+    "HTCD18": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "irc_inc-activities.xml": 8
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "irc_inc-activities.xml": 8
+    }
+  },
+  ".//other-identifier/@type": {
+    "A9": {
+      "irc_inc-activities.xml": 6
+    },
+    "B9": {
+      "irc_inc-activities.xml": 1
+    },
+    "A1": {
+      "irc_inc-activities.xml": 2
+    }
+  },
+  ".//participating-org/@crs-channel-code": {
+    "21000": {
+      "irc_inc-activities.xml": 3
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "irc_inc-activities.xml": 212
+    },
+    "1": {
+      "irc_inc-activities.xml": 111
+    },
+    "2": {
+      "irc_inc-activities.xml": 103
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "irc_inc-activities.xml": 336
+    },
+    "10": {
+      "irc_inc-activities.xml": 21
+    },
+    "22": {
+      "irc_inc-activities.xml": 31
+    },
+    "23": {
+      "irc_inc-activities.xml": 15
+    },
+    "80": {
+      "irc_inc-activities.xml": 11
+    },
+    "70": {
+      "irc_inc-activities.xml": 4
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "irc_inc-activities.xml": 1
+    },
+    "2": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "irc_inc-activities.xml": 3
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "irc_inc-activities.xml": 2
+    },
+    "9": {
+      "irc_inc-activities.xml": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "SL": {
+      "irc_inc-activities.xml": 9
+    },
+    "JO": {
+      "irc_inc-activities.xml": 8
+    },
+    "LB": {
+      "irc_inc-activities.xml": 6
+    },
+    "SY": {
+      "irc_inc-activities.xml": 5
+    },
+    "PK": {
+      "irc_inc-activities.xml": 44
+    },
+    "AF": {
+      "irc_inc-activities.xml": 3
+    },
+    "IQ": {
+      "irc_inc-activities.xml": 4
+    },
+    "TH": {
+      "irc_inc-activities.xml": 3
+    },
+    "SO": {
+      "irc_inc-activities.xml": 13
+    },
+    "NE": {
+      "irc_inc-activities.xml": 3
+    },
+    "CD": {
+      "irc_inc-activities.xml": 12
+    },
+    "KE": {
+      "irc_inc-activities.xml": 4
+    },
+    "SS": {
+      "irc_inc-activities.xml": 14
+    },
+    "TZ": {
+      "irc_inc-activities.xml": 5
+    },
+    "NG": {
+      "irc_inc-activities.xml": 6
+    },
+    "NP": {
+      "irc_inc-activities.xml": 1
+    },
+    "ET": {
+      "irc_inc-activities.xml": 6
+    },
+    "BI": {
+      "irc_inc-activities.xml": 3
+    },
+    "UG": {
+      "irc_inc-activities.xml": 4
+    },
+    "RS": {
+      "irc_inc-activities.xml": 1
+    },
+    "GR": {
+      "irc_inc-activities.xml": 1
+    },
+    "LY": {
+      "irc_inc-activities.xml": 2
+    },
+    "CM": {
+      "irc_inc-activities.xml": 2
+    },
+    "TD": {
+      "irc_inc-activities.xml": 2
+    },
+    "GB": {
+      "irc_inc-activities.xml": 1
+    },
+    "CF": {
+      "irc_inc-activities.xml": 1
+    },
+    "ML": {
+      "irc_inc-activities.xml": 1
+    },
+    "YE": {
+      "irc_inc-activities.xml": 1
+    },
+    "ZW": {
+      "irc_inc-activities.xml": 1
+    },
+    "MM": {
+      "irc_inc-activities.xml": 1
+    },
+    "BF": {
+      "irc_inc-activities.xml": 1
+    },
+    "BD": {
+      "irc_inc-activities.xml": 2
+    },
+    "US": {
+      "irc_inc-activities.xml": 1
+    },
+    "UA": {
+      "irc_inc-activities.xml": 1
+    },
+    "PL": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "irc_inc-activities.xml": 13
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "irc_inc-activities.xml": 10
+    },
+    "589": {
+      "irc_inc-activities.xml": 2
+    },
+    "298": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "irc_inc-activities.xml": 107
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "irc_inc-activities.xml": 9
+    },
+    "1": {
+      "irc_inc-activities.xml": 21
+    },
+    "3": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//result/document-link/@format": {
+    "application/pdf": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//result/document-link/category/@code": {
+    "A08": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "2": {
+      "irc_inc-activities.xml": 39
+    },
+    "1": {
+      "irc_inc-activities.xml": 27
+    },
+    "5": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "irc_inc-activities.xml": 227
+    },
+    "2": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12250": {
+      "irc_inc-activities.xml": 11
+    },
+    "11110": {
+      "irc_inc-activities.xml": 6
+    },
+    "14030": {
+      "irc_inc-activities.xml": 7
+    },
+    "15180": {
+      "irc_inc-activities.xml": 27
+    },
+    "12220": {
+      "irc_inc-activities.xml": 11
+    },
+    "15160": {
+      "irc_inc-activities.xml": 16
+    },
+    "72010": {
+      "irc_inc-activities.xml": 12
+    },
+    "32130": {
+      "irc_inc-activities.xml": 3
+    },
+    "15130": {
+      "irc_inc-activities.xml": 3
+    },
+    "43082": {
+      "irc_inc-activities.xml": 2
+    },
+    "16010": {
+      "irc_inc-activities.xml": 2
+    },
+    "11182": {
+      "irc_inc-activities.xml": 3
+    },
+    "73010": {
+      "irc_inc-activities.xml": 6
+    },
+    "31120": {
+      "irc_inc-activities.xml": 2
+    },
+    "12240": {
+      "irc_inc-activities.xml": 8
+    },
+    "13020": {
+      "irc_inc-activities.xml": 16
+    },
+    "11130": {
+      "irc_inc-activities.xml": 1
+    },
+    "11231": {
+      "irc_inc-activities.xml": 2
+    },
+    "15150": {
+      "irc_inc-activities.xml": 2
+    },
+    "11220": {
+      "irc_inc-activities.xml": 3
+    },
+    "12110": {
+      "irc_inc-activities.xml": 6
+    },
+    "12182": {
+      "irc_inc-activities.xml": 4
+    },
+    "99820": {
+      "irc_inc-activities.xml": 1
+    },
+    "72040": {
+      "irc_inc-activities.xml": 1
+    },
+    "12281": {
+      "irc_inc-activities.xml": 1
+    },
+    "12191": {
+      "irc_inc-activities.xml": 10
+    },
+    "72050": {
+      "irc_inc-activities.xml": 4
+    },
+    "15131": {
+      "irc_inc-activities.xml": 2
+    },
+    "99810": {
+      "irc_inc-activities.xml": 5
+    },
+    "12262": {
+      "irc_inc-activities.xml": 7
+    },
+    "11320": {
+      "irc_inc-activities.xml": 2
+    },
+    "11330": {
+      "irc_inc-activities.xml": 2
+    },
+    "52010": {
+      "irc_inc-activities.xml": 1
+    },
+    "16020": {
+      "irc_inc-activities.xml": 4
+    },
+    "15164": {
+      "irc_inc-activities.xml": 3
+    },
+    "13040": {
+      "irc_inc-activities.xml": 5
+    },
+    "13030": {
+      "irc_inc-activities.xml": 7
+    },
+    "11120": {
+      "irc_inc-activities.xml": 2
+    },
+    "32182": {
+      "irc_inc-activities.xml": 1
+    },
+    "74010": {
+      "irc_inc-activities.xml": 1
+    },
+    "31130": {
+      "irc_inc-activities.xml": 1
+    },
+    "15220": {
+      "irc_inc-activities.xml": 1
+    },
+    "43010": {
+      "irc_inc-activities.xml": 2
+    },
+    "12340": {
+      "irc_inc-activities.xml": 1
+    },
+    "11321": {
+      "irc_inc-activities.xml": 1
+    },
+    "16050": {
+      "irc_inc-activities.xml": 2
+    },
+    "14020": {
+      "irc_inc-activities.xml": 1
+    },
+    "15114": {
+      "irc_inc-activities.xml": 1
+    },
+    "12230": {
+      "irc_inc-activities.xml": 1
+    },
+    "41082": {
+      "irc_inc-activities.xml": 1
+    },
+    "14022": {
+      "irc_inc-activities.xml": 1
+    },
+    "24050": {
+      "irc_inc-activities.xml": 1
+    },
+    "31161": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "111": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "422": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "21": {
+      "irc_inc-activities.xml": 2120
+    },
+    "11": {
+      "irc_inc-activities.xml": 2
+    },
+    "10": {
+      "irc_inc-activities.xml": 15
+    },
+    "22": {
+      "irc_inc-activities.xml": 7
+    },
+    "70": {
+      "irc_inc-activities.xml": 16
+    },
+    "40": {
+      "irc_inc-activities.xml": 1
+    },
+    "80": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "irc_inc-activities.xml": 992
+    },
+    "22": {
+      "irc_inc-activities.xml": 197
+    },
+    "23": {
+      "irc_inc-activities.xml": 41
+    },
+    "24": {
+      "irc_inc-activities.xml": 3
+    },
+    "80": {
+      "irc_inc-activities.xml": 46
+    },
+    "70": {
+      "irc_inc-activities.xml": 3
+    },
+    "90": {
+      "irc_inc-activities.xml": 1
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "PK": {
+      "irc_inc-activities.xml": 40
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": {
+      "irc_inc-activities.xml": 754
+    },
+    "4": {
+      "irc_inc-activities.xml": 779
+    },
+    "1": {
+      "irc_inc-activities.xml": 586
+    },
+    "2": {
+      "irc_inc-activities.xml": 68
+    },
+    "7": {
+      "irc_inc-activities.xml": 1
+    },
+    "11": {
+      "irc_inc-activities.xml": 22
+    }
+  },
+  ".//transaction/value/@currency": {
+    "USD": {
+      "irc_inc-activities.xml": 1705
+    },
+    "GBP": {
+      "irc_inc-activities.xml": 171
+    },
+    "SEK": {
+      "irc_inc-activities.xml": 2
+    },
+    "DKK": {
+      "irc_inc-activities.xml": 1
+    },
+    "NOK": {
+      "irc_inc-activities.xml": 1
+    },
+    "EUR": {
+      "irc_inc-activities.xml": 4
+    }
+  }
+}

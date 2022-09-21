@@ -1,0 +1,274 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "pacja-activities.xml": {
+        "EUR": 10
+      }
+    },
+    ".//activity-date/@type": {
+      "pacja-activities.xml": {
+        "2": 10,
+        "3": 10
+      }
+    },
+    ".//activity-status/@code": {
+      "pacja-activities.xml": {
+        "2": 10
+      }
+    },
+    ".//budget/@status": {
+      "pacja-activities.xml": {
+        "2": 15
+      }
+    },
+    ".//budget/@type": {
+      "pacja-activities.xml": {
+        "1": 15
+      }
+    },
+    ".//budget/value/@currency": {
+      "pacja-activities.xml": {
+        "EUR": 15
+      }
+    },
+    ".//contact-info/@type": {
+      "pacja-activities.xml": {
+        "2": 10
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pacja-activities.xml": {
+        "C01": 10
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "pacja-activities.xml": {
+        "1": 10
+      }
+    },
+    ".//default-finance-type/@code": {
+      "pacja-activities.xml": {
+        "110": 10
+      }
+    },
+    ".//default-flow-type/@code": {
+      "pacja-activities.xml": {
+        "10": 10
+      }
+    },
+    ".//default-tied-status/@code": {
+      "pacja-activities.xml": {
+        "5": 10
+      }
+    },
+    ".//description/@type": {
+      "pacja-activities.xml": {
+        "1": 10,
+        "3": 10
+      }
+    },
+    ".//document-link/@format": {
+      "pacja-activities.xml": {
+        "application/pkcs7-mime": 2
+      }
+    },
+    ".//document-link/category/@code": {
+      "pacja-activities.xml": {
+        "B01": 1,
+        "B10": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "pacja-activities.xml": {
+        "en": 2
+      }
+    },
+    ".//participating-org/@crs-channel-code": {
+      "pacja-activities.xml": {
+        "21000": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "pacja-activities.xml": {
+        "2": 3,
+        "4": 3,
+        "1": 10
+      }
+    },
+    ".//participating-org/@type": {
+      "pacja-activities.xml": {
+        "21": 3,
+        "23": 12,
+        "10": 1
+      }
+    },
+    ".//planned-disbursement/@type": {
+      "pacja-activities.xml": {
+        "1": 5
+      }
+    },
+    ".//planned-disbursement/provider-org/@type": {
+      "pacja-activities.xml": {
+        "21": 5
+      }
+    },
+    ".//planned-disbursement/receiver-org/@type": {
+      "pacja-activities.xml": {
+        "21": 5
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "pacja-activities.xml": {
+        "EUR": 5
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pacja-activities.xml": {
+        "7": 10
+      }
+    },
+    ".//policy-marker/@significance": {
+      "pacja-activities.xml": {
+        "3": 10
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "pacja-activities.xml": {
+        "1": 10
+      }
+    },
+    ".//recipient-country/@code": {
+      "pacja-activities.xml": {
+        "KE": 3,
+        "ZA": 3,
+        "MZ": 3,
+        "NG": 3,
+        "ET": 3,
+        "BF": 3,
+        "SO": 3,
+        "SN": 3
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pacja-activities.xml": {
+        "298": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "pacja-activities.xml": {
+        "1": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "pacja-activities.xml": {
+        "1": 4,
+        "2": 6
+      }
+    },
+    ".//reporting-org/@type": {
+      "pacja-activities.xml": {
+        "23": 10
+      }
+    },
+    ".//result/@type": {
+      "pacja-activities.xml": {
+        "3": 16,
+        "2": 24
+      }
+    },
+    ".//result/indicator/@measure": {
+      "pacja-activities.xml": {
+        "1": 40
+      }
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "pacja-activities.xml": {
+        "99": 40
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pacja-activities.xml": {
+        "15162": 13,
+        "99810": 9
+      }
+    },
+    ".//sector/@vocabulary": {
+      "pacja-activities.xml": {
+        "1": 22
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pacja-activities.xml": {
+        "C01": 10
+      }
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "pacja-activities.xml": {
+        "1": 10
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "pacja-activities.xml": {
+        "2": 13
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "pacja-activities.xml": {
+        "110": 10
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "pacja-activities.xml": {
+        "10": 10
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "pacja-activities.xml": {
+        "21": 25,
+        "10": 2,
+        "24": 14
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "pacja-activities.xml": {
+        "21": 13,
+        "10": 1
+      }
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pacja-activities.xml": {
+        "15162": 13
+      }
+    },
+    ".//transaction/sector/@vocabulary": {
+      "pacja-activities.xml": {
+        "1": 13
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "pacja-activities.xml": {
+        "5": 30
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "pacja-activities.xml": {
+        "3": 5,
+        "2": 5,
+        "1": 11,
+        "11": 10,
+        "4": 11
+      }
+    },
+    ".//transaction/value/@currency": {
+      "pacja-activities.xml": {
+        "EUR": 42
+      }
+    },
+    ".//@xml:lang": {
+      "pacja-activities.xml": {
+        "en": 416,
+        "fr": 2
+      }
+    }
+  }
+}

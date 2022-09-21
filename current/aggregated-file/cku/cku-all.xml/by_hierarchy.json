@@ -1,0 +1,528 @@
+{
+  "1": {
+    "activities": 692,
+    "elements": {
+      "iati-activity": 692,
+      "iati-activity/iati-identifier": 692,
+      "iati-activity/reporting-org": 692,
+      "iati-activity/reporting-org/narrative": 692,
+      "iati-activity/reporting-org/@ref": 692,
+      "iati-activity/reporting-org/@type": 692,
+      "iati-activity/title": 692,
+      "iati-activity/title/narrative": 692,
+      "iati-activity/description": 692,
+      "iati-activity/description/narrative": 692,
+      "iati-activity/description/@type": 692,
+      "iati-activity/participating-org": 692,
+      "iati-activity/participating-org/@{http://www.w3.org/XML/1998/namespace}lang": 692,
+      "iati-activity/participating-org/@type": 692,
+      "iati-activity/participating-org/@role": 692,
+      "iati-activity/participating-org/@ref": 692,
+      "iati-activity/participating-org/@crs-channel-code": 692,
+      "iati-activity/participating-org/@activity-id": 692,
+      "iati-activity/activity-status": 692,
+      "iati-activity/activity-status/@code": 692,
+      "iati-activity/activity-date": 692,
+      "iati-activity/activity-date/@type": 692,
+      "iati-activity/activity-date/@iso-date": 692,
+      "iati-activity/recipient-country": 691,
+      "iati-activity/recipient-country/@code": 691,
+      "iati-activity/sector": 692,
+      "iati-activity/sector/narrative": 692,
+      "iati-activity/sector/@vocabulary": 692,
+      "iati-activity/sector/@code": 692,
+      "iati-activity/budget": 692,
+      "iati-activity/budget/period-start": 692,
+      "iati-activity/budget/period-start/@iso-date": 692,
+      "iati-activity/budget/period-end": 692,
+      "iati-activity/budget/period-end/@iso-date": 692,
+      "iati-activity/budget/value": 692,
+      "iati-activity/budget/value/@value-date": 692,
+      "iati-activity/budget/value/@currency": 692,
+      "iati-activity/budget/@type": 692,
+      "iati-activity/budget/@status": 692,
+      "iati-activity/transaction": 640,
+      "iati-activity/transaction/transaction-type": 640,
+      "iati-activity/transaction/transaction-type/@code": 640,
+      "iati-activity/transaction/transaction-date": 640,
+      "iati-activity/transaction/transaction-date/@iso-date": 640,
+      "iati-activity/transaction/value": 640,
+      "iati-activity/transaction/value/@currency": 640,
+      "iati-activity/transaction/value/@value-date": 640,
+      "iati-activity/transaction/description": 640,
+      "iati-activity/transaction/description/narrative": 640,
+      "iati-activity/transaction/provider-org": 640,
+      "iati-activity/transaction/provider-org/narrative": 640,
+      "iati-activity/transaction/provider-org/@provider-activity-id": 640,
+      "iati-activity/transaction/provider-org/@ref": 640,
+      "iati-activity/transaction/provider-org/@type": 640,
+      "iati-activity/transaction/receiver-org": 640,
+      "iati-activity/transaction/receiver-org/@type": 640,
+      "iati-activity/transaction/receiver-org/@ref": 563,
+      "iati-activity/related-activity": 692,
+      "iati-activity/related-activity/@ref": 692,
+      "iati-activity/related-activity/@type": 692,
+      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 692,
+      "iati-activity/@default-currency": 692,
+      "iati-activity/@hierarchy": 692
+    },
+    "elements_total": {
+      "iati-activity": 692,
+      "iati-activity/iati-identifier": 692,
+      "iati-activity/reporting-org": 692,
+      "iati-activity/reporting-org/narrative": 692,
+      "iati-activity/reporting-org/@ref": 692,
+      "iati-activity/reporting-org/@type": 692,
+      "iati-activity/title": 692,
+      "iati-activity/title/narrative": 692,
+      "iati-activity/description": 692,
+      "iati-activity/description/narrative": 692,
+      "iati-activity/description/@type": 692,
+      "iati-activity/participating-org": 2076,
+      "iati-activity/participating-org/@{http://www.w3.org/XML/1998/namespace}lang": 2076,
+      "iati-activity/participating-org/@type": 2076,
+      "iati-activity/participating-org/@role": 2076,
+      "iati-activity/participating-org/@ref": 1997,
+      "iati-activity/participating-org/@crs-channel-code": 2076,
+      "iati-activity/participating-org/@activity-id": 1384,
+      "iati-activity/activity-status": 692,
+      "iati-activity/activity-status/@code": 692,
+      "iati-activity/activity-date": 2768,
+      "iati-activity/activity-date/@type": 2768,
+      "iati-activity/activity-date/@iso-date": 2768,
+      "iati-activity/recipient-country": 691,
+      "iati-activity/recipient-country/@code": 691,
+      "iati-activity/sector": 1384,
+      "iati-activity/sector/narrative": 1384,
+      "iati-activity/sector/@vocabulary": 1384,
+      "iati-activity/sector/@code": 1384,
+      "iati-activity/budget": 1369,
+      "iati-activity/budget/period-start": 1369,
+      "iati-activity/budget/period-start/@iso-date": 1369,
+      "iati-activity/budget/period-end": 1369,
+      "iati-activity/budget/period-end/@iso-date": 1369,
+      "iati-activity/budget/value": 1369,
+      "iati-activity/budget/value/@value-date": 1369,
+      "iati-activity/budget/value/@currency": 1369,
+      "iati-activity/budget/@type": 1369,
+      "iati-activity/budget/@status": 1369,
+      "iati-activity/transaction": 2068,
+      "iati-activity/transaction/transaction-type": 2068,
+      "iati-activity/transaction/transaction-type/@code": 2068,
+      "iati-activity/transaction/transaction-date": 2068,
+      "iati-activity/transaction/transaction-date/@iso-date": 2068,
+      "iati-activity/transaction/value": 2068,
+      "iati-activity/transaction/value/@currency": 2068,
+      "iati-activity/transaction/value/@value-date": 2068,
+      "iati-activity/transaction/description": 2068,
+      "iati-activity/transaction/description/narrative": 2068,
+      "iati-activity/transaction/provider-org": 2068,
+      "iati-activity/transaction/provider-org/narrative": 2068,
+      "iati-activity/transaction/provider-org/@provider-activity-id": 2068,
+      "iati-activity/transaction/provider-org/@ref": 2068,
+      "iati-activity/transaction/provider-org/@type": 2068,
+      "iati-activity/transaction/receiver-org": 2068,
+      "iati-activity/transaction/receiver-org/@type": 2068,
+      "iati-activity/transaction/receiver-org/@ref": 1810,
+      "iati-activity/related-activity": 692,
+      "iati-activity/related-activity/@ref": 692,
+      "iati-activity/related-activity/@type": 692,
+      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 692,
+      "iati-activity/@default-currency": 692,
+      "iati-activity/@hierarchy": 692
+    },
+    "forwardlooking_currency_year": {
+      "2009": {
+        "DKK": 68753.0
+      },
+      "2010": {
+        "DKK": 204967.0
+      },
+      "2011": {
+        "DKK": 204967.0
+      },
+      "2014": {
+        "DKK": 9439997.0
+      },
+      "2015": {
+        "DKK": 16816057.0
+      },
+      "2016": {
+        "DKK": 19703668.0
+      },
+      "1920": {
+        "DKK": 269.0
+      },
+      "1921": {
+        "DKK": 646.0
+      },
+      "1922": {
+        "DKK": 646.0
+      },
+      "1923": {
+        "DKK": 646.0
+      },
+      "1924": {
+        "DKK": 646.0
+      },
+      "1925": {
+        "DKK": 646.0
+      },
+      "1926": {
+        "DKK": 646.0
+      },
+      "1927": {
+        "DKK": 646.0
+      },
+      "1928": {
+        "DKK": 646.0
+      },
+      "1929": {
+        "DKK": 646.0
+      },
+      "1930": {
+        "DKK": 646.0
+      },
+      "1931": {
+        "DKK": 646.0
+      },
+      "1932": {
+        "DKK": 646.0
+      },
+      "1933": {
+        "DKK": 646.0
+      },
+      "1934": {
+        "DKK": 646.0
+      },
+      "1935": {
+        "DKK": 646.0
+      },
+      "1936": {
+        "DKK": 646.0
+      },
+      "1937": {
+        "DKK": 646.0
+      },
+      "1938": {
+        "DKK": 646.0
+      },
+      "1939": {
+        "DKK": 646.0
+      },
+      "1940": {
+        "DKK": 646.0
+      },
+      "1941": {
+        "DKK": 646.0
+      },
+      "1942": {
+        "DKK": 646.0
+      },
+      "1943": {
+        "DKK": 646.0
+      },
+      "1944": {
+        "DKK": 646.0
+      },
+      "1945": {
+        "DKK": 646.0
+      },
+      "1946": {
+        "DKK": 646.0
+      },
+      "1947": {
+        "DKK": 646.0
+      },
+      "1948": {
+        "DKK": 646.0
+      },
+      "1949": {
+        "DKK": 646.0
+      },
+      "1950": {
+        "DKK": 646.0
+      },
+      "1951": {
+        "DKK": 646.0
+      },
+      "1952": {
+        "DKK": 646.0
+      },
+      "1953": {
+        "DKK": 646.0
+      },
+      "1954": {
+        "DKK": 646.0
+      },
+      "1955": {
+        "DKK": 646.0
+      },
+      "1956": {
+        "DKK": 646.0
+      },
+      "1957": {
+        "DKK": 646.0
+      },
+      "1958": {
+        "DKK": 646.0
+      },
+      "1959": {
+        "DKK": 646.0
+      },
+      "1960": {
+        "DKK": 646.0
+      },
+      "1961": {
+        "DKK": 646.0
+      },
+      "1962": {
+        "DKK": 646.0
+      },
+      "1963": {
+        "DKK": 646.0
+      },
+      "1964": {
+        "DKK": 646.0
+      },
+      "1965": {
+        "DKK": 646.0
+      },
+      "1966": {
+        "DKK": 646.0
+      },
+      "1967": {
+        "DKK": 646.0
+      },
+      "1968": {
+        "DKK": 646.0
+      },
+      "1969": {
+        "DKK": 646.0
+      },
+      "1970": {
+        "DKK": 646.0
+      },
+      "1971": {
+        "DKK": 646.0
+      },
+      "1972": {
+        "DKK": 646.0
+      },
+      "1973": {
+        "DKK": 646.0
+      },
+      "1974": {
+        "DKK": 646.0
+      },
+      "1975": {
+        "DKK": 646.0
+      },
+      "1976": {
+        "DKK": 646.0
+      },
+      "1977": {
+        "DKK": 646.0
+      },
+      "1978": {
+        "DKK": 646.0
+      },
+      "1979": {
+        "DKK": 646.0
+      },
+      "1980": {
+        "DKK": 646.0
+      },
+      "1981": {
+        "DKK": 646.0
+      },
+      "1982": {
+        "DKK": 646.0
+      },
+      "1983": {
+        "DKK": 646.0
+      },
+      "1984": {
+        "DKK": 646.0
+      },
+      "1985": {
+        "DKK": 646.0
+      },
+      "1986": {
+        "DKK": 646.0
+      },
+      "1987": {
+        "DKK": 646.0
+      },
+      "1988": {
+        "DKK": 646.0
+      },
+      "1989": {
+        "DKK": 646.0
+      },
+      "1990": {
+        "DKK": 646.0
+      },
+      "1991": {
+        "DKK": 646.0
+      },
+      "1992": {
+        "DKK": 646.0
+      },
+      "1993": {
+        "DKK": 646.0
+      },
+      "1994": {
+        "DKK": 646.0
+      },
+      "1995": {
+        "DKK": 646.0
+      },
+      "1996": {
+        "DKK": 646.0
+      },
+      "1997": {
+        "DKK": 646.0
+      },
+      "1998": {
+        "DKK": 646.0
+      },
+      "1999": {
+        "DKK": 646.0
+      },
+      "2000": {
+        "DKK": 646.0
+      },
+      "2001": {
+        "DKK": 646.0
+      },
+      "2002": {
+        "DKK": 646.0
+      },
+      "2003": {
+        "DKK": 646.0
+      },
+      "2004": {
+        "DKK": 646.0
+      },
+      "2005": {
+        "DKK": 646.0
+      },
+      "2006": {
+        "DKK": 646.0
+      },
+      "2007": {
+        "DKK": 646.0
+      },
+      "2008": {
+        "DKK": 646.0
+      },
+      "2012": {
+        "DKK": 494846.0
+      },
+      "2013": {
+        "DKK": 3939448.0
+      },
+      "2017": {
+        "DKK": 17108774.0
+      },
+      "2018": {
+        "DKK": 20942485.0
+      },
+      "2019": {
+        "DKK": 23416322.0
+      },
+      "2020": {
+        "DKK": 29598003.0
+      },
+      "2021": {
+        "DKK": 20878740.0
+      },
+      "2022": {
+        "DKK": 9875184.0
+      },
+      "2023": {
+        "DKK": 1441075.0
+      }
+    },
+    "forwardlooking_activities_current": {
+      "2022": 11,
+      "2023": 11,
+      "2024": 1
+    },
+    "forwardlooking_activities_with_budgets": {
+      "2022": 11,
+      "2023": 3,
+      "2024": 0
+    },
+    "forwardlooking_activities_with_budget_not_provided": {
+      "2022": 0,
+      "2023": 0,
+      "2024": 0
+    },
+    "comprehensiveness": {
+      "version": 67,
+      "reporting-org": 67,
+      "iati-identifier": 67,
+      "participating-org": 67,
+      "title": 67,
+      "description": 67,
+      "activity-status": 67,
+      "activity-date": 67,
+      "sector": 67,
+      "country_or_region": 67,
+      "transaction_commitment": 0,
+      "transaction_spend": 62,
+      "transaction_currency": 63,
+      "transaction_traceability": 67,
+      "budget": 67,
+      "budget_not_provided": 0,
+      "contact-info": 0,
+      "location": 0,
+      "location_point_pos": 0,
+      "sector_dac": 67,
+      "capital-spend": 0,
+      "document-link": 0,
+      "activity-website": 0,
+      "recipient_language": 0,
+      "conditions_attached": 0,
+      "result_indicator": 0,
+      "aid_type": 0
+    },
+    "comprehensiveness_with_validation": {
+      "version": 67,
+      "reporting-org": 67,
+      "iati-identifier": 67,
+      "participating-org": 67,
+      "title": 67,
+      "description": 67,
+      "activity-status": 67,
+      "activity-date": 67,
+      "sector": 0,
+      "country_or_region": 67,
+      "transaction_commitment": 0,
+      "transaction_spend": 62,
+      "transaction_currency": 67,
+      "transaction_traceability": 67,
+      "budget": 67,
+      "budget_not_provided": 0,
+      "contact-info": 0,
+      "location": 0,
+      "location_point_pos": 0,
+      "sector_dac": 67,
+      "capital-spend": 0,
+      "document-link": 0,
+      "activity-website": 0,
+      "recipient_language": 0,
+      "conditions_attached": 0,
+      "result_indicator": 0,
+      "aid_type": 0
+    },
+    "comprehensiveness_denominators": {
+      "recipient_language": 67,
+      "transaction_spend": 63,
+      "transaction_traceability": 67
+    },
+    "comprehensiveness_denominator_default": 67
+  }
+}

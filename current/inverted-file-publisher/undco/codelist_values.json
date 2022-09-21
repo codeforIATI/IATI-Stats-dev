@@ -1,0 +1,964 @@
+{
+  ".//@default-currency": {
+    "USD": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "undco-activities.xml": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "undco-activities.xml": 1
+    },
+    "1": {
+      "undco-activities.xml": 1
+    },
+    "3": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "1": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "USD": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B04": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "undco-activities.xml": 1
+    },
+    "2": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "undco-activities.xml": 56
+    },
+    "2": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "undco-activities.xml": 39
+    },
+    "90": {
+      "undco-activities.xml": 18
+    }
+  },
+  ".//recipient-country/@code": {
+    "BH": {
+      "undco-activities.xml": 1
+    },
+    "PE": {
+      "undco-activities.xml": 1
+    },
+    "PH": {
+      "undco-activities.xml": 1
+    },
+    "CG": {
+      "undco-activities.xml": 1
+    },
+    "RW": {
+      "undco-activities.xml": 1
+    },
+    "ST": {
+      "undco-activities.xml": 1
+    },
+    "WS": {
+      "undco-activities.xml": 1
+    },
+    "SA": {
+      "undco-activities.xml": 1
+    },
+    "SN": {
+      "undco-activities.xml": 1
+    },
+    "RS": {
+      "undco-activities.xml": 1
+    },
+    "SL": {
+      "undco-activities.xml": 1
+    },
+    "BD": {
+      "undco-activities.xml": 1
+    },
+    "SO": {
+      "undco-activities.xml": 1
+    },
+    "ZA": {
+      "undco-activities.xml": 1
+    },
+    "SS": {
+      "undco-activities.xml": 1
+    },
+    "LK": {
+      "undco-activities.xml": 1
+    },
+    "SD": {
+      "undco-activities.xml": 1
+    },
+    "SR": {
+      "undco-activities.xml": 1
+    },
+    "SZ": {
+      "undco-activities.xml": 1
+    },
+    "SY": {
+      "undco-activities.xml": 1
+    },
+    "TJ": {
+      "undco-activities.xml": 1
+    },
+    "TZ": {
+      "undco-activities.xml": 1
+    },
+    "BB": {
+      "undco-activities.xml": 1
+    },
+    "TH": {
+      "undco-activities.xml": 1
+    },
+    "TL": {
+      "undco-activities.xml": 1
+    },
+    "TG": {
+      "undco-activities.xml": 1
+    },
+    "TT": {
+      "undco-activities.xml": 1
+    },
+    "TN": {
+      "undco-activities.xml": 1
+    },
+    "TR": {
+      "undco-activities.xml": 1
+    },
+    "TM": {
+      "undco-activities.xml": 1
+    },
+    "UG": {
+      "undco-activities.xml": 1
+    },
+    "UA": {
+      "undco-activities.xml": 1
+    },
+    "UY": {
+      "undco-activities.xml": 1
+    },
+    "BY": {
+      "undco-activities.xml": 1
+    },
+    "AE": {
+      "undco-activities.xml": 1
+    },
+    "UZ": {
+      "undco-activities.xml": 1
+    },
+    "VE": {
+      "undco-activities.xml": 1
+    },
+    "VN": {
+      "undco-activities.xml": 1
+    },
+    "YE": {
+      "undco-activities.xml": 1
+    },
+    "ZM": {
+      "undco-activities.xml": 1
+    },
+    "ZW": {
+      "undco-activities.xml": 1
+    },
+    "BZ": {
+      "undco-activities.xml": 1
+    },
+    "BJ": {
+      "undco-activities.xml": 1
+    },
+    "BT": {
+      "undco-activities.xml": 1
+    },
+    "BO": {
+      "undco-activities.xml": 1
+    },
+    "BA": {
+      "undco-activities.xml": 1
+    },
+    "BW": {
+      "undco-activities.xml": 1
+    },
+    "BR": {
+      "undco-activities.xml": 1
+    },
+    "BF": {
+      "undco-activities.xml": 1
+    },
+    "BI": {
+      "undco-activities.xml": 1
+    },
+    "CV": {
+      "undco-activities.xml": 1
+    },
+    "KH": {
+      "undco-activities.xml": 1
+    },
+    "CM": {
+      "undco-activities.xml": 1
+    },
+    "TD": {
+      "undco-activities.xml": 1
+    },
+    "CL": {
+      "undco-activities.xml": 1
+    },
+    "CN": {
+      "undco-activities.xml": 1
+    },
+    "AL": {
+      "undco-activities.xml": 1
+    },
+    "CO": {
+      "undco-activities.xml": 1
+    },
+    "KM": {
+      "undco-activities.xml": 1
+    },
+    "CR": {
+      "undco-activities.xml": 1
+    },
+    "CI": {
+      "undco-activities.xml": 1
+    },
+    "CF": {
+      "undco-activities.xml": 1
+    },
+    "CU": {
+      "undco-activities.xml": 1
+    },
+    "KP": {
+      "undco-activities.xml": 1
+    },
+    "CD": {
+      "undco-activities.xml": 1
+    },
+    "DJ": {
+      "undco-activities.xml": 1
+    },
+    "DO": {
+      "undco-activities.xml": 1
+    },
+    "DZ": {
+      "undco-activities.xml": 1
+    },
+    "EC": {
+      "undco-activities.xml": 1
+    },
+    "EG": {
+      "undco-activities.xml": 1
+    },
+    "SV": {
+      "undco-activities.xml": 1
+    },
+    "GQ": {
+      "undco-activities.xml": 1
+    },
+    "ER": {
+      "undco-activities.xml": 1
+    },
+    "ET": {
+      "undco-activities.xml": 1
+    },
+    "FJ": {
+      "undco-activities.xml": 1
+    },
+    "MK": {
+      "undco-activities.xml": 1
+    },
+    "GA": {
+      "undco-activities.xml": 1
+    },
+    "GM": {
+      "undco-activities.xml": 1
+    },
+    "AO": {
+      "undco-activities.xml": 1
+    },
+    "GE": {
+      "undco-activities.xml": 1
+    },
+    "GH": {
+      "undco-activities.xml": 1
+    },
+    "GT": {
+      "undco-activities.xml": 1
+    },
+    "GN": {
+      "undco-activities.xml": 1
+    },
+    "GW": {
+      "undco-activities.xml": 1
+    },
+    "GY": {
+      "undco-activities.xml": 1
+    },
+    "HT": {
+      "undco-activities.xml": 1
+    },
+    "HN": {
+      "undco-activities.xml": 1
+    },
+    "IN": {
+      "undco-activities.xml": 1
+    },
+    "ID": {
+      "undco-activities.xml": 1
+    },
+    "AR": {
+      "undco-activities.xml": 1
+    },
+    "IR": {
+      "undco-activities.xml": 1
+    },
+    "IQ": {
+      "undco-activities.xml": 1
+    },
+    "JM": {
+      "undco-activities.xml": 1
+    },
+    "JO": {
+      "undco-activities.xml": 1
+    },
+    "KZ": {
+      "undco-activities.xml": 1
+    },
+    "KE": {
+      "undco-activities.xml": 1
+    },
+    "XK": {
+      "undco-activities.xml": 1
+    },
+    "KW": {
+      "undco-activities.xml": 1
+    },
+    "KG": {
+      "undco-activities.xml": 1
+    },
+    "LA": {
+      "undco-activities.xml": 1
+    },
+    "AM": {
+      "undco-activities.xml": 1
+    },
+    "LB": {
+      "undco-activities.xml": 1
+    },
+    "LS": {
+      "undco-activities.xml": 1
+    },
+    "LR": {
+      "undco-activities.xml": 1
+    },
+    "MU": {
+      "undco-activities.xml": 1
+    },
+    "MX": {
+      "undco-activities.xml": 1
+    },
+    "MD": {
+      "undco-activities.xml": 1
+    },
+    "MN": {
+      "undco-activities.xml": 1
+    },
+    "ME": {
+      "undco-activities.xml": 1
+    },
+    "MA": {
+      "undco-activities.xml": 1
+    },
+    "MZ": {
+      "undco-activities.xml": 1
+    },
+    "MM": {
+      "undco-activities.xml": 1
+    },
+    "NA": {
+      "undco-activities.xml": 1
+    },
+    "AZ": {
+      "undco-activities.xml": 1
+    },
+    "NP": {
+      "undco-activities.xml": 1
+    },
+    "NI": {
+      "undco-activities.xml": 1
+    },
+    "NE": {
+      "undco-activities.xml": 1
+    },
+    "AF": {
+      "undco-activities.xml": 1
+    },
+    "LY": {
+      "undco-activities.xml": 1
+    },
+    "MG": {
+      "undco-activities.xml": 1
+    },
+    "MW": {
+      "undco-activities.xml": 1
+    },
+    "MY": {
+      "undco-activities.xml": 1
+    },
+    "MV": {
+      "undco-activities.xml": 1
+    },
+    "ML": {
+      "undco-activities.xml": 1
+    },
+    "MR": {
+      "undco-activities.xml": 1
+    },
+    "NG": {
+      "undco-activities.xml": 1
+    },
+    "PK": {
+      "undco-activities.xml": 1
+    },
+    "PS": {
+      "undco-activities.xml": 1
+    },
+    "PA": {
+      "undco-activities.xml": 1
+    },
+    "PG": {
+      "undco-activities.xml": 1
+    },
+    "PY": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "undco-activities.xml": 169
+    },
+    "498": {
+      "undco-activities.xml": 2
+    },
+    "298": {
+      "undco-activities.xml": 2
+    },
+    "619": {
+      "undco-activities.xml": 1
+    },
+    "1031": {
+      "undco-activities.xml": 1
+    },
+    "798": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "40": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "43030": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "undco-activities.xml": 151
+    },
+    "90": {
+      "undco-activities.xml": 17
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "BH": {
+      "undco-activities.xml": 1
+    },
+    "PE": {
+      "undco-activities.xml": 1
+    },
+    "PH": {
+      "undco-activities.xml": 1
+    },
+    "CG": {
+      "undco-activities.xml": 1
+    },
+    "RW": {
+      "undco-activities.xml": 1
+    },
+    "ST": {
+      "undco-activities.xml": 1
+    },
+    "WS": {
+      "undco-activities.xml": 1
+    },
+    "SA": {
+      "undco-activities.xml": 1
+    },
+    "SN": {
+      "undco-activities.xml": 1
+    },
+    "RS": {
+      "undco-activities.xml": 1
+    },
+    "SL": {
+      "undco-activities.xml": 1
+    },
+    "BD": {
+      "undco-activities.xml": 1
+    },
+    "SO": {
+      "undco-activities.xml": 1
+    },
+    "ZA": {
+      "undco-activities.xml": 1
+    },
+    "SS": {
+      "undco-activities.xml": 1
+    },
+    "LK": {
+      "undco-activities.xml": 1
+    },
+    "SD": {
+      "undco-activities.xml": 1
+    },
+    "SR": {
+      "undco-activities.xml": 1
+    },
+    "SZ": {
+      "undco-activities.xml": 1
+    },
+    "SY": {
+      "undco-activities.xml": 1
+    },
+    "TJ": {
+      "undco-activities.xml": 1
+    },
+    "TZ": {
+      "undco-activities.xml": 1
+    },
+    "BB": {
+      "undco-activities.xml": 1
+    },
+    "TH": {
+      "undco-activities.xml": 1
+    },
+    "TL": {
+      "undco-activities.xml": 1
+    },
+    "TG": {
+      "undco-activities.xml": 1
+    },
+    "TT": {
+      "undco-activities.xml": 1
+    },
+    "TN": {
+      "undco-activities.xml": 1
+    },
+    "TR": {
+      "undco-activities.xml": 1
+    },
+    "TM": {
+      "undco-activities.xml": 1
+    },
+    "UG": {
+      "undco-activities.xml": 1
+    },
+    "UA": {
+      "undco-activities.xml": 1
+    },
+    "UY": {
+      "undco-activities.xml": 1
+    },
+    "BY": {
+      "undco-activities.xml": 1
+    },
+    "AE": {
+      "undco-activities.xml": 1
+    },
+    "UZ": {
+      "undco-activities.xml": 1
+    },
+    "VE": {
+      "undco-activities.xml": 1
+    },
+    "VN": {
+      "undco-activities.xml": 1
+    },
+    "YE": {
+      "undco-activities.xml": 1
+    },
+    "ZM": {
+      "undco-activities.xml": 1
+    },
+    "ZW": {
+      "undco-activities.xml": 1
+    },
+    "BZ": {
+      "undco-activities.xml": 1
+    },
+    "BJ": {
+      "undco-activities.xml": 1
+    },
+    "BT": {
+      "undco-activities.xml": 1
+    },
+    "BO": {
+      "undco-activities.xml": 1
+    },
+    "BA": {
+      "undco-activities.xml": 1
+    },
+    "BW": {
+      "undco-activities.xml": 1
+    },
+    "BR": {
+      "undco-activities.xml": 1
+    },
+    "BF": {
+      "undco-activities.xml": 1
+    },
+    "BI": {
+      "undco-activities.xml": 1
+    },
+    "CV": {
+      "undco-activities.xml": 1
+    },
+    "KH": {
+      "undco-activities.xml": 1
+    },
+    "CM": {
+      "undco-activities.xml": 1
+    },
+    "TD": {
+      "undco-activities.xml": 1
+    },
+    "CL": {
+      "undco-activities.xml": 1
+    },
+    "CN": {
+      "undco-activities.xml": 1
+    },
+    "AL": {
+      "undco-activities.xml": 1
+    },
+    "CO": {
+      "undco-activities.xml": 1
+    },
+    "KM": {
+      "undco-activities.xml": 1
+    },
+    "CR": {
+      "undco-activities.xml": 1
+    },
+    "CI": {
+      "undco-activities.xml": 1
+    },
+    "CF": {
+      "undco-activities.xml": 1
+    },
+    "CU": {
+      "undco-activities.xml": 1
+    },
+    "KP": {
+      "undco-activities.xml": 1
+    },
+    "CD": {
+      "undco-activities.xml": 1
+    },
+    "DJ": {
+      "undco-activities.xml": 1
+    },
+    "DO": {
+      "undco-activities.xml": 1
+    },
+    "DZ": {
+      "undco-activities.xml": 1
+    },
+    "EC": {
+      "undco-activities.xml": 1
+    },
+    "EG": {
+      "undco-activities.xml": 1
+    },
+    "SV": {
+      "undco-activities.xml": 1
+    },
+    "GQ": {
+      "undco-activities.xml": 1
+    },
+    "ER": {
+      "undco-activities.xml": 1
+    },
+    "ET": {
+      "undco-activities.xml": 1
+    },
+    "FJ": {
+      "undco-activities.xml": 1
+    },
+    "MK": {
+      "undco-activities.xml": 1
+    },
+    "GA": {
+      "undco-activities.xml": 1
+    },
+    "GM": {
+      "undco-activities.xml": 1
+    },
+    "AO": {
+      "undco-activities.xml": 1
+    },
+    "GE": {
+      "undco-activities.xml": 1
+    },
+    "GH": {
+      "undco-activities.xml": 1
+    },
+    "GT": {
+      "undco-activities.xml": 1
+    },
+    "GN": {
+      "undco-activities.xml": 1
+    },
+    "GW": {
+      "undco-activities.xml": 1
+    },
+    "GY": {
+      "undco-activities.xml": 1
+    },
+    "HT": {
+      "undco-activities.xml": 1
+    },
+    "HN": {
+      "undco-activities.xml": 1
+    },
+    "IN": {
+      "undco-activities.xml": 1
+    },
+    "ID": {
+      "undco-activities.xml": 1
+    },
+    "AR": {
+      "undco-activities.xml": 1
+    },
+    "IR": {
+      "undco-activities.xml": 1
+    },
+    "IQ": {
+      "undco-activities.xml": 1
+    },
+    "JM": {
+      "undco-activities.xml": 1
+    },
+    "JO": {
+      "undco-activities.xml": 1
+    },
+    "KZ": {
+      "undco-activities.xml": 1
+    },
+    "KE": {
+      "undco-activities.xml": 1
+    },
+    "XK": {
+      "undco-activities.xml": 1
+    },
+    "KW": {
+      "undco-activities.xml": 1
+    },
+    "KG": {
+      "undco-activities.xml": 1
+    },
+    "LA": {
+      "undco-activities.xml": 1
+    },
+    "AM": {
+      "undco-activities.xml": 1
+    },
+    "LB": {
+      "undco-activities.xml": 1
+    },
+    "LS": {
+      "undco-activities.xml": 1
+    },
+    "LR": {
+      "undco-activities.xml": 1
+    },
+    "MU": {
+      "undco-activities.xml": 1
+    },
+    "MX": {
+      "undco-activities.xml": 1
+    },
+    "MD": {
+      "undco-activities.xml": 1
+    },
+    "MN": {
+      "undco-activities.xml": 1
+    },
+    "ME": {
+      "undco-activities.xml": 1
+    },
+    "MA": {
+      "undco-activities.xml": 1
+    },
+    "MZ": {
+      "undco-activities.xml": 1
+    },
+    "MM": {
+      "undco-activities.xml": 1
+    },
+    "NA": {
+      "undco-activities.xml": 1
+    },
+    "AZ": {
+      "undco-activities.xml": 1
+    },
+    "NP": {
+      "undco-activities.xml": 1
+    },
+    "NI": {
+      "undco-activities.xml": 1
+    },
+    "NE": {
+      "undco-activities.xml": 1
+    },
+    "AF": {
+      "undco-activities.xml": 1
+    },
+    "LY": {
+      "undco-activities.xml": 1
+    },
+    "MG": {
+      "undco-activities.xml": 1
+    },
+    "MW": {
+      "undco-activities.xml": 1
+    },
+    "MY": {
+      "undco-activities.xml": 1
+    },
+    "MV": {
+      "undco-activities.xml": 1
+    },
+    "ML": {
+      "undco-activities.xml": 1
+    },
+    "MR": {
+      "undco-activities.xml": 1
+    },
+    "NG": {
+      "undco-activities.xml": 1
+    },
+    "PK": {
+      "undco-activities.xml": 1
+    },
+    "PS": {
+      "undco-activities.xml": 1
+    },
+    "PA": {
+      "undco-activities.xml": 1
+    },
+    "PG": {
+      "undco-activities.xml": 1
+    },
+    "PY": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "undco-activities.xml": 169
+    },
+    "498": {
+      "undco-activities.xml": 2
+    },
+    "298": {
+      "undco-activities.xml": 2
+    },
+    "619": {
+      "undco-activities.xml": 1
+    },
+    "1031": {
+      "undco-activities.xml": 1
+    },
+    "798": {
+      "undco-activities.xml": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "undco-activities.xml": 85
+    },
+    "4": {
+      "undco-activities.xml": 138
+    },
+    "2": {
+      "undco-activities.xml": 1
+    },
+    "11": {
+      "undco-activities.xml": 83
+    }
+  }
+}

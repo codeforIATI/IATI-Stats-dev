@@ -1,0 +1,120 @@
+{
+  ".//@default-currency": {
+    "USD": 1,
+    "EUR": 1
+  },
+  ".//@xml:lang": {
+    "en": 7
+  },
+  ".//activity-date/@type": {
+    "1": 1,
+    "2": 2,
+    "3": 2
+  },
+  ".//activity-scope/@code": {
+    "4": 1
+  },
+  ".//activity-status/@code": {
+    "2": 2
+  },
+  ".//budget/@status": {
+    "2": 3,
+    "1": 1
+  },
+  ".//budget/@type": {
+    "2": 2,
+    "1": 2
+  },
+  ".//budget/value/@currency": {
+    "USD": 3,
+    "EUR": 1
+  },
+  ".//collaboration-type/@code": {
+    "1": 2
+  },
+  ".//contact-info/@type": {
+    "1": 2
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": 1
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": 1,
+    "B01": 1
+  },
+  ".//default-finance-type/@code": {
+    "110": 2
+  },
+  ".//default-tied-status/@code": {
+    "5": 1
+  },
+  ".//description/@type": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2
+  },
+  ".//document-link/@format": {
+    "image/vnd.sealedmedia.softseal.jpg": 1,
+    "application/vnd.document+json": 1,
+    "application/pdf": 2
+  },
+  ".//document-link/category/@code": {
+    "A02": 1,
+    "A01": 1,
+    "B01": 2
+  },
+  ".//document-link/language/@code": {
+    "en": 2
+  },
+  ".//location/location-reach/@code": {
+    "1": 1
+  },
+  ".//participating-org/@role": {
+    "2": 1,
+    "4": 2
+  },
+  ".//participating-org/@type": {
+    "21": 3
+  },
+  ".//recipient-country/@code": {
+    "PS": 2
+  },
+  ".//related-activity/@type": {
+    "1": 2,
+    "3": 8
+  },
+  ".//reporting-org/@type": {
+    "21": 2
+  },
+  ".//result/@type": {
+    "1": 37,
+    "2": 36
+  },
+  ".//result/indicator/@measure": {
+    "1": 63,
+    "2": 10
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": 21
+  },
+  ".//sector/@vocabulary": {
+    "1": 2
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15250": 2
+  },
+  ".//transaction/provider-org/@type": {
+    "10": 3
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": 3
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 2,
+    "4": 2
+  },
+  ".//transaction/value/@currency": {
+    "USD": 3
+  }
+}

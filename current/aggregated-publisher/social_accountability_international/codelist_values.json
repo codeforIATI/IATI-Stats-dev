@@ -1,0 +1,41 @@
+{
+  ".//@default-currency": {
+    "USD": 1
+  },
+  ".//@xml:lang": {
+    "en": 3
+  },
+  ".//activity-date/@type": {
+    "2": 1
+  },
+  ".//activity-status/@code": {
+    "4": 1
+  },
+  ".//description/@type": {
+    "2": 1
+  },
+  ".//participating-org/@role": {
+    "4": 1
+  },
+  ".//participating-org/@type": {
+    "21": 1
+  },
+  ".//recipient-country/@code": {
+    "US": 1
+  },
+  ".//reporting-org/@type": {
+    "21": 1
+  },
+  ".//sector/@vocabulary": {
+    "1": 1
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "99810": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": 7
+  },
+  ".//transaction/value/@currency": {
+    "USD": 7
+  }
+}

@@ -1,0 +1,114 @@
+{
+  ".//@default-currency": {
+    "EUR": 2
+  },
+  ".//@xml:lang": {
+    "en": 4,
+    "it": 4
+  },
+  ".//activity-date/@type": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 1
+  },
+  ".//activity-status/@code": {
+    "2": 1,
+    "3": 1
+  },
+  ".//collaboration-type/@code": {
+    "1": 2
+  },
+  ".//contact-info/@type": {
+    "1": 2
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "D02": 1,
+    "C01": 1
+  },
+  ".//default-finance-type/@code": {
+    "110": 2
+  },
+  ".//default-flow-type/@code": {
+    "10": 2
+  },
+  ".//default-tied-status/@code": {
+    "5": 2
+  },
+  ".//location/location-reach/@code": {
+    "1": 2
+  },
+  ".//other-identifier/@type": {
+    "A2": 2,
+    "A1": 2
+  },
+  ".//participating-org/@crs-channel-code": {
+    "11001": 3,
+    "47019": 3
+  },
+  ".//participating-org/@role": {
+    "1": 2,
+    "2": 2,
+    "4": 2
+  },
+  ".//participating-org/@type": {
+    "10": 5,
+    "40": 1
+  },
+  ".//policy-marker/@significance": {
+    "0": 11,
+    "1": 6,
+    "2": 1
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": 18
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2,
+    "8": 2,
+    "11": 1,
+    "9": 1
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "189": 2
+  },
+  ".//related-activity/@type": {
+    "3": 1
+  },
+  ".//reporting-org/@type": {
+    "10": 2
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "51010": 1,
+    "32130": 1
+  },
+  ".//tag/@vocabulary": {
+    "2": 2,
+    "3": 2
+  },
+  ".//tag[@vocabulary = '2']/@code": {
+    "1": 1,
+    "8": 1
+  },
+  ".//tag[@vocabulary = '3']/@code": {
+    "1.1": 1,
+    "8.3": 1
+  },
+  ".//transaction/receiver-org/@type": {
+    "10": 4,
+    "40": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 4,
+    "3": 2
+  },
+  ".//transaction/value/@currency": {
+    "EUR": 6
+  }
+}

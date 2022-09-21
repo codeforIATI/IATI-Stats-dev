@@ -1,0 +1,64 @@
+{
+  ".//@default-currency": {
+    "AUD": 10
+  },
+  ".//@xml:lang": {
+    "en": 20
+  },
+  ".//activity-date/@type": {
+    "2": 10,
+    "4": 5,
+    "3": 5
+  },
+  ".//activity-status/@code": {
+    "4": 5,
+    "2": 5
+  },
+  ".//budget/@status": {
+    "1": 10
+  },
+  ".//budget/@type": {
+    "2": 3,
+    "1": 7
+  },
+  ".//budget/value/@currency": {
+    "AUD": 10
+  },
+  ".//contact-info/@type": {
+    "1": 10
+  },
+  ".//description/@type": {
+    "1": 10
+  },
+  ".//participating-org/@role": {
+    "4": 10
+  },
+  ".//participating-org/@type": {
+    "21": 10
+  },
+  ".//recipient-country/@code": {
+    "BD": 10
+  },
+  ".//reporting-org/@type": {
+    "21": 10
+  },
+  ".//sector/@vocabulary": {
+    "1": 6,
+    "2": 4
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "22040": 1,
+    "72010": 2,
+    "15170": 1,
+    "43030": 1,
+    "15150": 1
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "740": 1,
+    "140": 2,
+    "311": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": 21
+  }
+}

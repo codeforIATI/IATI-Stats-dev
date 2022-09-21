@@ -1,0 +1,354 @@
+{
+  ".//@default-currency": {
+    "USD": 131
+  },
+  ".//@xml:lang": {
+    "en": 131,
+    "fr": 524,
+    "ar": 40,
+    "es": 27,
+    "ru": 7,
+    "zh": 3
+  },
+  ".//activity-date/@type": {
+    "1": 131,
+    "3": 131,
+    "2": 131
+  },
+  ".//activity-scope/@code": {
+    "1": 4,
+    "2": 24,
+    "3": 13,
+    "4": 90
+  },
+  ".//activity-status/@code": {
+    "1": 131
+  },
+  ".//budget/@status": {
+    "2": 124,
+    "1": 64
+  },
+  ".//budget/@type": {
+    "2": 123
+  },
+  ".//budget/value/@currency": {
+    "USD": 188
+  },
+  ".//collaboration-type/@code": {
+    "4": 131
+  },
+  ".//contact-info/@type": {
+    "1": 131
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B02": 131
+  },
+  ".//default-finance-type/@code": {
+    "110": 131
+  },
+  ".//default-flow-type/@code": {
+    "10": 131
+  },
+  ".//default-tied-status/@code": {
+    "5": 131
+  },
+  ".//description/@type": {
+    "1": 131,
+    "3": 131
+  },
+  ".//document-link/@format": {
+    "text/html": 797
+  },
+  ".//document-link/category/@code": {
+    "A12": 133,
+    "B02": 3,
+    "B16": 430,
+    "B17": 231
+  },
+  ".//document-link/language/@code": {
+    "en": 762,
+    "ar": 18,
+    "es": 11,
+    "fr": 2,
+    "ru": 4
+  },
+  ".//humanitarian-scope/@type": {
+    "2": 216,
+    "1": 3
+  },
+  ".//humanitarian-scope/@vocabulary": {
+    "99": 153,
+    "2-1": 63,
+    "1-2": 3
+  },
+  ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
+    "CE-2022-000195-UGA": 1,
+    "TC-2022-000184-MOZ": 1,
+    "CE-2022-000216-BFA": 1
+  },
+  ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
+    "RREG22": 6,
+    "HCOL22": 1,
+    "HHND2122": 1,
+    "HHND22": 1,
+    "HSLV2122": 1,
+    "HVEN22": 1,
+    "HAFG22": 1,
+    "RAFG22": 5,
+    "RBGD22": 1,
+    "HMMR22": 1,
+    "HBDI22": 1,
+    "RDRCRRP22": 7,
+    "HETH22": 1,
+    "RSSDRRP22": 5,
+    "HSDN22": 1,
+    "HSOM22": 1,
+    "HSSD22": 1,
+    "RUKRN22": 4,
+    "RSYR22": 6,
+    "FUKR22": 1,
+    "HUKR22": 1,
+    "HIRQ22": 1,
+    "OLBN2122": 1,
+    "HLBY22": 1,
+    "HSYR22": 1,
+    "HYEM22": 1,
+    "HCOD22": 1,
+    "FMOZ22": 1,
+    "HMOZ22": 1,
+    "HBFA22": 1,
+    "HCAF22": 1,
+    "HCMR22": 1,
+    "HMLI22": 1,
+    "HNER22": 1,
+    "HNGA22": 1,
+    "HTCD22": 1
+  },
+  ".//location/exactness/@code": {
+    "1": 558
+  },
+  ".//location/location-class/@code": {
+    "3": 558
+  },
+  ".//location/location-reach/@code": {
+    "1": 558
+  },
+  ".//participating-org/@role": {
+    "4": 131,
+    "2": 131,
+    "1": 2242
+  },
+  ".//participating-org/@type": {
+    "40": 391,
+    "10": 734,
+    "70": 132,
+    "60": 2,
+    "22": 1164,
+    "15": 81
+  },
+  ".//recipient-country/@code": {
+    "AR": 1,
+    "BR": 1,
+    "CA": 1,
+    "CO": 1,
+    "CR": 1,
+    "EC": 1,
+    "GT": 1,
+    "HN": 1,
+    "MX": 1,
+    "PA": 1,
+    "PE": 1,
+    "SV": 1,
+    "US": 1,
+    "VE": 1,
+    "AF": 1,
+    "AU": 1,
+    "BD": 1,
+    "CN": 1,
+    "ID": 1,
+    "IN": 1,
+    "IR": 1,
+    "JP": 1,
+    "KZ": 1,
+    "KR": 1,
+    "LK": 1,
+    "MM": 1,
+    "MY": 1,
+    "NP": 1,
+    "PK": 1,
+    "PH": 1,
+    "TH": 1,
+    "TJ": 1,
+    "BI": 1,
+    "DJ": 1,
+    "ER": 1,
+    "ET": 1,
+    "KE": 1,
+    "RW": 1,
+    "SD": 1,
+    "SO": 1,
+    "SS": 1,
+    "TZ": 1,
+    "UG": 1,
+    "AL": 1,
+    "AM": 1,
+    "AZ": 1,
+    "BE": 1,
+    "BG": 1,
+    "BA": 1,
+    "CY": 1,
+    "DE": 1,
+    "ES": 1,
+    "FR": 1,
+    "GB": 1,
+    "GE": 1,
+    "GR": 1,
+    "HR": 1,
+    "HU": 1,
+    "IT": 1,
+    "XK": 1,
+    "MK": 1,
+    "MT": 1,
+    "ME": 1,
+    "PL": 1,
+    "RO": 1,
+    "RU": 1,
+    "RS": 1,
+    "SE": 1,
+    "TR": 1,
+    "UA": 1,
+    "DZ": 1,
+    "EG": 1,
+    "EH": 1,
+    "IQ": 1,
+    "IL": 1,
+    "JO": 1,
+    "LB": 1,
+    "LY": 1,
+    "MA": 1,
+    "MR": 1,
+    "SA": 1,
+    "SY": 1,
+    "TN": 1,
+    "YE": 1,
+    "AO": 1,
+    "CD": 1,
+    "CG": 1,
+    "MZ": 1,
+    "MW": 1,
+    "ZA": 1,
+    "ZM": 1,
+    "ZW": 1,
+    "BF": 1,
+    "CF": 1,
+    "CI": 1,
+    "CM": 1,
+    "GH": 1,
+    "LR": 1,
+    "ML": 1,
+    "NE": 1,
+    "NG": 1,
+    "SN": 1,
+    "TD": 1
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": 28
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": 11,
+    "498": 3,
+    "289": 10,
+    "89": 4
+  },
+  ".//related-activity/@type": {
+    "2": 130,
+    "3": 131,
+    "1": 130
+  },
+  ".//reporting-org/@type": {
+    "40": 131
+  },
+  ".//sector/@vocabulary": {
+    "1": 341,
+    "12": 131,
+    "10": 613,
+    "99": 374,
+    "98": 1222
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "72010": 129,
+    "72011": 65,
+    "72012": 70,
+    "72050": 77
+  },
+  ".//sector[@vocabulary = '10']/@code": {
+    "10": 117,
+    "2": 107,
+    "4": 81,
+    "5403": 58,
+    "5404": 67,
+    "7": 54,
+    "3": 58,
+    "8": 38,
+    "11": 33
+  },
+  ".//tag/@vocabulary": {
+    "2": 699
+  },
+  ".//tag[@vocabulary = '2']/@code": {
+    "1": 81,
+    "3": 58,
+    "5": 89,
+    "8": 77,
+    "10": 104,
+    "16": 98,
+    "4": 62,
+    "17": 54,
+    "11": 43,
+    "6": 33
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": 2449,
+    "2": 2448
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": 1124,
+    "B02": 69,
+    "C01": 1256
+  },
+  ".//transaction/aid-type[@vocabulary = '2']/@code": {
+    "2": 303,
+    "1": 68,
+    "3": 821,
+    "4": 1256
+  },
+  ".//transaction/provider-org/@type": {
+    "10": 1350,
+    "70": 675,
+    "60": 3,
+    "22": 3,
+    "40": 245,
+    "15": 173
+  },
+  ".//transaction/transaction-type/@code": {
+    "11": 2449
+  },
+  ".//transaction/value/@currency": {
+    "EUR": 515,
+    "AUD": 11,
+    "GBP": 36,
+    "CHF": 31,
+    "NOK": 29,
+    "USD": 1575,
+    "CAD": 145,
+    "ISK": 11,
+    "DKK": 42,
+    "NZD": 5,
+    "JPY": 12,
+    "SEK": 29,
+    "PLN": 2,
+    "CRC": 1,
+    "CZK": 3,
+    "QAR": 2
+  }
+}

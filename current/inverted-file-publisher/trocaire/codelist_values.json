@@ -1,0 +1,245 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "trocaire-activities.xml": 1,
+      "trocaire-iati-ie-closed-projects.xml": 1
+    },
+    "USD": {
+      "trocaire-activities.xml": 1,
+      "trocaire-iati-ie-closed-projects.xml": 3
+    },
+    "GBP": {
+      "trocaire-iati-ie-closed-projects.xml": 8
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    },
+    "3": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    },
+    "4": {
+      "trocaire-activities.xml": 1,
+      "trocaire-iati-ie-closed-projects.xml": 11
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "trocaire-activities.xml": 2
+    },
+    "4": {
+      "trocaire-iati-ie-closed-projects.xml": 12
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "trocaire-activities.xml": 1,
+      "trocaire-iati-ie-closed-projects.xml": 1
+    },
+    "USD": {
+      "trocaire-activities.xml": 1,
+      "trocaire-iati-ie-closed-projects.xml": 3
+    },
+    "GBP": {
+      "trocaire-iati-ie-closed-projects.xml": 8
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    },
+    "2": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    },
+    "2": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 14
+    },
+    "4": {
+      "trocaire-activities.xml": 7,
+      "trocaire-iati-ie-closed-projects.xml": 26
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "trocaire-activities.xml": 5,
+      "trocaire-iati-ie-closed-projects.xml": 27
+    },
+    "22": {
+      "trocaire-activities.xml": 6,
+      "trocaire-iati-ie-closed-projects.xml": 23
+    },
+    "10": {
+      "trocaire-iati-ie-closed-projects.xml": 2
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "9": {
+      "trocaire-activities.xml": 1,
+      "trocaire-iati-ie-closed-projects.xml": 5
+    },
+    "3": {
+      "trocaire-activities.xml": 1,
+      "trocaire-iati-ie-closed-projects.xml": 2
+    },
+    "7": {
+      "trocaire-iati-ie-closed-projects.xml": 2
+    },
+    "5": {
+      "trocaire-iati-ie-closed-projects.xml": 1
+    },
+    "2": {
+      "trocaire-iati-ie-closed-projects.xml": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "SO": {
+      "trocaire-activities.xml": 1,
+      "trocaire-iati-ie-closed-projects.xml": 5
+    },
+    "ZW": {
+      "trocaire-activities.xml": 1,
+      "trocaire-iati-ie-closed-projects.xml": 2
+    },
+    "KE": {
+      "trocaire-iati-ie-closed-projects.xml": 3
+    },
+    "MM": {
+      "trocaire-iati-ie-closed-projects.xml": 2
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "trocaire-activities.xml": 2,
+      "trocaire-iati-ie-closed-projects.xml": 12
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "72010": {
+      "trocaire-activities.xml": 1,
+      "trocaire-iati-ie-closed-projects.xml": 7
+    },
+    "15150": {
+      "trocaire-activities.xml": 1,
+      "trocaire-iati-ie-closed-projects.xml": 1
+    },
+    "41010": {
+      "trocaire-iati-ie-closed-projects.xml": 3
+    },
+    "31120": {
+      "trocaire-iati-ie-closed-projects.xml": 1
+    },
+    "15160": {
+      "trocaire-iati-ie-closed-projects.xml": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "70": {
+      "trocaire-activities.xml": 296,
+      "trocaire-iati-ie-closed-projects.xml": 757
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "trocaire-activities.xml": 296,
+      "trocaire-iati-ie-closed-projects.xml": 757
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "trocaire-activities.xml": 36,
+      "trocaire-iati-ie-closed-projects.xml": 99
+    },
+    "4": {
+      "trocaire-activities.xml": 146,
+      "trocaire-iati-ie-closed-projects.xml": 386
+    },
+    "11": {
+      "trocaire-activities.xml": 1,
+      "trocaire-iati-ie-closed-projects.xml": 5
+    },
+    "2": {
+      "trocaire-activities.xml": 41,
+      "trocaire-iati-ie-closed-projects.xml": 93
+    },
+    "3": {
+      "trocaire-activities.xml": 72,
+      "trocaire-iati-ie-closed-projects.xml": 174
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "trocaire-activities.xml": 138,
+      "trocaire-iati-ie-closed-projects.xml": 398
+    },
+    "USD": {
+      "trocaire-activities.xml": 158,
+      "trocaire-iati-ie-closed-projects.xml": 359
+    }
+  }
+}

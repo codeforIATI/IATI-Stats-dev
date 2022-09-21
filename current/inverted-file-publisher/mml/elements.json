@@ -1,0 +1,584 @@
+{
+  "iati-activity": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/@default-currency": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/@hierarchy": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/@humanitarian": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/@last-updated-datetime": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/activity-date": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/activity-date/@type": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/activity-date/narrative": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/activity-scope": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/activity-scope/@code": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/activity-status": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/activity-status/@code": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/budget": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/budget/@status": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/budget/@type": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/budget/period-end": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/budget/period-start": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/budget/value": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/budget/value/@currency": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/budget/value/@value-date": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/default-aid-type": {
+    "mml-activities.xml": 30
+  },
+  "iati-activity/default-aid-type/@code": {
+    "mml-activities.xml": 30
+  },
+  "iati-activity/default-aid-type/@vocabulary": {
+    "mml-activities.xml": 30
+  },
+  "iati-activity/default-finance-type": {
+    "mml-activities.xml": 30
+  },
+  "iati-activity/default-finance-type/@code": {
+    "mml-activities.xml": 30
+  },
+  "iati-activity/default-flow-type": {
+    "mml-activities.xml": 30
+  },
+  "iati-activity/default-flow-type/@code": {
+    "mml-activities.xml": 30
+  },
+  "iati-activity/default-tied-status": {
+    "mml-activities.xml": 30
+  },
+  "iati-activity/default-tied-status/@code": {
+    "mml-activities.xml": 30
+  },
+  "iati-activity/description": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/description/@type": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/description/narrative": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/document-link": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/document-link/@format": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/document-link/@url": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/document-link/category": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/document-link/category/@code": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/document-link/description": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/document-link/description/narrative": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/document-link/document-date": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/document-link/document-date/@iso-date": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/document-link/language": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/document-link/language/@code": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/document-link/title": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/document-link/title/narrative": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/iati-identifier": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/location": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/location/location-id": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/location/location-id/@code": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/location/location-id/@vocabulary": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/location/location-reach": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/location/location-reach/@code": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/location/name": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/location/name/narrative": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/location/point": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/location/point/@srsName": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/location/point/pos": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/participating-org": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/participating-org/@crs-channel-code": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/participating-org/@ref": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/participating-org/@role": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/participating-org/@type": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/participating-org/narrative": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/recipient-country": {
+    "mml-activities.xml": 27
+  },
+  "iati-activity/recipient-country/@code": {
+    "mml-activities.xml": 27
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "mml-activities.xml": 25
+  },
+  "iati-activity/recipient-country/narrative": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/recipient-region": {
+    "mml-activities.xml": 4
+  },
+  "iati-activity/recipient-region/@code": {
+    "mml-activities.xml": 4
+  },
+  "iati-activity/recipient-region/@percentage": {
+    "mml-activities.xml": 4
+  },
+  "iati-activity/related-activity": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/related-activity/@ref": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/related-activity/@type": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/reporting-org": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/reporting-org/@ref": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/reporting-org/@secondary-reporter": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/reporting-org/@type": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/reporting-org/narrative": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/result": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/@aggregation-status": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/@type": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/description": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/description/narrative": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator/@aggregation-status": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator/@measure": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator/baseline": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/@iso-date": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/dimension": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/dimension/@name": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/dimension/@value": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/location": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/location/@ref": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/description": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator/description/narrative": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/actual": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/period/actual/@value": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/period/actual/comment": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/target": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/period/target/@value": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/result/indicator/title": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/indicator/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/title": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/title/narrative": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/result/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/sector": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/sector/@code": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/sector/@percentage": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/sector/@vocabulary": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/sector/narrative": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/title": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/title/narrative": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/transaction": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "mml-activities.xml": 28
+  },
+  "iati-activity/transaction/@ref": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/aid-type": {
+    "mml-activities.xml": 28
+  },
+  "iati-activity/transaction/aid-type/@code": {
+    "mml-activities.xml": 28
+  },
+  "iati-activity/transaction/aid-type/@vocabulary": {
+    "mml-activities.xml": 28
+  },
+  "iati-activity/transaction/description": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/description/narrative": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 3
+  },
+  "iati-activity/transaction/disbursement-channel": {
+    "mml-activities.xml": 26
+  },
+  "iati-activity/transaction/disbursement-channel/@code": {
+    "mml-activities.xml": 26
+  },
+  "iati-activity/transaction/finance-type": {
+    "mml-activities.xml": 28
+  },
+  "iati-activity/transaction/finance-type/@code": {
+    "mml-activities.xml": 28
+  },
+  "iati-activity/transaction/flow-type": {
+    "mml-activities.xml": 28
+  },
+  "iati-activity/transaction/flow-type/@code": {
+    "mml-activities.xml": 28
+  },
+  "iati-activity/transaction/provider-org": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "mml-activities.xml": 30
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 1
+  },
+  "iati-activity/transaction/receiver-org": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "mml-activities.xml": 30
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "mml-activities.xml": 30
+  },
+  "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-activities.xml": 2
+  },
+  "iati-activity/transaction/tied-status": {
+    "mml-activities.xml": 28
+  },
+  "iati-activity/transaction/tied-status/@code": {
+    "mml-activities.xml": 28
+  },
+  "iati-activity/transaction/transaction-date": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/transaction-type": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/value": {
+    "mml-activities.xml": 31
+  },
+  "iati-activity/transaction/value/@currency": {
+    "mml-activities.xml": 28
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "mml-activities.xml": 31
+  },
+  "iati-organisation": {
+    "mml-org.xml": 1
+  },
+  "iati-organisation/@default-currency": {
+    "mml-org.xml": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "mml-org.xml": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-org.xml": 1
+  },
+  "iati-organisation/name": {
+    "mml-org.xml": 1
+  },
+  "iati-organisation/name/narrative": {
+    "mml-org.xml": 1
+  },
+  "iati-organisation/name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-org.xml": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "mml-org.xml": 1
+  },
+  "iati-organisation/reporting-org": {
+    "mml-org.xml": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "mml-org.xml": 1
+  },
+  "iati-organisation/reporting-org/@secondary-reporter": {
+    "mml-org.xml": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "mml-org.xml": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "mml-org.xml": 1
+  },
+  "iati-organisation/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "mml-org.xml": 1
+  }
+}

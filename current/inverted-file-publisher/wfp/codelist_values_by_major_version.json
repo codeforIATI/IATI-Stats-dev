@@ -1,0 +1,955 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "wfp-lac.xml": {
+        "USD": 186
+      },
+      "wfp-asia.xml": {
+        "USD": 218
+      },
+      "wfp-act.xml": {
+        "USD": 2
+      },
+      "wfp-eca.xml": {
+        "USD": 166
+      },
+      "wfp-wa.xml": {
+        "USD": 323
+      },
+      "wfp-menaeeca.xml": {
+        "USD": 183
+      },
+      "wfp-southafrica.xml": {
+        "USD": 200
+      }
+    },
+    ".//activity-date/@type": {
+      "wfp-lac.xml": {
+        "1": 186,
+        "2": 186,
+        "3": 186,
+        "4": 84
+      },
+      "wfp-asia.xml": {
+        "1": 218,
+        "2": 218,
+        "3": 218,
+        "4": 88
+      },
+      "wfp-act.xml": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      },
+      "wfp-eca.xml": {
+        "1": 166,
+        "2": 166,
+        "3": 166,
+        "4": 74
+      },
+      "wfp-wa.xml": {
+        "1": 323,
+        "2": 323,
+        "3": 323,
+        "4": 161
+      },
+      "wfp-menaeeca.xml": {
+        "1": 183,
+        "2": 179,
+        "3": 183,
+        "4": 71
+      },
+      "wfp-southafrica.xml": {
+        "1": 199,
+        "2": 200,
+        "3": 200,
+        "4": 95
+      }
+    },
+    ".//activity-status/@code": {
+      "wfp-lac.xml": {
+        "3": 84,
+        "2": 102
+      },
+      "wfp-asia.xml": {
+        "3": 88,
+        "2": 130
+      },
+      "wfp-act.xml": {
+        "2": 2
+      },
+      "wfp-eca.xml": {
+        "3": 74,
+        "2": 92
+      },
+      "wfp-wa.xml": {
+        "3": 161,
+        "2": 162
+      },
+      "wfp-menaeeca.xml": {
+        "3": 71,
+        "2": 108,
+        "1": 4
+      },
+      "wfp-southafrica.xml": {
+        "3": 95,
+        "2": 105
+      }
+    },
+    ".//budget/@type": {
+      "wfp-lac.xml": {
+        "2": 3698
+      },
+      "wfp-asia.xml": {
+        "2": 4887
+      },
+      "wfp-act.xml": {
+        "2": 10
+      },
+      "wfp-eca.xml": {
+        "2": 3572
+      },
+      "wfp-wa.xml": {
+        "2": 6286
+      },
+      "wfp-menaeeca.xml": {
+        "2": 3513
+      },
+      "wfp-southafrica.xml": {
+        "2": 4045
+      }
+    },
+    ".//budget/value/@currency": {
+      "wfp-lac.xml": {
+        "USD": 3698
+      },
+      "wfp-asia.xml": {
+        "USD": 4887
+      },
+      "wfp-act.xml": {
+        "USD": 10
+      },
+      "wfp-eca.xml": {
+        "USD": 3572
+      },
+      "wfp-wa.xml": {
+        "USD": 6286
+      },
+      "wfp-menaeeca.xml": {
+        "USD": 3513
+      },
+      "wfp-southafrica.xml": {
+        "USD": 4045
+      }
+    },
+    ".//collaboration-type/@code": {
+      "wfp-lac.xml": {
+        "4": 186
+      },
+      "wfp-asia.xml": {
+        "4": 218
+      },
+      "wfp-act.xml": {
+        "4": 2
+      },
+      "wfp-eca.xml": {
+        "4": 166
+      },
+      "wfp-wa.xml": {
+        "4": 323
+      },
+      "wfp-menaeeca.xml": {
+        "4": 183
+      },
+      "wfp-southafrica.xml": {
+        "4": 200
+      }
+    },
+    ".//contact-info/@type": {
+      "wfp-lac.xml": {
+        "1": 186
+      },
+      "wfp-asia.xml": {
+        "1": 218
+      },
+      "wfp-act.xml": {
+        "1": 2
+      },
+      "wfp-eca.xml": {
+        "1": 166
+      },
+      "wfp-wa.xml": {
+        "1": 323
+      },
+      "wfp-menaeeca.xml": {
+        "1": 183
+      },
+      "wfp-southafrica.xml": {
+        "1": 200
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "wfp-lac.xml": {
+        "C01": 186
+      },
+      "wfp-asia.xml": {
+        "C01": 218
+      },
+      "wfp-act.xml": {
+        "B02": 2
+      },
+      "wfp-eca.xml": {
+        "C01": 166
+      },
+      "wfp-wa.xml": {
+        "C01": 323
+      },
+      "wfp-menaeeca.xml": {
+        "C01": 183
+      },
+      "wfp-southafrica.xml": {
+        "C01": 200
+      }
+    },
+    ".//default-finance-type/@code": {
+      "wfp-lac.xml": {
+        "110": 186
+      },
+      "wfp-asia.xml": {
+        "110": 218
+      },
+      "wfp-act.xml": {
+        "110": 2
+      },
+      "wfp-eca.xml": {
+        "110": 166
+      },
+      "wfp-wa.xml": {
+        "110": 323
+      },
+      "wfp-menaeeca.xml": {
+        "110": 183
+      },
+      "wfp-southafrica.xml": {
+        "110": 200
+      }
+    },
+    ".//default-flow-type/@code": {
+      "wfp-lac.xml": {
+        "10": 186
+      },
+      "wfp-asia.xml": {
+        "10": 218
+      },
+      "wfp-act.xml": {
+        "10": 2
+      },
+      "wfp-eca.xml": {
+        "10": 166
+      },
+      "wfp-wa.xml": {
+        "10": 323
+      },
+      "wfp-menaeeca.xml": {
+        "10": 183
+      },
+      "wfp-southafrica.xml": {
+        "10": 200
+      }
+    },
+    ".//default-tied-status/@code": {
+      "wfp-lac.xml": {
+        "5": 186
+      },
+      "wfp-asia.xml": {
+        "5": 218
+      },
+      "wfp-act.xml": {
+        "5": 2
+      },
+      "wfp-eca.xml": {
+        "5": 166
+      },
+      "wfp-wa.xml": {
+        "5": 323
+      },
+      "wfp-menaeeca.xml": {
+        "5": 183
+      },
+      "wfp-southafrica.xml": {
+        "5": 200
+      }
+    },
+    ".//document-link/@format": {
+      "wfp-lac.xml": {
+        "application/pdf": 34,
+        "text/html": 164
+      },
+      "wfp-asia.xml": {
+        "application/pdf": 47,
+        "text/html": 183
+      },
+      "wfp-act.xml": {
+        "text/html": 2
+      },
+      "wfp-eca.xml": {
+        "application/pdf": 49,
+        "text/html": 155
+      },
+      "wfp-wa.xml": {
+        "application/pdf": 50,
+        "text/html": 315
+      },
+      "wfp-menaeeca.xml": {
+        "application/pdf": 25,
+        "text/html": 178
+      },
+      "wfp-southafrica.xml": {
+        "application/pdf": 49,
+        "text/html": 169
+      }
+    },
+    ".//document-link/category/@code": {
+      "wfp-lac.xml": {
+        "B02": 12,
+        "A12": 164,
+        "B03": 22
+      },
+      "wfp-asia.xml": {
+        "B02": 12,
+        "A12": 183,
+        "B03": 35
+      },
+      "wfp-act.xml": {
+        "A12": 2
+      },
+      "wfp-eca.xml": {
+        "B02": 38,
+        "A12": 155,
+        "B03": 11
+      },
+      "wfp-wa.xml": {
+        "B02": 42,
+        "A12": 315,
+        "B03": 8
+      },
+      "wfp-menaeeca.xml": {
+        "B02": 20,
+        "A12": 178,
+        "B03": 5
+      },
+      "wfp-southafrica.xml": {
+        "B02": 18,
+        "A12": 169,
+        "B03": 31
+      }
+    },
+    ".//document-link/language/@code": {
+      "wfp-lac.xml": {
+        "en": 198
+      },
+      "wfp-asia.xml": {
+        "en": 230
+      },
+      "wfp-act.xml": {
+        "en": 2
+      },
+      "wfp-eca.xml": {
+        "en": 204
+      },
+      "wfp-wa.xml": {
+        "en": 365
+      },
+      "wfp-menaeeca.xml": {
+        "en": 203
+      },
+      "wfp-southafrica.xml": {
+        "en": 218
+      }
+    },
+    ".//other-identifier/@type": {
+      "wfp-lac.xml": {
+        "A3": 186
+      },
+      "wfp-asia.xml": {
+        "A3": 218
+      },
+      "wfp-act.xml": {
+        "A3": 2
+      },
+      "wfp-eca.xml": {
+        "A3": 166
+      },
+      "wfp-wa.xml": {
+        "A3": 323
+      },
+      "wfp-menaeeca.xml": {
+        "A3": 183
+      },
+      "wfp-southafrica.xml": {
+        "A3": 200
+      }
+    },
+    ".//participating-org/@role": {
+      "wfp-lac.xml": {
+        "1": 1313,
+        "2": 186,
+        "4": 186
+      },
+      "wfp-asia.xml": {
+        "1": 1828,
+        "2": 218,
+        "4": 218
+      },
+      "wfp-act.xml": {
+        "2": 2,
+        "4": 2
+      },
+      "wfp-eca.xml": {
+        "1": 1723,
+        "2": 166,
+        "4": 166
+      },
+      "wfp-wa.xml": {
+        "1": 2467,
+        "2": 323,
+        "4": 323
+      },
+      "wfp-menaeeca.xml": {
+        "1": 1806,
+        "2": 183,
+        "4": 183
+      },
+      "wfp-southafrica.xml": {
+        "1": 1611,
+        "2": 200,
+        "4": 200
+      }
+    },
+    ".//participating-org/@type": {
+      "wfp-lac.xml": {
+        "10": 700,
+        "40": 530,
+        "70": 202,
+        "90": 226,
+        "60": 27
+      },
+      "wfp-asia.xml": {
+        "10": 1087,
+        "40": 567,
+        "70": 330,
+        "60": 36,
+        "90": 244
+      },
+      "wfp-act.xml": {
+        "40": 4
+      },
+      "wfp-eca.xml": {
+        "10": 1099,
+        "70": 207,
+        "40": 518,
+        "90": 185,
+        "60": 46
+      },
+      "wfp-wa.xml": {
+        "10": 1541,
+        "40": 924,
+        "70": 275,
+        "90": 347,
+        "60": 26
+      },
+      "wfp-menaeeca.xml": {
+        "10": 1149,
+        "40": 520,
+        "90": 229,
+        "70": 236,
+        "60": 38
+      },
+      "wfp-southafrica.xml": {
+        "10": 969,
+        "70": 205,
+        "40": 589,
+        "90": 216,
+        "60": 32
+      }
+    },
+    ".//recipient-country/@code": {
+      "wfp-lac.xml": {
+        "PA": 22,
+        "CU": 19,
+        "BB": 2,
+        "BO": 9,
+        "BS": 4,
+        "CO": 17,
+        "DO": 10,
+        "EC": 11,
+        "GT": 18,
+        "HN": 11,
+        "HT": 19,
+        "NI": 14,
+        "PE": 7,
+        "SV": 23
+      },
+      "wfp-asia.xml": {
+        "AF": 13,
+        "PH": 9,
+        "TJ": 15,
+        "BD": 20,
+        "BT": 9,
+        "CN": 13,
+        "ID": 9,
+        "IN": 11,
+        "KG": 10,
+        "KH": 14,
+        "KP": 7,
+        "LA": 16,
+        "LK": 11,
+        "MM": 12,
+        "MN": 1,
+        "NP": 20,
+        "PG": 6,
+        "PK": 9,
+        "TL": 6,
+        "TH": 7
+      },
+      "wfp-act.xml": {
+        "IT": 2
+      },
+      "wfp-eca.xml": {
+        "BI": 21,
+        "ET": 27,
+        "RW": 10,
+        "SS": 14,
+        "KE": 15,
+        "SD": 30,
+        "SO": 22,
+        "DJ": 16,
+        "UG": 11
+      },
+      "wfp-wa.xml": {
+        "TD": 17,
+        "CM": 24,
+        "NE": 19,
+        "NG": 16,
+        "SN": 23,
+        "CF": 17,
+        "BF": 21,
+        "BJ": 10,
+        "CI": 14,
+        "CV": 3,
+        "GH": 16,
+        "GM": 15,
+        "GN": 16,
+        "GW": 15,
+        "LR": 14,
+        "ML": 27,
+        "MR": 18,
+        "SL": 18,
+        "ST": 7,
+        "TG": 13
+      },
+      "wfp-menaeeca.xml": {
+        "TN": 6,
+        "UA": 13,
+        "YE": 13,
+        "LY": 11,
+        "AM": 10,
+        "DZ": 10,
+        "EG": 19,
+        "IQ": 15,
+        "IR": 5,
+        "JO": 15,
+        "LB": 10,
+        "MA": 3,
+        "MD": 4,
+        "PS": 5,
+        "SY": 32,
+        "TR": 12
+      },
+      "wfp-southafrica.xml": {
+        "MW": 13,
+        "CG": 10,
+        "CD": 25,
+        "AO": 10,
+        "ZM": 17,
+        "KM": 3,
+        "LS": 15,
+        "MG": 18,
+        "MZ": 26,
+        "NA": 9,
+        "SZ": 11,
+        "TZ": 20,
+        "ZW": 23
+      }
+    },
+    ".//reporting-org/@type": {
+      "wfp-lac.xml": {
+        "40": 186
+      },
+      "wfp-asia.xml": {
+        "40": 218
+      },
+      "wfp-act.xml": {
+        "40": 2
+      },
+      "wfp-eca.xml": {
+        "40": 166
+      },
+      "wfp-wa.xml": {
+        "40": 323
+      },
+      "wfp-menaeeca.xml": {
+        "40": 183
+      },
+      "wfp-southafrica.xml": {
+        "40": 200
+      }
+    },
+    ".//result/@type": {
+      "wfp-lac.xml": {
+        "1": 4505
+      },
+      "wfp-asia.xml": {
+        "1": 5554
+      },
+      "wfp-eca.xml": {
+        "1": 8057
+      },
+      "wfp-wa.xml": {
+        "1": 7575
+      },
+      "wfp-menaeeca.xml": {
+        "1": 2752
+      },
+      "wfp-southafrica.xml": {
+        "1": 5084
+      }
+    },
+    ".//result/indicator/@measure": {
+      "wfp-lac.xml": {
+        "1": 4474,
+        "2": 31
+      },
+      "wfp-asia.xml": {
+        "1": 5471,
+        "2": 83
+      },
+      "wfp-eca.xml": {
+        "1": 7840,
+        "2": 217
+      },
+      "wfp-wa.xml": {
+        "1": 7396,
+        "2": 179
+      },
+      "wfp-menaeeca.xml": {
+        "1": 2655,
+        "2": 97
+      },
+      "wfp-southafrica.xml": {
+        "1": 5015,
+        "2": 69
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "wfp-lac.xml": {
+        "72050": 29,
+        "72040": 34,
+        "52010": 36,
+        "74020": 29,
+        "91010": 26,
+        "73010": 21,
+        "12240": 8,
+        "99810": 3
+      },
+      "wfp-asia.xml": {
+        "12240": 12,
+        "72040": 31,
+        "73010": 15,
+        "74020": 44,
+        "72050": 20,
+        "15110": 1,
+        "91010": 31,
+        "52010": 66,
+        "99810": 5
+      },
+      "wfp-act.xml": {
+        "91010": 2
+      },
+      "wfp-eca.xml": {
+        "12240": 17,
+        "72040": 55,
+        "74020": 23,
+        "11220": 5,
+        "15110": 9,
+        "72050": 40,
+        "52010": 16,
+        "73010": 17,
+        "13040": 3,
+        "11230": 1,
+        "99810": 9,
+        "91010": 14
+      },
+      "wfp-wa.xml": {
+        "11220": 4,
+        "72040": 94,
+        "12240": 25,
+        "52010": 56,
+        "73010": 40,
+        "74020": 33,
+        "72050": 46,
+        "91010": 39,
+        "99810": 11
+      },
+      "wfp-menaeeca.xml": {
+        "15110": 1,
+        "72050": 49,
+        "72040": 55,
+        "12240": 3,
+        "73010": 16,
+        "74020": 14,
+        "52010": 18,
+        "91010": 27,
+        "99810": 2
+      },
+      "wfp-southafrica.xml": {
+        "11220": 1,
+        "12240": 15,
+        "13040": 1,
+        "15110": 1,
+        "72040": 49,
+        "74020": 22,
+        "72050": 41,
+        "91010": 22,
+        "73010": 22,
+        "52010": 29,
+        "99810": 4
+      }
+    },
+    ".//sector[@vocabulary = '7']/@code": {
+      "wfp-lac.xml": {
+        "17": 78,
+        "2": 126
+      },
+      "wfp-asia.xml": {
+        "2": 148,
+        "17": 90
+      },
+      "wfp-eca.xml": {
+        "2": 114,
+        "17": 65
+      },
+      "wfp-wa.xml": {
+        "2": 231,
+        "17": 119
+      },
+      "wfp-menaeeca.xml": {
+        "2": 110,
+        "17": 86
+      },
+      "wfp-southafrica.xml": {
+        "2": 132,
+        "17": 85
+      }
+    },
+    ".//sector[@vocabulary = '8']/@code": {
+      "wfp-lac.xml": {
+        "17.9": 46,
+        "2.1": 68,
+        "2.3": 26,
+        "2.2": 26,
+        "17.16": 36,
+        "2.4": 26
+      },
+      "wfp-asia.xml": {
+        "2.1": 75,
+        "2.2": 61,
+        "2.4": 31,
+        "17.14": 2,
+        "17.16": 23,
+        "17.9": 63,
+        "2.3": 11,
+        "17.3": 3
+      },
+      "wfp-eca.xml": {
+        "2.1": 65,
+        "2.2": 25,
+        "2.3": 10,
+        "17.9": 14,
+        "17.16": 51,
+        "2.4": 17
+      },
+      "wfp-wa.xml": {
+        "2.1": 121,
+        "2.2": 76,
+        "2.3": 39,
+        "17.9": 61,
+        "2.4": 31,
+        "17.16": 51,
+        "17.14": 8
+      },
+      "wfp-menaeeca.xml": {
+        "2.1": 86,
+        "17.9": 24,
+        "17.16": 58,
+        "2.2": 20,
+        "2.4": 8,
+        "2.3": 2
+      },
+      "wfp-southafrica.xml": {
+        "2.1": 74,
+        "17.9": 37,
+        "17.16": 50,
+        "2.2": 34,
+        "2.3": 32,
+        "2.4": 13
+      }
+    },
+    ".//sector/@vocabulary": {
+      "wfp-lac.xml": {
+        "1": 186,
+        "7": 204,
+        "8": 228
+      },
+      "wfp-asia.xml": {
+        "1": 225,
+        "7": 238,
+        "8": 269
+      },
+      "wfp-act.xml": {
+        "1": 2
+      },
+      "wfp-eca.xml": {
+        "1": 209,
+        "7": 179,
+        "8": 182
+      },
+      "wfp-wa.xml": {
+        "1": 348,
+        "7": 350,
+        "8": 387
+      },
+      "wfp-menaeeca.xml": {
+        "1": 185,
+        "7": 196,
+        "8": 198
+      },
+      "wfp-southafrica.xml": {
+        "1": 207,
+        "7": 217,
+        "8": 240
+      }
+    },
+    ".//tag[@vocabulary = '2']/@code": {
+      "wfp-lac.xml": {
+        "17": 79,
+        "2": 126
+      },
+      "wfp-asia.xml": {
+        "2": 149,
+        "17": 90
+      },
+      "wfp-eca.xml": {
+        "2": 114,
+        "17": 65
+      },
+      "wfp-wa.xml": {
+        "2": 231,
+        "17": 119
+      },
+      "wfp-menaeeca.xml": {
+        "2": 110,
+        "17": 86
+      },
+      "wfp-southafrica.xml": {
+        "2": 132,
+        "17": 85
+      }
+    },
+    ".//tag/@vocabulary": {
+      "wfp-lac.xml": {
+        "2": 205
+      },
+      "wfp-asia.xml": {
+        "2": 239
+      },
+      "wfp-eca.xml": {
+        "2": 179
+      },
+      "wfp-wa.xml": {
+        "2": 350
+      },
+      "wfp-menaeeca.xml": {
+        "2": 196
+      },
+      "wfp-southafrica.xml": {
+        "2": 217
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "wfp-lac.xml": {
+        "4": 4440,
+        "2": 4440,
+        "1": 5964
+      },
+      "wfp-asia.xml": {
+        "4": 6825,
+        "2": 6825,
+        "1": 9975
+      },
+      "wfp-act.xml": {
+        "4": 10,
+        "2": 10
+      },
+      "wfp-eca.xml": {
+        "4": 4609,
+        "2": 4609,
+        "1": 10728
+      },
+      "wfp-wa.xml": {
+        "4": 7788,
+        "2": 7788,
+        "1": 14376
+      },
+      "wfp-menaeeca.xml": {
+        "4": 4189,
+        "2": 4189,
+        "1": 9970
+      },
+      "wfp-southafrica.xml": {
+        "4": 4967,
+        "2": 4967,
+        "1": 8595
+      }
+    },
+    ".//@xml:lang": {
+      "wfp-lac.xml": {
+        "en": 70,
+        "es": 102,
+        "fr": 14
+      },
+      "wfp-asia.xml": {
+        "en": 218
+      },
+      "wfp-act.xml": {
+        "en": 2
+      },
+      "wfp-eca.xml": {
+        "en": 135,
+        "fr": 31
+      },
+      "wfp-wa.xml": {
+        "en": 210,
+        "fr": 113
+      },
+      "wfp-menaeeca.xml": {
+        "en": 176,
+        "fr": 7
+      },
+      "wfp-southafrica.xml": {
+        "en": 159,
+        "fr": 41
+      }
+    }
+  }
+}

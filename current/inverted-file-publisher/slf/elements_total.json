@@ -1,0 +1,560 @@
+{
+  "iati-activity": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/@default-currency": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/@last-updated-datetime": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/activity-date": {
+    "slf-linc1819.xml": 7,
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "slf-linc1819.xml": 7,
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/activity-date/@type": {
+    "slf-linc1819.xml": 7,
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/activity-date/narrative": {
+    "slf-linc1819.xml": 7
+  },
+  "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "slf-linc1819.xml": 7
+  },
+  "iati-activity/activity-status": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/activity-status/@code": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/budget": {
+    "slf-linc1819.xml": 1,
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/budget/@status": {
+    "slf-linc1819.xml": 1
+  },
+  "iati-activity/budget/period-end": {
+    "slf-linc1819.xml": 1,
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "slf-linc1819.xml": 1,
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/budget/period-start": {
+    "slf-linc1819.xml": 1,
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "slf-linc1819.xml": 1,
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/budget/value": {
+    "slf-linc1819.xml": 1,
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/budget/value/@currency": {
+    "slf-linc1819.xml": 1
+  },
+  "iati-activity/budget/value/@value-date": {
+    "slf-linc1819.xml": 1,
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/budget/value/@{http://akvo.org/iati-activities}label": {
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/conditions": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/conditions/@attached": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/contact-info": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/contact-info/@type": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/contact-info/email": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/contact-info/job-title": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/contact-info/job-title/narrative": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/contact-info/mailing-address": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/contact-info/mailing-address/narrative": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/contact-info/organisation": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/contact-info/organisation/narrative": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/contact-info/person-name": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/contact-info/person-name/narrative": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/contact-info/telephone": {
+    "slf-linc1819.xml": 2
+  },
+  "iati-activity/default-aid-type": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/default-aid-type/@code": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/default-aid-type/@vocabulary": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/default-finance-type": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/default-finance-type/@code": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/default-flow-type": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/default-flow-type/@code": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/default-tied-status": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/default-tied-status/@code": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/description": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/description/@type": {
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/description/@{http://akvo.org/iati-activities}type": {
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/description/narrative": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "slf-linc1819.xml": 2
+  },
+  "iati-activity/document-link": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/document-link/@format": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/document-link/@url": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/document-link/category": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/document-link/category/@code": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/document-link/title": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/document-link/title/narrative": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/iati-identifier": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/location": {
+    "slf-makeway.xml": 11
+  },
+  "iati-activity/location/point": {
+    "slf-makeway.xml": 11
+  },
+  "iati-activity/location/point/@srsName": {
+    "slf-makeway.xml": 11
+  },
+  "iati-activity/location/point/pos": {
+    "slf-makeway.xml": 11
+  },
+  "iati-activity/other-identifier": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/other-identifier/@ref": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/other-identifier/@type": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/other-identifier/owner-org": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/other-identifier/owner-org/@ref": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/other-identifier/owner-org/narrative": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/participating-org": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 21
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/participating-org/@ref": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 16
+  },
+  "iati-activity/participating-org/@role": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 21
+  },
+  "iati-activity/participating-org/@type": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 21
+  },
+  "iati-activity/participating-org/narrative": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 21
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "slf-linc1819.xml": 2
+  },
+  "iati-activity/policy-marker": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 21
+  },
+  "iati-activity/policy-marker/@code": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 21
+  },
+  "iati-activity/policy-marker/@significance": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 21
+  },
+  "iati-activity/policy-marker/@vocabulary": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 21
+  },
+  "iati-activity/recipient-country": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 10
+  },
+  "iati-activity/recipient-country/@code": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 10
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 10
+  },
+  "iati-activity/recipient-region": {
+    "slf-makeway.xml": 2
+  },
+  "iati-activity/recipient-region/@code": {
+    "slf-makeway.xml": 2
+  },
+  "iati-activity/recipient-region/@percentage": {
+    "slf-makeway.xml": 2
+  },
+  "iati-activity/related-activity": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/related-activity/@ref": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/related-activity/@type": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/reporting-org": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/reporting-org/@ref": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/reporting-org/@secondary-reporter": {
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/reporting-org/@type": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/reporting-org/narrative": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "slf-linc1819.xml": 2
+  },
+  "iati-activity/result": {
+    "slf-makeway.xml": 45
+  },
+  "iati-activity/result/@aggregation-status": {
+    "slf-makeway.xml": 45
+  },
+  "iati-activity/result/@type": {
+    "slf-makeway.xml": 45
+  },
+  "iati-activity/result/description": {
+    "slf-makeway.xml": 10
+  },
+  "iati-activity/result/description/narrative": {
+    "slf-makeway.xml": 10
+  },
+  "iati-activity/result/indicator": {
+    "slf-makeway.xml": 91
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "slf-makeway.xml": 91
+  },
+  "iati-activity/result/indicator/@measure": {
+    "slf-makeway.xml": 91
+  },
+  "iati-activity/result/indicator/baseline": {
+    "slf-makeway.xml": 91
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "slf-makeway.xml": 91
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "slf-makeway.xml": 91
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "slf-makeway.xml": 78
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "slf-makeway.xml": 78
+  },
+  "iati-activity/result/indicator/description": {
+    "slf-makeway.xml": 91
+  },
+  "iati-activity/result/indicator/description/narrative": {
+    "slf-makeway.xml": 91
+  },
+  "iati-activity/result/indicator/period": {
+    "slf-makeway.xml": 364
+  },
+  "iati-activity/result/indicator/period/actual": {
+    "slf-makeway.xml": 364
+  },
+  "iati-activity/result/indicator/period/actual/@value": {
+    "slf-makeway.xml": 364
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "slf-makeway.xml": 364
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "slf-makeway.xml": 364
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "slf-makeway.xml": 364
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "slf-makeway.xml": 364
+  },
+  "iati-activity/result/indicator/period/target": {
+    "slf-makeway.xml": 364
+  },
+  "iati-activity/result/indicator/period/target/@value": {
+    "slf-makeway.xml": 364
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "slf-makeway.xml": 250
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "slf-makeway.xml": 250
+  },
+  "iati-activity/result/indicator/reference": {
+    "slf-makeway.xml": 91
+  },
+  "iati-activity/result/indicator/reference/@code": {
+    "slf-makeway.xml": 91
+  },
+  "iati-activity/result/indicator/reference/@indicator-uri": {
+    "slf-makeway.xml": 91
+  },
+  "iati-activity/result/indicator/reference/@vocabulary": {
+    "slf-makeway.xml": 91
+  },
+  "iati-activity/result/indicator/title": {
+    "slf-makeway.xml": 91
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "slf-makeway.xml": 91
+  },
+  "iati-activity/result/title": {
+    "slf-makeway.xml": 45
+  },
+  "iati-activity/result/title/narrative": {
+    "slf-makeway.xml": 45
+  },
+  "iati-activity/sector": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/sector/@code": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/sector/@percentage": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/sector/@vocabulary": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/title": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/title/narrative": {
+    "slf-linc1819.xml": 2,
+    "slf-makeway.xml": 7
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "slf-linc1819.xml": 2
+  },
+  "iati-activity/transaction": {
+    "slf-linc1819.xml": 19,
+    "slf-makeway.xml": 20
+  },
+  "iati-activity/transaction/description": {
+    "slf-linc1819.xml": 19,
+    "slf-makeway.xml": 20
+  },
+  "iati-activity/transaction/description/narrative": {
+    "slf-linc1819.xml": 19,
+    "slf-makeway.xml": 20
+  },
+  "iati-activity/transaction/provider-org": {
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/transaction/receiver-org": {
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "slf-makeway.xml": 14
+  },
+  "iati-activity/transaction/transaction-date": {
+    "slf-linc1819.xml": 19,
+    "slf-makeway.xml": 20
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "slf-linc1819.xml": 19,
+    "slf-makeway.xml": 20
+  },
+  "iati-activity/transaction/transaction-type": {
+    "slf-linc1819.xml": 19,
+    "slf-makeway.xml": 20
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "slf-linc1819.xml": 19,
+    "slf-makeway.xml": 20
+  },
+  "iati-activity/transaction/value": {
+    "slf-linc1819.xml": 19,
+    "slf-makeway.xml": 20
+  },
+  "iati-activity/transaction/value/@currency": {
+    "slf-linc1819.xml": 19
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "slf-linc1819.xml": 19,
+    "slf-makeway.xml": 20
+  },
+  "iati-organisation": {
+    "slf-org.xml": 1
+  },
+  "iati-organisation/@default-currency": {
+    "slf-org.xml": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "slf-org.xml": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "slf-org.xml": 1
+  },
+  "iati-organisation/name": {
+    "slf-org.xml": 1
+  },
+  "iati-organisation/name/narrative": {
+    "slf-org.xml": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "slf-org.xml": 1
+  },
+  "iati-organisation/reporting-org": {
+    "slf-org.xml": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "slf-org.xml": 1
+  },
+  "iati-organisation/reporting-org/@secondary-reporter": {
+    "slf-org.xml": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "slf-org.xml": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "slf-org.xml": 1
+  }
+}

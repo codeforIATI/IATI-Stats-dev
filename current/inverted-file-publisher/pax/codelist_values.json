@@ -1,0 +1,603 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "eng": {
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1
+    },
+    "ar": {
+      "pax-paxpocactivitydataset.xml": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "4": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2
+    },
+    "3": {
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "4": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2
+    },
+    "2": {
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "pax-pax-c30-iati-activitiesfile.xml": 4,
+      "pax-pax-scc-iati-activitiesfile.xml": 50,
+      "pax-pax-ua6p0199.xml": 3,
+      "pax-paxpocactivitydataset.xml": 25,
+      "pax-pax-c1-activitiesfile.xml": 5,
+      "pax-pax-c31-activitiesfile.xml": 4,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 10,
+      "pax-pax-ss6p0165-activitiesfile.xml": 5
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "2": {
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "3": {
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "4": {
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "pax-pax-c30-iati-activitiesfile.xml": 17,
+      "pax-paxpocactivitydataset.xml": 14,
+      "pax-pax-c1-activitiesfile.xml": 7,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 1
+    },
+    "text/html": {
+      "pax-paxpocactivitydataset.xml": 8
+    }
+  },
+  ".//document-link/category/@code": {
+    "B01": {
+      "pax-pax-c30-iati-activitiesfile.xml": 17,
+      "pax-paxpocactivitydataset.xml": 14,
+      "pax-pax-c1-activitiesfile.xml": 5,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 1
+    },
+    "A12": {
+      "pax-paxpocactivitydataset.xml": 8
+    },
+    "A07": {
+      "pax-pax-c1-activitiesfile.xml": 2
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "pax-pax-c30-iati-activitiesfile.xml": 17,
+      "pax-paxpocactivitydataset.xml": 21,
+      "pax-pax-c1-activitiesfile.xml": 7,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 1
+    },
+    "ar": {
+      "pax-paxpocactivitydataset.xml": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 3,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "4": {
+      "pax-pax-c30-iati-activitiesfile.xml": 4,
+      "pax-pax-scc-iati-activitiesfile.xml": 37,
+      "pax-pax-ua6p0199.xml": 5,
+      "pax-paxpocactivitydataset.xml": 8,
+      "pax-pax-c1-activitiesfile.xml": 3,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 3,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "2": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 1,
+      "pax-paxpocactivitydataset.xml": 1,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2
+    },
+    "21": {
+      "pax-pax-c30-iati-activitiesfile.xml": 3,
+      "pax-pax-scc-iati-activitiesfile.xml": 36,
+      "pax-pax-ua6p0199.xml": 2,
+      "pax-paxpocactivitydataset.xml": 14,
+      "pax-pax-c1-activitiesfile.xml": 3,
+      "pax-pax-c31-activitiesfile.xml": 3,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 5,
+      "pax-pax-ss6p0165-activitiesfile.xml": 3
+    },
+    "80": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 3,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 1
+    },
+    "22": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 8,
+      "pax-pax-ua6p0199.xml": 4,
+      "pax-paxpocactivitydataset.xml": 2,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "2": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 9,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 1,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "1": {
+      "pax-pax-scc-iati-activitiesfile.xml": 13,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 6,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 22,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 6,
+      "pax-pax-c1-activitiesfile.xml": 2,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 9,
+      "pax-paxpocactivitydataset.xml": 1,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "3": {
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2
+    },
+    "2": {
+      "pax-pax-scc-iati-activitiesfile.xml": 3
+    }
+  },
+  ".//recipient-country/@code": {
+    "IQ": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 1,
+      "pax-paxpocactivitydataset.xml": 3
+    },
+    "CD": {
+      "pax-pax-scc-iati-activitiesfile.xml": 1
+    },
+    "LB": {
+      "pax-pax-scc-iati-activitiesfile.xml": 1
+    },
+    "PS": {
+      "pax-pax-scc-iati-activitiesfile.xml": 1
+    },
+    "BF": {
+      "pax-pax-scc-iati-activitiesfile.xml": 1
+    },
+    "ML": {
+      "pax-pax-scc-iati-activitiesfile.xml": 1
+    },
+    "NE": {
+      "pax-pax-scc-iati-activitiesfile.xml": 1
+    },
+    "SS": {
+      "pax-pax-scc-iati-activitiesfile.xml": 1,
+      "pax-paxpocactivitydataset.xml": 3,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "SY": {
+      "pax-pax-scc-iati-activitiesfile.xml": 1
+    },
+    "YE": {
+      "pax-pax-scc-iati-activitiesfile.xml": 1
+    },
+    "UA": {
+      "pax-pax-ua6p0199.xml": 1
+    },
+    "BE": {
+      "pax-paxpocactivitydataset.xml": 3
+    },
+    "NL": {
+      "pax-paxpocactivitydataset.xml": 3
+    },
+    "US": {
+      "pax-paxpocactivitydataset.xml": 2
+    },
+    "DE": {
+      "pax-paxpocactivitydataset.xml": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "298": {
+      "pax-pax-scc-iati-activitiesfile.xml": 1
+    },
+    "589": {
+      "pax-pax-scc-iati-activitiesfile.xml": 1
+    },
+    "998": {
+      "pax-pax-scc-iati-activitiesfile.xml": 1,
+      "pax-pax-c1-activitiesfile.xml": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "pax-pax-scc-iati-activitiesfile.xml": 9,
+      "pax-paxpocactivitydataset.xml": 4
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 5,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "pax-pax-scc-iati-activitiesfile.xml": 37,
+      "pax-paxpocactivitydataset.xml": 1,
+      "pax-pax-c1-activitiesfile.xml": 4,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 4
+    },
+    "1": {
+      "pax-pax-scc-iati-activitiesfile.xml": 8,
+      "pax-paxpocactivitydataset.xml": 13,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 12,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "9": {
+      "pax-pax-c31-activitiesfile.xml": 3
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "pax-pax-scc-iati-activitiesfile.xml": 66,
+      "pax-paxpocactivitydataset.xml": 15,
+      "pax-pax-c1-activitiesfile.xml": 6,
+      "pax-pax-c31-activitiesfile.xml": 17,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 23,
+      "pax-pax-ss6p0165-activitiesfile.xml": 2
+    },
+    "2": {
+      "pax-pax-c34-r11p013-activitiesfile.xml": 1
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "pax-pax-scc-iati-activitiesfile.xml": 66,
+      "pax-paxpocactivitydataset.xml": 15,
+      "pax-pax-c1-activitiesfile.xml": 6,
+      "pax-pax-c31-activitiesfile.xml": 17,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 24,
+      "pax-pax-ss6p0165-activitiesfile.xml": 2
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 40,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-pax-c1-activitiesfile.xml": 2,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 3
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15180": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 3,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "15160": {
+      "pax-pax-scc-iati-activitiesfile.xml": 9,
+      "pax-pax-c1-activitiesfile.xml": 1
+    },
+    "15220": {
+      "pax-pax-scc-iati-activitiesfile.xml": 8,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 3,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 2,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "25040": {
+      "pax-pax-scc-iati-activitiesfile.xml": 5
+    },
+    "15150": {
+      "pax-pax-scc-iati-activitiesfile.xml": 8
+    },
+    "15261": {
+      "pax-pax-scc-iati-activitiesfile.xml": 1
+    },
+    "15170": {
+      "pax-pax-scc-iati-activitiesfile.xml": 6,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "15210": {
+      "pax-paxpocactivitydataset.xml": 3
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "pax-pax-c30-iati-activitiesfile.xml": 6,
+      "pax-pax-scc-iati-activitiesfile.xml": 4,
+      "pax-paxpocactivitydataset.xml": 9,
+      "pax-pax-c1-activitiesfile.xml": 9,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 14
+    },
+    "21": {
+      "pax-pax-c30-iati-activitiesfile.xml": 22,
+      "pax-pax-scc-iati-activitiesfile.xml": 52,
+      "pax-pax-ua6p0199.xml": 2,
+      "pax-paxpocactivitydataset.xml": 200,
+      "pax-pax-c1-activitiesfile.xml": 23,
+      "pax-pax-c31-activitiesfile.xml": 18,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 90,
+      "pax-pax-ss6p0165-activitiesfile.xml": 8
+    },
+    "22": {
+      "pax-pax-ua6p0199.xml": 2
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "pax-pax-c30-iati-activitiesfile.xml": 8,
+      "pax-pax-scc-iati-activitiesfile.xml": 39,
+      "pax-pax-ua6p0199.xml": 2,
+      "pax-paxpocactivitydataset.xml": 133,
+      "pax-pax-c1-activitiesfile.xml": 32,
+      "pax-pax-c31-activitiesfile.xml": 18,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 74,
+      "pax-pax-ss6p0165-activitiesfile.xml": 3
+    },
+    "22": {
+      "pax-pax-scc-iati-activitiesfile.xml": 4,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 6
+    },
+    "80": {
+      "pax-pax-scc-iati-activitiesfile.xml": 5,
+      "pax-paxpocactivitydataset.xml": 7
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "pax-pax-c30-iati-activitiesfile.xml": 5,
+      "pax-pax-scc-iati-activitiesfile.xml": 12,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 43,
+      "pax-pax-c1-activitiesfile.xml": 8,
+      "pax-pax-c31-activitiesfile.xml": 5,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 52,
+      "pax-pax-ss6p0165-activitiesfile.xml": 2
+    },
+    "3": {
+      "pax-pax-c30-iati-activitiesfile.xml": 23,
+      "pax-pax-scc-iati-activitiesfile.xml": 21,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 70,
+      "pax-pax-c1-activitiesfile.xml": 21,
+      "pax-pax-c31-activitiesfile.xml": 12,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 31
+    },
+    "4": {
+      "pax-pax-c30-iati-activitiesfile.xml": 11,
+      "pax-pax-scc-iati-activitiesfile.xml": 12,
+      "pax-paxpocactivitydataset.xml": 50,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 18,
+      "pax-pax-ss6p0165-activitiesfile.xml": 5
+    },
+    "11": {
+      "pax-pax-c30-iati-activitiesfile.xml": 1,
+      "pax-pax-scc-iati-activitiesfile.xml": 10,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 26,
+      "pax-pax-c1-activitiesfile.xml": 1,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 9,
+      "pax-pax-ss6p0165-activitiesfile.xml": 1
+    },
+    "2": {
+      "pax-pax-scc-iati-activitiesfile.xml": 13,
+      "pax-pax-ua6p0199.xml": 1,
+      "pax-paxpocactivitydataset.xml": 20,
+      "pax-pax-c1-activitiesfile.xml": 2,
+      "pax-pax-c31-activitiesfile.xml": 1,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "pax-pax-c30-iati-activitiesfile.xml": 40,
+      "pax-pax-scc-iati-activitiesfile.xml": 68,
+      "pax-pax-ua6p0199.xml": 4,
+      "pax-paxpocactivitydataset.xml": 209,
+      "pax-pax-c1-activitiesfile.xml": 32,
+      "pax-pax-c31-activitiesfile.xml": 19,
+      "pax-pax-c34-r11p013-activitiesfile.xml": 111,
+      "pax-pax-ss6p0165-activitiesfile.xml": 8
+    }
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "simavi-wai.xml": {
+        "EUR": 1
+      },
+      "simavi-201801.xml": {
+        "EUR": 39
+      }
+    },
+    ".//activity-date/@type": {
+      "simavi-wai.xml": {
+        "1": 1,
+        "3": 1,
+        "2": 1
+      },
+      "simavi-201801.xml": {
+        "1": 39,
+        "3": 39,
+        "2": 39,
+        "4": 27
+      }
+    },
+    ".//activity-status/@code": {
+      "simavi-wai.xml": {
+        "2": 1
+      },
+      "simavi-201801.xml": {
+        "2": 35,
+        "3": 4
+      }
+    },
+    ".//budget/@status": {
+      "simavi-wai.xml": {
+        "2": 1
+      },
+      "simavi-201801.xml": {
+        "2": 169
+      }
+    },
+    ".//budget/@type": {
+      "simavi-wai.xml": {
+        "1": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "simavi-wai.xml": {
+        "EUR": 1
+      },
+      "simavi-201801.xml": {
+        "EUR": 169
+      }
+    },
+    ".//collaboration-type/@code": {
+      "simavi-wai.xml": {
+        "3": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "simavi-wai.xml": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "simavi-wai.xml": {
+        "C01": 1
+      },
+      "simavi-201801.xml": {
+        "C01": 39
+      }
+    },
+    ".//default-finance-type/@code": {
+      "simavi-wai.xml": {
+        "110": 1
+      },
+      "simavi-201801.xml": {
+        "110": 39
+      }
+    },
+    ".//default-flow-type/@code": {
+      "simavi-wai.xml": {
+        "30": 1
+      },
+      "simavi-201801.xml": {
+        "30": 39
+      }
+    },
+    ".//default-tied-status/@code": {
+      "simavi-wai.xml": {
+        "5": 1
+      },
+      "simavi-201801.xml": {
+        "5": 39
+      }
+    },
+    ".//description/@type": {
+      "simavi-wai.xml": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "simavi-wai.xml": {
+        "1": 1,
+        "2": 1,
+        "4": 5,
+        "3": 1
+      },
+      "simavi-201801.xml": {
+        "2": 39,
+        "1": 15,
+        "4": 253
+      }
+    },
+    ".//participating-org/@type": {
+      "simavi-wai.xml": {
+        "10": 1,
+        "22": 6,
+        "21": 1
+      },
+      "simavi-201801.xml": {
+        "21": 108,
+        "10": 15,
+        "70": 21,
+        "22": 81,
+        "80": 5,
+        "23": 62,
+        "71": 2,
+        "15": 1,
+        "24": 2,
+        "73": 2,
+        "72": 7,
+        "60": 1
+      }
+    },
+    ".//planned-disbursement/@type": {
+      "simavi-wai.xml": {
+        "1": 6
+      }
+    },
+    ".//planned-disbursement/provider-org/@type": {
+      "simavi-wai.xml": {
+        "60": 6
+      }
+    },
+    ".//planned-disbursement/receiver-org/@type": {
+      "simavi-wai.xml": {
+        "22": 6
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "simavi-wai.xml": {
+        "EUR": 6
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "simavi-wai.xml": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "simavi-201801.xml": {
+        "1": 34,
+        "9": 21,
+        "2": 6,
+        "3": 6,
+        "7": 17
+      }
+    },
+    ".//policy-marker/@significance": {
+      "simavi-wai.xml": {
+        "1": 2,
+        "2": 1
+      },
+      "simavi-201801.xml": {
+        "1": 57,
+        "4": 17,
+        "2": 10
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "simavi-wai.xml": {
+        "1": 3
+      },
+      "simavi-201801.xml": {
+        "1": 84
+      }
+    },
+    ".//recipient-country/@code": {
+      "simavi-wai.xml": {
+        "BD": 1,
+        "NP": 1,
+        "GH": 1,
+        "KE": 1,
+        "UG": 1,
+        "ML": 1,
+        "ET": 1
+      },
+      "simavi-201801.xml": {
+        "BD": 10,
+        "GH": 7,
+        "TZ": 5,
+        "NL": 5,
+        "IN": 3,
+        "MW": 5,
+        "KE": 6,
+        "UG": 11,
+        "ID": 6,
+        "ET": 3,
+        "NP": 5,
+        "ZM": 2,
+        "MZ": 1,
+        "RW": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "simavi-wai.xml": {
+        "998": 1
+      },
+      "simavi-201801.xml": {
+        "298": 2
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "simavi-wai.xml": {
+        "1": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "simavi-wai.xml": {
+        "2": 4
+      },
+      "simavi-201801.xml": {
+        "1": 28
+      }
+    },
+    ".//reporting-org/@type": {
+      "simavi-wai.xml": {
+        "22": 1
+      },
+      "simavi-201801.xml": {
+        "21": 39
+      }
+    },
+    ".//result/@type": {
+      "simavi-wai.xml": {
+        "1": 1
+      },
+      "simavi-201801.xml": {
+        "3": 19,
+        "2": 116,
+        "1": 123
+      }
+    },
+    ".//result/indicator/@measure": {
+      "simavi-wai.xml": {
+        "1": 10
+      },
+      "simavi-201801.xml": {
+        "1": 502,
+        "2": 230
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "simavi-wai.xml": {
+        "14030": 1
+      },
+      "simavi-201801.xml": {
+        "11130": 1,
+        "11230": 5,
+        "12261": 16,
+        "14032": 1,
+        "92030": 1,
+        "15170": 4,
+        "13020": 16,
+        "13030": 15,
+        "14030": 19,
+        "14010": 5,
+        "14050": 1,
+        "12110": 1,
+        "13081": 4
+      }
+    },
+    ".//sector/@vocabulary": {
+      "simavi-wai.xml": {
+        "1": 1
+      },
+      "simavi-201801.xml": {
+        "1": 89
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "simavi-wai.xml": {
+        "C01": 69
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "simavi-wai.xml": {
+        "3": 46,
+        "4": 1,
+        "2": 22
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "simavi-wai.xml": {
+        "110": 69
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "simavi-wai.xml": {
+        "30": 66,
+        "10": 3
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "simavi-wai.xml": {
+        "22": 43,
+        "NGO": 2,
+        "60": 2,
+        "10": 2,
+        "30": 1,
+        "21": 1
+      },
+      "simavi-201801.xml": {
+        "10": 37,
+        "21": 5,
+        "22": 32
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "simavi-wai.xml": {
+        "22": 8,
+        "60": 1,
+        "NGO": 1,
+        "21": 1
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "simavi-wai.xml": {
+        "5": 69
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "simavi-wai.xml": {
+        "3": 61,
+        "2": 6,
+        "1": 2,
+        "11": 1,
+        "4": 1
+      },
+      "simavi-201801.xml": {
+        "11": 9,
+        "1": 65,
+        "2": 346,
+        "3": 1039,
+        "4": 1355
+      }
+    },
+    ".//transaction/value/@currency": {
+      "simavi-wai.xml": {
+        "EUR": 68
+      },
+      "simavi-201801.xml": {
+        "EUR": 2814
+      }
+    },
+    ".//@xml:lang": {
+      "simavi-wai.xml": {
+        "en": 214
+      },
+      "simavi-201801.xml": {
+        "EN": 3664,
+        "nl": 1929,
+        "en": 1904,
+        "fr": 40,
+        "es": 40,
+        "NL": 63
+      }
+    },
+    ".//document-link/@format": {
+      "simavi-201801.xml": {
+        "application/pdf": 9
+      }
+    },
+    ".//document-link/category/@code": {
+      "simavi-201801.xml": {
+        "A02": 1,
+        "B01": 7,
+        "A07": 2,
+        "A08": 2
+      }
+    },
+    ".//document-link/language/@code": {
+      "simavi-201801.xml": {
+        "en": 9
+      }
+    }
+  }
+}

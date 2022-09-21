@@ -1,0 +1,254 @@
+{
+  ".//@default-currency": {
+    "GBP": 2
+  },
+  ".//activity-date/@type": {
+    "1": 2,
+    "2": 2,
+    "3": 2
+  },
+  ".//activity-scope/@code": {
+    "1": 2
+  },
+  ".//activity-status/@code": {
+    "2": 2
+  },
+  ".//budget/@status": {
+    "1": 6
+  },
+  ".//contact-info/@type": {
+    "1": 2
+  },
+  ".//crs-add/channel-code/text()": {
+    "20000": 2
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 2
+  },
+  ".//default-finance-type/@code": {
+    "110": 2
+  },
+  ".//default-flow-type/@code": {
+    "10": 2
+  },
+  ".//default-tied-status/@code": {
+    "5": 2
+  },
+  ".//description/@type": {
+    "1": 2
+  },
+  ".//document-link/@format": {
+    "text/html": 10,
+    "application/pdf": 8
+  },
+  ".//document-link/category/@code": {
+    "A02": 3,
+    "B16": 2,
+    "A09": 2,
+    "A04": 3,
+    "B15": 7,
+    "A11": 1,
+    "B02": 1,
+    "B14": 3,
+    "B01": 3,
+    "B09": 2,
+    "B06": 2,
+    "B05": 3,
+    "A05": 1,
+    "A12": 2,
+    "A08": 1,
+    "A07": 1
+  },
+  ".//document-link/language/@code": {
+    "en": 18
+  },
+  ".//other-identifier/@type": {
+    "B1": 2,
+    "A3": 72
+  },
+  ".//participating-org/@role": {
+    "1": 2,
+    "4": 2
+  },
+  ".//participating-org/@type": {
+    "15": 2
+  },
+  ".//policy-marker/@significance": {
+    "2": 2
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "3": 2
+  },
+  ".//recipient-country/@code": {
+    "AF": 30,
+    "AL": 30,
+    "AM": 30,
+    "AR": 30,
+    "AZ": 30,
+    "BA": 30,
+    "BD": 30,
+    "BR": 30,
+    "BW": 30,
+    "CD": 19,
+    "CL": 19,
+    "CN": 30,
+    "CO": 30,
+    "CU": 30,
+    "DZ": 30,
+    "EG": 30,
+    "ET": 28,
+    "FJ": 11,
+    "GE": 30,
+    "GH": 30,
+    "ID": 30,
+    "IN": 30,
+    "IQ": 30,
+    "IR": 30,
+    "JM": 30,
+    "JO": 30,
+    "KE": 30,
+    "KZ": 30,
+    "LB": 30,
+    "LK": 30,
+    "LY": 30,
+    "MA": 30,
+    "MK": 30,
+    "MM": 30,
+    "MU": 30,
+    "MW": 30,
+    "MX": 30,
+    "MY": 30,
+    "MZ": 30,
+    "NA": 30,
+    "NG": 30,
+    "NP": 30,
+    "PE": 30,
+    "PH": 30,
+    "PK": 30,
+    "PS": 30,
+    "RS": 30,
+    "RW": 30,
+    "SD": 30,
+    "SL": 30,
+    "SN": 30,
+    "SS": 25,
+    "SY": 30,
+    "TH": 30,
+    "TN": 30,
+    "TR": 30,
+    "TZ": 30,
+    "UA": 30,
+    "UG": 30,
+    "UY": 19,
+    "UZ": 30,
+    "VE": 30,
+    "VN": 30,
+    "XK": 30,
+    "YE": 30,
+    "ZA": 29,
+    "ZM": 30,
+    "ZW": 30
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": 1
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": 91
+  },
+  ".//related-activity/@type": {
+    "2": 1,
+    "1": 1
+  },
+  ".//reporting-org/@type": {
+    "10": 2
+  },
+  ".//sector/@vocabulary": {
+    "1": 2
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "43081": 2
+  },
+  ".//transaction/provider-org/@type": {
+    "10": 2002
+  },
+  ".//transaction/receiver-org/@type": {
+    "15": 2002
+  },
+  ".//transaction/recipient-country/@code": {
+    "AF": 29,
+    "AL": 29,
+    "AM": 29,
+    "AR": 29,
+    "AZ": 29,
+    "BA": 29,
+    "BD": 29,
+    "BR": 29,
+    "BW": 29,
+    "CD": 18,
+    "CL": 18,
+    "CN": 29,
+    "CO": 29,
+    "CU": 29,
+    "DZ": 29,
+    "EG": 29,
+    "ET": 27,
+    "GE": 29,
+    "GH": 29,
+    "ID": 29,
+    "IN": 29,
+    "IQ": 29,
+    "IR": 29,
+    "JM": 29,
+    "JO": 29,
+    "KE": 29,
+    "KZ": 29,
+    "LB": 29,
+    "LK": 29,
+    "LY": 29,
+    "MA": 29,
+    "MK": 29,
+    "MM": 29,
+    "MU": 29,
+    "MW": 29,
+    "MX": 29,
+    "MY": 29,
+    "MZ": 29,
+    "NA": 29,
+    "NG": 29,
+    "NP": 29,
+    "PE": 29,
+    "PH": 29,
+    "PK": 29,
+    "PS": 29,
+    "RS": 29,
+    "RW": 29,
+    "SD": 29,
+    "SL": 29,
+    "SN": 29,
+    "SS": 24,
+    "SY": 29,
+    "TH": 29,
+    "TN": 29,
+    "TR": 29,
+    "TZ": 29,
+    "UA": 29,
+    "UG": 29,
+    "UY": 18,
+    "UZ": 29,
+    "VE": 29,
+    "VN": 29,
+    "XK": 29,
+    "YE": 29,
+    "ZA": 28,
+    "ZM": 29,
+    "ZW": 29,
+    "FJ": 10
+  },
+  ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": 90
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 413,
+    "3": 1589
+  }
+}

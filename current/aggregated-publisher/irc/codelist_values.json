@@ -1,0 +1,114 @@
+{
+  ".//@default-currency": {
+    "EUR": 7
+  },
+  ".//@xml:lang": {
+    "en": 7
+  },
+  ".//activity-date/@type": {
+    "1": 7,
+    "2": 7,
+    "3": 7
+  },
+  ".//activity-status/@code": {
+    "2": 7
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": 7
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 7
+  },
+  ".//default-finance-type/@code": {
+    "110": 7
+  },
+  ".//default-flow-type/@code": {
+    "10": 7
+  },
+  ".//default-tied-status/@code": {
+    "5": 7
+  },
+  ".//description/@type": {
+    "1": 14,
+    "2": 7
+  },
+  ".//document-link/@format": {
+    "image/jpeg": 7,
+    "application/pdf": 10,
+    "application/msword": 2,
+    "application/vnd.ms-excel": 1,
+    "application/http": 14
+  },
+  ".//document-link/category/@code": {
+    "A12": 21,
+    "A08": 1,
+    "B01": 11,
+    "A05": 1,
+    "B07": 1
+  },
+  ".//document-link/language/@code": {
+    "en": 14
+  },
+  ".//other-identifier/@type": {
+    "B9": 7
+  },
+  ".//participating-org/@role": {
+    "1": 7
+  },
+  ".//participating-org/@type": {
+    "10": 7
+  },
+  ".//policy-marker/@significance": {
+    "1": 7
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": 7
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "3": 7
+  },
+  ".//recipient-country/@code": {
+    "UG": 1,
+    "IN": 1,
+    "HN": 1,
+    "GH": 1,
+    "ET": 1,
+    "BF": 1
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "89": 1
+  },
+  ".//related-activity/@type": {
+    "1": 7
+  },
+  ".//reporting-org/@type": {
+    "80": 7
+  },
+  ".//result/@type": {
+    "1": 22,
+    "2": 15
+  },
+  ".//result/indicator/@measure": {
+    "1": 28,
+    "2": 10
+  },
+  ".//sector/@vocabulary": {
+    "1": 14
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "14010": 7,
+    "14030": 7
+  },
+  ".//transaction/provider-org/@type": {
+    "10": 42,
+    "80": 29
+  },
+  ".//transaction/receiver-org/@type": {
+    "80": 125,
+    "10": 29
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": 40,
+    "4": 126
+  }
+}

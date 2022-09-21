@@ -1,0 +1,416 @@
+{
+  "iati-activity": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/@default-currency": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/@hierarchy": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/@humanitarian": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/@last-updated-datetime": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/activity-date": {
+    "kse-activities.xml": 2
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "kse-activities.xml": 2
+  },
+  "iati-activity/activity-date/@type": {
+    "kse-activities.xml": 2
+  },
+  "iati-activity/activity-status": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/activity-status/@code": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/budget": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/budget/@status": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/budget/@type": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/budget/period-end": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/budget/period-start": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/budget/value": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/budget/value/@currency": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/budget/value/@value-date": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/description": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/description/@type": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/description/narrative": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/iati-identifier": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/participating-org": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/participating-org/@ref": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/participating-org/@role": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/participating-org/@type": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/participating-org/narrative": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/recipient-country": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/recipient-country/@code": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/reporting-org": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/reporting-org/@ref": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/reporting-org/@type": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/reporting-org/narrative": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/sector": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/sector/@code": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/sector/@percentage": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/sector/@vocabulary": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/title": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/title/narrative": {
+    "kse-activities.xml": 1
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "kse-activities.xml": 1
+  },
+  "iati-organisation": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/@default-currency": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/name": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/name/narrative": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/budget-line": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/budget-line/@ref": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/budget-line/narrative": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/budget-line/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/budget-line/value": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/budget-line/value/@currency": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/budget-line/value/@value-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/period-end": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/period-end/@iso-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/period-start": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/period-start/@iso-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/recipient-country": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/recipient-country/@code": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/recipient-country/narrative": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/value": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/value/@currency": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-country-budget/value/@value-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-org-budget": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-org-budget/@status": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-org-budget/period-end": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-org-budget/period-end/@iso-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-org-budget/period-start": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-org-budget/period-start/@iso-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-org-budget/recipient-org": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-org-budget/recipient-org/@ref": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-org-budget/recipient-org/narrative": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-org-budget/recipient-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-org-budget/value": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-org-budget/value/@currency": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-org-budget/value/@value-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/@status": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/budget-line": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/budget-line/@ref": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/budget-line/narrative": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/budget-line/value": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/budget-line/value/@currency": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/budget-line/value/@value-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/period-end": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/period-end/@iso-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/period-start": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/period-start/@iso-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/recipient-region": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/recipient-region/@code": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/recipient-region/@vocabulary": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/recipient-region/narrative": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/value": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/value/@currency": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/recipient-region-budget/value/@value-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/reporting-org": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget/@status": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget/budget-line": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget/budget-line/@ref": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget/budget-line/narrative": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget/budget-line/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget/budget-line/value": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget/budget-line/value/@value-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget/period-end": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget/period-end/@iso-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget/period-start": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget/period-start/@iso-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget/value": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget/value/@currency": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-budget/value/@value-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/expense-line": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/expense-line/@ref": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/expense-line/narrative": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/expense-line/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/expense-line/value": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/expense-line/value/@currency": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/expense-line/value/@value-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/period-end": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/period-end/@iso-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/period-start": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/period-start/@iso-date": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/value": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/value/@currency": {
+    "kse-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/value/@value-date": {
+    "kse-org.xml": 1
+  }
+}

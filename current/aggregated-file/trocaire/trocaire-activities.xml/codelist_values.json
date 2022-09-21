@@ -1,0 +1,90 @@
+{
+  ".//@default-currency": {
+    "EUR": 1,
+    "USD": 1
+  },
+  ".//@xml:lang": {
+    "en": 2
+  },
+  ".//activity-date/@type": {
+    "2": 2,
+    "3": 2,
+    "4": 1
+  },
+  ".//activity-status/@code": {
+    "2": 2
+  },
+  ".//budget/value/@currency": {
+    "EUR": 1,
+    "USD": 1
+  },
+  ".//collaboration-type/@code": {
+    "1": 2
+  },
+  ".//contact-info/@type": {
+    "1": 2
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 2
+  },
+  ".//default-finance-type/@code": {
+    "110": 2
+  },
+  ".//default-flow-type/@code": {
+    "30": 2
+  },
+  ".//default-tied-status/@code": {
+    "5": 2
+  },
+  ".//description/@type": {
+    "1": 2,
+    "2": 2
+  },
+  ".//participating-org/@role": {
+    "1": 2,
+    "2": 2,
+    "4": 7
+  },
+  ".//participating-org/@type": {
+    "21": 5,
+    "22": 6
+  },
+  ".//policy-marker/@significance": {
+    "1": 2
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": 2
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "9": 1,
+    "3": 1
+  },
+  ".//recipient-country/@code": {
+    "SO": 1,
+    "ZW": 1
+  },
+  ".//reporting-org/@type": {
+    "21": 2
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "72010": 1,
+    "15150": 1
+  },
+  ".//transaction/provider-org/@type": {
+    "70": 296
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": 296
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": 36,
+    "4": 146,
+    "11": 1,
+    "2": 41,
+    "3": 72
+  },
+  ".//transaction/value/@currency": {
+    "GBP": 138,
+    "USD": 158
+  }
+}

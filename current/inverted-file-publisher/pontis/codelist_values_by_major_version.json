@@ -1,0 +1,877 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "pontis-xk.xml": {
+        "EUR": 1
+      },
+      "pontis-tn.xml": {
+        "EUR": 2
+      },
+      "pontis-md.xml": {
+        "EUR": 3
+      },
+      "pontis-ke.xml": {
+        "EUR": 3
+      },
+      "pontis-mk.xml": {
+        "EUR": 1
+      },
+      "pontis-eg.xml": {
+        "EUR": 1
+      },
+      "pontis-by.xml": {
+        "EUR": 1
+      },
+      "pontis-sk.xml": {
+        "EUR": 3
+      }
+    },
+    ".//activity-date/@type": {
+      "pontis-xk.xml": {
+        "1": 1
+      },
+      "pontis-tn.xml": {
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "pontis-md.xml": {
+        "2": 3,
+        "4": 1,
+        "3": 1
+      },
+      "pontis-ke.xml": {
+        "2": 3,
+        "3": 2,
+        "4": 1
+      },
+      "pontis-mk.xml": {
+        "2": 1,
+        "3": 1
+      },
+      "pontis-eg.xml": {
+        "2": 1,
+        "4": 1
+      },
+      "pontis-by.xml": {
+        "2": 1,
+        "4": 1
+      },
+      "pontis-sk.xml": {
+        "2": 3,
+        "3": 1,
+        "4": 2
+      }
+    },
+    ".//activity-status/@code": {
+      "pontis-xk.xml": {
+        "1": 1
+      },
+      "pontis-tn.xml": {
+        "3": 2
+      },
+      "pontis-md.xml": {
+        "3": 3
+      },
+      "pontis-ke.xml": {
+        "3": 2,
+        "2": 1
+      },
+      "pontis-mk.xml": {
+        "3": 1
+      },
+      "pontis-eg.xml": {
+        "3": 1
+      },
+      "pontis-by.xml": {
+        "3": 1
+      },
+      "pontis-sk.xml": {
+        "3": 3
+      }
+    },
+    ".//budget/@status": {
+      "pontis-xk.xml": {
+        "1": 1
+      },
+      "pontis-tn.xml": {
+        "1": 2
+      },
+      "pontis-md.xml": {
+        "1": 3
+      },
+      "pontis-ke.xml": {
+        "1": 5
+      },
+      "pontis-mk.xml": {
+        "1": 1
+      },
+      "pontis-eg.xml": {
+        "1": 1
+      },
+      "pontis-by.xml": {
+        "1": 1
+      },
+      "pontis-sk.xml": {
+        "1": 2
+      }
+    },
+    ".//budget/@type": {
+      "pontis-xk.xml": {
+        "1": 1
+      },
+      "pontis-tn.xml": {
+        "1": 2
+      },
+      "pontis-md.xml": {
+        "1": 3
+      },
+      "pontis-ke.xml": {
+        "1": 5
+      },
+      "pontis-mk.xml": {
+        "1": 1
+      },
+      "pontis-eg.xml": {
+        "1": 1
+      },
+      "pontis-by.xml": {
+        "1": 1
+      },
+      "pontis-sk.xml": {
+        "1": 2
+      }
+    },
+    ".//budget/value/@currency": {
+      "pontis-xk.xml": {
+        "EUR": 1
+      },
+      "pontis-tn.xml": {
+        "EUR": 2
+      },
+      "pontis-md.xml": {
+        "EUR": 3
+      },
+      "pontis-ke.xml": {
+        "EUR": 5
+      },
+      "pontis-mk.xml": {
+        "EUR": 1
+      },
+      "pontis-eg.xml": {
+        "EUR": 1
+      },
+      "pontis-by.xml": {
+        "EUR": 1
+      },
+      "pontis-sk.xml": {
+        "EUR": 2
+      }
+    },
+    ".//collaboration-type/@code": {
+      "pontis-xk.xml": {
+        "1": 1
+      },
+      "pontis-tn.xml": {
+        "1": 2
+      },
+      "pontis-md.xml": {
+        "1": 3
+      },
+      "pontis-ke.xml": {
+        "1": 3
+      },
+      "pontis-mk.xml": {
+        "1": 1
+      },
+      "pontis-eg.xml": {
+        "1": 1
+      },
+      "pontis-by.xml": {
+        "1": 1
+      },
+      "pontis-sk.xml": {
+        "1": 3
+      }
+    },
+    ".//contact-info/@type": {
+      "pontis-xk.xml": {
+        "1": 1
+      },
+      "pontis-tn.xml": {
+        "1": 2
+      },
+      "pontis-md.xml": {
+        "1": 3
+      },
+      "pontis-ke.xml": {
+        "2": 3
+      },
+      "pontis-mk.xml": {
+        "1": 1
+      },
+      "pontis-eg.xml": {
+        "1": 1
+      },
+      "pontis-by.xml": {
+        "1": 1
+      },
+      "pontis-sk.xml": {
+        "1": 3
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pontis-xk.xml": {
+        "C01": 1
+      },
+      "pontis-tn.xml": {
+        "C01": 2
+      },
+      "pontis-md.xml": {
+        "C01": 3
+      },
+      "pontis-ke.xml": {
+        "C01": 3
+      },
+      "pontis-mk.xml": {
+        "C01": 1
+      },
+      "pontis-eg.xml": {
+        "C01": 1
+      },
+      "pontis-by.xml": {
+        "C01": 1
+      },
+      "pontis-sk.xml": {
+        "C01": 3
+      }
+    },
+    ".//default-finance-type/@code": {
+      "pontis-xk.xml": {
+        "110": 1
+      },
+      "pontis-tn.xml": {
+        "110": 2
+      },
+      "pontis-md.xml": {
+        "110": 3
+      },
+      "pontis-ke.xml": {
+        "110": 3
+      },
+      "pontis-mk.xml": {
+        "110": 1
+      },
+      "pontis-eg.xml": {
+        "110": 1
+      },
+      "pontis-by.xml": {
+        "110": 1
+      },
+      "pontis-sk.xml": {
+        "110": 2
+      }
+    },
+    ".//default-flow-type/@code": {
+      "pontis-xk.xml": {
+        "10": 1
+      },
+      "pontis-tn.xml": {
+        "10": 2
+      },
+      "pontis-md.xml": {
+        "10": 3
+      },
+      "pontis-ke.xml": {
+        "10": 3
+      },
+      "pontis-mk.xml": {
+        "10": 1
+      },
+      "pontis-eg.xml": {
+        "10": 1
+      },
+      "pontis-by.xml": {
+        "10": 1
+      },
+      "pontis-sk.xml": {
+        "10": 3
+      }
+    },
+    ".//default-tied-status/@code": {
+      "pontis-xk.xml": {
+        "5": 1
+      },
+      "pontis-tn.xml": {
+        "5": 2
+      },
+      "pontis-md.xml": {
+        "5": 3
+      },
+      "pontis-ke.xml": {
+        "5": 3
+      },
+      "pontis-mk.xml": {
+        "5": 1
+      },
+      "pontis-eg.xml": {
+        "5": 1
+      },
+      "pontis-by.xml": {
+        "5": 1
+      },
+      "pontis-sk.xml": {
+        "5": 3
+      }
+    },
+    ".//description/@type": {
+      "pontis-xk.xml": {
+        "2": 1,
+        "1": 1
+      },
+      "pontis-tn.xml": {
+        "2": 2,
+        "1": 1
+      },
+      "pontis-md.xml": {
+        "1": 2
+      },
+      "pontis-ke.xml": {
+        "1": 3,
+        "3": 1,
+        "2": 1
+      },
+      "pontis-mk.xml": {
+        "2": 1,
+        "3": 1
+      },
+      "pontis-eg.xml": {
+        "1": 1
+      },
+      "pontis-by.xml": {
+        "1": 1
+      },
+      "pontis-sk.xml": {
+        "1": 3,
+        "2": 2,
+        "3": 1
+      }
+    },
+    ".//location/location-reach/@code": {
+      "pontis-xk.xml": {
+        "1": 1
+      },
+      "pontis-tn.xml": {
+        "1": 2
+      },
+      "pontis-md.xml": {
+        "1": 2
+      },
+      "pontis-ke.xml": {
+        "1": 2
+      },
+      "pontis-mk.xml": {
+        "1": 3
+      },
+      "pontis-eg.xml": {
+        "1": 1
+      },
+      "pontis-by.xml": {
+        "1": 1
+      },
+      "pontis-sk.xml": {
+        "1": 5
+      }
+    },
+    ".//location/exactness/@code": {
+      "pontis-xk.xml": {
+        "2": 1
+      },
+      "pontis-tn.xml": {
+        "2": 1
+      },
+      "pontis-md.xml": {
+        "2": 1
+      },
+      "pontis-ke.xml": {
+        "2": 1
+      },
+      "pontis-mk.xml": {
+        "2": 3
+      },
+      "pontis-eg.xml": {
+        "2": 1
+      },
+      "pontis-by.xml": {
+        "2": 1
+      },
+      "pontis-sk.xml": {
+        "2": 4
+      }
+    },
+    ".//participating-org/@role": {
+      "pontis-xk.xml": {
+        "3": 1,
+        "1": 1,
+        "4": 1
+      },
+      "pontis-tn.xml": {
+        "3": 2,
+        "4": 2,
+        "1": 2
+      },
+      "pontis-md.xml": {
+        "3": 3,
+        "1": 2,
+        "4": 2
+      },
+      "pontis-ke.xml": {
+        "3": 3,
+        "1": 3,
+        "4": 3
+      },
+      "pontis-mk.xml": {
+        "3": 1,
+        "4": 1,
+        "1": 1
+      },
+      "pontis-eg.xml": {
+        "3": 1,
+        "1": 1,
+        "4": 1
+      },
+      "pontis-by.xml": {
+        "3": 1,
+        "4": 1,
+        "1": 1
+      },
+      "pontis-sk.xml": {
+        "1": 3,
+        "4": 5
+      }
+    },
+    ".//participating-org/@type": {
+      "pontis-xk.xml": {
+        "22": 1,
+        "10": 1,
+        "60": 1
+      },
+      "pontis-tn.xml": {
+        "22": 2,
+        "60": 2,
+        "10": 2
+      },
+      "pontis-md.xml": {
+        "10": 3,
+        "60": 3,
+        "22": 1
+      },
+      "pontis-ke.xml": {
+        "22": 3,
+        "10": 3,
+        "60": 3
+      },
+      "pontis-mk.xml": {
+        "22": 1,
+        "60": 1,
+        "10": 1
+      },
+      "pontis-eg.xml": {
+        "10": 1,
+        "60": 1
+      },
+      "pontis-by.xml": {
+        "80": 1,
+        "60": 1,
+        "10": 1
+      },
+      "pontis-sk.xml": {
+        "10": 2,
+        "60": 3
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pontis-xk.xml": {
+        "3": 1
+      },
+      "pontis-tn.xml": {
+        "3": 2
+      },
+      "pontis-md.xml": {
+        "3": 3
+      },
+      "pontis-ke.xml": {
+        "3": 3
+      },
+      "pontis-mk.xml": {
+        "3": 1
+      },
+      "pontis-eg.xml": {
+        "3": 1
+      },
+      "pontis-by.xml": {
+        "3": 1
+      },
+      "pontis-sk.xml": {
+        "3": 3
+      }
+    },
+    ".//policy-marker/@significance": {
+      "pontis-xk.xml": {
+        "1": 1
+      },
+      "pontis-tn.xml": {
+        "1": 2
+      },
+      "pontis-md.xml": {
+        "1": 3
+      },
+      "pontis-ke.xml": {
+        "1": 3
+      },
+      "pontis-mk.xml": {
+        "1": 1
+      },
+      "pontis-eg.xml": {
+        "1": 1
+      },
+      "pontis-by.xml": {
+        "1": 1
+      },
+      "pontis-sk.xml": {
+        "1": 3
+      }
+    },
+    ".//recipient-country/@code": {
+      "pontis-xk.xml": {
+        "XK": 1
+      },
+      "pontis-tn.xml": {
+        "TN": 2
+      },
+      "pontis-md.xml": {
+        "MD": 3
+      },
+      "pontis-ke.xml": {
+        "KE": 3
+      },
+      "pontis-mk.xml": {
+        "MK": 1,
+        "RS": 1
+      },
+      "pontis-eg.xml": {
+        "EG": 1,
+        "TN": 1
+      },
+      "pontis-by.xml": {
+        "BY": 1
+      },
+      "pontis-sk.xml": {
+        "SK": 3,
+        "CY": 1,
+        "IE": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "pontis-xk.xml": {
+        "60": 1
+      },
+      "pontis-tn.xml": {
+        "60": 2
+      },
+      "pontis-md.xml": {
+        "60": 3
+      },
+      "pontis-ke.xml": {
+        "60": 3
+      },
+      "pontis-mk.xml": {
+        "60": 1
+      },
+      "pontis-eg.xml": {
+        "60": 1
+      },
+      "pontis-by.xml": {
+        "60": 1
+      },
+      "pontis-sk.xml": {
+        "60": 3
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pontis-xk.xml": {
+        "15150": 1
+      },
+      "pontis-tn.xml": {
+        "15150": 2
+      },
+      "pontis-md.xml": {
+        "15150": 3
+      },
+      "pontis-ke.xml": {
+        "11120": 1,
+        "11130": 2,
+        "11320": 5,
+        "22040": 1
+      },
+      "pontis-mk.xml": {
+        "15150": 1
+      },
+      "pontis-eg.xml": {
+        "15150": 1
+      },
+      "pontis-by.xml": {
+        "11110": 1
+      },
+      "pontis-sk.xml": {
+        "99820": 2,
+        "11120": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "pontis-xk.xml": {
+        "1": 1
+      },
+      "pontis-tn.xml": {
+        "1": 2
+      },
+      "pontis-md.xml": {
+        "1": 3
+      },
+      "pontis-ke.xml": {
+        "1": 9
+      },
+      "pontis-mk.xml": {
+        "1": 1
+      },
+      "pontis-eg.xml": {
+        "1": 1
+      },
+      "pontis-by.xml": {
+        "1": 1
+      },
+      "pontis-sk.xml": {
+        "1": 3
+      }
+    },
+    ".//@xml:lang": {
+      "pontis-xk.xml": {
+        "en": 2
+      },
+      "pontis-tn.xml": {
+        "en": 15
+      },
+      "pontis-md.xml": {
+        "en": 12
+      },
+      "pontis-ke.xml": {
+        "en": 52
+      },
+      "pontis-mk.xml": {
+        "en": 9
+      },
+      "pontis-eg.xml": {
+        "en": 4
+      },
+      "pontis-by.xml": {
+        "en": 5
+      },
+      "pontis-sk.xml": {
+        "en": 27
+      }
+    },
+    ".//document-link/@format": {
+      "pontis-tn.xml": {
+        "text/html": 3
+      },
+      "pontis-md.xml": {
+        "text/html": 2
+      },
+      "pontis-ke.xml": {
+        "text/html": 2
+      },
+      "pontis-mk.xml": {
+        "text/html": 1
+      },
+      "pontis-eg.xml": {
+        "text/html": 1
+      },
+      "pontis-by.xml": {
+        "text/html": 1
+      },
+      "pontis-sk.xml": {
+        "text/html": 2,
+        "application/vnd.anser-web-certificate-issue-initiation": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "pontis-tn.xml": {
+        "A12": 3
+      },
+      "pontis-md.xml": {
+        "A12": 2
+      },
+      "pontis-ke.xml": {
+        "A12": 2
+      },
+      "pontis-mk.xml": {
+        "A12": 1
+      },
+      "pontis-eg.xml": {
+        "A12": 1
+      },
+      "pontis-by.xml": {
+        "A12": 1
+      },
+      "pontis-sk.xml": {
+        "A12": 3
+      }
+    },
+    ".//document-link/language/@code": {
+      "pontis-tn.xml": {
+        "en": 3
+      },
+      "pontis-md.xml": {
+        "en": 2
+      },
+      "pontis-ke.xml": {
+        "en": 2
+      },
+      "pontis-mk.xml": {
+        "en": 1
+      },
+      "pontis-eg.xml": {
+        "en": 1
+      },
+      "pontis-by.xml": {
+        "en": 1
+      },
+      "pontis-sk.xml": {
+        "en": 3
+      }
+    },
+    ".//result/@type": {
+      "pontis-tn.xml": {
+        "1": 1
+      },
+      "pontis-md.xml": {
+        "1": 2
+      },
+      "pontis-ke.xml": {
+        "1": 5,
+        "3": 1,
+        "2": 1
+      },
+      "pontis-by.xml": {
+        "1": 1
+      },
+      "pontis-sk.xml": {
+        "1": 2
+      }
+    },
+    ".//result/indicator/@measure": {
+      "pontis-tn.xml": {
+        "1": 1
+      },
+      "pontis-md.xml": {
+        "1": 2
+      },
+      "pontis-ke.xml": {
+        "1": 7
+      },
+      "pontis-by.xml": {
+        "1": 1
+      },
+      "pontis-sk.xml": {
+        "1": 2
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "pontis-tn.xml": {
+        "4": 1
+      },
+      "pontis-md.xml": {
+        "4": 2
+      },
+      "pontis-ke.xml": {
+        "1": 1,
+        "2": 1,
+        "3": 5,
+        "4": 2
+      },
+      "pontis-mk.xml": {
+        "4": 1
+      },
+      "pontis-sk.xml": {
+        "4": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "pontis-tn.xml": {
+        "EUR": 1
+      },
+      "pontis-md.xml": {
+        "EUR": 2
+      },
+      "pontis-ke.xml": {
+        "EUR": 2
+      },
+      "pontis-mk.xml": {
+        "EUR": 1
+      },
+      "pontis-sk.xml": {
+        "EUR": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "pontis-md.xml": {
+        "2": 2
+      },
+      "pontis-ke.xml": {
+        "4": 1,
+        "2": 6,
+        "3": 1
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pontis-ke.xml": {
+        "C01": 7
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "pontis-ke.xml": {
+        "110": 7
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "pontis-ke.xml": {
+        "10": 7
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "pontis-ke.xml": {
+        "60": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "pontis-ke.xml": {
+        "22": 1
+      }
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pontis-ke.xml": {
+        "11320": 5
+      }
+    },
+    ".//transaction/sector/@vocabulary": {
+      "pontis-ke.xml": {
+        "1": 5
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "pontis-ke.xml": {
+        "5": 7
+      }
+    }
+  }
+}

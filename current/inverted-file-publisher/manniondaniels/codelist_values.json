@@ -1,0 +1,788 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "manniondaniels-activities.xml": 2,
+      "manniondaniels-ukaid.xml": 2
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "manniondaniels-activities.xml": 49
+    },
+    "fr": {
+      "manniondaniels-activities.xml": 5
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "manniondaniels-sccf.xml": 21,
+      "manniondaniels-mnch2.xml": 1,
+      "manniondaniels-activities.xml": 2,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 59
+    },
+    "3": {
+      "manniondaniels-sccf.xml": 21,
+      "manniondaniels-mnch2.xml": 1,
+      "manniondaniels-activities.xml": 2,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 59
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "manniondaniels-sccf.xml": 21,
+      "manniondaniels-mnch2.xml": 1,
+      "manniondaniels-activities.xml": 2,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 59
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "manniondaniels-activities.xml": 2
+    },
+    "1": {
+      "manniondaniels-activities.xml": 3
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "manniondaniels-mnch2.xml": 1,
+      "manniondaniels-ukaid.xml": 2
+    },
+    "1": {
+      "manniondaniels-activities.xml": 5
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "manniondaniels-mnch2.xml": 1,
+      "manniondaniels-activities.xml": 2,
+      "manniondaniels-ukaid.xml": 2
+    },
+    "EUR": {
+      "manniondaniels-activities.xml": 3
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "manniondaniels-ukaid.xml": 2
+    }
+  },
+  ".//contact-info/@type": {
+    "2": {
+      "manniondaniels-activities.xml": 2
+    },
+    "1": {
+      "manniondaniels-ukaid.xml": 2
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "manniondaniels-activities.xml": 2
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "manniondaniels-activities.xml": 2,
+      "manniondaniels-ukaid.xml": 2
+    },
+    "B03": {
+      "manniondaniels-amplifychange.xml": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "manniondaniels-activities.xml": 2
+    },
+    "2": {
+      "manniondaniels-activities.xml": 1
+    }
+  },
+  ".//document-link/@format": {
+    "text/html": {
+      "manniondaniels-mnch2.xml": 1,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "video/vnd.uvvu.mp4": {
+      "manniondaniels-activities.xml": 1
+    },
+    "application/pdf": {
+      "manniondaniels-activities.xml": 5
+    },
+    "video/mp4": {
+      "manniondaniels-activities.xml": 1
+    },
+    "application/vnd.oasis.opendocument.text-web": {
+      "manniondaniels-activities.xml": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A12": {
+      "manniondaniels-mnch2.xml": 1,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "A06": {
+      "manniondaniels-activities.xml": 2
+    },
+    "B01": {
+      "manniondaniels-activities.xml": 2
+    },
+    "A08": {
+      "manniondaniels-activities.xml": 4
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "manniondaniels-mnch2.xml": 1,
+      "manniondaniels-activities.xml": 8,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 1
+    }
+  },
+  ".//participating-org/@crs-channel-code": {
+    "11000": {
+      "manniondaniels-activities.xml": 1
+    },
+    "60000": {
+      "manniondaniels-activities.xml": 1
+    },
+    "21000": {
+      "manniondaniels-activities.xml": 1
+    },
+    "20000": {
+      "manniondaniels-activities.xml": 19
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "manniondaniels-sccf.xml": 80,
+      "manniondaniels-mnch2.xml": 1,
+      "manniondaniels-activities.xml": 20,
+      "manniondaniels-ukaid.xml": 244,
+      "manniondaniels-amplifychange.xml": 414
+    },
+    "3": {
+      "manniondaniels-sccf.xml": 21,
+      "manniondaniels-mnch2.xml": 1,
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 59
+    },
+    "1": {
+      "manniondaniels-activities.xml": 2,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 10
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "manniondaniels-sccf.xml": 80,
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 174,
+      "manniondaniels-amplifychange.xml": 8
+    },
+    "70": {
+      "manniondaniels-sccf.xml": 21,
+      "manniondaniels-mnch2.xml": 2,
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 60
+    },
+    "10": {
+      "manniondaniels-activities.xml": 2,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 5
+    },
+    "22": {
+      "manniondaniels-activities.xml": 19,
+      "manniondaniels-ukaid.xml": 25,
+      "manniondaniels-amplifychange.xml": 378
+    },
+    "80": {
+      "manniondaniels-ukaid.xml": 6
+    },
+    "23": {
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "60": {
+      "manniondaniels-amplifychange.xml": 2
+    }
+  },
+  ".//policy-marker/@significance": {
+    "2": {
+      "manniondaniels-activities.xml": 1
+    },
+    "1": {
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "manniondaniels-activities.xml": 2
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "9": {
+      "manniondaniels-activities.xml": 1
+    },
+    "1": {
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "BD": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-ukaid.xml": 160,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "BF": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "KH": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-ukaid.xml": 18
+    },
+    "ET": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-ukaid.xml": 130,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "GM": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "GH": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-ukaid.xml": 103,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "KE": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 183,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "LB": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-ukaid.xml": 7
+    },
+    "LS": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "MW": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-ukaid.xml": 124,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "ML": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 7,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "NP": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-ukaid.xml": 188,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "PK": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-ukaid.xml": 78,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "RW": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-ukaid.xml": 76,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "SL": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 152,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "SO": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 15,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "TZ": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-ukaid.xml": 100,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "UG": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-ukaid.xml": 232,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "ZM": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-ukaid.xml": 57,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "ZW": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-ukaid.xml": 90,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "MG": {
+      "manniondaniels-sccf.xml": 1,
+      "manniondaniels-ukaid.xml": 4,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "NG": {
+      "manniondaniels-mnch2.xml": 126,
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 46,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "LR": {
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 25,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "CI": {
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "SS": {
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 76,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "MZ": {
+      "manniondaniels-ukaid.xml": 14,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "SN": {
+      "manniondaniels-ukaid.xml": 25,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "AF": {
+      "manniondaniels-ukaid.xml": 69,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "HT": {
+      "manniondaniels-ukaid.xml": 26,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "MM": {
+      "manniondaniels-ukaid.xml": 48
+    },
+    "GW": {
+      "manniondaniels-ukaid.xml": 20,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "IN": {
+      "manniondaniels-ukaid.xml": 6,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "NE": {
+      "manniondaniels-ukaid.xml": 22,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "CD": {
+      "manniondaniels-ukaid.xml": 46,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "SD": {
+      "manniondaniels-ukaid.xml": 38,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "CF": {
+      "manniondaniels-ukaid.xml": 44,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "LA": {
+      "manniondaniels-ukaid.xml": 1
+    },
+    "BI": {
+      "manniondaniels-ukaid.xml": 13,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "YE": {
+      "manniondaniels-ukaid.xml": 12
+    },
+    "TJ": {
+      "manniondaniels-ukaid.xml": 11
+    },
+    "IQ": {
+      "manniondaniels-ukaid.xml": 3
+    },
+    "GB": {
+      "manniondaniels-ukaid.xml": 22
+    },
+    "AO": {
+      "manniondaniels-ukaid.xml": 3,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "TG": {
+      "manniondaniels-ukaid.xml": 8,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "CM": {
+      "manniondaniels-ukaid.xml": 5,
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "BJ": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "BT": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "BO": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "BW": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "KM": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "CG": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "EG": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "SZ": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "GA": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "GT": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "GN": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "HN": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "ID": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "JO": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "MR": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "NA": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "NI": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "PS": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "ZA": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "LK": {
+      "manniondaniels-amplifychange.xml": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "manniondaniels-activities.xml": 2
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "298": {
+      "manniondaniels-mnch2.xml": 1,
+      "manniondaniels-activities.xml": 1
+    },
+    "679": {
+      "manniondaniels-activities.xml": 1
+    },
+    "998": {
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 2
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "manniondaniels-sccf.xml": 21,
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-amplifychange.xml": 58
+    },
+    "2": {
+      "manniondaniels-amplifychange.xml": 58
+    }
+  },
+  ".//reporting-org/@type": {
+    "70": {
+      "manniondaniels-sccf.xml": 21,
+      "manniondaniels-mnch2.xml": 1,
+      "manniondaniels-activities.xml": 2,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 59
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "manniondaniels-amplifychange.xml": 63
+    }
+  },
+  ".//result/indicator/@measure": {
+    "2": {
+      "manniondaniels-amplifychange.xml": 61
+    },
+    "1": {
+      "manniondaniels-amplifychange.xml": 2
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "manniondaniels-activities.xml": 2
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "43010": {
+      "manniondaniels-sccf.xml": 21,
+      "manniondaniels-mnch2.xml": 1,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 59
+    },
+    "11110": {
+      "manniondaniels-activities.xml": 1
+    },
+    "13020": {
+      "manniondaniels-activities.xml": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "manniondaniels-activities.xml": 9
+    },
+    "70": {
+      "manniondaniels-activities.xml": 43
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "70": {
+      "manniondaniels-activities.xml": 10
+    },
+    "22": {
+      "manniondaniels-activities.xml": 39
+    },
+    "21": {
+      "manniondaniels-activities.xml": 2
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "NG": {
+      "manniondaniels-mnch2.xml": 126,
+      "manniondaniels-ukaid.xml": 46
+    },
+    "ZW": {
+      "manniondaniels-ukaid.xml": 90
+    },
+    "UG": {
+      "manniondaniels-ukaid.xml": 232
+    },
+    "SS": {
+      "manniondaniels-ukaid.xml": 76
+    },
+    "MW": {
+      "manniondaniels-ukaid.xml": 124
+    },
+    "MZ": {
+      "manniondaniels-ukaid.xml": 14
+    },
+    "PK": {
+      "manniondaniels-ukaid.xml": 78
+    },
+    "SN": {
+      "manniondaniels-ukaid.xml": 25
+    },
+    "BD": {
+      "manniondaniels-ukaid.xml": 160
+    },
+    "AF": {
+      "manniondaniels-ukaid.xml": 69
+    },
+    "KE": {
+      "manniondaniels-ukaid.xml": 183
+    },
+    "ET": {
+      "manniondaniels-ukaid.xml": 130
+    },
+    "HT": {
+      "manniondaniels-ukaid.xml": 26
+    },
+    "SL": {
+      "manniondaniels-ukaid.xml": 152
+    },
+    "TZ": {
+      "manniondaniels-ukaid.xml": 100
+    },
+    "GH": {
+      "manniondaniels-ukaid.xml": 103
+    },
+    "MM": {
+      "manniondaniels-ukaid.xml": 48
+    },
+    "NP": {
+      "manniondaniels-ukaid.xml": 188
+    },
+    "KH": {
+      "manniondaniels-ukaid.xml": 18
+    },
+    "ZM": {
+      "manniondaniels-ukaid.xml": 57
+    },
+    "GW": {
+      "manniondaniels-ukaid.xml": 20
+    },
+    "RW": {
+      "manniondaniels-ukaid.xml": 76
+    },
+    "LR": {
+      "manniondaniels-ukaid.xml": 25
+    },
+    "IN": {
+      "manniondaniels-ukaid.xml": 6
+    },
+    "SO": {
+      "manniondaniels-ukaid.xml": 15
+    },
+    "NE": {
+      "manniondaniels-ukaid.xml": 22
+    },
+    "CD": {
+      "manniondaniels-ukaid.xml": 46
+    },
+    "SD": {
+      "manniondaniels-ukaid.xml": 38
+    },
+    "MG": {
+      "manniondaniels-ukaid.xml": 4
+    },
+    "CF": {
+      "manniondaniels-ukaid.xml": 44
+    },
+    "LA": {
+      "manniondaniels-ukaid.xml": 1
+    },
+    "BI": {
+      "manniondaniels-ukaid.xml": 13
+    },
+    "YE": {
+      "manniondaniels-ukaid.xml": 12
+    },
+    "TJ": {
+      "manniondaniels-ukaid.xml": 11
+    },
+    "IQ": {
+      "manniondaniels-ukaid.xml": 3
+    },
+    "GB": {
+      "manniondaniels-ukaid.xml": 22
+    },
+    "LB": {
+      "manniondaniels-ukaid.xml": 7
+    },
+    "AO": {
+      "manniondaniels-ukaid.xml": 3
+    },
+    "ML": {
+      "manniondaniels-ukaid.xml": 7
+    },
+    "TG": {
+      "manniondaniels-ukaid.xml": 8
+    },
+    "CM": {
+      "manniondaniels-ukaid.xml": 5
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": {
+      "manniondaniels-sccf.xml": 489,
+      "manniondaniels-activities.xml": 42,
+      "manniondaniels-ukaid.xml": 2615,
+      "manniondaniels-amplifychange.xml": 21
+    },
+    "1": {
+      "manniondaniels-mnch2.xml": 63,
+      "manniondaniels-activities.xml": 7,
+      "manniondaniels-ukaid.xml": 621,
+      "manniondaniels-amplifychange.xml": 63
+    },
+    "4": {
+      "manniondaniels-mnch2.xml": 63,
+      "manniondaniels-activities.xml": 1
+    },
+    "11": {
+      "manniondaniels-activities.xml": 2
+    },
+    "2": {
+      "manniondaniels-activities.xml": 1,
+      "manniondaniels-ukaid.xml": 2,
+      "manniondaniels-amplifychange.xml": 934
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "manniondaniels-sccf.xml": 489,
+      "manniondaniels-mnch2.xml": 126,
+      "manniondaniels-activities.xml": 5,
+      "manniondaniels-ukaid.xml": 3193,
+      "manniondaniels-amplifychange.xml": 12
+    },
+    "EUR": {
+      "manniondaniels-activities.xml": 48,
+      "manniondaniels-amplifychange.xml": 962
+    },
+    "USD": {
+      "manniondaniels-amplifychange.xml": 14
+    },
+    "DKK": {
+      "manniondaniels-amplifychange.xml": 15
+    },
+    "NOK": {
+      "manniondaniels-amplifychange.xml": 1
+    },
+    "SEK": {
+      "manniondaniels-amplifychange.xml": 14
+    }
+  }
+}

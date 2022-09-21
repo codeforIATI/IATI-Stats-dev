@@ -1,0 +1,632 @@
+{
+  "iati-activity": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/@default-currency": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/@hierarchy": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/@humanitarian": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/@last-updated-datetime": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/activity-date": {
+    "ada-activities.xml": 9
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "ada-activities.xml": 9
+  },
+  "iati-activity/activity-date/@type": {
+    "ada-activities.xml": 9
+  },
+  "iati-activity/activity-status": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/activity-status/@code": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/budget": {
+    "ada-activities.xml": 10
+  },
+  "iati-activity/budget/@status": {
+    "ada-activities.xml": 10
+  },
+  "iati-activity/budget/@type": {
+    "ada-activities.xml": 10
+  },
+  "iati-activity/budget/period-end": {
+    "ada-activities.xml": 10
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "ada-activities.xml": 10
+  },
+  "iati-activity/budget/period-start": {
+    "ada-activities.xml": 10
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "ada-activities.xml": 10
+  },
+  "iati-activity/budget/value": {
+    "ada-activities.xml": 10
+  },
+  "iati-activity/budget/value/@currency": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/budget/value/@value-date": {
+    "ada-activities.xml": 10
+  },
+  "iati-activity/collaboration-type": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/collaboration-type/@code": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/conditions": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/conditions/@attached": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/contact-info": {
+    "ada-activities.xml": 4
+  },
+  "iati-activity/contact-info/@type": {
+    "ada-activities.xml": 4
+  },
+  "iati-activity/contact-info/department": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/contact-info/department/narrative": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/contact-info/email": {
+    "ada-activities.xml": 4
+  },
+  "iati-activity/contact-info/job-title": {
+    "ada-activities.xml": 4
+  },
+  "iati-activity/contact-info/job-title/narrative": {
+    "ada-activities.xml": 4
+  },
+  "iati-activity/contact-info/job-title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/contact-info/mailing-address": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/contact-info/mailing-address/narrative": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/contact-info/mailing-address/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/contact-info/organisation": {
+    "ada-activities.xml": 4
+  },
+  "iati-activity/contact-info/organisation/narrative": {
+    "ada-activities.xml": 4
+  },
+  "iati-activity/contact-info/organisation/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/contact-info/person-name": {
+    "ada-activities.xml": 4
+  },
+  "iati-activity/contact-info/person-name/narrative": {
+    "ada-activities.xml": 4
+  },
+  "iati-activity/contact-info/person-name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/contact-info/telephone": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/contact-info/website": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/default-aid-type": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/default-aid-type/@code": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/default-aid-type/@vocabulary": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/default-finance-type": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/default-finance-type/@code": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/default-flow-type": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/default-flow-type/@code": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/default-tied-status": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/default-tied-status/@code": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/description": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/description/@type": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/description/narrative": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/document-link": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/document-link/@format": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/document-link/@url": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/document-link/category": {
+    "ada-activities.xml": 5
+  },
+  "iati-activity/document-link/category/@code": {
+    "ada-activities.xml": 5
+  },
+  "iati-activity/document-link/document-date": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/document-link/document-date/@iso-date": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/document-link/language": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/document-link/language/@code": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/document-link/title": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/document-link/title/narrative": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/iati-identifier": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/location": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/location/description": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/location/description/narrative": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/location/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/location/exactness": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/location/exactness/@code": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/location/location-class": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/location/location-class/@code": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/location/location-reach": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/location/location-reach/@code": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/location/name": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/location/name/narrative": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/location/point": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/location/point/@srsName": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/location/point/pos": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/other-identifier": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/other-identifier/@ref": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/other-identifier/@type": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/other-identifier/owner-org": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/other-identifier/owner-org/@ref": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/other-identifier/owner-org/narrative": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/other-identifier/owner-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/participating-org": {
+    "ada-activities.xml": 12
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "ada-activities.xml": 8
+  },
+  "iati-activity/participating-org/@ref": {
+    "ada-activities.xml": 11
+  },
+  "iati-activity/participating-org/@role": {
+    "ada-activities.xml": 12
+  },
+  "iati-activity/participating-org/@type": {
+    "ada-activities.xml": 12
+  },
+  "iati-activity/participating-org/narrative": {
+    "ada-activities.xml": 12
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/policy-marker": {
+    "ada-activities.xml": 7
+  },
+  "iati-activity/policy-marker/@code": {
+    "ada-activities.xml": 7
+  },
+  "iati-activity/policy-marker/@significance": {
+    "ada-activities.xml": 7
+  },
+  "iati-activity/policy-marker/@vocabulary": {
+    "ada-activities.xml": 7
+  },
+  "iati-activity/recipient-country": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/recipient-country/@code": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/recipient-region": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/recipient-region/@code": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/recipient-region/@vocabulary": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/related-activity": {
+    "ada-activities.xml": 4
+  },
+  "iati-activity/related-activity/@ref": {
+    "ada-activities.xml": 4
+  },
+  "iati-activity/related-activity/@type": {
+    "ada-activities.xml": 4
+  },
+  "iati-activity/reporting-org": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/reporting-org/@ref": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/reporting-org/@type": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/reporting-org/narrative": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/result": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/result/@aggregation-status": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/result/@type": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/result/indicator": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/result/indicator/@measure": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/result/indicator/baseline": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/result/indicator/description": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/result/indicator/description/narrative": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period": {
+    "ada-activities.xml": 6
+  },
+  "iati-activity/result/indicator/period/actual": {
+    "ada-activities.xml": 5
+  },
+  "iati-activity/result/indicator/period/actual/@value": {
+    "ada-activities.xml": 5
+  },
+  "iati-activity/result/indicator/period/actual/comment": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "ada-activities.xml": 6
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "ada-activities.xml": 6
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "ada-activities.xml": 6
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "ada-activities.xml": 6
+  },
+  "iati-activity/result/indicator/period/target": {
+    "ada-activities.xml": 6
+  },
+  "iati-activity/result/indicator/period/target/@value": {
+    "ada-activities.xml": 6
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "ada-activities.xml": 4
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "ada-activities.xml": 4
+  },
+  "iati-activity/result/indicator/title": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/result/title": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/result/title/narrative": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/sector": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/sector/@code": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/sector/@percentage": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/sector/@vocabulary": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/title": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/title/narrative": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/transaction": {
+    "ada-activities.xml": 45
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/transaction/@ref": {
+    "ada-activities.xml": 5
+  },
+  "iati-activity/transaction/description": {
+    "ada-activities.xml": 14
+  },
+  "iati-activity/transaction/description/narrative": {
+    "ada-activities.xml": 14
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-activities.xml": 2
+  },
+  "iati-activity/transaction/disbursement-channel": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/transaction/disbursement-channel/@code": {
+    "ada-activities.xml": 1
+  },
+  "iati-activity/transaction/provider-org": {
+    "ada-activities.xml": 45
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "ada-activities.xml": 45
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "ada-activities.xml": 45
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "ada-activities.xml": 42
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "ada-activities.xml": 38
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-activities.xml": 14
+  },
+  "iati-activity/transaction/receiver-org": {
+    "ada-activities.xml": 36
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "ada-activities.xml": 22
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "ada-activities.xml": 27
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "ada-activities.xml": 34
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "ada-activities.xml": 28
+  },
+  "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-activities.xml": 3
+  },
+  "iati-activity/transaction/transaction-date": {
+    "ada-activities.xml": 45
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "ada-activities.xml": 45
+  },
+  "iati-activity/transaction/transaction-type": {
+    "ada-activities.xml": 45
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "ada-activities.xml": 45
+  },
+  "iati-activity/transaction/value": {
+    "ada-activities.xml": 45
+  },
+  "iati-activity/transaction/value/@currency": {
+    "ada-activities.xml": 27
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "ada-activities.xml": 45
+  },
+  "iati-organisation": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/@default-currency": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/name": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/name/narrative": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/reporting-org": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/total-budget": {
+    "ada-org.xml": 5
+  },
+  "iati-organisation/total-budget/@status": {
+    "ada-org.xml": 5
+  },
+  "iati-organisation/total-budget/period-end": {
+    "ada-org.xml": 5
+  },
+  "iati-organisation/total-budget/period-end/@iso-date": {
+    "ada-org.xml": 5
+  },
+  "iati-organisation/total-budget/period-start": {
+    "ada-org.xml": 5
+  },
+  "iati-organisation/total-budget/period-start/@iso-date": {
+    "ada-org.xml": 5
+  },
+  "iati-organisation/total-budget/value": {
+    "ada-org.xml": 5
+  },
+  "iati-organisation/total-budget/value/@currency": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/total-budget/value/@value-date": {
+    "ada-org.xml": 5
+  },
+  "iati-organisation/total-expenditure": {
+    "ada-org.xml": 4
+  },
+  "iati-organisation/total-expenditure/period-end": {
+    "ada-org.xml": 4
+  },
+  "iati-organisation/total-expenditure/period-end/@iso-date": {
+    "ada-org.xml": 4
+  },
+  "iati-organisation/total-expenditure/period-start": {
+    "ada-org.xml": 4
+  },
+  "iati-organisation/total-expenditure/period-start/@iso-date": {
+    "ada-org.xml": 4
+  },
+  "iati-organisation/total-expenditure/value": {
+    "ada-org.xml": 4
+  },
+  "iati-organisation/total-expenditure/value/@currency": {
+    "ada-org.xml": 1
+  },
+  "iati-organisation/total-expenditure/value/@value-date": {
+    "ada-org.xml": 4
+  }
+}

@@ -1,0 +1,1858 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "rvo-01.xml": 4046,
+      "rvo-activities.xml": 57
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "rvo-01.xml": 104397,
+      "rvo-activities.xml": 1529
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "rvo-01.xml": 4042,
+      "rvo-activities.xml": 25
+    },
+    "2": {
+      "rvo-01.xml": 4043,
+      "rvo-activities.xml": 54
+    },
+    "3": {
+      "rvo-01.xml": 4030,
+      "rvo-activities.xml": 33
+    },
+    "4": {
+      "rvo-01.xml": 4011,
+      "rvo-activities.xml": 31
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "rvo-01.xml": 630,
+      "rvo-activities.xml": 26
+    },
+    "3": {
+      "rvo-01.xml": 3254
+    },
+    "5": {
+      "rvo-01.xml": 156
+    },
+    "1": {
+      "rvo-01.xml": 4
+    },
+    "4": {
+      "rvo-01.xml": 1,
+      "rvo-activities.xml": 31
+    },
+    "": {
+      "rvo-01.xml": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "rvo-01.xml": 7536,
+      "rvo-activities.xml": 2
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "rvo-01.xml": 7536,
+      "rvo-activities.xml": 2
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "rvo-01.xml": 7536,
+      "rvo-activities.xml": 2
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "rvo-01.xml": 3621
+    },
+    "3": {
+      "rvo-01.xml": 134,
+      "rvo-activities.xml": 29
+    },
+    "8": {
+      "rvo-01.xml": 248
+    },
+    "2": {
+      "rvo-activities.xml": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "rvo-activities.xml": 29
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "rvo-01.xml": 3555,
+      "rvo-activities.xml": 29
+    },
+    "B01": {
+      "rvo-01.xml": 101
+    },
+    "B03": {
+      "rvo-01.xml": 2
+    },
+    "D01": {
+      "rvo-01.xml": 4
+    },
+    "D02": {
+      "rvo-01.xml": 335
+    },
+    "A01": {
+      "rvo-01.xml": 7
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "rvo-01.xml": 4011,
+      "rvo-activities.xml": 53
+    },
+    "111": {
+      "rvo-01.xml": 1
+    },
+    "1100": {
+      "rvo-01.xml": 1
+    },
+    "512": {
+      "rvo-activities.xml": 2
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "rvo-01.xml": 3999,
+      "rvo-activities.xml": 2
+    },
+    "10": {
+      "rvo-01.xml": 3,
+      "rvo-activities.xml": 27
+    },
+    "50": {
+      "rvo-01.xml": 3
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "rvo-01.xml": 2915,
+      "rvo-activities.xml": 31
+    },
+    "4": {
+      "rvo-01.xml": 632,
+      "rvo-activities.xml": 24
+    },
+    "3": {
+      "rvo-01.xml": 469
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "rvo-01.xml": 4046,
+      "rvo-activities.xml": 57
+    },
+    "2": {
+      "rvo-01.xml": 722
+    }
+  },
+  ".//document-link/@format": {
+    "text/html": {
+      "rvo-01.xml": 385,
+      "rvo-activities.xml": 1
+    },
+    "application/pdf": {
+      "rvo-01.xml": 126,
+      "rvo-activities.xml": 15
+    },
+    "image/jpeg": {
+      "rvo-01.xml": 1782,
+      "rvo-activities.xml": 12
+    },
+    "video/mp4": {
+      "rvo-01.xml": 5,
+      "rvo-activities.xml": 2
+    },
+    "application/vnd.ms-powerpoint": {
+      "rvo-01.xml": 1
+    },
+    "image/png": {
+      "rvo-01.xml": 2,
+      "rvo-activities.xml": 2
+    },
+    "message/http": {
+      "rvo-01.xml": 1
+    },
+    "video/vnd.uvvu.mp4": {
+      "rvo-01.xml": 1
+    },
+    "video/vnd.dece.mp4": {
+      "rvo-01.xml": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A12": {
+      "rvo-01.xml": 2301,
+      "rvo-activities.xml": 32
+    },
+    "A02": {
+      "rvo-01.xml": 1
+    },
+    "A08": {
+      "rvo-01.xml": 1
+    },
+    "A01": {
+      "rvo-01.xml": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "rvo-activities.xml": 32
+    }
+  },
+  ".//location/exactness/@code": {
+    "1": {
+      "rvo-activities.xml": 2
+    },
+    "2": {
+      "rvo-activities.xml": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "rvo-01.xml": 4071,
+      "rvo-activities.xml": 53
+    },
+    "2": {
+      "rvo-01.xml": 4046,
+      "rvo-activities.xml": 51
+    },
+    "4": {
+      "rvo-01.xml": 5995,
+      "rvo-activities.xml": 80
+    },
+    "3": {
+      "rvo-01.xml": 6
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "rvo-01.xml": 8559,
+      "rvo-activities.xml": 165
+    },
+    "60": {
+      "rvo-01.xml": 524,
+      "rvo-activities.xml": 2
+    },
+    "71": {
+      "rvo-01.xml": 2206
+    },
+    "15": {
+      "rvo-01.xml": 94
+    },
+    "90": {
+      "rvo-01.xml": 121
+    },
+    "70": {
+      "rvo-01.xml": 546,
+      "rvo-activities.xml": 11
+    },
+    "21": {
+      "rvo-01.xml": 148,
+      "rvo-activities.xml": 4
+    },
+    "73": {
+      "rvo-01.xml": 396
+    },
+    "72": {
+      "rvo-01.xml": 1086
+    },
+    "80": {
+      "rvo-01.xml": 200
+    },
+    "22": {
+      "rvo-01.xml": 115
+    },
+    "11": {
+      "rvo-01.xml": 92
+    },
+    "30": {
+      "rvo-01.xml": 7
+    },
+    "24": {
+      "rvo-01.xml": 8
+    },
+    "23": {
+      "rvo-01.xml": 9
+    },
+    "40": {
+      "rvo-01.xml": 7,
+      "rvo-activities.xml": 2
+    }
+  },
+  ".//policy-marker/@significance": {
+    "2": {
+      "rvo-01.xml": 2268
+    },
+    "1": {
+      "rvo-01.xml": 894,
+      "rvo-activities.xml": 2
+    },
+    "0": {
+      "rvo-01.xml": 52
+    },
+    "4": {
+      "rvo-01.xml": 12
+    },
+    "3": {
+      "rvo-01.xml": 2
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "rvo-01.xml": 3228,
+      "rvo-activities.xml": 2
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "4": {
+      "rvo-01.xml": 1531,
+      "rvo-activities.xml": 2
+    },
+    "1": {
+      "rvo-01.xml": 748
+    },
+    "6": {
+      "rvo-01.xml": 104
+    },
+    "7": {
+      "rvo-01.xml": 43
+    },
+    "3": {
+      "rvo-01.xml": 718
+    },
+    "12": {
+      "rvo-01.xml": 31
+    },
+    "10": {
+      "rvo-01.xml": 2
+    },
+    "2": {
+      "rvo-01.xml": 45
+    },
+    "5": {
+      "rvo-01.xml": 1
+    },
+    "9": {
+      "rvo-01.xml": 4
+    },
+    "8": {
+      "rvo-01.xml": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "AE": {
+      "rvo-01.xml": 6
+    },
+    "AL": {
+      "rvo-01.xml": 42,
+      "rvo-activities.xml": 2
+    },
+    "AR": {
+      "rvo-01.xml": 16
+    },
+    "BD": {
+      "rvo-01.xml": 134,
+      "rvo-activities.xml": 6
+    },
+    "BR": {
+      "rvo-01.xml": 39
+    },
+    "CA": {
+      "rvo-01.xml": 4
+    },
+    "CH": {
+      "rvo-01.xml": 11
+    },
+    "CL": {
+      "rvo-01.xml": 18
+    },
+    "CN": {
+      "rvo-01.xml": 14
+    },
+    "CO": {
+      "rvo-01.xml": 180,
+      "rvo-activities.xml": 3
+    },
+    "DZ": {
+      "rvo-01.xml": 56,
+      "rvo-activities.xml": 2
+    },
+    "EC": {
+      "rvo-01.xml": 12
+    },
+    "EG": {
+      "rvo-01.xml": 122,
+      "rvo-activities.xml": 7
+    },
+    "ES": {
+      "rvo-01.xml": 4
+    },
+    "ET": {
+      "rvo-01.xml": 136,
+      "rvo-activities.xml": 6
+    },
+    "GB": {
+      "rvo-01.xml": 7
+    },
+    "GH": {
+      "rvo-01.xml": 142,
+      "rvo-activities.xml": 3
+    },
+    "ID": {
+      "rvo-01.xml": 163,
+      "rvo-activities.xml": 10
+    },
+    "IN": {
+      "rvo-01.xml": 170
+    },
+    "IR": {
+      "rvo-01.xml": 9
+    },
+    "JO": {
+      "rvo-01.xml": 75,
+      "rvo-activities.xml": 5
+    },
+    "JP": {
+      "rvo-01.xml": 3
+    },
+    "LB": {
+      "rvo-01.xml": 51,
+      "rvo-activities.xml": 4
+    },
+    "MM": {
+      "rvo-01.xml": 161,
+      "rvo-activities.xml": 6
+    },
+    "MX": {
+      "rvo-01.xml": 20
+    },
+    "MZ": {
+      "rvo-01.xml": 189,
+      "rvo-activities.xml": 2
+    },
+    "NI": {
+      "rvo-01.xml": 46,
+      "rvo-activities.xml": 5
+    },
+    "OM": {
+      "rvo-01.xml": 9
+    },
+    "PH": {
+      "rvo-01.xml": 86,
+      "rvo-activities.xml": 3
+    },
+    "PL": {
+      "rvo-01.xml": 8
+    },
+    "TW": {
+      "rvo-01.xml": 3
+    },
+    "TZ": {
+      "rvo-01.xml": 109,
+      "rvo-activities.xml": 4
+    },
+    "US": {
+      "rvo-01.xml": 20
+    },
+    "VN": {
+      "rvo-01.xml": 191,
+      "rvo-activities.xml": 7
+    },
+    "ZA": {
+      "rvo-01.xml": 186,
+      "rvo-activities.xml": 2
+    },
+    "ML": {
+      "rvo-01.xml": 54,
+      "rvo-activities.xml": 3
+    },
+    "SN": {
+      "rvo-01.xml": 98,
+      "rvo-activities.xml": 6
+    },
+    "BI": {
+      "rvo-01.xml": 65
+    },
+    "BJ": {
+      "rvo-01.xml": 33,
+      "rvo-activities.xml": 5
+    },
+    "BO": {
+      "rvo-01.xml": 84,
+      "rvo-activities.xml": 3
+    },
+    "CD": {
+      "rvo-01.xml": 67
+    },
+    "KE": {
+      "rvo-01.xml": 176,
+      "rvo-activities.xml": 6
+    },
+    "KH": {
+      "rvo-01.xml": 21,
+      "rvo-activities.xml": 2
+    },
+    "LA": {
+      "rvo-01.xml": 8,
+      "rvo-activities.xml": 2
+    },
+    "LR": {
+      "rvo-01.xml": 86,
+      "rvo-activities.xml": 2
+    },
+    "MG": {
+      "rvo-01.xml": 34,
+      "rvo-activities.xml": 3
+    },
+    "MW": {
+      "rvo-01.xml": 25
+    },
+    "NL": {
+      "rvo-01.xml": 48
+    },
+    "NP": {
+      "rvo-01.xml": 30,
+      "rvo-activities.xml": 2
+    },
+    "PE": {
+      "rvo-01.xml": 95,
+      "rvo-activities.xml": 2
+    },
+    "RW": {
+      "rvo-01.xml": 82,
+      "rvo-activities.xml": 2
+    },
+    "SL": {
+      "rvo-01.xml": 114,
+      "rvo-activities.xml": 2
+    },
+    "UG": {
+      "rvo-01.xml": 150,
+      "rvo-activities.xml": 6
+    },
+    "NA": {
+      "rvo-01.xml": 10
+    },
+    "SD": {
+      "rvo-01.xml": 48
+    },
+    "AF": {
+      "rvo-01.xml": 32,
+      "rvo-activities.xml": 2
+    },
+    "AM": {
+      "rvo-01.xml": 24,
+      "rvo-activities.xml": 3
+    },
+    "AO": {
+      "rvo-01.xml": 65
+    },
+    "BA": {
+      "rvo-01.xml": 30
+    },
+    "BF": {
+      "rvo-01.xml": 67,
+      "rvo-activities.xml": 4
+    },
+    "CV": {
+      "rvo-01.xml": 29
+    },
+    "DJ": {
+      "rvo-01.xml": 10
+    },
+    "GE": {
+      "rvo-01.xml": 49,
+      "rvo-activities.xml": 2
+    },
+    "GM": {
+      "rvo-01.xml": 7
+    },
+    "GT": {
+      "rvo-01.xml": 39,
+      "rvo-activities.xml": 5
+    },
+    "HN": {
+      "rvo-01.xml": 8,
+      "rvo-activities.xml": 4
+    },
+    "IQ": {
+      "rvo-01.xml": 47
+    },
+    "LK": {
+      "rvo-01.xml": 61,
+      "rvo-activities.xml": 3
+    },
+    "MA": {
+      "rvo-01.xml": 107,
+      "rvo-activities.xml": 3
+    },
+    "MD": {
+      "rvo-01.xml": 46,
+      "rvo-activities.xml": 5
+    },
+    "MK": {
+      "rvo-01.xml": 31,
+      "rvo-activities.xml": 3
+    },
+    "MN": {
+      "rvo-01.xml": 15,
+      "rvo-activities.xml": 3
+    },
+    "NG": {
+      "rvo-01.xml": 111
+    },
+    "PK": {
+      "rvo-01.xml": 64,
+      "rvo-activities.xml": 2
+    },
+    "PS": {
+      "rvo-01.xml": 68
+    },
+    "SR": {
+      "rvo-01.xml": 47,
+      "rvo-activities.xml": 2
+    },
+    "SS": {
+      "rvo-01.xml": 32
+    },
+    "TH": {
+      "rvo-01.xml": 33
+    },
+    "TN": {
+      "rvo-01.xml": 38,
+      "rvo-activities.xml": 3
+    },
+    "XK": {
+      "rvo-01.xml": 42
+    },
+    "YE": {
+      "rvo-01.xml": 27
+    },
+    "ZM": {
+      "rvo-01.xml": 64,
+      "rvo-activities.xml": 4
+    },
+    "SO": {
+      "rvo-01.xml": 21
+    },
+    "BT": {
+      "rvo-01.xml": 12,
+      "rvo-activities.xml": 2
+    },
+    "ZW": {
+      "rvo-01.xml": 79
+    },
+    "BG": {
+      "rvo-01.xml": 4
+    },
+    "CR": {
+      "rvo-01.xml": 11,
+      "rvo-activities.xml": 2
+    },
+    "GY": {
+      "rvo-01.xml": 12
+    },
+    "IE": {
+      "rvo-01.xml": 5
+    },
+    "KI": {
+      "rvo-01.xml": 4
+    },
+    "PA": {
+      "rvo-01.xml": 10,
+      "rvo-activities.xml": 2
+    },
+    "PW": {
+      "rvo-01.xml": 4
+    },
+    "RS": {
+      "rvo-01.xml": 5
+    },
+    "TO": {
+      "rvo-01.xml": 5
+    },
+    "TV": {
+      "rvo-01.xml": 3
+    },
+    "UY": {
+      "rvo-01.xml": 6
+    },
+    "VU": {
+      "rvo-01.xml": 4
+    },
+    "BH": {
+      "rvo-01.xml": 4
+    },
+    "CI": {
+      "rvo-01.xml": 82,
+      "rvo-activities.xml": 2
+    },
+    "CU": {
+      "rvo-01.xml": 10
+    },
+    "GN": {
+      "rvo-01.xml": 21,
+      "rvo-activities.xml": 1
+    },
+    "HT": {
+      "rvo-01.xml": 9
+    },
+    "LY": {
+      "rvo-01.xml": 12
+    },
+    "NE": {
+      "rvo-01.xml": 36
+    },
+    "ST": {
+      "rvo-01.xml": 8
+    },
+    "TD": {
+      "rvo-01.xml": 24
+    },
+    "UA": {
+      "rvo-01.xml": 27
+    },
+    "BE": {
+      "rvo-01.xml": 2
+    },
+    "ER": {
+      "rvo-01.xml": 3
+    },
+    "TG": {
+      "rvo-01.xml": 5
+    },
+    "BW": {
+      "rvo-01.xml": 4
+    },
+    "CF": {
+      "rvo-01.xml": 4
+    },
+    "CM": {
+      "rvo-01.xml": 12
+    },
+    "DM": {
+      "rvo-01.xml": 3
+    },
+    "GR": {
+      "rvo-01.xml": 2
+    },
+    "PG": {
+      "rvo-01.xml": 4
+    },
+    "SZ": {
+      "rvo-01.xml": 6
+    },
+    "TR": {
+      "rvo-01.xml": 11
+    },
+    "BY": {
+      "rvo-01.xml": 2,
+      "rvo-activities.xml": 2
+    },
+    "GA": {
+      "rvo-01.xml": 5
+    },
+    "MY": {
+      "rvo-01.xml": 11
+    },
+    "KW": {
+      "rvo-01.xml": 2
+    },
+    "MR": {
+      "rvo-01.xml": 7
+    },
+    "QA": {
+      "rvo-01.xml": 4
+    },
+    "SA": {
+      "rvo-01.xml": 3
+    },
+    "HU": {
+      "rvo-01.xml": 3
+    },
+    "FJ": {
+      "rvo-01.xml": 5
+    },
+    "MU": {
+      "rvo-01.xml": 2
+    },
+    "RU": {
+      "rvo-01.xml": 2
+    },
+    "BS": {
+      "rvo-01.xml": 3
+    },
+    "BZ": {
+      "rvo-01.xml": 2
+    },
+    "DO": {
+      "rvo-01.xml": 5
+    },
+    "GQ": {
+      "rvo-01.xml": 3
+    },
+    "JM": {
+      "rvo-01.xml": 2
+    },
+    "KG": {
+      "rvo-01.xml": 2
+    },
+    "KM": {
+      "rvo-01.xml": 2
+    },
+    "KP": {
+      "rvo-01.xml": 2
+    },
+    "PY": {
+      "rvo-01.xml": 2
+    },
+    "SV": {
+      "rvo-01.xml": 2,
+      "rvo-activities.xml": 4
+    },
+    "SY": {
+      "rvo-01.xml": 4
+    },
+    "VE": {
+      "rvo-01.xml": 4
+    },
+    "AU": {
+      "rvo-01.xml": 2
+    },
+    "AZ": {
+      "rvo-01.xml": 2
+    },
+    "RO": {
+      "rvo-01.xml": 4
+    },
+    "LT": {
+      "rvo-01.xml": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "rvo-01.xml": 7
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "798": {
+      "rvo-01.xml": 2
+    },
+    "189": {
+      "rvo-01.xml": 1
+    },
+    "289": {
+      "rvo-01.xml": 3
+    },
+    "679": {
+      "rvo-01.xml": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "rvo-01.xml": 4005,
+      "rvo-activities.xml": 56
+    },
+    "3": {
+      "rvo-01.xml": 279
+    },
+    "2": {
+      "rvo-activities.xml": 22
+    }
+  },
+  ".//reporting-org/@type": {
+    "10": {
+      "rvo-01.xml": 4046,
+      "rvo-activities.xml": 57
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "rvo-01.xml": 7816,
+      "rvo-activities.xml": 44
+    },
+    "2": {
+      "rvo-01.xml": 7971,
+      "rvo-activities.xml": 196
+    },
+    "3": {
+      "rvo-01.xml": 136,
+      "rvo-activities.xml": 58
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "rvo-01.xml": 15785,
+      "rvo-activities.xml": 295
+    },
+    "5": {
+      "rvo-01.xml": 37
+    },
+    "2": {
+      "rvo-01.xml": 101,
+      "rvo-activities.xml": 3
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "rvo-01.xml": 12042,
+      "rvo-activities.xml": 3
+    },
+    "8": {
+      "rvo-01.xml": 12
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "rvo-01.xml": 5831,
+      "rvo-activities.xml": 127
+    },
+    "7": {
+      "rvo-01.xml": 6950,
+      "rvo-activities.xml": 13
+    },
+    "8": {
+      "rvo-01.xml": 92
+    },
+    "9": {
+      "rvo-01.xml": 46
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "23230": {
+      "rvo-01.xml": 26
+    },
+    "23270": {
+      "rvo-01.xml": 23
+    },
+    "23181": {
+      "rvo-01.xml": 37
+    },
+    "11110": {
+      "rvo-01.xml": 10
+    },
+    "11420": {
+      "rvo-01.xml": 9
+    },
+    "12261": {
+      "rvo-01.xml": 7
+    },
+    "14010": {
+      "rvo-01.xml": 441
+    },
+    "14015": {
+      "rvo-01.xml": 179
+    },
+    "14021": {
+      "rvo-01.xml": 84
+    },
+    "14040": {
+      "rvo-01.xml": 29
+    },
+    "14050": {
+      "rvo-01.xml": 117
+    },
+    "14081": {
+      "rvo-01.xml": 22
+    },
+    "15111": {
+      "rvo-01.xml": 16
+    },
+    "16010": {
+      "rvo-01.xml": 6
+    },
+    "16030": {
+      "rvo-01.xml": 3
+    },
+    "21010": {
+      "rvo-01.xml": 20
+    },
+    "21030": {
+      "rvo-01.xml": 13
+    },
+    "21040": {
+      "rvo-01.xml": 104
+    },
+    "21050": {
+      "rvo-01.xml": 17
+    },
+    "21081": {
+      "rvo-01.xml": 7
+    },
+    "23110": {
+      "rvo-01.xml": 20
+    },
+    "23210": {
+      "rvo-01.xml": 58
+    },
+    "23240": {
+      "rvo-01.xml": 11
+    },
+    "23250": {
+      "rvo-01.xml": 4
+    },
+    "23260": {
+      "rvo-01.xml": 6
+    },
+    "24010": {
+      "rvo-01.xml": 14
+    },
+    "31110": {
+      "rvo-01.xml": 40
+    },
+    "31120": {
+      "rvo-01.xml": 363,
+      "rvo-activities.xml": 5
+    },
+    "31140": {
+      "rvo-01.xml": 61
+    },
+    "31161": {
+      "rvo-01.xml": 230,
+      "rvo-activities.xml": 3
+    },
+    "31162": {
+      "rvo-01.xml": 111,
+      "rvo-activities.xml": 6
+    },
+    "31163": {
+      "rvo-01.xml": 91
+    },
+    "31181": {
+      "rvo-01.xml": 74
+    },
+    "31192": {
+      "rvo-01.xml": 29
+    },
+    "31320": {
+      "rvo-01.xml": 55,
+      "rvo-activities.xml": 4
+    },
+    "32120": {
+      "rvo-01.xml": 48
+    },
+    "32163": {
+      "rvo-01.xml": 77,
+      "rvo-activities.xml": 7
+    },
+    "32182": {
+      "rvo-01.xml": 14
+    },
+    "32210": {
+      "rvo-01.xml": 21
+    },
+    "33120": {
+      "rvo-01.xml": 209
+    },
+    "41010": {
+      "rvo-01.xml": 22
+    },
+    "43030": {
+      "rvo-01.xml": 50
+    },
+    "43040": {
+      "rvo-01.xml": 24
+    },
+    "43060": {
+      "rvo-01.xml": 306
+    },
+    "99810": {
+      "rvo-01.xml": 98
+    },
+    "25010": {
+      "rvo-01.xml": 30,
+      "rvo-activities.xml": 1
+    },
+    "31191": {
+      "rvo-01.xml": 38
+    },
+    "11120": {
+      "rvo-01.xml": 24
+    },
+    "12110": {
+      "rvo-01.xml": 23
+    },
+    "12191": {
+      "rvo-01.xml": 43
+    },
+    "14022": {
+      "rvo-01.xml": 47
+    },
+    "14031": {
+      "rvo-01.xml": 33
+    },
+    "16040": {
+      "rvo-01.xml": 13
+    },
+    "16061": {
+      "rvo-01.xml": 19
+    },
+    "21020": {
+      "rvo-01.xml": 37
+    },
+    "21061": {
+      "rvo-01.xml": 14
+    },
+    "22020": {
+      "rvo-01.xml": 4
+    },
+    "22030": {
+      "rvo-01.xml": 8
+    },
+    "22040": {
+      "rvo-01.xml": 58
+    },
+    "23220": {
+      "rvo-01.xml": 7
+    },
+    "23231": {
+      "rvo-01.xml": 5
+    },
+    "23410": {
+      "rvo-01.xml": 7
+    },
+    "31150": {
+      "rvo-01.xml": 32
+    },
+    "31165": {
+      "rvo-01.xml": 16
+    },
+    "31182": {
+      "rvo-01.xml": 121
+    },
+    "31195": {
+      "rvo-01.xml": 25
+    },
+    "31220": {
+      "rvo-01.xml": 9
+    },
+    "31261": {
+      "rvo-01.xml": 11
+    },
+    "31291": {
+      "rvo-01.xml": 3
+    },
+    "32130": {
+      "rvo-01.xml": 201,
+      "rvo-activities.xml": 11
+    },
+    "32161": {
+      "rvo-01.xml": 169,
+      "rvo-activities.xml": 4
+    },
+    "32162": {
+      "rvo-01.xml": 18,
+      "rvo-activities.xml": 1
+    },
+    "32164": {
+      "rvo-01.xml": 30
+    },
+    "32165": {
+      "rvo-01.xml": 10
+    },
+    "32166": {
+      "rvo-01.xml": 8
+    },
+    "32168": {
+      "rvo-01.xml": 12
+    },
+    "32169": {
+      "rvo-01.xml": 22
+    },
+    "32170": {
+      "rvo-01.xml": 3
+    },
+    "32171": {
+      "rvo-01.xml": 16,
+      "rvo-activities.xml": 1
+    },
+    "32172": {
+      "rvo-01.xml": 13
+    },
+    "32220": {
+      "rvo-01.xml": 20
+    },
+    "32261": {
+      "rvo-01.xml": 4
+    },
+    "32262": {
+      "rvo-01.xml": 17
+    },
+    "32263": {
+      "rvo-01.xml": 4
+    },
+    "32264": {
+      "rvo-01.xml": 5
+    },
+    "32265": {
+      "rvo-01.xml": 6
+    },
+    "32266": {
+      "rvo-01.xml": 12
+    },
+    "32267": {
+      "rvo-01.xml": 2
+    },
+    "32310": {
+      "rvo-01.xml": 13
+    },
+    "33210": {
+      "rvo-01.xml": 34,
+      "rvo-activities.xml": 5
+    },
+    "43032": {
+      "rvo-01.xml": 14
+    },
+    "43073": {
+      "rvo-01.xml": 6
+    },
+    "14020": {
+      "rvo-01.xml": 79
+    },
+    "14030": {
+      "rvo-01.xml": 138
+    },
+    "14032": {
+      "rvo-01.xml": 8
+    },
+    "16020": {
+      "rvo-01.xml": 25
+    },
+    "16050": {
+      "rvo-01.xml": 42
+    },
+    "24040": {
+      "rvo-01.xml": 2
+    },
+    "31193": {
+      "rvo-01.xml": 15
+    },
+    "31194": {
+      "rvo-01.xml": 13,
+      "rvo-activities.xml": 1
+    },
+    "72050": {
+      "rvo-01.xml": 14
+    },
+    "11130": {
+      "rvo-01.xml": 2
+    },
+    "11182": {
+      "rvo-01.xml": 7
+    },
+    "11330": {
+      "rvo-01.xml": 14
+    },
+    "11430": {
+      "rvo-01.xml": 9
+    },
+    "12182": {
+      "rvo-01.xml": 27
+    },
+    "12220": {
+      "rvo-01.xml": 108
+    },
+    "12230": {
+      "rvo-01.xml": 10
+    },
+    "12281": {
+      "rvo-01.xml": 2
+    },
+    "13020": {
+      "rvo-01.xml": 6
+    },
+    "15110": {
+      "rvo-01.xml": 41
+    },
+    "15125": {
+      "rvo-01.xml": 3
+    },
+    "15126": {
+      "rvo-01.xml": 4
+    },
+    "15128": {
+      "rvo-01.xml": 5
+    },
+    "15131": {
+      "rvo-01.xml": 7
+    },
+    "15170": {
+      "rvo-01.xml": 29
+    },
+    "15185": {
+      "rvo-01.xml": 21
+    },
+    "16015": {
+      "rvo-01.xml": 5
+    },
+    "16065": {
+      "rvo-01.xml": 2
+    },
+    "21011": {
+      "rvo-01.xml": 9
+    },
+    "22010": {
+      "rvo-01.xml": 2
+    },
+    "23182": {
+      "rvo-01.xml": 26
+    },
+    "23630": {
+      "rvo-01.xml": 3
+    },
+    "23640": {
+      "rvo-01.xml": 2
+    },
+    "24081": {
+      "rvo-01.xml": 7
+    },
+    "25030": {
+      "rvo-01.xml": 7,
+      "rvo-activities.xml": 31
+    },
+    "25040": {
+      "rvo-01.xml": 64,
+      "rvo-activities.xml": 21
+    },
+    "31130": {
+      "rvo-01.xml": 27
+    },
+    "31164": {
+      "rvo-01.xml": 18
+    },
+    "31210": {
+      "rvo-01.xml": 6
+    },
+    "31310": {
+      "rvo-01.xml": 5,
+      "rvo-activities.xml": 3
+    },
+    "31381": {
+      "rvo-01.xml": 1,
+      "rvo-activities.xml": 1
+    },
+    "31382": {
+      "rvo-01.xml": 7
+    },
+    "32110": {
+      "rvo-01.xml": 5
+    },
+    "32167": {
+      "rvo-01.xml": 2
+    },
+    "33110": {
+      "rvo-01.xml": 14
+    },
+    "33130": {
+      "rvo-01.xml": 6
+    },
+    "33150": {
+      "rvo-01.xml": 5
+    },
+    "33181": {
+      "rvo-01.xml": 55
+    },
+    "41020": {
+      "rvo-01.xml": 3
+    },
+    "41081": {
+      "rvo-01.xml": 4
+    },
+    "41082": {
+      "rvo-01.xml": 12
+    },
+    "43010": {
+      "rvo-01.xml": 29
+    },
+    "43031": {
+      "rvo-01.xml": 24
+    },
+    "43041": {
+      "rvo-01.xml": 35
+    },
+    "43071": {
+      "rvo-01.xml": 13
+    },
+    "43081": {
+      "rvo-01.xml": 22,
+      "rvo-activities.xml": 6
+    },
+    "43082": {
+      "rvo-01.xml": 5
+    },
+    "51010": {
+      "rvo-01.xml": 2
+    },
+    "52010": {
+      "rvo-01.xml": 6
+    },
+    "73010": {
+      "rvo-01.xml": 34
+    },
+    "15130": {
+      "rvo-01.xml": 16
+    },
+    "15134": {
+      "rvo-01.xml": 2
+    },
+    "21013": {
+      "rvo-01.xml": 4
+    },
+    "22013": {
+      "rvo-01.xml": 2
+    },
+    "23111": {
+      "rvo-01.xml": 24,
+      "rvo-activities.xml": 1
+    },
+    "23310": {
+      "rvo-01.xml": 3
+    },
+    "24020": {
+      "rvo-01.xml": 2
+    },
+    "32174": {
+      "rvo-01.xml": 2
+    },
+    "41040": {
+      "rvo-01.xml": 2
+    },
+    "43042": {
+      "rvo-01.xml": 2
+    },
+    "99820": {
+      "rvo-01.xml": 2
+    },
+    "12250": {
+      "rvo-01.xml": 75
+    },
+    "12263": {
+      "rvo-01.xml": 4
+    },
+    "12181": {
+      "rvo-01.xml": 12
+    },
+    "15153": {
+      "rvo-01.xml": 2
+    },
+    "15210": {
+      "rvo-01.xml": 2
+    },
+    "16066": {
+      "rvo-01.xml": 7
+    },
+    "31391": {
+      "rvo-01.xml": 3
+    },
+    "72010": {
+      "rvo-01.xml": 11
+    },
+    "12262": {
+      "rvo-01.xml": 2
+    },
+    "13040": {
+      "rvo-01.xml": 3
+    },
+    "23320": {
+      "rvo-01.xml": 2
+    },
+    "23642": {
+      "rvo-01.xml": 2
+    },
+    "15160": {
+      "rvo-01.xml": 4
+    },
+    "23112": {
+      "rvo-01.xml": 4
+    },
+    "23183": {
+      "rvo-01.xml": 3
+    },
+    "31281": {
+      "rvo-01.xml": 2
+    },
+    "41030": {
+      "rvo-01.xml": 2
+    },
+    "15112": {
+      "rvo-01.xml": 8
+    },
+    "15150": {
+      "rvo-01.xml": 9
+    },
+    "15190": {
+      "rvo-01.xml": 2
+    },
+    "16080": {
+      "rvo-01.xml": 19
+    },
+    "12340": {
+      "rvo-01.xml": 3
+    },
+    "16070": {
+      "rvo-01.xml": 5
+    },
+    "15118": {
+      "rvo-01.xml": 2
+    },
+    "33140": {
+      "rvo-01.xml": 2
+    },
+    "15113": {
+      "rvo-01.xml": 6
+    },
+    "15135": {
+      "rvo-01.xml": 1
+    },
+    "15116": {
+      "rvo-01.xml": 1
+    },
+    "15155": {
+      "rvo-01.xml": 1
+    },
+    "15220": {
+      "rvo-01.xml": 1
+    },
+    "32140": {
+      "rvo-activities.xml": 10
+    },
+    "53040": {
+      "rvo-activities.xml": 1
+    },
+    "23010": {
+      "rvo-activities.xml": 4
+    }
+  },
+  ".//sector[@vocabulary = '7']/@code": {
+    "7": {
+      "rvo-01.xml": 61,
+      "rvo-activities.xml": 4
+    },
+    "8": {
+      "rvo-01.xml": 2825,
+      "rvo-activities.xml": 1
+    },
+    "11": {
+      "rvo-01.xml": 522
+    },
+    "6": {
+      "rvo-01.xml": 876
+    },
+    "17": {
+      "rvo-01.xml": 288,
+      "rvo-activities.xml": 1
+    },
+    "2": {
+      "rvo-01.xml": 138
+    },
+    "13": {
+      "rvo-01.xml": 520,
+      "rvo-activities.xml": 5
+    },
+    "3": {
+      "rvo-01.xml": 139
+    },
+    "12": {
+      "rvo-01.xml": 429,
+      "rvo-activities.xml": 1
+    },
+    "4": {
+      "rvo-01.xml": 725
+    },
+    "10": {
+      "rvo-01.xml": 29
+    },
+    "16": {
+      "rvo-01.xml": 61
+    },
+    "5": {
+      "rvo-01.xml": 95,
+      "rvo-activities.xml": 1
+    },
+    "1": {
+      "rvo-01.xml": 95
+    },
+    "15": {
+      "rvo-01.xml": 17
+    },
+    "9": {
+      "rvo-01.xml": 111
+    },
+    "14": {
+      "rvo-01.xml": 19
+    }
+  },
+  ".//sector[@vocabulary = '8']/@code": {
+    "10.2": {
+      "rvo-01.xml": 2
+    },
+    "16.1": {
+      "rvo-01.xml": 1
+    },
+    "6.2": {
+      "rvo-01.xml": 8
+    },
+    "7.a": {
+      "rvo-01.xml": 1
+    },
+    "1.4": {
+      "rvo-01.xml": 3
+    },
+    "8.7": {
+      "rvo-01.xml": 4
+    },
+    "1.1": {
+      "rvo-01.xml": 3
+    },
+    "5.2": {
+      "rvo-01.xml": 1
+    },
+    "17.11": {
+      "rvo-01.xml": 4
+    },
+    "2.3": {
+      "rvo-01.xml": 2
+    },
+    "8.2": {
+      "rvo-01.xml": 3
+    },
+    "2.4": {
+      "rvo-01.xml": 1
+    },
+    "8.3": {
+      "rvo-01.xml": 3
+    },
+    "6.1": {
+      "rvo-01.xml": 5
+    },
+    "6.3": {
+      "rvo-01.xml": 7
+    },
+    "6.5": {
+      "rvo-01.xml": 1
+    },
+    "17.9": {
+      "rvo-01.xml": 1
+    },
+    "6.4": {
+      "rvo-01.xml": 3
+    },
+    "11.6": {
+      "rvo-01.xml": 2
+    },
+    "17.14": {
+      "rvo-01.xml": 1
+    },
+    "17.17": {
+      "rvo-01.xml": 1
+    },
+    "6.6": {
+      "rvo-01.xml": 2
+    },
+    "15.2": {
+      "rvo-01.xml": 2
+    },
+    "15.5": {
+      "rvo-01.xml": 2
+    },
+    "12.5": {
+      "rvo-01.xml": 3
+    },
+    "12.2": {
+      "rvo-01.xml": 1
+    },
+    "5.a": {
+      "rvo-01.xml": 1
+    },
+    "8.8": {
+      "rvo-01.xml": 2
+    },
+    "9.5": {
+      "rvo-01.xml": 1
+    },
+    "12.1": {
+      "rvo-01.xml": 2
+    },
+    "12.6": {
+      "rvo-01.xml": 2
+    },
+    "7.1": {
+      "rvo-01.xml": 1
+    },
+    "17.1": {
+      "rvo-01.xml": 1
+    },
+    "17.7": {
+      "rvo-01.xml": 3
+    },
+    "7.2": {
+      "rvo-01.xml": 1
+    },
+    "16.3": {
+      "rvo-01.xml": 1
+    },
+    "4.5": {
+      "rvo-01.xml": 2
+    },
+    "12.7": {
+      "rvo-01.xml": 1
+    },
+    "5.5": {
+      "rvo-01.xml": 2
+    },
+    "9.1": {
+      "rvo-01.xml": 1
+    },
+    "2.a": {
+      "rvo-01.xml": 1
+    },
+    "3.b": {
+      "rvo-01.xml": 1
+    },
+    "12.b": {
+      "rvo-01.xml": 1
+    },
+    "13.2": {
+      "rvo-01.xml": 1
+    }
+  },
+  ".//sector[@vocabulary = '9']/@code": {
+    "10.3.1": {
+      "rvo-01.xml": 1
+    },
+    "16.1.4": {
+      "rvo-01.xml": 1
+    },
+    "7.a.1": {
+      "rvo-01.xml": 1
+    },
+    "1.1.1": {
+      "rvo-01.xml": 3
+    },
+    "8.7.1": {
+      "rvo-01.xml": 2
+    },
+    "5.2.2": {
+      "rvo-01.xml": 1
+    },
+    "17.11.1": {
+      "rvo-01.xml": 1
+    },
+    "2.3.1": {
+      "rvo-01.xml": 2
+    },
+    "8.2.1": {
+      "rvo-01.xml": 1
+    },
+    "2.3.2": {
+      "rvo-01.xml": 1
+    },
+    "2.4.1": {
+      "rvo-01.xml": 1
+    },
+    "17.19.1": {
+      "rvo-01.xml": 1
+    },
+    "6.4.1": {
+      "rvo-01.xml": 2
+    },
+    "6.2.1": {
+      "rvo-01.xml": 7
+    },
+    "11.6.1": {
+      "rvo-01.xml": 1
+    },
+    "17.14.1": {
+      "rvo-01.xml": 1
+    },
+    "6.4.2": {
+      "rvo-01.xml": 1
+    },
+    "6.1.1": {
+      "rvo-01.xml": 4
+    },
+    "6.3.1": {
+      "rvo-01.xml": 4
+    },
+    "6.6.1": {
+      "rvo-01.xml": 1
+    },
+    "6.3.2": {
+      "rvo-01.xml": 1
+    },
+    "15.2.1": {
+      "rvo-01.xml": 1
+    },
+    "12.5.1": {
+      "rvo-01.xml": 2
+    },
+    "8.8.2": {
+      "rvo-01.xml": 1
+    },
+    "17.7.1": {
+      "rvo-01.xml": 4
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "rvo-01.xml": 384,
+      "rvo-activities.xml": 96
+    },
+    "11": {
+      "rvo-activities.xml": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "90": {
+      "rvo-01.xml": 20878
+    },
+    "10": {
+      "rvo-activities.xml": 43
+    },
+    "60": {
+      "rvo-activities.xml": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "11": {
+      "rvo-01.xml": 192,
+      "rvo-activities.xml": 28
+    },
+    "1": {
+      "rvo-01.xml": 7544,
+      "rvo-activities.xml": 74
+    },
+    "3": {
+      "rvo-01.xml": 13526,
+      "rvo-activities.xml": 42
+    },
+    "2": {
+      "rvo-01.xml": 7352,
+      "rvo-activities.xml": 3
+    },
+    "4": {
+      "rvo-activities.xml": 162
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "rvo-01.xml": 28614,
+      "rvo-activities.xml": 294
+    }
+  }
+}

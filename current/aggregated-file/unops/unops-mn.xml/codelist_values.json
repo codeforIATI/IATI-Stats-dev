@@ -1,0 +1,44 @@
+{
+  ".//@default-currency": {
+    "USD": 10
+  },
+  ".//@xml:lang": {
+    "en": 10
+  },
+  ".//activity-date/@type": {
+    "2": 10
+  },
+  ".//budget/@type": {
+    "1": 10
+  },
+  ".//contact-info/@type": {
+    "1": 10
+  },
+  ".//description/@type": {
+    "1": 10
+  },
+  ".//participating-org/@role": {
+    "4": 10,
+    "2": 10
+  },
+  ".//participating-org/@type": {
+    "40": 20
+  },
+  ".//recipient-country/@code": {
+    "MN": 10
+  },
+  ".//reporting-org/@type": {
+    "40": 10
+  },
+  ".//sector/@vocabulary": {
+    "1": 10
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12263": 3,
+    "12110": 1,
+    "41010": 6
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": 10
+  }
+}

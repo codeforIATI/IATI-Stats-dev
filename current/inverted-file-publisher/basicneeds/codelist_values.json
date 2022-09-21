@@ -1,0 +1,288 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "basicneeds-gh.xml": 2,
+      "basicneeds-in.xml": 1,
+      "basicneeds-uganda.xml": 1,
+      "basicneeds-ug.xml": 1,
+      "basicneeds-np.xml": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "basicneeds-gh.xml": 35,
+      "basicneeds-in.xml": 8,
+      "basicneeds-uganda.xml": 18,
+      "basicneeds-ug.xml": 11,
+      "basicneeds-np.xml": 8
+    },
+    "es": {
+      "basicneeds-gh.xml": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "basicneeds-gh.xml": 1,
+      "basicneeds-in.xml": 1,
+      "basicneeds-ug.xml": 1,
+      "basicneeds-np.xml": 1
+    },
+    "1": {
+      "basicneeds-gh.xml": 1
+    },
+    "3": {
+      "basicneeds-gh.xml": 1
+    },
+    "start-actual": {
+      "basicneeds-uganda.xml": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "basicneeds-gh.xml": 2,
+      "basicneeds-in.xml": 1,
+      "basicneeds-uganda.xml": 1,
+      "basicneeds-ug.xml": 1,
+      "basicneeds-np.xml": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "basicneeds-gh.xml": 6
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "basicneeds-gh.xml": 4,
+      "basicneeds-in.xml": 1
+    },
+    "1": {
+      "basicneeds-gh.xml": 2,
+      "basicneeds-uganda.xml": 1,
+      "basicneeds-ug.xml": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "basicneeds-gh.xml": 6,
+      "basicneeds-in.xml": 1,
+      "basicneeds-uganda.xml": 1,
+      "basicneeds-ug.xml": 1,
+      "basicneeds-np.xml": 1
+    }
+  },
+  ".//default-aid-type/@code": {
+    "C01": {
+      "basicneeds-uganda.xml": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "basicneeds-gh.xml": 2,
+      "basicneeds-in.xml": 1,
+      "basicneeds-ug.xml": 1,
+      "basicneeds-np.xml": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "basicneeds-gh.xml": 2,
+      "basicneeds-in.xml": 1,
+      "basicneeds-uganda.xml": 1,
+      "basicneeds-ug.xml": 1,
+      "basicneeds-np.xml": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "basicneeds-gh.xml": 7,
+      "basicneeds-in.xml": 1,
+      "basicneeds-ug.xml": 4,
+      "basicneeds-np.xml": 1
+    },
+    "2": {
+      "basicneeds-gh.xml": 1
+    },
+    "1": {
+      "basicneeds-gh.xml": 2
+    },
+    "Implementing": {
+      "basicneeds-uganda.xml": 4
+    }
+  },
+  ".//participating-org/@type": {
+    "22": {
+      "basicneeds-gh.xml": 6,
+      "basicneeds-uganda.xml": 3,
+      "basicneeds-ug.xml": 3,
+      "basicneeds-np.xml": 1
+    },
+    "23": {
+      "basicneeds-gh.xml": 1,
+      "basicneeds-in.xml": 1,
+      "basicneeds-uganda.xml": 1,
+      "basicneeds-ug.xml": 1
+    },
+    "21": {
+      "basicneeds-gh.xml": 1
+    },
+    "10": {
+      "basicneeds-gh.xml": 1
+    },
+    "70": {
+      "basicneeds-gh.xml": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "GH": {
+      "basicneeds-gh.xml": 2
+    },
+    "IN": {
+      "basicneeds-in.xml": 1
+    },
+    "UG": {
+      "basicneeds-uganda.xml": 2,
+      "basicneeds-ug.xml": 1
+    },
+    "NP": {
+      "basicneeds-np.xml": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "basicneeds-gh.xml": 2,
+      "basicneeds-in.xml": 1,
+      "basicneeds-uganda.xml": 1,
+      "basicneeds-ug.xml": 1,
+      "basicneeds-np.xml": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "basicneeds-gh.xml": 5
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "99810": {
+      "basicneeds-gh.xml": 1
+    },
+    "16010": {
+      "basicneeds-gh.xml": 1
+    },
+    "12110": {
+      "basicneeds-gh.xml": 1
+    },
+    "12191": {
+      "basicneeds-gh.xml": 1
+    },
+    "12220": {
+      "basicneeds-gh.xml": 1
+    },
+    "193": {
+      "basicneeds-in.xml": 1,
+      "basicneeds-ug.xml": 1,
+      "basicneeds-np.xml": 1
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "99810": {
+      "basicneeds-uganda.xml": 1
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "B03": {
+      "basicneeds-uganda.xml": 6
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "basicneeds-gh.xml": 4,
+      "basicneeds-in.xml": 10,
+      "basicneeds-ug.xml": 4,
+      "basicneeds-np.xml": 6
+    },
+    "B03": {
+      "basicneeds-gh.xml": 7,
+      "basicneeds-ug.xml": 6,
+      "basicneeds-np.xml": 5
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "basicneeds-gh.xml": 10,
+      "basicneeds-in.xml": 10,
+      "basicneeds-uganda.xml": 6,
+      "basicneeds-ug.xml": 10,
+      "basicneeds-np.xml": 11
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "basicneeds-gh.xml": 11,
+      "basicneeds-in.xml": 10,
+      "basicneeds-uganda.xml": 6,
+      "basicneeds-ug.xml": 10,
+      "basicneeds-np.xml": 11
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "basicneeds-gh.xml": 10,
+      "basicneeds-in.xml": 9,
+      "basicneeds-uganda.xml": 6,
+      "basicneeds-ug.xml": 10,
+      "basicneeds-np.xml": 11
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10-Government": {
+      "basicneeds-gh.xml": 2
+    },
+    "Government": {
+      "basicneeds-gh.xml": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "24": {
+      "basicneeds-gh.xml": 8
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "4": {
+      "basicneeds-gh.xml": 10,
+      "basicneeds-in.xml": 10,
+      "basicneeds-uganda.xml": 6,
+      "basicneeds-ug.xml": 10,
+      "basicneeds-np.xml": 11
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "basicneeds-gh.xml": 18,
+      "basicneeds-in.xml": 10,
+      "basicneeds-ug.xml": 10,
+      "basicneeds-np.xml": 11
+    },
+    "1": {
+      "basicneeds-gh.xml": 8
+    },
+    "2": {
+      "basicneeds-gh.xml": 1
+    },
+    "3": {
+      "basicneeds-gh.xml": 20
+    },
+    "E": {
+      "basicneeds-uganda.xml": 6
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "basicneeds-gh.xml": 41,
+      "basicneeds-in.xml": 8,
+      "basicneeds-uganda.xml": 6,
+      "basicneeds-ug.xml": 8,
+      "basicneeds-np.xml": 9
+    }
+  }
+}

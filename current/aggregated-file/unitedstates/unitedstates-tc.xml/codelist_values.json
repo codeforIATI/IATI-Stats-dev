@@ -1,0 +1,111 @@
+{
+  ".//@default-currency": {
+    "USD": 2
+  },
+  ".//@xml:lang": {
+    "en": 2
+  },
+  ".//activity-date/@type": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2
+  },
+  ".//activity-scope/@code": {
+    "4": 2
+  },
+  ".//activity-status/@code": {
+    "4": 2
+  },
+  ".//budget/value/@currency": {
+    "USD": 1
+  },
+  ".//collaboration-type/@code": {
+    "1": 2
+  },
+  ".//contact-info/@type": {
+    "1": 2
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 1,
+    "D02": 1
+  },
+  ".//default-finance-type/@code": {
+    "110": 2
+  },
+  ".//default-flow-type/@code": {
+    "10": 2
+  },
+  ".//default-tied-status/@code": {
+    "5": 1,
+    "4": 1
+  },
+  ".//description/@type": {
+    "1": 2,
+    "2": 2
+  },
+  ".//document-link/@format": {
+    "text/html": 1,
+    "application/pdf": 1
+  },
+  ".//document-link/category/@code": {
+    "A10": 1,
+    "A11": 1,
+    "A04": 1
+  },
+  ".//document-link/language/@code": {
+    "en": 2
+  },
+  ".//location/exactness/@code": {
+    "1": 2
+  },
+  ".//location/location-class/@code": {
+    "4": 2
+  },
+  ".//location/location-reach/@code": {
+    "1": 2
+  },
+  ".//other-identifier/@type": {
+    "B1": 2
+  },
+  ".//participating-org/@role": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2
+  },
+  ".//participating-org/@type": {
+    "10": 7,
+    "40": 1
+  },
+  ".//recipient-country/@code": {
+    "TC": 2
+  },
+  ".//reporting-org/@type": {
+    "10": 2
+  },
+  ".//sector/@vocabulary": {
+    "1": 8,
+    "99": 8
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15220": 6,
+    "31181": 2
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": 8,
+    "99": 8
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15220": 6,
+    "31181": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": 5,
+    "2": 2,
+    "4": 1
+  },
+  ".//transaction/value/@currency": {
+    "USD": 8
+  }
+}

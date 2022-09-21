@@ -1,0 +1,577 @@
+{
+  "iati-activity": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/@default-currency": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/@hierarchy": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/activity-date": {
+    "oecd-beps.xml": 2,
+    "oecd-development_taxation.xml": 2,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "oecd-beps.xml": 2,
+    "oecd-development_taxation.xml": 2,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/activity-date/@type": {
+    "oecd-beps.xml": 2,
+    "oecd-development_taxation.xml": 2,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/activity-status": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/activity-status/@code": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/budget": {
+    "oecd-beps.xml": 5,
+    "oecd-development_taxation.xml": 3,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/budget/period-end": {
+    "oecd-beps.xml": 5,
+    "oecd-development_taxation.xml": 3,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "oecd-beps.xml": 5,
+    "oecd-development_taxation.xml": 3,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/budget/period-start": {
+    "oecd-beps.xml": 5,
+    "oecd-development_taxation.xml": 3,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "oecd-beps.xml": 5,
+    "oecd-development_taxation.xml": 3,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/budget/value": {
+    "oecd-beps.xml": 5,
+    "oecd-development_taxation.xml": 3,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/budget/value/@value-date": {
+    "oecd-beps.xml": 5,
+    "oecd-development_taxation.xml": 3,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/collaboration-type": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/collaboration-type/@code": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/contact-info": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/contact-info/@type": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/contact-info/email": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/default-aid-type": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/default-aid-type/@code": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/default-finance-type": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/default-finance-type/@code": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/default-flow-type": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/default-flow-type/@code": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/default-tied-status": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/default-tied-status/@code": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/description": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/description/narrative": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/document-link": {
+    "oecd-beps.xml": 4,
+    "oecd-development_taxation.xml": 4,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/document-link/@format": {
+    "oecd-beps.xml": 4,
+    "oecd-development_taxation.xml": 4,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/document-link/@url": {
+    "oecd-beps.xml": 4,
+    "oecd-development_taxation.xml": 4,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/document-link/category": {
+    "oecd-beps.xml": 4,
+    "oecd-development_taxation.xml": 4,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/document-link/category/@code": {
+    "oecd-beps.xml": 4,
+    "oecd-development_taxation.xml": 4,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/document-link/document-date": {
+    "oecd-beps.xml": 3,
+    "oecd-development_taxation.xml": 4,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/document-link/document-date/@iso-date": {
+    "oecd-beps.xml": 3,
+    "oecd-development_taxation.xml": 4,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/document-link/language": {
+    "oecd-beps.xml": 4,
+    "oecd-development_taxation.xml": 4,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/document-link/language/@code": {
+    "oecd-beps.xml": 4,
+    "oecd-development_taxation.xml": 4,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/document-link/title": {
+    "oecd-beps.xml": 4,
+    "oecd-development_taxation.xml": 4,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/document-link/title/narrative": {
+    "oecd-beps.xml": 4,
+    "oecd-development_taxation.xml": 4,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "oecd-beps.xml": 4,
+    "oecd-development_taxation.xml": 4,
+    "oecd-global_forum.xml": 2
+  },
+  "iati-activity/iati-identifier": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/other-identifier": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/other-identifier/@ref": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/other-identifier/@type": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/other-identifier/owner-org": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/other-identifier/owner-org/@ref": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/other-identifier/owner-org/narrative": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/participating-org": {
+    "oecd-beps.xml": 5,
+    "oecd-development_taxation.xml": 5,
+    "oecd-global_forum.xml": 4
+  },
+  "iati-activity/participating-org/@ref": {
+    "oecd-beps.xml": 5,
+    "oecd-development_taxation.xml": 5,
+    "oecd-global_forum.xml": 4
+  },
+  "iati-activity/participating-org/@role": {
+    "oecd-beps.xml": 5,
+    "oecd-development_taxation.xml": 5,
+    "oecd-global_forum.xml": 4
+  },
+  "iati-activity/participating-org/@type": {
+    "oecd-beps.xml": 5,
+    "oecd-development_taxation.xml": 5,
+    "oecd-global_forum.xml": 4
+  },
+  "iati-activity/participating-org/narrative": {
+    "oecd-beps.xml": 5,
+    "oecd-development_taxation.xml": 5,
+    "oecd-global_forum.xml": 4
+  },
+  "iati-activity/policy-marker": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/policy-marker/@code": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/policy-marker/@significance": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/policy-marker/@vocabulary": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/recipient-country": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/recipient-country/@code": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/reporting-org": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/reporting-org/@ref": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/reporting-org/@secondary-reporter": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/reporting-org/@type": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/reporting-org/narrative": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/result": {
+    "oecd-beps.xml": 23,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/@type": {
+    "oecd-beps.xml": 23,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator/@aggregation-status": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator/@measure": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator/baseline": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator/period": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator/title": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/indicator/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "oecd-beps.xml": 29,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/title": {
+    "oecd-beps.xml": 23,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/title/narrative": {
+    "oecd-beps.xml": 23,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/result/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "oecd-beps.xml": 23,
+    "oecd-development_taxation.xml": 12,
+    "oecd-global_forum.xml": 20
+  },
+  "iati-activity/sector": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/sector/@code": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/sector/@vocabulary": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/title": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/title/narrative": {
+    "oecd-beps.xml": 1,
+    "oecd-development_taxation.xml": 1,
+    "oecd-global_forum.xml": 1
+  },
+  "iati-activity/transaction": {
+    "oecd-beps.xml": 9,
+    "oecd-development_taxation.xml": 5,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/transaction/description": {
+    "oecd-beps.xml": 9,
+    "oecd-development_taxation.xml": 5,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/transaction/description/narrative": {
+    "oecd-beps.xml": 9,
+    "oecd-development_taxation.xml": 5,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/transaction/transaction-date": {
+    "oecd-beps.xml": 9,
+    "oecd-development_taxation.xml": 5,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "oecd-beps.xml": 9,
+    "oecd-development_taxation.xml": 5,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/transaction/transaction-type": {
+    "oecd-beps.xml": 9,
+    "oecd-development_taxation.xml": 5,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "oecd-beps.xml": 9,
+    "oecd-development_taxation.xml": 5,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/transaction/value": {
+    "oecd-beps.xml": 9,
+    "oecd-development_taxation.xml": 5,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "oecd-beps.xml": 9,
+    "oecd-development_taxation.xml": 5,
+    "oecd-global_forum.xml": 5
+  },
+  "iati-organisation": {
+    "oecd-org.xml": 1
+  },
+  "iati-organisation/@default-currency": {
+    "oecd-org.xml": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "oecd-org.xml": 1
+  },
+  "iati-organisation/document-link": {
+    "oecd-org.xml": 3
+  },
+  "iati-organisation/document-link/@format": {
+    "oecd-org.xml": 3
+  },
+  "iati-organisation/document-link/@url": {
+    "oecd-org.xml": 3
+  },
+  "iati-organisation/document-link/category": {
+    "oecd-org.xml": 3
+  },
+  "iati-organisation/document-link/category/@code": {
+    "oecd-org.xml": 3
+  },
+  "iati-organisation/document-link/title": {
+    "oecd-org.xml": 3
+  },
+  "iati-organisation/document-link/title/narrative": {
+    "oecd-org.xml": 3
+  },
+  "iati-organisation/name": {
+    "oecd-org.xml": 1
+  },
+  "iati-organisation/name/narrative": {
+    "oecd-org.xml": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "oecd-org.xml": 1
+  },
+  "iati-organisation/reporting-org": {
+    "oecd-org.xml": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "oecd-org.xml": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "oecd-org.xml": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "oecd-org.xml": 1
+  },
+  "iati-organisation/total-budget": {
+    "oecd-org.xml": 4
+  },
+  "iati-organisation/total-budget/@status": {
+    "oecd-org.xml": 4
+  },
+  "iati-organisation/total-budget/period-end": {
+    "oecd-org.xml": 4
+  },
+  "iati-organisation/total-budget/period-end/@iso-date": {
+    "oecd-org.xml": 4
+  },
+  "iati-organisation/total-budget/period-start": {
+    "oecd-org.xml": 4
+  },
+  "iati-organisation/total-budget/period-start/@iso-date": {
+    "oecd-org.xml": 4
+  },
+  "iati-organisation/total-budget/value": {
+    "oecd-org.xml": 4
+  },
+  "iati-organisation/total-budget/value/@value-date": {
+    "oecd-org.xml": 4
+  }
+}
