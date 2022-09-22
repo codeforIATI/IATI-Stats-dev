@@ -1,116 +1,108 @@
 {
   "2": {
     ".//@default-currency": {
-      "maydayrescue-lb.xml": {
+      "maydayrescue-sy.xml": {
         "EUR": 1
       },
-      "maydayrescue-sy.xml": {
+      "maydayrescue-lb.xml": {
         "EUR": 1
       }
     },
     ".//activity-date/@type": {
-      "maydayrescue-lb.xml": {
-        "1": 1
-      },
       "maydayrescue-sy.xml": {
         "1": 1,
         "3": 1
+      },
+      "maydayrescue-lb.xml": {
+        "1": 1
       }
     },
     ".//activity-status/@code": {
-      "maydayrescue-lb.xml": {
+      "maydayrescue-sy.xml": {
         "2": 1
       },
-      "maydayrescue-sy.xml": {
+      "maydayrescue-lb.xml": {
         "2": 1
       }
     },
     ".//budget/@status": {
-      "maydayrescue-lb.xml": {
+      "maydayrescue-sy.xml": {
         "2": 1
       },
-      "maydayrescue-sy.xml": {
+      "maydayrescue-lb.xml": {
         "2": 1
       }
     },
     ".//budget/@type": {
-      "maydayrescue-lb.xml": {
+      "maydayrescue-sy.xml": {
         "1": 1
       },
-      "maydayrescue-sy.xml": {
+      "maydayrescue-lb.xml": {
         "1": 1
       }
     },
     ".//budget/value/@currency": {
-      "maydayrescue-lb.xml": {
-        "USD": 1
-      },
       "maydayrescue-sy.xml": {
         "EUR": 1
+      },
+      "maydayrescue-lb.xml": {
+        "USD": 1
       }
     },
     ".//description/@type": {
-      "maydayrescue-lb.xml": {
+      "maydayrescue-sy.xml": {
         "1": 1
       },
-      "maydayrescue-sy.xml": {
+      "maydayrescue-lb.xml": {
         "1": 1
       }
     },
     ".//participating-org/@role": {
-      "maydayrescue-lb.xml": {
+      "maydayrescue-sy.xml": {
         "1": 1
       },
-      "maydayrescue-sy.xml": {
+      "maydayrescue-lb.xml": {
         "1": 1
       }
     },
     ".//participating-org/@type": {
-      "maydayrescue-lb.xml": {
-        "70": 1
-      },
       "maydayrescue-sy.xml": {
         "10": 1
+      },
+      "maydayrescue-lb.xml": {
+        "70": 1
       }
     },
     ".//recipient-country/@code": {
-      "maydayrescue-lb.xml": {
-        "LB": 1
-      },
       "maydayrescue-sy.xml": {
         "SY": 1
+      },
+      "maydayrescue-lb.xml": {
+        "LB": 1
       }
     },
     ".//reporting-org/@type": {
-      "maydayrescue-lb.xml": {
+      "maydayrescue-sy.xml": {
         "60": 1
       },
-      "maydayrescue-sy.xml": {
+      "maydayrescue-lb.xml": {
         "60": 1
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "maydayrescue-lb.xml": {
+      "maydayrescue-sy.xml": {
         "74010": 1
       },
-      "maydayrescue-sy.xml": {
+      "maydayrescue-lb.xml": {
         "74010": 1
       }
     },
     ".//sector/@vocabulary": {
-      "maydayrescue-lb.xml": {
-        "1": 1
-      },
       "maydayrescue-sy.xml": {
         "1": 1
-      }
-    },
-    ".//@xml:lang": {
-      "maydayrescue-lb.xml": {
-        "en": 5
       },
-      "maydayrescue-sy.xml": {
-        "en": 10
+      "maydayrescue-lb.xml": {
+        "1": 1
       }
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -161,6 +153,14 @@
     ".//transaction/value/@currency": {
       "maydayrescue-sy.xml": {
         "EUR": 10
+      }
+    },
+    ".//@xml:lang": {
+      "maydayrescue-sy.xml": {
+        "en": 10
+      },
+      "maydayrescue-lb.xml": {
+        "en": 5
       }
     }
   }

@@ -29,7 +29,6 @@
     "iati-activity/participating-org/@type": 5,
     "iati-activity/participating-org/@role": 5,
     "iati-activity/participating-org/@ref": 5,
-    "iati-activity/participating-org/@activity-id": 1,
     "iati-activity/other-identifier": 5,
     "iati-activity/other-identifier/owner-org": 5,
     "iati-activity/other-identifier/owner-org/@ref": 5,
@@ -88,6 +87,9 @@
     "iati-activity/transaction/value": 5,
     "iati-activity/transaction/value/@currency": 5,
     "iati-activity/transaction/value/@value-date": 5,
+    "iati-activity/transaction/provider-org": 5,
+    "iati-activity/transaction/provider-org/@ref": 5,
+    "iati-activity/transaction/provider-org/@type": 5,
     "iati-activity/transaction/receiver-org": 3,
     "iati-activity/transaction/receiver-org/narrative": 3,
     "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 3,
@@ -95,11 +97,6 @@
     "iati-activity/transaction/description": 5,
     "iati-activity/transaction/description/narrative": 5,
     "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 4,
-    "iati-activity/transaction/provider-org": 5,
-    "iati-activity/transaction/provider-org/@ref": 5,
-    "iati-activity/transaction/provider-org/@type": 5,
-    "iati-activity/transaction/provider-org/narrative": 1,
-    "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
     "iati-activity/related-activity": 5,
     "iati-activity/related-activity/@ref": 5,
     "iati-activity/related-activity/@type": 5,
@@ -145,6 +142,9 @@
     "iati-activity/@default-currency": 5,
     "iati-activity/@humanitarian": 5,
     "iati-activity/@hierarchy": 5,
+    "iati-activity/participating-org/@activity-id": 1,
+    "iati-activity/transaction/provider-org/narrative": 1,
+    "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
     "iati-activity/transaction/disbursement-channel": 1,
     "iati-activity/transaction/disbursement-channel/@code": 1,
     "iati-activity/transaction/flow-type": 1,
@@ -181,7 +181,6 @@
     "iati-activity/participating-org/@type": 14,
     "iati-activity/participating-org/@role": 14,
     "iati-activity/participating-org/@ref": 9,
-    "iati-activity/participating-org/@activity-id": 1,
     "iati-activity/other-identifier": 10,
     "iati-activity/other-identifier/owner-org": 10,
     "iati-activity/other-identifier/owner-org/@ref": 10,
@@ -240,6 +239,9 @@
     "iati-activity/transaction/value": 11,
     "iati-activity/transaction/value/@currency": 11,
     "iati-activity/transaction/value/@value-date": 11,
+    "iati-activity/transaction/provider-org": 9,
+    "iati-activity/transaction/provider-org/@ref": 9,
+    "iati-activity/transaction/provider-org/@type": 8,
     "iati-activity/transaction/receiver-org": 7,
     "iati-activity/transaction/receiver-org/narrative": 4,
     "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 4,
@@ -247,11 +249,6 @@
     "iati-activity/transaction/description": 8,
     "iati-activity/transaction/description/narrative": 8,
     "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 7,
-    "iati-activity/transaction/provider-org": 9,
-    "iati-activity/transaction/provider-org/@ref": 9,
-    "iati-activity/transaction/provider-org/@type": 8,
-    "iati-activity/transaction/provider-org/narrative": 1,
-    "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
     "iati-activity/related-activity": 5,
     "iati-activity/related-activity/@ref": 5,
     "iati-activity/related-activity/@type": 5,
@@ -297,6 +294,9 @@
     "iati-activity/@default-currency": 5,
     "iati-activity/@humanitarian": 5,
     "iati-activity/@hierarchy": 5,
+    "iati-activity/participating-org/@activity-id": 1,
+    "iati-activity/transaction/provider-org/narrative": 1,
+    "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
     "iati-activity/transaction/disbursement-channel": 1,
     "iati-activity/transaction/disbursement-channel/@code": 1,
     "iati-activity/transaction/flow-type": 1,
@@ -328,16 +328,16 @@
     "2024": 0
   },
   "forwardlooking_currency_year": {
-    "2017": {
-      "EUR": 190000.0,
-      "USD": 9157.0
-    },
-    "2018": {
-      "EUR": 245000.0,
-      "USD": 9157.0
-    },
     "2016": {
       "EUR": 50000.0
+    },
+    "2017": {
+      "USD": 9157.0,
+      "EUR": 190000.0
+    },
+    "2018": {
+      "USD": 9157.0,
+      "EUR": 245000.0
     },
     "2019": {
       "EUR": 109595.0

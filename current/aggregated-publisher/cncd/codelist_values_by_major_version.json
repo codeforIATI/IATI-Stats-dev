@@ -5,21 +5,11 @@
     },
     ".//activity-date/@type": {
       "1": 10,
-      "3": 10,
-      "2": 10
+      "2": 10,
+      "3": 10
     },
     ".//activity-status/@code": {
       "2": 10
-    },
-    ".//budget/@status": {
-      "2": 40
-    },
-    ".//budget/@type": {
-      "1": 16,
-      "2": 24
-    },
-    ".//budget/value/@currency": {
-      "EUR": 40
     },
     ".//collaboration-type/@code": {
       "1": 10
@@ -28,9 +18,9 @@
       "1": 10
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "G01": 1,
+      "C01": 3,
       "H01": 6,
-      "C01": 3
+      "G01": 1
     },
     ".//default-aid-type/@vocabulary": {
       "1": 10
@@ -46,93 +36,6 @@
     },
     ".//description/@type": {
       "1": 10
-    },
-    ".//participating-org/@role": {
-      "1": 16,
-      "2": 12,
-      "4": 17
-    },
-    ".//participating-org/@type": {
-      "10": 10,
-      "22": 33,
-      "23": 2
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "89": 1,
-      "998": 2
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 3
-    },
-    ".//related-activity/@type": {
-      "1": 8
-    },
-    ".//reporting-org/@type": {
-      "22": 10
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "91010": 1,
-      "99820": 5,
-      "99810": 2,
-      "15150": 1,
-      "41010": 1
-    },
-    ".//sector/@vocabulary": {
-      "1": 10
-    },
-    ".//transaction/provider-org/@type": {
-      "22": 47,
-      "10": 33
-    },
-    ".//transaction/transaction-type/@code": {
-      "4": 40,
-      "1": 24,
-      "11": 23,
-      "2": 6,
-      "3": 14
-    },
-    ".//transaction/value/@currency": {
-      "EUR": 103
-    },
-    ".//@xml:lang": {
-      "fr": 199,
-      "en": 2
-    },
-    ".//location/location-class/@code": {
-      "1": 5
-    },
-    ".//location/exactness/@code": {
-      "2": 5
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "2": 7,
-      "8": 7,
-      "5": 7,
-      "7": 7,
-      "6": 7,
-      "1": 7,
-      "3": 7,
-      "9": 7,
-      "4": 5
-    },
-    ".//policy-marker/@significance": {
-      "2": 35,
-      "1": 18,
-      "0": 8
-    },
-    ".//policy-marker/@vocabulary": {
-      "1": 61
-    },
-    ".//recipient-country/@code": {
-      "BE": 5,
-      "CD": 2
-    },
-    ".//result/@type": {
-      "2": 35
-    },
-    ".//result/indicator/@measure": {
-      "1": 24,
-      "2": 19
     },
     ".//document-link/@format": {
       "application/pdf": 1,
@@ -151,9 +54,106 @@
     ".//other-identifier/@type": {
       "A9": 2
     },
+    ".//participating-org/@role": {
+      "1": 16,
+      "2": 12,
+      "4": 17
+    },
+    ".//participating-org/@type": {
+      "10": 10,
+      "22": 33,
+      "23": 2
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "998": 2,
+      "89": 1
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 3
+    },
+    ".//reporting-org/@type": {
+      "22": 10
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "99810": 2,
+      "15150": 1,
+      "41010": 1,
+      "99820": 5,
+      "91010": 1
+    },
+    ".//sector/@vocabulary": {
+      "1": 10
+    },
+    ".//transaction/provider-org/@type": {
+      "22": 47,
+      "10": 33
+    },
     ".//transaction/receiver-org/@type": {
       "22": 57,
       "23": 7
+    },
+    ".//transaction/transaction-type/@code": {
+      "1": 24,
+      "11": 23,
+      "2": 6,
+      "3": 14,
+      "4": 40
+    },
+    ".//transaction/value/@currency": {
+      "EUR": 103
+    },
+    ".//@xml:lang": {
+      "fr": 199,
+      "en": 2
+    },
+    ".//budget/@status": {
+      "2": 40
+    },
+    ".//budget/@type": {
+      "1": 16,
+      "2": 24
+    },
+    ".//budget/value/@currency": {
+      "EUR": 40
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "2": 7,
+      "8": 7,
+      "5": 7,
+      "7": 7,
+      "6": 7,
+      "1": 7,
+      "3": 7,
+      "9": 7,
+      "4": 5
+    },
+    ".//policy-marker/@significance": {
+      "1": 18,
+      "0": 8,
+      "2": 35
+    },
+    ".//policy-marker/@vocabulary": {
+      "1": 61
+    },
+    ".//recipient-country/@code": {
+      "CD": 2,
+      "BE": 5
+    },
+    ".//related-activity/@type": {
+      "1": 8
+    },
+    ".//result/@type": {
+      "2": 35
+    },
+    ".//result/indicator/@measure": {
+      "2": 19,
+      "1": 24
+    },
+    ".//location/location-class/@code": {
+      "1": 5
+    },
+    ".//location/exactness/@code": {
+      "2": 5
     }
   }
 }

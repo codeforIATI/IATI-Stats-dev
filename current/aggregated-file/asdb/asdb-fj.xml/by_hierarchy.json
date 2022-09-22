@@ -38,15 +38,6 @@
       "iati-activity/activity-scope/@code": 13,
       "iati-activity/recipient-country": 13,
       "iati-activity/recipient-country/@code": 13,
-      "iati-activity/location": 13,
-      "iati-activity/location/location-id": 13,
-      "iati-activity/location/location-id/@code": 13,
-      "iati-activity/location/location-id/@vocabulary": 13,
-      "iati-activity/location/name": 13,
-      "iati-activity/location/name/narrative": 13,
-      "iati-activity/location/point": 13,
-      "iati-activity/location/point/pos": 13,
-      "iati-activity/location/point/@srsName": 13,
       "iati-activity/sector": 13,
       "iati-activity/sector/@code": 13,
       "iati-activity/sector/@vocabulary": 13,
@@ -149,7 +140,8 @@
       "iati-activity/result/indicator/period/target": 4,
       "iati-activity/result/indicator/period/target/@value": 4,
       "iati-activity/result/indicator/@aggregation-status": 4,
-      "iati-activity/result/indicator/@ascending": 4
+      "iati-activity/result/indicator/@ascending": 4,
+      "iati-activity/sector/@percentage": 1
     },
     "elements_total": {
       "iati-activity": 13,
@@ -188,18 +180,9 @@
       "iati-activity/activity-scope/@code": 13,
       "iati-activity/recipient-country": 13,
       "iati-activity/recipient-country/@code": 13,
-      "iati-activity/location": 41,
-      "iati-activity/location/location-id": 41,
-      "iati-activity/location/location-id/@code": 41,
-      "iati-activity/location/location-id/@vocabulary": 41,
-      "iati-activity/location/name": 41,
-      "iati-activity/location/name/narrative": 41,
-      "iati-activity/location/point": 41,
-      "iati-activity/location/point/pos": 41,
-      "iati-activity/location/point/@srsName": 41,
-      "iati-activity/sector": 13,
-      "iati-activity/sector/@code": 13,
-      "iati-activity/sector/@vocabulary": 13,
+      "iati-activity/sector": 15,
+      "iati-activity/sector/@code": 15,
+      "iati-activity/sector/@vocabulary": 15,
       "iati-activity/country-budget-items": 13,
       "iati-activity/country-budget-items/budget-item": 13,
       "iati-activity/country-budget-items/budget-item/@code": 13,
@@ -230,18 +213,18 @@
       "iati-activity/budget/value/@value-date": 204,
       "iati-activity/capital-spend": 13,
       "iati-activity/capital-spend/@percentage": 13,
-      "iati-activity/transaction": 1049,
-      "iati-activity/transaction/transaction-type": 1049,
-      "iati-activity/transaction/transaction-type/@code": 1049,
-      "iati-activity/transaction/transaction-date": 1049,
-      "iati-activity/transaction/transaction-date/@iso-date": 1049,
-      "iati-activity/transaction/value": 1049,
-      "iati-activity/transaction/value/@currency": 1049,
-      "iati-activity/transaction/value/@value-date": 1049,
-      "iati-activity/transaction/provider-org": 1049,
-      "iati-activity/transaction/provider-org/narrative": 1049,
-      "iati-activity/transaction/receiver-org": 1049,
-      "iati-activity/transaction/receiver-org/narrative": 1049,
+      "iati-activity/transaction": 1050,
+      "iati-activity/transaction/transaction-type": 1050,
+      "iati-activity/transaction/transaction-type/@code": 1050,
+      "iati-activity/transaction/transaction-date": 1050,
+      "iati-activity/transaction/transaction-date/@iso-date": 1050,
+      "iati-activity/transaction/value": 1050,
+      "iati-activity/transaction/value/@currency": 1050,
+      "iati-activity/transaction/value/@value-date": 1050,
+      "iati-activity/transaction/provider-org": 1050,
+      "iati-activity/transaction/provider-org/narrative": 1050,
+      "iati-activity/transaction/receiver-org": 1050,
+      "iati-activity/transaction/receiver-org/narrative": 1050,
       "iati-activity/document-link": 67,
       "iati-activity/document-link/title": 67,
       "iati-activity/document-link/title/narrative": 67,
@@ -299,47 +282,18 @@
       "iati-activity/result/indicator/period/target": 15,
       "iati-activity/result/indicator/period/target/@value": 15,
       "iati-activity/result/indicator/@aggregation-status": 18,
-      "iati-activity/result/indicator/@ascending": 18
+      "iati-activity/result/indicator/@ascending": 18,
+      "iati-activity/sector/@percentage": 3
     },
     "forwardlooking_currency_year": {
-      "2019": {
-        "USD": 77639556.67
-      },
-      "2020": {
-        "USD": 212571879.68
-      },
       "2021": {
         "USD": 87211356.68
       },
       "2022": {
         "USD": 170331894.68
       },
-      "2023": {
-        "USD": 9227002.68
-      },
-      "2024": {
-        "USD": 9227002.68
-      },
-      "2025": {
-        "USD": 20113480.01
-      },
-      "2017": {
-        "USD": 11591256.0
-      },
-      "2018": {
-        "USD": 11949178.0
-      },
-      "2026": {
-        "USD": 0.0
-      },
-      "2014": {
-        "USD": 5989001.0
-      },
-      "2015": {
-        "USD": 150789.0
-      },
-      "2016": {
-        "USD": 52043521.0
+      "2020": {
+        "USD": 212571879.68
       },
       "2009": {
         "USD": 0.0
@@ -355,6 +309,36 @@
       },
       "2013": {
         "USD": 12616514.0
+      },
+      "2014": {
+        "USD": 5989001.0
+      },
+      "2015": {
+        "USD": 150789.0
+      },
+      "2016": {
+        "USD": 52043521.0
+      },
+      "2017": {
+        "USD": 11591256.0
+      },
+      "2018": {
+        "USD": 11949178.0
+      },
+      "2019": {
+        "USD": 77639556.67
+      },
+      "2023": {
+        "USD": 9227002.68
+      },
+      "2024": {
+        "USD": 9227002.68
+      },
+      "2025": {
+        "USD": 20113480.01
+      },
+      "2026": {
+        "USD": 0.0
       }
     },
     "forwardlooking_activities_current": {
@@ -384,14 +368,14 @@
       "sector": 5,
       "country_or_region": 5,
       "transaction_commitment": 5,
-      "transaction_spend": 2,
+      "transaction_spend": 3,
       "transaction_currency": 5,
       "transaction_traceability": 5,
       "budget": 5,
       "budget_not_provided": 0,
       "contact-info": 5,
-      "location": 5,
-      "location_point_pos": 5,
+      "location": 0,
+      "location_point_pos": 0,
       "sector_dac": 5,
       "capital-spend": 5,
       "document-link": 5,
@@ -413,14 +397,14 @@
       "sector": 5,
       "country_or_region": 5,
       "transaction_commitment": 5,
-      "transaction_spend": 2,
+      "transaction_spend": 3,
       "transaction_currency": 5,
       "transaction_traceability": 5,
       "budget": 5,
       "budget_not_provided": 0,
       "contact-info": 5,
-      "location": 5,
-      "location_point_pos": 5,
+      "location": 0,
+      "location_point_pos": 0,
       "sector_dac": 5,
       "capital-spend": 5,
       "document-link": 5,

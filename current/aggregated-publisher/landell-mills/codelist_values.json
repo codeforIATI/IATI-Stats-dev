@@ -7,8 +7,8 @@
   },
   ".//activity-date/@type": {
     "2": 6,
-    "3": 3,
     "4": 3,
+    "3": 3,
     "1": 1
   },
   ".//activity-status/@code": {
@@ -19,8 +19,8 @@
     "2": 19
   },
   ".//budget/@type": {
-    "2": 7,
-    "1": 12
+    "1": 12,
+    "2": 7
   },
   ".//budget/value/@currency": {
     "GBP": 19
@@ -38,8 +38,8 @@
     "1": 6
   },
   ".//document-link/@format": {
-    "application/msword": 1,
-    "application/pdf": 3
+    "application/pdf": 3,
+    "application/msword": 1
   },
   ".//document-link/category/@code": {
     "A02": 3,
@@ -57,8 +57,13 @@
     "70": 4
   },
   ".//recipient-country/@code": {
+    "NP": 1,
+    "GH": 1,
     "MW": 2,
-    "UG": 1,
+    "ET": 1,
+    "MZ": 1,
+    "SN": 1,
+    "TZ": 1,
     "BR": 1,
     "EG": 1,
     "ID": 1,
@@ -68,13 +73,8 @@
     "NG": 1,
     "PH": 1,
     "ZA": 1,
-    "GH": 1,
-    "ET": 1,
-    "MZ": 1,
-    "SN": 1,
-    "TZ": 1,
-    "SY": 1,
-    "NP": 1
+    "UG": 1,
+    "SY": 1
   },
   ".//recipient-region/@vocabulary": {
     "1": 1
@@ -86,12 +86,12 @@
     "70": 6
   },
   ".//sector/@vocabulary": {
-    "2": 1,
-    "1": 5
+    "1": 5,
+    "2": 1
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "25010": 1,
-    "99810": 4
+    "99810": 4,
+    "25010": 1
   },
   ".//sector[@vocabulary = '2']/@code": {
     "998": 1

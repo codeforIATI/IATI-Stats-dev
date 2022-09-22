@@ -19,7 +19,6 @@
       "iati-activity/participating-org/@role": 318532,
       "iati-activity/participating-org/@type": 318532,
       "iati-activity/participating-org/{http://www.foreignassistance.gov}office-name": 310238,
-      "iati-activity/participating-org/{http://www.foreignassistance.gov}duns-number": 97694,
       "iati-activity/other-identifier": 318532,
       "iati-activity/other-identifier/owner-org": 316811,
       "iati-activity/other-identifier/owner-org/narrative": 316811,
@@ -29,6 +28,7 @@
       "iati-activity/activity-status": 318532,
       "iati-activity/activity-status/@code": 318532,
       "iati-activity/activity-date": 318532,
+      "iati-activity/activity-date/narrative": 292345,
       "iati-activity/activity-date/@iso-date": 318532,
       "iati-activity/activity-date/@type": 318532,
       "iati-activity/contact-info": 318532,
@@ -52,6 +52,8 @@
       "iati-activity/location/location-reach/@code": 316811,
       "iati-activity/location/name": 317418,
       "iati-activity/location/name/narrative": 317418,
+      "iati-activity/location/description": 232359,
+      "iati-activity/location/description/narrative": 232359,
       "iati-activity/location/exactness": 317177,
       "iati-activity/location/exactness/@code": 317177,
       "iati-activity/location/location-class": 316570,
@@ -67,14 +69,6 @@
       "iati-activity/default-aid-type/@code": 318532,
       "iati-activity/default-tied-status": 318532,
       "iati-activity/default-tied-status/@code": 318532,
-      "iati-activity/budget": 32992,
-      "iati-activity/budget/period-start": 32992,
-      "iati-activity/budget/period-start/@iso-date": 32992,
-      "iati-activity/budget/period-end": 32992,
-      "iati-activity/budget/period-end/@iso-date": 32992,
-      "iati-activity/budget/value": 32992,
-      "iati-activity/budget/value/@currency": 32992,
-      "iati-activity/budget/value/@value-date": 32992,
       "iati-activity/capital-spend": 264551,
       "iati-activity/capital-spend/@percentage": 264551,
       "iati-activity/transaction": 318372,
@@ -118,20 +112,23 @@
       "iati-activity/@last-updated-datetime": 318532,
       "iati-activity/@humanitarian": 316811,
       "iati-activity/@hierarchy": 316811,
-      "iati-activity/activity-date/narrative": 292345,
+      "iati-activity/participating-org/{http://www.foreignassistance.gov}duns-number": 97694,
       "iati-activity/policy-marker": 36621,
       "iati-activity/policy-marker/@code": 36621,
       "iati-activity/policy-marker/@significance": 34900,
+      "iati-activity/budget": 32992,
+      "iati-activity/budget/period-start": 32992,
+      "iati-activity/budget/period-start/@iso-date": 32992,
+      "iati-activity/budget/period-end": 32992,
+      "iati-activity/budget/period-end/@iso-date": 32992,
+      "iati-activity/budget/value": 32992,
+      "iati-activity/budget/value/@currency": 32992,
+      "iati-activity/budget/value/@value-date": 32992,
       "iati-activity/transaction/flow-type": 401,
       "iati-activity/transaction/flow-type/@code": 401,
-      "iati-activity/location/description": 232359,
-      "iati-activity/location/description/narrative": 232359,
       "iati-activity/recipient-region": 80757,
       "iati-activity/recipient-region/@code": 80757,
       "iati-activity/recipient-region/@percentage": 80689,
-      "iati-activity/conditions/condition": 70,
-      "iati-activity/conditions/condition/narrative": 70,
-      "iati-activity/conditions/condition/@type": 70,
       "iati-activity/recipient-country/narrative": 1653,
       "iati-activity/location/point": 563,
       "iati-activity/location/point/pos": 563,
@@ -167,7 +164,10 @@
       "iati-activity/result/@aggregation-status": 631,
       "iati-activity/recipient-region/narrative": 68,
       "iati-activity/recipient-region/@vocabulary": 68,
-      "iati-activity/recipient-region/@vocabulary-uri": 68
+      "iati-activity/recipient-region/@vocabulary-uri": 68,
+      "iati-activity/conditions/condition": 70,
+      "iati-activity/conditions/condition/narrative": 70,
+      "iati-activity/conditions/condition/@type": 70
     },
     "elements_total": {
       "iati-activity": 318532,
@@ -187,7 +187,6 @@
       "iati-activity/participating-org/@role": 1257617,
       "iati-activity/participating-org/@type": 1090148,
       "iati-activity/participating-org/{http://www.foreignassistance.gov}office-name": 310238,
-      "iati-activity/participating-org/{http://www.foreignassistance.gov}duns-number": 97694,
       "iati-activity/other-identifier": 320099,
       "iati-activity/other-identifier/owner-org": 316811,
       "iati-activity/other-identifier/owner-org/narrative": 316811,
@@ -197,6 +196,7 @@
       "iati-activity/activity-status": 318532,
       "iati-activity/activity-status/@code": 318532,
       "iati-activity/activity-date": 1269209,
+      "iati-activity/activity-date/narrative": 1046003,
       "iati-activity/activity-date/@iso-date": 1269209,
       "iati-activity/activity-date/@type": 1269209,
       "iati-activity/contact-info": 318532,
@@ -220,6 +220,8 @@
       "iati-activity/location/location-reach/@code": 316811,
       "iati-activity/location/name": 330622,
       "iati-activity/location/name/narrative": 330622,
+      "iati-activity/location/description": 232359,
+      "iati-activity/location/description/narrative": 232359,
       "iati-activity/location/exactness": 330381,
       "iati-activity/location/exactness/@code": 330381,
       "iati-activity/location/location-class": 316570,
@@ -235,14 +237,6 @@
       "iati-activity/default-aid-type/@code": 318532,
       "iati-activity/default-tied-status": 318532,
       "iati-activity/default-tied-status/@code": 318532,
-      "iati-activity/budget": 54751,
-      "iati-activity/budget/period-start": 54751,
-      "iati-activity/budget/period-start/@iso-date": 54751,
-      "iati-activity/budget/period-end": 54751,
-      "iati-activity/budget/period-end/@iso-date": 54751,
-      "iati-activity/budget/value": 54751,
-      "iati-activity/budget/value/@currency": 54751,
-      "iati-activity/budget/value/@value-date": 54751,
       "iati-activity/capital-spend": 264551,
       "iati-activity/capital-spend/@percentage": 264551,
       "iati-activity/transaction": 1744402,
@@ -286,20 +280,23 @@
       "iati-activity/@last-updated-datetime": 318532,
       "iati-activity/@humanitarian": 316811,
       "iati-activity/@hierarchy": 316811,
-      "iati-activity/activity-date/narrative": 1046003,
+      "iati-activity/participating-org/{http://www.foreignassistance.gov}duns-number": 97694,
       "iati-activity/policy-marker": 37115,
       "iati-activity/policy-marker/@code": 37115,
       "iati-activity/policy-marker/@significance": 35394,
+      "iati-activity/budget": 54751,
+      "iati-activity/budget/period-start": 54751,
+      "iati-activity/budget/period-start/@iso-date": 54751,
+      "iati-activity/budget/period-end": 54751,
+      "iati-activity/budget/period-end/@iso-date": 54751,
+      "iati-activity/budget/value": 54751,
+      "iati-activity/budget/value/@currency": 54751,
+      "iati-activity/budget/value/@value-date": 54751,
       "iati-activity/transaction/flow-type": 1720,
       "iati-activity/transaction/flow-type/@code": 1720,
-      "iati-activity/location/description": 232359,
-      "iati-activity/location/description/narrative": 232359,
       "iati-activity/recipient-region": 80757,
       "iati-activity/recipient-region/@code": 80757,
       "iati-activity/recipient-region/@percentage": 80689,
-      "iati-activity/conditions/condition": 70,
-      "iati-activity/conditions/condition/narrative": 70,
-      "iati-activity/conditions/condition/@type": 70,
       "iati-activity/recipient-country/narrative": 1653,
       "iati-activity/location/point": 11074,
       "iati-activity/location/point/pos": 11074,
@@ -335,20 +332,23 @@
       "iati-activity/result/@aggregation-status": 2023,
       "iati-activity/recipient-region/narrative": 68,
       "iati-activity/recipient-region/@vocabulary": 68,
-      "iati-activity/recipient-region/@vocabulary-uri": 68
+      "iati-activity/recipient-region/@vocabulary-uri": 68,
+      "iati-activity/conditions/condition": 70,
+      "iati-activity/conditions/condition/narrative": 70,
+      "iati-activity/conditions/condition/@type": 70
     },
     "forwardlooking_currency_year": {
-      "2021": {
-        "USD": 50086765517.88
-      },
-      "2020": {
-        "USD": 91470235715.43
-      },
       "2019": {
         "USD": 50354007614.73
       },
       "2018": {
         "USD": 14112986642.71
+      },
+      "2021": {
+        "USD": 50086765517.88
+      },
+      "2020": {
+        "USD": 91470235715.43
       },
       "2017": {
         "USD": 134087943528.01
@@ -362,23 +362,23 @@
       "2014": {
         "USD": 23606276446.51
       },
-      "2010": {
-        "USD": 82329094.08
+      "2012": {
+        "USD": 3312484750.7
       },
       "2011": {
         "USD": 88481947.1
       },
-      "2012": {
-        "USD": 3312484750.7
+      "2010": {
+        "USD": 82329094.08
       },
       "2013": {
         "USD": 22972879164.72
       },
-      "2022": {
-        "USD": 3548913.77
-      },
       "2009": {
         "USD": 31833395.27
+      },
+      "2022": {
+        "USD": 3548913.77
       }
     },
     "forwardlooking_activities_current": {
@@ -397,68 +397,68 @@
       "2024": 0
     },
     "comprehensiveness": {
-      "version": 6157,
-      "reporting-org": 6157,
-      "iati-identifier": 6157,
-      "participating-org": 6157,
-      "title": 6157,
-      "description": 6157,
-      "activity-status": 6157,
-      "activity-date": 6157,
-      "sector": 6157,
-      "country_or_region": 6157,
-      "transaction_commitment": 5624,
-      "transaction_spend": 5697,
-      "transaction_currency": 6057,
-      "transaction_traceability": 4990,
-      "budget": 4738,
+      "version": 6142,
+      "reporting-org": 6142,
+      "iati-identifier": 6142,
+      "participating-org": 6142,
+      "title": 6142,
+      "description": 6142,
+      "activity-status": 6142,
+      "activity-date": 6142,
+      "sector": 6142,
+      "country_or_region": 6142,
+      "transaction_commitment": 5611,
+      "transaction_spend": 5689,
+      "transaction_currency": 6042,
+      "transaction_traceability": 4975,
+      "budget": 4730,
       "budget_not_provided": 0,
-      "contact-info": 6157,
-      "location": 5472,
+      "contact-info": 6142,
+      "location": 5457,
       "location_point_pos": 450,
-      "sector_dac": 6157,
-      "capital-spend": 1497,
-      "document-link": 2700,
+      "sector_dac": 6142,
+      "capital-spend": 1484,
+      "document-link": 2687,
       "activity-website": 1,
-      "recipient_language": 2157,
-      "conditions_attached": 6157,
+      "recipient_language": 2152,
+      "conditions_attached": 6142,
       "result_indicator": 502,
-      "aid_type": 6157
+      "aid_type": 6142
     },
     "comprehensiveness_with_validation": {
-      "version": 6157,
-      "reporting-org": 6157,
-      "iati-identifier": 6157,
-      "participating-org": 6157,
-      "title": 6157,
-      "description": 6157,
-      "activity-status": 6157,
-      "activity-date": 6157,
-      "sector": 6157,
-      "country_or_region": 6157,
-      "transaction_commitment": 5624,
-      "transaction_spend": 5697,
-      "transaction_currency": 6157,
-      "transaction_traceability": 4990,
-      "budget": 4738,
+      "version": 6142,
+      "reporting-org": 6142,
+      "iati-identifier": 6142,
+      "participating-org": 6142,
+      "title": 6142,
+      "description": 6142,
+      "activity-status": 6142,
+      "activity-date": 6142,
+      "sector": 6142,
+      "country_or_region": 6142,
+      "transaction_commitment": 5611,
+      "transaction_spend": 5689,
+      "transaction_currency": 6142,
+      "transaction_traceability": 4975,
+      "budget": 4730,
       "budget_not_provided": 0,
-      "contact-info": 6157,
-      "location": 5472,
+      "contact-info": 6142,
+      "location": 5457,
       "location_point_pos": 450,
-      "sector_dac": 6157,
-      "capital-spend": 1497,
-      "document-link": 2700,
+      "sector_dac": 6142,
+      "capital-spend": 1484,
+      "document-link": 2687,
       "activity-website": 1,
-      "recipient_language": 2157,
-      "conditions_attached": 6157,
+      "recipient_language": 2152,
+      "conditions_attached": 6142,
       "result_indicator": 502,
-      "aid_type": 6157
+      "aid_type": 6142
     },
     "comprehensiveness_denominators": {
-      "recipient_language": 5006,
-      "transaction_spend": 5988,
-      "transaction_traceability": 4990
+      "recipient_language": 4998,
+      "transaction_spend": 5979,
+      "transaction_traceability": 4975
     },
-    "comprehensiveness_denominator_default": 6157
+    "comprehensiveness_denominator_default": 6142
   }
 }

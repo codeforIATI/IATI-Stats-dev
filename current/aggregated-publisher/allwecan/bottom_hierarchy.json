@@ -53,6 +53,7 @@
     "iati-activity/location/@percentage": 2,
     "iati-activity/sector": 2,
     "iati-activity/sector/@{http://www.w3.org/XML/1998/namespace}lang": 2,
+    "iati-activity/sector/@vocabulary": 1,
     "iati-activity/sector/@code": 2,
     "iati-activity/sector/@percentage": 2,
     "iati-activity/default-flow-type": 2,
@@ -91,20 +92,17 @@
     "iati-activity/transaction/transaction-date/@iso-date": 2,
     "iati-activity/transaction/flow-type": 2,
     "iati-activity/transaction/flow-type/@code": 2,
+    "iati-activity/transaction/flow-type/@{http://www.w3.org/XML/1998/namespace}lang": 2,
     "iati-activity/transaction/finance-type": 2,
     "iati-activity/transaction/finance-type/@code": 2,
     "iati-activity/transaction/aid-type": 2,
     "iati-activity/transaction/aid-type/@code": 2,
+    "iati-activity/transaction/aid-type/@{http://www.w3.org/XML/1998/namespace}lang": 2,
     "iati-activity/transaction/disbursement-channel": 2,
     "iati-activity/transaction/disbursement-channel/@code": 2,
     "iati-activity/transaction/tied-status": 2,
     "iati-activity/transaction/tied-status/@code": 2,
-    "iati-activity/transaction/tied-status/@{http://www.w3.org/XML/1998/namespace}lang": 1,
-    "iati-activity/transaction/flow-type/@{http://www.w3.org/XML/1998/namespace}lang": 2,
-    "iati-activity/transaction/finance-type/@{http://www.w3.org/XML/1998/namespace}lang": 1,
-    "iati-activity/transaction/aid-type/@{http://www.w3.org/XML/1998/namespace}lang": 2,
     "iati-activity/transaction/receiver-org/@ref": 2,
-    "iati-activity/transaction/receiver-org/@receiver-activity-id": 1,
     "iati-activity/transaction/provider-org/@provider-activity-id": 2,
     "iati-activity/document-link": 2,
     "iati-activity/document-link/language": 2,
@@ -117,7 +115,9 @@
     "iati-activity/@default-currency": 2,
     "iati-activity/@hierarchy": 2,
     "iati-activity/@last-updated-datetime": 2,
-    "iati-activity/sector/@vocabulary": 1
+    "iati-activity/transaction/tied-status/@{http://www.w3.org/XML/1998/namespace}lang": 1,
+    "iati-activity/transaction/finance-type/@{http://www.w3.org/XML/1998/namespace}lang": 1,
+    "iati-activity/transaction/receiver-org/@receiver-activity-id": 1
   },
   "elements_total": {
     "iati-activity": 2,
@@ -164,6 +164,7 @@
     "iati-activity/location/@percentage": 2,
     "iati-activity/sector": 9,
     "iati-activity/sector/@{http://www.w3.org/XML/1998/namespace}lang": 9,
+    "iati-activity/sector/@vocabulary": 1,
     "iati-activity/sector/@code": 9,
     "iati-activity/sector/@percentage": 9,
     "iati-activity/default-flow-type": 2,
@@ -202,20 +203,17 @@
     "iati-activity/transaction/transaction-date/@iso-date": 55,
     "iati-activity/transaction/flow-type": 54,
     "iati-activity/transaction/flow-type/@code": 54,
+    "iati-activity/transaction/flow-type/@{http://www.w3.org/XML/1998/namespace}lang": 8,
     "iati-activity/transaction/finance-type": 55,
     "iati-activity/transaction/finance-type/@code": 55,
     "iati-activity/transaction/aid-type": 55,
     "iati-activity/transaction/aid-type/@code": 55,
+    "iati-activity/transaction/aid-type/@{http://www.w3.org/XML/1998/namespace}lang": 9,
     "iati-activity/transaction/disbursement-channel": 55,
     "iati-activity/transaction/disbursement-channel/@code": 55,
     "iati-activity/transaction/tied-status": 55,
     "iati-activity/transaction/tied-status/@code": 55,
-    "iati-activity/transaction/tied-status/@{http://www.w3.org/XML/1998/namespace}lang": 9,
-    "iati-activity/transaction/flow-type/@{http://www.w3.org/XML/1998/namespace}lang": 8,
-    "iati-activity/transaction/finance-type/@{http://www.w3.org/XML/1998/namespace}lang": 8,
-    "iati-activity/transaction/aid-type/@{http://www.w3.org/XML/1998/namespace}lang": 9,
     "iati-activity/transaction/receiver-org/@ref": 28,
-    "iati-activity/transaction/receiver-org/@receiver-activity-id": 1,
     "iati-activity/transaction/provider-org/@provider-activity-id": 3,
     "iati-activity/document-link": 2,
     "iati-activity/document-link/language": 2,
@@ -228,7 +226,9 @@
     "iati-activity/@default-currency": 2,
     "iati-activity/@hierarchy": 2,
     "iati-activity/@last-updated-datetime": 2,
-    "iati-activity/sector/@vocabulary": 1
+    "iati-activity/transaction/tied-status/@{http://www.w3.org/XML/1998/namespace}lang": 9,
+    "iati-activity/transaction/finance-type/@{http://www.w3.org/XML/1998/namespace}lang": 8,
+    "iati-activity/transaction/receiver-org/@receiver-activity-id": 1
   },
   "forwardlooking_activities_current": {
     "2022": 0,
@@ -246,15 +246,6 @@
     "2024": 0
   },
   "forwardlooking_currency_year": {
-    "2009": {
-      "GBP": 106775.0
-    },
-    "2010": {
-      "GBP": 122875.0
-    },
-    "2011": {
-      "GBP": 116157.0
-    },
     "2012": {
       "GBP": 331575.0
     },
@@ -263,6 +254,15 @@
     },
     "2014": {
       "GBP": 222437.0
+    },
+    "2009": {
+      "GBP": 106775.0
+    },
+    "2010": {
+      "GBP": 122875.0
+    },
+    "2011": {
+      "GBP": 116157.0
     }
   }
 }

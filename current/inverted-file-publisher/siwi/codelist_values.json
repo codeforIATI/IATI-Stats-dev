@@ -6,16 +6,19 @@
   },
   ".//@xml:lang": {
     "en": {
-      "siwi-activities.xml": 11
+      "siwi-activities.xml": 19
     }
   },
   ".//activity-date/@type": {
-    "1": {
+    "2": {
+      "siwi-activities.xml": 1
+    },
+    "4": {
       "siwi-activities.xml": 1
     }
   },
   ".//activity-status/@code": {
-    "2": {
+    "4": {
       "siwi-activities.xml": 1
     }
   },
@@ -31,6 +34,11 @@
   },
   ".//budget/value/@currency": {
     "EUR": {
+      "siwi-activities.xml": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
       "siwi-activities.xml": 1
     }
   },
@@ -63,11 +71,20 @@
   ".//participating-org/@role": {
     "1": {
       "siwi-activities.xml": 1
+    },
+    "2": {
+      "siwi-activities.xml": 1
+    },
+    "4": {
+      "siwi-activities.xml": 1
     }
   },
   ".//participating-org/@type": {
     "10": {
       "siwi-activities.xml": 1
+    },
+    "21": {
+      "siwi-activities.xml": 2
     }
   },
   ".//recipient-country/@code": {
@@ -137,14 +154,14 @@
     }
   },
   ".//result/indicator/@measure": {
+    "1": {
+      "siwi-activities.xml": 3
+    },
     "2": {
-      "siwi-activities.xml": 2
+      "siwi-activities.xml": 3
     },
     "5": {
-      "siwi-activities.xml": 9
-    },
-    "1": {
-      "siwi-activities.xml": 4
+      "siwi-activities.xml": 13
     }
   },
   ".//sector/@vocabulary": {
@@ -160,19 +177,61 @@
       "siwi-activities.xml": 1
     }
   },
+  ".//transaction/aid-type/@vocabulary": {
+    "3": {
+      "siwi-activities.xml": 9
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '3']/@code": {
+    "K": {
+      "siwi-activities.xml": 9
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "siwi-activities.xml": 4
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "siwi-activities.xml": 7
+    }
+  },
   ".//transaction/provider-org/@type": {
     "10": {
-      "siwi-activities.xml": 6
+      "siwi-activities.xml": 11
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "siwi-activities.xml": 9
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "4": {
+      "siwi-activities.xml": 10
     }
   },
   ".//transaction/transaction-type/@code": {
     "4": {
-      "siwi-activities.xml": 7
+      "siwi-activities.xml": 9
+    },
+    "11": {
+      "siwi-activities.xml": 1
+    },
+    "1": {
+      "siwi-activities.xml": 1
+    },
+    "3": {
+      "siwi-activities.xml": 1
     }
   },
   ".//transaction/value/@currency": {
     "SEK": {
-      "siwi-activities.xml": 7
+      "siwi-activities.xml": 9
+    },
+    "EUR": {
+      "siwi-activities.xml": 3
     }
   }
 }

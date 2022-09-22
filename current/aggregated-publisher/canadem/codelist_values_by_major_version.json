@@ -5,12 +5,23 @@
     },
     ".//activity-date/@type": {
       "2": 14,
-      "3": 2,
-      "4": 12
+      "4": 12,
+      "3": 2
     },
     ".//activity-status/@code": {
-      "2": 2,
-      "4": 12
+      "4": 12,
+      "2": 2
+    },
+    ".//budget/@status": {
+      "2": 36
+    },
+    ".//budget/@type": {
+      "1": 29,
+      "2": 7
+    },
+    ".//budget/value/@currency": {
+      "GBP": 6,
+      "CAD": 30
     },
     ".//contact-info/@type": {
       "1": 9
@@ -34,48 +45,56 @@
       "1": 14,
       "2": 1
     },
+    ".//participating-org/@crs-channel-code": {
+      "11000": 1
+    },
     ".//participating-org/@role": {
-      "1": 14,
-      "4": 14
+      "4": 14,
+      "1": 14
     },
     ".//participating-org/@type": {
-      "10": 14,
-      "21": 14
+      "21": 14,
+      "10": 14
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "1": 1,
+      "12": 3,
+      "9": 1,
+      "2": 9,
+      "3": 3,
+      "10": 2
+    },
+    ".//policy-marker/@significance": {
+      "2": 13,
+      "4": 1,
+      "1": 5
+    },
+    ".//policy-marker/@vocabulary": {
+      "1": 17
     },
     ".//recipient-country/@code": {
-      "MZ": 3,
-      "ZW": 3,
-      "CM": 3,
-      "BF": 2,
-      "SD": 7,
-      "CD": 7,
-      "VE": 2,
-      "UG": 3,
-      "TR": 6,
-      "ET": 5,
-      "AM": 2,
-      "BS": 1,
-      "CF": 6,
-      "GT": 1,
-      "LB": 4,
-      "ML": 3,
-      "TG": 1,
       "AF": 3,
       "BD": 3,
       "BB": 2,
       "BR": 2,
       "BI": 4,
+      "CM": 3,
+      "CF": 6,
       "TD": 4,
       "HR": 1,
+      "CD": 7,
+      "ET": 5,
       "HT": 4,
       "IQ": 5,
       "IT": 1,
       "JO": 7,
       "KE": 6,
       "KG": 2,
+      "LB": 4,
       "LR": 4,
       "MK": 1,
       "MW": 2,
+      "MZ": 3,
       "MM": 2,
       "NP": 2,
       "NE": 2,
@@ -86,14 +105,17 @@
       "SL": 3,
       "SO": 4,
       "SS": 5,
+      "SD": 7,
       "CH": 2,
       "SY": 3,
       "TN": 3,
+      "TR": 6,
       "UA": 3,
       "US": 1,
       "VU": 1,
       "YE": 4,
       "EC": 2,
+      "UG": 3,
       "AO": 1,
       "PK": 6,
       "CI": 1,
@@ -102,6 +124,7 @@
       "DJ": 2,
       "EG": 1,
       "LY": 2,
+      "ML": 3,
       "MR": 1,
       "PH": 2,
       "KH": 1,
@@ -110,7 +133,10 @@
       "NA": 1,
       "PS": 1,
       "LK": 1,
+      "ZW": 3,
       "AL": 1,
+      "AM": 2,
+      "BF": 2,
       "DO": 1,
       "ID": 1,
       "IR": 1,
@@ -120,11 +146,24 @@
       "WS": 1,
       "ZA": 1,
       "TZ": 1,
+      "VE": 2,
       "ZM": 1,
       "CG": 1,
       "GR": 1,
       "GN": 2,
-      "HN": 1
+      "HN": 1,
+      "BS": 1,
+      "GT": 1,
+      "TG": 1
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "998": 8,
+      "589": 2,
+      "298": 2,
+      "679": 1
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 13
     },
     ".//reporting-org/@type": {
       "21": 14
@@ -165,45 +204,6 @@
     },
     ".//@xml:lang": {
       "en": 61
-    },
-    ".//budget/@status": {
-      "2": 36
-    },
-    ".//budget/@type": {
-      "1": 29,
-      "2": 7
-    },
-    ".//budget/value/@currency": {
-      "GBP": 6,
-      "CAD": 30
-    },
-    ".//participating-org/@crs-channel-code": {
-      "11000": 1
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "1": 1,
-      "12": 3,
-      "9": 1,
-      "2": 9,
-      "3": 3,
-      "10": 2
-    },
-    ".//policy-marker/@significance": {
-      "2": 13,
-      "4": 1,
-      "1": 5
-    },
-    ".//policy-marker/@vocabulary": {
-      "1": 17
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "998": 8,
-      "298": 2,
-      "679": 1,
-      "589": 2
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 13
     }
   }
 }

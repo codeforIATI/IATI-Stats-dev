@@ -48,14 +48,13 @@
     ".//document-link/@format": {
       "text/html": 2,
       "text/xml": 1,
-      "application/pdf": 2
+      "application/pdf": 1
     },
     ".//document-link/category/@code": {
-      "B01": 4,
-      "A05": 1
+      "B01": 4
     },
     ".//document-link/language/@code": {
-      "en": 5
+      "en": 4
     },
     ".//participating-org/@role": {
       "4": 2,
@@ -88,19 +87,24 @@
       "1": 2
     },
     ".//transaction/provider-org/@type": {
-      "10": 6
+      "10": 6,
+      "21": 28
+    },
+    ".//transaction/receiver-org/@type": {
+      "21": 5
     },
     ".//transaction/transaction-type/@code": {
-      "4": 1,
-      "1": 4,
+      "4": 24,
+      "1": 9,
       "11": 1
     },
     ".//transaction/value/@currency": {
       "EUR": 5,
-      "BDT": 1
+      "BDT": 1,
+      "GBP": 28
     },
     ".//@xml:lang": {
-      "en": 52
+      "en": 51
     }
   }
 }

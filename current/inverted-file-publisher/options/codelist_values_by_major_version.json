@@ -1,26 +1,8 @@
 {
   "2": {
     ".//@default-currency": {
-      "options-gh.xml": {
-        "GBP": 1
-      },
-      "options-bf.xml": {
-        "GBP": 1
-      },
-      "options-mw.xml": {
-        "GBP": 2
-      },
       "options-et.xml": {
         "GBP": 1
-      },
-      "options-ke.xml": {
-        "GBP": 6
-      },
-      "options-ng.xml": {
-        "GBP": 2
-      },
-      "options-np.xml": {
-        "GBP": 2
       },
       "options-ug.xml": {
         "GBP": 1
@@ -28,35 +10,69 @@
       "options-sl.xml": {
         "GBP": 2
       },
+      "options-bd.xml": {
+        "GBP": 1
+      },
+      "options-bf.xml": {
+        "GBP": 1
+      },
       "options-in.xml": {
         "GBP": 1
       },
-      "options-bd.xml": {
+      "options-mw.xml": {
+        "GBP": 2
+      },
+      "options-ke.xml": {
+        "GBP": 6
+      },
+      "options-gh.xml": {
         "GBP": 1
+      },
+      "options-ng.xml": {
+        "GBP": 2
+      },
+      "options-np.xml": {
+        "GBP": 2
       }
     },
     ".//activity-date/@type": {
-      "options-gh.xml": {
+      "options-et.xml": {
         "2": 1,
         "3": 1
+      },
+      "options-ug.xml": {
+        "2": 1,
+        "3": 1
+      },
+      "options-sl.xml": {
+        "2": 2,
+        "4": 2
+      },
+      "options-bd.xml": {
+        "2": 1,
+        "4": 1
       },
       "options-bf.xml": {
         "2": 1,
         "3": 1
+      },
+      "options-in.xml": {
+        "2": 1,
+        "4": 1
       },
       "options-mw.xml": {
         "2": 2,
         "3": 1,
         "4": 1
       },
-      "options-et.xml": {
-        "2": 1,
-        "3": 1
-      },
       "options-ke.xml": {
         "2": 6,
         "4": 2,
         "3": 3
+      },
+      "options-gh.xml": {
+        "2": 1,
+        "3": 1
       },
       "options-ng.xml": {
         "2": 2,
@@ -66,41 +82,37 @@
         "2": 2,
         "4": 1,
         "3": 1
-      },
-      "options-ug.xml": {
-        "2": 1,
-        "3": 1
-      },
-      "options-sl.xml": {
-        "2": 2,
-        "4": 2
-      },
-      "options-in.xml": {
-        "2": 1,
-        "4": 1
-      },
-      "options-bd.xml": {
-        "2": 1,
-        "4": 1
       }
     },
     ".//activity-status/@code": {
-      "options-gh.xml": {
+      "options-et.xml": {
         "2": 1
+      },
+      "options-ug.xml": {
+        "2": 1
+      },
+      "options-sl.xml": {
+        "4": 2
+      },
+      "options-bd.xml": {
+        "4": 1
       },
       "options-bf.xml": {
         "2": 1
+      },
+      "options-in.xml": {
+        "4": 1
       },
       "options-mw.xml": {
         "2": 1,
         "4": 1
       },
-      "options-et.xml": {
-        "2": 1
-      },
       "options-ke.xml": {
         "4": 2,
         "2": 4
+      },
+      "options-gh.xml": {
+        "2": 1
       },
       "options-ng.xml": {
         "3": 1,
@@ -109,44 +121,12 @@
       "options-np.xml": {
         "4": 1,
         "2": 1
-      },
-      "options-ug.xml": {
-        "2": 1
-      },
-      "options-sl.xml": {
-        "4": 2
-      },
-      "options-in.xml": {
-        "4": 1
-      },
-      "options-bd.xml": {
-        "4": 1
       }
     },
     ".//budget/@status": {
-      "options-gh.xml": {
-        "1": 5
-      },
-      "options-bf.xml": {
-        "2": 9
-      },
-      "options-mw.xml": {
-        "2": 9,
-        "1": 5
-      },
       "options-et.xml": {
         "2": 2,
         "1": 5
-      },
-      "options-ke.xml": {
-        "2": 19,
-        "1": 21
-      },
-      "options-ng.xml": {
-        "2": 15
-      },
-      "options-np.xml": {
-        "2": 13
       },
       "options-ug.xml": {
         "2": 2
@@ -154,40 +134,37 @@
       "options-sl.xml": {
         "2": 12
       },
+      "options-bd.xml": {
+        "2": 4
+      },
+      "options-bf.xml": {
+        "2": 9
+      },
       "options-in.xml": {
         "2": 1
       },
-      "options-bd.xml": {
-        "2": 4
-      }
-    },
-    ".//budget/@type": {
+      "options-mw.xml": {
+        "2": 9,
+        "1": 5
+      },
+      "options-ke.xml": {
+        "2": 19,
+        "1": 21
+      },
       "options-gh.xml": {
         "1": 5
       },
-      "options-bf.xml": {
-        "1": 4,
-        "2": 5
+      "options-ng.xml": {
+        "2": 15
       },
-      "options-mw.xml": {
-        "1": 9,
-        "2": 5
-      },
+      "options-np.xml": {
+        "2": 13
+      }
+    },
+    ".//budget/@type": {
       "options-et.xml": {
         "1": 2,
         "2": 5
-      },
-      "options-ke.xml": {
-        "1": 29,
-        "2": 11
-      },
-      "options-ng.xml": {
-        "1": 9,
-        "2": 6
-      },
-      "options-np.xml": {
-        "1": 6,
-        "2": 7
       },
       "options-ug.xml": {
         "1": 1,
@@ -197,58 +174,79 @@
         "1": 5,
         "2": 7
       },
+      "options-bd.xml": {
+        "1": 4
+      },
+      "options-bf.xml": {
+        "1": 4,
+        "2": 5
+      },
       "options-in.xml": {
         "1": 1
       },
-      "options-bd.xml": {
-        "1": 4
+      "options-mw.xml": {
+        "1": 9,
+        "2": 5
+      },
+      "options-ke.xml": {
+        "1": 29,
+        "2": 11
+      },
+      "options-gh.xml": {
+        "1": 5
+      },
+      "options-ng.xml": {
+        "1": 9,
+        "2": 6
+      },
+      "options-np.xml": {
+        "1": 6,
+        "2": 7
+      }
+    },
+    ".//budget/value/@currency": {
+      "options-et.xml": {
+        "GBP": 5
+      },
+      "options-ug.xml": {
+        "GBP": 1
+      },
+      "options-bf.xml": {
+        "GBP": 4
+      },
+      "options-in.xml": {
+        "GBP": 1
+      },
+      "options-mw.xml": {
+        "GBP": 5
+      },
+      "options-ke.xml": {
+        "GBP": 3
       }
     },
     ".//contact-info/@type": {
-      "options-gh.xml": {
+      "options-et.xml": {
+        "1": 1
+      },
+      "options-ug.xml": {
         "1": 1
       },
       "options-mw.xml": {
-        "1": 1
-      },
-      "options-et.xml": {
         "1": 1
       },
       "options-ke.xml": {
         "1": 3
       },
-      "options-np.xml": {
+      "options-gh.xml": {
         "1": 1
       },
-      "options-ug.xml": {
+      "options-np.xml": {
         "1": 1
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "options-gh.xml": {
-        "A02": 1
-      },
-      "options-bf.xml": {
-        "C01": 1
-      },
-      "options-mw.xml": {
-        "C01": 1,
-        "D02": 1
-      },
       "options-et.xml": {
         "C01": 1
-      },
-      "options-ke.xml": {
-        "D02": 2,
-        "C01": 4
-      },
-      "options-ng.xml": {
-        "D02": 1,
-        "C01": 1
-      },
-      "options-np.xml": {
-        "D02": 1,
-        "A02": 1
       },
       "options-ug.xml": {
         "B01": 1
@@ -257,169 +255,204 @@
         "C01": 1,
         "D02": 1
       },
+      "options-bd.xml": {
+        "D02": 1
+      },
+      "options-bf.xml": {
+        "C01": 1
+      },
       "options-in.xml": {
         "D02": 1
       },
-      "options-bd.xml": {
+      "options-mw.xml": {
+        "C01": 1,
         "D02": 1
+      },
+      "options-ke.xml": {
+        "D02": 2,
+        "C01": 4
+      },
+      "options-gh.xml": {
+        "A02": 1
+      },
+      "options-ng.xml": {
+        "D02": 1,
+        "C01": 1
+      },
+      "options-np.xml": {
+        "D02": 1,
+        "A02": 1
       }
     },
     ".//default-aid-type/@vocabulary": {
-      "options-gh.xml": {
+      "options-et.xml": {
+        "1": 1
+      },
+      "options-ug.xml": {
+        "1": 1
+      },
+      "options-sl.xml": {
+        "1": 2
+      },
+      "options-bd.xml": {
         "1": 1
       },
       "options-bf.xml": {
         "1": 1
       },
+      "options-in.xml": {
+        "1": 1
+      },
       "options-mw.xml": {
         "1": 2
-      },
-      "options-et.xml": {
-        "1": 1
       },
       "options-ke.xml": {
         "1": 6
       },
+      "options-gh.xml": {
+        "1": 1
+      },
       "options-ng.xml": {
         "1": 2
       },
       "options-np.xml": {
         "1": 2
-      },
-      "options-ug.xml": {
-        "1": 1
-      },
-      "options-sl.xml": {
-        "1": 2
-      },
-      "options-in.xml": {
-        "1": 1
-      },
-      "options-bd.xml": {
-        "1": 1
       }
     },
     ".//default-finance-type/@code": {
-      "options-gh.xml": {
+      "options-et.xml": {
+        "110": 1
+      },
+      "options-ug.xml": {
+        "110": 1
+      },
+      "options-sl.xml": {
+        "110": 2
+      },
+      "options-bd.xml": {
         "110": 1
       },
       "options-bf.xml": {
         "110": 1
       },
+      "options-in.xml": {
+        "110": 1
+      },
       "options-mw.xml": {
         "110": 2
-      },
-      "options-et.xml": {
-        "110": 1
       },
       "options-ke.xml": {
         "110": 6
       },
+      "options-gh.xml": {
+        "110": 1
+      },
       "options-ng.xml": {
         "110": 2
       },
       "options-np.xml": {
         "110": 2
-      },
-      "options-ug.xml": {
-        "110": 1
-      },
-      "options-sl.xml": {
-        "110": 2
-      },
-      "options-in.xml": {
-        "110": 1
-      },
-      "options-bd.xml": {
-        "110": 1
       }
     },
     ".//default-flow-type/@code": {
-      "options-gh.xml": {
+      "options-et.xml": {
+        "30": 1
+      },
+      "options-ug.xml": {
+        "30": 1
+      },
+      "options-sl.xml": {
+        "30": 2
+      },
+      "options-bd.xml": {
         "30": 1
       },
       "options-bf.xml": {
         "30": 1
       },
+      "options-in.xml": {
+        "30": 1
+      },
       "options-mw.xml": {
         "30": 2
-      },
-      "options-et.xml": {
-        "30": 1
       },
       "options-ke.xml": {
         "30": 6
       },
+      "options-gh.xml": {
+        "30": 1
+      },
       "options-ng.xml": {
         "30": 2
       },
       "options-np.xml": {
         "30": 2
-      },
-      "options-ug.xml": {
-        "30": 1
-      },
-      "options-sl.xml": {
-        "30": 2
-      },
-      "options-in.xml": {
-        "30": 1
-      },
-      "options-bd.xml": {
-        "30": 1
       }
     },
     ".//default-tied-status/@code": {
-      "options-gh.xml": {
+      "options-et.xml": {
+        "5": 1
+      },
+      "options-ug.xml": {
+        "5": 1
+      },
+      "options-sl.xml": {
+        "5": 2
+      },
+      "options-bd.xml": {
         "5": 1
       },
       "options-bf.xml": {
         "5": 1
       },
+      "options-in.xml": {
+        "5": 1
+      },
       "options-mw.xml": {
         "5": 2
       },
-      "options-et.xml": {
-        "5": 1
-      },
       "options-ke.xml": {
         "5": 6
+      },
+      "options-gh.xml": {
+        "5": 1
       },
       "options-ng.xml": {
         "5": 2
       },
       "options-np.xml": {
         "5": 2
-      },
-      "options-ug.xml": {
-        "5": 1
-      },
-      "options-sl.xml": {
-        "5": 2
-      },
-      "options-in.xml": {
-        "5": 1
-      },
-      "options-bd.xml": {
-        "5": 1
       }
     },
     ".//description/@type": {
-      "options-gh.xml": {
+      "options-et.xml": {
+        "1": 1
+      },
+      "options-ug.xml": {
+        "1": 1
+      },
+      "options-sl.xml": {
+        "1": 1,
+        "2": 1
+      },
+      "options-bd.xml": {
         "2": 1
       },
       "options-bf.xml": {
         "1": 1
       },
+      "options-in.xml": {
+        "1": 1
+      },
       "options-mw.xml": {
         "1": 2
-      },
-      "options-et.xml": {
-        "1": 1
       },
       "options-ke.xml": {
         "2": 3,
         "1": 3
+      },
+      "options-gh.xml": {
+        "2": 1
       },
       "options-ng.xml": {
         "2": 1,
@@ -428,46 +461,51 @@
       "options-np.xml": {
         "3": 1,
         "1": 1
-      },
-      "options-ug.xml": {
-        "1": 1
-      },
-      "options-sl.xml": {
-        "1": 1,
-        "2": 1
-      },
-      "options-in.xml": {
-        "1": 1
-      },
-      "options-bd.xml": {
-        "2": 1
       }
     },
     ".//participating-org/@role": {
-      "options-gh.xml": {
+      "options-et.xml": {
         "1": 1,
         "2": 1,
-        "4": 5
+        "4": 2
+      },
+      "options-ug.xml": {
+        "1": 2
+      },
+      "options-sl.xml": {
+        "1": 2,
+        "2": 2,
+        "4": 2
+      },
+      "options-bd.xml": {
+        "1": 1,
+        "2": 1,
+        "4": 1
       },
       "options-bf.xml": {
         "1": 1,
         "2": 1,
         "4": 1
       },
+      "options-in.xml": {
+        "1": 1,
+        "2": 1,
+        "4": 3
+      },
       "options-mw.xml": {
         "2": 2,
         "4": 5,
         "1": 2
       },
-      "options-et.xml": {
-        "1": 1,
-        "2": 1,
-        "4": 2
-      },
       "options-ke.xml": {
         "4": 19,
         "2": 6,
         "1": 9
+      },
+      "options-gh.xml": {
+        "1": 1,
+        "2": 1,
+        "4": 5
       },
       "options-ng.xml": {
         "1": 2,
@@ -478,37 +516,33 @@
         "1": 2,
         "4": 11,
         "2": 2
-      },
-      "options-ug.xml": {
-        "1": 2
-      },
-      "options-sl.xml": {
-        "1": 2,
-        "2": 2,
-        "4": 2
-      },
-      "options-in.xml": {
-        "1": 1,
-        "2": 1,
-        "4": 3
-      },
-      "options-bd.xml": {
-        "1": 1,
-        "2": 1,
-        "4": 1
       }
     },
     ".//participating-org/@type": {
-      "options-gh.xml": {
+      "options-et.xml": {
         "10": 1,
-        "70": 3,
-        "22": 1,
-        "21": 1,
-        "80": 1
+        "70": 3
+      },
+      "options-ug.xml": {
+        "10": 1,
+        "21": 1
+      },
+      "options-sl.xml": {
+        "10": 2,
+        "70": 4
+      },
+      "options-bd.xml": {
+        "10": 1,
+        "70": 2
       },
       "options-bf.xml": {
         "21": 1,
         "70": 2
+      },
+      "options-in.xml": {
+        "10": 1,
+        "70": 3,
+        "22": 1
       },
       "options-mw.xml": {
         "70": 4,
@@ -517,10 +551,6 @@
         "72": 2,
         "22": 1
       },
-      "options-et.xml": {
-        "10": 1,
-        "70": 3
-      },
       "options-ke.xml": {
         "70": 16,
         "60": 1,
@@ -528,6 +558,13 @@
         "21": 9,
         "22": 2,
         "80": 2
+      },
+      "options-gh.xml": {
+        "10": 1,
+        "70": 3,
+        "22": 1,
+        "21": 1,
+        "80": 1
       },
       "options-ng.xml": {
         "70": 6
@@ -539,71 +576,61 @@
         "70": 5,
         "71": 1,
         "21": 2
-      },
-      "options-ug.xml": {
-        "10": 1,
-        "21": 1
-      },
-      "options-sl.xml": {
-        "10": 2,
-        "70": 4
-      },
-      "options-in.xml": {
-        "10": 1,
-        "70": 3,
-        "22": 1
-      },
-      "options-bd.xml": {
-        "10": 1,
-        "70": 2
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "options-gh.xml": {
-        "1": 1
+      "options-et.xml": {
+        "3": 1
+      },
+      "options-sl.xml": {
+        "9": 2
+      },
+      "options-bd.xml": {
+        "9": 1
       },
       "options-bf.xml": {
         "9": 1
       },
+      "options-in.xml": {
+        "9": 1
+      },
       "options-mw.xml": {
         "9": 2
-      },
-      "options-et.xml": {
-        "3": 1
       },
       "options-ke.xml": {
         "1": 1,
         "9": 4,
         "3": 1
       },
+      "options-gh.xml": {
+        "1": 1
+      },
       "options-ng.xml": {
         "9": 2
       },
       "options-np.xml": {
         "9": 2
-      },
-      "options-sl.xml": {
-        "9": 2
-      },
-      "options-in.xml": {
-        "9": 1
-      },
-      "options-bd.xml": {
-        "9": 1
       }
     },
     ".//policy-marker/@significance": {
-      "options-gh.xml": {
+      "options-et.xml": {
+        "1": 1
+      },
+      "options-sl.xml": {
+        "0": 1,
+        "2": 1
+      },
+      "options-bd.xml": {
         "1": 1
       },
       "options-bf.xml": {
         "4": 1
       },
+      "options-in.xml": {
+        "2": 1
+      },
       "options-mw.xml": {
         "1": 2
-      },
-      "options-et.xml": {
-        "1": 1
       },
       "options-ke.xml": {
         "1": 2,
@@ -611,6 +638,9 @@
         "4": 1,
         "2": 1
       },
+      "options-gh.xml": {
+        "1": 1
+      },
       "options-ng.xml": {
         "4": 1,
         "2": 1
@@ -618,26 +648,30 @@
       "options-np.xml": {
         "4": 1,
         "1": 1
-      },
-      "options-sl.xml": {
-        "0": 1,
-        "2": 1
-      },
-      "options-in.xml": {
-        "2": 1
-      },
-      "options-bd.xml": {
-        "1": 1
       }
     },
     ".//recipient-country/@code": {
-      "options-gh.xml": {
-        "GH": 1
+      "options-et.xml": {
+        "ET": 1,
+        "SS": 1,
+        "NG": 1
+      },
+      "options-ug.xml": {
+        "UG": 1
+      },
+      "options-sl.xml": {
+        "SL": 2
+      },
+      "options-bd.xml": {
+        "BD": 1
       },
       "options-bf.xml": {
         "BF": 1,
         "CD": 1,
         "NG": 1
+      },
+      "options-in.xml": {
+        "IN": 1
       },
       "options-mw.xml": {
         "MW": 2,
@@ -647,11 +681,6 @@
         "TZ": 1,
         "BD": 1,
         "PK": 1
-      },
-      "options-et.xml": {
-        "ET": 1,
-        "SS": 1,
-        "NG": 1
       },
       "options-ke.xml": {
         "KE": 6,
@@ -665,76 +694,72 @@
         "EG": 1,
         "ML": 1
       },
+      "options-gh.xml": {
+        "GH": 1
+      },
       "options-ng.xml": {
         "NG": 2
       },
       "options-np.xml": {
         "NP": 2
-      },
-      "options-ug.xml": {
-        "UG": 1
-      },
-      "options-sl.xml": {
-        "SL": 2
-      },
-      "options-in.xml": {
-        "IN": 1
-      },
-      "options-bd.xml": {
-        "BD": 1
       }
     },
     ".//reporting-org/@type": {
-      "options-gh.xml": {
+      "options-et.xml": {
+        "70": 1
+      },
+      "options-ug.xml": {
+        "70": 1
+      },
+      "options-sl.xml": {
+        "70": 2
+      },
+      "options-bd.xml": {
         "70": 1
       },
       "options-bf.xml": {
         "70": 1
       },
+      "options-in.xml": {
+        "70": 1
+      },
       "options-mw.xml": {
         "70": 2
       },
-      "options-et.xml": {
-        "70": 1
-      },
       "options-ke.xml": {
         "70": 6
+      },
+      "options-gh.xml": {
+        "70": 1
       },
       "options-ng.xml": {
         "70": 2
       },
       "options-np.xml": {
         "70": 2
-      },
-      "options-ug.xml": {
-        "70": 1
-      },
-      "options-sl.xml": {
-        "70": 2
-      },
-      "options-in.xml": {
-        "70": 1
-      },
-      "options-bd.xml": {
-        "70": 1
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "options-gh.xml": {
-        "12340": 1,
-        "99810": 1
+      "options-et.xml": {
+        "43010": 1
+      },
+      "options-sl.xml": {
+        "13020": 2
+      },
+      "options-bd.xml": {
+        "13020": 1
       },
       "options-bf.xml": {
         "13010": 1,
+        "13020": 1
+      },
+      "options-in.xml": {
         "13020": 1
       },
       "options-mw.xml": {
         "13020": 1,
         "13030": 1,
         "12110": 1
-      },
-      "options-et.xml": {
-        "43010": 1
       },
       "options-ke.xml": {
         "12261": 1,
@@ -747,6 +772,10 @@
         "12220": 1,
         "12110": 1
       },
+      "options-gh.xml": {
+        "12340": 1,
+        "99810": 1
+      },
       "options-ng.xml": {
         "13020": 1,
         "12220": 1,
@@ -758,38 +787,11 @@
         "12110": 2,
         "12230": 2,
         "12220": 1
-      },
-      "options-sl.xml": {
-        "13020": 2
-      },
-      "options-in.xml": {
-        "13020": 1
-      },
-      "options-bd.xml": {
-        "13020": 1
       }
     },
     ".//sector/@vocabulary": {
-      "options-gh.xml": {
-        "1": 2
-      },
-      "options-bf.xml": {
-        "1": 2
-      },
-      "options-mw.xml": {
-        "1": 3
-      },
       "options-et.xml": {
         "1": 1
-      },
-      "options-ke.xml": {
-        "1": 10
-      },
-      "options-ng.xml": {
-        "1": 4
-      },
-      "options-np.xml": {
-        "1": 6
       },
       "options-ug.xml": {
         "99": 1
@@ -797,17 +799,39 @@
       "options-sl.xml": {
         "1": 2
       },
+      "options-bd.xml": {
+        "1": 1
+      },
+      "options-bf.xml": {
+        "1": 2
+      },
       "options-in.xml": {
         "1": 1
       },
-      "options-bd.xml": {
-        "1": 1
+      "options-mw.xml": {
+        "1": 3
+      },
+      "options-ke.xml": {
+        "1": 10
+      },
+      "options-gh.xml": {
+        "1": 2
+      },
+      "options-ng.xml": {
+        "1": 4
+      },
+      "options-np.xml": {
+        "1": 6
       }
     },
     ".//transaction/provider-org/@type": {
-      "options-gh.xml": {
-        "70": 8,
-        "10": 2
+      "options-et.xml": {
+        "10": 4,
+        "70": 1
+      },
+      "options-ug.xml": {
+        "70": 3,
+        "10": 3
       },
       "options-bf.xml": {
         "21": 1,
@@ -817,13 +841,13 @@
         "21": 2,
         "70": 2
       },
-      "options-et.xml": {
-        "10": 4,
-        "70": 1
-      },
       "options-ke.xml": {
         "10": 6,
         "70": 5
+      },
+      "options-gh.xml": {
+        "70": 8,
+        "10": 2
       },
       "options-ng.xml": {
         "70": 1
@@ -831,16 +855,13 @@
       "options-np.xml": {
         "10": 5,
         "70": 9
-      },
-      "options-ug.xml": {
-        "70": 3,
-        "10": 3
       }
     },
     ".//transaction/receiver-org/@type": {
-      "options-gh.xml": {
-        "22": 2,
-        "80": 2,
+      "options-et.xml": {
+        "70": 2
+      },
+      "options-ug.xml": {
         "70": 3
       },
       "options-bf.xml": {
@@ -849,11 +870,13 @@
       "options-mw.xml": {
         "70": 2
       },
-      "options-et.xml": {
-        "70": 2
-      },
       "options-ke.xml": {
         "70": 4
+      },
+      "options-gh.xml": {
+        "22": 2,
+        "80": 2,
+        "70": 3
       },
       "options-ng.xml": {
         "70": 1
@@ -861,44 +884,13 @@
       "options-np.xml": {
         "70": 3,
         "72": 1
-      },
-      "options-ug.xml": {
-        "70": 3
       }
     },
     ".//transaction/transaction-type/@code": {
-      "options-gh.xml": {
-        "1": 9,
-        "3": 22,
-        "4": 10
-      },
-      "options-bf.xml": {
-        "1": 14,
-        "4": 15
-      },
-      "options-mw.xml": {
-        "1": 14,
-        "4": 16,
-        "3": 3
-      },
       "options-et.xml": {
         "4": 10,
         "3": 10,
         "1": 10
-      },
-      "options-ke.xml": {
-        "4": 41,
-        "1": 36,
-        "3": 12
-      },
-      "options-ng.xml": {
-        "1": 13,
-        "4": 14
-      },
-      "options-np.xml": {
-        "1": 17,
-        "4": 16,
-        "3": 52
       },
       "options-ug.xml": {
         "4": 3,
@@ -908,63 +900,73 @@
         "1": 2,
         "4": 2
       },
+      "options-bd.xml": {
+        "1": 1,
+        "4": 1
+      },
+      "options-bf.xml": {
+        "1": 14,
+        "4": 15
+      },
       "options-in.xml": {
         "3": 2,
         "4": 1,
         "1": 1
       },
-      "options-bd.xml": {
-        "1": 1,
-        "4": 1
+      "options-mw.xml": {
+        "1": 14,
+        "4": 16,
+        "3": 3
+      },
+      "options-ke.xml": {
+        "4": 41,
+        "1": 36,
+        "3": 12
+      },
+      "options-gh.xml": {
+        "1": 9,
+        "3": 22,
+        "4": 10
+      },
+      "options-ng.xml": {
+        "1": 13,
+        "4": 14
+      },
+      "options-np.xml": {
+        "1": 17,
+        "4": 16,
+        "3": 52
       }
     },
     ".//transaction/value/@currency": {
-      "options-gh.xml": {
-        "GBP": 20
+      "options-et.xml": {
+        "GBP": 14
+      },
+      "options-ug.xml": {
+        "GBP": 6
       },
       "options-bf.xml": {
         "GBP": 9
       },
       "options-mw.xml": {
         "GBP": 9
-      },
-      "options-et.xml": {
-        "GBP": 14
       },
       "options-ke.xml": {
         "GBP": 30
       },
+      "options-gh.xml": {
+        "GBP": 20
+      },
       "options-ng.xml": {
         "GBP": 6
       },
       "options-np.xml": {
         "GBP": 20
-      },
-      "options-ug.xml": {
-        "GBP": 6
       }
     },
     ".//@xml:lang": {
-      "options-gh.xml": {
-        "en": 52
-      },
-      "options-bf.xml": {
-        "en": 22
-      },
-      "options-mw.xml": {
-        "en": 25
-      },
       "options-et.xml": {
         "en": 34
-      },
-      "options-ke.xml": {
-        "en": 93
-      },
-      "options-ng.xml": {
-        "en": 21
-      },
-      "options-np.xml": {
-        "en": 55
       },
       "options-ug.xml": {
         "en": 23
@@ -972,31 +974,51 @@
       "options-sl.xml": {
         "en": 12
       },
+      "options-bd.xml": {
+        "en": 5
+      },
+      "options-bf.xml": {
+        "en": 22
+      },
       "options-in.xml": {
         "en": 7
       },
-      "options-bd.xml": {
-        "en": 5
-      }
-    },
-    ".//budget/value/@currency": {
-      "options-bf.xml": {
-        "GBP": 4
-      },
       "options-mw.xml": {
-        "GBP": 5
-      },
-      "options-et.xml": {
-        "GBP": 5
+        "en": 25
       },
       "options-ke.xml": {
-        "GBP": 3
+        "en": 93
       },
+      "options-gh.xml": {
+        "en": 52
+      },
+      "options-ng.xml": {
+        "en": 21
+      },
+      "options-np.xml": {
+        "en": 55
+      }
+    },
+    ".//location/location-reach/@code": {
       "options-ug.xml": {
-        "GBP": 1
+        "1": 1
       },
-      "options-in.xml": {
-        "GBP": 1
+      "options-ke.xml": {
+        "1": 1
+      },
+      "options-np.xml": {
+        "1": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "options-ug.xml": {
+        "99": 1
+      },
+      "options-ke.xml": {
+        "1": 1
+      },
+      "options-ng.xml": {
+        "1": 1
       }
     },
     ".//location/administrative/@vocabulary": {
@@ -1025,31 +1047,9 @@
         "A4": 1
       }
     },
-    ".//location/location-reach/@code": {
-      "options-ke.xml": {
-        "1": 1
-      },
-      "options-np.xml": {
-        "1": 1
-      },
-      "options-ug.xml": {
-        "1": 1
-      }
-    },
     ".//location/exactness/@code": {
       "options-ke.xml": {
         "2": 1
-      }
-    },
-    ".//policy-marker/@vocabulary": {
-      "options-ke.xml": {
-        "1": 1
-      },
-      "options-ng.xml": {
-        "1": 1
-      },
-      "options-ug.xml": {
-        "99": 1
       }
     },
     ".//location/administrative[@vocabulary = 'A4']/@code": {

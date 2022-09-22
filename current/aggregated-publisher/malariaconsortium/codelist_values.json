@@ -2,14 +2,14 @@
   ".//@default-currency": {
     "USD": 239,
     "GBP": 89,
-    "UGX": 10,
-    "EUR": 10,
-    "CAD": 2,
-    "THB": 2,
-    "NOK": 2,
     "NGN": 4,
-    "ETB": 2,
-    "MZN": 2
+    "UGX": 10,
+    "MZN": 2,
+    "NOK": 2,
+    "EUR": 10,
+    "THB": 2,
+    "CAD": 2,
+    "ETB": 2
   },
   ".//@xml:lang": {
     "en": 2064
@@ -20,8 +20,8 @@
     "4": 239
   },
   ".//activity-status/@code": {
-    "2": 125,
-    "4": 237
+    "4": 237,
+    "2": 125
   },
   ".//budget/@type": {
     "1": 139,
@@ -30,15 +30,15 @@
   ".//budget/value/@currency": {
     "USD": 203,
     "GBP": 52,
-    "UGX": 8,
-    "EUR": 3,
-    "CAD": 1,
-    "THB": 3,
-    "Eur": 1,
-    "NOK": 1,
     "NGN": 3,
-    "ETB": 4,
-    "MZN": 1
+    "UGX": 8,
+    "MZN": 1,
+    "NOK": 1,
+    "Eur": 1,
+    "THB": 3,
+    "CAD": 1,
+    "EUR": 3,
+    "ETB": 4
   },
   ".//contact-info/@type": {
     "1": 362
@@ -61,46 +61,46 @@
     "4": 495
   },
   ".//participating-org/@type": {
-    "60": 18,
     "21": 386,
-    "80": 33,
     "40": 49,
     "10": 109,
-    "22": 40,
-    "15": 9,
+    "60": 18,
+    "80": 33,
     "70": 26,
-    "23": 1
+    "23": 1,
+    "22": 40,
+    "15": 9
   },
   ".//recipient-country/@code": {
     "NG": 62,
-    "GB": 29,
-    "MM": 21,
-    "KH": 35,
-    "ET": 33,
-    "UG": 67,
     "MZ": 43,
     "SS": 53,
-    "TH": 14,
-    "ZM": 4,
-    "MW": 2,
-    "TZ": 2,
+    "UG": 67,
+    "ET": 33,
+    "KH": 35,
+    "GB": 29,
     "GH": 3,
-    "TD": 5,
+    "MM": 21,
+    "TH": 14,
     "SN": 3,
-    "CM": 2,
     "SL": 2,
+    "ZM": 4,
+    "TD": 5,
+    "NP": 2,
     "BF": 3,
     "GW": 2,
     "TG": 2,
+    "CM": 2,
     "GM": 1,
     "GN": 1,
     "ML": 1,
     "NE": 1,
-    "NP": 2
+    "MW": 2,
+    "TZ": 2
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "798": 15,
-    "298": 19
+    "298": 19,
+    "798": 15
   },
   ".//related-activity/@type": {
     "2": 224,
@@ -113,11 +113,11 @@
     "1": 368
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12250": 78,
+    "12262": 212,
+    "12240": 16,
     "12230": 37,
     "12220": 23,
-    "12262": 212,
-    "12250": 78,
-    "12240": 16,
     "51010": 2
   },
   ".//transaction/disbursement-channel/@code": {
@@ -142,18 +142,18 @@
   ".//transaction/value/@currency": {
     "USD": 2880,
     "GBP": 1100,
+    "NGN": 372,
     "ETB": 29,
     "UGX": 139,
-    "NGN": 372,
-    "EUR": 34,
     "MZN": 38,
-    "MMK": 8,
-    "CAD": 15,
-    "THB": 17,
-    "Eur": 1,
     "NOK": 13,
-    "SDG": 1,
+    "EUR": 34,
+    "Eur": 1,
+    "MMK": 8,
+    "THB": 17,
+    "CAD": 15,
     "XOF": 660,
-    "XAF": 408
+    "XAF": 408,
+    "SDG": 1
   }
 }

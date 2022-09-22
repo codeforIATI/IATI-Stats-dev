@@ -1,25 +1,25 @@
 {
   ".//@default-currency": {
-    "EUR": {
-      "iucn-activity.xml": 6
-    },
     "USD": {
       "iucn-activities.xml": 1
+    },
+    "EUR": {
+      "iucn-activity.xml": 6
     }
   },
   ".//@xml:lang": {
     "en": {
-      "iucn-activity.xml": 6,
-      "iucn-activities.xml": 15
+      "iucn-activities.xml": 15,
+      "iucn-activity.xml": 6
     }
   },
   ".//activity-date/@type": {
-    "1": {
+    "2": {
+      "iucn-activities.xml": 1,
       "iucn-activity.xml": 6
     },
-    "2": {
-      "iucn-activity.xml": 6,
-      "iucn-activities.xml": 1
+    "1": {
+      "iucn-activity.xml": 6
     },
     "3": {
       "iucn-activity.xml": 6
@@ -27,8 +27,8 @@
   },
   ".//activity-status/@code": {
     "2": {
-      "iucn-activity.xml": 6,
-      "iucn-activities.xml": 1
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 6
     }
   },
   ".//budget/@status": {
@@ -43,14 +43,14 @@
   },
   ".//budget/value/@currency": {
     "EUR": {
-      "iucn-activity.xml": 1,
-      "iucn-activities.xml": 1
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 1
     }
   },
   ".//contact-info/@type": {
     "2": {
-      "iucn-activity.xml": 6,
-      "iucn-activities.xml": 1
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 6
     },
     "4": {
       "iucn-activity.xml": 1
@@ -83,12 +83,12 @@
   },
   ".//description/@type": {
     "1": {
-      "iucn-activity.xml": 12,
-      "iucn-activities.xml": 1
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 12
     },
     "2": {
-      "iucn-activity.xml": 6,
-      "iucn-activities.xml": 1
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 6
     }
   },
   ".//document-link/@format": {
@@ -122,33 +122,33 @@
   },
   ".//participating-org/@role": {
     "1": {
-      "iucn-activity.xml": 6,
-      "iucn-activities.xml": 1
-    },
-    "2": {
-      "iucn-activity.xml": 6,
-      "iucn-activities.xml": 1
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 6
     },
     "4": {
-      "iucn-activity.xml": 7,
-      "iucn-activities.xml": 4
+      "iucn-activities.xml": 4,
+      "iucn-activity.xml": 7
+    },
+    "2": {
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 6
     }
   },
   ".//participating-org/@type": {
-    "21": {
-      "iucn-activity.xml": 17,
-      "iucn-activities.xml": 1
-    },
     "10": {
-      "iucn-activity.xml": 1,
-      "iucn-activities.xml": 2
-    },
-    "22": {
-      "iucn-activity.xml": 1,
-      "iucn-activities.xml": 1
+      "iucn-activities.xml": 2,
+      "iucn-activity.xml": 1
     },
     "90": {
       "iucn-activities.xml": 2
+    },
+    "21": {
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 17
+    },
+    "22": {
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 1
     }
   },
   ".//policy-marker/@significance": {
@@ -194,14 +194,14 @@
     }
   },
   ".//recipient-country/@code": {
+    "RW": {
+      "iucn-activities.xml": 1
+    },
     "TZ": {
       "iucn-activity.xml": 5
     },
     "MZ": {
       "iucn-activity.xml": 5
-    },
-    "RW": {
-      "iucn-activities.xml": 1
     }
   },
   ".//related-activity/@type": {
@@ -213,46 +213,46 @@
     }
   },
   ".//reporting-org/@type": {
-    "21": {
-      "iucn-activity.xml": 6
-    },
     "90": {
       "iucn-activities.xml": 1
+    },
+    "21": {
+      "iucn-activity.xml": 6
     }
   },
   ".//result/@type": {
+    "1": {
+      "iucn-activities.xml": 9,
+      "iucn-activity.xml": 1
+    },
     "2": {
-      "iucn-activity.xml": 16,
-      "iucn-activities.xml": 4
+      "iucn-activities.xml": 4,
+      "iucn-activity.xml": 16
     },
     "3": {
-      "iucn-activity.xml": 5,
-      "iucn-activities.xml": 1
-    },
-    "1": {
-      "iucn-activity.xml": 1,
-      "iucn-activities.xml": 9
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 5
     }
   },
   ".//result/indicator/@measure": {
-    "1": {
-      "iucn-activity.xml": 31,
-      "iucn-activities.xml": 15
-    },
-    "2": {
-      "iucn-activity.xml": 7,
-      "iucn-activities.xml": 1
-    },
     "5": {
       "iucn-activities.xml": 3
+    },
+    "1": {
+      "iucn-activities.xml": 15,
+      "iucn-activity.xml": 31
+    },
+    "2": {
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 7
     }
   },
   ".//sector/@vocabulary": {
-    "2": {
-      "iucn-activity.xml": 29
-    },
     "1": {
       "iucn-activities.xml": 1
+    },
+    "2": {
+      "iucn-activity.xml": 29
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -283,40 +283,40 @@
     }
   },
   ".//transaction/provider-org/@type": {
+    "10": {
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 7
+    },
     "21": {
       "iucn-activity.xml": 97
-    },
-    "10": {
-      "iucn-activity.xml": 7,
-      "iucn-activities.xml": 1
     }
   },
   ".//transaction/receiver-org/@type": {
+    "90": {
+      "iucn-activities.xml": 1
+    },
     "21": {
       "iucn-activity.xml": 84
     },
     "22": {
       "iucn-activity.xml": 19
-    },
-    "90": {
-      "iucn-activities.xml": 1
     }
   },
   ".//transaction/transaction-type/@code": {
+    "3": {
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 36
+    },
+    "4": {
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 23
+    },
     "11": {
-      "iucn-activity.xml": 8,
-      "iucn-activities.xml": 1
+      "iucn-activities.xml": 1,
+      "iucn-activity.xml": 8
     },
     "1": {
       "iucn-activity.xml": 21
-    },
-    "4": {
-      "iucn-activity.xml": 23,
-      "iucn-activities.xml": 1
-    },
-    "3": {
-      "iucn-activity.xml": 36,
-      "iucn-activities.xml": 1
     },
     "2": {
       "iucn-activity.xml": 19

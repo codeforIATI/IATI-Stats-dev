@@ -9,6 +9,10 @@
         "2": 1,
         "3": 1
       },
+      "manniondaniels-activities.xml": {
+        "2": 2,
+        "3": 2
+      },
       "manniondaniels-ukaid.xml": {
         "2": 2,
         "3": 2
@@ -16,10 +20,6 @@
       "manniondaniels-amplifychange.xml": {
         "2": 59,
         "3": 59
-      },
-      "manniondaniels-activities.xml": {
-        "2": 2,
-        "3": 2
       }
     },
     ".//activity-status/@code": {
@@ -29,14 +29,14 @@
       "manniondaniels-mnch2.xml": {
         "2": 1
       },
+      "manniondaniels-activities.xml": {
+        "2": 2
+      },
       "manniondaniels-ukaid.xml": {
         "2": 2
       },
       "manniondaniels-amplifychange.xml": {
         "2": 59
-      },
-      "manniondaniels-activities.xml": {
-        "2": 2
       }
     },
     ".//participating-org/@role": {
@@ -48,6 +48,11 @@
         "3": 1,
         "4": 1
       },
+      "manniondaniels-activities.xml": {
+        "1": 2,
+        "3": 1,
+        "4": 20
+      },
       "manniondaniels-ukaid.xml": {
         "4": 244,
         "3": 2,
@@ -57,11 +62,6 @@
         "1": 10,
         "3": 59,
         "4": 414
-      },
-      "manniondaniels-activities.xml": {
-        "1": 2,
-        "3": 1,
-        "4": 20
       }
     },
     ".//participating-org/@type": {
@@ -71,6 +71,12 @@
       },
       "manniondaniels-mnch2.xml": {
         "70": 2
+      },
+      "manniondaniels-activities.xml": {
+        "10": 2,
+        "70": 1,
+        "21": 1,
+        "22": 19
       },
       "manniondaniels-ukaid.xml": {
         "21": 174,
@@ -87,12 +93,6 @@
         "70": 60,
         "22": 378,
         "23": 1
-      },
-      "manniondaniels-activities.xml": {
-        "10": 2,
-        "70": 1,
-        "21": 1,
-        "22": 19
       }
     },
     ".//recipient-country/@code": {
@@ -121,6 +121,17 @@
       },
       "manniondaniels-mnch2.xml": {
         "NG": 126
+      },
+      "manniondaniels-activities.xml": {
+        "NG": 1,
+        "SL": 1,
+        "KE": 1,
+        "LR": 1,
+        "CI": 1,
+        "GM": 1,
+        "ML": 1,
+        "SO": 1,
+        "SS": 1
       },
       "manniondaniels-ukaid.xml": {
         "ZW": 90,
@@ -223,29 +234,18 @@
         "UG": 1,
         "ZM": 1,
         "ZW": 1
-      },
-      "manniondaniels-activities.xml": {
-        "NG": 1,
-        "SL": 1,
-        "KE": 1,
-        "LR": 1,
-        "CI": 1,
-        "GM": 1,
-        "ML": 1,
-        "SO": 1,
-        "SS": 1
       }
     },
     ".//related-activity/@type": {
       "manniondaniels-sccf.xml": {
         "1": 21
       },
+      "manniondaniels-activities.xml": {
+        "1": 1
+      },
       "manniondaniels-amplifychange.xml": {
         "2": 58,
         "1": 58
-      },
-      "manniondaniels-activities.xml": {
-        "1": 1
       }
     },
     ".//reporting-org/@type": {
@@ -255,14 +255,14 @@
       "manniondaniels-mnch2.xml": {
         "70": 1
       },
+      "manniondaniels-activities.xml": {
+        "70": 2
+      },
       "manniondaniels-ukaid.xml": {
         "70": 2
       },
       "manniondaniels-amplifychange.xml": {
         "70": 59
-      },
-      "manniondaniels-activities.xml": {
-        "70": 2
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -272,15 +272,15 @@
       "manniondaniels-mnch2.xml": {
         "43010": 1
       },
+      "manniondaniels-activities.xml": {
+        "11110": 1,
+        "13020": 1
+      },
       "manniondaniels-ukaid.xml": {
         "43010": 2
       },
       "manniondaniels-amplifychange.xml": {
         "43010": 59
-      },
-      "manniondaniels-activities.xml": {
-        "11110": 1,
-        "13020": 1
       }
     },
     ".//transaction/transaction-type/@code": {
@@ -291,6 +291,13 @@
         "1": 63,
         "4": 63
       },
+      "manniondaniels-activities.xml": {
+        "1": 7,
+        "3": 42,
+        "11": 2,
+        "2": 1,
+        "4": 1
+      },
       "manniondaniels-ukaid.xml": {
         "1": 621,
         "2": 2,
@@ -300,13 +307,6 @@
         "1": 63,
         "3": 21,
         "2": 934
-      },
-      "manniondaniels-activities.xml": {
-        "1": 7,
-        "3": 42,
-        "11": 2,
-        "2": 1,
-        "4": 1
       }
     },
     ".//transaction/value/@currency": {
@@ -315,6 +315,10 @@
       },
       "manniondaniels-mnch2.xml": {
         "GBP": 126
+      },
+      "manniondaniels-activities.xml": {
+        "GBP": 5,
+        "EUR": 48
       },
       "manniondaniels-ukaid.xml": {
         "GBP": 3193
@@ -326,43 +330,33 @@
         "GBP": 12,
         "NOK": 1,
         "SEK": 14
-      },
-      "manniondaniels-activities.xml": {
-        "GBP": 5,
-        "EUR": 48
       }
     },
     ".//budget/@type": {
       "manniondaniels-mnch2.xml": {
         "2": 1
       },
-      "manniondaniels-ukaid.xml": {
-        "2": 2
-      },
       "manniondaniels-activities.xml": {
         "1": 5
+      },
+      "manniondaniels-ukaid.xml": {
+        "2": 2
       }
     },
     ".//budget/value/@currency": {
       "manniondaniels-mnch2.xml": {
         "GBP": 1
       },
-      "manniondaniels-ukaid.xml": {
-        "GBP": 2
-      },
       "manniondaniels-activities.xml": {
         "GBP": 2,
         "EUR": 3
+      },
+      "manniondaniels-ukaid.xml": {
+        "GBP": 2
       }
     },
     ".//document-link/@format": {
       "manniondaniels-mnch2.xml": {
-        "text/html": 1
-      },
-      "manniondaniels-ukaid.xml": {
-        "text/html": 2
-      },
-      "manniondaniels-amplifychange.xml": {
         "text/html": 1
       },
       "manniondaniels-activities.xml": {
@@ -370,51 +364,57 @@
         "application/pdf": 5,
         "video/mp4": 1,
         "application/vnd.oasis.opendocument.text-web": 1
+      },
+      "manniondaniels-ukaid.xml": {
+        "text/html": 2
+      },
+      "manniondaniels-amplifychange.xml": {
+        "text/html": 1
       }
     },
     ".//document-link/category/@code": {
       "manniondaniels-mnch2.xml": {
         "A12": 1
       },
+      "manniondaniels-activities.xml": {
+        "A06": 2,
+        "B01": 2,
+        "A08": 4
+      },
       "manniondaniels-ukaid.xml": {
         "A12": 2
       },
       "manniondaniels-amplifychange.xml": {
         "A12": 1
-      },
-      "manniondaniels-activities.xml": {
-        "A06": 2,
-        "B01": 2,
-        "A08": 4
       }
     },
     ".//document-link/language/@code": {
       "manniondaniels-mnch2.xml": {
         "en": 1
       },
+      "manniondaniels-activities.xml": {
+        "en": 8
+      },
       "manniondaniels-ukaid.xml": {
         "en": 2
       },
       "manniondaniels-amplifychange.xml": {
         "en": 1
-      },
-      "manniondaniels-activities.xml": {
-        "en": 8
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "manniondaniels-mnch2.xml": {
         "298": 1
       },
+      "manniondaniels-activities.xml": {
+        "298": 1,
+        "679": 1
+      },
       "manniondaniels-ukaid.xml": {
         "998": 2
       },
       "manniondaniels-amplifychange.xml": {
         "998": 2
-      },
-      "manniondaniels-activities.xml": {
-        "298": 1,
-        "679": 1
       }
     },
     ".//transaction/recipient-country/@code": {
@@ -466,103 +466,11 @@
       }
     },
     ".//@default-currency": {
-      "manniondaniels-ukaid.xml": {
-        "GBP": 2
-      },
       "manniondaniels-activities.xml": {
         "GBP": 2
-      }
-    },
-    ".//collaboration-type/@code": {
+      },
       "manniondaniels-ukaid.xml": {
-        "1": 2
-      }
-    },
-    ".//contact-info/@type": {
-      "manniondaniels-ukaid.xml": {
-        "1": 2
-      },
-      "manniondaniels-activities.xml": {
-        "2": 2
-      }
-    },
-    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "manniondaniels-ukaid.xml": {
-        "C01": 2
-      },
-      "manniondaniels-amplifychange.xml": {
-        "B03": 1
-      },
-      "manniondaniels-activities.xml": {
-        "C01": 2
-      }
-    },
-    ".//default-finance-type/@code": {
-      "manniondaniels-ukaid.xml": {
-        "110": 2
-      },
-      "manniondaniels-amplifychange.xml": {
-        "110": 1
-      },
-      "manniondaniels-activities.xml": {
-        "110": 1
-      }
-    },
-    ".//default-flow-type/@code": {
-      "manniondaniels-ukaid.xml": {
-        "10": 2
-      },
-      "manniondaniels-amplifychange.xml": {
-        "10": 1
-      },
-      "manniondaniels-activities.xml": {
-        "10": 1
-      }
-    },
-    ".//default-tied-status/@code": {
-      "manniondaniels-ukaid.xml": {
-        "5": 2
-      },
-      "manniondaniels-amplifychange.xml": {
-        "5": 1
-      },
-      "manniondaniels-activities.xml": {
-        "5": 1
-      }
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "manniondaniels-ukaid.xml": {
-        "1": 2
-      },
-      "manniondaniels-amplifychange.xml": {
-        "1": 1
-      },
-      "manniondaniels-activities.xml": {
-        "9": 1,
-        "1": 1
-      }
-    },
-    ".//policy-marker/@significance": {
-      "manniondaniels-ukaid.xml": {
-        "1": 2
-      },
-      "manniondaniels-amplifychange.xml": {
-        "1": 1
-      },
-      "manniondaniels-activities.xml": {
-        "2": 1,
-        "1": 1
-      }
-    },
-    ".//result/@type": {
-      "manniondaniels-amplifychange.xml": {
-        "2": 63
-      }
-    },
-    ".//result/indicator/@measure": {
-      "manniondaniels-amplifychange.xml": {
-        "2": 61,
-        "1": 2
+        "GBP": 2
       }
     },
     ".//budget/@status": {
@@ -571,9 +479,61 @@
         "1": 3
       }
     },
+    ".//contact-info/@type": {
+      "manniondaniels-activities.xml": {
+        "2": 2
+      },
+      "manniondaniels-ukaid.xml": {
+        "1": 2
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "manniondaniels-activities.xml": {
+        "C01": 2
+      },
+      "manniondaniels-ukaid.xml": {
+        "C01": 2
+      },
+      "manniondaniels-amplifychange.xml": {
+        "B03": 1
+      }
+    },
     ".//default-aid-type/@vocabulary": {
       "manniondaniels-activities.xml": {
         "1": 2
+      }
+    },
+    ".//default-finance-type/@code": {
+      "manniondaniels-activities.xml": {
+        "110": 1
+      },
+      "manniondaniels-ukaid.xml": {
+        "110": 2
+      },
+      "manniondaniels-amplifychange.xml": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "manniondaniels-activities.xml": {
+        "10": 1
+      },
+      "manniondaniels-ukaid.xml": {
+        "10": 2
+      },
+      "manniondaniels-amplifychange.xml": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "manniondaniels-activities.xml": {
+        "5": 1
+      },
+      "manniondaniels-ukaid.xml": {
+        "5": 2
+      },
+      "manniondaniels-amplifychange.xml": {
+        "5": 1
       }
     },
     ".//description/@type": {
@@ -588,6 +548,30 @@
         "60000": 1,
         "21000": 1,
         "20000": 19
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "manniondaniels-activities.xml": {
+        "9": 1,
+        "1": 1
+      },
+      "manniondaniels-ukaid.xml": {
+        "1": 2
+      },
+      "manniondaniels-amplifychange.xml": {
+        "1": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "manniondaniels-activities.xml": {
+        "2": 1,
+        "1": 1
+      },
+      "manniondaniels-ukaid.xml": {
+        "1": 2
+      },
+      "manniondaniels-amplifychange.xml": {
+        "1": 1
       }
     },
     ".//policy-marker/@vocabulary": {
@@ -622,6 +606,22 @@
       "manniondaniels-activities.xml": {
         "en": 49,
         "fr": 5
+      }
+    },
+    ".//collaboration-type/@code": {
+      "manniondaniels-ukaid.xml": {
+        "1": 2
+      }
+    },
+    ".//result/@type": {
+      "manniondaniels-amplifychange.xml": {
+        "2": 63
+      }
+    },
+    ".//result/indicator/@measure": {
+      "manniondaniels-amplifychange.xml": {
+        "2": 61,
+        "1": 2
       }
     }
   }

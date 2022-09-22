@@ -15,7 +15,8 @@
     "1": 16
   },
   ".//activity-status/@code": {
-    "2": 16
+    "2": 12,
+    "3": 4
   },
   ".//budget/value/@currency": {
     "USD": 304
@@ -24,20 +25,20 @@
     "2": 16
   },
   ".//conditions/condition/@type": {
-    "1": 5,
     "2": 16,
-    "3": 16
+    "3": 16,
+    "1": 5
   },
   ".//country-budget-items/@vocabulary": {
     "1": 16
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "A01": 5,
-    "C01": 11
+    "C01": 11,
+    "A01": 5
   },
   ".//default-finance-type/@code": {
-    "421": 2,
-    "110": 14
+    "110": 14,
+    "421": 2
   },
   ".//default-flow-type/@code": {
     "10": 16
@@ -62,9 +63,6 @@
   },
   ".//document-link/language/@code": {
     "en": 102
-  },
-  ".//location/location-id/@vocabulary": {
-    "G1": 16
   },
   ".//other-identifier/@type": {
     "B1": 16
@@ -100,20 +98,20 @@
     "en": 19
   },
   ".//result/indicator/@measure": {
-    "1": 1,
-    "5": 16
+    "5": 16,
+    "1": 1
   },
   ".//sector/@vocabulary": {
     "1": 16
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "15111": 7,
-    "14050": 2,
     "14031": 2,
-    "23630": 1,
+    "15111": 7,
+    "16011": 1,
     "23620": 2,
-    "11220": 1,
-    "16011": 1
+    "23630": 1,
+    "14050": 2,
+    "11220": 1
   },
   ".//transaction/transaction-type/@code": {
     "2": 16,

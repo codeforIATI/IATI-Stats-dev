@@ -6,7 +6,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "brac_admin2-activities.xml": 52
+      "brac_admin2-activities.xml": 51
     }
   },
   ".//activity-date/@type": {
@@ -95,20 +95,17 @@
       "brac_admin2-activities.xml": 1
     },
     "application/pdf": {
-      "brac_admin2-activities.xml": 2
+      "brac_admin2-activities.xml": 1
     }
   },
   ".//document-link/category/@code": {
     "B01": {
       "brac_admin2-activities.xml": 4
-    },
-    "A05": {
-      "brac_admin2-activities.xml": 1
     }
   },
   ".//document-link/language/@code": {
     "en": {
-      "brac_admin2-activities.xml": 5
+      "brac_admin2-activities.xml": 4
     }
   },
   ".//participating-org/@role": {
@@ -172,14 +169,22 @@
   ".//transaction/provider-org/@type": {
     "10": {
       "brac_admin2-activities.xml": 6
+    },
+    "21": {
+      "brac_admin2-activities.xml": 28
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "brac_admin2-activities.xml": 5
     }
   },
   ".//transaction/transaction-type/@code": {
     "4": {
-      "brac_admin2-activities.xml": 1
+      "brac_admin2-activities.xml": 24
     },
     "1": {
-      "brac_admin2-activities.xml": 4
+      "brac_admin2-activities.xml": 9
     },
     "11": {
       "brac_admin2-activities.xml": 1
@@ -191,6 +196,9 @@
     },
     "BDT": {
       "brac_admin2-activities.xml": 1
+    },
+    "GBP": {
+      "brac_admin2-activities.xml": 28
     }
   }
 }

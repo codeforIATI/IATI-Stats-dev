@@ -74,25 +74,25 @@
     },
     ".//policy-marker/@significance": {
       "1": 47,
-      "0": 31,
-      "2": 12
+      "2": 12,
+      "0": 31
     },
     ".//policy-marker/@vocabulary": {
       "1": 90
     },
     ".//recipient-country/@code": {
-      "RW": 1,
-      "BO": 1,
-      "BF": 1,
-      "PE": 1,
-      "BE": 3,
-      "UG": 1,
-      "BI": 1,
       "CO": 1,
+      "RW": 1,
+      "CD": 1,
+      "BF": 1,
+      "BE": 3,
+      "BO": 1,
+      "SN": 1,
+      "UG": 1,
       "GT": 1,
       "HT": 1,
-      "CD": 1,
-      "SN": 1,
+      "PE": 1,
+      "BI": 1,
       "PS": 1
     },
     ".//related-activity/@type": {
@@ -112,9 +112,9 @@
       "92030": 12,
       "15160": 10,
       "31120": 11,
-      "99820": 3,
+      "99810": 1,
       "91010": 1,
-      "99810": 1
+      "99820": 3
     },
     ".//sector/@vocabulary": {
       "1": 38
@@ -124,9 +124,9 @@
       "10": 10
     },
     ".//transaction/transaction-type/@code": {
-      "4": 80,
-      "3": 587,
       "2": 446,
+      "3": 587,
+      "4": 80,
       "11": 10,
       "1": 10
     },
@@ -135,16 +135,9 @@
     },
     ".//@xml:lang": {
       "nl": 161,
-      "fr": 89,
       "es": 33,
+      "fr": 89,
       "en": 20
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "89": 1,
-      "998": 1
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 2
     },
     ".//document-link/@format": {
       "application/pdf": 1
@@ -160,6 +153,13 @@
     },
     ".//other-identifier/@type": {
       "A9": 1
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "998": 1,
+      "89": 1
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 2
     },
     ".//transaction/receiver-org/@type": {
       "22": 20

@@ -4,23 +4,17 @@
       "EUR": 2741
     },
     ".//activity-date/@type": {
-      "2": 2741,
-      "4": 1554,
       "1": 2741,
-      "3": 2740
+      "3": 2740,
+      "2": 2741,
+      "4": 1554
     },
     ".//activity-status/@code": {
-      "4": 834,
       "3": 1112,
+      "2": 378,
       "1": 326,
-      "5": 91,
-      "2": 378
-    },
-    ".//activity-scope/@code": {
-      "4": 326,
-      "2": 1230,
-      "5": 185,
-      "1": 61
+      "4": 834,
+      "5": 91
     },
     ".//budget/@status": {
       "1": 1758,
@@ -29,102 +23,86 @@
     ".//budget/@type": {
       "1": 2870
     },
-    ".//budget/value/@currency": {
-      "EUR": 392
-    },
-    ".//collaboration-type/@code": {
-      "3": 1803
-    },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 2741
-    },
-    ".//default-aid-type/@vocabulary": {
-      "1": 1803
     },
     ".//default-finance-type/@code": {
       "110": 2741
     },
     ".//default-flow-type/@code": {
-      "10": 1803,
-      "30": 938
+      "30": 938,
+      "10": 1803
     },
     ".//default-tied-status/@code": {
       "5": 2741
     },
-    ".//description/@type": {
-      "1": 1801,
-      "2": 1690,
-      "4": 1594,
-      "3": 2
+    ".//location/location-reach/@code": {
+      "2": 938
     },
     ".//participating-org/@role": {
-      "2": 2741,
       "4": 13044,
       "1": 2834,
+      "2": 2741,
       "3": 3562
     },
     ".//participating-org/@type": {
-      "21": 7181,
       "72": 12019,
+      "21": 7181,
       "10": 2476,
-      "71": 16,
-      "40": 124,
-      "90": 81,
-      "73": 20,
-      "80": 26,
+      "70": 166,
       "60": 12,
+      "90": 81,
+      "80": 26,
       "15": 57,
+      "40": 124,
       "11": 3,
-      "70": 166
+      "71": 16,
+      "73": 20
+    },
+    ".//planned-disbursement/@type": {
+      "1": 1083
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "2": 2741
     },
     ".//policy-marker/@significance": {
-      "2": 230,
-      "0": 938
+      "0": 938,
+      "2": 230
     },
     ".//policy-marker/@vocabulary": {
       "1": 2741
     },
     ".//recipient-country/@code": {
-      "BO": 170,
-      "KE": 276,
-      "PE": 181,
-      "MM": 45,
-      "CI": 29,
       "ET": 372,
-      "GH": 33,
-      "CN": 58,
-      "BF": 23,
-      "UG": 168,
-      "RW": 120,
-      "CD": 170,
-      "TZ": 97,
-      "NE": 20,
-      "VN": 126,
-      "BI": 30,
-      "ZM": 131,
-      "PH": 49,
-      "CG": 1,
       "ID": 91,
-      "NP": 140,
-      "MW": 5,
-      "ES": 19,
-      "ZW": 4,
       "NL": 46,
-      "NG": 2,
-      "SS": 10,
-      "JO": 4,
-      "SL": 1,
-      "EC": 2,
       "CU": 1,
+      "KE": 276,
+      "SS": 10,
+      "ZM": 131,
+      "NP": 140,
+      "UG": 168,
+      "PE": 181,
+      "CD": 170,
+      "CN": 58,
+      "VN": 126,
+      "BO": 170,
+      "ES": 19,
+      "TZ": 97,
       "NI": 25,
+      "RW": 120,
       "ZA": 1,
       "CO": 15,
+      "MM": 45,
+      "GH": 33,
+      "PH": 49,
+      "EC": 2,
       "KH": 3,
       "TH": 1,
+      "NE": 20,
       "AM": 2,
+      "CI": 29,
+      "BI": 30,
       "MD": 4,
       "SV": 2,
       "IN": 4,
@@ -132,8 +110,10 @@
       "ML": 4,
       "MX": 1,
       "MG": 2,
+      "JO": 4,
       "CR": 3,
       "LA": 1,
+      "BF": 23,
       "PY": 1,
       "SN": 1,
       "BA": 4,
@@ -141,7 +121,12 @@
       "TG": 1,
       "BD": 2,
       "FR": 1,
-      "LS": 1
+      "LS": 1,
+      "MW": 5,
+      "ZW": 4,
+      "NG": 2,
+      "CG": 1,
+      "SL": 1
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "298": 121,
@@ -149,36 +134,78 @@
       "489": 18,
       "689": 34
     },
+    ".//reporting-org/@type": {
+      "72": 938,
+      "22": 1803
+    },
+    ".//result/@type": {
+      "2": 4370
+    },
+    ".//result/indicator/@measure": {
+      "4": 2176,
+      "1": 1345,
+      "3": 660,
+      "2": 178,
+      "5": 11
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "31110": 1687,
+      "31181": 130,
+      "31182": 25,
+      "31194": 298,
+      "32161": 294,
+      "31120": 126,
+      "31164": 201,
+      "31165": 136,
+      "31191": 425,
+      "31193": 92,
+      "31166": 91,
+      "31150": 85,
+      "32110": 37,
+      "31210": 4,
+      "31130": 3,
+      "31310": 6
+    },
+    ".//sector/@vocabulary": {
+      "1": 3640
+    },
+    ".//transaction/transaction-type/@code": {
+      "4": 21133,
+      "3": 2834,
+      "11": 9756,
+      "1": 6333,
+      "2": 45
+    },
+    ".//@xml:lang": {
+      "en": 4546,
+      "nl": 373
+    },
+    ".//activity-scope/@code": {
+      "4": 326,
+      "2": 1230,
+      "5": 185,
+      "1": 61
+    },
+    ".//budget/value/@currency": {
+      "EUR": 392
+    },
+    ".//collaboration-type/@code": {
+      "3": 1803
+    },
+    ".//default-aid-type/@vocabulary": {
+      "1": 1803
+    },
+    ".//description/@type": {
+      "1": 1801,
+      "2": 1690,
+      "4": 1594,
+      "3": 2
+    },
     ".//recipient-region/@vocabulary": {
       "1": 129
     },
     ".//related-activity/@type": {
       "1": 1373
-    },
-    ".//reporting-org/@type": {
-      "22": 1803,
-      "72": 938
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "31110": 1687,
-      "31181": 130,
-      "31164": 201,
-      "31166": 91,
-      "31191": 425,
-      "31165": 136,
-      "32161": 294,
-      "31194": 298,
-      "31150": 85,
-      "31120": 126,
-      "31210": 4,
-      "32110": 37,
-      "31193": 92,
-      "31130": 3,
-      "31310": 6,
-      "31182": 25
-    },
-    ".//sector/@vocabulary": {
-      "1": 3640
     },
     ".//transaction/disbursement-channel/@code": {
       "2": 8
@@ -198,35 +225,8 @@
     ".//transaction/tied-status/@code": {
       "3": 2
     },
-    ".//transaction/transaction-type/@code": {
-      "3": 2834,
-      "4": 21133,
-      "11": 9756,
-      "1": 6333,
-      "2": 45
-    },
     ".//transaction/value/@currency": {
       "EUR": 8
-    },
-    ".//@xml:lang": {
-      "en": 4546,
-      "nl": 373
-    },
-    ".//location/location-reach/@code": {
-      "2": 938
-    },
-    ".//planned-disbursement/@type": {
-      "1": 1083
-    },
-    ".//result/@type": {
-      "2": 4370
-    },
-    ".//result/indicator/@measure": {
-      "4": 2176,
-      "1": 1345,
-      "3": 660,
-      "2": 178,
-      "5": 11
     }
   }
 }

@@ -16,8 +16,8 @@
     "3": 1
   },
   ".//budget/@status": {
-    "1": 36,
-    "2": 86
+    "2": 86,
+    "1": 36
   },
   ".//budget/@type": {
     "1": 75,
@@ -33,10 +33,10 @@
     "1": 20
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "A02": 2,
     "C01": 9,
+    "B01": 1,
     "D02": 8,
-    "B01": 1
+    "A02": 2
   },
   ".//default-finance-type/@code": {
     "110": 20
@@ -48,8 +48,8 @@
     "5": 20
   },
   ".//description/@type": {
-    "2": 7,
     "1": 12,
+    "2": 7,
     "3": 1
   },
   ".//location/administrative/@vocabulary": {
@@ -83,43 +83,44 @@
   ".//participating-org/@type": {
     "10": 14,
     "70": 48,
-    "22": 5,
     "21": 15,
-    "80": 4,
+    "22": 5,
     "72": 6,
     "60": 1,
+    "80": 4,
     "71": 1
   },
   ".//policy-marker/@significance": {
     "1": 8,
-    "4": 4,
-    "3": 1,
+    "0": 1,
     "2": 4,
-    "0": 1
+    "4": 4,
+    "3": 1
   },
   ".//policy-marker/@vocabulary": {
-    "1": 2,
-    "99": 1
+    "99": 1,
+    "1": 2
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "1": 2,
+    "3": 2,
     "9": 15,
-    "3": 2
+    "1": 2
   },
   ".//recipient-country/@code": {
-    "GH": 1,
+    "ET": 2,
+    "SS": 1,
+    "NG": 5,
+    "UG": 2,
+    "SL": 2,
+    "BD": 2,
     "BF": 2,
     "CD": 1,
-    "NG": 5,
+    "IN": 1,
     "MW": 2,
     "MG": 1,
     "ZM": 1,
-    "UG": 2,
     "TZ": 1,
-    "BD": 2,
     "PK": 1,
-    "ET": 2,
-    "SS": 1,
     "KE": 6,
     "SD": 1,
     "SO": 1,
@@ -127,9 +128,8 @@
     "GM": 1,
     "EG": 1,
     "ML": 1,
-    "NP": 2,
-    "SL": 2,
-    "IN": 1
+    "GH": 1,
+    "NP": 2
   },
   ".//reporting-org/@type": {
     "70": 20
@@ -139,36 +139,36 @@
     "99": 1
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "12340": 1,
-    "99810": 1,
-    "13010": 1,
+    "43010": 1,
     "13020": 10,
+    "13010": 1,
     "13030": 3,
     "12110": 5,
-    "43010": 1,
     "12261": 1,
     "23230": 1,
     "15185": 1,
     "43030": 1,
     "12191": 1,
     "12220": 3,
+    "12340": 1,
+    "99810": 1,
     "12230": 2
   },
   ".//transaction/provider-org/@type": {
-    "70": 30,
     "10": 20,
+    "70": 30,
     "21": 3
   },
   ".//transaction/receiver-org/@type": {
+    "70": 19,
     "22": 2,
     "80": 2,
-    "70": 19,
     "72": 1
   },
   ".//transaction/transaction-type/@code": {
-    "1": 120,
+    "4": 129,
     "3": 101,
-    "4": 129
+    "1": 120
   },
   ".//transaction/value/@currency": {
     "GBP": 114

@@ -1,32 +1,180 @@
 {
   "2": {
     ".//@default-currency": {
-      "slf-makeway.xml": {
-        "EUR": 7
-      },
       "slf-linc1819.xml": {
         "EUR": 2
+      },
+      "slf-makeway.xml": {
+        "EUR": 7
       }
     },
     ".//activity-date/@type": {
-      "slf-makeway.xml": {
-        "1": 7,
-        "3": 7
-      },
       "slf-linc1819.xml": {
         "1": 2,
         "3": 2,
         "2": 2,
         "4": 1
+      },
+      "slf-makeway.xml": {
+        "1": 7,
+        "3": 7
       }
     },
     ".//activity-status/@code": {
-      "slf-makeway.xml": {
-        "2": 7
-      },
       "slf-linc1819.xml": {
         "3": 1,
         "1": 1
+      },
+      "slf-makeway.xml": {
+        "2": 7
+      }
+    },
+    ".//budget/@status": {
+      "slf-linc1819.xml": {
+        "1": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "slf-linc1819.xml": {
+        "EUR": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "slf-linc1819.xml": {
+        "C01": 2
+      },
+      "slf-makeway.xml": {
+        "C01": 7
+      }
+    },
+    ".//default-finance-type/@code": {
+      "slf-linc1819.xml": {
+        "110": 2
+      },
+      "slf-makeway.xml": {
+        "110": 7
+      }
+    },
+    ".//default-flow-type/@code": {
+      "slf-linc1819.xml": {
+        "30": 2
+      },
+      "slf-makeway.xml": {
+        "30": 7
+      }
+    },
+    ".//default-tied-status/@code": {
+      "slf-linc1819.xml": {
+        "5": 2
+      },
+      "slf-makeway.xml": {
+        "5": 7
+      }
+    },
+    ".//participating-org/@role": {
+      "slf-linc1819.xml": {
+        "2": 2
+      },
+      "slf-makeway.xml": {
+        "1": 7,
+        "2": 7,
+        "4": 7
+      }
+    },
+    ".//participating-org/@type": {
+      "slf-linc1819.xml": {
+        "22": 2
+      },
+      "slf-makeway.xml": {
+        "21": 16,
+        "22": 5
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "slf-linc1819.xml": {
+        "3": 2
+      },
+      "slf-makeway.xml": {
+        "1": 7,
+        "3": 7,
+        "9": 7
+      }
+    },
+    ".//policy-marker/@significance": {
+      "slf-linc1819.xml": {
+        "4": 2
+      },
+      "slf-makeway.xml": {
+        "2": 21
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "slf-linc1819.xml": {
+        "1": 2
+      },
+      "slf-makeway.xml": {
+        "1": 21
+      }
+    },
+    ".//recipient-country/@code": {
+      "slf-linc1819.xml": {
+        "NL": 2
+      },
+      "slf-makeway.xml": {
+        "RW": 2,
+        "KE": 2,
+        "ET": 2,
+        "ZM": 2,
+        "UG": 2
+      }
+    },
+    ".//reporting-org/@type": {
+      "slf-linc1819.xml": {
+        "22": 2
+      },
+      "slf-makeway.xml": {
+        "21": 7
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "slf-linc1819.xml": {
+        "92010": 2
+      },
+      "slf-makeway.xml": {
+        "13020": 7
+      }
+    },
+    ".//sector/@vocabulary": {
+      "slf-linc1819.xml": {
+        "1": 2
+      },
+      "slf-makeway.xml": {
+        "1": 7
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "slf-linc1819.xml": {
+        "4": 19
+      },
+      "slf-makeway.xml": {
+        "11": 7,
+        "4": 6,
+        "1": 1,
+        "2": 6
+      }
+    },
+    ".//transaction/value/@currency": {
+      "slf-linc1819.xml": {
+        "EUR": 16,
+        "USD": 3
+      }
+    },
+    ".//@xml:lang": {
+      "slf-linc1819.xml": {
+        "en": 17
+      },
+      "slf-makeway.xml": {
+        "en": 7
       }
     },
     ".//contact-info/@type": {
@@ -34,41 +182,9 @@
         "2": 7
       }
     },
-    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "slf-makeway.xml": {
-        "C01": 7
-      },
-      "slf-linc1819.xml": {
-        "C01": 2
-      }
-    },
     ".//default-aid-type/@vocabulary": {
       "slf-makeway.xml": {
         "1": 7
-      }
-    },
-    ".//default-finance-type/@code": {
-      "slf-makeway.xml": {
-        "110": 7
-      },
-      "slf-linc1819.xml": {
-        "110": 2
-      }
-    },
-    ".//default-flow-type/@code": {
-      "slf-makeway.xml": {
-        "30": 7
-      },
-      "slf-linc1819.xml": {
-        "30": 2
-      }
-    },
-    ".//default-tied-status/@code": {
-      "slf-makeway.xml": {
-        "5": 7
-      },
-      "slf-linc1819.xml": {
-        "5": 2
       }
     },
     ".//description/@type": {
@@ -91,63 +207,6 @@
         "B9": 7
       }
     },
-    ".//participating-org/@role": {
-      "slf-makeway.xml": {
-        "1": 7,
-        "2": 7,
-        "4": 7
-      },
-      "slf-linc1819.xml": {
-        "2": 2
-      }
-    },
-    ".//participating-org/@type": {
-      "slf-makeway.xml": {
-        "21": 16,
-        "22": 5
-      },
-      "slf-linc1819.xml": {
-        "22": 2
-      }
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "slf-makeway.xml": {
-        "1": 7,
-        "3": 7,
-        "9": 7
-      },
-      "slf-linc1819.xml": {
-        "3": 2
-      }
-    },
-    ".//policy-marker/@significance": {
-      "slf-makeway.xml": {
-        "2": 21
-      },
-      "slf-linc1819.xml": {
-        "4": 2
-      }
-    },
-    ".//policy-marker/@vocabulary": {
-      "slf-makeway.xml": {
-        "1": 21
-      },
-      "slf-linc1819.xml": {
-        "1": 2
-      }
-    },
-    ".//recipient-country/@code": {
-      "slf-makeway.xml": {
-        "RW": 2,
-        "KE": 2,
-        "ET": 2,
-        "ZM": 2,
-        "UG": 2
-      },
-      "slf-linc1819.xml": {
-        "NL": 2
-      }
-    },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "slf-makeway.xml": {
         "289": 2
@@ -156,14 +215,6 @@
     ".//related-activity/@type": {
       "slf-makeway.xml": {
         "1": 7
-      }
-    },
-    ".//reporting-org/@type": {
-      "slf-makeway.xml": {
-        "21": 7
-      },
-      "slf-linc1819.xml": {
-        "22": 2
       }
     },
     ".//result/@type": {
@@ -181,22 +232,6 @@
         "99": 91
       }
     },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "slf-makeway.xml": {
-        "13020": 7
-      },
-      "slf-linc1819.xml": {
-        "92010": 2
-      }
-    },
-    ".//sector/@vocabulary": {
-      "slf-makeway.xml": {
-        "1": 7
-      },
-      "slf-linc1819.xml": {
-        "1": 2
-      }
-    },
     ".//transaction/provider-org/@type": {
       "slf-makeway.xml": {
         "21": 14
@@ -205,41 +240,6 @@
     ".//transaction/receiver-org/@type": {
       "slf-makeway.xml": {
         "21": 14
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "slf-makeway.xml": {
-        "11": 7,
-        "4": 6,
-        "1": 1,
-        "2": 6
-      },
-      "slf-linc1819.xml": {
-        "4": 19
-      }
-    },
-    ".//@xml:lang": {
-      "slf-makeway.xml": {
-        "en": 7
-      },
-      "slf-linc1819.xml": {
-        "en": 17
-      }
-    },
-    ".//budget/@status": {
-      "slf-linc1819.xml": {
-        "1": 1
-      }
-    },
-    ".//budget/value/@currency": {
-      "slf-linc1819.xml": {
-        "EUR": 1
-      }
-    },
-    ".//transaction/value/@currency": {
-      "slf-linc1819.xml": {
-        "EUR": 16,
-        "USD": 3
       }
     }
   }

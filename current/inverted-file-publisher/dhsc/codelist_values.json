@@ -1,8 +1,8 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "dhsc-activities.xml": 39,
-      "dhsc-activities-ghr.xml": 165
+      "dhsc-activities-ghr.xml": 165,
+      "dhsc-activities.xml": 39
     }
   },
   ".//@xml:lang": {
@@ -12,52 +12,52 @@
   },
   ".//activity-date/@type": {
     "1": {
-      "dhsc-activities.xml": 39,
-      "dhsc-activities-ghr.xml": 166
-    },
-    "3": {
-      "dhsc-activities.xml": 39,
-      "dhsc-activities-ghr.xml": 73
+      "dhsc-activities-ghr.xml": 166,
+      "dhsc-activities.xml": 39
     },
     "2": {
-      "dhsc-activities.xml": 39,
-      "dhsc-activities-ghr.xml": 164
+      "dhsc-activities-ghr.xml": 164,
+      "dhsc-activities.xml": 39
     },
     "4": {
-      "dhsc-activities.xml": 12,
-      "dhsc-activities-ghr.xml": 92
+      "dhsc-activities-ghr.xml": 92,
+      "dhsc-activities.xml": 12
+    },
+    "3": {
+      "dhsc-activities-ghr.xml": 73,
+      "dhsc-activities.xml": 39
     }
   },
   ".//activity-status/@code": {
-    "4": {
-      "dhsc-activities.xml": 12,
-      "dhsc-activities-ghr.xml": 4
-    },
     "2": {
-      "dhsc-activities.xml": 27,
-      "dhsc-activities-ghr.xml": 153
+      "dhsc-activities-ghr.xml": 153,
+      "dhsc-activities.xml": 27
     },
     "6": {
       "dhsc-activities-ghr.xml": 1
     },
     "3": {
       "dhsc-activities-ghr.xml": 7
+    },
+    "4": {
+      "dhsc-activities-ghr.xml": 4,
+      "dhsc-activities.xml": 12
     }
   },
   ".//budget/@status": {
     "1": {
-      "dhsc-activities.xml": 298,
-      "dhsc-activities-ghr.xml": 544
+      "dhsc-activities-ghr.xml": 544,
+      "dhsc-activities.xml": 298
     },
     "2": {
-      "dhsc-activities.xml": 2,
-      "dhsc-activities-ghr.xml": 11
+      "dhsc-activities-ghr.xml": 11,
+      "dhsc-activities.xml": 2
     }
   },
   ".//budget/@type": {
     "1": {
-      "dhsc-activities.xml": 300,
-      "dhsc-activities-ghr.xml": 550
+      "dhsc-activities-ghr.xml": 550,
+      "dhsc-activities.xml": 300
     },
     "2": {
       "dhsc-activities-ghr.xml": 5
@@ -65,14 +65,14 @@
   },
   ".//budget/value/@currency": {
     "GBP": {
-      "dhsc-activities.xml": 300,
-      "dhsc-activities-ghr.xml": 554
+      "dhsc-activities-ghr.xml": 554,
+      "dhsc-activities.xml": 300
     }
   },
   ".//collaboration-type/@code": {
     "1": {
-      "dhsc-activities.xml": 29,
-      "dhsc-activities-ghr.xml": 165
+      "dhsc-activities-ghr.xml": 165,
+      "dhsc-activities.xml": 29
     },
     "2": {
       "dhsc-activities.xml": 5
@@ -83,8 +83,8 @@
   },
   ".//conditions/condition/@type": {
     "2": {
-      "dhsc-activities.xml": 18,
-      "dhsc-activities-ghr.xml": 28
+      "dhsc-activities-ghr.xml": 28,
+      "dhsc-activities.xml": 18
     },
     "1": {
       "dhsc-activities.xml": 1
@@ -101,19 +101,12 @@
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": {
-      "dhsc-activities.xml": 29,
-      "dhsc-activities-ghr.xml": 34
-    },
-    "B03": {
-      "dhsc-activities.xml": 7,
-      "dhsc-activities-ghr.xml": 1
-    },
-    "B02": {
-      "dhsc-activities.xml": 1
-    },
     "D02": {
       "dhsc-activities-ghr.xml": 124
+    },
+    "C01": {
+      "dhsc-activities-ghr.xml": 34,
+      "dhsc-activities.xml": 29
     },
     "B033": {
       "dhsc-activities-ghr.xml": 1
@@ -121,39 +114,46 @@
     "B01": {
       "dhsc-activities-ghr.xml": 3
     },
+    "B03": {
+      "dhsc-activities-ghr.xml": 1,
+      "dhsc-activities.xml": 7
+    },
     "B032": {
       "dhsc-activities-ghr.xml": 1
     },
     "G01": {
       "dhsc-activities-ghr.xml": 1
+    },
+    "B02": {
+      "dhsc-activities.xml": 1
     }
   },
   ".//default-finance-type/@code": {
     "110": {
-      "dhsc-activities.xml": 37,
-      "dhsc-activities-ghr.xml": 165
+      "dhsc-activities-ghr.xml": 165,
+      "dhsc-activities.xml": 37
     }
   },
   ".//default-flow-type/@code": {
     "10": {
-      "dhsc-activities.xml": 37,
-      "dhsc-activities-ghr.xml": 165
+      "dhsc-activities-ghr.xml": 165,
+      "dhsc-activities.xml": 37
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "dhsc-activities.xml": 37,
-      "dhsc-activities-ghr.xml": 165
+      "dhsc-activities-ghr.xml": 165,
+      "dhsc-activities.xml": 37
     }
   },
   ".//description/@type": {
     "1": {
-      "dhsc-activities.xml": 95,
-      "dhsc-activities-ghr.xml": 166
+      "dhsc-activities-ghr.xml": 166,
+      "dhsc-activities.xml": 95
     },
     "2": {
-      "dhsc-activities.xml": 1,
-      "dhsc-activities-ghr.xml": 166
+      "dhsc-activities-ghr.xml": 166,
+      "dhsc-activities.xml": 1
     },
     "3": {
       "dhsc-activities.xml": 1
@@ -161,60 +161,64 @@
   },
   ".//document-link/@format": {
     "application/pdf": {
-      "dhsc-activities.xml": 115,
-      "dhsc-activities-ghr.xml": 354
+      "dhsc-activities-ghr.xml": 354,
+      "dhsc-activities.xml": 115
     },
     "text/html": {
-      "dhsc-activities.xml": 60,
-      "dhsc-activities-ghr.xml": 56
-    },
-    "application/msword": {
-      "dhsc-activities.xml": 4
+      "dhsc-activities-ghr.xml": 56,
+      "dhsc-activities.xml": 60
     },
     "application/vnd.ms-word.template.macroEnabled.12": {
       "dhsc-activities-ghr.xml": 20
+    },
+    "application/msword": {
+      "dhsc-activities.xml": 4
     }
   },
   ".//document-link/category/@code": {
-    "A02": {
-      "dhsc-activities.xml": 67,
-      "dhsc-activities-ghr.xml": 23
-    },
-    "A11": {
-      "dhsc-activities.xml": 36,
-      "dhsc-activities-ghr.xml": 205
-    },
-    "A04": {
-      "dhsc-activities.xml": 32,
-      "dhsc-activities-ghr.xml": 209
-    },
-    "A05": {
-      "dhsc-activities.xml": 32,
-      "dhsc-activities-ghr.xml": 3
-    },
     "A06": {
-      "dhsc-activities.xml": 29,
-      "dhsc-activities-ghr.xml": 59
-    },
-    "A12": {
-      "dhsc-activities.xml": 14,
-      "dhsc-activities-ghr.xml": 37
+      "dhsc-activities-ghr.xml": 59,
+      "dhsc-activities.xml": 29
     },
     "A10": {
-      "dhsc-activities.xml": 2,
-      "dhsc-activities-ghr.xml": 91
+      "dhsc-activities-ghr.xml": 91,
+      "dhsc-activities.xml": 2
     },
-    "A03": {
-      "dhsc-activities.xml": 20,
-      "dhsc-activities-ghr.xml": 7
+    "A11": {
+      "dhsc-activities-ghr.xml": 205,
+      "dhsc-activities.xml": 36
     },
-    "A08": {
-      "dhsc-activities.xml": 19,
-      "dhsc-activities-ghr.xml": 22
+    "A04": {
+      "dhsc-activities-ghr.xml": 209,
+      "dhsc-activities.xml": 32
+    },
+    "A12": {
+      "dhsc-activities-ghr.xml": 37,
+      "dhsc-activities.xml": 14
+    },
+    "A02": {
+      "dhsc-activities-ghr.xml": 23,
+      "dhsc-activities.xml": 67
     },
     "A07": {
-      "dhsc-activities.xml": 19,
-      "dhsc-activities-ghr.xml": 22
+      "dhsc-activities-ghr.xml": 22,
+      "dhsc-activities.xml": 19
+    },
+    "A08": {
+      "dhsc-activities-ghr.xml": 22,
+      "dhsc-activities.xml": 19
+    },
+    "A01": {
+      "dhsc-activities-ghr.xml": 10,
+      "dhsc-activities.xml": 2
+    },
+    "A03": {
+      "dhsc-activities-ghr.xml": 7,
+      "dhsc-activities.xml": 20
+    },
+    "A05": {
+      "dhsc-activities-ghr.xml": 3,
+      "dhsc-activities.xml": 32
     },
     "B01": {
       "dhsc-activities.xml": 16
@@ -230,16 +234,12 @@
     },
     "B09": {
       "dhsc-activities.xml": 5
-    },
-    "A01": {
-      "dhsc-activities.xml": 2,
-      "dhsc-activities-ghr.xml": 10
     }
   },
   ".//document-link/language/@code": {
     "en": {
-      "dhsc-activities.xml": 179,
-      "dhsc-activities-ghr.xml": 430
+      "dhsc-activities-ghr.xml": 430,
+      "dhsc-activities.xml": 179
     }
   },
   ".//location/location-class/@code": {
@@ -256,57 +256,57 @@
     }
   },
   ".//participating-org/@role": {
-    "2": {
-      "dhsc-activities.xml": 39,
-      "dhsc-activities-ghr.xml": 166
-    },
     "1": {
-      "dhsc-activities.xml": 39,
-      "dhsc-activities-ghr.xml": 166
+      "dhsc-activities-ghr.xml": 166,
+      "dhsc-activities.xml": 39
     },
-    "4": {
-      "dhsc-activities.xml": 81,
-      "dhsc-activities-ghr.xml": 237
+    "2": {
+      "dhsc-activities-ghr.xml": 166,
+      "dhsc-activities.xml": 39
     },
     "3": {
       "dhsc-activities-ghr.xml": 166
+    },
+    "4": {
+      "dhsc-activities-ghr.xml": 237,
+      "dhsc-activities.xml": 81
     }
   },
   ".//participating-org/@type": {
     "10": {
-      "dhsc-activities.xml": 103,
-      "dhsc-activities-ghr.xml": 514
-    },
-    "21": {
-      "dhsc-activities.xml": 9,
-      "dhsc-activities-ghr.xml": 3
+      "dhsc-activities-ghr.xml": 514,
+      "dhsc-activities.xml": 103
     },
     "80": {
-      "dhsc-activities.xml": 26,
-      "dhsc-activities-ghr.xml": 191
+      "dhsc-activities-ghr.xml": 191,
+      "dhsc-activities.xml": 26
     },
     "40": {
-      "dhsc-activities.xml": 11,
-      "dhsc-activities-ghr.xml": 3
-    },
-    "70": {
-      "dhsc-activities.xml": 4,
-      "dhsc-activities-ghr.xml": 1
+      "dhsc-activities-ghr.xml": 3,
+      "dhsc-activities.xml": 11
     },
     "15": {
-      "dhsc-activities.xml": 2,
-      "dhsc-activities-ghr.xml": 8
+      "dhsc-activities-ghr.xml": 8,
+      "dhsc-activities.xml": 2
     },
     "30": {
-      "dhsc-activities.xml": 3,
-      "dhsc-activities-ghr.xml": 10
+      "dhsc-activities-ghr.xml": 10,
+      "dhsc-activities.xml": 3
     },
-    "90": {
-      "dhsc-activities.xml": 1,
-      "dhsc-activities-ghr.xml": 2
+    "70": {
+      "dhsc-activities-ghr.xml": 1,
+      "dhsc-activities.xml": 4
+    },
+    "21": {
+      "dhsc-activities-ghr.xml": 3,
+      "dhsc-activities.xml": 9
     },
     "71": {
       "dhsc-activities-ghr.xml": 2
+    },
+    "90": {
+      "dhsc-activities-ghr.xml": 2,
+      "dhsc-activities.xml": 1
     }
   },
   ".//planned-disbursement/@type": {
@@ -443,18 +443,14 @@
   },
   ".//recipient-region/@vocabulary": {
     "1": {
-      "dhsc-activities.xml": 35,
-      "dhsc-activities-ghr.xml": 165
+      "dhsc-activities-ghr.xml": 165,
+      "dhsc-activities.xml": 35
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "998": {
-      "dhsc-activities.xml": 34,
-      "dhsc-activities-ghr.xml": 126
-    },
-    "489": {
-      "dhsc-activities.xml": 1,
-      "dhsc-activities-ghr.xml": 1
+      "dhsc-activities-ghr.xml": 126,
+      "dhsc-activities.xml": 34
     },
     "689": {
       "dhsc-activities-ghr.xml": 4
@@ -464,6 +460,10 @@
     },
     "1030": {
       "dhsc-activities-ghr.xml": 4
+    },
+    "489": {
+      "dhsc-activities-ghr.xml": 1,
+      "dhsc-activities.xml": 1
     },
     "1029": {
       "dhsc-activities-ghr.xml": 5
@@ -483,22 +483,22 @@
   },
   ".//related-activity/@type": {
     "1": {
-      "dhsc-activities.xml": 27,
-      "dhsc-activities-ghr.xml": 119
+      "dhsc-activities-ghr.xml": 119,
+      "dhsc-activities.xml": 27
     },
     "3": {
-      "dhsc-activities.xml": 182,
-      "dhsc-activities-ghr.xml": 1923
+      "dhsc-activities-ghr.xml": 1923,
+      "dhsc-activities.xml": 182
     },
     "2": {
-      "dhsc-activities.xml": 28,
-      "dhsc-activities-ghr.xml": 112
+      "dhsc-activities-ghr.xml": 112,
+      "dhsc-activities.xml": 28
     }
   },
   ".//reporting-org/@type": {
     "10": {
-      "dhsc-activities.xml": 39,
-      "dhsc-activities-ghr.xml": 165
+      "dhsc-activities-ghr.xml": 165,
+      "dhsc-activities.xml": 39
     }
   },
   ".//sector/@vocabulary": {
@@ -507,22 +507,16 @@
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "12110": {
-      "dhsc-activities.xml": 17
-    },
-    "12250": {
-      "dhsc-activities.xml": 19,
-      "dhsc-activities-ghr.xml": 1
-    },
     "12182": {
-      "dhsc-activities.xml": 1,
-      "dhsc-activities-ghr.xml": 134
-    },
-    "13040": {
-      "dhsc-activities.xml": 2
+      "dhsc-activities-ghr.xml": 134,
+      "dhsc-activities.xml": 1
     },
     "12382": {
       "dhsc-activities-ghr.xml": 20
+    },
+    "12250": {
+      "dhsc-activities-ghr.xml": 1,
+      "dhsc-activities.xml": 19
     },
     "12262": {
       "dhsc-activities-ghr.xml": 2
@@ -538,6 +532,12 @@
     },
     "12263": {
       "dhsc-activities-ghr.xml": 1
+    },
+    "12110": {
+      "dhsc-activities.xml": 17
+    },
+    "13040": {
+      "dhsc-activities.xml": 2
     }
   },
   ".//tag/@vocabulary": {
@@ -628,13 +628,13 @@
     }
   },
   ".//transaction/transaction-type/@code": {
-    "3": {
-      "dhsc-activities.xml": 664,
-      "dhsc-activities-ghr.xml": 1205
-    },
     "2": {
-      "dhsc-activities.xml": 41,
-      "dhsc-activities-ghr.xml": 179
+      "dhsc-activities-ghr.xml": 179,
+      "dhsc-activities.xml": 41
+    },
+    "3": {
+      "dhsc-activities-ghr.xml": 1205,
+      "dhsc-activities.xml": 664
     },
     "4": {
       "dhsc-activities-ghr.xml": 59
@@ -645,17 +645,17 @@
   },
   ".//transaction/value/@currency": {
     "GBP": {
-      "dhsc-activities.xml": 699,
-      "dhsc-activities-ghr.xml": 1443
+      "dhsc-activities-ghr.xml": 1443,
+      "dhsc-activities.xml": 699
+    },
+    "EUR": {
+      "dhsc-activities-ghr.xml": 1
     },
     "CHF": {
       "dhsc-activities.xml": 3
     },
     "USD": {
       "dhsc-activities.xml": 3
-    },
-    "EUR": {
-      "dhsc-activities-ghr.xml": 1
     }
   }
 }

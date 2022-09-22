@@ -150,13 +150,13 @@
     "iati-activity/budget/period-end/@iso-date": 20,
     "iati-activity/budget/value": 20,
     "iati-activity/budget/value/@value-date": 20,
+    "iati-activity/recipient-region": 30,
+    "iati-activity/recipient-region/@code": 30,
+    "iati-activity/recipient-region/@vocabulary": 30,
     "iati-activity/policy-marker": 2,
     "iati-activity/policy-marker/@vocabulary": 2,
     "iati-activity/policy-marker/@code": 2,
-    "iati-activity/policy-marker/@significance": 2,
-    "iati-activity/recipient-region": 30,
-    "iati-activity/recipient-region/@code": 30,
-    "iati-activity/recipient-region/@vocabulary": 30
+    "iati-activity/policy-marker/@significance": 2
   },
   "elements_total": {
     "iati-activity": 267,
@@ -244,13 +244,13 @@
     "iati-activity/budget/period-end/@iso-date": 35,
     "iati-activity/budget/value": 35,
     "iati-activity/budget/value/@value-date": 35,
+    "iati-activity/recipient-region": 30,
+    "iati-activity/recipient-region/@code": 30,
+    "iati-activity/recipient-region/@vocabulary": 30,
     "iati-activity/policy-marker": 2,
     "iati-activity/policy-marker/@vocabulary": 2,
     "iati-activity/policy-marker/@code": 2,
-    "iati-activity/policy-marker/@significance": 2,
-    "iati-activity/recipient-region": 30,
-    "iati-activity/recipient-region/@code": 30,
-    "iati-activity/recipient-region/@vocabulary": 30
+    "iati-activity/policy-marker/@significance": 2
   },
   "forwardlooking_activities_current": {
     "2022": 2,
@@ -268,14 +268,17 @@
     "2024": 0
   },
   "forwardlooking_currency_year": {
-    "2010": {
-      "USD": 1500000.0
+    "2009": {
+      "USD": 150000.0
     },
     "2016": {
       "USD": 8661000.0
     },
     "2017": {
       "USD": 8400000.0
+    },
+    "2010": {
+      "USD": 1500000.0
     },
     "2018": {
       "USD": 5750000.0
@@ -294,9 +297,6 @@
     },
     "2011": {
       "USD": 80000.0
-    },
-    "2009": {
-      "USD": 150000.0
     }
   }
 }

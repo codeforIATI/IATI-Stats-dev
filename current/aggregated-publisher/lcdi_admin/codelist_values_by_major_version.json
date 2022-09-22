@@ -4,8 +4,8 @@
       "GBP": 4
     },
     ".//activity-date/@type": {
-      "1": 2,
       "2": 4,
+      "1": 2,
       "3": 2
     },
     ".//activity-status/@code": {
@@ -43,15 +43,15 @@
       "22": 1
     },
     ".//recipient-country/@code": {
-      "ET": 2,
-      "MW": 18
+      "MW": 18,
+      "ET": 2
     },
     ".//reporting-org/@type": {
       "21": 4
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "11320": 1,
       "11220": 2,
+      "11320": 1,
       "11120": 17
     },
     ".//sector/@vocabulary": {
@@ -66,19 +66,36 @@
       "1": 77
     },
     ".//transaction/disbursement-channel/@code": {
-      "3": 16,
-      "2": 76
+      "2": 76,
+      "3": 16
+    },
+    ".//transaction/finance-type/@code": {
+      "110": 15
+    },
+    ".//transaction/flow-type/@code": {
+      "10": 35
     },
     ".//transaction/provider-org/@type": {
-      "21": 123,
       "71": 1,
-      "10": 15
+      "10": 15,
+      "21": 123
+    },
+    ".//transaction/receiver-org/@type": {
+      "21": 63,
+      "70": 15,
+      "24": 10,
+      "22": 2,
+      "10": 1
+    },
+    ".//transaction/tied-status/@code": {
+      "3": 59,
+      "4": 1
     },
     ".//transaction/transaction-type/@code": {
-      "4": 64,
-      "2": 2,
       "1": 35,
-      "3": 47
+      "3": 47,
+      "4": 64,
+      "2": 2
     },
     ".//transaction/value/@currency": {
       "GBP": 125,
@@ -87,6 +104,15 @@
     ".//@xml:lang": {
       "en": 401,
       "bn": 2
+    },
+    ".//transaction/recipient-country/@code": {
+      "MW": 17
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "11120": 17
+    },
+    ".//transaction/sector/@vocabulary": {
+      "1": 17
     },
     ".//activity-scope/@code": {
       "6": 1
@@ -102,32 +128,6 @@
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "298": 1
-    },
-    ".//transaction/receiver-org/@type": {
-      "21": 63,
-      "70": 15,
-      "24": 10,
-      "22": 2,
-      "10": 1
-    },
-    ".//transaction/recipient-country/@code": {
-      "MW": 17
-    },
-    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "11120": 17
-    },
-    ".//transaction/sector/@vocabulary": {
-      "1": 17
-    },
-    ".//transaction/finance-type/@code": {
-      "110": 15
-    },
-    ".//transaction/flow-type/@code": {
-      "10": 35
-    },
-    ".//transaction/tied-status/@code": {
-      "3": 59,
-      "4": 1
     }
   }
 }

@@ -38,15 +38,6 @@
       "iati-activity/activity-scope/@code": 74,
       "iati-activity/recipient-country": 74,
       "iati-activity/recipient-country/@code": 74,
-      "iati-activity/location": 70,
-      "iati-activity/location/location-id": 70,
-      "iati-activity/location/location-id/@code": 70,
-      "iati-activity/location/location-id/@vocabulary": 70,
-      "iati-activity/location/name": 70,
-      "iati-activity/location/name/narrative": 70,
-      "iati-activity/location/point": 70,
-      "iati-activity/location/point/pos": 70,
-      "iati-activity/location/point/@srsName": 70,
       "iati-activity/sector": 74,
       "iati-activity/sector/@code": 74,
       "iati-activity/sector/@vocabulary": 74,
@@ -92,6 +83,8 @@
       "iati-activity/transaction/provider-org/narrative": 74,
       "iati-activity/transaction/receiver-org": 74,
       "iati-activity/transaction/receiver-org/narrative": 74,
+      "iati-activity/transaction/description": 45,
+      "iati-activity/transaction/description/narrative": 45,
       "iati-activity/document-link": 74,
       "iati-activity/document-link/title": 74,
       "iati-activity/document-link/title/narrative": 74,
@@ -151,8 +144,7 @@
       "iati-activity/country-budget-items/budget-item/description": 5,
       "iati-activity/country-budget-items/budget-item/description/narrative": 5,
       "iati-activity/country-budget-items/budget-item/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 5,
-      "iati-activity/transaction/description": 45,
-      "iati-activity/transaction/description/narrative": 45
+      "iati-activity/sector/@percentage": 3
     },
     "elements_total": {
       "iati-activity": 74,
@@ -191,18 +183,9 @@
       "iati-activity/activity-scope/@code": 74,
       "iati-activity/recipient-country": 74,
       "iati-activity/recipient-country/@code": 74,
-      "iati-activity/location": 445,
-      "iati-activity/location/location-id": 445,
-      "iati-activity/location/location-id/@code": 445,
-      "iati-activity/location/location-id/@vocabulary": 445,
-      "iati-activity/location/name": 445,
-      "iati-activity/location/name/narrative": 445,
-      "iati-activity/location/point": 445,
-      "iati-activity/location/point/pos": 445,
-      "iati-activity/location/point/@srsName": 445,
-      "iati-activity/sector": 74,
-      "iati-activity/sector/@code": 74,
-      "iati-activity/sector/@vocabulary": 74,
+      "iati-activity/sector": 82,
+      "iati-activity/sector/@code": 82,
+      "iati-activity/sector/@vocabulary": 82,
       "iati-activity/country-budget-items": 74,
       "iati-activity/country-budget-items/budget-item": 79,
       "iati-activity/country-budget-items/budget-item/@code": 79,
@@ -245,6 +228,8 @@
       "iati-activity/transaction/provider-org/narrative": 5355,
       "iati-activity/transaction/receiver-org": 5355,
       "iati-activity/transaction/receiver-org/narrative": 5355,
+      "iati-activity/transaction/description": 56,
+      "iati-activity/transaction/description/narrative": 56,
       "iati-activity/document-link": 421,
       "iati-activity/document-link/title": 421,
       "iati-activity/document-link/title/narrative": 421,
@@ -304,12 +289,23 @@
       "iati-activity/country-budget-items/budget-item/description": 10,
       "iati-activity/country-budget-items/budget-item/description/narrative": 10,
       "iati-activity/country-budget-items/budget-item/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 10,
-      "iati-activity/transaction/description": 56,
-      "iati-activity/transaction/description/narrative": 56
+      "iati-activity/sector/@percentage": 11
     },
     "forwardlooking_currency_year": {
-      "2016": {
-        "USD": 62383531.64
+      "2011": {
+        "USD": 70554433.64
+      },
+      "2012": {
+        "USD": 65281365.64
+      },
+      "2013": {
+        "USD": 70884667.64
+      },
+      "2014": {
+        "USD": 73452802.64
+      },
+      "2015": {
+        "USD": 73189662.64
       },
       "2017": {
         "USD": 81229519.64
@@ -321,10 +317,10 @@
         "USD": 153872227.64
       },
       "2020": {
-        "USD": 98523828.64
+        "USD": 98493828.64
       },
       "2021": {
-        "USD": 139171325.64
+        "USD": 139143159.64
       },
       "2022": {
         "USD": 73971924.64
@@ -344,34 +340,22 @@
       "2027": {
         "USD": 8523295.64
       },
-      "2028": {
-        "USD": 5008695.64
-      },
-      "2009": {
-        "USD": 20008695.64
-      },
       "2010": {
         "USD": 114954190.64
       },
-      "2011": {
-        "USD": 70554433.64
+      "2016": {
+        "USD": 62383531.64
       },
-      "2012": {
-        "USD": 65281365.64
-      },
-      "2013": {
-        "USD": 70884667.64
-      },
-      "2014": {
-        "USD": 73452802.64
-      },
-      "2015": {
-        "USD": 73189662.64
+      "2009": {
+        "USD": 20008695.64
       },
       "2007": {
         "USD": 10008695.64
       },
       "2008": {
+        "USD": 5008695.64
+      },
+      "2028": {
         "USD": 5008695.64
       },
       "2029": {
@@ -438,14 +422,14 @@
       "sector": 27,
       "country_or_region": 27,
       "transaction_commitment": 27,
-      "transaction_spend": 25,
+      "transaction_spend": 27,
       "transaction_currency": 27,
       "transaction_traceability": 27,
       "budget": 27,
       "budget_not_provided": 0,
       "contact-info": 27,
-      "location": 26,
-      "location_point_pos": 26,
+      "location": 0,
+      "location_point_pos": 0,
       "sector_dac": 27,
       "capital-spend": 27,
       "document-link": 27,
@@ -467,14 +451,14 @@
       "sector": 27,
       "country_or_region": 27,
       "transaction_commitment": 27,
-      "transaction_spend": 25,
+      "transaction_spend": 27,
       "transaction_currency": 27,
       "transaction_traceability": 27,
       "budget": 27,
       "budget_not_provided": 0,
       "contact-info": 27,
-      "location": 26,
-      "location_point_pos": 26,
+      "location": 0,
+      "location_point_pos": 0,
       "sector_dac": 27,
       "capital-spend": 27,
       "document-link": 27,

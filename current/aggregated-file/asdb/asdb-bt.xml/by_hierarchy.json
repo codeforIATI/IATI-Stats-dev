@@ -38,15 +38,6 @@
       "iati-activity/activity-scope/@code": 44,
       "iati-activity/recipient-country": 44,
       "iati-activity/recipient-country/@code": 44,
-      "iati-activity/location": 42,
-      "iati-activity/location/location-id": 42,
-      "iati-activity/location/location-id/@code": 42,
-      "iati-activity/location/location-id/@vocabulary": 42,
-      "iati-activity/location/name": 42,
-      "iati-activity/location/name/narrative": 42,
-      "iati-activity/location/point": 42,
-      "iati-activity/location/point/pos": 42,
-      "iati-activity/location/point/@srsName": 42,
       "iati-activity/sector": 44,
       "iati-activity/sector/@code": 44,
       "iati-activity/sector/@vocabulary": 44,
@@ -149,7 +140,8 @@
       "iati-activity/@default-currency": 44,
       "iati-activity/@hierarchy": 44,
       "iati-activity/@last-updated-datetime": 44,
-      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 44
+      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 44,
+      "iati-activity/sector/@percentage": 1
     },
     "elements_total": {
       "iati-activity": 44,
@@ -188,18 +180,9 @@
       "iati-activity/activity-scope/@code": 44,
       "iati-activity/recipient-country": 44,
       "iati-activity/recipient-country/@code": 44,
-      "iati-activity/location": 101,
-      "iati-activity/location/location-id": 101,
-      "iati-activity/location/location-id/@code": 101,
-      "iati-activity/location/location-id/@vocabulary": 101,
-      "iati-activity/location/name": 101,
-      "iati-activity/location/name/narrative": 101,
-      "iati-activity/location/point": 101,
-      "iati-activity/location/point/pos": 101,
-      "iati-activity/location/point/@srsName": 101,
-      "iati-activity/sector": 44,
-      "iati-activity/sector/@code": 44,
-      "iati-activity/sector/@vocabulary": 44,
+      "iati-activity/sector": 45,
+      "iati-activity/sector/@code": 45,
+      "iati-activity/sector/@vocabulary": 45,
       "iati-activity/country-budget-items": 44,
       "iati-activity/country-budget-items/budget-item": 44,
       "iati-activity/country-budget-items/budget-item/@code": 44,
@@ -299,9 +282,19 @@
       "iati-activity/@default-currency": 44,
       "iati-activity/@hierarchy": 44,
       "iati-activity/@last-updated-datetime": 44,
-      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 44
+      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 44,
+      "iati-activity/sector/@percentage": 2
     },
     "forwardlooking_currency_year": {
+      "2009": {
+        "USD": 0.0
+      },
+      "2010": {
+        "USD": 108018473.0
+      },
+      "2011": {
+        "USD": 39447978.0
+      },
       "2012": {
         "USD": 39595394.0
       },
@@ -310,9 +303,6 @@
       },
       "2014": {
         "USD": 36863404.33
-      },
-      "2015": {
-        "USD": 31464137.32
       },
       "2017": {
         "USD": 21674212.0
@@ -344,14 +334,8 @@
       "2026": {
         "USD": 5690000.0
       },
-      "2009": {
-        "USD": 0.0
-      },
-      "2010": {
-        "USD": 108018473.0
-      },
-      "2011": {
-        "USD": 39447978.0
+      "2015": {
+        "USD": 31464137.32
       },
       "2016": {
         "USD": 32693643.32
@@ -396,8 +380,8 @@
       "budget": 19,
       "budget_not_provided": 0,
       "contact-info": 19,
-      "location": 19,
-      "location_point_pos": 19,
+      "location": 0,
+      "location_point_pos": 0,
       "sector_dac": 19,
       "capital-spend": 19,
       "document-link": 19,
@@ -425,8 +409,8 @@
       "budget": 19,
       "budget_not_provided": 0,
       "contact-info": 19,
-      "location": 19,
-      "location_point_pos": 19,
+      "location": 0,
+      "location_point_pos": 0,
       "sector_dac": 19,
       "capital-spend": 19,
       "document-link": 19,

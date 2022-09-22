@@ -6,15 +6,15 @@
     "en": 416
   },
   ".//activity-date/@type": {
-    "start-actual": 2,
-    "end-planned": 2,
     "2": 6,
     "3": 3,
+    "start-actual": 2,
+    "end-planned": 2,
     "1": 1
   },
   ".//activity-status/@code": {
-    "3": 2,
     "2": 6,
+    "3": 2,
     "4": 1
   },
   ".//budget/@status": {
@@ -32,8 +32,8 @@
     "3": 9
   },
   ".//contact-info/@type": {
-    "2": 1,
-    "1": 5
+    "1": 5,
+    "2": 1
   },
   ".//default-aid-type/@code": {
     "C01": 1
@@ -48,8 +48,8 @@
     "110": 9
   },
   ".//default-flow-type/@code": {
-    "20": 1,
-    "10": 8
+    "10": 8,
+    "20": 1
   },
   ".//default-tied-status/@code": {
     "5": 9
@@ -62,57 +62,57 @@
     "application/msword": 1
   },
   ".//document-link/category/@code": {
-    "B01": 16,
-    "A02": 6,
-    "A07": 3,
-    "A04": 2,
-    "A05": 11,
-    "A03": 1,
     "A08": 13,
-    "A06": 2
+    "A02": 6,
+    "A05": 11,
+    "A07": 3,
+    "B01": 16,
+    "A06": 2,
+    "A04": 2,
+    "A03": 1
   },
   ".//document-link/language/@code": {
     "en": 9
   },
   ".//participating-org/@role": {
     "2": 7,
-    "3": 5,
-    "4": 8,
     "1": 7,
+    "4": 8,
+    "3": 5,
     "Funding": 1,
     "Accountable": 1,
     "Implementing": 1
   },
   ".//participating-org/@type": {
-    "70": 3,
     "21": 11,
+    "10": 8,
     "22": 8,
-    "10": 8
+    "70": 3
   },
   ".//recipient-country/@code": {
-    "BD": 2,
-    "IN": 2,
-    "GB": 3,
-    "NP": 1,
     "KE": 3,
-    "UG": 1
+    "UG": 1,
+    "GB": 3,
+    "IN": 2,
+    "NP": 1,
+    "BD": 2
   },
   ".//reporting-org/@type": {
     "21": 8
   },
   ".//sector/@vocabulary": {
-    "RO": 2,
     "1": 5,
-    "2": 3
+    "2": 3,
+    "RO": 2
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12220": 2,
     "11220": 2,
-    "11230": 1,
-    "12220": 2
+    "11230": 1
   },
   ".//sector[@vocabulary = '2']/@code": {
-    "112": 2,
-    "510": 1
+    "510": 1,
+    "112": 2
   },
   ".//transaction/aid-type/@code": {
     "C01": 27
@@ -145,11 +145,11 @@
     "4": 35
   },
   ".//transaction/transaction-type/@code": {
-    "IF": 15,
     "4": 174,
     "1": 85,
     "3": 75,
-    "D": 15
+    "D": 15,
+    "IF": 15
   },
   ".//transaction/value/@currency": {
     "GBP": 332

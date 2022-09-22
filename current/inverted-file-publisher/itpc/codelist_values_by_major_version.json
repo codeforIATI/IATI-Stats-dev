@@ -1,10 +1,10 @@
 {
   "2": {
     ".//@default-currency": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "EUR": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "EUR": 1
       },
       "itpc-id.xml": {
@@ -15,12 +15,12 @@
       }
     },
     ".//activity-date/@type": {
-      "itpc-pk.xml": {
-        "2": 1,
-        "3": 1
-      },
       "itpc-kg.xml": {
         "1": 1,
+        "3": 1
+      },
+      "itpc-pk.xml": {
+        "2": 1,
         "3": 1
       },
       "itpc-id.xml": {
@@ -33,10 +33,10 @@
       }
     },
     ".//activity-status/@code": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "2": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "2": 1
       },
       "itpc-id.xml": {
@@ -47,10 +47,10 @@
       }
     },
     ".//activity-scope/@code": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "4": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "4": 1
       },
       "itpc-id.xml": {
@@ -61,12 +61,12 @@
       }
     },
     ".//budget/@status": {
+      "itpc-kg.xml": {
+        "2": 3
+      },
       "itpc-pk.xml": {
         "2": 1,
         "1": 1
-      },
-      "itpc-kg.xml": {
-        "2": 3
       },
       "itpc-id.xml": {
         "1": 1
@@ -76,11 +76,11 @@
       }
     },
     ".//budget/@type": {
-      "itpc-pk.xml": {
-        "1": 2
-      },
       "itpc-kg.xml": {
         "1": 3
+      },
+      "itpc-pk.xml": {
+        "1": 2
       },
       "itpc-id.xml": {
         "1": 1
@@ -90,12 +90,12 @@
       }
     },
     ".//budget/value/@currency": {
-      "itpc-pk.xml": {
-        "EUR": 2
-      },
       "itpc-kg.xml": {
         "EUR": 1,
         "USD": 2
+      },
+      "itpc-pk.xml": {
+        "EUR": 2
       },
       "itpc-id.xml": {
         "EUR": 1
@@ -105,10 +105,10 @@
       }
     },
     ".//collaboration-type/@code": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "3": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "3": 1
       },
       "itpc-id.xml": {
@@ -119,10 +119,10 @@
       }
     },
     ".//contact-info/@type": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "1": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "1": 1
       },
       "itpc-id.xml": {
@@ -133,10 +133,10 @@
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "C01": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "C01": 1
       },
       "itpc-id.xml": {
@@ -147,10 +147,10 @@
       }
     },
     ".//default-finance-type/@code": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "110": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "110": 1
       },
       "itpc-id.xml": {
@@ -161,10 +161,10 @@
       }
     },
     ".//default-flow-type/@code": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "30": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "30": 1
       },
       "itpc-id.xml": {
@@ -175,10 +175,10 @@
       }
     },
     ".//default-tied-status/@code": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "5": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "5": 1
       },
       "itpc-id.xml": {
@@ -189,12 +189,12 @@
       }
     },
     ".//description/@type": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "1": 1,
         "2": 1,
         "3": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "1": 1,
         "2": 1,
         "3": 1
@@ -211,11 +211,11 @@
       }
     },
     ".//other-identifier/@type": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "A1": 1,
         "B1": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "A1": 1,
         "B1": 1
       },
@@ -229,14 +229,14 @@
       }
     },
     ".//participating-org/@role": {
-      "itpc-pk.xml": {
-        "4": 1,
-        "1": 1
-      },
       "itpc-kg.xml": {
         "4": 1,
         "1": 1,
         "2": 1
+      },
+      "itpc-pk.xml": {
+        "4": 1,
+        "1": 1
       },
       "itpc-id.xml": {
         "4": 1,
@@ -250,12 +250,12 @@
       }
     },
     ".//participating-org/@type": {
-      "itpc-pk.xml": {
-        "22": 1,
-        "21": 1
-      },
       "itpc-kg.xml": {
         "22": 2,
+        "21": 1
+      },
+      "itpc-pk.xml": {
+        "22": 1,
         "21": 1
       },
       "itpc-id.xml": {
@@ -267,10 +267,10 @@
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "9": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "9": 1
       },
       "itpc-id.xml": {
@@ -281,10 +281,10 @@
       }
     },
     ".//policy-marker/@significance": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "4": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "4": 1
       },
       "itpc-id.xml": {
@@ -295,10 +295,10 @@
       }
     },
     ".//policy-marker/@vocabulary": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "1": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "1": 1
       },
       "itpc-id.xml": {
@@ -309,21 +309,21 @@
       }
     },
     ".//recipient-country/@code": {
-      "itpc-pk.xml": {
-        "PK": 1
-      },
       "itpc-kg.xml": {
         "KG": 1
+      },
+      "itpc-pk.xml": {
+        "PK": 1
       },
       "itpc-id.xml": {
         "ID": 1
       }
     },
     ".//related-activity/@type": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "1": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "1": 1
       },
       "itpc-id.xml": {
@@ -334,10 +334,10 @@
       }
     },
     ".//reporting-org/@type": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "21": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "21": 1
       },
       "itpc-id.xml": {
@@ -348,10 +348,10 @@
       }
     },
     ".//result/@type": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "1": 3
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "1": 3
       },
       "itpc-id.xml": {
@@ -362,10 +362,10 @@
       }
     },
     ".//result/indicator/@measure": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "1": 4
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "1": 4
       },
       "itpc-id.xml": {
@@ -376,10 +376,10 @@
       }
     },
     ".//result/indicator/reference/@vocabulary": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "99": 4
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "99": 4
       },
       "itpc-id.xml": {
@@ -390,11 +390,11 @@
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "16064": 1,
         "13040": 1
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "16064": 1,
         "13040": 1
       },
@@ -410,10 +410,10 @@
       }
     },
     ".//sector/@vocabulary": {
-      "itpc-pk.xml": {
+      "itpc-kg.xml": {
         "1": 2
       },
-      "itpc-kg.xml": {
+      "itpc-pk.xml": {
         "1": 2
       },
       "itpc-id.xml": {
@@ -424,11 +424,11 @@
       }
     },
     ".//transaction/provider-org/@type": {
-      "itpc-pk.xml": {
-        "21": 2
-      },
       "itpc-kg.xml": {
         "21": 3
+      },
+      "itpc-pk.xml": {
+        "21": 2
       },
       "itpc-id.xml": {
         "21": 1
@@ -438,24 +438,24 @@
       }
     },
     ".//transaction/receiver-org/@type": {
-      "itpc-pk.xml": {
-        "22": 1
-      },
       "itpc-kg.xml": {
         "22": 3
+      },
+      "itpc-pk.xml": {
+        "22": 1
       },
       "itpc-id.xml": {
         "22": 2
       }
     },
     ".//transaction/transaction-type/@code": {
-      "itpc-pk.xml": {
-        "2": 2,
-        "3": 1
-      },
       "itpc-kg.xml": {
         "2": 1,
         "3": 2
+      },
+      "itpc-pk.xml": {
+        "2": 2,
+        "3": 1
       },
       "itpc-id.xml": {
         "2": 1,
@@ -466,12 +466,12 @@
       }
     },
     ".//transaction/value/@currency": {
-      "itpc-pk.xml": {
-        "EUR": 3
-      },
       "itpc-kg.xml": {
         "EUR": 2,
         "USD": 1
+      },
+      "itpc-pk.xml": {
+        "EUR": 3
       },
       "itpc-id.xml": {
         "EUR": 2
@@ -481,11 +481,11 @@
       }
     },
     ".//@xml:lang": {
-      "itpc-pk.xml": {
-        "en": 32
-      },
       "itpc-kg.xml": {
         "en": 31
+      },
+      "itpc-pk.xml": {
+        "en": 32
       },
       "itpc-id.xml": {
         "en": 20

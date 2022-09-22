@@ -5,9 +5,9 @@
   ".//@xml:lang": {
     "fr": 1019,
     "en": 71,
-    "tl": 5,
     "es": 39,
-    "ht": 4
+    "ht": 4,
+    "tl": 5
   },
   ".//activity-date/@type": {
     "1": 11,
@@ -43,9 +43,9 @@
     "1": 15
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "H01": 3,
     "C01": 11,
-    "G01": 1,
-    "H01": 3
+    "G01": 1
   },
   ".//default-finance-type/@code": {
     "110": 15
@@ -99,13 +99,13 @@
   },
   ".//participating-org/@type": {
     "22": 78,
-    "24": 152,
     "10": 10,
+    "24": 152,
     "21": 2
   },
   ".//policy-marker/@significance": {
-    "2": 18,
     "1": 17,
+    "2": 18,
     "0": 13
   },
   ".//policy-marker/@vocabulary": {
@@ -113,24 +113,25 @@
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "2": 9,
-    "1": 9,
-    "3": 9,
-    "9": 9,
-    "4": 9,
     "5": 1,
     "6": 1,
-    "7": 1
+    "7": 1,
+    "1": 9,
+    "3": 9,
+    "4": 9,
+    "9": 9
   },
   ".//recipient-country/@code": {
-    "PH": 5,
+    "BE": 3,
+    "NI": 4,
     "BR": 4,
     "BI": 5,
     "GT": 4,
     "IN": 4,
     "PE": 4,
+    "PH": 5,
     "CD": 5,
     "RW": 4,
-    "NI": 4,
     "IL": 2,
     "HT": 4,
     "MG": 3,
@@ -138,8 +139,7 @@
     "PK": 2,
     "TG": 2,
     "UY": 2,
-    "ZW": 1,
-    "BE": 3
+    "ZW": 1
   },
   ".//recipient-region/@vocabulary": {
     "1": 2
@@ -156,8 +156,8 @@
     "22": 15
   },
   ".//result/@type": {
-    "2": 9,
-    "1": 33
+    "1": 33,
+    "2": 9
   },
   ".//result/indicator/@measure": {
     "1": 81,
@@ -167,8 +167,8 @@
     "1": 32
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "31120": 11,
     "99820": 9,
+    "31120": 11,
     "43042": 6,
     "15160": 4,
     "11231": 1,
@@ -188,9 +188,9 @@
     "70": 2
   },
   ".//transaction/transaction-type/@code": {
+    "4": 51,
     "3": 210,
     "2": 25,
-    "4": 51,
     "1": 15,
     "11": 10
   },

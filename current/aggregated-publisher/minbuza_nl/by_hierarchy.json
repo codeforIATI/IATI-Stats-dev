@@ -21,10 +21,10 @@
       "iati-activity/participating-org/@type": 9459,
       "iati-activity/participating-org/@role": 9459,
       "iati-activity/other-identifier": 9459,
-      "iati-activity/other-identifier/owner-org": 9459,
-      "iati-activity/other-identifier/owner-org/narrative": 9459,
       "iati-activity/other-identifier/@ref": 9459,
       "iati-activity/other-identifier/@type": 9459,
+      "iati-activity/other-identifier/owner-org": 9459,
+      "iati-activity/other-identifier/owner-org/narrative": 9459,
       "iati-activity/activity-status": 9459,
       "iati-activity/activity-status/@code": 9459,
       "iati-activity/activity-date": 9459,
@@ -109,7 +109,6 @@
       "iati-activity/recipient-region/narrative": 2902,
       "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2902,
       "iati-activity/recipient-region/@code": 2902,
-      "iati-activity/@humanitarian": 609,
       "iati-activity/location": 1817,
       "iati-activity/location/location-reach": 1817,
       "iati-activity/location/location-reach/@code": 1817,
@@ -128,6 +127,7 @@
       "iati-activity/location/exactness/@code": 1817,
       "iati-activity/location/feature-designation": 1817,
       "iati-activity/location/feature-designation/@code": 1817,
+      "iati-activity/@humanitarian": 609,
       "iati-activity/humanitarian-scope": 4,
       "iati-activity/humanitarian-scope/@type": 4,
       "iati-activity/humanitarian-scope/@vocabulary": 4,
@@ -155,10 +155,10 @@
       "iati-activity/participating-org/@type": 37835,
       "iati-activity/participating-org/@role": 37836,
       "iati-activity/other-identifier": 15360,
-      "iati-activity/other-identifier/owner-org": 9459,
-      "iati-activity/other-identifier/owner-org/narrative": 9459,
       "iati-activity/other-identifier/@ref": 15360,
       "iati-activity/other-identifier/@type": 15360,
+      "iati-activity/other-identifier/owner-org": 9459,
+      "iati-activity/other-identifier/owner-org/narrative": 9459,
       "iati-activity/activity-status": 9459,
       "iati-activity/activity-status/@code": 9459,
       "iati-activity/activity-date": 36108,
@@ -243,7 +243,6 @@
       "iati-activity/recipient-region/narrative": 2902,
       "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2902,
       "iati-activity/recipient-region/@code": 2902,
-      "iati-activity/@humanitarian": 609,
       "iati-activity/location": 4698,
       "iati-activity/location/location-reach": 4698,
       "iati-activity/location/location-reach/@code": 4698,
@@ -262,6 +261,7 @@
       "iati-activity/location/exactness/@code": 4698,
       "iati-activity/location/feature-designation": 4698,
       "iati-activity/location/feature-designation/@code": 4698,
+      "iati-activity/@humanitarian": 609,
       "iati-activity/humanitarian-scope": 5,
       "iati-activity/humanitarian-scope/@type": 5,
       "iati-activity/humanitarian-scope/@vocabulary": 5,
@@ -270,74 +270,11 @@
       "iati-activity/transaction/receiver-org/@ref": 71
     },
     "forwardlooking_currency_year": {
-      "2019": {
-        "EUR": 3499612703.0
-      },
-      "2020": {
-        "EUR": 3312908332.0
-      },
-      "2021": {
-        "EUR": 3545184676.0
-      },
-      "2022": {
-        "EUR": 3432967124.0
-      },
-      "2023": {
-        "EUR": 1793252991.0
-      },
-      "2024": {
-        "EUR": 1390057187.0
-      },
-      "2025": {
-        "EUR": 492246637.0
-      },
-      "2026": {
-        "EUR": 284204464.0
-      },
-      "2030": {
-        "EUR": 129416944.0
-      },
-      "2027": {
-        "EUR": 149454300.0
-      },
-      "2028": {
-        "EUR": 117021582.0
-      },
-      "2029": {
-        "EUR": 95316199.0
-      },
-      "2031": {
-        "EUR": 153132228.0
-      },
-      "2004": {
-        "EUR": 488583494.0
-      },
-      "2005": {
-        "EUR": 776094899.0
-      },
-      "2006": {
-        "EUR": 1606808679.0
-      },
-      "2007": {
-        "EUR": 2297994913.0
-      },
-      "2008": {
-        "EUR": 3190251108.0
-      },
       "2009": {
         "EUR": 3271480685.0
       },
       "2010": {
         "EUR": 3584356356.0
-      },
-      "2001": {
-        "EUR": 8554105.0
-      },
-      "2002": {
-        "EUR": 294836300.0
-      },
-      "2003": {
-        "EUR": 321456708.0
       },
       "2011": {
         "EUR": 3376706147.0
@@ -362,6 +299,69 @@
       },
       "2018": {
         "EUR": 3061465359.0
+      },
+      "2019": {
+        "EUR": 3499612703.0
+      },
+      "2020": {
+        "EUR": 3312908332.0
+      },
+      "2021": {
+        "EUR": 3545184676.0
+      },
+      "2022": {
+        "EUR": 3432967124.0
+      },
+      "2023": {
+        "EUR": 1793252991.0
+      },
+      "2024": {
+        "EUR": 1390057187.0
+      },
+      "2025": {
+        "EUR": 492246637.0
+      },
+      "2026": {
+        "EUR": 284204464.0
+      },
+      "2027": {
+        "EUR": 149454300.0
+      },
+      "2028": {
+        "EUR": 117021582.0
+      },
+      "2029": {
+        "EUR": 95316199.0
+      },
+      "2030": {
+        "EUR": 129416944.0
+      },
+      "2031": {
+        "EUR": 153132228.0
+      },
+      "2004": {
+        "EUR": 488583494.0
+      },
+      "2005": {
+        "EUR": 776094899.0
+      },
+      "2006": {
+        "EUR": 1606808679.0
+      },
+      "2007": {
+        "EUR": 2297994913.0
+      },
+      "2008": {
+        "EUR": 3190251108.0
+      },
+      "2001": {
+        "EUR": 8554105.0
+      },
+      "2002": {
+        "EUR": 294836300.0
+      },
+      "2003": {
+        "EUR": 321456708.0
       },
       "2032": {
         "EUR": 26690000.0
@@ -427,7 +427,7 @@
       "sector": 1682,
       "country_or_region": 1682,
       "transaction_commitment": 1682,
-      "transaction_spend": 1285,
+      "transaction_spend": 1288,
       "transaction_currency": 1682,
       "transaction_traceability": 1681,
       "budget": 1682,
@@ -456,7 +456,7 @@
       "sector": 1682,
       "country_or_region": 1682,
       "transaction_commitment": 1682,
-      "transaction_spend": 1285,
+      "transaction_spend": 1288,
       "transaction_currency": 1682,
       "transaction_traceability": 1681,
       "budget": 1682,
@@ -475,7 +475,7 @@
     },
     "comprehensiveness_denominators": {
       "recipient_language": 1047,
-      "transaction_spend": 1295,
+      "transaction_spend": 1298,
       "transaction_traceability": 1681
     },
     "comprehensiveness_denominator_default": 1682

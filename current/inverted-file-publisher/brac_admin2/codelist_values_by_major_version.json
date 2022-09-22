@@ -75,18 +75,17 @@
       "brac_admin2-activities.xml": {
         "text/html": 2,
         "text/xml": 1,
-        "application/pdf": 2
+        "application/pdf": 1
       }
     },
     ".//document-link/category/@code": {
       "brac_admin2-activities.xml": {
-        "B01": 4,
-        "A05": 1
+        "B01": 4
       }
     },
     ".//document-link/language/@code": {
       "brac_admin2-activities.xml": {
-        "en": 5
+        "en": 4
       }
     },
     ".//participating-org/@role": {
@@ -137,25 +136,32 @@
     },
     ".//transaction/provider-org/@type": {
       "brac_admin2-activities.xml": {
-        "10": 6
+        "10": 6,
+        "21": 28
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "brac_admin2-activities.xml": {
+        "21": 5
       }
     },
     ".//transaction/transaction-type/@code": {
       "brac_admin2-activities.xml": {
-        "4": 1,
-        "1": 4,
+        "4": 24,
+        "1": 9,
         "11": 1
       }
     },
     ".//transaction/value/@currency": {
       "brac_admin2-activities.xml": {
         "EUR": 5,
-        "BDT": 1
+        "BDT": 1,
+        "GBP": 28
       }
     },
     ".//@xml:lang": {
       "brac_admin2-activities.xml": {
-        "en": 52
+        "en": 51
       }
     }
   }

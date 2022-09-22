@@ -1,150 +1,154 @@
 {
   "2": {
     ".//@default-currency": {
+      "troc-activities.xml": {
+        "GBP": 5
+      },
       "troc-iati-gb-active-projects.xml": {
         "GBP": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "GBP": 5
-      },
-      "troc-activities.xml": {
-        "GBP": 5
       }
     },
     ".//activity-date/@type": {
+      "troc-activities.xml": {
+        "2": 5,
+        "4": 1,
+        "3": 4
+      },
       "troc-iati-gb-active-projects.xml": {
         "2": 1,
         "3": 1,
         "4": 1
       },
       "troc-iatiactivityarchivegb.xml": {
-        "2": 5,
-        "4": 1,
-        "3": 4
-      },
-      "troc-activities.xml": {
         "2": 5,
         "4": 1,
         "3": 4
       }
     },
     ".//activity-status/@code": {
+      "troc-activities.xml": {
+        "2": 5
+      },
       "troc-iati-gb-active-projects.xml": {
         "2": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "4": 5
-      },
-      "troc-activities.xml": {
-        "2": 5
       }
     },
     ".//budget/@status": {
+      "troc-activities.xml": {
+        "1": 7,
+        "2": 3
+      },
       "troc-iati-gb-active-projects.xml": {
         "2": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "1": 7,
         "2": 3
-      },
-      "troc-activities.xml": {
-        "1": 7,
-        "2": 3
       }
     },
     ".//budget/@type": {
+      "troc-activities.xml": {
+        "2": 5,
+        "1": 5
+      },
       "troc-iati-gb-active-projects.xml": {
         "1": 1
       },
       "troc-iatiactivityarchivegb.xml": {
-        "2": 5,
-        "1": 5
-      },
-      "troc-activities.xml": {
         "2": 5,
         "1": 5
       }
     },
     ".//budget/value/@currency": {
+      "troc-activities.xml": {
+        "GBP": 11
+      },
       "troc-iati-gb-active-projects.xml": {
         "GBP": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "GBP": 11
-      },
-      "troc-activities.xml": {
-        "GBP": 11
       }
     },
     ".//collaboration-type/@code": {
+      "troc-activities.xml": {
+        "1": 4,
+        "3": 1
+      },
       "troc-iati-gb-active-projects.xml": {
         "1": 1
       },
       "troc-iatiactivityarchivegb.xml": {
-        "1": 4,
-        "3": 1
-      },
-      "troc-activities.xml": {
         "1": 4,
         "3": 1
       }
     },
     ".//contact-info/@type": {
+      "troc-activities.xml": {
+        "1": 3
+      },
       "troc-iati-gb-active-projects.xml": {
         "1": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "1": 3
-      },
-      "troc-activities.xml": {
-        "1": 3
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "troc-activities.xml": {
+        "C01": 5
+      },
       "troc-iati-gb-active-projects.xml": {
         "C01": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "C01": 5
-      },
-      "troc-activities.xml": {
-        "C01": 5
       }
     },
     ".//default-finance-type/@code": {
+      "troc-activities.xml": {
+        "110": 5
+      },
       "troc-iati-gb-active-projects.xml": {
         "110": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "110": 5
-      },
-      "troc-activities.xml": {
-        "110": 5
       }
     },
     ".//default-flow-type/@code": {
+      "troc-activities.xml": {
+        "10": 5
+      },
       "troc-iati-gb-active-projects.xml": {
         "10": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "10": 5
-      },
-      "troc-activities.xml": {
-        "10": 5
       }
     },
     ".//default-tied-status/@code": {
+      "troc-activities.xml": {
+        "5": 5
+      },
       "troc-iati-gb-active-projects.xml": {
         "5": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "5": 5
-      },
-      "troc-activities.xml": {
-        "5": 5
       }
     },
     ".//description/@type": {
+      "troc-activities.xml": {
+        "1": 5,
+        "2": 1
+      },
       "troc-iati-gb-active-projects.xml": {
         "1": 1,
         "2": 1
@@ -152,13 +156,38 @@
       "troc-iatiactivityarchivegb.xml": {
         "1": 5,
         "2": 1
-      },
+      }
+    },
+    ".//document-link/@format": {
       "troc-activities.xml": {
-        "1": 5,
-        "2": 1
+        "text/html": 6
+      },
+      "troc-iatiactivityarchivegb.xml": {
+        "text/html": 6
+      }
+    },
+    ".//document-link/category/@code": {
+      "troc-activities.xml": {
+        "B01": 6
+      },
+      "troc-iatiactivityarchivegb.xml": {
+        "B01": 6
+      }
+    },
+    ".//document-link/language/@code": {
+      "troc-activities.xml": {
+        "en": 6
+      },
+      "troc-iatiactivityarchivegb.xml": {
+        "en": 6
       }
     },
     ".//participating-org/@role": {
+      "troc-activities.xml": {
+        "1": 7,
+        "4": 9,
+        "2": 2
+      },
       "troc-iati-gb-active-projects.xml": {
         "1": 1,
         "3": 1,
@@ -169,14 +198,15 @@
         "1": 7,
         "4": 9,
         "2": 2
-      },
-      "troc-activities.xml": {
-        "1": 7,
-        "4": 9,
-        "2": 2
       }
     },
     ".//participating-org/@type": {
+      "troc-activities.xml": {
+        "10": 5,
+        "21": 4,
+        "70": 2,
+        "22": 7
+      },
       "troc-iati-gb-active-projects.xml": {
         "10": 1,
         "70": 1,
@@ -187,15 +217,14 @@
         "21": 4,
         "70": 2,
         "22": 7
-      },
-      "troc-activities.xml": {
-        "10": 5,
-        "21": 4,
-        "70": 2,
-        "22": 7
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "troc-activities.xml": {
+        "1": 1,
+        "2": 3,
+        "7": 1
+      },
       "troc-iati-gb-active-projects.xml": {
         "6": 1
       },
@@ -203,36 +232,38 @@
         "1": 1,
         "2": 3,
         "7": 1
-      },
-      "troc-activities.xml": {
-        "1": 1,
-        "2": 3,
-        "7": 1
       }
     },
     ".//policy-marker/@significance": {
+      "troc-activities.xml": {
+        "1": 5
+      },
       "troc-iati-gb-active-projects.xml": {
         "1": 1
       },
       "troc-iatiactivityarchivegb.xml": {
-        "1": 5
-      },
-      "troc-activities.xml": {
         "1": 5
       }
     },
     ".//policy-marker/@vocabulary": {
+      "troc-activities.xml": {
+        "1": 5
+      },
       "troc-iati-gb-active-projects.xml": {
         "1": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "1": 5
-      },
-      "troc-activities.xml": {
-        "1": 5
       }
     },
     ".//recipient-country/@code": {
+      "troc-activities.xml": {
+        "CD": 1,
+        "MW": 2,
+        "ET": 1,
+        "KE": 1,
+        "ZW": 1
+      },
       "troc-iati-gb-active-projects.xml": {
         "SS": 1
       },
@@ -242,27 +273,41 @@
         "ET": 1,
         "KE": 1,
         "ZW": 1
-      },
-      "troc-activities.xml": {
-        "CD": 1,
-        "MW": 2,
-        "ET": 1,
-        "KE": 1,
-        "ZW": 1
       }
     },
     ".//reporting-org/@type": {
+      "troc-activities.xml": {
+        "21": 5
+      },
       "troc-iati-gb-active-projects.xml": {
         "21": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "21": 5
-      },
+      }
+    },
+    ".//result/@type": {
       "troc-activities.xml": {
-        "21": 5
+        "2": 1
+      },
+      "troc-iatiactivityarchivegb.xml": {
+        "2": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "troc-activities.xml": {
+        "1": 1
+      },
+      "troc-iatiactivityarchivegb.xml": {
+        "1": 1
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "troc-activities.xml": {
+        "15150": 1,
+        "31120": 3,
+        "43040": 1
+      },
       "troc-iati-gb-active-projects.xml": {
         "31120": 1,
         "15170": 1,
@@ -272,51 +317,53 @@
         "15150": 1,
         "31120": 3,
         "43040": 1
-      },
-      "troc-activities.xml": {
-        "15150": 1,
-        "31120": 3,
-        "43040": 1
       }
     },
     ".//sector/@vocabulary": {
+      "troc-activities.xml": {
+        "1": 5
+      },
       "troc-iati-gb-active-projects.xml": {
         "1": 3
       },
       "troc-iatiactivityarchivegb.xml": {
         "1": 5
-      },
-      "troc-activities.xml": {
-        "1": 5
       }
     },
     ".//transaction/provider-org/@type": {
+      "troc-activities.xml": {
+        "10": 3,
+        "70": 11,
+        "21": 49
+      },
       "troc-iati-gb-active-projects.xml": {
         "70": 3
       },
       "troc-iatiactivityarchivegb.xml": {
         "10": 2,
         "70": 113
-      },
-      "troc-activities.xml": {
-        "10": 3,
-        "70": 11,
-        "21": 49
       }
     },
     ".//transaction/receiver-org/@type": {
+      "troc-activities.xml": {
+        "21": 11,
+        "22": 52
+      },
       "troc-iati-gb-active-projects.xml": {
         "21": 3
       },
       "troc-iatiactivityarchivegb.xml": {
         "21": 115
-      },
-      "troc-activities.xml": {
-        "21": 11,
-        "22": 52
       }
     },
     ".//transaction/transaction-type/@code": {
+      "troc-activities.xml": {
+        "11": 2,
+        "1": 8,
+        "2": 17,
+        "4": 43,
+        "3": 36
+      },
       "troc-iati-gb-active-projects.xml": {
         "2": 1,
         "3": 2
@@ -327,75 +374,28 @@
         "2": 27,
         "3": 29,
         "4": 46
-      },
-      "troc-activities.xml": {
-        "11": 2,
-        "1": 8,
-        "2": 17,
-        "4": 43,
-        "3": 36
       }
     },
     ".//transaction/value/@currency": {
+      "troc-activities.xml": {
+        "GBP": 106
+      },
       "troc-iati-gb-active-projects.xml": {
         "GBP": 3
       },
       "troc-iatiactivityarchivegb.xml": {
         "GBP": 115
-      },
-      "troc-activities.xml": {
-        "GBP": 106
       }
     },
     ".//@xml:lang": {
+      "troc-activities.xml": {
+        "en": 11
+      },
       "troc-iati-gb-active-projects.xml": {
         "en": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "en": 5
-      },
-      "troc-activities.xml": {
-        "en": 11
-      }
-    },
-    ".//document-link/@format": {
-      "troc-iatiactivityarchivegb.xml": {
-        "text/html": 6
-      },
-      "troc-activities.xml": {
-        "text/html": 6
-      }
-    },
-    ".//document-link/category/@code": {
-      "troc-iatiactivityarchivegb.xml": {
-        "B01": 6
-      },
-      "troc-activities.xml": {
-        "B01": 6
-      }
-    },
-    ".//document-link/language/@code": {
-      "troc-iatiactivityarchivegb.xml": {
-        "en": 6
-      },
-      "troc-activities.xml": {
-        "en": 6
-      }
-    },
-    ".//result/@type": {
-      "troc-iatiactivityarchivegb.xml": {
-        "2": 1
-      },
-      "troc-activities.xml": {
-        "2": 1
-      }
-    },
-    ".//result/indicator/@measure": {
-      "troc-iatiactivityarchivegb.xml": {
-        "1": 1
-      },
-      "troc-activities.xml": {
-        "1": 1
       }
     }
   }

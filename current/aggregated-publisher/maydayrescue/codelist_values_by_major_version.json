@@ -17,8 +17,8 @@
       "1": 2
     },
     ".//budget/value/@currency": {
-      "USD": 1,
-      "EUR": 1
+      "EUR": 1,
+      "USD": 1
     },
     ".//description/@type": {
       "1": 2
@@ -27,12 +27,12 @@
       "1": 2
     },
     ".//participating-org/@type": {
-      "70": 1,
-      "10": 1
+      "10": 1,
+      "70": 1
     },
     ".//recipient-country/@code": {
-      "LB": 1,
-      "SY": 1
+      "SY": 1,
+      "LB": 1
     },
     ".//reporting-org/@type": {
       "60": 2
@@ -42,9 +42,6 @@
     },
     ".//sector/@vocabulary": {
       "1": 2
-    },
-    ".//@xml:lang": {
-      "en": 15
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "A01": 1
@@ -77,6 +74,9 @@
     },
     ".//transaction/value/@currency": {
       "EUR": 10
+    },
+    ".//@xml:lang": {
+      "en": 15
     }
   }
 }

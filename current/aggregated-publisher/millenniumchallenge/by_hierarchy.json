@@ -59,23 +59,11 @@
       "iati-activity/related-activity/@type": 171,
       "iati-activity/related-activity/@ref": 171,
       "iati-activity/conditions": 171,
-      "iati-activity/conditions/condition": 45,
-      "iati-activity/conditions/condition/narrative": 45,
-      "iati-activity/conditions/condition/@type": 45,
       "iati-activity/conditions/@attached": 171,
       "iati-activity/@default-currency": 171,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 171,
       "iati-activity/@last-updated-datetime": 171,
       "iati-activity/@hierarchy": 171,
-      "iati-activity/planned-disbursement": 13,
-      "iati-activity/planned-disbursement/period-start": 13,
-      "iati-activity/planned-disbursement/period-start/@iso-date": 13,
-      "iati-activity/planned-disbursement/period-end": 13,
-      "iati-activity/planned-disbursement/period-end/@iso-date": 13,
-      "iati-activity/planned-disbursement/value": 13,
-      "iati-activity/planned-disbursement/value/@value-date": 13,
-      "iati-activity/planned-disbursement/value/@currency": 13,
-      "iati-activity/planned-disbursement/@type": 13,
       "iati-activity/document-link": 56,
       "iati-activity/document-link/title": 56,
       "iati-activity/document-link/title/narrative": 56,
@@ -85,6 +73,9 @@
       "iati-activity/document-link/language/@code": 56,
       "iati-activity/document-link/@url": 56,
       "iati-activity/document-link/@format": 56,
+      "iati-activity/conditions/condition": 45,
+      "iati-activity/conditions/condition/narrative": 45,
+      "iati-activity/conditions/condition/@type": 45,
       "iati-activity/result": 21,
       "iati-activity/result/title": 21,
       "iati-activity/result/title/narrative": 21,
@@ -114,7 +105,16 @@
       "iati-activity/result/indicator/@measure": 21,
       "iati-activity/result/indicator/@ascending": 21,
       "iati-activity/result/@type": 21,
-      "iati-activity/result/@aggregation-status": 21
+      "iati-activity/result/@aggregation-status": 21,
+      "iati-activity/planned-disbursement": 13,
+      "iati-activity/planned-disbursement/period-start": 13,
+      "iati-activity/planned-disbursement/period-start/@iso-date": 13,
+      "iati-activity/planned-disbursement/period-end": 13,
+      "iati-activity/planned-disbursement/period-end/@iso-date": 13,
+      "iati-activity/planned-disbursement/value": 13,
+      "iati-activity/planned-disbursement/value/@value-date": 13,
+      "iati-activity/planned-disbursement/value/@currency": 13,
+      "iati-activity/planned-disbursement/@type": 13
     },
     "elements_total": {
       "iati-activity": 171,
@@ -174,23 +174,11 @@
       "iati-activity/related-activity/@type": 2099,
       "iati-activity/related-activity/@ref": 2099,
       "iati-activity/conditions": 171,
-      "iati-activity/conditions/condition": 1277,
-      "iati-activity/conditions/condition/narrative": 1277,
-      "iati-activity/conditions/condition/@type": 1277,
       "iati-activity/conditions/@attached": 171,
       "iati-activity/@default-currency": 171,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 171,
       "iati-activity/@last-updated-datetime": 171,
       "iati-activity/@hierarchy": 171,
-      "iati-activity/planned-disbursement": 130,
-      "iati-activity/planned-disbursement/period-start": 130,
-      "iati-activity/planned-disbursement/period-start/@iso-date": 130,
-      "iati-activity/planned-disbursement/period-end": 130,
-      "iati-activity/planned-disbursement/period-end/@iso-date": 130,
-      "iati-activity/planned-disbursement/value": 130,
-      "iati-activity/planned-disbursement/value/@value-date": 130,
-      "iati-activity/planned-disbursement/value/@currency": 130,
-      "iati-activity/planned-disbursement/@type": 130,
       "iati-activity/document-link": 358,
       "iati-activity/document-link/title": 358,
       "iati-activity/document-link/title/narrative": 358,
@@ -200,6 +188,9 @@
       "iati-activity/document-link/language/@code": 358,
       "iati-activity/document-link/@url": 358,
       "iati-activity/document-link/@format": 358,
+      "iati-activity/conditions/condition": 1277,
+      "iati-activity/conditions/condition/narrative": 1277,
+      "iati-activity/conditions/condition/@type": 1277,
       "iati-activity/result": 21,
       "iati-activity/result/title": 21,
       "iati-activity/result/title/narrative": 21,
@@ -229,7 +220,16 @@
       "iati-activity/result/indicator/@measure": 91,
       "iati-activity/result/indicator/@ascending": 91,
       "iati-activity/result/@type": 21,
-      "iati-activity/result/@aggregation-status": 21
+      "iati-activity/result/@aggregation-status": 21,
+      "iati-activity/planned-disbursement": 130,
+      "iati-activity/planned-disbursement/period-start": 130,
+      "iati-activity/planned-disbursement/period-start/@iso-date": 130,
+      "iati-activity/planned-disbursement/period-end": 130,
+      "iati-activity/planned-disbursement/period-end/@iso-date": 130,
+      "iati-activity/planned-disbursement/value": 130,
+      "iati-activity/planned-disbursement/value/@value-date": 130,
+      "iati-activity/planned-disbursement/value/@currency": 130,
+      "iati-activity/planned-disbursement/@type": 130
     },
     "forwardlooking_currency_year": {},
     "forwardlooking_activities_current": {
@@ -360,15 +360,6 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 1312,
       "iati-activity/@last-updated-datetime": 1312,
       "iati-activity/@hierarchy": 1312,
-      "iati-activity/planned-disbursement": 79,
-      "iati-activity/planned-disbursement/period-start": 79,
-      "iati-activity/planned-disbursement/period-start/@iso-date": 79,
-      "iati-activity/planned-disbursement/period-end": 79,
-      "iati-activity/planned-disbursement/period-end/@iso-date": 79,
-      "iati-activity/planned-disbursement/value": 79,
-      "iati-activity/planned-disbursement/value/@value-date": 79,
-      "iati-activity/planned-disbursement/value/@currency": 79,
-      "iati-activity/planned-disbursement/@type": 79,
       "iati-activity/document-link": 103,
       "iati-activity/document-link/title": 103,
       "iati-activity/document-link/title/narrative": 103,
@@ -408,7 +399,16 @@
       "iati-activity/result/indicator/@measure": 108,
       "iati-activity/result/indicator/@ascending": 108,
       "iati-activity/result/@type": 108,
-      "iati-activity/result/@aggregation-status": 108
+      "iati-activity/result/@aggregation-status": 108,
+      "iati-activity/planned-disbursement": 79,
+      "iati-activity/planned-disbursement/period-start": 79,
+      "iati-activity/planned-disbursement/period-start/@iso-date": 79,
+      "iati-activity/planned-disbursement/period-end": 79,
+      "iati-activity/planned-disbursement/period-end/@iso-date": 79,
+      "iati-activity/planned-disbursement/value": 79,
+      "iati-activity/planned-disbursement/value/@value-date": 79,
+      "iati-activity/planned-disbursement/value/@currency": 79,
+      "iati-activity/planned-disbursement/@type": 79
     },
     "elements_total": {
       "iati-activity": 1312,
@@ -456,15 +456,6 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 1312,
       "iati-activity/@last-updated-datetime": 1312,
       "iati-activity/@hierarchy": 1312,
-      "iati-activity/planned-disbursement": 1068,
-      "iati-activity/planned-disbursement/period-start": 1068,
-      "iati-activity/planned-disbursement/period-start/@iso-date": 1068,
-      "iati-activity/planned-disbursement/period-end": 1068,
-      "iati-activity/planned-disbursement/period-end/@iso-date": 1068,
-      "iati-activity/planned-disbursement/value": 1068,
-      "iati-activity/planned-disbursement/value/@value-date": 1068,
-      "iati-activity/planned-disbursement/value/@currency": 1068,
-      "iati-activity/planned-disbursement/@type": 1068,
       "iati-activity/document-link": 329,
       "iati-activity/document-link/title": 329,
       "iati-activity/document-link/title/narrative": 329,
@@ -504,7 +495,16 @@
       "iati-activity/result/indicator/@measure": 2256,
       "iati-activity/result/indicator/@ascending": 2256,
       "iati-activity/result/@type": 108,
-      "iati-activity/result/@aggregation-status": 108
+      "iati-activity/result/@aggregation-status": 108,
+      "iati-activity/planned-disbursement": 1068,
+      "iati-activity/planned-disbursement/period-start": 1068,
+      "iati-activity/planned-disbursement/period-start/@iso-date": 1068,
+      "iati-activity/planned-disbursement/period-end": 1068,
+      "iati-activity/planned-disbursement/period-end/@iso-date": 1068,
+      "iati-activity/planned-disbursement/value": 1068,
+      "iati-activity/planned-disbursement/value/@value-date": 1068,
+      "iati-activity/planned-disbursement/value/@currency": 1068,
+      "iati-activity/planned-disbursement/@type": 1068
     },
     "forwardlooking_currency_year": {},
     "forwardlooking_activities_current": {
@@ -685,6 +685,10 @@
       "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}treasury-info/{http://foreignassistance.gov/iati#}treasury-main-regular/@code": 2290,
       "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}signing-date": 2290,
       "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent": 2290,
+      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}description": 1499,
+      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}country-of-origin": 1499,
+      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}country-of-origin/@code": 1499,
+      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}DUNS": 1499,
       "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}interagency-transfer-status": 2290,
       "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}interagency-transfer-status/@status": 2290,
       "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}purpose-statement": 2290,
@@ -692,15 +696,6 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 2290,
       "iati-activity/@last-updated-datetime": 2290,
       "iati-activity/@hierarchy": 2290,
-      "iati-activity/planned-disbursement": 195,
-      "iati-activity/planned-disbursement/period-start": 195,
-      "iati-activity/planned-disbursement/period-start/@iso-date": 195,
-      "iati-activity/planned-disbursement/period-end": 195,
-      "iati-activity/planned-disbursement/period-end/@iso-date": 195,
-      "iati-activity/planned-disbursement/value": 195,
-      "iati-activity/planned-disbursement/value/@value-date": 195,
-      "iati-activity/planned-disbursement/value/@currency": 195,
-      "iati-activity/planned-disbursement/@type": 195,
       "iati-activity/location": 443,
       "iati-activity/location/location-reach": 443,
       "iati-activity/location/location-reach/@code": 443,
@@ -725,10 +720,15 @@
       "iati-activity/location/feature-designation": 443,
       "iati-activity/location/feature-designation/@code": 443,
       "iati-activity/location/@ref": 443,
-      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}description": 1499,
-      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}country-of-origin": 1499,
-      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}country-of-origin/@code": 1499,
-      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}DUNS": 1499
+      "iati-activity/planned-disbursement": 195,
+      "iati-activity/planned-disbursement/period-start": 195,
+      "iati-activity/planned-disbursement/period-start/@iso-date": 195,
+      "iati-activity/planned-disbursement/period-end": 195,
+      "iati-activity/planned-disbursement/period-end/@iso-date": 195,
+      "iati-activity/planned-disbursement/value": 195,
+      "iati-activity/planned-disbursement/value/@value-date": 195,
+      "iati-activity/planned-disbursement/value/@currency": 195,
+      "iati-activity/planned-disbursement/@type": 195
     },
     "elements_total": {
       "iati-activity": 2290,
@@ -826,6 +826,10 @@
       "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}treasury-info/{http://foreignassistance.gov/iati#}treasury-main-regular/@code": 2290,
       "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}signing-date": 2290,
       "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent": 2290,
+      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}description": 1499,
+      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}country-of-origin": 1499,
+      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}country-of-origin/@code": 1499,
+      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}DUNS": 1499,
       "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}interagency-transfer-status": 2290,
       "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}interagency-transfer-status/@status": 2290,
       "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}purpose-statement": 2290,
@@ -833,15 +837,6 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 2290,
       "iati-activity/@last-updated-datetime": 2290,
       "iati-activity/@hierarchy": 2290,
-      "iati-activity/planned-disbursement": 2622,
-      "iati-activity/planned-disbursement/period-start": 2622,
-      "iati-activity/planned-disbursement/period-start/@iso-date": 2622,
-      "iati-activity/planned-disbursement/period-end": 2622,
-      "iati-activity/planned-disbursement/period-end/@iso-date": 2622,
-      "iati-activity/planned-disbursement/value": 2622,
-      "iati-activity/planned-disbursement/value/@value-date": 2622,
-      "iati-activity/planned-disbursement/value/@currency": 2622,
-      "iati-activity/planned-disbursement/@type": 2622,
       "iati-activity/location": 813,
       "iati-activity/location/location-reach": 813,
       "iati-activity/location/location-reach/@code": 813,
@@ -866,28 +861,39 @@
       "iati-activity/location/feature-designation": 813,
       "iati-activity/location/feature-designation/@code": 813,
       "iati-activity/location/@ref": 813,
-      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}description": 1499,
-      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}country-of-origin": 1499,
-      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}country-of-origin/@code": 1499,
-      "iati-activity/{http://foreignassistance.gov/iati#}usg-activity/{http://foreignassistance.gov/iati#}implementing-agent/{http://foreignassistance.gov/iati#}DUNS": 1499
+      "iati-activity/planned-disbursement": 2622,
+      "iati-activity/planned-disbursement/period-start": 2622,
+      "iati-activity/planned-disbursement/period-start/@iso-date": 2622,
+      "iati-activity/planned-disbursement/period-end": 2622,
+      "iati-activity/planned-disbursement/period-end/@iso-date": 2622,
+      "iati-activity/planned-disbursement/value": 2622,
+      "iati-activity/planned-disbursement/value/@value-date": 2622,
+      "iati-activity/planned-disbursement/value/@currency": 2622,
+      "iati-activity/planned-disbursement/@type": 2622
     },
     "forwardlooking_currency_year": {
       "null": {
         "USD": 15540094730.05
       },
-      "2016": {
-        "USD": 0.0
-      },
       "2013": {
         "USD": 0.0
       },
-      "2017": {
+      "2010": {
         "USD": 0.0
       },
-      "2006": {
-        "USD": 100000.0
+      "2012": {
+        "USD": 0.0
       },
-      "2005": {
+      "2011": {
+        "USD": 0.0
+      },
+      "2016": {
+        "USD": 0.0
+      },
+      "2019": {
+        "USD": 360235.95
+      },
+      "2007": {
         "USD": 0.0
       },
       "2020": {
@@ -896,31 +902,25 @@
       "2014": {
         "USD": 0.0
       },
-      "2012": {
-        "USD": 0.0
-      },
       "2015": {
         "USD": 32775121.73
       },
-      "2011": {
-        "USD": 0.0
+      "2006": {
+        "USD": 100000.0
       },
-      "2007": {
+      "2009": {
         "USD": 0.0
-      },
-      "2018": {
-        "USD": 0.0
-      },
-      "2019": {
-        "USD": 360235.95
       },
       "2008": {
         "USD": 0.0
       },
-      "2010": {
+      "2017": {
         "USD": 0.0
       },
-      "2009": {
+      "2005": {
+        "USD": 0.0
+      },
+      "2018": {
         "USD": 0.0
       }
     },

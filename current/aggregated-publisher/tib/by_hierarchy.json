@@ -18,6 +18,9 @@
       "iati-activity/participating-org/@ref": 30,
       "iati-activity/participating-org/@role": 30,
       "iati-activity/participating-org/@type": 30,
+      "iati-activity/other-identifier": 18,
+      "iati-activity/other-identifier/@ref": 18,
+      "iati-activity/other-identifier/@type": 18,
       "iati-activity/activity-status": 30,
       "iati-activity/activity-status/@code": 30,
       "iati-activity/activity-date": 30,
@@ -66,7 +69,6 @@
       "iati-activity/transaction/description/narrative": 30,
       "iati-activity/transaction/provider-org": 30,
       "iati-activity/transaction/provider-org/@provider-activity-id": 30,
-      "iati-activity/transaction/provider-org/@ref": 15,
       "iati-activity/document-link": 30,
       "iati-activity/document-link/title": 30,
       "iati-activity/document-link/title/narrative": 30,
@@ -77,9 +79,7 @@
       "iati-activity/@last-updated-datetime": 30,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 30,
       "iati-activity/@default-currency": 30,
-      "iati-activity/other-identifier": 18,
-      "iati-activity/other-identifier/@ref": 18,
-      "iati-activity/other-identifier/@type": 18
+      "iati-activity/transaction/provider-org/@ref": 15
     },
     "elements_total": {
       "iati-activity": 30,
@@ -98,6 +98,9 @@
       "iati-activity/participating-org/@ref": 60,
       "iati-activity/participating-org/@role": 105,
       "iati-activity/participating-org/@type": 105,
+      "iati-activity/other-identifier": 18,
+      "iati-activity/other-identifier/@ref": 18,
+      "iati-activity/other-identifier/@type": 18,
       "iati-activity/activity-status": 30,
       "iati-activity/activity-status/@code": 30,
       "iati-activity/activity-date": 60,
@@ -146,7 +149,6 @@
       "iati-activity/transaction/description/narrative": 1082,
       "iati-activity/transaction/provider-org": 632,
       "iati-activity/transaction/provider-org/@provider-activity-id": 632,
-      "iati-activity/transaction/provider-org/@ref": 120,
       "iati-activity/document-link": 274,
       "iati-activity/document-link/title": 274,
       "iati-activity/document-link/title/narrative": 274,
@@ -157,16 +159,11 @@
       "iati-activity/@last-updated-datetime": 30,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 30,
       "iati-activity/@default-currency": 30,
-      "iati-activity/other-identifier": 18,
-      "iati-activity/other-identifier/@ref": 18,
-      "iati-activity/other-identifier/@type": 18
+      "iati-activity/transaction/provider-org/@ref": 120
     },
     "forwardlooking_currency_year": {
       "null": {
         "BDT": 44259695368.0
-      },
-      "2015": {
-        "BDT": 11672544435.0
       },
       "2016": {
         "BDT": 13966857431.0
@@ -176,6 +173,9 @@
       },
       "2018": {
         "BDT": 6138601425.0
+      },
+      "2015": {
+        "BDT": 11672544435.0
       },
       "2019": {
         "BDT": 4145205123.0

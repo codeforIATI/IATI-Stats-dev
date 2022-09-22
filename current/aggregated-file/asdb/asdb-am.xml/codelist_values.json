@@ -9,13 +9,14 @@
     "1": 35,
     "2": 35,
     "3": 35,
-    "4": 15
+    "4": 20
   },
   ".//activity-scope/@code": {
     "1": 35
   },
   ".//activity-status/@code": {
-    "2": 35
+    "3": 20,
+    "2": 15
   },
   ".//budget/value/@currency": {
     "USD": 708
@@ -24,16 +25,16 @@
     "2": 35
   },
   ".//conditions/condition/@type": {
-    "1": 9,
-    "2": 28,
-    "3": 28
+    "2": 35,
+    "3": 35,
+    "1": 9
   },
   ".//country-budget-items/@vocabulary": {
     "1": 35
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "A01": 9,
-    "C01": 26
+    "C01": 26,
+    "A01": 9
   },
   ".//default-finance-type/@code": {
     "421": 35
@@ -46,25 +47,22 @@
     "5": 35
   },
   ".//document-link/@format": {
-    "application/pdf": 190
+    "application/pdf": 207
   },
   ".//document-link/category/@code": {
     "A09": 22,
-    "A07": 46,
-    "A08": 102,
+    "A07": 52,
+    "A08": 119,
     "A04": 22,
-    "A01": 28,
-    "A02": 28,
-    "A03": 28,
-    "A05": 28,
+    "A01": 32,
+    "A02": 32,
+    "A03": 32,
+    "A05": 32,
     "A11": 22,
     "A10": 22
   },
   ".//document-link/language/@code": {
-    "en": 190
-  },
-  ".//location/location-id/@vocabulary": {
-    "G1": 121
+    "en": 207
   },
   ".//other-identifier/@type": {
     "B1": 35
@@ -91,14 +89,14 @@
     "1": 35
   },
   ".//result/document-link/@format": {
-    "application/pdf": 51
+    "application/pdf": 61
   },
   ".//result/document-link/category/@code": {
-    "A08": 51,
-    "A07": 23
+    "A08": 61,
+    "A07": 26
   },
   ".//result/document-link/language/@code": {
-    "en": 51
+    "en": 61
   },
   ".//result/indicator/@measure": {
     "1": 28,
@@ -108,28 +106,28 @@
     "1": 35
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "24040": 7,
-    "21011": 2,
+    "21023": 6,
     "23630": 4,
+    "24010": 5,
     "12220": 1,
+    "24040": 5,
+    "43010": 2,
+    "31161": 1,
     "15111": 2,
     "43032": 1,
-    "24030": 3,
-    "24010": 2,
-    "23183": 1,
-    "21023": 6,
+    "21011": 2,
+    "24030": 2,
     "14031": 2,
-    "21050": 1,
-    "43010": 2,
-    "31161": 1
+    "23183": 1,
+    "21050": 1
   },
   ".//transaction/transaction-type/@code": {
     "2": 35,
-    "3": 672,
+    "3": 804,
     "6": 731,
     "5": 1511
   },
   ".//transaction/value/@currency": {
-    "USD": 2949
+    "USD": 3081
   }
 }
