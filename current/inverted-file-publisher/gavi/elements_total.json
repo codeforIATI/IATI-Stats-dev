@@ -30,19 +30,19 @@
     "gavi-country-activities.xml": 78
   },
   "iati-activity/activity-date": {
-    "gavi-covax.xml": 276,
+    "gavi-covax.xml": 277,
     "gavi-tca-activities.xml": 276,
     "gavi-vaccine-activities.xml": 3042,
     "gavi-country-activities.xml": 240
   },
   "iati-activity/activity-date/@iso-date": {
-    "gavi-covax.xml": 276,
+    "gavi-covax.xml": 277,
     "gavi-tca-activities.xml": 276,
     "gavi-vaccine-activities.xml": 3042,
     "gavi-country-activities.xml": 240
   },
   "iati-activity/activity-date/@type": {
-    "gavi-covax.xml": 276,
+    "gavi-covax.xml": 277,
     "gavi-tca-activities.xml": 276,
     "gavi-vaccine-activities.xml": 3042,
     "gavi-country-activities.xml": 240
@@ -72,49 +72,100 @@
     "gavi-country-activities.xml": 78
   },
   "iati-activity/budget": {
-    "gavi-covax.xml": 182,
+    "gavi-covax.xml": 183,
     "gavi-tca-activities.xml": 308,
     "gavi-vaccine-activities.xml": 5309
   },
   "iati-activity/budget/@status": {
-    "gavi-covax.xml": 182,
+    "gavi-covax.xml": 183,
     "gavi-tca-activities.xml": 308,
     "gavi-vaccine-activities.xml": 5309
   },
   "iati-activity/budget/@type": {
-    "gavi-covax.xml": 182,
+    "gavi-covax.xml": 183,
     "gavi-tca-activities.xml": 308,
     "gavi-vaccine-activities.xml": 5309
   },
   "iati-activity/budget/period-end": {
-    "gavi-covax.xml": 182,
+    "gavi-covax.xml": 183,
     "gavi-tca-activities.xml": 308,
     "gavi-vaccine-activities.xml": 5309
   },
   "iati-activity/budget/period-end/@iso-date": {
-    "gavi-covax.xml": 182,
+    "gavi-covax.xml": 183,
     "gavi-tca-activities.xml": 308,
     "gavi-vaccine-activities.xml": 5309
   },
   "iati-activity/budget/period-start": {
-    "gavi-covax.xml": 182,
+    "gavi-covax.xml": 183,
     "gavi-tca-activities.xml": 308,
     "gavi-vaccine-activities.xml": 5309
   },
   "iati-activity/budget/period-start/@iso-date": {
-    "gavi-covax.xml": 182,
+    "gavi-covax.xml": 183,
     "gavi-tca-activities.xml": 308,
     "gavi-vaccine-activities.xml": 5309
   },
   "iati-activity/budget/value": {
-    "gavi-covax.xml": 182,
+    "gavi-covax.xml": 183,
     "gavi-tca-activities.xml": 308,
     "gavi-vaccine-activities.xml": 5309
   },
   "iati-activity/budget/value/@value-date": {
-    "gavi-covax.xml": 182,
+    "gavi-covax.xml": 183,
     "gavi-tca-activities.xml": 308,
     "gavi-vaccine-activities.xml": 5309
+  },
+  "iati-activity/budget/{http://gavi.org/}gavi-finance": {
+    "gavi-covax.xml": 183
+  },
+  "iati-activity/budget/{http://gavi.org/}gavi-finance/{http://gavi.org/}applicant": {
+    "gavi-covax.xml": 183
+  },
+  "iati-activity/budget/{http://gavi.org/}gavi-finance/{http://gavi.org/}budget": {
+    "gavi-covax.xml": 183
+  },
+  "iati-activity/budget/{http://gavi.org/}gavi-finance/{http://gavi.org/}budget/@type": {
+    "gavi-covax.xml": 183
+  },
+  "iati-activity/budget/{http://gavi.org/}gavi-finance/{http://gavi.org/}budget/@year": {
+    "gavi-covax.xml": 183
+  },
+  "iati-activity/budget/{http://gavi.org/}gavi-finance/{http://gavi.org/}country": {
+    "gavi-covax.xml": 183
+  },
+  "iati-activity/budget/{http://gavi.org/}gavi-finance/{http://gavi.org/}country/@iso3": {
+    "gavi-covax.xml": 183
+  },
+  "iati-activity/budget/{http://gavi.org/}gavi-finance/{http://gavi.org/}fund-centre": {
+    "gavi-covax.xml": 183
+  },
+  "iati-activity/budget/{http://gavi.org/}gavi-finance/{http://gavi.org/}fund-centre/@id": {
+    "gavi-covax.xml": 183
+  },
+  "iati-activity/budget/{https://iatistandard.org/en/iati-standard/}budget-dimension": {
+    "gavi-covax.xml": 183
+  },
+  "iati-activity/budget/{https://iatistandard.org/en/iati-standard/}budget-dimension/recipient-country": {
+    "gavi-covax.xml": 177
+  },
+  "iati-activity/budget/{https://iatistandard.org/en/iati-standard/}budget-dimension/recipient-country/@code": {
+    "gavi-covax.xml": 177
+  },
+  "iati-activity/budget/{https://iatistandard.org/en/iati-standard/}budget-dimension/recipient-region": {
+    "gavi-covax.xml": 6
+  },
+  "iati-activity/budget/{https://iatistandard.org/en/iati-standard/}budget-dimension/recipient-region/@code": {
+    "gavi-covax.xml": 6
+  },
+  "iati-activity/budget/{https://iatistandard.org/en/iati-standard/}budget-dimension/recipient-region/@vocabulary": {
+    "gavi-covax.xml": 6
+  },
+  "iati-activity/budget/{https://iatistandard.org/en/iati-standard/}budget-dimension/sector": {
+    "gavi-covax.xml": 183
+  },
+  "iati-activity/budget/{https://iatistandard.org/en/iati-standard/}budget-dimension/sector/@code": {
+    "gavi-covax.xml": 183
   },
   "iati-activity/capital-spend": {
     "gavi-covax.xml": 92,
@@ -568,25 +619,14 @@
     "gavi-country-activities.xml": 156
   },
   "iati-activity/recipient-country": {
-    "gavi-covax.xml": 91,
     "gavi-tca-activities.xml": 92,
     "gavi-vaccine-activities.xml": 865,
     "gavi-country-activities.xml": 78
   },
   "iati-activity/recipient-country/@code": {
-    "gavi-covax.xml": 91,
     "gavi-tca-activities.xml": 92,
     "gavi-vaccine-activities.xml": 865,
     "gavi-country-activities.xml": 78
-  },
-  "iati-activity/recipient-region": {
-    "gavi-covax.xml": 1
-  },
-  "iati-activity/recipient-region/@code": {
-    "gavi-covax.xml": 1
-  },
-  "iati-activity/recipient-region/@vocabulary": {
-    "gavi-covax.xml": 1
   },
   "iati-activity/related-activity": {
     "gavi-covax.xml": 92,
@@ -795,31 +835,26 @@
     "gavi-vaccine-activities.xml": 7930
   },
   "iati-activity/sector": {
-    "gavi-covax.xml": 184,
     "gavi-tca-activities.xml": 184,
     "gavi-vaccine-activities.xml": 1730,
     "gavi-country-activities.xml": 78
   },
   "iati-activity/sector/@code": {
-    "gavi-covax.xml": 184,
     "gavi-tca-activities.xml": 184,
     "gavi-vaccine-activities.xml": 1730,
     "gavi-country-activities.xml": 78
   },
   "iati-activity/sector/@percentage": {
-    "gavi-covax.xml": 92,
     "gavi-tca-activities.xml": 92,
     "gavi-vaccine-activities.xml": 865,
     "gavi-country-activities.xml": 78
   },
   "iati-activity/sector/@vocabulary": {
-    "gavi-covax.xml": 184,
     "gavi-tca-activities.xml": 184,
     "gavi-vaccine-activities.xml": 1730,
     "gavi-country-activities.xml": 78
   },
   "iati-activity/sector/narrative": {
-    "gavi-covax.xml": 92,
     "gavi-tca-activities.xml": 92,
     "gavi-vaccine-activities.xml": 865
   },
@@ -860,94 +895,154 @@
     "gavi-country-activities.xml": 78
   },
   "iati-activity/transaction": {
-    "gavi-covax.xml": 4008,
+    "gavi-covax.xml": 4138,
     "gavi-tca-activities.xml": 4683,
     "gavi-vaccine-activities.xml": 24098
   },
   "iati-activity/transaction/@ref": {
-    "gavi-covax.xml": 4008,
+    "gavi-covax.xml": 4138,
     "gavi-tca-activities.xml": 4683,
     "gavi-vaccine-activities.xml": 11199
   },
   "iati-activity/transaction/description": {
-    "gavi-covax.xml": 4008,
+    "gavi-covax.xml": 4138,
     "gavi-tca-activities.xml": 4683,
     "gavi-vaccine-activities.xml": 24098
   },
   "iati-activity/transaction/description/narrative": {
-    "gavi-covax.xml": 4008,
+    "gavi-covax.xml": 4138,
     "gavi-tca-activities.xml": 4683,
     "gavi-vaccine-activities.xml": 24098
   },
   "iati-activity/transaction/provider-org": {
-    "gavi-covax.xml": 4008,
+    "gavi-covax.xml": 4138,
     "gavi-tca-activities.xml": 4683,
     "gavi-vaccine-activities.xml": 24098
   },
   "iati-activity/transaction/provider-org/@ref": {
-    "gavi-covax.xml": 4008,
+    "gavi-covax.xml": 4138,
     "gavi-tca-activities.xml": 4683,
     "gavi-vaccine-activities.xml": 24098
   },
   "iati-activity/transaction/provider-org/@type": {
-    "gavi-covax.xml": 4002,
+    "gavi-covax.xml": 4132,
     "gavi-tca-activities.xml": 4683,
     "gavi-vaccine-activities.xml": 24098
   },
   "iati-activity/transaction/provider-org/narrative": {
-    "gavi-covax.xml": 4008,
+    "gavi-covax.xml": 4138,
     "gavi-tca-activities.xml": 4683,
     "gavi-vaccine-activities.xml": 24098
   },
   "iati-activity/transaction/receiver-org": {
-    "gavi-covax.xml": 4002,
+    "gavi-covax.xml": 4132,
     "gavi-tca-activities.xml": 4040,
     "gavi-vaccine-activities.xml": 24098
   },
   "iati-activity/transaction/receiver-org/@ref": {
-    "gavi-covax.xml": 3824,
+    "gavi-covax.xml": 3953,
     "gavi-tca-activities.xml": 1792,
     "gavi-vaccine-activities.xml": 17897
   },
   "iati-activity/transaction/receiver-org/@type": {
-    "gavi-covax.xml": 4002,
+    "gavi-covax.xml": 4132,
     "gavi-tca-activities.xml": 3142,
     "gavi-vaccine-activities.xml": 23564
   },
   "iati-activity/transaction/receiver-org/narrative": {
-    "gavi-covax.xml": 4002,
+    "gavi-covax.xml": 4132,
     "gavi-tca-activities.xml": 4040,
     "gavi-vaccine-activities.xml": 24098
   },
+  "iati-activity/transaction/recipient-country": {
+    "gavi-covax.xml": 4028
+  },
+  "iati-activity/transaction/recipient-country/@code": {
+    "gavi-covax.xml": 4028
+  },
+  "iati-activity/transaction/recipient-region": {
+    "gavi-covax.xml": 110
+  },
+  "iati-activity/transaction/recipient-region/@code": {
+    "gavi-covax.xml": 110
+  },
+  "iati-activity/transaction/recipient-region/@vocabulary": {
+    "gavi-covax.xml": 110
+  },
+  "iati-activity/transaction/sector": {
+    "gavi-covax.xml": 4138
+  },
+  "iati-activity/transaction/sector/@code": {
+    "gavi-covax.xml": 4138
+  },
   "iati-activity/transaction/transaction-date": {
-    "gavi-covax.xml": 4008,
+    "gavi-covax.xml": 4138,
     "gavi-tca-activities.xml": 4683,
     "gavi-vaccine-activities.xml": 24098
   },
   "iati-activity/transaction/transaction-date/@iso-date": {
-    "gavi-covax.xml": 4008,
+    "gavi-covax.xml": 4138,
     "gavi-tca-activities.xml": 4683,
     "gavi-vaccine-activities.xml": 24098
   },
   "iati-activity/transaction/transaction-type": {
-    "gavi-covax.xml": 4008,
+    "gavi-covax.xml": 4138,
     "gavi-tca-activities.xml": 4683,
     "gavi-vaccine-activities.xml": 24098
   },
   "iati-activity/transaction/transaction-type/@code": {
-    "gavi-covax.xml": 4008,
+    "gavi-covax.xml": 4138,
     "gavi-tca-activities.xml": 4683,
     "gavi-vaccine-activities.xml": 24098
   },
   "iati-activity/transaction/value": {
-    "gavi-covax.xml": 4008,
+    "gavi-covax.xml": 4138,
     "gavi-tca-activities.xml": 4683,
     "gavi-vaccine-activities.xml": 24098
   },
   "iati-activity/transaction/value/@value-date": {
-    "gavi-covax.xml": 4008,
+    "gavi-covax.xml": 4138,
     "gavi-tca-activities.xml": 4683,
     "gavi-vaccine-activities.xml": 24098
+  },
+  "iati-activity/transaction/{http://gavi.org/}country": {
+    "gavi-covax.xml": 183
+  },
+  "iati-activity/transaction/{http://gavi.org/}gavi-finance": {
+    "gavi-covax.xml": 4138
+  },
+  "iati-activity/transaction/{http://gavi.org/}gavi-finance/{http://gavi.org/}applicant": {
+    "gavi-covax.xml": 4138
+  },
+  "iati-activity/transaction/{http://gavi.org/}gavi-finance/{http://gavi.org/}budget": {
+    "gavi-covax.xml": 4138
+  },
+  "iati-activity/transaction/{http://gavi.org/}gavi-finance/{http://gavi.org/}budget/@type": {
+    "gavi-covax.xml": 183
+  },
+  "iati-activity/transaction/{http://gavi.org/}gavi-finance/{http://gavi.org/}budget/@year": {
+    "gavi-covax.xml": 4138
+  },
+  "iati-activity/transaction/{http://gavi.org/}gavi-finance/{http://gavi.org/}country": {
+    "gavi-covax.xml": 4138
+  },
+  "iati-activity/transaction/{http://gavi.org/}gavi-finance/{http://gavi.org/}country/@iso3": {
+    "gavi-covax.xml": 4138
+  },
+  "iati-activity/transaction/{http://gavi.org/}gavi-finance/{http://gavi.org/}doc-number": {
+    "gavi-covax.xml": 3955
+  },
+  "iati-activity/transaction/{http://gavi.org/}gavi-finance/{http://gavi.org/}fund-centre": {
+    "gavi-covax.xml": 4138
+  },
+  "iati-activity/transaction/{http://gavi.org/}gavi-finance/{http://gavi.org/}fund-centre/@id": {
+    "gavi-covax.xml": 4138
+  },
+  "iati-activity/transaction/{http://gavi.org/}gavi-finance/{http://gavi.org/}priority": {
+    "gavi-covax.xml": 3954
+  },
+  "iati-activity/transaction/{http://gavi.org/}gavi-finance/{http://gavi.org/}programme": {
+    "gavi-covax.xml": 3955
   },
   "iati-organisation": {
     "gavi-organisation.xml": 1

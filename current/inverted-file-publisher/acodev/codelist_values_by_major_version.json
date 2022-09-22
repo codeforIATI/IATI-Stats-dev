@@ -2,73 +2,134 @@
   "2": {
     ".//@default-currency": {
       "acodev-activities.xml": {
-        "EUR": 6
+        "EUR": 7
+      },
+      "acodev-tesout22-26.xml": {
+        "EUR": 1
+      },
+      "acodev-testprogr22-26.xml": {
+        "EUR": 1
       }
     },
     ".//activity-date/@type": {
       "acodev-activities.xml": {
         "1": 6,
-        "2": 6,
+        "2": 7,
         "3": 6,
         "4": 6
+      },
+      "acodev-tesout22-26.xml": {
+        "2": 1
       }
     },
     ".//activity-status/@code": {
       "acodev-activities.xml": {
-        "4": 6
+        "4": 6,
+        "2": 1
+      },
+      "acodev-tesout22-26.xml": {
+        "2": 1
       }
     },
     ".//budget/@status": {
       "acodev-activities.xml": {
-        "2": 25
+        "2": 26
+      },
+      "acodev-tesout22-26.xml": {
+        "2": 1
       }
     },
     ".//budget/@type": {
       "acodev-activities.xml": {
-        "1": 25
+        "1": 26
+      },
+      "acodev-tesout22-26.xml": {
+        "1": 1
       }
     },
     ".//collaboration-type/@code": {
       "acodev-activities.xml": {
-        "1": 6
+        "1": 7
+      },
+      "acodev-tesout22-26.xml": {
+        "1": 1
+      },
+      "acodev-testprogr22-26.xml": {
+        "1": 1
       }
     },
     ".//contact-info/@type": {
       "acodev-activities.xml": {
-        "1": 6
+        "1": 7
+      },
+      "acodev-tesout22-26.xml": {
+        "1": 1
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "acodev-activities.xml": {
-        "C01": 5,
+        "C01": 6,
         "G01": 1
+      },
+      "acodev-tesout22-26.xml": {
+        "C01": 1
+      },
+      "acodev-testprogr22-26.xml": {
+        "C01": 1
       }
     },
     ".//default-aid-type/@vocabulary": {
       "acodev-activities.xml": {
-        "1": 6
+        "1": 7
+      },
+      "acodev-tesout22-26.xml": {
+        "1": 1
+      },
+      "acodev-testprogr22-26.xml": {
+        "1": 1
       }
     },
     ".//default-finance-type/@code": {
       "acodev-activities.xml": {
-        "110": 6
+        "110": 7
+      },
+      "acodev-tesout22-26.xml": {
+        "110": 1
+      },
+      "acodev-testprogr22-26.xml": {
+        "110": 1
       }
     },
     ".//default-flow-type/@code": {
       "acodev-activities.xml": {
-        "30": 6
+        "30": 7
+      },
+      "acodev-tesout22-26.xml": {
+        "30": 1
+      },
+      "acodev-testprogr22-26.xml": {
+        "30": 1
       }
     },
     ".//default-tied-status/@code": {
       "acodev-activities.xml": {
-        "5": 6
+        "5": 7
+      },
+      "acodev-tesout22-26.xml": {
+        "5": 1
+      },
+      "acodev-testprogr22-26.xml": {
+        "5": 1
       }
     },
     ".//description/@type": {
       "acodev-activities.xml": {
         "1": 6,
-        "2": 1,
+        "2": 2,
         "3": 1
+      },
+      "acodev-tesout22-26.xml": {
+        "2": 1
       }
     },
     ".//document-link/@format": {
@@ -95,15 +156,21 @@
     },
     ".//participating-org/@role": {
       "acodev-activities.xml": {
-        "1": 2,
+        "1": 3,
         "2": 16,
         "4": 15
+      },
+      "acodev-tesout22-26.xml": {
+        "1": 1
       }
     },
     ".//participating-org/@type": {
       "acodev-activities.xml": {
-        "10": 2,
+        "10": 3,
         "22": 31
+      },
+      "acodev-tesout22-26.xml": {
+        "10": 1
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -124,7 +191,10 @@
     },
     ".//recipient-country/@code": {
       "acodev-activities.xml": {
-        "BE": 4
+        "BE": 5
+      },
+      "acodev-tesout22-26.xml": {
+        "BE": 1
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -140,12 +210,25 @@
     },
     ".//related-activity/@type": {
       "acodev-activities.xml": {
-        "1": 5
+        "1": 5,
+        "2": 1
+      },
+      "acodev-tesout22-26.xml": {
+        "2": 1
+      },
+      "acodev-testprogr22-26.xml": {
+        "1": 1
       }
     },
     ".//reporting-org/@type": {
       "acodev-activities.xml": {
-        "22": 6
+        "22": 7
+      },
+      "acodev-tesout22-26.xml": {
+        "22": 1
+      },
+      "acodev-testprogr22-26.xml": {
+        "22": 1
       }
     },
     ".//result/@type": {
@@ -160,20 +243,29 @@
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "acodev-activities.xml": {
-        "99810": 2,
+        "99810": 3,
         "91010": 1,
         "92010": 3
+      },
+      "acodev-tesout22-26.xml": {
+        "99810": 1
       }
     },
     ".//sector/@vocabulary": {
       "acodev-activities.xml": {
-        "1": 6
+        "1": 7
+      },
+      "acodev-tesout22-26.xml": {
+        "1": 1
       }
     },
     ".//transaction/provider-org/@type": {
       "acodev-activities.xml": {
         "10": 10,
-        "22": 24
+        "22": 25
+      },
+      "acodev-tesout22-26.xml": {
+        "22": 1
       }
     },
     ".//transaction/receiver-org/@type": {
@@ -185,7 +277,10 @@
       "acodev-activities.xml": {
         "1": 5,
         "11": 5,
-        "4": 24
+        "4": 25
+      },
+      "acodev-tesout22-26.xml": {
+        "4": 1
       }
     },
     ".//transaction/value/@currency": {
@@ -195,9 +290,16 @@
     },
     ".//@xml:lang": {
       "acodev-activities.xml": {
-        "fr": 23,
-        "en": 4,
+        "fr": 26,
+        "en": 5,
         "nl": 2
+      },
+      "acodev-tesout22-26.xml": {
+        "fr": 3,
+        "en": 1
+      },
+      "acodev-testprogr22-26.xml": {
+        "fr": 2
       }
     }
   }
