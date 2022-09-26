@@ -1,20 +1,20 @@
 {
   ".//@default-currency": {
     "EUR": {
-      "caritasfin-8a.xml": 6,
-      "caritasfin-in.xml": 1
+      "caritasfin-in.xml": 1,
+      "caritasfin-8a.xml": 6
     }
   },
   ".//@xml:lang": {
     "en": {
-      "caritasfin-8a.xml": 6,
-      "caritasfin-in.xml": 7
+      "caritasfin-in.xml": 7,
+      "caritasfin-8a.xml": 6
     }
   },
   ".//activity-date/@type": {
     "1": {
-      "caritasfin-8a.xml": 6,
-      "caritasfin-in.xml": 1
+      "caritasfin-in.xml": 1,
+      "caritasfin-8a.xml": 6
     },
     "3": {
       "caritasfin-8a.xml": 6
@@ -22,8 +22,8 @@
   },
   ".//activity-status/@code": {
     "1": {
-      "caritasfin-8a.xml": 6,
-      "caritasfin-in.xml": 1
+      "caritasfin-in.xml": 1,
+      "caritasfin-8a.xml": 6
     }
   },
   ".//budget/@status": {
@@ -33,14 +33,14 @@
   },
   ".//budget/@type": {
     "1": {
-      "caritasfin-8a.xml": 6,
-      "caritasfin-in.xml": 1
+      "caritasfin-in.xml": 1,
+      "caritasfin-8a.xml": 6
     }
   },
   ".//budget/value/@currency": {
     "EUR": {
-      "caritasfin-8a.xml": 6,
-      "caritasfin-in.xml": 1
+      "caritasfin-in.xml": 1,
+      "caritasfin-8a.xml": 6
     }
   },
   ".//collaboration-type/@code": {
@@ -69,34 +69,34 @@
     }
   },
   ".//description/@type": {
-    "1": {
-      "caritasfin-8a.xml": 6
-    },
     "3": {
       "caritasfin-in.xml": 1
+    },
+    "1": {
+      "caritasfin-8a.xml": 6
     }
   },
   ".//participating-org/@role": {
+    "4": {
+      "caritasfin-in.xml": 1,
+      "caritasfin-8a.xml": 5
+    },
     "2": {
       "caritasfin-8a.xml": 6
-    },
-    "4": {
-      "caritasfin-8a.xml": 5,
-      "caritasfin-in.xml": 1
     },
     "1": {
       "caritasfin-8a.xml": 2
     }
   },
   ".//participating-org/@type": {
+    "23": {
+      "caritasfin-in.xml": 1
+    },
     "21": {
       "caritasfin-8a.xml": 7
     },
     "22": {
       "caritasfin-8a.xml": 1
-    },
-    "23": {
-      "caritasfin-in.xml": 1
     }
   },
   ".//policy-marker/@significance": {
@@ -120,26 +120,29 @@
     }
   },
   ".//reporting-org/@type": {
-    "21": {
-      "caritasfin-8a.xml": 6
-    },
     "22": {
       "caritasfin-in.xml": 1
+    },
+    "21": {
+      "caritasfin-8a.xml": 6
     }
   },
   ".//sector/@vocabulary": {
+    "1": {
+      "caritasfin-in.xml": 1,
+      "caritasfin-8a.xml": 5
+    },
     "98": {
       "caritasfin-8a.xml": 6
     },
     "2": {
       "caritasfin-8a.xml": 1
-    },
-    "1": {
-      "caritasfin-8a.xml": 5,
-      "caritasfin-in.xml": 1
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "43040": {
+      "caritasfin-in.xml": 1
+    },
     "43042": {
       "caritasfin-8a.xml": 1
     },
@@ -148,9 +151,6 @@
     },
     "": {
       "caritasfin-8a.xml": 1
-    },
-    "43040": {
-      "caritasfin-in.xml": 1
     }
   },
   ".//sector[@vocabulary = '2']/@code": {

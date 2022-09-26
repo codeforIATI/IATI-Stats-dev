@@ -1,109 +1,109 @@
 {
   ".//@default-currency": {
     "EUR": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     }
   },
   ".//@xml:lang": {
     "nl": {
-      "sg-be.xml": 16,
-      "sg-89.xml": 4
+      "sg-89.xml": 4,
+      "sg-be.xml": 16
     },
     "fr": {
-      "sg-be.xml": 12,
-      "sg-89.xml": 2
+      "sg-89.xml": 2,
+      "sg-be.xml": 12
     }
   },
   ".//activity-date/@type": {
     "1": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     },
     "2": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     },
     "3": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     }
   },
   ".//activity-status/@code": {
     "2": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     }
   },
   ".//budget/@status": {
     "2": {
-      "sg-be.xml": 5,
-      "sg-89.xml": 5
+      "sg-89.xml": 5,
+      "sg-be.xml": 5
     }
   },
   ".//budget/@type": {
-    "2": {
-      "sg-be.xml": 5
-    },
     "1": {
       "sg-89.xml": 5
+    },
+    "2": {
+      "sg-be.xml": 5
     }
   },
   ".//budget/value/@currency": {
     "EUR": {
-      "sg-be.xml": 5,
-      "sg-89.xml": 5
+      "sg-89.xml": 5,
+      "sg-be.xml": 5
     }
   },
   ".//collaboration-type/@code": {
     "1": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     }
   },
   ".//contact-info/@type": {
     "1": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     }
   },
   ".//default-aid-type/@vocabulary": {
     "1": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "H01": {
+    "G01": {
+      "sg-89.xml": 1,
       "sg-be.xml": 1
     },
-    "G01": {
-      "sg-be.xml": 1,
-      "sg-89.xml": 1
+    "H01": {
+      "sg-be.xml": 1
     }
   },
   ".//default-finance-type/@code": {
     "110": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     }
   },
   ".//default-flow-type/@code": {
     "30": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     }
   },
   ".//description/@type": {
     "1": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     },
     "2": {
       "sg-be.xml": 1
@@ -150,26 +150,26 @@
   },
   ".//participating-org/@role": {
     "1": {
-      "sg-be.xml": 6,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 6
     },
     "2": {
-      "sg-be.xml": 4,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 4
     },
     "4": {
-      "sg-be.xml": 4,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 4
     }
   },
   ".//participating-org/@type": {
     "10": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     },
     "22": {
-      "sg-be.xml": 12,
-      "sg-89.xml": 2
+      "sg-89.xml": 2,
+      "sg-be.xml": 12
     }
   },
   ".//policy-marker/@significance": {
@@ -222,14 +222,14 @@
   },
   ".//related-activity/@type": {
     "1": {
-      "sg-be.xml": 1,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "22": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     }
   },
   ".//result/@type": {
@@ -244,22 +244,22 @@
   },
   ".//sector/@vocabulary": {
     "1": {
-      "sg-be.xml": 2,
-      "sg-89.xml": 1
+      "sg-89.xml": 1,
+      "sg-be.xml": 2
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "99820": {
-      "sg-be.xml": 2
-    },
     "91010": {
       "sg-89.xml": 1
+    },
+    "99820": {
+      "sg-be.xml": 2
     }
   },
   ".//transaction/provider-org/@type": {
     "22": {
-      "sg-be.xml": 15,
-      "sg-89.xml": 5
+      "sg-89.xml": 5,
+      "sg-be.xml": 15
     },
     "10": {
       "sg-be.xml": 10
@@ -272,8 +272,8 @@
   },
   ".//transaction/transaction-type/@code": {
     "4": {
-      "sg-be.xml": 5,
-      "sg-89.xml": 5
+      "sg-89.xml": 5,
+      "sg-be.xml": 5
     },
     "1": {
       "sg-be.xml": 10
@@ -284,8 +284,8 @@
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "sg-be.xml": 25,
-      "sg-89.xml": 5
+      "sg-89.xml": 5,
+      "sg-be.xml": 25
     }
   }
 }

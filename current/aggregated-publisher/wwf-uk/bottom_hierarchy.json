@@ -123,20 +123,19 @@
     "iati-activity/@default-currency": 28,
     "iati-activity/@humanitarian": 28,
     "iati-activity/@hierarchy": 28,
-    "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 4,
+    "iati-activity/transaction/@humanitarian": 21,
     "iati-activity/participating-org/@ref": 5,
+    "iati-activity/participating-org/@activity-id": 1,
+    "iati-activity/participating-org/@crs-channel-code": 1,
     "iati-activity/recipient-country/@percentage": 5,
+    "iati-activity/sector/narrative": 1,
+    "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
     "iati-activity/sector/@percentage": 5,
     "iati-activity/transaction/description": 5,
     "iati-activity/transaction/description/narrative": 5,
     "iati-activity/transaction/provider-org/@provider-activity-id": 5,
-    "iati-activity/transaction/@ref": 5,
-    "iati-activity/transaction/@humanitarian": 21,
     "iati-activity/transaction/receiver-org/@receiver-activity-id": 3,
-    "iati-activity/participating-org/@activity-id": 1,
-    "iati-activity/participating-org/@crs-channel-code": 1,
-    "iati-activity/sector/narrative": 1,
-    "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
+    "iati-activity/transaction/@ref": 5,
     "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
     "iati-activity/transaction/flow-type": 1,
     "iati-activity/transaction/flow-type/@code": 1,
@@ -144,7 +143,8 @@
     "iati-activity/transaction/aid-type/@code": 1,
     "iati-activity/transaction/aid-type/@vocabulary": 1,
     "iati-activity/transaction/tied-status": 1,
-    "iati-activity/transaction/tied-status/@code": 1
+    "iati-activity/transaction/tied-status/@code": 1,
+    "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 4
   },
   "elements_total": {
     "iati-activity": 28,
@@ -205,20 +205,19 @@
     "iati-activity/@default-currency": 28,
     "iati-activity/@humanitarian": 28,
     "iati-activity/@hierarchy": 28,
-    "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 4,
+    "iati-activity/transaction/@humanitarian": 161,
     "iati-activity/participating-org/@ref": 15,
+    "iati-activity/participating-org/@activity-id": 3,
+    "iati-activity/participating-org/@crs-channel-code": 4,
     "iati-activity/recipient-country/@percentage": 12,
+    "iati-activity/sector/narrative": 1,
+    "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
     "iati-activity/sector/@percentage": 5,
     "iati-activity/transaction/description": 126,
     "iati-activity/transaction/description/narrative": 126,
     "iati-activity/transaction/provider-org/@provider-activity-id": 126,
-    "iati-activity/transaction/@ref": 126,
-    "iati-activity/transaction/@humanitarian": 161,
     "iati-activity/transaction/receiver-org/@receiver-activity-id": 20,
-    "iati-activity/participating-org/@activity-id": 3,
-    "iati-activity/participating-org/@crs-channel-code": 4,
-    "iati-activity/sector/narrative": 1,
-    "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
+    "iati-activity/transaction/@ref": 126,
     "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
     "iati-activity/transaction/flow-type": 1,
     "iati-activity/transaction/flow-type/@code": 1,
@@ -226,7 +225,8 @@
     "iati-activity/transaction/aid-type/@code": 1,
     "iati-activity/transaction/aid-type/@vocabulary": 1,
     "iati-activity/transaction/tied-status": 1,
-    "iati-activity/transaction/tied-status/@code": 1
+    "iati-activity/transaction/tied-status/@code": 1,
+    "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 4
   },
   "forwardlooking_activities_current": {
     "2022": 23,
@@ -246,16 +246,13 @@
   "forwardlooking_currency_year": {
     "2015": {
       "BRL": 942428.04,
-      "GBP": 36424.39,
-      "TZS": 1310199752.0,
-      "KES": 63332588.26,
       "USD": 1776518.96,
       "COP": 1831779359.04,
+      "CNY": 2754018.0,
       "INR": 1591349.0,
-      "CNY": 2754018.0
-    },
-    "2021": {
-      "GBP": 1814052.0
+      "TZS": 1310199752.0,
+      "GBP": 36424.39,
+      "KES": 63332588.26
     },
     "2018": {
       "GBP": 521215.0
@@ -265,6 +262,9 @@
     },
     "2020": {
       "GBP": 607142.0
+    },
+    "2021": {
+      "GBP": 1814052.0
     },
     "2022": {
       "GBP": 551707.0

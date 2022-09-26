@@ -1,132 +1,144 @@
 {
   "2": {
     ".//@default-currency": {
-      "rvo-01.xml": {
-        "EUR": 4047
-      },
       "rvo-activities.xml": {
         "EUR": 57
+      },
+      "rvo-01.xml": {
+        "EUR": 4048
       }
     },
     ".//activity-date/@type": {
-      "rvo-01.xml": {
-        "1": 4043,
-        "2": 4044,
-        "3": 4031,
-        "4": 4012
-      },
       "rvo-activities.xml": {
         "3": 33,
         "1": 25,
         "4": 31,
         "2": 54
+      },
+      "rvo-01.xml": {
+        "1": 4044,
+        "2": 4045,
+        "3": 4032,
+        "4": 4013
       }
     },
     ".//activity-status/@code": {
+      "rvo-activities.xml": {
+        "4": 31,
+        "2": 26
+      },
       "rvo-01.xml": {
-        "2": 631,
-        "3": 3254,
+        "2": 627,
+        "3": 3259,
         "5": 156,
         "1": 4,
         "4": 1,
         "": 1
-      },
-      "rvo-activities.xml": {
-        "4": 31,
-        "2": 26
       }
     },
     ".//budget/@status": {
-      "rvo-01.xml": {
-        "2": 7539
-      },
       "rvo-activities.xml": {
         "2": 2
+      },
+      "rvo-01.xml": {
+        "2": 7540
       }
     },
     ".//budget/@type": {
-      "rvo-01.xml": {
-        "1": 7539
-      },
       "rvo-activities.xml": {
         "1": 2
+      },
+      "rvo-01.xml": {
+        "1": 7540
       }
     },
     ".//budget/value/@currency": {
-      "rvo-01.xml": {
-        "EUR": 7539
-      },
       "rvo-activities.xml": {
         "EUR": 2
+      },
+      "rvo-01.xml": {
+        "EUR": 7540
       }
     },
     ".//collaboration-type/@code": {
-      "rvo-01.xml": {
-        "1": 3622,
-        "3": 134,
-        "8": 248
-      },
       "rvo-activities.xml": {
         "3": 29,
         "2": 1
+      },
+      "rvo-01.xml": {
+        "1": 3623,
+        "3": 134,
+        "8": 248
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "rvo-activities.xml": {
+        "C01": 29
+      },
       "rvo-01.xml": {
-        "C01": 3556,
+        "C01": 3557,
         "B01": 101,
         "B03": 2,
         "D01": 4,
         "D02": 335,
         "A01": 7
-      },
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
       "rvo-activities.xml": {
-        "C01": 29
+        "1": 29
       }
     },
     ".//default-finance-type/@code": {
-      "rvo-01.xml": {
-        "110": 4012,
-        "111": 1,
-        "1100": 1
-      },
       "rvo-activities.xml": {
         "110": 53,
         "512": 2
+      },
+      "rvo-01.xml": {
+        "110": 4013,
+        "111": 1,
+        "1100": 1
       }
     },
     ".//default-flow-type/@code": {
-      "rvo-01.xml": {
-        "30": 4000,
-        "10": 3,
-        "50": 3
-      },
       "rvo-activities.xml": {
         "10": 27,
         "30": 2
+      },
+      "rvo-01.xml": {
+        "30": 4001,
+        "10": 3,
+        "50": 3
       }
     },
     ".//default-tied-status/@code": {
-      "rvo-01.xml": {
-        "5": 2916,
-        "4": 632,
-        "3": 469
-      },
       "rvo-activities.xml": {
         "4": 24,
         "5": 31
+      },
+      "rvo-01.xml": {
+        "5": 2917,
+        "4": 632,
+        "3": 469
       }
     },
     ".//description/@type": {
-      "rvo-01.xml": {
-        "1": 4047,
-        "2": 722
-      },
       "rvo-activities.xml": {
         "1": 57
+      },
+      "rvo-01.xml": {
+        "1": 4048,
+        "2": 722
       }
     },
     ".//document-link/@format": {
+      "rvo-activities.xml": {
+        "image/png": 2,
+        "image/jpeg": 12,
+        "text/html": 1,
+        "video/mp4": 2,
+        "application/pdf": 15
+      },
       "rvo-01.xml": {
         "text/html": 385,
         "application/pdf": 126,
@@ -137,49 +149,60 @@
         "message/http": 1,
         "video/vnd.uvvu.mp4": 1,
         "video/vnd.dece.mp4": 1
-      },
-      "rvo-activities.xml": {
-        "image/png": 2,
-        "image/jpeg": 12,
-        "text/html": 1,
-        "video/mp4": 2,
-        "application/pdf": 15
       }
     },
     ".//document-link/category/@code": {
+      "rvo-activities.xml": {
+        "A12": 32
+      },
       "rvo-01.xml": {
         "A12": 2301,
         "A02": 1,
         "A08": 1,
         "A01": 1
-      },
+      }
+    },
+    ".//document-link/language/@code": {
       "rvo-activities.xml": {
-        "A12": 32
+        "en": 32
+      }
+    },
+    ".//location/exactness/@code": {
+      "rvo-activities.xml": {
+        "1": 2,
+        "2": 1
       }
     },
     ".//participating-org/@role": {
-      "rvo-01.xml": {
-        "1": 4072,
-        "2": 4047,
-        "4": 5996,
-        "3": 6
-      },
       "rvo-activities.xml": {
         "1": 53,
         "2": 51,
         "4": 80
+      },
+      "rvo-01.xml": {
+        "4": 5997,
+        "2": 4048,
+        "1": 4073,
+        "3": 6
       }
     },
     ".//participating-org/@type": {
+      "rvo-activities.xml": {
+        "10": 165,
+        "21": 4,
+        "70": 11,
+        "40": 2,
+        "60": 2
+      },
       "rvo-01.xml": {
-        "10": 8561,
+        "10": 8563,
         "60": 525,
         "71": 2206,
         "15": 94,
         "90": 121,
         "70": 546,
         "21": 148,
-        "73": 396,
+        "73": 397,
         "72": 1086,
         "80": 200,
         "22": 115,
@@ -188,18 +211,14 @@
         "24": 8,
         "23": 9,
         "40": 7
-      },
-      "rvo-activities.xml": {
-        "10": 165,
-        "21": 4,
-        "70": 11,
-        "40": 2,
-        "60": 2
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "rvo-activities.xml": {
+        "4": 2
+      },
       "rvo-01.xml": {
-        "4": 1532,
+        "4": 1533,
         "1": 748,
         "6": 104,
         "7": 43,
@@ -210,32 +229,84 @@
         "5": 1,
         "9": 4,
         "8": 1
-      },
-      "rvo-activities.xml": {
-        "4": 2
       }
     },
     ".//policy-marker/@significance": {
-      "rvo-01.xml": {
-        "2": 2269,
-        "1": 894,
-        "0": 52,
-        "4": 12,
-        "3": 2
-      },
       "rvo-activities.xml": {
         "1": 2
+      },
+      "rvo-01.xml": {
+        "2": 2270,
+        "1": 893,
+        "0": 52,
+        "4": 13,
+        "3": 2
       }
     },
     ".//policy-marker/@vocabulary": {
-      "rvo-01.xml": {
-        "1": 3229
-      },
       "rvo-activities.xml": {
         "1": 2
+      },
+      "rvo-01.xml": {
+        "1": 3230
       }
     },
     ".//recipient-country/@code": {
+      "rvo-activities.xml": {
+        "GT": 5,
+        "ID": 10,
+        "PH": 3,
+        "PK": 2,
+        "VN": 7,
+        "BT": 2,
+        "MM": 6,
+        "MN": 3,
+        "NP": 2,
+        "LK": 3,
+        "AM": 3,
+        "GE": 2,
+        "MK": 3,
+        "MD": 5,
+        "KE": 6,
+        "MG": 3,
+        "MZ": 2,
+        "TZ": 4,
+        "ZM": 4,
+        "AL": 2,
+        "BD": 6,
+        "GH": 3,
+        "ML": 3,
+        "SN": 6,
+        "BJ": 5,
+        "BF": 4,
+        "BO": 3,
+        "RW": 2,
+        "CO": 3,
+        "EG": 7,
+        "UG": 6,
+        "PE": 2,
+        "LB": 4,
+        "ET": 6,
+        "AF": 2,
+        "SV": 4,
+        "HN": 4,
+        "NI": 5,
+        "ZA": 2,
+        "SR": 2,
+        "LR": 2,
+        "SL": 2,
+        "BY": 2,
+        "JO": 5,
+        "KH": 2,
+        "LA": 2,
+        "CI": 2,
+        "PA": 2,
+        "CR": 2,
+        "GN": 1,
+        "DZ": 2,
+        "TN": 3,
+        "MA": 3
+      },
       "rvo-01.xml": {
         "AE": 6,
         "AL": 42,
@@ -291,7 +362,7 @@
         "SL": 114,
         "UG": 150,
         "NA": 10,
-        "SD": 48,
+        "SD": 49,
         "AF": 32,
         "AM": 24,
         "AO": 65,
@@ -382,127 +453,82 @@
         "AZ": 2,
         "RO": 4,
         "LT": 1
-      },
-      "rvo-activities.xml": {
-        "GT": 5,
-        "ID": 10,
-        "PH": 3,
-        "PK": 2,
-        "VN": 7,
-        "BT": 2,
-        "MM": 6,
-        "MN": 3,
-        "NP": 2,
-        "LK": 3,
-        "AM": 3,
-        "GE": 2,
-        "MK": 3,
-        "MD": 5,
-        "KE": 6,
-        "MG": 3,
-        "MZ": 2,
-        "TZ": 4,
-        "ZM": 4,
-        "AL": 2,
-        "BD": 6,
-        "GH": 3,
-        "ML": 3,
-        "SN": 6,
-        "BJ": 5,
-        "BF": 4,
-        "BO": 3,
-        "RW": 2,
-        "CO": 3,
-        "EG": 7,
-        "UG": 6,
-        "PE": 2,
-        "LB": 4,
-        "ET": 6,
-        "AF": 2,
-        "SV": 4,
-        "HN": 4,
-        "NI": 5,
-        "ZA": 2,
-        "SR": 2,
-        "LR": 2,
-        "SL": 2,
-        "BY": 2,
-        "JO": 5,
-        "KH": 2,
-        "LA": 2,
-        "CI": 2,
-        "PA": 2,
-        "CR": 2,
-        "GN": 1,
-        "DZ": 2,
-        "TN": 3,
-        "MA": 3
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "rvo-01.xml": {
-        "798": 2,
-        "189": 1,
-        "289": 3,
-        "679": 1
-      }
-    },
-    ".//recipient-region/@vocabulary": {
-      "rvo-01.xml": {
-        "1": 7
       }
     },
     ".//related-activity/@type": {
-      "rvo-01.xml": {
-        "1": 4006,
-        "3": 279
-      },
       "rvo-activities.xml": {
         "1": 56,
         "2": 22
+      },
+      "rvo-01.xml": {
+        "1": 4007,
+        "3": 279
       }
     },
     ".//reporting-org/@type": {
-      "rvo-01.xml": {
-        "10": 4047
-      },
       "rvo-activities.xml": {
         "10": 57
+      },
+      "rvo-01.xml": {
+        "10": 4048
       }
     },
     ".//result/@type": {
-      "rvo-01.xml": {
-        "1": 7818,
-        "2": 7971,
-        "3": 136
-      },
       "rvo-activities.xml": {
         "2": 196,
         "3": 58,
         "1": 44
+      },
+      "rvo-01.xml": {
+        "1": 7823,
+        "2": 7975,
+        "3": 136
       }
     },
     ".//result/indicator/@measure": {
-      "rvo-01.xml": {
-        "1": 15787,
-        "5": 37,
-        "2": 101
-      },
       "rvo-activities.xml": {
         "1": 295,
         "2": 3
+      },
+      "rvo-01.xml": {
+        "1": 15796,
+        "5": 37,
+        "2": 101
       }
     },
     ".//result/indicator/reference/@vocabulary": {
-      "rvo-01.xml": {
-        "99": 12044,
-        "8": 12
-      },
       "rvo-activities.xml": {
         "99": 3
+      },
+      "rvo-01.xml": {
+        "99": 12053,
+        "8": 12
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "rvo-activities.xml": {
+        "32163": 7,
+        "25030": 31,
+        "32130": 11,
+        "33210": 5,
+        "32161": 4,
+        "31162": 6,
+        "31120": 5,
+        "43081": 6,
+        "25040": 21,
+        "32162": 1,
+        "32140": 10,
+        "31161": 3,
+        "31194": 1,
+        "53040": 1,
+        "31310": 3,
+        "31320": 4,
+        "32171": 1,
+        "31381": 1,
+        "25010": 1,
+        "23010": 4,
+        "23111": 1
+      },
       "rvo-01.xml": {
         "23230": 26,
         "23270": 23,
@@ -573,7 +599,7 @@
         "31220": 9,
         "31261": 11,
         "31291": 3,
-        "32130": 201,
+        "32130": 202,
         "32161": 169,
         "32162": 18,
         "32164": 30,
@@ -696,51 +722,9 @@
         "15116": 1,
         "15155": 1,
         "15220": 1
-      },
-      "rvo-activities.xml": {
-        "32163": 7,
-        "25030": 31,
-        "32130": 11,
-        "33210": 5,
-        "32161": 4,
-        "31162": 6,
-        "31120": 5,
-        "43081": 6,
-        "25040": 21,
-        "32162": 1,
-        "32140": 10,
-        "31161": 3,
-        "31194": 1,
-        "53040": 1,
-        "31310": 3,
-        "31320": 4,
-        "32171": 1,
-        "31381": 1,
-        "25010": 1,
-        "23010": 4,
-        "23111": 1
       }
     },
     ".//sector[@vocabulary = '7']/@code": {
-      "rvo-01.xml": {
-        "7": 61,
-        "8": 2826,
-        "11": 522,
-        "6": 876,
-        "17": 288,
-        "2": 138,
-        "13": 520,
-        "3": 139,
-        "12": 429,
-        "4": 725,
-        "10": 29,
-        "16": 61,
-        "5": 95,
-        "1": 95,
-        "15": 17,
-        "9": 112,
-        "14": 19
-      },
       "rvo-activities.xml": {
         "8": 1,
         "12": 1,
@@ -748,6 +732,99 @@
         "5": 1,
         "7": 4,
         "13": 5
+      },
+      "rvo-01.xml": {
+        "7": 61,
+        "8": 2827,
+        "11": 522,
+        "6": 876,
+        "17": 288,
+        "2": 138,
+        "13": 520,
+        "3": 139,
+        "12": 429,
+        "4": 726,
+        "10": 29,
+        "16": 61,
+        "5": 95,
+        "1": 95,
+        "15": 17,
+        "9": 112,
+        "14": 19
+      }
+    },
+    ".//sector/@vocabulary": {
+      "rvo-activities.xml": {
+        "1": 127,
+        "7": 13
+      },
+      "rvo-01.xml": {
+        "1": 5833,
+        "7": 6954,
+        "8": 92,
+        "9": 46
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "rvo-activities.xml": {
+        "10": 96,
+        "11": 1
+      },
+      "rvo-01.xml": {
+        "10": 384
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "rvo-activities.xml": {
+        "10": 43,
+        "60": 1
+      },
+      "rvo-01.xml": {
+        "90": 20887
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "rvo-activities.xml": {
+        "1": 74,
+        "4": 162,
+        "11": 28,
+        "3": 42,
+        "2": 3
+      },
+      "rvo-01.xml": {
+        "11": 192,
+        "1": 7548,
+        "3": 13531,
+        "2": 7356
+      }
+    },
+    ".//transaction/value/@currency": {
+      "rvo-activities.xml": {
+        "EUR": 294
+      },
+      "rvo-01.xml": {
+        "EUR": 28627
+      }
+    },
+    ".//@xml:lang": {
+      "rvo-activities.xml": {
+        "en": 1529
+      },
+      "rvo-01.xml": {
+        "en": 104461
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "rvo-01.xml": {
+        "798": 2,
+        "189": 1,
+        "289": 3,
+        "679": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "rvo-01.xml": {
+        "1": 7
       }
     },
     ".//sector[@vocabulary = '8']/@code": {
@@ -798,67 +875,6 @@
         "13.2": 1
       }
     },
-    ".//sector/@vocabulary": {
-      "rvo-01.xml": {
-        "1": 5832,
-        "7": 6952,
-        "8": 92,
-        "9": 46
-      },
-      "rvo-activities.xml": {
-        "1": 127,
-        "7": 13
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "rvo-01.xml": {
-        "10": 384
-      },
-      "rvo-activities.xml": {
-        "10": 96,
-        "11": 1
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "rvo-01.xml": {
-        "90": 20886
-      },
-      "rvo-activities.xml": {
-        "10": 43,
-        "60": 1
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "rvo-01.xml": {
-        "1": 7547,
-        "11": 192,
-        "3": 13531,
-        "2": 7355
-      },
-      "rvo-activities.xml": {
-        "1": 74,
-        "4": 162,
-        "11": 28,
-        "3": 42,
-        "2": 3
-      }
-    },
-    ".//transaction/value/@currency": {
-      "rvo-01.xml": {
-        "EUR": 28625
-      },
-      "rvo-activities.xml": {
-        "EUR": 294
-      }
-    },
-    ".//@xml:lang": {
-      "rvo-01.xml": {
-        "en": 104419
-      },
-      "rvo-activities.xml": {
-        "en": 1529
-      }
-    },
     ".//sector[@vocabulary = '9']/@code": {
       "rvo-01.xml": {
         "10.3.1": 1,
@@ -886,22 +902,6 @@
         "12.5.1": 2,
         "8.8.2": 1,
         "17.7.1": 4
-      }
-    },
-    ".//default-aid-type/@vocabulary": {
-      "rvo-activities.xml": {
-        "1": 29
-      }
-    },
-    ".//document-link/language/@code": {
-      "rvo-activities.xml": {
-        "en": 32
-      }
-    },
-    ".//location/exactness/@code": {
-      "rvo-activities.xml": {
-        "1": 2,
-        "2": 1
       }
     }
   }

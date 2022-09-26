@@ -34,8 +34,8 @@
     "1": 12
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "D02": 2,
-    "C01": 10
+    "C01": 10,
+    "D02": 2
   },
   ".//default-finance-type/@code": {
     "110": 12
@@ -108,11 +108,11 @@
     "1": 13
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "15153": 1,
     "99810": 3,
+    "15153": 1,
     "15150": 4,
-    "15180": 1,
     "33120": 2,
+    "15180": 1,
     "41081": 1,
     "15170": 1
   },
@@ -124,12 +124,12 @@
     "17": 10,
     "16": 4,
     "5": 3,
-    "11": 2,
-    "10": 2
+    "10": 2,
+    "11": 2
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "D02": 3,
-    "C01": 35
+    "C01": 35,
+    "D02": 3
   },
   ".//transaction/disbursement-channel/@code": {
     "2": 38

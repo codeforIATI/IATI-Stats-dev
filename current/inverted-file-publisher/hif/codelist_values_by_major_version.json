@@ -1,184 +1,122 @@
 {
   "2": {
     ".//@default-currency": {
-      "hif-89.xml": {
+      "hif-289.xml": {
         "EUR": 1
       },
-      "hif-289.xml": {
+      "hif-89.xml": {
         "EUR": 1
       }
     },
     ".//activity-date/@type": {
-      "hif-89.xml": {
+      "hif-289.xml": {
         "1": 1,
         "3": 1
       },
-      "hif-289.xml": {
+      "hif-89.xml": {
         "1": 1,
         "3": 1
       }
     },
     ".//activity-status/@code": {
-      "hif-89.xml": {
-        "3": 1
-      },
       "hif-289.xml": {
         "2": 1
+      },
+      "hif-89.xml": {
+        "3": 1
       }
     },
     ".//budget/@status": {
-      "hif-89.xml": {
-        "1": 1
-      },
       "hif-289.xml": {
         "2": 2,
         "1": 2
+      },
+      "hif-89.xml": {
+        "1": 1
       }
     },
     ".//budget/value/@currency": {
-      "hif-89.xml": {
-        "EUR": 1
-      },
       "hif-289.xml": {
         "EUR": 4
-      }
-    },
-    ".//contact-info/@type": {
+      },
       "hif-89.xml": {
-        "1": 1
+        "EUR": 1
       }
     },
     ".//description/@type": {
-      "hif-89.xml": {
-        "1": 1
-      },
       "hif-289.xml": {
         "1": 1
-      }
-    },
-    ".//document-link/@format": {
+      },
       "hif-89.xml": {
-        "application/pdf": 2
-      }
-    },
-    ".//document-link/category/@code": {
-      "hif-89.xml": {
-        "A07": 2
-      }
-    },
-    ".//document-link/language/@code": {
-      "hif-89.xml": {
-        "en": 2
+        "1": 1
       }
     },
     ".//participating-org/@role": {
-      "hif-89.xml": {
-        "1": 2,
+      "hif-289.xml": {
+        "1": 1,
         "2": 1,
         "4": 1
       },
-      "hif-289.xml": {
-        "1": 1,
+      "hif-89.xml": {
+        "1": 2,
         "2": 1,
         "4": 1
       }
     },
     ".//participating-org/@type": {
-      "hif-89.xml": {
-        "10": 1,
-        "21": 1,
-        "60": 2
-      },
       "hif-289.xml": {
         "10": 1,
         "21": 1,
         "70": 1
+      },
+      "hif-89.xml": {
+        "10": 1,
+        "21": 1,
+        "60": 2
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "hif-89.xml": {
+      "hif-289.xml": {
         "3": 1
       },
-      "hif-289.xml": {
+      "hif-89.xml": {
         "3": 1
       }
     },
     ".//recipient-country/@code": {
-      "hif-89.xml": {
-        "NL": 1
-      },
       "hif-289.xml": {
         "NL": 1,
         "KE": 1,
         "NG": 1,
         "TZ": 1,
         "GH": 1
+      },
+      "hif-89.xml": {
+        "NL": 1
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "hif-89.xml": {
-        "89": 1
-      },
       "hif-289.xml": {
         "289": 1
+      },
+      "hif-89.xml": {
+        "89": 1
       }
     },
     ".//recipient-region/@vocabulary": {
-      "hif-89.xml": {
+      "hif-289.xml": {
         "1": 1
       },
-      "hif-289.xml": {
+      "hif-89.xml": {
         "1": 1
       }
     },
     ".//reporting-org/@type": {
-      "hif-89.xml": {
-        "21": 1
-      },
       "hif-289.xml": {
         "21": 1
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "hif-89.xml": {
-        "12110": 1
       },
-      "hif-289.xml": {
-        "12110": 1
-      }
-    },
-    ".//sector/@vocabulary": {
       "hif-89.xml": {
-        "1": 1
-      },
-      "hif-289.xml": {
-        "1": 1
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "hif-89.xml": {
-        "1": 1,
-        "4": 1
-      },
-      "hif-289.xml": {
-        "3": 4,
-        "1": 2
-      }
-    },
-    ".//transaction/value/@currency": {
-      "hif-89.xml": {
-        "EUR": 2
-      },
-      "hif-289.xml": {
-        "EUR": 5
-      }
-    },
-    ".//@xml:lang": {
-      "hif-89.xml": {
-        "en": 3
-      },
-      "hif-289.xml": {
-        "en": 4
+        "21": 1
       }
     },
     ".//result/@type": {
@@ -189,6 +127,22 @@
     ".//result/indicator/@measure": {
       "hif-289.xml": {
         "1": 45
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "hif-289.xml": {
+        "12110": 1
+      },
+      "hif-89.xml": {
+        "12110": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "hif-289.xml": {
+        "1": 1
+      },
+      "hif-89.xml": {
+        "1": 1
       }
     },
     ".//transaction/disbursement-channel/@code": {
@@ -206,6 +160,52 @@
       "hif-289.xml": {
         "70": 4,
         "21": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "hif-289.xml": {
+        "3": 4,
+        "1": 2
+      },
+      "hif-89.xml": {
+        "1": 1,
+        "4": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "hif-289.xml": {
+        "EUR": 5
+      },
+      "hif-89.xml": {
+        "EUR": 2
+      }
+    },
+    ".//@xml:lang": {
+      "hif-289.xml": {
+        "en": 4
+      },
+      "hif-89.xml": {
+        "en": 3
+      }
+    },
+    ".//contact-info/@type": {
+      "hif-89.xml": {
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "hif-89.xml": {
+        "application/pdf": 2
+      }
+    },
+    ".//document-link/category/@code": {
+      "hif-89.xml": {
+        "A07": 2
+      }
+    },
+    ".//document-link/language/@code": {
+      "hif-89.xml": {
+        "en": 2
       }
     }
   }

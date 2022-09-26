@@ -6,71 +6,71 @@
     ".//activity-date/@type": {
       "2": 2,
       "3": 2,
-      "4": 1,
-      "1": 2
+      "1": 2,
+      "4": 1
     },
     ".//activity-status/@code": {
       "2": 2
     },
     ".//budget/@status": {
-      "1": 1,
-      "2": 1
-    },
-    ".//budget/@type": {
       "2": 1,
       "1": 1
     },
+    ".//budget/@type": {
+      "1": 1,
+      "2": 1
+    },
     ".//budget/value/@currency": {
-      "USD": 1,
-      "GBP": 1
+      "GBP": 1,
+      "USD": 1
     },
     ".//contact-info/@type": {
       "1": 2
     },
     ".//description/@type": {
       "1": 2,
-      "2": 2,
-      "3": 2
+      "3": 2,
+      "2": 2
     },
     ".//document-link/@format": {
       "application/pdf": 4,
       "application/vnd.ms-excel": 1
     },
     ".//document-link/category/@code": {
+      "A06": 1,
       "A02": 2,
       "A11": 1,
-      "B09": 1,
-      "A06": 1
+      "B09": 1
     },
     ".//document-link/language/@code": {
       "en": 5
     },
     ".//participating-org/@role": {
       "1": 2,
-      "4": 2,
-      "2": 2
+      "2": 2,
+      "4": 2
     },
     ".//participating-org/@type": {
       "10": 2,
       "21": 4
     },
     ".//recipient-country/@code": {
-      "UG": 1,
-      "KE": 1
+      "KE": 1,
+      "UG": 1
     },
     ".//reporting-org/@type": {
       "21": 2
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "43010": 1,
-      "72010": 5
+      "72010": 5,
+      "43010": 1
     },
     ".//sector/@vocabulary": {
       "1": 6
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 12,
-      "B03": 5
+      "B03": 5,
+      "C01": 12
     },
     ".//transaction/aid-type/@vocabulary": {
       "1": 17
@@ -79,24 +79,23 @@
       "2": 15,
       "1": 1
     },
-    ".//transaction/finance-type/@code": {
-      "110": 12
-    },
-    ".//transaction/flow-type/@code": {
-      "30": 10,
-      "10": 2
-    },
     ".//transaction/provider-org/@type": {
-      "60": 10,
       "10": 7,
+      "60": 10,
       "21": 6
     },
     ".//transaction/receiver-org/@type": {
       "21": 17
     },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "72010": 5
+    },
+    ".//transaction/sector/@vocabulary": {
+      "1": 5
+    },
     ".//transaction/tied-status/@code": {
-      "5": 12,
-      "3": 5
+      "3": 5,
+      "5": 12
     },
     ".//transaction/transaction-type/@code": {
       "1": 10,
@@ -104,17 +103,18 @@
       "4": 7
     },
     ".//transaction/value/@currency": {
-      "USD": 16,
-      "GBP": 7
+      "GBP": 7,
+      "USD": 16
     },
     ".//@xml:lang": {
       "en": 51
     },
-    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "72010": 5
+    ".//transaction/finance-type/@code": {
+      "110": 12
     },
-    ".//transaction/sector/@vocabulary": {
-      "1": 5
+    ".//transaction/flow-type/@code": {
+      "30": 10,
+      "10": 2
     }
   }
 }

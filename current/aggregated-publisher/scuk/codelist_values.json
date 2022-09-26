@@ -1,21 +1,21 @@
 {
   ".//@default-currency": {
-    "GBP": 2,
-    "gbp": 183
+    "gbp": 183,
+    "GBP": 2
   },
   ".//@xml:lang": {
     "en": 185
   },
   ".//activity-date/@type": {
     "2": 185,
+    "4": 183,
     "3": 2,
-    "1": 1,
-    "4": 183
+    "1": 1
   },
   ".//activity-status/@code": {
+    "4": 183,
     "3": 1,
-    "2": 1,
-    "4": 183
+    "2": 1
   },
   ".//budget/@type": {
     "1": 6
@@ -63,14 +63,14 @@
     "99": 1
   },
   ".//participating-org/@role": {
-    "2": 16,
+    "1": 185,
     "4": 181,
-    "1": 185
+    "2": 16
   },
   ".//participating-org/@type": {
+    "40": 88,
     "21": 197,
-    "10": 97,
-    "40": 88
+    "10": 97
   },
   ".//policy-marker/@significance": {
     "3": 184
@@ -82,7 +82,6 @@
     "2": 184
   },
   ".//recipient-country/@code": {
-    "GB": 1,
     "ZA": 2,
     "KE": 4,
     "CN": 9,
@@ -114,7 +113,8 @@
     "HT": 1,
     "SY": 1,
     "BF": 1,
-    "ML": 1
+    "ML": 1,
+    "GB": 1
   },
   ".//recipient-region/@vocabulary": {
     "99": 32
@@ -135,8 +135,8 @@
     "1": 13
   },
   ".//sector/@vocabulary": {
-    "1": 1,
-    "99": 204
+    "99": 204,
+    "1": 1
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "15160": 1,
@@ -146,10 +146,10 @@
     "10": 15
   },
   ".//transaction/transaction-type/@code": {
-    "3": 10,
+    "4": 749,
     "1": 438,
-    "2": 1,
-    "4": 749
+    "3": 10,
+    "2": 1
   },
   ".//transaction/value/@currency": {
     "GBP": 22

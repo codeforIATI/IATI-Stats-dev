@@ -7,12 +7,12 @@
     "ne": 1
   },
   ".//activity-date/@type": {
+    "end-planned": 29,
+    "start-actual": 29,
     "2": 19,
     "3": 16,
     "1": 2,
-    "4": 1,
-    "end-planned": 29,
-    "start-actual": 29
+    "4": 1
   },
   ".//activity-status/@code": {
     "2": 45,
@@ -48,10 +48,10 @@
     "application/pdf": 41
   },
   ".//document-link/category/@code": {
+    "B03": 29,
     "A06": 2,
     "A02": 4,
-    "B01": 6,
-    "B03": 29
+    "B01": 6
   },
   ".//document-link/language/@code": {
     "en": 40
@@ -62,16 +62,16 @@
     "21001": 1
   },
   ".//participating-org/@role": {
+    "Funding": 29,
+    "Accountable": 29,
     "1": 17,
     "4": 39,
     "3": 2,
-    "2": 7,
-    "Funding": 29,
-    "Accountable": 29
+    "2": 7
   },
   ".//participating-org/@type": {
-    "10": 4,
     "21": 67,
+    "10": 4,
     "15": 4,
     "22": 10,
     "70": 4,
@@ -94,46 +94,46 @@
     "GBP": 4
   },
   ".//recipient-country/@code": {
-    "GB": 6,
-    "BD": 4,
-    "ET": 3,
     "GH": 3,
     "KE": 5,
-    "KH": 5,
-    "LS": 2,
-    "MM": 3,
-    "MW": 3,
-    "MZ": 2,
-    "NG": 4,
-    "NP": 6,
     "PH": 2,
-    "PK": 4,
-    "RW": 5,
-    "SL": 3,
-    "SZ": 2,
-    "TH": 2,
     "TZ": 4,
-    "UG": 3,
-    "ZA": 3,
-    "ZM": 3,
-    "ZW": 4,
+    "BD": 4,
+    "ET": 3,
     "IN": 2,
+    "UG": 3,
+    "SZ": 2,
+    "SL": 3,
+    "SS": 1,
+    "KH": 5,
+    "ZA": 3,
+    "MM": 3,
+    "MZ": 2,
+    "ZW": 4,
+    "RW": 5,
+    "#N/A": 1,
+    "PK": 4,
+    "PG": 1,
+    "GB": 6,
+    "NG": 4,
+    "LS": 2,
+    "MW": 3,
+    "TH": 2,
+    "ZM": 3,
+    "NP": 6,
     "BF": 1,
     "LR": 1,
     "NI": 1,
     "SN": 1,
-    "TG": 1,
-    "SS": 1,
-    "#N/A": 1,
-    "PG": 1
+    "TG": 1
   },
   ".//reporting-org/@type": {
     "21": 47
   },
   ".//sector/@vocabulary": {
+    "RO": 145,
     "1": 29,
-    "2": 3,
-    "RO": 145
+    "2": 3
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "11231": 1,
@@ -202,14 +202,14 @@
     "3": 2
   },
   ".//transaction/transaction-type/@code": {
+    "IF": 101,
+    "E": 262,
+    "D": 2,
     "11": 10,
     "1": 95,
     "4": 98,
     "3": 191,
-    "2": 6,
-    "D": 2,
-    "IF": 101,
-    "E": 262
+    "2": 6
   },
   ".//transaction/value/@currency": {
     "GBP": 391

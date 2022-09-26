@@ -28,8 +28,8 @@
     "EUR": 33
   },
   ".//collaboration-type/@code": {
-    "3": 2,
-    "1": 31
+    "1": 31,
+    "3": 2
   },
   ".//contact-info/@type": {
     "1": 33
@@ -38,17 +38,17 @@
     "2": 1
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "B01": 2,
     "C01": 28,
-    "B03": 3
+    "B03": 3,
+    "B01": 2
   },
   ".//default-finance-type/@code": {
     "110": 33
   },
   ".//default-flow-type/@code": {
+    "10": 28,
     "50": 4,
-    "20": 1,
-    "10": 28
+    "20": 1
   },
   ".//default-tied-status/@code": {
     "5": 11,
@@ -83,9 +83,9 @@
     "90": 2
   },
   ".//policy-marker/@significance": {
+    "1": 17,
     "0": 337,
-    "2": 42,
-    "1": 17
+    "2": 42
   },
   ".//policy-marker/@vocabulary": {
     "1": 396
@@ -112,7 +112,7 @@
   },
   ".//related-activity/@type": {
     "1": 32,
-    "2": 7
+    "2": 8
   },
   ".//reporting-org/@type": {
     "15": 33
@@ -121,17 +121,17 @@
     "1": 40
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "15220": 19,
     "15210": 8,
+    "15220": 19,
     "15160": 2,
     "15153": 2,
-    "15190": 2,
     "43060": 1,
-    "99810": 2,
     "15170": 1,
+    "15190": 2,
+    "99810": 2,
+    "74010": 1,
     "15130": 1,
-    "72010": 1,
-    "74010": 1
+    "72010": 1
   },
   ".//tag/@vocabulary": {
     "2": 32,
@@ -140,28 +140,28 @@
   ".//tag[@vocabulary = '2']/@code": {
     "16": 27,
     "3": 2,
-    "17": 1,
     "13": 1,
-    "2": 1
+    "2": 1,
+    "17": 1
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "B01": 2,
-    "C01": 53,
-    "B03": 3
+    "C01": 54,
+    "B03": 3,
+    "B01": 2
   },
   ".//transaction/disbursement-channel/@code": {
-    "2": 67
+    "2": 68
   },
   ".//transaction/finance-type/@code": {
-    "110": 58
+    "110": 59
   },
   ".//transaction/flow-type/@code": {
+    "10": 52,
     "50": 6,
-    "20": 1,
-    "10": 51
+    "20": 1
   },
   ".//transaction/provider-org/@type": {
-    "15": 67
+    "15": 68
   },
   ".//transaction/tied-status/@code": {
     "5": 22,
@@ -169,11 +169,11 @@
     "3": 6
   },
   ".//transaction/transaction-type/@code": {
-    "3": 46,
+    "3": 47,
     "4": 12,
     "2": 9
   },
   ".//transaction/value/@currency": {
-    "EUR": 67
+    "EUR": 68
   }
 }

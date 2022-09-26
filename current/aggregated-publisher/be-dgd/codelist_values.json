@@ -1,166 +1,175 @@
 {
   ".//@default-currency": {
-    "EUR": 752
+    "EUR": 755
   },
   ".//@xml:lang": {
-    "en": 752,
-    "fr": 5381
+    "en": 755,
+    "fr": 5399
   },
   ".//activity-date/@type": {
-    "1": 620,
-    "3": 611,
+    "1": 622,
+    "3": 613,
     "2": 556,
     "4": 105
   },
   ".//activity-scope/@code": {
-    "1": 434,
+    "1": 437,
     "4": 149,
-    "5": 8,
-    "7": 8,
-    "8": 3,
     "2": 11,
     "6": 26,
-    "3": 58
+    "3": 58,
+    "5": 8,
+    "7": 8,
+    "8": 3
   },
   ".//activity-status/@code": {
-    "4": 63,
-    "3": 30,
+    "1": 318,
     "2": 344,
-    "1": 315
+    "4": 63,
+    "3": 30
   },
   ".//budget/@type": {
-    "1": 915
+    "1": 919
   },
   ".//budget/value/@currency": {
-    "EUR": 915
+    "EUR": 919
   },
   ".//collaboration-type/@code": {
-    "2": 58,
-    "1": 327,
-    "3": 188
+    "3": 188,
+    "1": 328,
+    "2": 58
   },
   ".//contact-info/@type": {
-    "1": 752
+    "1": 755
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "B02": 66,
     "B01": 212,
-    "B03": 56,
+    "B03": 58,
+    "B02": 66,
+    "A01": 3,
     "C01": 260,
+    "B04": 2,
     "G01": 41,
     "H01": 51,
     "D02": 11,
     "D01": 18,
-    "A01": 3,
     "E02": 1,
-    "E01": 1,
-    "B04": 2
+    "E01": 1
   },
   ".//default-finance-type/@code": {
-    "110": 721,
+    "110": 723,
     "310": 5,
     "410": 25
   },
   ".//default-flow-type/@code": {
-    "10": 752
+    "10": 755
   },
   ".//default-tied-status/@code": {
-    "5": 752
+    "5": 755
   },
   ".//description/@type": {
-    "1": 752,
-    "2": 481,
-    "3": 481
+    "1": 755,
+    "2": 483,
+    "3": 483
   },
   ".//document-link/@format": {
-    "application/pdf": 2193,
-    "application/vnd.openxmlformats-officedocument.wordprocessingml.document": 77,
+    "application/pdf": 2195,
     "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": 12,
-    "application/msword": 20,
-    "application/vnd.ms-word.template.macroEnabled.12": 3,
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document": 77,
     "application/x-zip-compressed": 38,
     "application/octet-stream": 3,
+    "application/vnd.ms-excel": 1,
+    "application/msword": 20,
+    "application/vnd.ms-word.template.macroEnabled.12": 3,
     "application/vnd.ms-excel.sheet.macroEnabled.12": 1,
-    "image/tiff": 2,
-    "application/vnd.ms-excel": 1
+    "image/tiff": 2
   },
   ".//document-link/category/@code": {
-    "A01": 2103,
-    "A02": 756,
-    "A03": 756,
-    "A04": 756,
-    "A05": 756
+    "A01": 2105,
+    "A02": 758,
+    "A03": 758,
+    "A04": 758,
+    "A05": 758
   },
   ".//document-link/language/@code": {
-    "en": 2879
+    "en": 2881
   },
   ".//other-identifier/@type": {
-    "A1": 752,
-    "A2": 1206
+    "A1": 755,
+    "A2": 1208
   },
   ".//participating-org/@role": {
-    "1": 752,
-    "4": 752
+    "1": 755,
+    "4": 755
   },
   ".//participating-org/@type": {
-    "10": 955,
-    "40": 173,
-    "22": 261,
-    "30": 7,
-    "70": 71,
+    "10": 958,
+    "22": 262,
+    "80": 5,
+    "40": 175,
     "21": 25,
-    "80": 5
+    "30": 7,
+    "70": 71
   },
   ".//policy-marker/@significance": {
-    "0": 1893,
+    "0": 1894,
     "1": 762,
-    "2": 197,
-    "Not Screened": 177
+    "Not Screened": 177,
+    "2": 200
   },
   ".//policy-marker/@vocabulary": {
-    "1": 3029
+    "1": 3033
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "2": 364,
-    "3": 280,
     "8": 361,
     "5": 362,
-    "7": 361,
-    "9": 293,
-    "4": 285,
-    "1": 361,
-    "6": 362
+    "6": 362,
+    "7": 362,
+    "1": 362,
+    "3": 280,
+    "9": 294,
+    "4": 286
   },
   ".//recipient-country/@code": {
-    "GN": 13,
-    "CD": 63,
-    "BI": 32,
-    "KE": 9,
-    "TZ": 22,
-    "CV": 1,
+    "SY": 20,
+    "IQ": 2,
     "ML": 30,
-    "NE": 38,
+    "YE": 3,
+    "BI": 32,
+    "BF": 33,
     "PS": 29,
-    "RW": 31,
-    "SD": 1,
     "UG": 30,
+    "CD": 63,
+    "LB": 9,
+    "TR": 2,
+    "ET": 5,
+    "AF": 1,
+    "UA": 3,
+    "NE": 38,
+    "TZ": 22,
+    "RW": 31,
+    "JO": 6,
+    "NG": 3,
+    "SO": 1,
+    "SS": 1,
+    "CG": 1,
+    "GN": 13,
+    "KE": 9,
+    "CV": 1,
+    "SD": 1,
     "GH": 2,
     "LK": 2,
-    "LB": 9,
-    "BF": 33,
     "MZ": 10,
     "MA": 16,
     "SN": 17,
-    "UA": 3,
     "ZM": 1,
     "BJ": 20,
     "MG": 1,
     "TD": 1,
-    "JO": 6,
     "BO": 2,
     "CM": 1,
     "EC": 2,
-    "ET": 5,
     "CI": 2,
     "KH": 1,
     "LA": 1,
@@ -172,36 +181,34 @@
     "GM": 1,
     "GW": 1,
     "MR": 1,
-    "CF": 1,
-    "SY": 20,
-    "IQ": 2,
-    "YE": 3,
-    "TR": 2,
-    "AF": 1,
-    "NG": 3,
-    "SO": 1,
-    "SS": 1,
-    "CG": 1
+    "CF": 1
   },
   ".//recipient-region/@vocabulary": {
-    "1": 447
+    "1": 450
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "998": 434,
+    "998": 437,
     "289": 8,
-    "089": 1,
-    "189": 1,
     "298": 2,
-    "589": 1
+    "589": 1,
+    "089": 1,
+    "189": 1
   },
   ".//reporting-org/@type": {
-    "10": 752
+    "10": 755
   },
   ".//sector/@vocabulary": {
-    "1": 752
+    "1": 755
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "99810": 289,
+    "99810": 290,
+    "72050": 44,
+    "73010": 7,
+    "72011": 2,
+    "72012": 1,
+    "72040": 7,
+    "74020": 8,
+    "72010": 10,
     "14020": 6,
     "12250": 2,
     "13030": 2,
@@ -234,7 +241,7 @@
     "15261": 2,
     "16010": 6,
     "11120": 3,
-    "13020": 9,
+    "13020": 10,
     "21010": 1,
     "15110": 13,
     "32210": 1,
@@ -253,6 +260,7 @@
     "16020": 1,
     "21012": 1,
     "31194": 2,
+    "11250": 1,
     "23220": 1,
     "23630": 4,
     "11320": 5,
@@ -283,32 +291,25 @@
     "23110": 1,
     "23210": 2,
     "11130": 3,
-    "23270": 1,
-    "72050": 44,
-    "73010": 7,
-    "72011": 2,
-    "72012": 1,
-    "72040": 7,
-    "74020": 8,
-    "72010": 10
+    "23270": 1
   },
   ".//transaction/disbursement-channel/@code": {
-    "1": 3773
+    "1": 3778
   },
   ".//transaction/receiver-org/@type": {
-    "40": 537,
-    "22": 1571,
+    "22": 1572,
+    "80": 19,
+    "40": 540,
+    "21": 55,
     "30": 17,
     "10": 1244,
-    "70": 286,
-    "21": 55,
-    "80": 19
+    "70": 287
   },
   ".//transaction/transaction-type/@code": {
-    "2": 725,
-    "3": 3048
+    "2": 727,
+    "3": 3051
   },
   ".//transaction/value/@currency": {
-    "EUR": 3773
+    "EUR": 3778
   }
 }

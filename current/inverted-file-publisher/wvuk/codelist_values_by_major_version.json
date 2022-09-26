@@ -1,133 +1,97 @@
 {
   "2": {
     ".//@default-currency": {
-      "wvuk-activitiesarchive.xml": {
-        "GBP": 71
-      },
       "wvuk-activitiesfile.xml": {
         "EUR": 19,
         "GBP": 58,
         "USD": 35
+      },
+      "wvuk-activitiesarchive.xml": {
+        "GBP": 71
       }
     },
     ".//activity-date/@type": {
-      "wvuk-activitiesarchive.xml": {
-        "2": 57,
-        "3": 59,
-        "4": 24,
-        "1": 17
-      },
       "wvuk-activitiesfile.xml": {
         "1": 112,
         "2": 112,
         "3": 112,
         "4": 51
+      },
+      "wvuk-activitiesarchive.xml": {
+        "2": 57,
+        "3": 59,
+        "4": 24,
+        "1": 17
       }
     },
     ".//activity-status/@code": {
-      "wvuk-activitiesarchive.xml": {
-        "2": 53,
-        "4": 13,
-        "3": 5
-      },
       "wvuk-activitiesfile.xml": {
         "4": 51,
         "2": 34,
         "3": 22,
         "1": 5
-      }
-    },
-    ".//budget/@status": {
+      },
       "wvuk-activitiesarchive.xml": {
         "2": 53,
-        "1": 19
+        "4": 13,
+        "3": 5
       }
     },
-    ".//budget/@type": {
-      "wvuk-activitiesarchive.xml": {
-        "1": 130,
-        "2": 13
-      }
-    },
-    ".//budget/value/@currency": {
-      "wvuk-activitiesarchive.xml": {
-        "USD": 52,
-        "GBP": 19
+    ".//collaboration-type/@code": {
+      "wvuk-activitiesfile.xml": {
+        "3": 112
       }
     },
     ".//contact-info/@type": {
-      "wvuk-activitiesarchive.xml": {
-        "1": 20
-      },
       "wvuk-activitiesfile.xml": {
         "1": 112
+      },
+      "wvuk-activitiesarchive.xml": {
+        "1": 20
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "wvuk-activitiesfile.xml": {
+        "C01": 112
+      },
       "wvuk-activitiesarchive.xml": {
         "B01": 40,
         "C01": 31
-      },
-      "wvuk-activitiesfile.xml": {
-        "C01": 112
       }
     },
-    ".//default-aid-type/@vocabulary": {
-      "wvuk-activitiesarchive.xml": {
-        "1": 14
+    ".//default-finance-type/@code": {
+      "wvuk-activitiesfile.xml": {
+        "110": 112
       }
     },
     ".//default-flow-type/@code": {
-      "wvuk-activitiesarchive.xml": {
-        "30": 71
-      },
       "wvuk-activitiesfile.xml": {
         "30": 112
+      },
+      "wvuk-activitiesarchive.xml": {
+        "30": 71
       }
     },
-    ".//description/@type": {
-      "wvuk-activitiesarchive.xml": {
-        "1": 34,
-        "2": 3
-      }
-    },
-    ".//document-link/@format": {
-      "wvuk-activitiesarchive.xml": {
-        "application/pdf": 38
-      }
-    },
-    ".//document-link/category/@code": {
-      "wvuk-activitiesarchive.xml": {
-        "A09": 10
-      }
-    },
-    ".//location/location-class/@code": {
-      "wvuk-activitiesarchive.xml": {
-        "1": 15,
-        "2": 1
+    ".//default-tied-status/@code": {
+      "wvuk-activitiesfile.xml": {
+        "5": 112
       }
     },
     ".//participating-org/@role": {
-      "wvuk-activitiesarchive.xml": {
-        "4": 48,
-        "1": 38,
-        "2": 20,
-        "3": 23
-      },
       "wvuk-activitiesfile.xml": {
         "2": 112,
         "3": 224,
         "1": 127,
         "4": 112
+      },
+      "wvuk-activitiesarchive.xml": {
+        "4": 48,
+        "1": 38,
+        "2": 20,
+        "3": 23
       }
     },
     ".//participating-org/@type": {
-      "wvuk-activitiesarchive.xml": {
-        "22": 51,
-        "10": 34,
-        "21": 42,
-        "70": 2
-      },
       "wvuk-activitiesfile.xml": {
         "21": 492,
         "15": 20,
@@ -136,39 +100,15 @@
         "40": 28,
         "80": 3,
         "71": 1
+      },
+      "wvuk-activitiesarchive.xml": {
+        "22": 51,
+        "10": 34,
+        "21": 42,
+        "70": 2
       }
     },
     ".//recipient-country/@code": {
-      "wvuk-activitiesarchive.xml": {
-        "PK": 3,
-        "ML": 1,
-        "NE": 1,
-        "SN": 6,
-        "MM": 1,
-        "SL": 7,
-        "BO": 1,
-        "NP": 1,
-        "SO": 4,
-        "SS": 3,
-        "UG": 2,
-        "IN": 6,
-        "SY": 2,
-        "BD": 2,
-        "GB": 5,
-        "KE": 2,
-        "SD": 2,
-        "MZ": 1,
-        "MW": 4,
-        "KH": 2,
-        "AF": 1,
-        "AM": 2,
-        "AL": 2,
-        "ZM": 2,
-        "PH": 1,
-        "LB": 1,
-        "CD": 4,
-        "ZW": 3
-      },
       "wvuk-activitiesfile.xml": {
         "SD": 7,
         "SO": 10,
@@ -209,33 +149,59 @@
         "UA": 1,
         "RO": 1,
         "MO": 2
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      },
       "wvuk-activitiesarchive.xml": {
-        "679": 10,
-        "289": 20,
-        "489": 1,
-        "589": 2,
-        "298": 1,
-        "89": 5,
-        "998": 2
-      }
-    },
-    ".//recipient-region/@vocabulary": {
-      "wvuk-activitiesarchive.xml": {
-        "1": 3
+        "PK": 3,
+        "ML": 1,
+        "NE": 1,
+        "SN": 6,
+        "MM": 1,
+        "SL": 7,
+        "BO": 1,
+        "NP": 1,
+        "SO": 4,
+        "SS": 3,
+        "UG": 2,
+        "IN": 6,
+        "SY": 2,
+        "BD": 2,
+        "GB": 5,
+        "KE": 2,
+        "SD": 2,
+        "MZ": 1,
+        "MW": 4,
+        "KH": 2,
+        "AF": 1,
+        "AM": 2,
+        "AL": 2,
+        "ZM": 2,
+        "PH": 1,
+        "LB": 1,
+        "CD": 4,
+        "ZW": 3
       }
     },
     ".//reporting-org/@type": {
-      "wvuk-activitiesarchive.xml": {
-        "21": 38
-      },
       "wvuk-activitiesfile.xml": {
         "21": 112
+      },
+      "wvuk-activitiesarchive.xml": {
+        "21": 38
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "wvuk-activitiesfile.xml": {
+        "52010": 37,
+        "74010": 15,
+        "15160": 13,
+        "11120": 7,
+        "15110": 7,
+        "12220": 10,
+        "72010": 6,
+        "14030": 14,
+        "15150": 2,
+        "15220": 1
+      },
       "wvuk-activitiesarchive.xml": {
         "173": 1,
         "72040": 3,
@@ -261,33 +227,131 @@
         "14020": 1,
         "12230": 1,
         "11110": 1
-      },
+      }
+    },
+    ".//sector/@vocabulary": {
       "wvuk-activitiesfile.xml": {
-        "52010": 37,
-        "74010": 15,
-        "15160": 13,
-        "11120": 7,
-        "15110": 7,
-        "12220": 10,
-        "72010": 6,
-        "14030": 14,
-        "15150": 2,
-        "15220": 1
+        "99": 112
+      },
+      "wvuk-activitiesarchive.xml": {
+        "1": 38,
+        "DAC": 2,
+        "2": 3
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "wvuk-activitiesfile.xml": {
+        "15": 35,
+        "21": 760,
+        "10": 73,
+        "22": 30,
+        "80": 3
+      },
+      "wvuk-activitiesarchive.xml": {
+        "21": 13,
+        "10": 7,
+        "22": 2
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "wvuk-activitiesfile.xml": {
+        "21": 934
+      },
+      "wvuk-activitiesarchive.xml": {
+        "22": 14,
+        "21": 18
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "wvuk-activitiesfile.xml": {
+        "1": 287,
+        "3": 724
+      },
+      "wvuk-activitiesarchive.xml": {
+        "C": 33,
+        "D": 61,
+        "2": 30,
+        "3": 36,
+        "1": 12,
+        "IF": 8,
+        "E": 6
+      }
+    },
+    ".//transaction/value/@currency": {
+      "wvuk-activitiesfile.xml": {
+        "EUR": 58,
+        "USD": 672,
+        "GBP": 204
+      },
+      "wvuk-activitiesarchive.xml": {
+        "GBP": 37,
+        "USD": 14
+      }
+    },
+    ".//budget/@status": {
+      "wvuk-activitiesarchive.xml": {
+        "2": 53,
+        "1": 19
+      }
+    },
+    ".//budget/@type": {
+      "wvuk-activitiesarchive.xml": {
+        "1": 130,
+        "2": 13
+      }
+    },
+    ".//budget/value/@currency": {
+      "wvuk-activitiesarchive.xml": {
+        "USD": 52,
+        "GBP": 19
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "wvuk-activitiesarchive.xml": {
+        "1": 14
+      }
+    },
+    ".//description/@type": {
+      "wvuk-activitiesarchive.xml": {
+        "1": 34,
+        "2": 3
+      }
+    },
+    ".//document-link/@format": {
+      "wvuk-activitiesarchive.xml": {
+        "application/pdf": 38
+      }
+    },
+    ".//document-link/category/@code": {
+      "wvuk-activitiesarchive.xml": {
+        "A09": 10
+      }
+    },
+    ".//location/location-class/@code": {
+      "wvuk-activitiesarchive.xml": {
+        "1": 15,
+        "2": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "wvuk-activitiesarchive.xml": {
+        "679": 10,
+        "289": 20,
+        "489": 1,
+        "589": 2,
+        "298": 1,
+        "89": 5,
+        "998": 2
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "wvuk-activitiesarchive.xml": {
+        "1": 3
       }
     },
     ".//sector[@vocabulary = '2']/@code": {
       "wvuk-activitiesarchive.xml": {
         "720": 3
-      }
-    },
-    ".//sector/@vocabulary": {
-      "wvuk-activitiesarchive.xml": {
-        "1": 38,
-        "DAC": 2,
-        "2": 3
-      },
-      "wvuk-activitiesfile.xml": {
-        "99": 112
       }
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -318,29 +382,6 @@
         "30": 152
       }
     },
-    ".//transaction/provider-org/@type": {
-      "wvuk-activitiesarchive.xml": {
-        "21": 13,
-        "10": 7,
-        "22": 2
-      },
-      "wvuk-activitiesfile.xml": {
-        "15": 35,
-        "21": 760,
-        "10": 73,
-        "22": 30,
-        "80": 3
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "wvuk-activitiesarchive.xml": {
-        "22": 14,
-        "21": 18
-      },
-      "wvuk-activitiesfile.xml": {
-        "21": 934
-      }
-    },
     ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "wvuk-activitiesarchive.xml": {
         "text": 3
@@ -351,51 +392,10 @@
         "4": 10
       }
     },
-    ".//transaction/transaction-type/@code": {
-      "wvuk-activitiesarchive.xml": {
-        "C": 33,
-        "D": 61,
-        "2": 30,
-        "3": 36,
-        "1": 12,
-        "IF": 8,
-        "E": 6
-      },
-      "wvuk-activitiesfile.xml": {
-        "1": 287,
-        "3": 724
-      }
-    },
-    ".//transaction/value/@currency": {
-      "wvuk-activitiesarchive.xml": {
-        "GBP": 37,
-        "USD": 14
-      },
-      "wvuk-activitiesfile.xml": {
-        "EUR": 58,
-        "USD": 672,
-        "GBP": 204
-      }
-    },
     ".//@xml:lang": {
       "wvuk-activitiesarchive.xml": {
         "en": 67,
         "es": 2
-      }
-    },
-    ".//collaboration-type/@code": {
-      "wvuk-activitiesfile.xml": {
-        "3": 112
-      }
-    },
-    ".//default-finance-type/@code": {
-      "wvuk-activitiesfile.xml": {
-        "110": 112
-      }
-    },
-    ".//default-tied-status/@code": {
-      "wvuk-activitiesfile.xml": {
-        "5": 112
       }
     }
   }

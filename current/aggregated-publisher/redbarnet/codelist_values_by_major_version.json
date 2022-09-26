@@ -5,28 +5,18 @@
     },
     ".//activity-date/@type": {
       "2": 34,
-      "3": 34,
       "4": 2,
+      "3": 34,
       "1": 2
     },
     ".//activity-status/@code": {
-      "2": 34,
-      "4": 2
+      "4": 2,
+      "2": 34
     },
     ".//activity-scope/@code": {
       "4": 16,
       "1": 12,
       "2": 6
-    },
-    ".//budget/@status": {
-      "2": 37
-    },
-    ".//budget/@type": {
-      "2": 31,
-      "1": 6
-    },
-    ".//budget/value/@currency": {
-      "DKK": 37
     },
     ".//contact-info/@type": {
       "1": 27
@@ -72,35 +62,48 @@
       "1": 136
     },
     ".//recipient-country/@code": {
-      "ML": 2,
-      "YE": 1,
-      "BD": 1,
       "ET": 1,
+      "KH": 1,
       "SO": 2,
+      "YE": 1,
+      "SY": 1,
       "SL": 1,
       "SS": 2,
-      "DK": 1,
-      "KH": 1,
-      "BF": 1,
-      "SY": 1,
+      "ML": 2,
+      "LK": 1,
       "AF": 1,
-      "LK": 1
+      "BD": 1,
+      "BF": 1,
+      "DK": 1
     },
     ".//reporting-org/@type": {
       "21": 36
     },
     ".//sector[@vocabulary = '2']/@code": {
-      "111": 12,
+      "151": 12,
       "152": 16,
       "160": 17,
-      "151": 12,
-      "220": 1,
+      "111": 12,
       "998": 3,
       "121": 2,
-      "910": 2
+      "910": 2,
+      "220": 1
     },
     ".//sector/@vocabulary": {
       "2": 65
+    },
+    ".//@xml:lang": {
+      "en": 135
+    },
+    ".//budget/@status": {
+      "2": 37
+    },
+    ".//budget/@type": {
+      "2": 31,
+      "1": 6
+    },
+    ".//budget/value/@currency": {
+      "DKK": 37
     },
     ".//transaction/provider-org/@type": {
       "21": 35,
@@ -116,9 +119,6 @@
     },
     ".//transaction/value/@currency": {
       "DKK": 55
-    },
-    ".//@xml:lang": {
-      "en": 135
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "998": 22

@@ -1,9 +1,6 @@
 {
   "1": {
     ".//@default-currency": {
-      "iww_publish-ug.xml": {
-        "GBP": 1
-      },
       "iww_publish-ke.xml": {
         "GBP": 1
       },
@@ -11,14 +8,13 @@
         "GBP": 1
       },
       "iww_publish-mw.xml": {
+        "GBP": 1
+      },
+      "iww_publish-ug.xml": {
         "GBP": 1
       }
     },
     ".//activity-date/@type": {
-      "iww_publish-ug.xml": {
-        "start-actual": 1,
-        "end-planned": 1
-      },
       "iww_publish-ke.xml": {
         "start-actual": 1,
         "end-planned": 1
@@ -28,14 +24,15 @@
         "end-planned": 1
       },
       "iww_publish-mw.xml": {
+        "start-actual": 1,
+        "end-planned": 1
+      },
+      "iww_publish-ug.xml": {
         "start-actual": 1,
         "end-planned": 1
       }
     },
     ".//activity-status/@code": {
-      "iww_publish-ug.xml": {
-        "2": 1
-      },
       "iww_publish-ke.xml": {
         "2": 1
       },
@@ -43,13 +40,13 @@
         "2": 1
       },
       "iww_publish-mw.xml": {
+        "2": 1
+      },
+      "iww_publish-ug.xml": {
         "2": 1
       }
     },
     ".//budget/@type": {
-      "iww_publish-ug.xml": {
-        "1": 1
-      },
       "iww_publish-ke.xml": {
         "1": 1
       },
@@ -57,13 +54,13 @@
         "1": 1
       },
       "iww_publish-mw.xml": {
+        "1": 1
+      },
+      "iww_publish-ug.xml": {
         "1": 1
       }
     },
     ".//budget/value/@currency": {
-      "iww_publish-ug.xml": {
-        "GBP": 1
-      },
       "iww_publish-ke.xml": {
         "GBP": 1
       },
@@ -71,13 +68,13 @@
         "GBP": 1
       },
       "iww_publish-mw.xml": {
+        "GBP": 1
+      },
+      "iww_publish-ug.xml": {
         "GBP": 1
       }
     },
     ".//collaboration-type/@code": {
-      "iww_publish-ug.xml": {
-        "2": 1
-      },
       "iww_publish-ke.xml": {
         "2": 1
       },
@@ -85,13 +82,13 @@
         "2": 1
       },
       "iww_publish-mw.xml": {
+        "2": 1
+      },
+      "iww_publish-ug.xml": {
         "2": 1
       }
     },
     ".//default-aid-type/@code": {
-      "iww_publish-ug.xml": {
-        "C01": 1
-      },
       "iww_publish-ke.xml": {
         "C01": 1
       },
@@ -99,13 +96,13 @@
         "C01": 1
       },
       "iww_publish-mw.xml": {
+        "C01": 1
+      },
+      "iww_publish-ug.xml": {
         "C01": 1
       }
     },
     ".//default-finance-type/@code": {
-      "iww_publish-ug.xml": {
-        "110": 1
-      },
       "iww_publish-ke.xml": {
         "110": 1
       },
@@ -113,13 +110,13 @@
         "110": 1
       },
       "iww_publish-mw.xml": {
+        "110": 1
+      },
+      "iww_publish-ug.xml": {
         "110": 1
       }
     },
     ".//default-flow-type/@code": {
-      "iww_publish-ug.xml": {
-        "10": 1
-      },
       "iww_publish-ke.xml": {
         "10": 1
       },
@@ -127,13 +124,13 @@
         "10": 1
       },
       "iww_publish-mw.xml": {
+        "10": 1
+      },
+      "iww_publish-ug.xml": {
         "10": 1
       }
     },
     ".//default-tied-status/@code": {
-      "iww_publish-ug.xml": {
-        "5": 1
-      },
       "iww_publish-ke.xml": {
         "5": 1
       },
@@ -141,13 +138,13 @@
         "5": 1
       },
       "iww_publish-mw.xml": {
+        "5": 1
+      },
+      "iww_publish-ug.xml": {
         "5": 1
       }
     },
     ".//description/@type": {
-      "iww_publish-ug.xml": {
-        "1": 1
-      },
       "iww_publish-ke.xml": {
         "1": 1
       },
@@ -155,13 +152,13 @@
         "1": 1
       },
       "iww_publish-mw.xml": {
+        "1": 1
+      },
+      "iww_publish-ug.xml": {
         "1": 1
       }
     },
     ".//document-link/@format": {
-      "iww_publish-ug.xml": {
-        "application/pdf": 2
-      },
       "iww_publish-ke.xml": {
         "application/pdf": 2
       },
@@ -169,13 +166,13 @@
         "application/pdf": 2
       },
       "iww_publish-mw.xml": {
+        "application/pdf": 2
+      },
+      "iww_publish-ug.xml": {
         "application/pdf": 2
       }
     },
     ".//document-link/category/@code": {
-      "iww_publish-ug.xml": {
-        "A02": 2
-      },
       "iww_publish-ke.xml": {
         "A02": 2
       },
@@ -184,12 +181,12 @@
       },
       "iww_publish-mw.xml": {
         "A02": 2
+      },
+      "iww_publish-ug.xml": {
+        "A02": 2
       }
     },
     ".//participating-org/@role": {
-      "iww_publish-ug.xml": {
-        "Implementing": 1
-      },
       "iww_publish-ke.xml": {
         "Implementing": 1,
         "Funding": 1
@@ -199,12 +196,18 @@
       },
       "iww_publish-mw.xml": {
         "Implementing": 1
+      },
+      "iww_publish-ug.xml": {
+        "Implementing": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "iww_publish-ke.xml": {
+        "23": 1,
+        "10": 1
       }
     },
     ".//recipient-country/@code": {
-      "iww_publish-ug.xml": {
-        "UG": 1
-      },
       "iww_publish-ke.xml": {
         "KE": 1
       },
@@ -213,12 +216,12 @@
       },
       "iww_publish-mw.xml": {
         "MW": 1
+      },
+      "iww_publish-ug.xml": {
+        "UG": 1
       }
     },
     ".//reporting-org/@type": {
-      "iww_publish-ug.xml": {
-        "21": 1
-      },
       "iww_publish-ke.xml": {
         "21": 1
       },
@@ -226,13 +229,13 @@
         "21": 1
       },
       "iww_publish-mw.xml": {
+        "21": 1
+      },
+      "iww_publish-ug.xml": {
         "21": 1
       }
     },
     ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
-      "iww_publish-ug.xml": {
-        "13040": 1
-      },
       "iww_publish-ke.xml": {
         "13040": 1
       },
@@ -241,12 +244,12 @@
       },
       "iww_publish-mw.xml": {
         "16064": 1
+      },
+      "iww_publish-ug.xml": {
+        "13040": 1
       }
     },
     ".//transaction/aid-type/@code": {
-      "iww_publish-ug.xml": {
-        "C01": 2
-      },
       "iww_publish-ke.xml": {
         "C01": 2
       },
@@ -254,14 +257,13 @@
         "C01": 2
       },
       "iww_publish-mw.xml": {
+        "C01": 2
+      },
+      "iww_publish-ug.xml": {
         "C01": 2
       }
     },
     ".//transaction/disbursement-channel/@code": {
-      "iww_publish-ug.xml": {
-        "2": 1,
-        "1": 1
-      },
       "iww_publish-ke.xml": {
         "2": 1,
         "1": 1
@@ -271,14 +273,15 @@
         "1": 1
       },
       "iww_publish-mw.xml": {
+        "2": 1,
+        "1": 1
+      },
+      "iww_publish-ug.xml": {
         "2": 1,
         "1": 1
       }
     },
     ".//transaction/finance-type/@code": {
-      "iww_publish-ug.xml": {
-        "110": 2
-      },
       "iww_publish-ke.xml": {
         "110": 2
       },
@@ -286,13 +289,13 @@
         "110": 2
       },
       "iww_publish-mw.xml": {
+        "110": 2
+      },
+      "iww_publish-ug.xml": {
         "110": 2
       }
     },
     ".//transaction/flow-type/@code": {
-      "iww_publish-ug.xml": {
-        "10": 2
-      },
       "iww_publish-ke.xml": {
         "10": 2
       },
@@ -300,13 +303,13 @@
         "10": 2
       },
       "iww_publish-mw.xml": {
+        "10": 2
+      },
+      "iww_publish-ug.xml": {
         "10": 2
       }
     },
     ".//transaction/tied-status/@code": {
-      "iww_publish-ug.xml": {
-        "5": 2
-      },
       "iww_publish-ke.xml": {
         "5": 2
       },
@@ -314,14 +317,13 @@
         "5": 2
       },
       "iww_publish-mw.xml": {
+        "5": 2
+      },
+      "iww_publish-ug.xml": {
         "5": 2
       }
     },
     ".//transaction/transaction-type/@code": {
-      "iww_publish-ug.xml": {
-        "E": 1,
-        "IF": 1
-      },
       "iww_publish-ke.xml": {
         "E": 1,
         "IF": 1
@@ -331,14 +333,15 @@
         "IF": 1
       },
       "iww_publish-mw.xml": {
+        "E": 1,
+        "IF": 1
+      },
+      "iww_publish-ug.xml": {
         "E": 1,
         "IF": 1
       }
     },
     ".//transaction/value/@currency": {
-      "iww_publish-ug.xml": {
-        "GBP": 2
-      },
       "iww_publish-ke.xml": {
         "GBP": 2
       },
@@ -347,12 +350,12 @@
       },
       "iww_publish-mw.xml": {
         "GBP": 2
+      },
+      "iww_publish-ug.xml": {
+        "GBP": 2
       }
     },
     ".//@xml:lang": {
-      "iww_publish-ug.xml": {
-        "en": 6
-      },
       "iww_publish-ke.xml": {
         "en": 12
       },
@@ -361,12 +364,9 @@
       },
       "iww_publish-mw.xml": {
         "en": 6
-      }
-    },
-    ".//participating-org/@type": {
-      "iww_publish-ke.xml": {
-        "23": 1,
-        "10": 1
+      },
+      "iww_publish-ug.xml": {
+        "en": 6
       }
     }
   }

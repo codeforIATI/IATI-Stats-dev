@@ -4,29 +4,21 @@
       "cibe-test3.xml": {
         "EUR": 5
       },
-      "cibe-01.xml": {
-        "EUR": 5
-      },
-      "cibe-mijndataset.xml": {
-        "EUR": 5
-      },
       "cibe-activities.xml": {
         "EUR": 9
       },
       "cibe-rw.xml": {
         "EUR": 1
+      },
+      "cibe-01.xml": {
+        "EUR": 5
+      },
+      "cibe-mijndataset.xml": {
+        "EUR": 5
       }
     },
     ".//activity-date/@type": {
       "cibe-test3.xml": {
-        "1": 5,
-        "3": 5
-      },
-      "cibe-01.xml": {
-        "1": 5,
-        "3": 5
-      },
-      "cibe-mijndataset.xml": {
         "1": 5,
         "3": 5
       },
@@ -40,16 +32,18 @@
         "1": 1,
         "2": 1,
         "3": 1
+      },
+      "cibe-01.xml": {
+        "1": 5,
+        "3": 5
+      },
+      "cibe-mijndataset.xml": {
+        "1": 5,
+        "3": 5
       }
     },
     ".//activity-status/@code": {
       "cibe-test3.xml": {
-        "1": 5
-      },
-      "cibe-01.xml": {
-        "1": 5
-      },
-      "cibe-mijndataset.xml": {
         "1": 5
       },
       "cibe-activities.xml": {
@@ -57,16 +51,16 @@
       },
       "cibe-rw.xml": {
         "2": 1
-      }
-    },
-    ".//budget/@type": {
-      "cibe-test3.xml": {
-        "1": 5
       },
       "cibe-01.xml": {
         "1": 5
       },
       "cibe-mijndataset.xml": {
+        "1": 5
+      }
+    },
+    ".//budget/@type": {
+      "cibe-test3.xml": {
         "1": 5
       },
       "cibe-activities.xml": {
@@ -74,6 +68,12 @@
         "1": 1
       },
       "cibe-rw.xml": {
+        "1": 5
+      },
+      "cibe-01.xml": {
+        "1": 5
+      },
+      "cibe-mijndataset.xml": {
         "1": 5
       }
     },
@@ -92,27 +92,21 @@
       "cibe-test3.xml": {
         "1": 5
       },
-      "cibe-01.xml": {
-        "1": 5
-      },
-      "cibe-mijndataset.xml": {
-        "1": 5
-      },
       "cibe-activities.xml": {
         "1": 9
       },
       "cibe-rw.xml": {
         "1": 1
+      },
+      "cibe-01.xml": {
+        "1": 5
+      },
+      "cibe-mijndataset.xml": {
+        "1": 5
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "cibe-test3.xml": {
-        "C01": 5
-      },
-      "cibe-01.xml": {
-        "C01": 5
-      },
-      "cibe-mijndataset.xml": {
         "C01": 5
       },
       "cibe-activities.xml": {
@@ -122,30 +116,30 @@
       },
       "cibe-rw.xml": {
         "C01": 1
+      },
+      "cibe-01.xml": {
+        "C01": 5
+      },
+      "cibe-mijndataset.xml": {
+        "C01": 5
       }
     },
     ".//default-aid-type/@vocabulary": {
       "cibe-test3.xml": {
         "1": 5
       },
+      "cibe-activities.xml": {
+        "1": 9
+      },
       "cibe-01.xml": {
         "1": 5
       },
       "cibe-mijndataset.xml": {
         "1": 5
-      },
-      "cibe-activities.xml": {
-        "1": 9
       }
     },
     ".//default-flow-type/@code": {
       "cibe-test3.xml": {
-        "30": 5
-      },
-      "cibe-01.xml": {
-        "30": 5
-      },
-      "cibe-mijndataset.xml": {
         "30": 5
       },
       "cibe-activities.xml": {
@@ -153,16 +147,16 @@
       },
       "cibe-rw.xml": {
         "30": 1
+      },
+      "cibe-01.xml": {
+        "30": 5
+      },
+      "cibe-mijndataset.xml": {
+        "30": 5
       }
     },
     ".//default-tied-status/@code": {
       "cibe-test3.xml": {
-        "5": 5
-      },
-      "cibe-01.xml": {
-        "5": 5
-      },
-      "cibe-mijndataset.xml": {
         "5": 5
       },
       "cibe-activities.xml": {
@@ -170,16 +164,16 @@
       },
       "cibe-rw.xml": {
         "5": 1
+      },
+      "cibe-01.xml": {
+        "5": 5
+      },
+      "cibe-mijndataset.xml": {
+        "5": 5
       }
     },
     ".//description/@type": {
       "cibe-test3.xml": {
-        "1": 5
-      },
-      "cibe-01.xml": {
-        "1": 5
-      },
-      "cibe-mijndataset.xml": {
         "1": 5
       },
       "cibe-activities.xml": {
@@ -187,18 +181,16 @@
       },
       "cibe-rw.xml": {
         "1": 1
+      },
+      "cibe-01.xml": {
+        "1": 5
+      },
+      "cibe-mijndataset.xml": {
+        "1": 5
       }
     },
     ".//participating-org/@role": {
       "cibe-test3.xml": {
-        "2": 5,
-        "4": 8
-      },
-      "cibe-01.xml": {
-        "2": 5,
-        "4": 8
-      },
-      "cibe-mijndataset.xml": {
         "2": 5,
         "4": 8
       },
@@ -211,16 +203,18 @@
         "1": 2,
         "2": 1,
         "4": 3
+      },
+      "cibe-01.xml": {
+        "2": 5,
+        "4": 8
+      },
+      "cibe-mijndataset.xml": {
+        "2": 5,
+        "4": 8
       }
     },
     ".//participating-org/@type": {
       "cibe-test3.xml": {
-        "": 5
-      },
-      "cibe-01.xml": {
-        "": 5
-      },
-      "cibe-mijndataset.xml": {
         "": 5
       },
       "cibe-activities.xml": {
@@ -232,16 +226,16 @@
       "cibe-rw.xml": {
         "10": 1,
         "22": 5
+      },
+      "cibe-01.xml": {
+        "": 5
+      },
+      "cibe-mijndataset.xml": {
+        "": 5
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "cibe-test3.xml": {
-        "3": 5
-      },
-      "cibe-01.xml": {
-        "3": 5
-      },
-      "cibe-mijndataset.xml": {
         "3": 5
       },
       "cibe-activities.xml": {
@@ -265,16 +259,16 @@
         "9": 1,
         "4": 1,
         "8": 1
+      },
+      "cibe-01.xml": {
+        "3": 5
+      },
+      "cibe-mijndataset.xml": {
+        "3": 5
       }
     },
     ".//policy-marker/@significance": {
       "cibe-test3.xml": {
-        "1": 5
-      },
-      "cibe-01.xml": {
-        "1": 5
-      },
-      "cibe-mijndataset.xml": {
         "1": 5
       },
       "cibe-activities.xml": {
@@ -285,16 +279,16 @@
       "cibe-rw.xml": {
         "1": 8,
         "0": 1
-      }
-    },
-    ".//policy-marker/@vocabulary": {
-      "cibe-test3.xml": {
-        "1": 5
       },
       "cibe-01.xml": {
         "1": 5
       },
       "cibe-mijndataset.xml": {
+        "1": 5
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "cibe-test3.xml": {
         "1": 5
       },
       "cibe-activities.xml": {
@@ -302,16 +296,16 @@
       },
       "cibe-rw.xml": {
         "1": 9
+      },
+      "cibe-01.xml": {
+        "1": 5
+      },
+      "cibe-mijndataset.xml": {
+        "1": 5
       }
     },
     ".//reporting-org/@type": {
       "cibe-test3.xml": {
-        "21": 5
-      },
-      "cibe-01.xml": {
-        "21": 5
-      },
-      "cibe-mijndataset.xml": {
         "21": 5
       },
       "cibe-activities.xml": {
@@ -319,20 +313,16 @@
       },
       "cibe-rw.xml": {
         "22": 1
+      },
+      "cibe-01.xml": {
+        "21": 5
+      },
+      "cibe-mijndataset.xml": {
+        "21": 5
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "cibe-test3.xml": {
-        "16010": 4,
-        "43042": 2,
-        "74010": 1
-      },
-      "cibe-01.xml": {
-        "16010": 4,
-        "43042": 2,
-        "74010": 1
-      },
-      "cibe-mijndataset.xml": {
         "16010": 4,
         "43042": 2,
         "74010": 1
@@ -345,6 +335,16 @@
       },
       "cibe-rw.xml": {
         "31120": 1
+      },
+      "cibe-01.xml": {
+        "16010": 4,
+        "43042": 2,
+        "74010": 1
+      },
+      "cibe-mijndataset.xml": {
+        "16010": 4,
+        "43042": 2,
+        "74010": 1
       }
     },
     ".//sector[@vocabulary = '2']/@code": {
@@ -373,31 +373,25 @@
         "1": 7,
         "2": 4
       },
-      "cibe-01.xml": {
-        "98": 11,
-        "1": 7,
-        "2": 4
-      },
-      "cibe-mijndataset.xml": {
-        "98": 11,
-        "1": 7,
-        "2": 4
-      },
       "cibe-activities.xml": {
         "1": 9
       },
       "cibe-rw.xml": {
         "1": 1
+      },
+      "cibe-01.xml": {
+        "98": 11,
+        "1": 7,
+        "2": 4
+      },
+      "cibe-mijndataset.xml": {
+        "98": 11,
+        "1": 7,
+        "2": 4
       }
     },
     ".//@xml:lang": {
       "cibe-test3.xml": {
-        "en": 5
-      },
-      "cibe-01.xml": {
-        "en": 5
-      },
-      "cibe-mijndataset.xml": {
         "en": 5
       },
       "cibe-activities.xml": {
@@ -407,6 +401,12 @@
       "cibe-rw.xml": {
         "fr": 1,
         "en": 4
+      },
+      "cibe-01.xml": {
+        "en": 5
+      },
+      "cibe-mijndataset.xml": {
+        "en": 5
       }
     },
     ".//activity-scope/@code": {

@@ -5,10 +5,10 @@
       "EUR": 11
     },
     ".//activity-date/@type": {
-      "2": 51,
+      "1": 6,
       "3": 49,
-      "4": 15,
-      "1": 6
+      "2": 51,
+      "4": 15
     },
     ".//activity-status/@code": {
       "4": 42,
@@ -49,14 +49,8 @@
       "5": 5
     },
     ".//description/@type": {
-      "1": 52,
-      "2": 7
-    },
-    ".//participating-org/@crs-channel-code": {
-      "21000": 22,
-      "10000": 1,
-      "60000": 1,
-      "11001": 1
+      "2": 7,
+      "1": 52
     },
     ".//participating-org/@role": {
       "1": 55,
@@ -65,91 +59,91 @@
       "3": 2
     },
     ".//participating-org/@type": {
-      "70": 7,
-      "21": 103,
       "10": 41,
-      "22": 6,
-      "80": 20
+      "21": 103,
+      "80": 20,
+      "70": 7,
+      "22": 6
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "11": 35,
-      "1": 1
+      "1": 1,
+      "11": 35
     },
     ".//policy-marker/@significance": {
-      "4": 28,
       "0": 2,
-      "2": 1,
-      "1": 2
+      "4": 28,
+      "1": 2,
+      "2": 1
     },
     ".//policy-marker/@vocabulary": {
       "1": 34
     },
     ".//recipient-country/@code": {
+      "ET": 2,
+      "MA": 1,
+      "LB": 3,
       "GB": 6,
-      "CF": 2,
-      "PS": 2,
-      "AF": 2,
+      "US": 1,
+      "NP": 10,
+      "KE": 8,
       "HT": 1,
       "BI": 1,
       "IQ": 2,
       "CM": 1,
-      "CD": 3,
+      "CF": 2,
+      "PS": 2,
+      "MM": 3,
       "JO": 7,
+      "FR": 1,
+      "SS": 2,
+      "SL": 4,
+      "CD": 3,
       "PH": 1,
-      "NP": 10,
-      "MA": 1,
       "BD": 3,
       "PK": 1,
       "UG": 4,
-      "ET": 2,
-      "SS": 2,
       "MG": 1,
-      "MM": 3,
+      "AF": 2,
       "SO": 1,
-      "SL": 4,
-      "KE": 8,
-      "LB": 3,
-      "US": 1,
-      "FR": 1,
-      "KH": 1,
       "MZ": 1,
-      "RW": 1
+      "RW": 1,
+      "KH": 1
     },
     ".//reporting-org/@type": {
       "21": 57
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "99810": 1,
-      "72010": 5,
-      "11230": 1,
-      "43010": 8,
-      "12182": 1,
-      "12281": 3,
-      "13020": 1,
-      "99820": 1,
+      "11231": 1,
       "14032": 1,
       "52010": 1,
       "16065": 1,
       "92030": 1,
-      "13030": 1,
+      "43010": 8,
+      "72010": 5,
       "12220": 3,
-      "12240": 3,
+      "99810": 1,
+      "11230": 1,
+      "22040": 1,
+      "12182": 1,
       "72050": 2,
-      "15150": 15,
-      "11430": 5,
-      "11231": 1,
-      "11120": 4,
-      "72011": 1,
-      "11182": 1,
+      "12240": 3,
+      "12281": 3,
       "12250": 2,
+      "11120": 4,
+      "11240": 2,
+      "16010": 2,
+      "72011": 1,
+      "13020": 1,
+      "99820": 1,
+      "11320": 2,
+      "11220": 3,
+      "15150": 15,
+      "11182": 1,
       "12191": 5,
       "12110": 1,
       "16011": 1,
-      "16010": 2,
-      "22040": 1,
-      "11240": 2,
-      "11320": 2,
-      "11220": 3,
+      "11430": 5,
+      "13030": 1,
       "43040": 1
     },
     ".//sector/@vocabulary": {
@@ -157,39 +151,32 @@
       "2": 3,
       "99": 1
     },
-    ".//transaction/disbursement-channel/@code": {
-      "2": 95
-    },
     ".//transaction/provider-org/@type": {
-      "70": 35,
       "21": 251,
+      "N/A": 1,
+      "70": 35,
       "10": 79,
-      "n/a": 1,
-      "N/A": 1
+      "n/a": 1
     },
     ".//transaction/receiver-org/@type": {
       "21": 379,
-      "n/a": 1,
-      "N/A": 1
+      "N/A": 1,
+      "n/a": 1
     },
     ".//transaction/transaction-type/@code": {
       "1": 349,
+      "2": 10,
       "3": 205,
       "4": 32,
-      "2": 10,
       "7": 16
     },
     ".//transaction/value/@currency": {
-      "GBP": 583,
-      "USD": 12
+      "USD": 12,
+      "GBP": 583
     },
     ".//@xml:lang": {
       "en": 1447,
       "fr": 2
-    },
-    ".//sector[@vocabulary = '2']/@code": {
-      "121": 1,
-      "720": 2
     },
     ".//document-link/@format": {
       "application/msword": 6,
@@ -199,9 +186,9 @@
     },
     ".//document-link/category/@code": {
       "A02": 7,
-      "A08": 5,
-      "A10": 3,
       "A05": 3,
+      "A10": 3,
+      "A08": 5,
       "A11": 1,
       "A12": 1
     },
@@ -212,27 +199,27 @@
       "A4": 21
     },
     ".//location/administrative[@vocabulary = 'A4']/@code": {
-      " PS-GZA* ": 1,
-      "IQ-AR*": 2,
-      "BD-10": 1,
-      " SO-AW": 1,
-      "SL-E": 1,
-      "SL-W*": 1,
-      " JO-AM* ": 4,
       " LB-BI* ": 2,
       "NP-1": 4,
       " NP-BA ": 1,
+      "SL-E": 1,
+      "SL-W*": 1,
+      " JO-AM* ": 4,
+      " SO-AW": 1,
+      "IQ-AR*": 2,
+      " RW-04*": 2,
       "KH-3": 1,
-      " RW-04*": 2
+      "BD-10": 1,
+      " PS-GZA* ": 1
     },
     ".//location/feature-designation/@code": {
       "ADM1": 13,
       "ADM2": 8
     },
     ".//location/location-class/@code": {
-      "2": 2,
+      "1": 11,
       "4": 8,
-      "1": 11
+      "2": 2
     },
     ".//location/location-id/@vocabulary": {
       "A4": 22
@@ -242,15 +229,29 @@
       "2": 1
     },
     ".//location/exactness/@code": {
-      "2": 10,
-      "1": 12
+      "1": 12,
+      "2": 10
+    },
+    ".//participating-org/@crs-channel-code": {
+      "21000": 22,
+      "11001": 1,
+      "10000": 1,
+      "60000": 1
+    },
+    ".//result/@type": {
+      "2": 4,
+      "1": 2
+    },
+    ".//result/indicator/@measure": {
+      "1": 9,
+      "2": 4
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 40,
       "B03": 2
     },
-    ".//transaction/aid-type/@vocabulary": {
-      "1": 38
+    ".//transaction/disbursement-channel/@code": {
+      "2": 95
     },
     ".//transaction/finance-type/@code": {
       "110": 41
@@ -263,31 +264,30 @@
       "4": 3,
       "3": 2
     },
-    ".//activity-scope/@code": {
-      "6": 1,
-      "4": 1
-    },
-    ".//result/@type": {
-      "1": 2,
-      "2": 4
-    },
-    ".//result/indicator/@measure": {
-      "1": 9,
-      "2": 4
+    ".//transaction/aid-type/@vocabulary": {
+      "1": 38
     },
     ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15150": 12,
-      "11430": 4,
+      "12281": 2,
       "12191": 5,
-      "12281": 2
+      "11430": 4,
+      "15150": 12
     },
     ".//transaction/sector/@vocabulary": {
       "1": 23,
       "2": 1
     },
+    ".//activity-scope/@code": {
+      "6": 1,
+      "4": 1
+    },
+    ".//sector[@vocabulary = '2']/@code": {
+      "720": 2,
+      "121": 1
+    },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "89": 2,
-      "289": 2
+      "289": 2,
+      "89": 2
     },
     ".//recipient-region/@vocabulary": {
       "1": 4

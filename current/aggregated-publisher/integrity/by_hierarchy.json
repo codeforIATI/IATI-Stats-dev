@@ -30,7 +30,6 @@
       "iati-activity/activity-date/@iso-date": 8,
       "iati-activity/recipient-country": 6,
       "iati-activity/recipient-country/@code": 6,
-      "iati-activity/recipient-country/@percentage": 4,
       "iati-activity/sector": 8,
       "iati-activity/sector/@code": 8,
       "iati-activity/sector/@vocabulary": 8,
@@ -59,6 +58,9 @@
       "iati-activity/@default-currency": 8,
       "iati-activity/@humanitarian": 8,
       "iati-activity/@hierarchy": 8,
+      "iati-activity/activity-date/narrative": 2,
+      "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2,
+      "iati-activity/sector/@percentage": 3,
       "iati-activity/budget": 4,
       "iati-activity/budget/period-start": 4,
       "iati-activity/budget/period-start/@iso-date": 4,
@@ -69,11 +71,9 @@
       "iati-activity/budget/value/@value-date": 4,
       "iati-activity/budget/@type": 4,
       "iati-activity/budget/@status": 4,
-      "iati-activity/activity-date/narrative": 2,
-      "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2,
-      "iati-activity/sector/@percentage": 3,
       "iati-activity/transaction/recipient-region": 2,
-      "iati-activity/transaction/recipient-region/@code": 2
+      "iati-activity/transaction/recipient-region/@code": 2,
+      "iati-activity/recipient-country/@percentage": 4
     },
     "elements_total": {
       "iati-activity": 8,
@@ -104,7 +104,6 @@
       "iati-activity/activity-date/@iso-date": 12,
       "iati-activity/recipient-country": 45,
       "iati-activity/recipient-country/@code": 45,
-      "iati-activity/recipient-country/@percentage": 43,
       "iati-activity/sector": 8,
       "iati-activity/sector/@code": 8,
       "iati-activity/sector/@vocabulary": 8,
@@ -133,6 +132,9 @@
       "iati-activity/@default-currency": 8,
       "iati-activity/@humanitarian": 8,
       "iati-activity/@hierarchy": 8,
+      "iati-activity/activity-date/narrative": 4,
+      "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 4,
+      "iati-activity/sector/@percentage": 3,
       "iati-activity/budget": 4,
       "iati-activity/budget/period-start": 4,
       "iati-activity/budget/period-start/@iso-date": 4,
@@ -143,11 +145,9 @@
       "iati-activity/budget/value/@value-date": 4,
       "iati-activity/budget/@type": 4,
       "iati-activity/budget/@status": 4,
-      "iati-activity/activity-date/narrative": 4,
-      "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 4,
-      "iati-activity/sector/@percentage": 3,
       "iati-activity/transaction/recipient-region": 5,
-      "iati-activity/transaction/recipient-region/@code": 5
+      "iati-activity/transaction/recipient-region/@code": 5,
+      "iati-activity/recipient-country/@percentage": 43
     },
     "forwardlooking_currency_year": {
       "2020": {

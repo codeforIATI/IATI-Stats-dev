@@ -48,6 +48,21 @@
         "5": 1
       }
     },
+    ".//document-link/@format": {
+      "seco-ong-mali-activities.xml": {
+        "application/pdf": 7
+      }
+    },
+    ".//document-link/category/@code": {
+      "seco-ong-mali-activities.xml": {
+        "B01": 7
+      }
+    },
+    ".//document-link/language/@code": {
+      "seco-ong-mali-activities.xml": {
+        "fr": 7
+      }
+    },
     ".//participating-org/@role": {
       "seco-ong-mali-activities.xml": {
         "2": 1,
@@ -94,12 +109,13 @@
     ".//result/@type": {
       "seco-ong-mali-activities.xml": {
         "3": 4,
-        "2": 3
+        "2": 5,
+        "1": 2
       }
     },
     ".//result/indicator/@measure": {
       "seco-ong-mali-activities.xml": {
-        "1": 8
+        "1": 22
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -132,9 +148,9 @@
     ".//@xml:lang": {
       "seco-ong-mali-activities.xml": {
         "FR": 14,
-        "nl": 30,
-        "en": 30,
-        "fr": 42
+        "nl": 66,
+        "en": 66,
+        "fr": 92
       }
     }
   }

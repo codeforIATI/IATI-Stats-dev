@@ -1,22 +1,19 @@
 {
   "2": {
     ".//@default-currency": {
-      "GBP": 2,
-      "gbp": 183
+      "gbp": 183,
+      "GBP": 2
     },
     ".//activity-date/@type": {
       "2": 185,
+      "4": 183,
       "3": 2,
-      "1": 1,
-      "4": 183
+      "1": 1
     },
     ".//activity-status/@code": {
+      "4": 183,
       "3": 1,
-      "2": 1,
-      "4": 183
-    },
-    ".//budget/@type": {
-      "1": 6
+      "2": 1
     },
     ".//collaboration-type/@code": {
       "3": 185
@@ -37,21 +34,15 @@
     ".//default-tied-status/@code": {
       "5": 185
     },
-    ".//humanitarian-scope/@type": {
-      "1": 1
-    },
-    ".//humanitarian-scope/@vocabulary": {
-      "99": 1
-    },
     ".//participating-org/@role": {
-      "2": 16,
+      "1": 185,
       "4": 181,
-      "1": 185
+      "2": 16
     },
     ".//participating-org/@type": {
+      "40": 88,
       "21": 197,
-      "10": 97,
-      "40": 88
+      "10": 97
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "2": 184
@@ -63,7 +54,6 @@
       "1": 184
     },
     ".//recipient-country/@code": {
-      "GB": 1,
       "ZA": 2,
       "KE": 4,
       "CN": 9,
@@ -95,10 +85,36 @@
       "HT": 1,
       "SY": 1,
       "BF": 1,
-      "ML": 1
+      "ML": 1,
+      "GB": 1
+    },
+    ".//recipient-region/@vocabulary": {
+      "99": 32
     },
     ".//reporting-org/@type": {
       "21": 185
+    },
+    ".//sector/@vocabulary": {
+      "99": 204,
+      "1": 1
+    },
+    ".//transaction/transaction-type/@code": {
+      "4": 749,
+      "1": 438,
+      "3": 10,
+      "2": 1
+    },
+    ".//@xml:lang": {
+      "en": 185
+    },
+    ".//budget/@type": {
+      "1": 6
+    },
+    ".//humanitarian-scope/@type": {
+      "1": 1
+    },
+    ".//humanitarian-scope/@vocabulary": {
+      "99": 1
     },
     ".//result/@type": {
       "3": 1,
@@ -113,21 +129,8 @@
       "15160": 1,
       "43010": 1
     },
-    ".//sector/@vocabulary": {
-      "1": 1,
-      "99": 204
-    },
     ".//transaction/provider-org/@type": {
       "10": 15
-    },
-    ".//transaction/transaction-type/@code": {
-      "3": 10,
-      "1": 438,
-      "2": 1,
-      "4": 749
-    },
-    ".//@xml:lang": {
-      "en": 185
     },
     ".//budget/value/@currency": {
       "GBP": 5
@@ -151,9 +154,6 @@
     },
     ".//transaction/value/@currency": {
       "GBP": 22
-    },
-    ".//recipient-region/@vocabulary": {
-      "99": 32
     }
   }
 }

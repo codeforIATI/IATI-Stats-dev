@@ -77,9 +77,9 @@
     ".//document-link/category/@code": {
       "A10": 137,
       "A05": 4,
-      "A04": 4,
       "A03": 4,
       "A01": 4,
+      "A04": 4,
       "A02": 4
     },
     ".//document-link/language/@code": {
@@ -222,13 +222,13 @@
       "33120": 1,
       "25010": 2,
       "31120": 1,
-      "13010": 2,
-      "41010": 1,
       "11130": 1,
-      "24010": 1,
-      "12261": 1,
+      "41010": 1,
+      "13010": 2,
       "31195": 1,
-      "14032": 1
+      "24010": 1,
+      "14032": 1,
+      "12261": 1
     },
     ".//sector/@vocabulary": {
       "1": 566
@@ -256,7 +256,7 @@
       "2": 187
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 943,
+      "C01": 948,
       "D02": 241,
       "A02": 95,
       "NG2": 5,
@@ -272,34 +272,34 @@
       "H01": 1
     },
     ".//transaction/disbursement-channel/@code": {
-      "2": 1522
+      "2": 1528
     },
     ".//transaction/finance-type/@code": {
-      "110": 1356
+      "110": 1361
     },
     ".//transaction/flow-type/@code": {
-      "10": 1298,
+      "10": 1303,
       "20": 3,
       "50": 57
     },
     ".//transaction/provider-org/@type": {
-      "15": 1522
+      "15": 1528
     },
     ".//transaction/tied-status/@code": {
       "4": 52,
-      "5": 378,
-      "3": 277
+      "5": 379,
+      "3": 278
     },
     ".//transaction/transaction-type/@code": {
-      "4": 618,
-      "3": 740,
-      "2": 164
+      "4": 622,
+      "3": 741,
+      "2": 165
     },
     ".//transaction/value/@currency": {
-      "EUR": 1522
+      "EUR": 1528
     },
     ".//@xml:lang": {
-      "en": 2059,
+      "en": 2065,
       "EN": 20
     }
   }

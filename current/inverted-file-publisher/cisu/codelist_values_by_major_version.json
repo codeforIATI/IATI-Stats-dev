@@ -1,66 +1,73 @@
 {
   "2": {
     ".//@default-currency": {
-      "cisu-dk.xml": {
-        "DKK": 9
-      },
       "cisu-gaia.xml": {
         "DKK": 2320
+      },
+      "cisu-dk.xml": {
+        "DKK": 9
       }
     },
     ".//activity-date/@type": {
+      "cisu-gaia.xml": {
+        "2": 2316,
+        "3": 338,
+        "4": 1982,
+        "1": 4
+      },
       "cisu-dk.xml": {
         "2": 8,
         "1": 1
-      },
-      "cisu-gaia.xml": {
-        "2": 2317,
-        "3": 338,
-        "4": 1982,
-        "1": 3
       }
     },
     ".//activity-status/@code": {
-      "cisu-dk.xml": {
-        "4": 9
-      },
       "cisu-gaia.xml": {
-        "2": 309,
+        "2": 308,
         "4": 1821,
         "3": 173,
-        "1": 17
+        "1": 18
+      },
+      "cisu-dk.xml": {
+        "4": 9
       }
     },
-    ".//description/@type": {
-      "cisu-dk.xml": {
-        "1": 9
+    ".//budget/@status": {
+      "cisu-gaia.xml": {
+        "1": 5316
+      }
+    },
+    ".//budget/@type": {
+      "cisu-gaia.xml": {
+        "1": 5316
+      }
+    },
+    ".//budget/value/@currency": {
+      "cisu-gaia.xml": {
+        "DKK": 5316
       }
     },
     ".//participating-org/@role": {
-      "cisu-dk.xml": {
-        "1": 9,
-        "4": 9
-      },
       "cisu-gaia.xml": {
         "3": 2320,
         "1": 2320,
         "4": 4826
+      },
+      "cisu-dk.xml": {
+        "1": 9,
+        "4": 9
       }
     },
     ".//participating-org/@type": {
-      "cisu-dk.xml": {
-        "10": 9,
-        "22": 9
-      },
       "cisu-gaia.xml": {
         "22": 7146,
         "10": 2320
+      },
+      "cisu-dk.xml": {
+        "10": 9,
+        "22": 9
       }
     },
     ".//recipient-country/@code": {
-      "cisu-dk.xml": {
-        "DK": 9
-      },
       "cisu-gaia.xml": {
         "GH": 113,
         "UG": 216,
@@ -105,10 +112,10 @@
         "ZA": 46,
         "SA": 57,
         "BI": 17,
-        "ID": 26,
+        "ID": 25,
         "RW": 48,
         "MZ": 42,
-        "SO": 27,
+        "SO": 28,
         "AF": 15,
         "SV": 2,
         "MN": 16,
@@ -161,25 +168,58 @@
         "AR": 1,
         "SC": 1,
         "BE": 1
+      },
+      "cisu-dk.xml": {
+        "DK": 9
       }
     },
     ".//reporting-org/@type": {
-      "cisu-dk.xml": {
-        "22": 9
-      },
       "cisu-gaia.xml": {
         "22": 2320
+      },
+      "cisu-dk.xml": {
+        "22": 9
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cisu-gaia.xml": {
+        "15150": 2320,
+        "15160": 2320
+      },
       "cisu-dk.xml": {
         "99810": 2,
         "92010": 6,
         "99820": 1
-      },
+      }
+    },
+    ".//transaction/transaction-type/@code": {
       "cisu-gaia.xml": {
-        "15150": 2320,
-        "15160": 2320
+        "1": 5784,
+        "3": 990
+      },
+      "cisu-dk.xml": {
+        "1": 30
+      }
+    },
+    ".//transaction/value/@currency": {
+      "cisu-gaia.xml": {
+        "DKK": 6774
+      },
+      "cisu-dk.xml": {
+        "DKK": 29
+      }
+    },
+    ".//@xml:lang": {
+      "cisu-gaia.xml": {
+        "da": 2320
+      },
+      "cisu-dk.xml": {
+        "en": 21
+      }
+    },
+    ".//description/@type": {
+      "cisu-dk.xml": {
+        "1": 9
       }
     },
     ".//sector/@vocabulary": {
@@ -190,46 +230,6 @@
     ".//transaction/provider-org/@type": {
       "cisu-dk.xml": {
         "10": 4
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "cisu-dk.xml": {
-        "1": 30
-      },
-      "cisu-gaia.xml": {
-        "1": 5787,
-        "3": 991
-      }
-    },
-    ".//transaction/value/@currency": {
-      "cisu-dk.xml": {
-        "DKK": 29
-      },
-      "cisu-gaia.xml": {
-        "DKK": 6778
-      }
-    },
-    ".//@xml:lang": {
-      "cisu-dk.xml": {
-        "en": 21
-      },
-      "cisu-gaia.xml": {
-        "da": 2320
-      }
-    },
-    ".//budget/@status": {
-      "cisu-gaia.xml": {
-        "1": 5316
-      }
-    },
-    ".//budget/@type": {
-      "cisu-gaia.xml": {
-        "1": 5316
-      }
-    },
-    ".//budget/value/@currency": {
-      "cisu-gaia.xml": {
-        "DKK": 5316
       }
     }
   }

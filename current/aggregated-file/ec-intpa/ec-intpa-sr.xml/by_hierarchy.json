@@ -119,6 +119,7 @@
       "iati-activity/related-activity/@ref": 30,
       "iati-activity/related-activity/@type": 30,
       "iati-activity/tag": 2,
+      "iati-activity/tag/narrative": 1,
       "iati-activity/tag/@vocabulary": 2,
       "iati-activity/tag/@code": 2,
       "iati-activity/planned-disbursement": 1,
@@ -133,8 +134,7 @@
       "iati-activity/planned-disbursement/provider-org/narrative": 1,
       "iati-activity/planned-disbursement/provider-org/@provider-activity-id": 1,
       "iati-activity/planned-disbursement/provider-org/@type": 1,
-      "iati-activity/planned-disbursement/@type": 1,
-      "iati-activity/tag/narrative": 1
+      "iati-activity/planned-disbursement/@type": 1
     },
     "elements_total": {
       "iati-activity": 31,
@@ -254,6 +254,7 @@
       "iati-activity/related-activity/@ref": 128,
       "iati-activity/related-activity/@type": 128,
       "iati-activity/tag": 6,
+      "iati-activity/tag/narrative": 5,
       "iati-activity/tag/@vocabulary": 6,
       "iati-activity/tag/@code": 6,
       "iati-activity/planned-disbursement": 10,
@@ -268,20 +269,13 @@
       "iati-activity/planned-disbursement/provider-org/narrative": 10,
       "iati-activity/planned-disbursement/provider-org/@provider-activity-id": 10,
       "iati-activity/planned-disbursement/provider-org/@type": 10,
-      "iati-activity/planned-disbursement/@type": 10,
-      "iati-activity/tag/narrative": 5
+      "iati-activity/planned-disbursement/@type": 10
     },
     "forwardlooking_currency_year": {
       "2011": {
         "EUR": 0.0
       },
-      "2006": {
-        "EUR": 0.0
-      },
       "null": {
-        "EUR": 0.0
-      },
-      "2003": {
         "EUR": 0.0
       },
       "2007": {
@@ -290,7 +284,13 @@
       "2022": {
         "EUR": 0.0
       },
+      "2006": {
+        "EUR": 0.0
+      },
       "2023": {
+        "EUR": 0.0
+      },
+      "2003": {
         "EUR": 0.0
       }
     },
@@ -602,31 +602,31 @@
       "iati-activity/budget/@status": 151,
       "iati-activity/capital-spend": 150,
       "iati-activity/capital-spend/@percentage": 150,
-      "iati-activity/transaction": 606,
-      "iati-activity/transaction/transaction-type": 606,
-      "iati-activity/transaction/transaction-type/@code": 606,
-      "iati-activity/transaction/transaction-date": 606,
-      "iati-activity/transaction/transaction-date/@iso-date": 606,
-      "iati-activity/transaction/value": 606,
-      "iati-activity/transaction/value/@currency": 606,
-      "iati-activity/transaction/value/@value-date": 606,
-      "iati-activity/transaction/provider-org": 606,
-      "iati-activity/transaction/provider-org/@ref": 606,
-      "iati-activity/transaction/provider-org/@provider-activity-id": 606,
-      "iati-activity/transaction/provider-org/@type": 606,
-      "iati-activity/transaction/receiver-org": 606,
-      "iati-activity/transaction/receiver-org/narrative": 606,
-      "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 606,
-      "iati-activity/transaction/disbursement-channel": 606,
-      "iati-activity/transaction/disbursement-channel/@code": 606,
-      "iati-activity/transaction/flow-type": 606,
-      "iati-activity/transaction/flow-type/@code": 606,
-      "iati-activity/transaction/finance-type": 606,
-      "iati-activity/transaction/finance-type/@code": 606,
-      "iati-activity/transaction/aid-type": 606,
-      "iati-activity/transaction/aid-type/@code": 606,
-      "iati-activity/transaction/@ref": 606,
-      "iati-activity/transaction/@humanitarian": 606,
+      "iati-activity/transaction": 608,
+      "iati-activity/transaction/transaction-type": 608,
+      "iati-activity/transaction/transaction-type/@code": 608,
+      "iati-activity/transaction/transaction-date": 608,
+      "iati-activity/transaction/transaction-date/@iso-date": 608,
+      "iati-activity/transaction/value": 608,
+      "iati-activity/transaction/value/@currency": 608,
+      "iati-activity/transaction/value/@value-date": 608,
+      "iati-activity/transaction/provider-org": 608,
+      "iati-activity/transaction/provider-org/@ref": 608,
+      "iati-activity/transaction/provider-org/@provider-activity-id": 608,
+      "iati-activity/transaction/provider-org/@type": 608,
+      "iati-activity/transaction/receiver-org": 608,
+      "iati-activity/transaction/receiver-org/narrative": 608,
+      "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 608,
+      "iati-activity/transaction/disbursement-channel": 608,
+      "iati-activity/transaction/disbursement-channel/@code": 608,
+      "iati-activity/transaction/flow-type": 608,
+      "iati-activity/transaction/flow-type/@code": 608,
+      "iati-activity/transaction/finance-type": 608,
+      "iati-activity/transaction/finance-type/@code": 608,
+      "iati-activity/transaction/aid-type": 608,
+      "iati-activity/transaction/aid-type/@code": 608,
+      "iati-activity/transaction/@ref": 608,
+      "iati-activity/transaction/@humanitarian": 608,
       "iati-activity/related-activity": 150,
       "iati-activity/related-activity/@ref": 150,
       "iati-activity/related-activity/@type": 150,
@@ -735,13 +735,13 @@
       }
     },
     "forwardlooking_activities_current": {
-      "2022": 7,
-      "2023": 7,
-      "2024": 5
+      "2022": 9,
+      "2023": 9,
+      "2024": 6
     },
     "forwardlooking_activities_with_budgets": {
-      "2022": 6,
-      "2023": 0,
+      "2022": 7,
+      "2023": 1,
       "2024": 0
     },
     "forwardlooking_activities_with_budget_not_provided": {

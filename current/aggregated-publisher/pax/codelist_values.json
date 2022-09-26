@@ -3,18 +3,18 @@
     "EUR": 22
   },
   ".//@xml:lang": {
-    "en": 11,
     "eng": 11,
+    "en": 11,
     "ar": 2
   },
   ".//activity-date/@type": {
     "2": 22,
-    "4": 5,
-    "3": 17
+    "3": 17,
+    "4": 5
   },
   ".//activity-status/@code": {
-    "4": 5,
-    "2": 17
+    "2": 17,
+    "4": 5
   },
   ".//budget/value/@currency": {
     "EUR": 106
@@ -58,28 +58,30 @@
   },
   ".//participating-org/@role": {
     "1": 23,
-    "4": 62,
-    "2": 22
+    "2": 22,
+    "4": 62
   },
   ".//participating-org/@type": {
-    "10": 6,
+    "22": 16,
     "21": 69,
     "80": 6,
-    "22": 16
+    "10": 6
   },
   ".//policy-marker/@significance": {
-    "2": 14,
-    "1": 22
+    "1": 22,
+    "2": 14
   },
   ".//policy-marker/@vocabulary": {
     "1": 36
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "1": 14,
     "3": 19,
+    "1": 14,
     "2": 3
   },
   ".//recipient-country/@code": {
+    "UA": 1,
+    "SS": 8,
     "IQ": 5,
     "CD": 1,
     "LB": 1,
@@ -87,10 +89,8 @@
     "BF": 1,
     "ML": 1,
     "NE": 1,
-    "SS": 8,
     "SY": 1,
     "YE": 1,
-    "UA": 1,
     "BE": 3,
     "NL": 3,
     "US": 2,
@@ -108,9 +108,9 @@
     "21": 22
   },
   ".//result/@type": {
-    "2": 46,
     "1": 34,
-    "9": 3
+    "9": 3,
+    "2": 46
   },
   ".//result/indicator/@measure": {
     "1": 129,
@@ -123,19 +123,19 @@
     "1": 50
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15220": 16,
+    "15170": 7,
     "15180": 6,
     "15160": 10,
-    "15220": 16,
     "25040": 5,
     "15150": 8,
     "15261": 1,
-    "15170": 7,
     "15210": 3
   },
   ".//transaction/provider-org/@type": {
-    "10": 42,
+    "22": 2,
     "21": 415,
-    "22": 2
+    "10": 42
   },
   ".//transaction/receiver-org/@type": {
     "21": 309,
@@ -143,11 +143,11 @@
     "80": 12
   },
   ".//transaction/transaction-type/@code": {
-    "1": 128,
-    "3": 179,
-    "4": 96,
     "11": 50,
-    "2": 38
+    "1": 128,
+    "2": 38,
+    "3": 179,
+    "4": 96
   },
   ".//transaction/value/@currency": {
     "EUR": 491

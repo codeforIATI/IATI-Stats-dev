@@ -54,6 +54,9 @@
       "iati-activity/sector/@vocabulary": 14,
       "iati-activity/sector/@code": 14,
       "iati-activity/sector/@percentage": 14,
+      "iati-activity/tag": 1,
+      "iati-activity/tag/@vocabulary": 1,
+      "iati-activity/tag/@code": 1,
       "iati-activity/policy-marker": 14,
       "iati-activity/policy-marker/narrative": 14,
       "iati-activity/policy-marker/@code": 14,
@@ -110,10 +113,7 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 14,
       "iati-activity/@default-currency": 14,
       "iati-activity/@humanitarian": 14,
-      "iati-activity/@hierarchy": 14,
-      "iati-activity/tag": 1,
-      "iati-activity/tag/@vocabulary": 1,
-      "iati-activity/tag/@code": 1
+      "iati-activity/@hierarchy": 14
     },
     "elements_total": {
       "iati-activity": 14,
@@ -168,6 +168,9 @@
       "iati-activity/sector/@vocabulary": 14,
       "iati-activity/sector/@code": 14,
       "iati-activity/sector/@percentage": 14,
+      "iati-activity/tag": 1,
+      "iati-activity/tag/@vocabulary": 1,
+      "iati-activity/tag/@code": 1,
       "iati-activity/policy-marker": 168,
       "iati-activity/policy-marker/narrative": 168,
       "iati-activity/policy-marker/@code": 168,
@@ -224,12 +227,15 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 14,
       "iati-activity/@default-currency": 14,
       "iati-activity/@humanitarian": 14,
-      "iati-activity/@hierarchy": 14,
-      "iati-activity/tag": 1,
-      "iati-activity/tag/@vocabulary": 1,
-      "iati-activity/tag/@code": 1
+      "iati-activity/@hierarchy": 14
     },
     "forwardlooking_currency_year": {
+      "2023": {
+        "EUR": 0.0
+      },
+      "2022": {
+        "EUR": 0.0
+      },
       "null": {
         "EUR": 0.0
       },
@@ -237,12 +243,6 @@
         "EUR": 0.0
       },
       "2003": {
-        "EUR": 0.0
-      },
-      "2023": {
-        "EUR": 0.0
-      },
-      "2022": {
         "EUR": 0.0
       }
     },
@@ -555,32 +555,32 @@
       "iati-activity/budget/@status": 46,
       "iati-activity/capital-spend": 46,
       "iati-activity/capital-spend/@percentage": 46,
-      "iati-activity/transaction": 101,
-      "iati-activity/transaction/transaction-type": 101,
-      "iati-activity/transaction/transaction-type/@code": 101,
-      "iati-activity/transaction/transaction-date": 101,
-      "iati-activity/transaction/transaction-date/@iso-date": 101,
-      "iati-activity/transaction/value": 101,
-      "iati-activity/transaction/value/@currency": 101,
-      "iati-activity/transaction/value/@value-date": 101,
-      "iati-activity/transaction/provider-org": 101,
-      "iati-activity/transaction/provider-org/@ref": 101,
-      "iati-activity/transaction/provider-org/@provider-activity-id": 101,
-      "iati-activity/transaction/provider-org/@type": 101,
-      "iati-activity/transaction/receiver-org": 101,
-      "iati-activity/transaction/receiver-org/narrative": 101,
-      "iati-activity/transaction/disbursement-channel": 101,
-      "iati-activity/transaction/disbursement-channel/@code": 101,
-      "iati-activity/transaction/flow-type": 101,
-      "iati-activity/transaction/flow-type/@code": 101,
-      "iati-activity/transaction/finance-type": 101,
-      "iati-activity/transaction/finance-type/@code": 101,
-      "iati-activity/transaction/aid-type": 101,
-      "iati-activity/transaction/aid-type/@code": 101,
+      "iati-activity/transaction": 102,
+      "iati-activity/transaction/transaction-type": 102,
+      "iati-activity/transaction/transaction-type/@code": 102,
+      "iati-activity/transaction/transaction-date": 102,
+      "iati-activity/transaction/transaction-date/@iso-date": 102,
+      "iati-activity/transaction/value": 102,
+      "iati-activity/transaction/value/@currency": 102,
+      "iati-activity/transaction/value/@value-date": 102,
+      "iati-activity/transaction/provider-org": 102,
+      "iati-activity/transaction/provider-org/@ref": 102,
+      "iati-activity/transaction/provider-org/@provider-activity-id": 102,
+      "iati-activity/transaction/provider-org/@type": 102,
+      "iati-activity/transaction/receiver-org": 102,
+      "iati-activity/transaction/receiver-org/narrative": 102,
+      "iati-activity/transaction/disbursement-channel": 102,
+      "iati-activity/transaction/disbursement-channel/@code": 102,
+      "iati-activity/transaction/flow-type": 102,
+      "iati-activity/transaction/flow-type/@code": 102,
+      "iati-activity/transaction/finance-type": 102,
+      "iati-activity/transaction/finance-type/@code": 102,
+      "iati-activity/transaction/aid-type": 102,
+      "iati-activity/transaction/aid-type/@code": 102,
       "iati-activity/transaction/tied-status": 14,
       "iati-activity/transaction/tied-status/@code": 14,
-      "iati-activity/transaction/@ref": 101,
-      "iati-activity/transaction/@humanitarian": 101,
+      "iati-activity/transaction/@ref": 102,
+      "iati-activity/transaction/@humanitarian": 102,
       "iati-activity/related-activity": 45,
       "iati-activity/related-activity/@ref": 45,
       "iati-activity/related-activity/@type": 45,

@@ -5,8 +5,8 @@
     },
     ".//activity-date/@type": {
       "2": 2,
-      "1": 4,
       "3": 2,
+      "1": 4,
       "4": 2
     },
     ".//activity-status/@code": {
@@ -40,8 +40,8 @@
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "15185": 1,
       "15220": 2,
-      "15210": 4,
-      "text": 6
+      "text": 6,
+      "15210": 4
     },
     ".//sector/@vocabulary": {
       "1": 7,
@@ -51,32 +51,32 @@
       "en": 50
     },
     ".//recipient-country/@code": {
-      "LB": 1,
-      "KE": 2,
       "LY": 1,
-      "SY": 1
-    },
-    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15210": 2,
-      "text": 6
-    },
-    ".//transaction/sector/@vocabulary": {
-      "1": 2
+      "SY": 1,
+      "LB": 1,
+      "KE": 2
     },
     ".//transaction/transaction-type/@code": {
-      "1": 7,
       "4": 44,
-      "3": 21
+      "3": 21,
+      "1": 7
     },
     ".//transaction/value/@currency": {
-      "GBP": 3,
-      "EUR": 59
+      "EUR": 59,
+      "GBP": 3
     },
     ".//transaction/provider-org/@type": {
       " ": 6
     },
     ".//transaction/receiver-org/@type": {
       " ": 6
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "text": 6,
+      "15210": 2
+    },
+    ".//transaction/sector/@vocabulary": {
+      "1": 2
     }
   }
 }

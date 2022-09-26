@@ -54,6 +54,10 @@
       "iati-activity/sector/@vocabulary": 32,
       "iati-activity/sector/@code": 32,
       "iati-activity/sector/@percentage": 32,
+      "iati-activity/tag": 3,
+      "iati-activity/tag/narrative": 2,
+      "iati-activity/tag/@vocabulary": 3,
+      "iati-activity/tag/@code": 3,
       "iati-activity/policy-marker": 32,
       "iati-activity/policy-marker/narrative": 32,
       "iati-activity/policy-marker/@code": 32,
@@ -111,11 +115,7 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 32,
       "iati-activity/@default-currency": 32,
       "iati-activity/@humanitarian": 32,
-      "iati-activity/@hierarchy": 32,
-      "iati-activity/tag": 3,
-      "iati-activity/tag/narrative": 2,
-      "iati-activity/tag/@vocabulary": 3,
-      "iati-activity/tag/@code": 3
+      "iati-activity/@hierarchy": 32
     },
     "elements_total": {
       "iati-activity": 32,
@@ -170,6 +170,10 @@
       "iati-activity/sector/@vocabulary": 33,
       "iati-activity/sector/@code": 33,
       "iati-activity/sector/@percentage": 33,
+      "iati-activity/tag": 8,
+      "iati-activity/tag/narrative": 6,
+      "iati-activity/tag/@vocabulary": 8,
+      "iati-activity/tag/@code": 8,
       "iati-activity/policy-marker": 384,
       "iati-activity/policy-marker/narrative": 384,
       "iati-activity/policy-marker/@code": 384,
@@ -227,20 +231,19 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 32,
       "iati-activity/@default-currency": 32,
       "iati-activity/@humanitarian": 32,
-      "iati-activity/@hierarchy": 32,
-      "iati-activity/tag": 8,
-      "iati-activity/tag/narrative": 6,
-      "iati-activity/tag/@vocabulary": 8,
-      "iati-activity/tag/@code": 8
+      "iati-activity/@hierarchy": 32
     },
     "forwardlooking_currency_year": {
       "2022": {
         "EUR": 0.0
       },
-      "2023": {
+      "null": {
         "EUR": 0.0
       },
-      "null": {
+      "2003": {
+        "EUR": 0.0
+      },
+      "2023": {
         "EUR": 0.0
       },
       "2001": {
@@ -250,9 +253,6 @@
         "EUR": 0.0
       },
       "2006": {
-        "EUR": 0.0
-      },
-      "2003": {
         "EUR": 0.0
       }
     },

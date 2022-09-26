@@ -55,6 +55,10 @@
       "iati-activity/sector/@vocabulary": 7,
       "iati-activity/sector/@code": 7,
       "iati-activity/sector/@percentage": 7,
+      "iati-activity/tag": 1,
+      "iati-activity/tag/@vocabulary": 1,
+      "iati-activity/tag/@code": 1,
+      "iati-activity/tag/narrative": 1,
       "iati-activity/policy-marker": 7,
       "iati-activity/policy-marker/narrative": 7,
       "iati-activity/policy-marker/@code": 7,
@@ -107,19 +111,15 @@
       "iati-activity/related-activity/@type": 6,
       "iati-activity/conditions": 7,
       "iati-activity/conditions/@attached": 7,
-      "iati-activity/crs-add": 1,
-      "iati-activity/crs-add/other-flags": 1,
-      "iati-activity/crs-add/other-flags/@code": 1,
-      "iati-activity/crs-add/other-flags/@significance": 1,
       "iati-activity/@last-updated-datetime": 7,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 7,
       "iati-activity/@default-currency": 7,
       "iati-activity/@humanitarian": 7,
       "iati-activity/@hierarchy": 7,
-      "iati-activity/tag": 1,
-      "iati-activity/tag/@vocabulary": 1,
-      "iati-activity/tag/@code": 1,
-      "iati-activity/tag/narrative": 1
+      "iati-activity/crs-add": 1,
+      "iati-activity/crs-add/other-flags": 1,
+      "iati-activity/crs-add/other-flags/@code": 1,
+      "iati-activity/crs-add/other-flags/@significance": 1
     },
     "elements_total": {
       "iati-activity": 7,
@@ -175,6 +175,10 @@
       "iati-activity/sector/@vocabulary": 7,
       "iati-activity/sector/@code": 7,
       "iati-activity/sector/@percentage": 7,
+      "iati-activity/tag": 2,
+      "iati-activity/tag/@vocabulary": 2,
+      "iati-activity/tag/@code": 2,
+      "iati-activity/tag/narrative": 1,
       "iati-activity/policy-marker": 84,
       "iati-activity/policy-marker/narrative": 84,
       "iati-activity/policy-marker/@code": 84,
@@ -227,19 +231,15 @@
       "iati-activity/related-activity/@type": 27,
       "iati-activity/conditions": 7,
       "iati-activity/conditions/@attached": 7,
-      "iati-activity/crs-add": 1,
-      "iati-activity/crs-add/other-flags": 1,
-      "iati-activity/crs-add/other-flags/@code": 1,
-      "iati-activity/crs-add/other-flags/@significance": 1,
       "iati-activity/@last-updated-datetime": 7,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 7,
       "iati-activity/@default-currency": 7,
       "iati-activity/@humanitarian": 7,
       "iati-activity/@hierarchy": 7,
-      "iati-activity/tag": 2,
-      "iati-activity/tag/@vocabulary": 2,
-      "iati-activity/tag/@code": 2,
-      "iati-activity/tag/narrative": 1
+      "iati-activity/crs-add": 1,
+      "iati-activity/crs-add/other-flags": 1,
+      "iati-activity/crs-add/other-flags/@code": 1,
+      "iati-activity/crs-add/other-flags/@significance": 1
     },
     "forwardlooking_currency_year": {
       "null": {
@@ -439,15 +439,15 @@
       "iati-activity/related-activity/@type": 30,
       "iati-activity/conditions": 30,
       "iati-activity/conditions/@attached": 30,
+      "iati-activity/crs-add": 3,
+      "iati-activity/crs-add/other-flags": 3,
+      "iati-activity/crs-add/other-flags/@code": 3,
+      "iati-activity/crs-add/other-flags/@significance": 3,
       "iati-activity/@last-updated-datetime": 30,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 30,
       "iati-activity/@default-currency": 30,
       "iati-activity/@humanitarian": 30,
       "iati-activity/@hierarchy": 30,
-      "iati-activity/crs-add": 3,
-      "iati-activity/crs-add/other-flags": 3,
-      "iati-activity/crs-add/other-flags/@code": 3,
-      "iati-activity/crs-add/other-flags/@significance": 3,
       "iati-activity/default-tied-status": 15,
       "iati-activity/default-tied-status/@code": 15,
       "iati-activity/transaction/tied-status": 15,
@@ -565,15 +565,15 @@
       "iati-activity/related-activity/@type": 30,
       "iati-activity/conditions": 30,
       "iati-activity/conditions/@attached": 30,
+      "iati-activity/crs-add": 3,
+      "iati-activity/crs-add/other-flags": 3,
+      "iati-activity/crs-add/other-flags/@code": 3,
+      "iati-activity/crs-add/other-flags/@significance": 3,
       "iati-activity/@last-updated-datetime": 30,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 30,
       "iati-activity/@default-currency": 30,
       "iati-activity/@humanitarian": 30,
       "iati-activity/@hierarchy": 30,
-      "iati-activity/crs-add": 3,
-      "iati-activity/crs-add/other-flags": 3,
-      "iati-activity/crs-add/other-flags/@code": 3,
-      "iati-activity/crs-add/other-flags/@significance": 3,
       "iati-activity/default-tied-status": 15,
       "iati-activity/default-tied-status/@code": 15,
       "iati-activity/transaction/tied-status": 42,
@@ -587,10 +587,10 @@
       "2010": {
         "EUR": 0.0
       },
-      "2012": {
+      "2011": {
         "EUR": 0.0
       },
-      "2011": {
+      "2012": {
         "EUR": 0.0
       },
       "null": {
@@ -599,10 +599,10 @@
       "2013": {
         "EUR": 0.0
       },
-      "2018": {
+      "2017": {
         "EUR": 0.0
       },
-      "2017": {
+      "2018": {
         "EUR": 0.0
       },
       "2019": {

@@ -64,18 +64,18 @@
       "iati-activity/transaction/aid-type/@vocabulary": 823,
       "iati-activity/transaction/tied-status": 824,
       "iati-activity/transaction/tied-status/@code": 824,
+      "iati-activity/transaction/@humanitarian": 638,
       "iati-activity/@last-updated-datetime": 831,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 831,
       "iati-activity/@default-currency": 831,
       "iati-activity/@humanitarian": 831,
       "iati-activity/@hierarchy": 831,
-      "iati-activity/transaction/@humanitarian": 638,
       "iati-activity/recipient-country/narrative": 7,
       "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 5,
-      "iati-activity/activity-date/narrative": 8,
-      "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 8,
       "iati-activity/sector/narrative": 7,
       "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 5,
+      "iati-activity/activity-date/narrative": 8,
+      "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 8,
       "iati-activity/transaction/description": 1,
       "iati-activity/transaction/description/narrative": 1,
       "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
@@ -149,18 +149,18 @@
       "iati-activity/transaction/aid-type/@vocabulary": 823,
       "iati-activity/transaction/tied-status": 824,
       "iati-activity/transaction/tied-status/@code": 824,
+      "iati-activity/transaction/@humanitarian": 638,
       "iati-activity/@last-updated-datetime": 831,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 831,
       "iati-activity/@default-currency": 831,
       "iati-activity/@humanitarian": 831,
       "iati-activity/@hierarchy": 831,
-      "iati-activity/transaction/@humanitarian": 638,
       "iati-activity/recipient-country/narrative": 7,
       "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 5,
-      "iati-activity/activity-date/narrative": 15,
-      "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 15,
       "iati-activity/sector/narrative": 7,
       "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 5,
+      "iati-activity/activity-date/narrative": 15,
+      "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 15,
       "iati-activity/transaction/description": 1,
       "iati-activity/transaction/description/narrative": 1,
       "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
@@ -172,9 +172,6 @@
       "iati-activity/transaction/disbursement-channel/@code": 2
     },
     "forwardlooking_currency_year": {
-      "2019": {
-        "USD": 426516965.0
-      },
       "2018": {
         "USD": 986260032.0,
         "USN": 417487.0
@@ -182,14 +179,17 @@
       "2016": {
         "USD": 170981653.0
       },
-      "2020": {
-        "USD": 250891311.08
-      },
       "2021": {
         "USD": 448892602.0
       },
+      "2019": {
+        "USD": 426516965.0
+      },
       "2017": {
         "USD": 353038531.0
+      },
+      "2020": {
+        "USD": 250891311.08
       },
       "2015": {
         "USD": 7629498.0
@@ -225,7 +225,7 @@
       "sector": 689,
       "country_or_region": 689,
       "transaction_commitment": 0,
-      "transaction_spend": 656,
+      "transaction_spend": 658,
       "transaction_currency": 684,
       "transaction_traceability": 480,
       "budget": 689,
@@ -254,7 +254,7 @@
       "sector": 689,
       "country_or_region": 689,
       "transaction_commitment": 0,
-      "transaction_spend": 656,
+      "transaction_spend": 658,
       "transaction_currency": 689,
       "transaction_traceability": 480,
       "budget": 689,
@@ -273,7 +273,7 @@
     },
     "comprehensiveness_denominators": {
       "recipient_language": 688,
-      "transaction_spend": 662,
+      "transaction_spend": 664,
       "transaction_traceability": 481
     },
     "comprehensiveness_denominator_default": 689

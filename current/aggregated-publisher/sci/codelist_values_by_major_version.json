@@ -8,8 +8,8 @@
       "3": 1158
     },
     ".//activity-status/@code": {
-      "2": 156,
-      "3": 1002
+      "3": 1002,
+      "2": 156
     },
     ".//budget/@type": {
       "1": 582
@@ -32,14 +32,32 @@
     ".//default-tied-status/@code": {
       "5": 1158
     },
+    ".//document-link/@format": {
+      "Web page": 84,
+      "text/html": 6
+    },
+    ".//document-link/category/@code": {
+      "A02": 74,
+      "A08": 86,
+      "A07": 12,
+      "A05": 3,
+      "A12": 1
+    },
+    ".//humanitarian-scope/@type": {
+      "1": 568
+    },
+    ".//humanitarian-scope/@vocabulary": {
+      "99": 552,
+      "1-2": 16
+    },
     ".//participating-org/@role": {
+      "4": 1158,
       "1": 1158,
-      "2": 1158,
-      "4": 1158
+      "2": 1158
     },
     ".//participating-org/@type": {
-      "10": 1,
-      "21": 3473
+      "21": 3473,
+      "10": 1
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "2": 1158
@@ -51,7 +69,6 @@
       "1": 1158
     },
     ".//recipient-country/@code": {
-      "MM": 100,
       "VN": 12,
       "NP": 17,
       "TJ": 2,
@@ -62,6 +79,7 @@
       "MZ": 26,
       "BF": 4,
       "UG": 12,
+      "MM": 100,
       "RW": 14,
       "ET": 174,
       "JO": 1,
@@ -90,58 +108,11 @@
       "ID": 4,
       "CV": 1
     },
-    ".//reporting-org/@type": {
-      "21": 1158
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "12230": 1,
-      "11240": 21,
-      "15160": 180,
-      "16064": 7,
-      "99810": 82,
-      "11230": 10,
-      "12220": 227,
-      "13020": 102,
-      "24040": 152,
-      "11220": 81,
-      "16010": 224,
-      "12240": 245,
-      "11182": 82,
-      "13030": 11,
-      "12261": 139
-    },
-    ".//sector/@vocabulary": {
-      "1": 1564
-    },
-    ".//transaction/transaction-type/@code": {
-      "1": 3796,
-      "3": 9,
-      "4": 3793,
-      "2": 579
-    },
-    ".//@xml:lang": {
-      "en": 1158
-    },
-    ".//document-link/@format": {
-      "Web page": 84,
-      "text/html": 6
-    },
-    ".//document-link/category/@code": {
-      "A02": 74,
-      "A08": 86,
-      "A07": 12,
-      "A05": 3,
-      "A12": 1
-    },
-    ".//humanitarian-scope/@type": {
-      "1": 568
-    },
-    ".//humanitarian-scope/@vocabulary": {
-      "99": 552,
-      "1-2": 16
-    },
     ".//recipient-region/@vocabulary": {
       "99": 582
+    },
+    ".//reporting-org/@type": {
+      "21": 1158
     },
     ".//result/@type": {
       "3": 12,
@@ -159,6 +130,35 @@
     ".//result/indicator/@measure": {
       "1": 358,
       "2": 129
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "15160": 180,
+      "16064": 7,
+      "99810": 82,
+      "11230": 10,
+      "12220": 227,
+      "13020": 102,
+      "24040": 152,
+      "11220": 81,
+      "16010": 224,
+      "12240": 245,
+      "11240": 21,
+      "11182": 82,
+      "13030": 11,
+      "12261": 139,
+      "12230": 1
+    },
+    ".//sector/@vocabulary": {
+      "1": 1564
+    },
+    ".//transaction/transaction-type/@code": {
+      "1": 3796,
+      "4": 3793,
+      "2": 579,
+      "3": 9
+    },
+    ".//@xml:lang": {
+      "en": 1158
     },
     ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
       "EP-2020-000012-001": 16

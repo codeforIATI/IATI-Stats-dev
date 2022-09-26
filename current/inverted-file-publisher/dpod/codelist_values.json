@@ -1,27 +1,27 @@
 {
   ".//@default-currency": {
     "DKK": {
-      "dpod-2020.xml": 268,
-      "dpod-activities.xml": 2
+      "dpod-activities.xml": 2,
+      "dpod-2020.xml": 268
     }
   },
   ".//@xml:lang": {
     "da": {
-      "dpod-2020.xml": 1072,
-      "dpod-activities.xml": 11
+      "dpod-activities.xml": 11,
+      "dpod-2020.xml": 1072
     },
     "en": {
       "dpod-activities.xml": 2
     }
   },
   ".//activity-date/@type": {
-    "1": {
-      "dpod-2020.xml": 268,
-      "dpod-activities.xml": 1
-    },
     "2": {
-      "dpod-2020.xml": 268,
-      "dpod-activities.xml": 1
+      "dpod-activities.xml": 1,
+      "dpod-2020.xml": 268
+    },
+    "1": {
+      "dpod-activities.xml": 1,
+      "dpod-2020.xml": 268
     },
     "3": {
       "dpod-2020.xml": 268
@@ -36,30 +36,30 @@
     }
   },
   ".//activity-status/@code": {
+    "2": {
+      "dpod-activities.xml": 2,
+      "dpod-2020.xml": 115
+    },
     "4": {
       "dpod-2020.xml": 153
-    },
-    "2": {
-      "dpod-2020.xml": 115,
-      "dpod-activities.xml": 2
     }
   },
   ".//budget/@status": {
     "2": {
-      "dpod-2020.xml": 528,
-      "dpod-activities.xml": 4
+      "dpod-activities.xml": 4,
+      "dpod-2020.xml": 528
     }
   },
   ".//budget/@type": {
     "1": {
-      "dpod-2020.xml": 528,
-      "dpod-activities.xml": 4
+      "dpod-activities.xml": 4,
+      "dpod-2020.xml": 528
     }
   },
   ".//budget/value/@currency": {
     "DKK": {
-      "dpod-2020.xml": 528,
-      "dpod-activities.xml": 4
+      "dpod-activities.xml": 4,
+      "dpod-2020.xml": 528
     }
   },
   ".//contact-info/@type": {
@@ -74,14 +74,11 @@
   },
   ".//description/@type": {
     "1": {
-      "dpod-2020.xml": 268,
-      "dpod-activities.xml": 2
+      "dpod-activities.xml": 2,
+      "dpod-2020.xml": 268
     }
   },
   ".//participating-org/@crs-channel-code": {
-    "20000": {
-      "dpod-2020.xml": 804
-    },
     "11001": {
       "dpod-activities.xml": 1
     },
@@ -90,41 +87,44 @@
     },
     "22000": {
       "dpod-activities.xml": 2
+    },
+    "20000": {
+      "dpod-2020.xml": 804
     }
   },
   ".//participating-org/@role": {
-    "3": {
-      "dpod-2020.xml": 268,
-      "dpod-activities.xml": 1
-    },
     "1": {
-      "dpod-2020.xml": 268,
-      "dpod-activities.xml": 2
+      "dpod-activities.xml": 2,
+      "dpod-2020.xml": 268
     },
     "2": {
-      "dpod-2020.xml": 268,
-      "dpod-activities.xml": 1
+      "dpod-activities.xml": 1,
+      "dpod-2020.xml": 268
+    },
+    "3": {
+      "dpod-activities.xml": 1,
+      "dpod-2020.xml": 268
     }
   },
   ".//participating-org/@type": {
-    "22": {
-      "dpod-2020.xml": 804,
-      "dpod-activities.xml": 2
-    },
     "10": {
       "dpod-activities.xml": 2
+    },
+    "22": {
+      "dpod-activities.xml": 2,
+      "dpod-2020.xml": 804
     }
   },
   ".//recipient-country/@code": {
+    "DK": {
+      "dpod-activities.xml": 2,
+      "dpod-2020.xml": 23
+    },
     "GH": {
       "dpod-2020.xml": 38
     },
     "NP": {
       "dpod-2020.xml": 36
-    },
-    "DK": {
-      "dpod-2020.xml": 23,
-      "dpod-activities.xml": 2
     },
     "VN": {
       "dpod-2020.xml": 10
@@ -190,14 +190,14 @@
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "298": {
-      "dpod-2020.xml": 1
-    },
     "89": {
       "dpod-activities.xml": 1
     },
     "998": {
       "dpod-activities.xml": 1
+    },
+    "298": {
+      "dpod-2020.xml": 1
     }
   },
   ".//related-activity/@type": {
@@ -206,29 +206,29 @@
     }
   },
   ".//reporting-org/@type": {
-    "22": {
-      "dpod-2020.xml": 268
-    },
     "21": {
       "dpod-activities.xml": 2
+    },
+    "22": {
+      "dpod-2020.xml": 268
     }
   },
   ".//sector/@vocabulary": {
     "1": {
-      "dpod-2020.xml": 536,
-      "dpod-activities.xml": 12
+      "dpod-activities.xml": 12,
+      "dpod-2020.xml": 536
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "15150": {
-      "dpod-2020.xml": 268
-    },
     "15160": {
-      "dpod-2020.xml": 268,
-      "dpod-activities.xml": 7
+      "dpod-activities.xml": 7,
+      "dpod-2020.xml": 268
     },
     "99810": {
       "dpod-activities.xml": 5
+    },
+    "15150": {
+      "dpod-2020.xml": 268
     }
   },
   ".//tag/@vocabulary": {
@@ -258,17 +258,17 @@
     }
   },
   ".//transaction/provider-org/@type": {
-    "22": {
-      "dpod-2020.xml": 379
-    },
     "10": {
       "dpod-activities.xml": 12
+    },
+    "22": {
+      "dpod-2020.xml": 379
     }
   },
   ".//transaction/receiver-org/@type": {
     "22": {
-      "dpod-2020.xml": 379,
-      "dpod-activities.xml": 12
+      "dpod-activities.xml": 12,
+      "dpod-2020.xml": 379
     }
   },
   ".//transaction/sector/@vocabulary": {
@@ -290,17 +290,17 @@
     }
   },
   ".//transaction/transaction-type/@code": {
-    "3": {
-      "dpod-2020.xml": 379
-    },
     "1": {
       "dpod-activities.xml": 12
+    },
+    "3": {
+      "dpod-2020.xml": 379
     }
   },
   ".//transaction/value/@currency": {
     "DKK": {
-      "dpod-2020.xml": 379,
-      "dpod-activities.xml": 12
+      "dpod-activities.xml": 12,
+      "dpod-2020.xml": 379
     }
   }
 }

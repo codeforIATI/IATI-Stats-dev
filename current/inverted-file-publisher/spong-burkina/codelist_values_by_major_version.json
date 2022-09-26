@@ -48,6 +48,21 @@
         "5": 2
       }
     },
+    ".//document-link/@format": {
+      "spong-burkina-activities.xml": {
+        "application/pdf": 8
+      }
+    },
+    ".//document-link/category/@code": {
+      "spong-burkina-activities.xml": {
+        "B01": 8
+      }
+    },
+    ".//document-link/language/@code": {
+      "spong-burkina-activities.xml": {
+        "fr": 8
+      }
+    },
     ".//participating-org/@role": {
       "spong-burkina-activities.xml": {
         "2": 2,
@@ -93,12 +108,13 @@
     ".//result/@type": {
       "spong-burkina-activities.xml": {
         "3": 4,
-        "2": 3
+        "2": 5,
+        "1": 2
       }
     },
     ".//result/indicator/@measure": {
       "spong-burkina-activities.xml": {
-        "1": 9
+        "1": 22
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -131,9 +147,9 @@
     ".//@xml:lang": {
       "spong-burkina-activities.xml": {
         "EN": 28,
-        "nl": 32,
-        "en": 44,
-        "fr": 32
+        "nl": 66,
+        "en": 92,
+        "fr": 66
       }
     }
   }

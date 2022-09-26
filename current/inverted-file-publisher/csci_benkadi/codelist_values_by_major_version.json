@@ -48,6 +48,21 @@
         "5": 1
       }
     },
+    ".//document-link/@format": {
+      "csci_benkadi-actvities.xml": {
+        "application/pdf": 6
+      }
+    },
+    ".//document-link/category/@code": {
+      "csci_benkadi-actvities.xml": {
+        "B01": 6
+      }
+    },
+    ".//document-link/language/@code": {
+      "csci_benkadi-actvities.xml": {
+        "fr": 6
+      }
+    },
     ".//participating-org/@role": {
       "csci_benkadi-actvities.xml": {
         "2": 1,
@@ -94,13 +109,14 @@
     ".//result/@type": {
       "csci_benkadi-actvities.xml": {
         "3": 4,
-        "2": 4
+        "2": 5,
+        "1": 2
       }
     },
     ".//result/indicator/@measure": {
       "csci_benkadi-actvities.xml": {
-        "1": 8,
-        "2": 2
+        "1": 21,
+        "2": 1
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -133,9 +149,9 @@
     ".//@xml:lang": {
       "csci_benkadi-actvities.xml": {
         "FR": 14,
-        "nl": 36,
-        "en": 36,
-        "fr": 46
+        "nl": 66,
+        "en": 66,
+        "fr": 88
       }
     }
   }

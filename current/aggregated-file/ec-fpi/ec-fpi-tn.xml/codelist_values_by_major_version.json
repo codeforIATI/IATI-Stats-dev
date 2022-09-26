@@ -35,10 +35,10 @@
       "2": 5
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 23,
       "D01": 2,
-      "B03": 1,
       "B01": 1,
+      "C01": 23,
+      "B03": 1,
       "D02": 3
     },
     ".//default-finance-type/@code": {
@@ -94,9 +94,9 @@
       "12": 30
     },
     ".//policy-marker/@significance": {
+      "0": 304,
       "2": 33,
-      "1": 23,
-      "0": 304
+      "1": 23
     },
     ".//policy-marker/@vocabulary": {
       "1": 360
@@ -112,15 +112,15 @@
       "15": 30
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15150": 4,
-      "15153": 1,
       "15151": 9,
+      "15153": 1,
       "15170": 1,
+      "15150": 4,
       "99810": 1,
       "15130": 1,
       "15220": 9,
-      "33110": 1,
       "15210": 2,
+      "33110": 1,
       "74010": 1
     },
     ".//sector/@vocabulary": {
@@ -135,10 +135,10 @@
       "2": 18
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 50,
       "D01": 4,
-      "B03": 1,
       "B01": 7,
+      "C01": 50,
+      "B03": 1,
       "D02": 6
     },
     ".//transaction/disbursement-channel/@code": {
@@ -160,8 +160,8 @@
       "3": 4
     },
     ".//transaction/transaction-type/@code": {
-      "3": 44,
       "4": 24,
+      "3": 44,
       "2": 9
     },
     ".//transaction/value/@currency": {

@@ -51,8 +51,8 @@
     "G01": 2,
     "E01": 1,
     "B03": 2,
-    "PRJ": 2,
-    "TCO": 3
+    "TCO": 3,
+    "PRJ": 2
   },
   ".//default-finance-type/@code": {
     "110": 551
@@ -76,10 +76,10 @@
   ".//document-link/category/@code": {
     "A10": 148,
     "A03": 1,
+    "A05": 1,
     "A04": 1,
-    "A01": 1,
     "A02": 1,
-    "A05": 1
+    "A01": 1
   },
   ".//document-link/language/@code": {
     "ES": 122,
@@ -232,9 +232,9 @@
     "15190": 4,
     "24030": 1,
     "15220": 1,
+    "23230": 1,
     "15110-": 1,
-    "16050": 1,
-    "23230": 1
+    "16050": 1
   },
   ".//tag/@vocabulary": {
     "99": 7,
@@ -258,7 +258,7 @@
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "D02": 328,
-    "C01": 1049,
+    "C01": 1050,
     "H01": 30,
     "OTH": 6070,
     "PDA": 849,
@@ -267,18 +267,18 @@
     "B03": 5
   },
   ".//transaction/disbursement-channel/@code": {
-    "2": 8498
+    "2": 8499
   },
   ".//transaction/finance-type/@code": {
-    "110": 7915
+    "110": 7916
   },
   ".//transaction/flow-type/@code": {
-    "10": 1407,
+    "10": 1408,
     "50": 6929,
     "20": 2
   },
   ".//transaction/provider-org/@type": {
-    "15": 8498
+    "15": 8499
   },
   ".//transaction/tied-status/@code": {
     "5": 216,
@@ -287,10 +287,10 @@
   },
   ".//transaction/transaction-type/@code": {
     "4": 987,
-    "3": 7351,
+    "3": 7352,
     "2": 160
   },
   ".//transaction/value/@currency": {
-    "EUR": 8498
+    "EUR": 8499
   }
 }

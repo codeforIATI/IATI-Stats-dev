@@ -302,6 +302,10 @@
       "iati-activity/sector/@code": 541,
       "iati-activity/sector/@vocabulary": 541,
       "iati-activity/sector/@percentage": 541,
+      "iati-activity/humanitarian-scope": 195,
+      "iati-activity/humanitarian-scope/@type": 195,
+      "iati-activity/humanitarian-scope/@vocabulary": 195,
+      "iati-activity/humanitarian-scope/@code": 195,
       "iati-activity/collaboration-type": 541,
       "iati-activity/collaboration-type/@code": 541,
       "iati-activity/default-flow-type": 541,
@@ -332,15 +336,17 @@
       "iati-activity/transaction/value": 541,
       "iati-activity/transaction/value/@currency": 541,
       "iati-activity/transaction/value/@value-date": 541,
+      "iati-activity/transaction/description": 195,
+      "iati-activity/transaction/description/narrative": 195,
       "iati-activity/transaction/provider-org": 541,
       "iati-activity/transaction/provider-org/@ref": 541,
       "iati-activity/transaction/provider-org/@provider-activity-id": 541,
       "iati-activity/transaction/provider-org/@type": 541,
       "iati-activity/transaction/receiver-org": 541,
-      "iati-activity/transaction/receiver-org/@ref": 541,
-      "iati-activity/transaction/receiver-org/@receiver-activity-id": 541,
       "iati-activity/transaction/receiver-org/narrative": 541,
       "iati-activity/transaction/@ref": 537,
+      "iati-activity/transaction/receiver-org/@ref": 541,
+      "iati-activity/transaction/receiver-org/@receiver-activity-id": 541,
       "iati-activity/document-link": 541,
       "iati-activity/document-link/title": 541,
       "iati-activity/document-link/title/narrative": 541,
@@ -367,13 +373,7 @@
       "iati-activity/recipient-region": 76,
       "iati-activity/recipient-region/@code": 76,
       "iati-activity/recipient-region/@vocabulary": 76,
-      "iati-activity/recipient-region/@percentage": 76,
-      "iati-activity/humanitarian-scope": 195,
-      "iati-activity/humanitarian-scope/@type": 195,
-      "iati-activity/humanitarian-scope/@vocabulary": 195,
-      "iati-activity/humanitarian-scope/@code": 195,
-      "iati-activity/transaction/description": 195,
-      "iati-activity/transaction/description/narrative": 195
+      "iati-activity/recipient-region/@percentage": 76
     },
     "elements_total": {
       "iati-activity": 541,
@@ -429,6 +429,10 @@
       "iati-activity/sector/@code": 2867,
       "iati-activity/sector/@vocabulary": 2867,
       "iati-activity/sector/@percentage": 2867,
+      "iati-activity/humanitarian-scope": 195,
+      "iati-activity/humanitarian-scope/@type": 195,
+      "iati-activity/humanitarian-scope/@vocabulary": 195,
+      "iati-activity/humanitarian-scope/@code": 195,
       "iati-activity/collaboration-type": 541,
       "iati-activity/collaboration-type/@code": 541,
       "iati-activity/default-flow-type": 541,
@@ -459,15 +463,17 @@
       "iati-activity/transaction/value": 4642,
       "iati-activity/transaction/value/@currency": 4642,
       "iati-activity/transaction/value/@value-date": 4642,
+      "iati-activity/transaction/description": 1342,
+      "iati-activity/transaction/description/narrative": 1342,
       "iati-activity/transaction/provider-org": 4642,
       "iati-activity/transaction/provider-org/@ref": 4642,
       "iati-activity/transaction/provider-org/@provider-activity-id": 4642,
       "iati-activity/transaction/provider-org/@type": 4642,
       "iati-activity/transaction/receiver-org": 4642,
-      "iati-activity/transaction/receiver-org/@ref": 946,
-      "iati-activity/transaction/receiver-org/@receiver-activity-id": 946,
       "iati-activity/transaction/receiver-org/narrative": 3696,
       "iati-activity/transaction/@ref": 2961,
+      "iati-activity/transaction/receiver-org/@ref": 946,
+      "iati-activity/transaction/receiver-org/@receiver-activity-id": 946,
       "iati-activity/document-link": 1605,
       "iati-activity/document-link/title": 1605,
       "iati-activity/document-link/title/narrative": 1605,
@@ -494,13 +500,7 @@
       "iati-activity/recipient-region": 77,
       "iati-activity/recipient-region/@code": 77,
       "iati-activity/recipient-region/@vocabulary": 77,
-      "iati-activity/recipient-region/@percentage": 77,
-      "iati-activity/humanitarian-scope": 195,
-      "iati-activity/humanitarian-scope/@type": 195,
-      "iati-activity/humanitarian-scope/@vocabulary": 195,
-      "iati-activity/humanitarian-scope/@code": 195,
-      "iati-activity/transaction/description": 1342,
-      "iati-activity/transaction/description/narrative": 1342
+      "iati-activity/recipient-region/@percentage": 77
     },
     "forwardlooking_currency_year": {
       "2018": {
@@ -509,11 +509,11 @@
       "2020": {
         "EUR": 121256263.22
       },
-      "2021": {
-        "EUR": 97593198.49
-      },
       "2019": {
         "EUR": 1556412160.16
+      },
+      "2021": {
+        "EUR": 97593198.49
       },
       "2022": {
         "EUR": 10220362.0

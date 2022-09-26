@@ -1,7 +1,7 @@
 {
   ".//@default-currency": {
-    "GBP": 5,
-    "BAM": 3
+    "BAM": 3,
+    "GBP": 5
   },
   ".//@xml:lang": {
     "en": 489
@@ -12,8 +12,8 @@
     "1": 1
   },
   ".//activity-scope/@code": {
-    "4": 5,
     "6": 2,
+    "4": 5,
     "3": 1
   },
   ".//activity-status/@code": {
@@ -26,22 +26,22 @@
     "1": 19
   },
   ".//budget/value/@currency": {
-    "GBP": 12,
     "BAM": 2,
-    "USD": 5
+    "USD": 5,
+    "GBP": 12
   },
   ".//collaboration-type/@code": {
-    "1": 4,
     "2": 3,
+    "1": 4,
     "4": 1
   },
   ".//conditions/condition/@type": {
     "2": 3
   },
   ".//contact-info/@type": {
-    "1": 6,
     "2": 3,
     "3": 2,
+    "1": 6,
     "4": 1
   },
   ".//default-aid-type/@vocabulary": {
@@ -61,8 +61,8 @@
     "3": 1
   },
   ".//description/@type": {
-    "1": 6,
     "2": 6,
+    "1": 6,
     "3": 4,
     "4": 1
   },
@@ -103,19 +103,19 @@
     "A3": 1
   },
   ".//participating-org/@crs-channel-code": {
-    "21000": 2,
-    "11000": 1
+    "11000": 1,
+    "21000": 2
   },
   ".//participating-org/@role": {
+    "4": 7,
     "1": 5,
-    "2": 5,
-    "4": 7
+    "2": 5
   },
   ".//participating-org/@type": {
     "21": 9,
-    "70": 4,
     "10": 1,
-    "22": 3
+    "22": 3,
+    "70": 4
   },
   ".//planned-disbursement/@type": {
     "1": 6,
@@ -148,11 +148,11 @@
     "10": 1
   },
   ".//recipient-country/@code": {
-    "VN": 2,
     "BA": 2,
+    "IQ": 2,
     "LA": 2,
     "LB": 2,
-    "IQ": 2
+    "VN": 2
   },
   ".//recipient-region/@vocabulary": {
     "99": 2,
@@ -200,8 +200,8 @@
     "1": 2
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "B01": 2,
-    "B03": 2
+    "B03": 2,
+    "B01": 2
   },
   ".//transaction/disbursement-channel/@code": {
     "2": 58,
@@ -214,8 +214,8 @@
     "10": 2
   },
   ".//transaction/provider-org/@type": {
-    "21": 37,
-    "10": 4
+    "10": 4,
+    "21": 37
   },
   ".//transaction/receiver-org/@type": {
     "21": 39,
@@ -233,15 +233,15 @@
     "3": 2
   },
   ".//transaction/transaction-type/@code": {
-    "4": 78,
     "1": 9,
+    "4": 78,
+    "2": 2,
     "3": 4,
-    "11": 1,
-    "2": 2
+    "11": 1
   },
   ".//transaction/value/@currency": {
-    "GBP": 45,
+    "BAM": 20,
     "USD": 28,
-    "BAM": 20
+    "GBP": 45
   }
 }

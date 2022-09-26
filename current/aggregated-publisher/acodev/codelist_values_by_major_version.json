@@ -3,27 +3,8 @@
     ".//@default-currency": {
       "EUR": 9
     },
-    ".//activity-date/@type": {
-      "1": 6,
-      "2": 8,
-      "3": 6,
-      "4": 6
-    },
-    ".//activity-status/@code": {
-      "4": 6,
-      "2": 2
-    },
-    ".//budget/@status": {
-      "2": 27
-    },
-    ".//budget/@type": {
-      "1": 27
-    },
     ".//collaboration-type/@code": {
       "1": 9
-    },
-    ".//contact-info/@type": {
-      "1": 8
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 8,
@@ -40,6 +21,37 @@
     },
     ".//default-tied-status/@code": {
       "5": 9
+    },
+    ".//related-activity/@type": {
+      "1": 6,
+      "2": 2
+    },
+    ".//reporting-org/@type": {
+      "22": 9
+    },
+    ".//@xml:lang": {
+      "fr": 31,
+      "en": 6,
+      "nl": 2
+    },
+    ".//activity-date/@type": {
+      "1": 6,
+      "2": 8,
+      "3": 6,
+      "4": 6
+    },
+    ".//activity-status/@code": {
+      "4": 6,
+      "2": 2
+    },
+    ".//budget/@status": {
+      "2": 27
+    },
+    ".//budget/@type": {
+      "1": 27
+    },
+    ".//contact-info/@type": {
+      "1": 8
     },
     ".//description/@type": {
       "1": 6,
@@ -89,13 +101,6 @@
     ".//recipient-region/@vocabulary": {
       "1": 2
     },
-    ".//related-activity/@type": {
-      "1": 6,
-      "2": 2
-    },
-    ".//reporting-org/@type": {
-      "22": 9
-    },
     ".//result/@type": {
       "2": 4
     },
@@ -124,11 +129,6 @@
     },
     ".//transaction/value/@currency": {
       "EUR": 1
-    },
-    ".//@xml:lang": {
-      "fr": 31,
-      "en": 6,
-      "nl": 2
     }
   }
 }

@@ -1,9 +1,6 @@
 {
   "2": {
     ".//@default-currency": {
-      "mstamp-et.xml": {
-        "GBP": 2
-      },
       "mstamp-bd.xml": {
         "GBP": 3
       },
@@ -12,14 +9,12 @@
       },
       "mstamp-ug.xml": {
         "GBP": 3
+      },
+      "mstamp-et.xml": {
+        "GBP": 2
       }
     },
     ".//activity-date/@type": {
-      "mstamp-et.xml": {
-        "2": 2,
-        "4": 1,
-        "3": 1
-      },
       "mstamp-bd.xml": {
         "2": 3,
         "4": 2,
@@ -32,12 +27,14 @@
       "mstamp-ug.xml": {
         "2": 3,
         "3": 3
+      },
+      "mstamp-et.xml": {
+        "2": 2,
+        "4": 1,
+        "3": 1
       }
     },
     ".//activity-status/@code": {
-      "mstamp-et.xml": {
-        "2": 2
-      },
       "mstamp-bd.xml": {
         "2": 3
       },
@@ -46,21 +43,12 @@
       },
       "mstamp-ug.xml": {
         "2": 3
-      }
-    },
-    ".//activity-scope/@code": {
-      "mstamp-et.xml": {
-        "8": 1
       },
-      "mstamp-ug.xml": {
-        "4": 2
+      "mstamp-et.xml": {
+        "2": 2
       }
     },
     ".//budget/@type": {
-      "mstamp-et.xml": {
-        "1": 2,
-        "2": 1
-      },
       "mstamp-bd.xml": {
         "2": 1,
         "1": 2
@@ -71,20 +59,13 @@
       "mstamp-ug.xml": {
         "1": 2,
         "2": 2
-      }
-    },
-    ".//budget/value/@currency": {
-      "mstamp-et.xml": {
-        "GBP": 3
       },
-      "mstamp-ug.xml": {
-        "GBP": 1
+      "mstamp-et.xml": {
+        "1": 2,
+        "2": 1
       }
     },
     ".//contact-info/@type": {
-      "mstamp-et.xml": {
-        "1": 2
-      },
       "mstamp-bd.xml": {
         "1": 3
       },
@@ -93,13 +74,12 @@
       },
       "mstamp-ug.xml": {
         "1": 3
+      },
+      "mstamp-et.xml": {
+        "1": 2
       }
     },
     ".//description/@type": {
-      "mstamp-et.xml": {
-        "1": 1,
-        "2": 1
-      },
       "mstamp-bd.xml": {
         "1": 3
       },
@@ -108,12 +88,13 @@
       },
       "mstamp-ug.xml": {
         "1": 3
+      },
+      "mstamp-et.xml": {
+        "1": 1,
+        "2": 1
       }
     },
     ".//document-link/@format": {
-      "mstamp-et.xml": {
-        "application/msword": 1
-      },
       "mstamp-bd.xml": {
         "application/msword": 2
       },
@@ -121,13 +102,13 @@
         "application/msword": 2
       },
       "mstamp-ug.xml": {
+        "application/msword": 1
+      },
+      "mstamp-et.xml": {
         "application/msword": 1
       }
     },
     ".//document-link/category/@code": {
-      "mstamp-et.xml": {
-        "A11": 1
-      },
       "mstamp-bd.xml": {
         "B01": 2
       },
@@ -137,12 +118,12 @@
       },
       "mstamp-ug.xml": {
         "B01": 1
+      },
+      "mstamp-et.xml": {
+        "A11": 1
       }
     },
     ".//document-link/language/@code": {
-      "mstamp-et.xml": {
-        "en": 1
-      },
       "mstamp-bd.xml": {
         "en": 2
       },
@@ -151,12 +132,12 @@
       },
       "mstamp-ug.xml": {
         "en": 1
+      },
+      "mstamp-et.xml": {
+        "en": 1
       }
     },
     ".//participating-org/@role": {
-      "mstamp-et.xml": {
-        "1": 2
-      },
       "mstamp-bd.xml": {
         "1": 3
       },
@@ -165,12 +146,12 @@
       },
       "mstamp-ug.xml": {
         "1": 3
+      },
+      "mstamp-et.xml": {
+        "1": 2
       }
     },
     ".//participating-org/@type": {
-      "mstamp-et.xml": {
-        "10": 2
-      },
       "mstamp-bd.xml": {
         "10": 3
       },
@@ -179,12 +160,12 @@
       },
       "mstamp-ug.xml": {
         "10": 3
+      },
+      "mstamp-et.xml": {
+        "10": 2
       }
     },
     ".//recipient-country/@code": {
-      "mstamp-et.xml": {
-        "ET": 2
-      },
       "mstamp-bd.xml": {
         "BD": 3
       },
@@ -193,12 +174,12 @@
       },
       "mstamp-ug.xml": {
         "UG": 3
+      },
+      "mstamp-et.xml": {
+        "ET": 2
       }
     },
     ".//reporting-org/@type": {
-      "mstamp-et.xml": {
-        "70": 2
-      },
       "mstamp-bd.xml": {
         "70": 3
       },
@@ -207,29 +188,12 @@
       },
       "mstamp-ug.xml": {
         "70": 3
+      },
+      "mstamp-et.xml": {
+        "70": 2
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "mstamp-et.xml": {
-        "15164": 1,
-        "16010": 1,
-        "16064": 1,
-        "92010": 1,
-        "11130": 1,
-        "11230": 1,
-        "11240": 1,
-        "13030": 1,
-        "13040": 1,
-        "13081": 1,
-        "15120": 1,
-        "15130": 1,
-        "15162": 1,
-        "11120": 1,
-        "13020": 1,
-        "11320": 1,
-        "11220": 1,
-        "15155": 1
-      },
       "mstamp-bd.xml": {
         "15130": 1,
         "43040": 1,
@@ -256,12 +220,29 @@
         "24081": 1,
         "11220": 1,
         "16062": 1
+      },
+      "mstamp-et.xml": {
+        "15164": 1,
+        "16010": 1,
+        "16064": 1,
+        "92010": 1,
+        "11130": 1,
+        "11230": 1,
+        "11240": 1,
+        "13030": 1,
+        "13040": 1,
+        "13081": 1,
+        "15120": 1,
+        "15130": 1,
+        "15162": 1,
+        "11120": 1,
+        "13020": 1,
+        "11320": 1,
+        "11220": 1,
+        "15155": 1
       }
     },
     ".//sector/@vocabulary": {
-      "mstamp-et.xml": {
-        "1": 18
-      },
       "mstamp-bd.xml": {
         "1": 8
       },
@@ -270,20 +251,12 @@
       },
       "mstamp-ug.xml": {
         "1": 7
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "mstamp-et.xml": {
-        "1": 25
       },
-      "mstamp-mw.xml": {
-        "1": 9
+      "mstamp-et.xml": {
+        "1": 18
       }
     },
     ".//@xml:lang": {
-      "mstamp-et.xml": {
-        "en": 18
-      },
       "mstamp-bd.xml": {
         "en": 10
       },
@@ -292,6 +265,33 @@
       },
       "mstamp-ug.xml": {
         "en": 24
+      },
+      "mstamp-et.xml": {
+        "en": 18
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "mstamp-mw.xml": {
+        "1": 9
+      },
+      "mstamp-et.xml": {
+        "1": 25
+      }
+    },
+    ".//activity-scope/@code": {
+      "mstamp-ug.xml": {
+        "4": 2
+      },
+      "mstamp-et.xml": {
+        "8": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "mstamp-ug.xml": {
+        "GBP": 1
+      },
+      "mstamp-et.xml": {
+        "GBP": 3
       }
     }
   }

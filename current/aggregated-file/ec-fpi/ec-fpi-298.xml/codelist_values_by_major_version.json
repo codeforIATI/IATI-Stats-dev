@@ -36,8 +36,8 @@
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 31,
-      "B03": 1,
-      "D02": 4
+      "D02": 4,
+      "B03": 1
     },
     ".//default-finance-type/@code": {
       "110": 36
@@ -73,12 +73,12 @@
     ".//participating-org/@type": {
       "15": 91,
       "40": 10,
-      "N/A": 1,
       "70": 1,
+      "N/A": 1,
       "10": 2,
       "22": 1,
-      "21": 1,
-      "90": 1
+      "90": 1,
+      "21": 1
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "1": 36,
@@ -124,8 +124,8 @@
       "12110": 1,
       "15130": 3,
       "15110": 1,
-      "15113": 2,
       "32210": 4,
+      "15113": 2,
       "11330": 1,
       "12250": 1
     },
@@ -145,33 +145,33 @@
       "99": 3
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 51,
-      "B03": 3,
-      "D02": 9
+      "C01": 52,
+      "D02": 9,
+      "B03": 3
     },
     ".//transaction/disbursement-channel/@code": {
-      "2": 83
+      "2": 84
     },
     ".//transaction/finance-type/@code": {
-      "110": 63
+      "110": 64
     },
     ".//transaction/flow-type/@code": {
-      "10": 63
+      "10": 64
     },
     ".//transaction/provider-org/@type": {
-      "15": 83
+      "15": 84
     },
     ".//transaction/tied-status/@code": {
       "5": 35,
       "3": 9
     },
     ".//transaction/transaction-type/@code": {
-      "3": 48,
+      "3": 49,
       "4": 15,
       "2": 20
     },
     ".//transaction/value/@currency": {
-      "EUR": 83
+      "EUR": 84
     },
     ".//@xml:lang": {
       "en": 162

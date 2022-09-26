@@ -1,20 +1,29 @@
 {
   "2": {
     ".//@default-currency": {
+      "amrefha-298.xml": {
+        "GBP": 6
+      },
+      "amrefha-ug.xml": {
+        "GBP": 1
+      },
       "amrefha-et.xml": {
         "GBP": 1
       },
       "amrefha-289.xml": {
         "GBP": 18
-      },
-      "amrefha-ug.xml": {
-        "GBP": 1
-      },
-      "amrefha-298.xml": {
-        "GBP": 6
       }
     },
     ".//activity-date/@type": {
+      "amrefha-298.xml": {
+        "2": 6,
+        "3": 4,
+        "4": 2
+      },
+      "amrefha-ug.xml": {
+        "2": 1,
+        "4": 1
+      },
       "amrefha-et.xml": {
         "2": 1,
         "3": 1
@@ -24,18 +33,17 @@
         "3": 14,
         "1": 4,
         "4": 1
-      },
-      "amrefha-ug.xml": {
-        "2": 1,
-        "4": 1
-      },
-      "amrefha-298.xml": {
-        "2": 6,
-        "3": 4,
-        "4": 2
       }
     },
     ".//activity-status/@code": {
+      "amrefha-298.xml": {
+        "3": 3,
+        "4": 1,
+        "2": 2
+      },
+      "amrefha-ug.xml": {
+        "3": 1
+      },
       "amrefha-et.xml": {
         "2": 1
       },
@@ -43,134 +51,144 @@
         "2": 15,
         "1": 2,
         "3": 1
-      },
-      "amrefha-ug.xml": {
-        "3": 1
-      },
-      "amrefha-298.xml": {
-        "3": 3,
-        "4": 1,
-        "2": 2
       }
     },
     ".//budget/@status": {
+      "amrefha-298.xml": {
+        "2": 26
+      },
+      "amrefha-ug.xml": {
+        "2": 1
+      },
       "amrefha-et.xml": {
         "2": 1
       },
       "amrefha-289.xml": {
         "1": 18,
         "2": 11
+      }
+    },
+    ".//budget/@type": {
+      "amrefha-298.xml": {
+        "1": 18,
+        "2": 7
       },
       "amrefha-ug.xml": {
         "2": 1
       },
-      "amrefha-298.xml": {
-        "2": 26
-      }
-    },
-    ".//budget/@type": {
       "amrefha-et.xml": {
         "1": 1
       },
       "amrefha-289.xml": {
         "1": 26
-      },
-      "amrefha-ug.xml": {
-        "2": 1
-      },
-      "amrefha-298.xml": {
-        "1": 18,
-        "2": 7
       }
     },
     ".//budget/value/@currency": {
+      "amrefha-298.xml": {
+        "GBP": 12,
+        "ZAR": 7
+      },
+      "amrefha-ug.xml": {
+        "GBP": 1
+      },
       "amrefha-et.xml": {
         "GBP": 1
       },
       "amrefha-289.xml": {
         "GBP": 26
-      },
-      "amrefha-ug.xml": {
-        "GBP": 1
-      },
+      }
+    },
+    ".//contact-info/@type": {
       "amrefha-298.xml": {
-        "GBP": 12,
-        "ZAR": 7
+        "1": 6
+      },
+      "amrefha-289.xml": {
+        "1": 1
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "amrefha-298.xml": {
+        "C01": 6
+      },
+      "amrefha-ug.xml": {
+        "C01": 1
+      },
       "amrefha-et.xml": {
         "C01": 1
       },
       "amrefha-289.xml": {
         "C01": 17,
         "G01": 1
-      },
-      "amrefha-ug.xml": {
-        "C01": 1
-      },
-      "amrefha-298.xml": {
-        "C01": 6
       }
     },
     ".//default-aid-type/@vocabulary": {
+      "amrefha-298.xml": {
+        "1": 6
+      },
+      "amrefha-ug.xml": {
+        "1": 1
+      },
       "amrefha-et.xml": {
         "1": 1
       },
       "amrefha-289.xml": {
         "1": 18
-      },
-      "amrefha-ug.xml": {
-        "1": 1
-      },
-      "amrefha-298.xml": {
-        "1": 6
       }
     },
     ".//default-finance-type/@code": {
+      "amrefha-298.xml": {
+        "110": 6
+      },
+      "amrefha-ug.xml": {
+        "110": 1
+      },
       "amrefha-et.xml": {
         "110": 1
       },
       "amrefha-289.xml": {
         "110": 18
-      },
-      "amrefha-ug.xml": {
-        "110": 1
-      },
-      "amrefha-298.xml": {
-        "110": 6
       }
     },
     ".//default-flow-type/@code": {
+      "amrefha-298.xml": {
+        "10": 6
+      },
+      "amrefha-ug.xml": {
+        "10": 1
+      },
       "amrefha-et.xml": {
         "10": 1
       },
       "amrefha-289.xml": {
         "10": 17,
         "20": 1
-      },
-      "amrefha-ug.xml": {
-        "10": 1
-      },
-      "amrefha-298.xml": {
-        "10": 6
       }
     },
     ".//default-tied-status/@code": {
+      "amrefha-298.xml": {
+        "5": 6
+      },
+      "amrefha-ug.xml": {
+        "5": 1
+      },
       "amrefha-et.xml": {
         "5": 1
       },
       "amrefha-289.xml": {
         "5": 18
-      },
-      "amrefha-ug.xml": {
-        "5": 1
-      },
-      "amrefha-298.xml": {
-        "5": 6
       }
     },
     ".//description/@type": {
+      "amrefha-298.xml": {
+        "1": 6,
+        "2": 6,
+        "3": 6
+      },
+      "amrefha-ug.xml": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
       "amrefha-et.xml": {
         "1": 1,
         "2": 1,
@@ -181,19 +199,39 @@
         "2": 15,
         "3": 14,
         "4": 1
+      }
+    },
+    ".//document-link/@format": {
+      "amrefha-298.xml": {
+        "application/xslt+xml": 4,
+        "application/msword": 4
       },
       "amrefha-ug.xml": {
-        "1": 1,
-        "2": 1,
-        "3": 1
-      },
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
       "amrefha-298.xml": {
-        "1": 6,
-        "2": 6,
-        "3": 6
+        "A05": 4,
+        "A02": 1,
+        "A08": 3
+      },
+      "amrefha-ug.xml": {
+        "A02": 1
       }
     },
     ".//participating-org/@role": {
+      "amrefha-298.xml": {
+        "1": 6,
+        "2": 6,
+        "4": 6
+      },
+      "amrefha-ug.xml": {
+        "1": 1,
+        "4": 1,
+        "3": 1,
+        "2": 1
+      },
       "amrefha-et.xml": {
         "1": 1,
         "4": 1
@@ -202,20 +240,19 @@
         "4": 16,
         "1": 24,
         "2": 10
-      },
-      "amrefha-ug.xml": {
-        "1": 1,
-        "4": 1,
-        "3": 1,
-        "2": 1
-      },
-      "amrefha-298.xml": {
-        "1": 6,
-        "2": 6,
-        "4": 6
       }
     },
     ".//participating-org/@type": {
+      "amrefha-298.xml": {
+        "60": 4,
+        "21": 12,
+        "71": 2
+      },
+      "amrefha-ug.xml": {
+        "10": 1,
+        "21": 2,
+        "70": 1
+      },
       "amrefha-et.xml": {
         "71": 1,
         "21": 1
@@ -228,19 +265,19 @@
         "40": 1,
         "90": 2,
         "15": 1
-      },
-      "amrefha-ug.xml": {
-        "10": 1,
-        "21": 2,
-        "70": 1
-      },
-      "amrefha-298.xml": {
-        "60": 4,
-        "21": 12,
-        "71": 2
       }
     },
     ".//recipient-country/@code": {
+      "amrefha-298.xml": {
+        "UG": 1,
+        "ET": 1,
+        "KE": 2,
+        "ZA": 1,
+        "TZ": 1
+      },
+      "amrefha-ug.xml": {
+        "UG": 1
+      },
       "amrefha-et.xml": {
         "ET": 1
       },
@@ -260,33 +297,48 @@
         "ZM": 1,
         "NA": 1,
         "BW": 1
-      },
-      "amrefha-ug.xml": {
-        "UG": 1
-      },
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "amrefha-298.xml": {
-        "UG": 1,
-        "ET": 1,
-        "KE": 2,
-        "ZA": 1,
-        "TZ": 1
+        "298": 6
+      },
+      "amrefha-289.xml": {
+        "289": 18
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "amrefha-298.xml": {
+        "1": 6
+      },
+      "amrefha-289.xml": {
+        "1": 18
       }
     },
     ".//reporting-org/@type": {
+      "amrefha-298.xml": {
+        "21": 6
+      },
+      "amrefha-ug.xml": {
+        "21": 1
+      },
       "amrefha-et.xml": {
         "21": 1
       },
       "amrefha-289.xml": {
         "21": 18
-      },
-      "amrefha-ug.xml": {
-        "21": 1
-      },
-      "amrefha-298.xml": {
-        "21": 6
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "amrefha-298.xml": {
+        "13020": 2,
+        "14030": 1,
+        "12220": 1,
+        "12181": 2
+      },
+      "amrefha-ug.xml": {
+        "12181": 1
+      },
       "amrefha-et.xml": {
         "12250": 1
       },
@@ -303,32 +355,54 @@
         "14050": 1,
         "12250": 1,
         "12191": 1
-      },
-      "amrefha-ug.xml": {
-        "12181": 1
-      },
-      "amrefha-298.xml": {
-        "13020": 2,
-        "14030": 1,
-        "12220": 1,
-        "12181": 2
       }
     },
     ".//sector/@vocabulary": {
+      "amrefha-298.xml": {
+        "1": 6
+      },
+      "amrefha-ug.xml": {
+        "1": 1
+      },
       "amrefha-et.xml": {
         "1": 1
       },
       "amrefha-289.xml": {
         "1": 23
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "amrefha-298.xml": {
+        "15": 7,
+        "21": 4,
+        "71": 1
       },
       "amrefha-ug.xml": {
-        "1": 1
-      },
+        "21": 9,
+        "70": 5
+      }
+    },
+    ".//transaction/receiver-org/@type": {
       "amrefha-298.xml": {
-        "1": 6
+        "21": 10
+      },
+      "amrefha-ug.xml": {
+        "21": 8,
+        "70": 1
       }
     },
     ".//transaction/transaction-type/@code": {
+      "amrefha-298.xml": {
+        "4": 14,
+        "1": 31,
+        "3": 32
+      },
+      "amrefha-ug.xml": {
+        "3": 4,
+        "1": 5,
+        "4": 5,
+        "11": 1
+      },
       "amrefha-et.xml": {
         "1": 1,
         "3": 1
@@ -337,39 +411,37 @@
         "1": 30,
         "3": 38,
         "4": 10
+      }
+    },
+    ".//transaction/value/@currency": {
+      "amrefha-298.xml": {
+        "GBP": 64,
+        "ZAR": 2
       },
       "amrefha-ug.xml": {
-        "3": 4,
-        "1": 5,
-        "4": 5,
-        "11": 1
+        "GBP": 15
       },
-      "amrefha-298.xml": {
-        "4": 14,
-        "1": 31,
-        "3": 32
+      "amrefha-289.xml": {
+        "GBP": 55
       }
     },
     ".//@xml:lang": {
+      "amrefha-298.xml": {
+        "en": 32
+      },
+      "amrefha-ug.xml": {
+        "en": 6
+      },
       "amrefha-et.xml": {
         "en": 3
       },
       "amrefha-289.xml": {
         "en": 69
-      },
-      "amrefha-ug.xml": {
-        "en": 6
-      },
-      "amrefha-298.xml": {
-        "en": 32
       }
     },
-    ".//contact-info/@type": {
-      "amrefha-289.xml": {
-        "1": 1
-      },
-      "amrefha-298.xml": {
-        "1": 6
+    ".//document-link/language/@code": {
+      "amrefha-ug.xml": {
+        "en": 1
       }
     },
     ".//location/location-reach/@code": {
@@ -380,78 +452,6 @@
     ".//other-identifier/@type": {
       "amrefha-289.xml": {
         "A1": 1
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "amrefha-289.xml": {
-        "289": 18
-      },
-      "amrefha-298.xml": {
-        "298": 6
-      }
-    },
-    ".//recipient-region/@vocabulary": {
-      "amrefha-289.xml": {
-        "1": 18
-      },
-      "amrefha-298.xml": {
-        "1": 6
-      }
-    },
-    ".//transaction/value/@currency": {
-      "amrefha-289.xml": {
-        "GBP": 55
-      },
-      "amrefha-ug.xml": {
-        "GBP": 15
-      },
-      "amrefha-298.xml": {
-        "GBP": 64,
-        "ZAR": 2
-      }
-    },
-    ".//document-link/@format": {
-      "amrefha-ug.xml": {
-        "application/pdf": 1
-      },
-      "amrefha-298.xml": {
-        "application/xslt+xml": 4,
-        "application/msword": 4
-      }
-    },
-    ".//document-link/category/@code": {
-      "amrefha-ug.xml": {
-        "A02": 1
-      },
-      "amrefha-298.xml": {
-        "A05": 4,
-        "A02": 1,
-        "A08": 3
-      }
-    },
-    ".//document-link/language/@code": {
-      "amrefha-ug.xml": {
-        "en": 1
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "amrefha-ug.xml": {
-        "21": 9,
-        "70": 5
-      },
-      "amrefha-298.xml": {
-        "15": 7,
-        "21": 4,
-        "71": 1
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "amrefha-ug.xml": {
-        "21": 8,
-        "70": 1
-      },
-      "amrefha-298.xml": {
-        "21": 10
       }
     }
   }

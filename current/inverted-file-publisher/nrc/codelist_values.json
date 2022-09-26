@@ -1,24 +1,24 @@
 {
   ".//@default-currency": {
     "NOK": {
-      "nrc-9184472.xml": 51,
-      "nrc-9775383192.xml": 19,
       "nrc-closed-activities-2021.xml": 42,
       "nrc-977358319.xml": 32,
-      "nrc-977538319.xml": 29,
+      "nrc-activities.xml": 17,
+      "nrc-9184472.xml": 51,
       "nrc-977538313.xml": 5,
-      "nrc-activities.xml": 17
+      "nrc-9775383192.xml": 19,
+      "nrc-977538319.xml": 29
     }
   },
   ".//@xml:lang": {
     "en": {
-      "nrc-9184472.xml": 51,
-      "nrc-9775383192.xml": 19,
       "nrc-closed-activities-2021.xml": 147,
       "nrc-977358319.xml": 32,
-      "nrc-977538319.xml": 29,
+      "nrc-activities.xml": 144,
+      "nrc-9184472.xml": 51,
       "nrc-977538313.xml": 5,
-      "nrc-activities.xml": 144
+      "nrc-9775383192.xml": 19,
+      "nrc-977538319.xml": 29
     },
     "bn": {
       "nrc-closed-activities-2021.xml": 1,
@@ -26,20 +26,6 @@
     }
   },
   ".//activity-date/@type": {
-    "end-planned": {
-      "nrc-9184472.xml": 51,
-      "nrc-9775383192.xml": 19,
-      "nrc-977358319.xml": 32,
-      "nrc-977538319.xml": 29,
-      "nrc-977538313.xml": 5
-    },
-    "start-planned": {
-      "nrc-9184472.xml": 51,
-      "nrc-9775383192.xml": 19,
-      "nrc-977358319.xml": 32,
-      "nrc-977538319.xml": 29,
-      "nrc-977538313.xml": 5
-    },
     "1": {
       "nrc-closed-activities-2021.xml": 38,
       "nrc-activities.xml": 11
@@ -55,6 +41,20 @@
     "4": {
       "nrc-closed-activities-2021.xml": 2,
       "nrc-activities.xml": 2
+    },
+    "end-planned": {
+      "nrc-977358319.xml": 32,
+      "nrc-9184472.xml": 51,
+      "nrc-977538313.xml": 5,
+      "nrc-9775383192.xml": 19,
+      "nrc-977538319.xml": 29
+    },
+    "start-planned": {
+      "nrc-977358319.xml": 32,
+      "nrc-9184472.xml": 51,
+      "nrc-977538313.xml": 5,
+      "nrc-9775383192.xml": 19,
+      "nrc-977538319.xml": 29
     }
   },
   ".//activity-scope/@code": {
@@ -67,17 +67,17 @@
     }
   },
   ".//activity-status/@code": {
-    "3": {
-      "nrc-9184472.xml": 51,
-      "nrc-9775383192.xml": 19,
-      "nrc-closed-activities-2021.xml": 20,
-      "nrc-977358319.xml": 32,
-      "nrc-977538319.xml": 29,
-      "nrc-977538313.xml": 5
-    },
     "2": {
       "nrc-closed-activities-2021.xml": 9,
       "nrc-activities.xml": 17
+    },
+    "3": {
+      "nrc-closed-activities-2021.xml": 20,
+      "nrc-977358319.xml": 32,
+      "nrc-9184472.xml": 51,
+      "nrc-977538313.xml": 5,
+      "nrc-9775383192.xml": 19,
+      "nrc-977538319.xml": 29
     },
     "4": {
       "nrc-closed-activities-2021.xml": 13
@@ -288,27 +288,6 @@
     }
   },
   ".//participating-org/@role": {
-    "Funding": {
-      "nrc-9184472.xml": 51,
-      "nrc-9775383192.xml": 19,
-      "nrc-977358319.xml": 32,
-      "nrc-977538319.xml": 29,
-      "nrc-977538313.xml": 5
-    },
-    "Extending": {
-      "nrc-9184472.xml": 51,
-      "nrc-9775383192.xml": 19,
-      "nrc-977358319.xml": 32,
-      "nrc-977538319.xml": 29,
-      "nrc-977538313.xml": 5
-    },
-    "Implementing": {
-      "nrc-9184472.xml": 51,
-      "nrc-9775383192.xml": 19,
-      "nrc-977358319.xml": 32,
-      "nrc-977538319.xml": 29,
-      "nrc-977538313.xml": 5
-    },
     "1": {
       "nrc-closed-activities-2021.xml": 41,
       "nrc-activities.xml": 16
@@ -323,6 +302,27 @@
     },
     "3": {
       "nrc-closed-activities-2021.xml": 1
+    },
+    "Funding": {
+      "nrc-977358319.xml": 32,
+      "nrc-9184472.xml": 51,
+      "nrc-977538313.xml": 5,
+      "nrc-9775383192.xml": 19,
+      "nrc-977538319.xml": 29
+    },
+    "Extending": {
+      "nrc-977358319.xml": 32,
+      "nrc-9184472.xml": 51,
+      "nrc-977538313.xml": 5,
+      "nrc-9775383192.xml": 19,
+      "nrc-977538319.xml": 29
+    },
+    "Implementing": {
+      "nrc-977358319.xml": 32,
+      "nrc-9184472.xml": 51,
+      "nrc-977538313.xml": 5,
+      "nrc-9775383192.xml": 19,
+      "nrc-977538319.xml": 29
     }
   },
   ".//participating-org/@type": {
@@ -403,126 +403,51 @@
     }
   },
   ".//recipient-country/@code": {
-    "NO": {
-      "nrc-9184472.xml": 6,
-      "nrc-9775383192.xml": 4,
-      "nrc-closed-activities-2021.xml": 6,
-      "nrc-977358319.xml": 3,
-      "nrc-977538319.xml": 10,
-      "nrc-activities.xml": 1
-    },
-    "PS": {
-      "nrc-9184472.xml": 13,
-      "nrc-9775383192.xml": 1,
+    "AF": {
       "nrc-closed-activities-2021.xml": 1,
-      "nrc-977358319.xml": 3
-    },
-    "JO": {
-      "nrc-9184472.xml": 1,
-      "nrc-closed-activities-2021.xml": 3,
-      "nrc-977538313.xml": 1,
-      "nrc-activities.xml": 1
-    },
-    "IQ": {
-      "nrc-9184472.xml": 1,
-      "nrc-9775383192.xml": 1,
-      "nrc-closed-activities-2021.xml": 3,
-      "nrc-977358319.xml": 4,
-      "nrc-activities.xml": 1
-    },
-    "SS": {
-      "nrc-9184472.xml": 10,
-      "nrc-9775383192.xml": 2,
-      "nrc-closed-activities-2021.xml": 1,
-      "nrc-977358319.xml": 1,
-      "nrc-977538319.xml": 2
+      "nrc-activities.xml": 2,
+      "nrc-9775383192.xml": 1
     },
     "SO": {
-      "nrc-9184472.xml": 4,
-      "nrc-9775383192.xml": 1,
       "nrc-closed-activities-2021.xml": 12,
       "nrc-977358319.xml": 3,
-      "nrc-977538319.xml": 2,
-      "nrc-activities.xml": 3
-    },
-    "PK": {
+      "nrc-activities.xml": 3,
       "nrc-9184472.xml": 4,
-      "nrc-closed-activities-2021.xml": 2,
-      "nrc-977358319.xml": 3
-    },
-    "PH ": {
-      "nrc-9184472.xml": 1
-    },
-    "GR": {
-      "nrc-9184472.xml": 1
-    },
-    "LB": {
-      "nrc-9184472.xml": 5,
-      "nrc-closed-activities-2021.xml": 4,
-      "nrc-977538313.xml": 1,
-      "nrc-activities.xml": 2
-    },
-    "UA": {
-      "nrc-9184472.xml": 1,
-      "nrc-closed-activities-2021.xml": 1
-    },
-    "SY": {
-      "nrc-9184472.xml": 1,
-      "nrc-9775383192.xml": 2,
-      "nrc-closed-activities-2021.xml": 1,
-      "nrc-977538319.xml": 3,
-      "nrc-977538313.xml": 3
-    },
-    "YE": {
-      "nrc-9184472.xml": 3,
-      "nrc-closed-activities-2021.xml": 5,
-      "nrc-activities.xml": 3
-    },
-    "CH": {
       "nrc-9775383192.xml": 1,
-      "nrc-closed-activities-2021.xml": 1,
-      "nrc-977358319.xml": 1,
       "nrc-977538319.xml": 2
     },
-    "ML": {
-      "nrc-9775383192.xml": 1,
-      "nrc-977538319.xml": 4
+    "YE": {
+      "nrc-closed-activities-2021.xml": 5,
+      "nrc-activities.xml": 3,
+      "nrc-9184472.xml": 3
     },
-    "NG": {
-      "nrc-9775383192.xml": 1,
-      "nrc-closed-activities-2021.xml": 1,
-      "nrc-activities.xml": 1
-    },
-    "CD": {
-      "nrc-9775383192.xml": 1,
-      "nrc-closed-activities-2021.xml": 4,
+    "IQ": {
+      "nrc-closed-activities-2021.xml": 3,
       "nrc-977358319.xml": 4,
-      "nrc-977538319.xml": 2,
-      "nrc-activities.xml": 1
-    },
-    "KE": {
-      "nrc-9775383192.xml": 1,
-      "nrc-closed-activities-2021.xml": 4,
-      "nrc-activities.xml": 1
-    },
-    "AF": {
-      "nrc-9775383192.xml": 1,
-      "nrc-closed-activities-2021.xml": 1,
-      "nrc-activities.xml": 2
-    },
-    "CO": {
-      "nrc-9775383192.xml": 1,
-      "nrc-977358319.xml": 7,
-      "nrc-977538319.xml": 4
-    },
-    "ME": {
+      "nrc-activities.xml": 1,
+      "nrc-9184472.xml": 1,
       "nrc-9775383192.xml": 1
+    },
+    "NO": {
+      "nrc-closed-activities-2021.xml": 6,
+      "nrc-977358319.xml": 3,
+      "nrc-activities.xml": 1,
+      "nrc-9184472.xml": 6,
+      "nrc-9775383192.xml": 4,
+      "nrc-977538319.xml": 10
     },
     "BI": {
       "nrc-closed-activities-2021.xml": 1
     },
     "CF": {
       "nrc-closed-activities-2021.xml": 1
+    },
+    "CD": {
+      "nrc-closed-activities-2021.xml": 4,
+      "nrc-977358319.xml": 4,
+      "nrc-activities.xml": 1,
+      "nrc-9775383192.xml": 1,
+      "nrc-977538319.xml": 2
     },
     "DJ": {
       "nrc-closed-activities-2021.xml": 1,
@@ -543,11 +468,28 @@
     "HT": {
       "nrc-closed-activities-2021.xml": 1
     },
+    "JO": {
+      "nrc-closed-activities-2021.xml": 3,
+      "nrc-activities.xml": 1,
+      "nrc-9184472.xml": 1,
+      "nrc-977538313.xml": 1
+    },
     "LR": {
       "nrc-closed-activities-2021.xml": 1
     },
     "MW": {
       "nrc-closed-activities-2021.xml": 1
+    },
+    "PK": {
+      "nrc-closed-activities-2021.xml": 2,
+      "nrc-977358319.xml": 3,
+      "nrc-9184472.xml": 4
+    },
+    "PS": {
+      "nrc-closed-activities-2021.xml": 1,
+      "nrc-977358319.xml": 3,
+      "nrc-9184472.xml": 13,
+      "nrc-9775383192.xml": 1
     },
     "PE": {
       "nrc-closed-activities-2021.xml": 1
@@ -568,11 +510,45 @@
     "TR": {
       "nrc-closed-activities-2021.xml": 2
     },
+    "UA": {
+      "nrc-closed-activities-2021.xml": 1,
+      "nrc-9184472.xml": 1
+    },
+    "SS": {
+      "nrc-closed-activities-2021.xml": 1,
+      "nrc-977358319.xml": 1,
+      "nrc-9184472.xml": 10,
+      "nrc-9775383192.xml": 2,
+      "nrc-977538319.xml": 2
+    },
+    "KE": {
+      "nrc-closed-activities-2021.xml": 4,
+      "nrc-activities.xml": 1,
+      "nrc-9775383192.xml": 1
+    },
+    "LB": {
+      "nrc-closed-activities-2021.xml": 4,
+      "nrc-activities.xml": 2,
+      "nrc-9184472.xml": 5,
+      "nrc-977538313.xml": 1
+    },
+    "SY": {
+      "nrc-closed-activities-2021.xml": 1,
+      "nrc-9184472.xml": 1,
+      "nrc-977538313.xml": 3,
+      "nrc-9775383192.xml": 2,
+      "nrc-977538319.xml": 3
+    },
     "UG": {
       "nrc-closed-activities-2021.xml": 1
     },
     "ER": {
       "nrc-closed-activities-2021.xml": 1
+    },
+    "NG": {
+      "nrc-closed-activities-2021.xml": 1,
+      "nrc-activities.xml": 1,
+      "nrc-9775383192.xml": 1
     },
     "MZ": {
       "nrc-closed-activities-2021.xml": 1
@@ -580,12 +556,36 @@
     "NE": {
       "nrc-closed-activities-2021.xml": 1
     },
+    "CH": {
+      "nrc-closed-activities-2021.xml": 1,
+      "nrc-977358319.xml": 1,
+      "nrc-9775383192.xml": 1,
+      "nrc-977538319.xml": 2
+    },
     "MM": {
       "nrc-977358319.xml": 3,
       "nrc-activities.xml": 1
     },
+    "CO": {
+      "nrc-977358319.xml": 7,
+      "nrc-9775383192.xml": 1,
+      "nrc-977538319.xml": 4
+    },
     "TZ": {
       "nrc-activities.xml": 1
+    },
+    "PH ": {
+      "nrc-9184472.xml": 1
+    },
+    "GR": {
+      "nrc-9184472.xml": 1
+    },
+    "ML": {
+      "nrc-9775383192.xml": 1,
+      "nrc-977538319.xml": 4
+    },
+    "ME": {
+      "nrc-9775383192.xml": 1
     }
   },
   ".//recipient-region/@vocabulary": {
@@ -595,67 +595,67 @@
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "589": {
-      "nrc-9184472.xml": 26,
-      "nrc-9775383192.xml": 5,
-      "nrc-closed-activities-2021.xml": 5,
-      "nrc-977358319.xml": 7,
-      "nrc-977538319.xml": 3,
-      "nrc-977538313.xml": 5,
-      "nrc-activities.xml": 3
-    },
-    "298": {
-      "nrc-9184472.xml": 15,
-      "nrc-9775383192.xml": 7,
-      "nrc-closed-activities-2021.xml": 14,
-      "nrc-977358319.xml": 8,
-      "nrc-977538319.xml": 10,
-      "nrc-activities.xml": 4
-    },
-    "679": {
-      "nrc-9184472.xml": 5,
-      "nrc-9775383192.xml": 1,
-      "nrc-977358319.xml": 3,
-      "nrc-activities.xml": 1
-    },
-    "789": {
-      "nrc-9184472.xml": 1,
-      "nrc-977358319.xml": 3
-    },
-    "89": {
-      "nrc-9184472.xml": 2,
-      "nrc-closed-activities-2021.xml": 1,
-      "nrc-activities.xml": 1
+    "798": {
+      "nrc-closed-activities-2021.xml": 1
     },
     "998": {
-      "nrc-9184472.xml": 1,
-      "nrc-9775383192.xml": 5,
       "nrc-closed-activities-2021.xml": 7,
       "nrc-977358319.xml": 4,
-      "nrc-977538319.xml": 12,
-      "nrc-activities.xml": 1
+      "nrc-activities.xml": 1,
+      "nrc-9184472.xml": 1,
+      "nrc-9775383192.xml": 5,
+      "nrc-977538319.xml": 12
     },
-    "689": {
+    "298": {
+      "nrc-closed-activities-2021.xml": 14,
+      "nrc-977358319.xml": 8,
+      "nrc-activities.xml": 4,
+      "nrc-9184472.xml": 15,
+      "nrc-9775383192.xml": 7,
+      "nrc-977538319.xml": 10
+    },
+    "589": {
+      "nrc-closed-activities-2021.xml": 5,
+      "nrc-977358319.xml": 7,
+      "nrc-activities.xml": 3,
+      "nrc-9184472.xml": 26,
+      "nrc-977538313.xml": 5,
+      "nrc-9775383192.xml": 5,
+      "nrc-977538319.xml": 3
+    },
+    "89": {
+      "nrc-closed-activities-2021.xml": 1,
+      "nrc-activities.xml": 1,
+      "nrc-9184472.xml": 2
+    },
+    "789": {
+      "nrc-977358319.xml": 3,
       "nrc-9184472.xml": 1
     },
     "489": {
-      "nrc-9775383192.xml": 1,
       "nrc-977358319.xml": 7,
+      "nrc-9775383192.xml": 1,
       "nrc-977538319.xml": 4
     },
-    "798": {
-      "nrc-closed-activities-2021.xml": 1
+    "679": {
+      "nrc-977358319.xml": 3,
+      "nrc-activities.xml": 1,
+      "nrc-9184472.xml": 5,
+      "nrc-9775383192.xml": 1
+    },
+    "689": {
+      "nrc-9184472.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "21": {
-      "nrc-9184472.xml": 51,
-      "nrc-9775383192.xml": 19,
       "nrc-closed-activities-2021.xml": 42,
       "nrc-977358319.xml": 32,
-      "nrc-977538319.xml": 29,
+      "nrc-activities.xml": 17,
+      "nrc-9184472.xml": 51,
       "nrc-977538313.xml": 5,
-      "nrc-activities.xml": 17
+      "nrc-9775383192.xml": 19,
+      "nrc-977538319.xml": 29
     }
   },
   ".//result/@type": {
@@ -684,19 +684,19 @@
     }
   },
   ".//sector/@vocabulary": {
-    "DAC": {
-      "nrc-9184472.xml": 51,
-      "nrc-9775383192.xml": 19,
-      "nrc-977358319.xml": 32,
-      "nrc-977538319.xml": 29,
-      "nrc-977538313.xml": 5
-    },
     "1": {
       "nrc-closed-activities-2021.xml": 42,
       "nrc-activities.xml": 17
     },
     "10": {
       "nrc-closed-activities-2021.xml": 2
+    },
+    "DAC": {
+      "nrc-977358319.xml": 32,
+      "nrc-9184472.xml": 51,
+      "nrc-977538313.xml": 5,
+      "nrc-9775383192.xml": 19,
+      "nrc-977538319.xml": 29
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -736,24 +736,28 @@
     }
   },
   ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
-    "72050": {
-      "nrc-9184472.xml": 6,
-      "nrc-9775383192.xml": 19,
-      "nrc-977358319.xml": 8,
-      "nrc-977538319.xml": 29,
-      "nrc-977538313.xml": 1
+    "73010": {
+      "nrc-977358319.xml": 10,
+      "nrc-9184472.xml": 4
     },
     "15130": {
-      "nrc-9184472.xml": 15,
-      "nrc-977358319.xml": 7
+      "nrc-977358319.xml": 7,
+      "nrc-9184472.xml": 15
     },
-    "73010": {
-      "nrc-9184472.xml": 4,
-      "nrc-977358319.xml": 10
+    "72050": {
+      "nrc-977358319.xml": 8,
+      "nrc-9184472.xml": 6,
+      "nrc-977538313.xml": 1,
+      "nrc-9775383192.xml": 19,
+      "nrc-977538319.xml": 29
+    },
+    "52010": {
+      "nrc-977358319.xml": 4,
+      "nrc-9184472.xml": 2
     },
     "72010": {
-      "nrc-9184472.xml": 9,
       "nrc-977358319.xml": 3,
+      "nrc-9184472.xml": 9,
       "nrc-977538313.xml": 4
     },
     "11230": {
@@ -767,10 +771,6 @@
     },
     "74010": {
       "nrc-9184472.xml": 2
-    },
-    "52010": {
-      "nrc-9184472.xml": 2,
-      "nrc-977358319.xml": 4
     }
   },
   ".//transaction/aid-type/@vocabulary": {
@@ -844,31 +844,23 @@
     }
   },
   ".//transaction/transaction-type/@code": {
-    "1": {
-      "nrc-9184472.xml": 51,
-      "nrc-9775383192.xml": 19,
-      "nrc-closed-activities-2021.xml": 34,
-      "nrc-977358319.xml": 32,
-      "nrc-977538319.xml": 29,
-      "nrc-977538313.xml": 5,
-      "nrc-activities.xml": 1
-    },
-    "2": {
-      "nrc-9184472.xml": 51,
-      "nrc-9775383192.xml": 19,
-      "nrc-closed-activities-2021.xml": 18,
-      "nrc-977358319.xml": 32,
-      "nrc-977538319.xml": 29,
-      "nrc-977538313.xml": 5
-    },
     "4": {
-      "nrc-9184472.xml": 51,
-      "nrc-9775383192.xml": 19,
       "nrc-closed-activities-2021.xml": 187,
       "nrc-977358319.xml": 32,
-      "nrc-977538319.xml": 29,
+      "nrc-activities.xml": 199,
+      "nrc-9184472.xml": 51,
       "nrc-977538313.xml": 5,
-      "nrc-activities.xml": 199
+      "nrc-9775383192.xml": 19,
+      "nrc-977538319.xml": 29
+    },
+    "1": {
+      "nrc-closed-activities-2021.xml": 34,
+      "nrc-977358319.xml": 32,
+      "nrc-activities.xml": 1,
+      "nrc-9184472.xml": 51,
+      "nrc-977538313.xml": 5,
+      "nrc-9775383192.xml": 19,
+      "nrc-977538319.xml": 29
     },
     "3": {
       "nrc-closed-activities-2021.xml": 19
@@ -876,17 +868,25 @@
     "11": {
       "nrc-closed-activities-2021.xml": 10,
       "nrc-activities.xml": 11
+    },
+    "2": {
+      "nrc-closed-activities-2021.xml": 18,
+      "nrc-977358319.xml": 32,
+      "nrc-9184472.xml": 51,
+      "nrc-977538313.xml": 5,
+      "nrc-9775383192.xml": 19,
+      "nrc-977538319.xml": 29
     }
   },
   ".//transaction/value/@currency": {
     "NOK": {
-      "nrc-9184472.xml": 153,
-      "nrc-9775383192.xml": 57,
       "nrc-closed-activities-2021.xml": 207,
       "nrc-977358319.xml": 96,
-      "nrc-977538319.xml": 87,
+      "nrc-activities.xml": 195,
+      "nrc-9184472.xml": 153,
       "nrc-977538313.xml": 15,
-      "nrc-activities.xml": 195
+      "nrc-9775383192.xml": 57,
+      "nrc-977538319.xml": 87
     },
     "GBP": {
       "nrc-closed-activities-2021.xml": 44

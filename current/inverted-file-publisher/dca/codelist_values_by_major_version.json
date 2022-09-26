@@ -1,6 +1,12 @@
 {
   "2": {
     ".//@default-currency": {
+      "dca-ss.xml": {
+        "EUR": 1
+      },
+      "dca-iatidanida20182021.xml": {
+        "DKK": 256
+      },
       "dca-ly.xml": {
         "EUR": 3
       },
@@ -10,20 +16,22 @@
       "dca-ml.xml": {
         "EUR": 1
       },
-      "dca-iatidanida20182021.xml": {
-        "DKK": 256
-      },
-      "dca-998.xml": {
-        "EUR": 4
-      },
       "dca-sd.xml": {
         "EUR": 1
       },
-      "dca-ss.xml": {
-        "EUR": 1
+      "dca-998.xml": {
+        "EUR": 4
       }
     },
     ".//activity-date/@type": {
+      "dca-ss.xml": {
+        "2": 1,
+        "3": 1
+      },
+      "dca-iatidanida20182021.xml": {
+        "1": 256,
+        "3": 256
+      },
       "dca-ly.xml": {
         "2": 3,
         "4": 1,
@@ -37,25 +45,23 @@
         "2": 1,
         "3": 1
       },
-      "dca-iatidanida20182021.xml": {
-        "1": 256,
-        "3": 256
+      "dca-sd.xml": {
+        "2": 1,
+        "3": 1
       },
       "dca-998.xml": {
         "2": 4,
         "3": 2,
         "1": 2
-      },
-      "dca-sd.xml": {
-        "2": 1,
-        "3": 1
-      },
-      "dca-ss.xml": {
-        "2": 1,
-        "3": 1
       }
     },
     ".//activity-status/@code": {
+      "dca-ss.xml": {
+        "2": 1
+      },
+      "dca-iatidanida20182021.xml": {
+        "2": 256
+      },
       "dca-ly.xml": {
         "3": 1,
         "2": 2
@@ -66,21 +72,19 @@
       "dca-ml.xml": {
         "2": 1
       },
-      "dca-iatidanida20182021.xml": {
-        "2": 256
+      "dca-sd.xml": {
+        "2": 1
       },
       "dca-998.xml": {
         "4": 2,
         "2": 2
-      },
-      "dca-sd.xml": {
-        "2": 1
-      },
-      "dca-ss.xml": {
-        "2": 1
       }
     },
     ".//budget/@status": {
+      "dca-ss.xml": {
+        "1": 6,
+        "2": 4
+      },
       "dca-ly.xml": {
         "2": 5,
         "1": 7
@@ -95,13 +99,13 @@
       },
       "dca-sd.xml": {
         "2": 3
-      },
-      "dca-ss.xml": {
-        "1": 6,
-        "2": 4
       }
     },
     ".//budget/@type": {
+      "dca-ss.xml": {
+        "1": 5,
+        "2": 5
+      },
       "dca-ly.xml": {
         "1": 7,
         "2": 5
@@ -116,13 +120,12 @@
       },
       "dca-sd.xml": {
         "2": 3
-      },
-      "dca-ss.xml": {
-        "1": 5,
-        "2": 5
       }
     },
     ".//budget/value/@currency": {
+      "dca-ss.xml": {
+        "EUR": 6
+      },
       "dca-ly.xml": {
         "EUR": 9
       },
@@ -134,12 +137,12 @@
       },
       "dca-sd.xml": {
         "DKK": 3
-      },
-      "dca-ss.xml": {
-        "EUR": 6
       }
     },
     ".//contact-info/@type": {
+      "dca-ss.xml": {
+        "1": 1
+      },
       "dca-ly.xml": {
         "1": 3
       },
@@ -149,18 +152,18 @@
       "dca-ml.xml": {
         "1": 1
       },
-      "dca-998.xml": {
-        "1": 4
-      },
       "dca-sd.xml": {
         "2": 1,
         "1": 1
       },
-      "dca-ss.xml": {
-        "1": 1
+      "dca-998.xml": {
+        "1": 4
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "dca-ss.xml": {
+        "C01": 1
+      },
       "dca-ly.xml": {
         "C01": 3
       },
@@ -170,17 +173,17 @@
       "dca-ml.xml": {
         "C01": 1
       },
-      "dca-998.xml": {
-        "B03": 4
-      },
       "dca-sd.xml": {
         "C01": 1
       },
-      "dca-ss.xml": {
-        "C01": 1
+      "dca-998.xml": {
+        "B03": 4
       }
     },
     ".//default-aid-type/@vocabulary": {
+      "dca-ss.xml": {
+        "1": 1
+      },
       "dca-ly.xml": {
         "1": 3
       },
@@ -190,17 +193,17 @@
       "dca-ml.xml": {
         "1": 1
       },
-      "dca-998.xml": {
-        "1": 4
-      },
       "dca-sd.xml": {
         "1": 1
       },
-      "dca-ss.xml": {
-        "1": 1
+      "dca-998.xml": {
+        "1": 4
       }
     },
     ".//default-finance-type/@code": {
+      "dca-ss.xml": {
+        "110": 1
+      },
       "dca-ly.xml": {
         "110": 3
       },
@@ -210,17 +213,17 @@
       "dca-ml.xml": {
         "110": 1
       },
-      "dca-998.xml": {
-        "110": 4
-      },
       "dca-sd.xml": {
         "110": 1
       },
-      "dca-ss.xml": {
-        "110": 1
+      "dca-998.xml": {
+        "110": 4
       }
     },
     ".//default-flow-type/@code": {
+      "dca-ss.xml": {
+        "30": 1
+      },
       "dca-ly.xml": {
         "30": 3
       },
@@ -230,17 +233,17 @@
       "dca-ml.xml": {
         "30": 1
       },
-      "dca-998.xml": {
-        "30": 4
-      },
       "dca-sd.xml": {
         "30": 1
       },
-      "dca-ss.xml": {
-        "30": 1
+      "dca-998.xml": {
+        "30": 4
       }
     },
     ".//default-tied-status/@code": {
+      "dca-ss.xml": {
+        "5": 1
+      },
       "dca-ly.xml": {
         "5": 3
       },
@@ -250,17 +253,20 @@
       "dca-ml.xml": {
         "5": 1
       },
-      "dca-998.xml": {
-        "5": 4
-      },
       "dca-sd.xml": {
         "5": 1
       },
-      "dca-ss.xml": {
-        "5": 1
+      "dca-998.xml": {
+        "5": 4
       }
     },
     ".//description/@type": {
+      "dca-ss.xml": {
+        "2": 1
+      },
+      "dca-iatidanida20182021.xml": {
+        "1": 256
+      },
       "dca-ly.xml": {
         "1": 2,
         "2": 3
@@ -272,17 +278,353 @@
       "dca-ml.xml": {
         "2": 1
       },
-      "dca-iatidanida20182021.xml": {
-        "1": 256
+      "dca-sd.xml": {
+        "1": 1
       },
       "dca-998.xml": {
         "1": 4
+      }
+    },
+    ".//participating-org/@role": {
+      "dca-ss.xml": {
+        "1": 1
+      },
+      "dca-iatidanida20182021.xml": {
+        "1": 256
+      },
+      "dca-ly.xml": {
+        "1": 3
+      },
+      "dca-lb.xml": {
+        "1": 2
+      },
+      "dca-ml.xml": {
+        "1": 1
       },
       "dca-sd.xml": {
         "1": 1
       },
+      "dca-998.xml": {
+        "1": 4
+      }
+    },
+    ".//participating-org/@type": {
       "dca-ss.xml": {
-        "2": 1
+        "10": 1
+      },
+      "dca-iatidanida20182021.xml": {
+        "10": 256
+      },
+      "dca-ly.xml": {
+        "10": 3
+      },
+      "dca-lb.xml": {
+        "10": 2
+      },
+      "dca-ml.xml": {
+        "10": 1
+      },
+      "dca-sd.xml": {
+        "10": 1
+      },
+      "dca-998.xml": {
+        "10": 4
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "dca-ss.xml": {
+        "3": 1
+      },
+      "dca-ly.xml": {
+        "3": 3
+      },
+      "dca-lb.xml": {
+        "3": 2
+      },
+      "dca-ml.xml": {
+        "3": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "dca-ss.xml": {
+        "SS": 1
+      },
+      "dca-iatidanida20182021.xml": {
+        "BD": 2,
+        "KH": 21,
+        "CF": 5,
+        "DK": 46,
+        "ET": 25,
+        "IQ": 2,
+        "KE": 9,
+        "MW": 10,
+        "ML": 3,
+        "MM": 23,
+        "NP": 29,
+        "PS": 22,
+        "SS": 9,
+        "SY": 3,
+        "UG": 23,
+        "ZW": 24
+      },
+      "dca-ly.xml": {
+        "LY": 3
+      },
+      "dca-lb.xml": {
+        "LB": 2,
+        "ML": 1,
+        "SS": 1,
+        "LY": 1
+      },
+      "dca-ml.xml": {
+        "ML": 1
+      },
+      "dca-sd.xml": {
+        "SD": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "dca-ss.xml": {
+        "1": 1
+      },
+      "dca-ly.xml": {
+        "1": 3
+      },
+      "dca-lb.xml": {
+        "2": 6,
+        "1": 1
+      },
+      "dca-ml.xml": {
+        "1": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "dca-ss.xml": {
+        "21": 1
+      },
+      "dca-iatidanida20182021.xml": {
+        "21": 256
+      },
+      "dca-ly.xml": {
+        "21": 3
+      },
+      "dca-lb.xml": {
+        "21": 2
+      },
+      "dca-ml.xml": {
+        "21": 1
+      },
+      "dca-sd.xml": {
+        "21": 1
+      },
+      "dca-998.xml": {
+        "21": 4
+      }
+    },
+    ".//result/@type": {
+      "dca-ss.xml": {
+        "1": 11,
+        "2": 2
+      },
+      "dca-ly.xml": {
+        "1": 34,
+        "2": 2
+      },
+      "dca-lb.xml": {
+        "1": 9,
+        "2": 2
+      },
+      "dca-ml.xml": {
+        "2": 1,
+        "1": 2
+      }
+    },
+    ".//result/indicator/@measure": {
+      "dca-ss.xml": {
+        "1": 28,
+        "2": 9
+      },
+      "dca-ly.xml": {
+        "1": 116,
+        "2": 9
+      },
+      "dca-lb.xml": {
+        "1": 22,
+        "2": 9
+      },
+      "dca-ml.xml": {
+        "2": 3,
+        "1": 5
+      }
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "dca-ss.xml": {
+        "99": 9
+      },
+      "dca-ly.xml": {
+        "99": 49
+      },
+      "dca-lb.xml": {
+        "99": 9
+      },
+      "dca-ml.xml": {
+        "99": 3
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "dca-ss.xml": {
+        "15250": 1
+      },
+      "dca-iatidanida20182021.xml": {
+        "99810": 256
+      },
+      "dca-ly.xml": {
+        "15250": 3
+      },
+      "dca-lb.xml": {
+        "15250": 2
+      },
+      "dca-ml.xml": {
+        "15250": 1
+      },
+      "dca-sd.xml": {
+        "15127": 1
+      },
+      "dca-998.xml": {
+        "16050": 1,
+        "72010": 1,
+        "43010": 2
+      }
+    },
+    ".//sector/@vocabulary": {
+      "dca-ss.xml": {
+        "1": 1
+      },
+      "dca-iatidanida20182021.xml": {
+        "1": 256
+      },
+      "dca-ly.xml": {
+        "1": 3
+      },
+      "dca-lb.xml": {
+        "1": 2
+      },
+      "dca-ml.xml": {
+        "1": 1
+      },
+      "dca-sd.xml": {
+        "1": 1
+      },
+      "dca-998.xml": {
+        "1": 4,
+        "2": 2
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "dca-ss.xml": {
+        "21": 4
+      },
+      "dca-ly.xml": {
+        "21": 6
+      },
+      "dca-lb.xml": {
+        "10": 10,
+        "21": 4
+      },
+      "dca-ml.xml": {
+        "21": 4
+      },
+      "dca-998.xml": {
+        "10": 37
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "dca-ss.xml": {
+        "1": 4,
+        "4": 16
+      },
+      "dca-iatidanida20182021.xml": {
+        "4": 706
+      },
+      "dca-ly.xml": {
+        "4": 30,
+        "1": 6
+      },
+      "dca-lb.xml": {
+        "11": 3,
+        "1": 11,
+        "4": 16
+      },
+      "dca-ml.xml": {
+        "1": 4,
+        "4": 16
+      },
+      "dca-sd.xml": {
+        "1": 17
+      },
+      "dca-998.xml": {
+        "1": 27,
+        "11": 11,
+        "13": 2
+      }
+    },
+    ".//transaction/value/@currency": {
+      "dca-ss.xml": {
+        "EUR": 6
+      },
+      "dca-iatidanida20182021.xml": {
+        "DKK": 706
+      },
+      "dca-ly.xml": {
+        "EUR": 11
+      },
+      "dca-lb.xml": {
+        "EUR": 9
+      },
+      "dca-ml.xml": {
+        "EUR": 6
+      },
+      "dca-sd.xml": {
+        "GBP": 3,
+        "USD": 14
+      },
+      "dca-998.xml": {
+        "DKK": 39
+      }
+    },
+    ".//@xml:lang": {
+      "dca-ss.xml": {
+        "en": 2,
+        "da": 1
+      },
+      "dca-iatidanida20182021.xml": {
+        "en": 256
+      },
+      "dca-ly.xml": {
+        "en": 8,
+        "da": 3
+      },
+      "dca-lb.xml": {
+        "en": 8,
+        "da": 2
+      },
+      "dca-ml.xml": {
+        "en": 2,
+        "da": 1
+      },
+      "dca-sd.xml": {
+        "en": 12,
+        "da": 1
+      },
+      "dca-998.xml": {
+        "en": 51,
+        "da": 8
+      }
+    },
+    ".//activity-scope/@code": {
+      "dca-iatidanida20182021.xml": {
+        "4": 210,
+        "3": 46
       }
     },
     ".//document-link/@format": {
@@ -311,342 +653,6 @@
         "A08": 2
       }
     },
-    ".//participating-org/@role": {
-      "dca-ly.xml": {
-        "1": 3
-      },
-      "dca-lb.xml": {
-        "1": 2
-      },
-      "dca-ml.xml": {
-        "1": 1
-      },
-      "dca-iatidanida20182021.xml": {
-        "1": 256
-      },
-      "dca-998.xml": {
-        "1": 4
-      },
-      "dca-sd.xml": {
-        "1": 1
-      },
-      "dca-ss.xml": {
-        "1": 1
-      }
-    },
-    ".//participating-org/@type": {
-      "dca-ly.xml": {
-        "10": 3
-      },
-      "dca-lb.xml": {
-        "10": 2
-      },
-      "dca-ml.xml": {
-        "10": 1
-      },
-      "dca-iatidanida20182021.xml": {
-        "10": 256
-      },
-      "dca-998.xml": {
-        "10": 4
-      },
-      "dca-sd.xml": {
-        "10": 1
-      },
-      "dca-ss.xml": {
-        "10": 1
-      }
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "dca-ly.xml": {
-        "3": 3
-      },
-      "dca-lb.xml": {
-        "3": 2
-      },
-      "dca-ml.xml": {
-        "3": 1
-      },
-      "dca-ss.xml": {
-        "3": 1
-      }
-    },
-    ".//recipient-country/@code": {
-      "dca-ly.xml": {
-        "LY": 3
-      },
-      "dca-lb.xml": {
-        "LB": 2,
-        "ML": 1,
-        "SS": 1,
-        "LY": 1
-      },
-      "dca-ml.xml": {
-        "ML": 1
-      },
-      "dca-iatidanida20182021.xml": {
-        "BD": 2,
-        "KH": 21,
-        "CF": 5,
-        "DK": 46,
-        "ET": 25,
-        "IQ": 2,
-        "KE": 9,
-        "MW": 10,
-        "ML": 3,
-        "MM": 23,
-        "NP": 29,
-        "PS": 22,
-        "SS": 9,
-        "SY": 3,
-        "UG": 23,
-        "ZW": 24
-      },
-      "dca-sd.xml": {
-        "SD": 1
-      },
-      "dca-ss.xml": {
-        "SS": 1
-      }
-    },
-    ".//related-activity/@type": {
-      "dca-ly.xml": {
-        "1": 3
-      },
-      "dca-lb.xml": {
-        "2": 6,
-        "1": 1
-      },
-      "dca-ml.xml": {
-        "1": 1
-      },
-      "dca-ss.xml": {
-        "1": 1
-      }
-    },
-    ".//reporting-org/@type": {
-      "dca-ly.xml": {
-        "21": 3
-      },
-      "dca-lb.xml": {
-        "21": 2
-      },
-      "dca-ml.xml": {
-        "21": 1
-      },
-      "dca-iatidanida20182021.xml": {
-        "21": 256
-      },
-      "dca-998.xml": {
-        "21": 4
-      },
-      "dca-sd.xml": {
-        "21": 1
-      },
-      "dca-ss.xml": {
-        "21": 1
-      }
-    },
-    ".//result/@type": {
-      "dca-ly.xml": {
-        "1": 34,
-        "2": 2
-      },
-      "dca-lb.xml": {
-        "1": 9,
-        "2": 2
-      },
-      "dca-ml.xml": {
-        "2": 1,
-        "1": 2
-      },
-      "dca-ss.xml": {
-        "1": 11,
-        "2": 2
-      }
-    },
-    ".//result/indicator/@measure": {
-      "dca-ly.xml": {
-        "1": 116,
-        "2": 9
-      },
-      "dca-lb.xml": {
-        "1": 22,
-        "2": 9
-      },
-      "dca-ml.xml": {
-        "2": 3,
-        "1": 5
-      },
-      "dca-ss.xml": {
-        "1": 28,
-        "2": 9
-      }
-    },
-    ".//result/indicator/reference/@vocabulary": {
-      "dca-ly.xml": {
-        "99": 49
-      },
-      "dca-lb.xml": {
-        "99": 9
-      },
-      "dca-ml.xml": {
-        "99": 3
-      },
-      "dca-ss.xml": {
-        "99": 9
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "dca-ly.xml": {
-        "15250": 3
-      },
-      "dca-lb.xml": {
-        "15250": 2
-      },
-      "dca-ml.xml": {
-        "15250": 1
-      },
-      "dca-iatidanida20182021.xml": {
-        "99810": 256
-      },
-      "dca-998.xml": {
-        "16050": 1,
-        "72010": 1,
-        "43010": 2
-      },
-      "dca-sd.xml": {
-        "15127": 1
-      },
-      "dca-ss.xml": {
-        "15250": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "dca-ly.xml": {
-        "1": 3
-      },
-      "dca-lb.xml": {
-        "1": 2
-      },
-      "dca-ml.xml": {
-        "1": 1
-      },
-      "dca-iatidanida20182021.xml": {
-        "1": 256
-      },
-      "dca-998.xml": {
-        "1": 4,
-        "2": 2
-      },
-      "dca-sd.xml": {
-        "1": 1
-      },
-      "dca-ss.xml": {
-        "1": 1
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "dca-ly.xml": {
-        "21": 6
-      },
-      "dca-lb.xml": {
-        "10": 10,
-        "21": 4
-      },
-      "dca-ml.xml": {
-        "21": 4
-      },
-      "dca-998.xml": {
-        "10": 37
-      },
-      "dca-ss.xml": {
-        "21": 4
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "dca-ly.xml": {
-        "4": 30,
-        "1": 6
-      },
-      "dca-lb.xml": {
-        "11": 3,
-        "1": 11,
-        "4": 16
-      },
-      "dca-ml.xml": {
-        "1": 4,
-        "4": 16
-      },
-      "dca-iatidanida20182021.xml": {
-        "4": 706
-      },
-      "dca-998.xml": {
-        "1": 27,
-        "11": 11,
-        "13": 2
-      },
-      "dca-sd.xml": {
-        "1": 17
-      },
-      "dca-ss.xml": {
-        "1": 4,
-        "4": 16
-      }
-    },
-    ".//transaction/value/@currency": {
-      "dca-ly.xml": {
-        "EUR": 11
-      },
-      "dca-lb.xml": {
-        "EUR": 9
-      },
-      "dca-ml.xml": {
-        "EUR": 6
-      },
-      "dca-iatidanida20182021.xml": {
-        "DKK": 706
-      },
-      "dca-998.xml": {
-        "DKK": 39
-      },
-      "dca-sd.xml": {
-        "GBP": 3,
-        "USD": 14
-      },
-      "dca-ss.xml": {
-        "EUR": 6
-      }
-    },
-    ".//@xml:lang": {
-      "dca-ly.xml": {
-        "en": 8,
-        "da": 3
-      },
-      "dca-lb.xml": {
-        "en": 8,
-        "da": 2
-      },
-      "dca-ml.xml": {
-        "en": 2,
-        "da": 1
-      },
-      "dca-iatidanida20182021.xml": {
-        "en": 256
-      },
-      "dca-998.xml": {
-        "en": 51,
-        "da": 8
-      },
-      "dca-sd.xml": {
-        "en": 12,
-        "da": 1
-      },
-      "dca-ss.xml": {
-        "en": 2,
-        "da": 1
-      }
-    },
     ".//document-link/language/@code": {
       "dca-lb.xml": {
         "en": 4
@@ -658,12 +664,6 @@
     ".//transaction/receiver-org/@type": {
       "dca-lb.xml": {
         "21": 6
-      }
-    },
-    ".//activity-scope/@code": {
-      "dca-iatidanida20182021.xml": {
-        "4": 210,
-        "3": 46
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {

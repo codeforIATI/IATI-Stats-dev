@@ -34,8 +34,8 @@
     "A02": 2
   },
   ".//location/location-type/@code": {
-    "ADM2": 1,
-    "ADM1": 1
+    "ADM1": 1,
+    "ADM2": 1
   },
   ".//participating-org/@role": {
     "Funding": 2,
@@ -51,8 +51,8 @@
     "GBP": 9
   },
   ".//recipient-country/@code": {
-    "UG": 1,
-    "CM": 1
+    "CM": 1,
+    "UG": 1
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "298": 2
@@ -64,7 +64,6 @@
     "DAC": 1
   },
   ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
-    "14030": 1,
     "164": 1,
     "51": 1,
     "18": 1,
@@ -72,7 +71,8 @@
     "102": 1,
     "106": 1,
     "99": 1,
-    "42": 1
+    "42": 1,
+    "14030": 1
   },
   ".//transaction/aid-type/@code": {
     "C01": 55
@@ -91,9 +91,9 @@
   },
   ".//transaction/transaction-type/@code": {
     "C": 2,
-    "IF": 29,
     "D": 23,
-    "E": 1
+    "E": 1,
+    "IF": 29
   },
   ".//transaction/value/@currency": {
     "GBP": 47

@@ -69,9 +69,9 @@
     "15": 152,
     "N/A": 1,
     "40": 13,
-    "21": 3,
     "90": 7,
-    "10": 1
+    "10": 1,
+    "21": 3
   },
   ".//policy-marker/@significance": {
     "1": 41,
@@ -100,7 +100,7 @@
   },
   ".//related-activity/@type": {
     "1": 42,
-    "2": 37
+    "2": 38
   },
   ".//reporting-org/@type": {
     "15": 59
@@ -109,17 +109,17 @@
     "1": 65
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "15150": 3,
     "12250": 1,
+    "73010": 1,
+    "15150": 3,
     "15250": 12,
     "99810": 1,
     "15220": 30,
-    "16050": 1,
-    "73010": 1,
     "15210": 5,
+    "16050": 1,
+    "16010": 1,
     "15151": 4,
     "15112": 2,
-    "16010": 1,
     "15110": 1,
     "23110": 1,
     "74010": 2
@@ -130,40 +130,40 @@
   },
   ".//tag[@vocabulary = '2']/@code": {
     "16": 46,
-    "8": 2,
-    "13": 1,
     "10": 1,
-    "5": 1
+    "5": 1,
+    "13": 1,
+    "8": 2
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 76,
+    "C01": 77,
     "D02": 16,
     "B03": 2
   },
   ".//transaction/disbursement-channel/@code": {
-    "2": 131
+    "2": 132
   },
   ".//transaction/finance-type/@code": {
-    "110": 94
+    "110": 95
   },
   ".//transaction/flow-type/@code": {
-    "10": 90,
+    "10": 91,
     "20": 3,
     "50": 1
   },
   ".//transaction/provider-org/@type": {
-    "15": 131
+    "15": 132
   },
   ".//transaction/tied-status/@code": {
     "5": 67,
     "3": 4
   },
   ".//transaction/transaction-type/@code": {
-    "3": 81,
     "4": 13,
+    "3": 82,
     "2": 37
   },
   ".//transaction/value/@currency": {
-    "EUR": 131
+    "EUR": 132
   }
 }

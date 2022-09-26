@@ -4,35 +4,41 @@
       "DKK": 2329
     },
     ".//activity-date/@type": {
-      "2": 2325,
-      "1": 4,
+      "2": 2324,
       "3": 338,
-      "4": 1982
+      "4": 1982,
+      "1": 5
     },
     ".//activity-status/@code": {
+      "2": 308,
       "4": 1830,
-      "2": 309,
       "3": 173,
-      "1": 17
+      "1": 18
     },
-    ".//description/@type": {
-      "1": 9
+    ".//budget/@status": {
+      "1": 5316
+    },
+    ".//budget/@type": {
+      "1": 5316
+    },
+    ".//budget/value/@currency": {
+      "DKK": 5316
     },
     ".//participating-org/@role": {
+      "3": 2320,
       "1": 2329,
-      "4": 4835,
-      "3": 2320
+      "4": 4835
     },
     ".//participating-org/@type": {
-      "10": 2329,
-      "22": 7155
+      "22": 7155,
+      "10": 2329
     },
     ".//recipient-country/@code": {
-      "DK": 573,
       "GH": 113,
       "UG": 216,
       "ZM": 42,
       "VN": 44,
+      "DK": 573,
       "GT": 18,
       "NI": 38,
       "HN": 34,
@@ -71,10 +77,10 @@
       "ZA": 46,
       "SA": 57,
       "BI": 17,
-      "ID": 26,
+      "ID": 25,
       "RW": 48,
       "MZ": 42,
-      "SO": 27,
+      "SO": 28,
       "AF": 15,
       "SV": 2,
       "MN": 16,
@@ -132,37 +138,31 @@
       "22": 2329
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "15150": 2320,
+      "15160": 2320,
       "99810": 2,
       "92010": 6,
-      "99820": 1,
-      "15150": 2320,
-      "15160": 2320
+      "99820": 1
+    },
+    ".//transaction/transaction-type/@code": {
+      "1": 5814,
+      "3": 990
+    },
+    ".//transaction/value/@currency": {
+      "DKK": 6803
+    },
+    ".//@xml:lang": {
+      "da": 2320,
+      "en": 21
+    },
+    ".//description/@type": {
+      "1": 9
     },
     ".//sector/@vocabulary": {
       "1": 9
     },
     ".//transaction/provider-org/@type": {
       "10": 4
-    },
-    ".//transaction/transaction-type/@code": {
-      "1": 5817,
-      "3": 991
-    },
-    ".//transaction/value/@currency": {
-      "DKK": 6807
-    },
-    ".//@xml:lang": {
-      "en": 21,
-      "da": 2320
-    },
-    ".//budget/@status": {
-      "1": 5316
-    },
-    ".//budget/@type": {
-      "1": 5316
-    },
-    ".//budget/value/@currency": {
-      "DKK": 5316
     }
   }
 }

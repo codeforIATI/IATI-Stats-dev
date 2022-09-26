@@ -62,15 +62,17 @@
       "22": 534,
       "10": 219,
       "80": 68,
+      "60": 4,
       "70": 12,
-      "40": 9,
-      "60": 4
+      "40": 9
     },
     ".//recipient-country/@code": {
       "PH": 22,
+      "NP": 16,
+      "LK": 15,
       "PK": 16,
-      "MM": 31,
       "AF": 1,
+      "MM": 31,
       "BD": 1,
       "SY": 1,
       "IQ": 1,
@@ -82,17 +84,15 @@
       "SS": 1,
       "ET": 1,
       "EG": 1,
-      "TH": 19,
       "TL": 21,
-      "ID": 11,
-      "LK": 15,
-      "NP": 16
+      "TH": 19,
+      "ID": 11
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "789": 52,
       "679": 60,
-      "798": 83,
-      "619": 1
+      "619": 1,
+      "798": 83
     },
     ".//recipient-region/@vocabulary": {
       "1": 82,
@@ -129,10 +129,10 @@
     },
     ".//transaction/transaction-type/@code": {
       "4": 211,
-      "2": 26,
       "1": 17,
-      "E": 5,
-      "3": 1
+      "3": 1,
+      "2": 26,
+      "E": 5
     },
     ".//transaction/value/@currency": {
       "USD": 84,
@@ -143,30 +143,52 @@
       "id": 9
     },
     ".//activity-scope/@code": {
-      "2": 1,
-      "5": 2
+      "5": 2,
+      "2": 1
     },
     ".//budget/@status": {
-      "1": 8,
-      "2": 39
+      "2": 39,
+      "1": 8
     },
     ".//contact-info/@type": {
-      "2": 1,
+      "1": 2,
       "3": 3,
-      "1": 2
+      "2": 1
+    },
+    ".//country-budget-items/@vocabulary": {
+      "1": 1
     },
     ".//default-aid-type/@vocabulary": {
       "1": 5
     },
-    ".//participating-org/@crs-channel-code": {
-      "21000": 4,
-      "11000": 1
+    ".//location/location-id/@vocabulary": {
+      "G2": 1,
+      "G1": 1
+    },
+    ".//location/location-reach/@code": {
+      "1": 2
+    },
+    ".//planned-disbursement/@type": {
+      "1": 20
+    },
+    ".//planned-disbursement/provider-org/@type": {
+      "21": 18,
+      "10": 2
+    },
+    ".//planned-disbursement/receiver-org/@type": {
+      "21": 3,
+      "22": 17
+    },
+    ".//planned-disbursement/value/@currency": {
+      "GBP": 1,
+      "USD": 2,
+      "IDR": 15
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "16062": 1,
       "15123": 1,
       "41010": 3,
-      "15220": 1,
-      "16062": 1
+      "15220": 1
     },
     ".//transaction/provider-org/@type": {
       "21": 22,
@@ -180,6 +202,10 @@
       "24": 2,
       "22": 3
     },
+    ".//participating-org/@crs-channel-code": {
+      "21000": 4,
+      "11000": 1
+    },
     ".//document-link/@format": {
       "application/pdf": 2
     },
@@ -188,29 +214,6 @@
     },
     ".//document-link/language/@code": {
       "en": 2
-    },
-    ".//location/location-id/@vocabulary": {
-      "G1": 1,
-      "G2": 1
-    },
-    ".//location/location-reach/@code": {
-      "1": 2
-    },
-    ".//planned-disbursement/@type": {
-      "1": 20
-    },
-    ".//planned-disbursement/provider-org/@type": {
-      "10": 2,
-      "21": 18
-    },
-    ".//planned-disbursement/receiver-org/@type": {
-      "21": 3,
-      "22": 17
-    },
-    ".//planned-disbursement/value/@currency": {
-      "USD": 2,
-      "IDR": 15,
-      "GBP": 1
     },
     ".//result/@type": {
       "2": 4,
@@ -240,9 +243,6 @@
     },
     ".//transaction/sector/@vocabulary": {
       "1": 3
-    },
-    ".//country-budget-items/@vocabulary": {
-      "1": 1
     }
   }
 }

@@ -55,6 +55,10 @@
       "iati-activity/sector/@vocabulary": 4,
       "iati-activity/sector/@code": 4,
       "iati-activity/sector/@percentage": 4,
+      "iati-activity/tag": 1,
+      "iati-activity/tag/@vocabulary": 1,
+      "iati-activity/tag/@code": 1,
+      "iati-activity/tag/narrative": 1,
       "iati-activity/policy-marker": 4,
       "iati-activity/policy-marker/narrative": 4,
       "iati-activity/policy-marker/@code": 4,
@@ -111,11 +115,7 @@
       "iati-activity/@hierarchy": 4,
       "iati-activity/related-activity": 1,
       "iati-activity/related-activity/@ref": 1,
-      "iati-activity/related-activity/@type": 1,
-      "iati-activity/tag": 1,
-      "iati-activity/tag/@vocabulary": 1,
-      "iati-activity/tag/@code": 1,
-      "iati-activity/tag/narrative": 1
+      "iati-activity/related-activity/@type": 1
     },
     "elements_total": {
       "iati-activity": 4,
@@ -171,6 +171,10 @@
       "iati-activity/sector/@vocabulary": 4,
       "iati-activity/sector/@code": 4,
       "iati-activity/sector/@percentage": 4,
+      "iati-activity/tag": 2,
+      "iati-activity/tag/@vocabulary": 2,
+      "iati-activity/tag/@code": 2,
+      "iati-activity/tag/narrative": 1,
       "iati-activity/policy-marker": 48,
       "iati-activity/policy-marker/narrative": 48,
       "iati-activity/policy-marker/@code": 48,
@@ -227,11 +231,7 @@
       "iati-activity/@hierarchy": 4,
       "iati-activity/related-activity": 1,
       "iati-activity/related-activity/@ref": 1,
-      "iati-activity/related-activity/@type": 1,
-      "iati-activity/tag": 2,
-      "iati-activity/tag/@vocabulary": 2,
-      "iati-activity/tag/@code": 2,
-      "iati-activity/tag/narrative": 1
+      "iati-activity/related-activity/@type": 1
     },
     "forwardlooking_currency_year": {
       "null": {
@@ -331,6 +331,8 @@
       "iati-activity/default-finance-type/@code": 9,
       "iati-activity/default-aid-type": 9,
       "iati-activity/default-aid-type/@code": 9,
+      "iati-activity/default-tied-status": 4,
+      "iati-activity/default-tied-status/@code": 4,
       "iati-activity/budget": 9,
       "iati-activity/budget/period-start": 9,
       "iati-activity/budget/period-start/@iso-date": 9,
@@ -365,6 +367,8 @@
       "iati-activity/transaction/finance-type/@code": 9,
       "iati-activity/transaction/aid-type": 9,
       "iati-activity/transaction/aid-type/@code": 9,
+      "iati-activity/transaction/tied-status": 4,
+      "iati-activity/transaction/tied-status/@code": 4,
       "iati-activity/transaction/@ref": 9,
       "iati-activity/transaction/@humanitarian": 9,
       "iati-activity/related-activity": 9,
@@ -377,10 +381,6 @@
       "iati-activity/@default-currency": 9,
       "iati-activity/@humanitarian": 9,
       "iati-activity/@hierarchy": 9,
-      "iati-activity/default-tied-status": 4,
-      "iati-activity/default-tied-status/@code": 4,
-      "iati-activity/transaction/tied-status": 4,
-      "iati-activity/transaction/tied-status/@code": 4,
       "iati-activity/tag": 3,
       "iati-activity/tag/narrative": 3,
       "iati-activity/tag/@vocabulary": 3,
@@ -462,6 +462,8 @@
       "iati-activity/default-finance-type/@code": 9,
       "iati-activity/default-aid-type": 9,
       "iati-activity/default-aid-type/@code": 9,
+      "iati-activity/default-tied-status": 4,
+      "iati-activity/default-tied-status/@code": 4,
       "iati-activity/budget": 9,
       "iati-activity/budget/period-start": 9,
       "iati-activity/budget/period-start/@iso-date": 9,
@@ -496,6 +498,8 @@
       "iati-activity/transaction/finance-type/@code": 16,
       "iati-activity/transaction/aid-type": 16,
       "iati-activity/transaction/aid-type/@code": 16,
+      "iati-activity/transaction/tied-status": 8,
+      "iati-activity/transaction/tied-status/@code": 8,
       "iati-activity/transaction/@ref": 16,
       "iati-activity/transaction/@humanitarian": 16,
       "iati-activity/related-activity": 9,
@@ -508,10 +512,6 @@
       "iati-activity/@default-currency": 9,
       "iati-activity/@humanitarian": 9,
       "iati-activity/@hierarchy": 9,
-      "iati-activity/default-tied-status": 4,
-      "iati-activity/default-tied-status/@code": 4,
-      "iati-activity/transaction/tied-status": 8,
-      "iati-activity/transaction/tied-status/@code": 8,
       "iati-activity/tag": 4,
       "iati-activity/tag/narrative": 4,
       "iati-activity/tag/@vocabulary": 4,
@@ -527,16 +527,16 @@
       "iati-activity/document-link/@format": 2
     },
     "forwardlooking_currency_year": {
-      "2011": {
-        "EUR": 0.0
-      },
       "null": {
         "EUR": 0.0
       },
-      "2015": {
+      "2011": {
         "EUR": 0.0
       },
       "2016": {
+        "EUR": 0.0
+      },
+      "2015": {
         "EUR": 0.0
       }
     },

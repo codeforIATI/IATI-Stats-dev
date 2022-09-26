@@ -48,6 +48,21 @@
         "5": 1
       }
     },
+    ".//document-link/@format": {
+      "pascib_benin-actvities.xml": {
+        "application/pdf": 13
+      }
+    },
+    ".//document-link/category/@code": {
+      "pascib_benin-actvities.xml": {
+        "B01": 13
+      }
+    },
+    ".//document-link/language/@code": {
+      "pascib_benin-actvities.xml": {
+        "fr": 13
+      }
+    },
     ".//participating-org/@role": {
       "pascib_benin-actvities.xml": {
         "2": 1,
@@ -94,12 +109,13 @@
     ".//result/@type": {
       "pascib_benin-actvities.xml": {
         "3": 4,
-        "2": 3
+        "2": 5,
+        "1": 2
       }
     },
     ".//result/indicator/@measure": {
       "pascib_benin-actvities.xml": {
-        "1": 9
+        "1": 22
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -132,9 +148,9 @@
     ".//@xml:lang": {
       "pascib_benin-actvities.xml": {
         "FR": 14,
-        "nl": 32,
-        "en": 32,
-        "fr": 45
+        "nl": 64,
+        "en": 66,
+        "fr": 88
       }
     }
   }
