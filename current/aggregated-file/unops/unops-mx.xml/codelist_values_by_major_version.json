@@ -1,51 +1,58 @@
 {
   "2": {
     ".//@default-currency": {
-      "USD": 16
+      "USD": 14
     },
     ".//activity-date/@type": {
-      "2": 16
+      "2": 14
+    },
+    ".//activity-status/@code": {
+      "2": 14
     },
     ".//budget/@type": {
-      "1": 16
+      "1": 14
+    },
+    ".//budget/value/@currency": {
+      "USD": 14
     },
     ".//contact-info/@type": {
-      "1": 16
+      "1": 14
     },
     ".//description/@type": {
-      "1": 16
+      "1": 14
     },
     ".//participating-org/@role": {
-      "4": 16,
-      "2": 16
+      "4": 14,
+      "2": 14
     },
     ".//participating-org/@type": {
-      "40": 32
+      "40": 28
     },
     ".//recipient-country/@code": {
-      "MX": 16
+      "MX": 14
     },
     ".//reporting-org/@type": {
-      "40": 16
+      "40": 14
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "43030": 1,
       "12263": 3,
       "41010": 4,
       "21012": 4,
-      "21030": 1,
       "12110": 1,
-      "15110": 1,
       "33210": 1
     },
     ".//sector/@vocabulary": {
-      "1": 16
+      "1": 14
     },
     ".//transaction/transaction-type/@code": {
-      "4": 16
+      "4": 14
+    },
+    ".//transaction/value/@currency": {
+      "USD": 14
     },
     ".//@xml:lang": {
-      "en": 16
+      "en": 14
     }
   }
 }

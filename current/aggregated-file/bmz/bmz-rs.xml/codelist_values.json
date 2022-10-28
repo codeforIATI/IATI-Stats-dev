@@ -1,67 +1,67 @@
 {
   ".//@default-currency": {
-    "EUR": 149
+    "EUR": 152
   },
   ".//@xml:lang": {
-    "de": 2216,
-    "en": 1677
+    "de": 2246,
+    "en": 1697
   },
   ".//activity-date/@type": {
-    "1": 149,
-    "2": 149,
-    "3": 149,
-    "4": 78
+    "1": 152,
+    "2": 152,
+    "3": 151,
+    "4": 81
   },
   ".//activity-scope/@code": {
-    "4": 132
+    "4": 135
   },
   ".//activity-status/@code": {
-    "4": 61,
+    "4": 63,
     "2": 71,
-    "3": 17
+    "3": 18
   },
   ".//budget/@status": {
-    "2": 234,
-    "1": 100
-  },
-  ".//budget/@type": {
-    "2": 234,
-    "1": 100
-  },
-  ".//collaboration-type/@code": {
+    "2": 241,
     "1": 106
   },
+  ".//budget/@type": {
+    "2": 241,
+    "1": 106
+  },
+  ".//collaboration-type/@code": {
+    "1": 109
+  },
   ".//conditions/condition/@type": {
-    "1": 149
+    "1": 152
   },
   ".//contact-info/@type": {
-    "1": 149,
-    "2": 132
+    "1": 152,
+    "2": 135
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 107,
+    "C01": 110,
     "B01": 3
   },
   ".//default-finance-type/@code": {
-    "110": 83,
+    "110": 86,
     "410": 1,
     "421": 26,
     "510": 1
   },
   ".//default-flow-type/@code": {
-    "10": 149
+    "10": 152
   },
   ".//default-tied-status/@code": {
-    "3": 149
+    "3": 149,
+    "5": 3
   },
   ".//description/@type": {
-    "1": 149,
-    "2": 149
+    "1": 152,
+    "2": 152
   },
   ".//document-link/@format": {
-    "text/html": 901,
-    "application/pdf": 364,
-    "text/text/html": 149
+    "text/html": 1053,
+    "application/pdf": 364
   },
   ".//document-link/category/@code": {
     "A01": 91,
@@ -70,73 +70,73 @@
     "A10": 223,
     "A11": 223,
     "A05": 182,
-    "B03": 149,
+    "B03": 152,
     "A02": 61,
     "A08": 41,
     "A04": 41
   },
   ".//document-link/language/@code": {
-    "de": 786,
+    "de": 789,
     "en": 628
   },
   ".//location/administrative/@vocabulary": {
-    "G1": 149
+    "G1": 152
   },
   ".//location/exactness/@code": {
-    "2": 149
+    "2": 152
   },
   ".//location/feature-designation/@code": {
-    "PPLC": 149
+    "PPLC": 152
   },
   ".//location/location-class/@code": {
-    "1": 149
+    "1": 152
   },
   ".//location/location-id/@vocabulary": {
-    "G1": 149
+    "G1": 152
   },
   ".//location/location-reach/@code": {
-    "1": 149
+    "1": 152
   },
   ".//other-identifier/@type": {
-    "A1": 149
+    "A1": 152
   },
   ".//participating-org/@role": {
-    "1": 159,
-    "2": 149,
-    "3": 149,
-    "4": 101
+    "1": 162,
+    "2": 152,
+    "3": 152,
+    "4": 103
   },
   ".//participating-org/@type": {
-    "10": 152,
+    "10": 155,
     "40": 7
   },
   ".//policy-marker/@significance": {
-    "0": 732,
-    "1": 222,
+    "0": 755,
+    "1": 223,
     "2": 84
   },
   ".//policy-marker/@vocabulary": {
-    "1": 1038
+    "1": 1062
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "1": 132,
-    "2": 132,
-    "3": 132,
-    "9": 119,
-    "5": 123,
-    "6": 123,
-    "7": 112,
-    "8": 123,
+    "1": 135,
+    "2": 135,
+    "3": 135,
+    "9": 122,
+    "5": 126,
+    "6": 126,
+    "7": 115,
+    "8": 126,
     "4": 42
   },
   ".//recipient-country/@code": {
-    "RS": 149
+    "RS": 152
   },
   ".//reporting-org/@type": {
-    "10": 149
+    "10": 152
   },
   ".//sector/@vocabulary": {
-    "1": 201
+    "1": 204
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "24030": 31,
@@ -159,9 +159,10 @@
     "15130": 2,
     "15150": 2,
     "25010": 9,
-    "33110": 1,
+    "33110": 3,
     "15114": 5,
     "41030": 4,
+    "33130": 1,
     "23183": 14,
     "23270": 4,
     "31130": 1,
@@ -186,9 +187,9 @@
     "40": 15
   },
   ".//transaction/transaction-type/@code": {
-    "2": 149,
+    "2": 152,
     "3": 91,
-    "4": 58,
+    "4": 61,
     "11": 21
   }
 }

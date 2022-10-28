@@ -8,8 +8,14 @@
   ".//activity-date/@type": {
     "2": 1
   },
+  ".//activity-status/@code": {
+    "2": 1
+  },
   ".//budget/@type": {
     "1": 1
+  },
+  ".//budget/value/@currency": {
+    "USD": 1
   },
   ".//contact-info/@type": {
     "1": 1
@@ -38,5 +44,8 @@
   },
   ".//transaction/transaction-type/@code": {
     "4": 1
+  },
+  ".//transaction/value/@currency": {
+    "USD": 1
   }
 }

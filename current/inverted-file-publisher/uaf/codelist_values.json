@@ -6,7 +6,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "uaf-activities.xml": 610
+      "uaf-activities.xml": 736
     }
   },
   ".//activity-date/@type": {
@@ -182,12 +182,23 @@
   },
   ".//result/@type": {
     "2": {
-      "uaf-activities.xml": 112
+      "uaf-activities.xml": 122
+    },
+    "1": {
+      "uaf-activities.xml": 3
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "uaf-activities.xml": 411
+      "uaf-activities.xml": 422
+    },
+    "5": {
+      "uaf-activities.xml": 5
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "uaf-activities.xml": 29
     }
   },
   ".//sector/@vocabulary": {
@@ -205,61 +216,58 @@
   },
   ".//transaction/aid-type/@vocabulary": {
     "1": {
-      "uaf-activities.xml": 3
+      "uaf-activities.xml": 8
     }
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "A01": {
-      "uaf-activities.xml": 3
+      "uaf-activities.xml": 8
     }
   },
   ".//transaction/disbursement-channel/@code": {
     "2": {
-      "uaf-activities.xml": 6
+      "uaf-activities.xml": 8
     }
   },
   ".//transaction/finance-type/@code": {
     "110": {
-      "uaf-activities.xml": 3
+      "uaf-activities.xml": 8
     }
   },
   ".//transaction/flow-type/@code": {
     "30": {
-      "uaf-activities.xml": 3
+      "uaf-activities.xml": 8
     }
   },
   ".//transaction/provider-org/@type": {
     "60": {
-      "uaf-activities.xml": 5
+      "uaf-activities.xml": 7
     }
   },
   ".//transaction/receiver-org/@type": {
     "60": {
-      "uaf-activities.xml": 6
+      "uaf-activities.xml": 8
     }
   },
   ".//transaction/tied-status/@code": {
     "5": {
-      "uaf-activities.xml": 3
+      "uaf-activities.xml": 8
     }
   },
   ".//transaction/transaction-type/@code": {
     "4": {
-      "uaf-activities.xml": 19
+      "uaf-activities.xml": 21
+    },
+    "1": {
+      "uaf-activities.xml": 5
     },
     "11": {
       "uaf-activities.xml": 1
-    },
-    "3": {
-      "uaf-activities.xml": 2
-    },
-    "1": {
-      "uaf-activities.xml": 3
     }
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "uaf-activities.xml": 21
+      "uaf-activities.xml": 23
     }
   }
 }

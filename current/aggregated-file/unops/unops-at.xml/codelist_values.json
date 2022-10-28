@@ -8,8 +8,14 @@
   ".//activity-date/@type": {
     "2": 4
   },
+  ".//activity-status/@code": {
+    "2": 4
+  },
   ".//budget/@type": {
     "1": 4
+  },
+  ".//budget/value/@currency": {
+    "USD": 4
   },
   ".//contact-info/@type": {
     "1": 4
@@ -36,10 +42,13 @@
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "23210": 1,
     "41010": 1,
-    "99810": 1,
-    "15110": 1
+    "15110": 1,
+    "99810": 1
   },
   ".//transaction/transaction-type/@code": {
     "4": 4
+  },
+  ".//transaction/value/@currency": {
+    "USD": 4
   }
 }

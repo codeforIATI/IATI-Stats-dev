@@ -1,75 +1,258 @@
 {
   "2": {
     ".//@default-currency": {
-      "_path_-998.xml": {
-        "GBP": 4
-      },
       "_path_-us.xml": {
         "GBP": 1
+      },
+      "_path_-998.xml": {
+        "GBP": 4
       }
     },
     ".//activity-date/@type": {
-      "_path_-998.xml": {
-        "2": 4,
-        "3": 1
-      },
       "_path_-us.xml": {
         "2": 1,
+        "3": 1
+      },
+      "_path_-998.xml": {
+        "2": 4,
         "3": 1
       }
     },
     ".//activity-status/@code": {
-      "_path_-998.xml": {
-        "2": 4
-      },
       "_path_-us.xml": {
         "2": 1
+      },
+      "_path_-998.xml": {
+        "2": 4
       }
     },
     ".//budget/@status": {
-      "_path_-998.xml": {
-        "1": 5,
-        "2": 8
-      },
       "_path_-us.xml": {
         "2": 3,
         "1": 2
+      },
+      "_path_-998.xml": {
+        "1": 5,
+        "2": 8
       }
     },
     ".//budget/@type": {
-      "_path_-998.xml": {
-        "2": 5,
-        "1": 7
-      },
       "_path_-us.xml": {
         "2": 2,
         "1": 2
+      },
+      "_path_-998.xml": {
+        "2": 5,
+        "1": 7
       }
     },
     ".//budget/value/@currency": {
-      "_path_-998.xml": {
-        "GBP": 11
-      },
       "_path_-us.xml": {
         "GBP": 4
+      },
+      "_path_-998.xml": {
+        "GBP": 11
       }
     },
     ".//contact-info/@type": {
+      "_path_-us.xml": {
+        "1": 1
+      },
       "_path_-998.xml": {
         "1": 2,
         "3": 1,
         "2": 1
-      },
-      "_path_-us.xml": {
-        "1": 1
       }
     },
     ".//description/@type": {
-      "_path_-998.xml": {
-        "1": 4
-      },
       "_path_-us.xml": {
         "1": 1
+      },
+      "_path_-998.xml": {
+        "1": 4
+      }
+    },
+    ".//participating-org/@role": {
+      "_path_-us.xml": {
+        "4": 1
+      },
+      "_path_-998.xml": {
+        "1": 1,
+        "4": 15,
+        "2": 2
+      }
+    },
+    ".//participating-org/@type": {
+      "_path_-us.xml": {
+        "21": 1
+      },
+      "_path_-998.xml": {
+        "10": 1,
+        "70": 4,
+        "21": 8,
+        "22": 3,
+        "80": 1,
+        "72": 1
+      }
+    },
+    ".//planned-disbursement/@type": {
+      "_path_-us.xml": {
+        "1": 1
+      },
+      "_path_-998.xml": {
+        "1": 11
+      }
+    },
+    ".//planned-disbursement/provider-org/@type": {
+      "_path_-us.xml": {
+        "73": 1
+      },
+      "_path_-998.xml": {
+        "21": 8
+      }
+    },
+    ".//planned-disbursement/receiver-org/@type": {
+      "_path_-us.xml": {
+        "73": 1
+      },
+      "_path_-998.xml": {
+        "80": 5,
+        "70": 3
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "_path_-us.xml": {
+        "GBP": 1
+      },
+      "_path_-998.xml": {
+        "GBP": 5,
+        "USD": 4
+      }
+    },
+    ".//recipient-country/@code": {
+      "_path_-us.xml": {
+        "US": 1,
+        "KE": 1,
+        "GH": 1,
+        "UG": 1
+      },
+      "_path_-998.xml": {
+        "US": 3,
+        "BE": 1,
+        "GB": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "_path_-us.xml": {
+        "389": 1,
+        "298": 1
+      },
+      "_path_-998.xml": {
+        "998": 4
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "_path_-us.xml": {
+        "1": 2
+      },
+      "_path_-998.xml": {
+        "1": 4
+      }
+    },
+    ".//reporting-org/@type": {
+      "_path_-us.xml": {
+        "21": 1
+      },
+      "_path_-998.xml": {
+        "21": 4
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "_path_-us.xml": {
+        "32182": 1
+      },
+      "_path_-998.xml": {
+        "12240": 1,
+        "13020": 2,
+        "32182": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "_path_-us.xml": {
+        "1": 1
+      },
+      "_path_-998.xml": {
+        "1": 4
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "_path_-us.xml": {
+        "3": 1
+      },
+      "_path_-998.xml": {
+        "2": 3
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "_path_-us.xml": {
+        "110": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "_path_-us.xml": {
+        "10": 12,
+        "21": 16
+      },
+      "_path_-998.xml": {
+        "10": 39,
+        "21": 126,
+        "70": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "_path_-us.xml": {
+        "21": 13,
+        "80": 6,
+        "73": 1,
+        "70": 3
+      },
+      "_path_-998.xml": {
+        "21": 64,
+        "70": 47,
+        "71": 1,
+        "22": 24,
+        "80": 9,
+        "72": 4
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "_path_-us.xml": {
+        "4": 17,
+        "1": 13,
+        "3": 18
+      },
+      "_path_-998.xml": {
+        "1": 27,
+        "11": 14,
+        "2": 37,
+        "3": 88,
+        "4": 31
+      }
+    },
+    ".//transaction/value/@currency": {
+      "_path_-us.xml": {
+        "GBP": 45
+      },
+      "_path_-998.xml": {
+        "GBP": 195
+      }
+    },
+    ".//@xml:lang": {
+      "_path_-us.xml": {
+        "en": 16
+      },
+      "_path_-998.xml": {
+        "en": 78
       }
     },
     ".//document-link/@format": {
@@ -92,189 +275,6 @@
     ".//document-link/language/@code": {
       "_path_-998.xml": {
         "en": 19
-      }
-    },
-    ".//participating-org/@role": {
-      "_path_-998.xml": {
-        "1": 1,
-        "4": 15,
-        "2": 2
-      },
-      "_path_-us.xml": {
-        "4": 1
-      }
-    },
-    ".//participating-org/@type": {
-      "_path_-998.xml": {
-        "10": 1,
-        "70": 4,
-        "21": 8,
-        "22": 3,
-        "80": 1,
-        "72": 1
-      },
-      "_path_-us.xml": {
-        "21": 1
-      }
-    },
-    ".//planned-disbursement/@type": {
-      "_path_-998.xml": {
-        "1": 11
-      },
-      "_path_-us.xml": {
-        "1": 1
-      }
-    },
-    ".//planned-disbursement/provider-org/@type": {
-      "_path_-998.xml": {
-        "21": 8
-      },
-      "_path_-us.xml": {
-        "73": 1
-      }
-    },
-    ".//planned-disbursement/receiver-org/@type": {
-      "_path_-998.xml": {
-        "80": 5,
-        "70": 3
-      },
-      "_path_-us.xml": {
-        "73": 1
-      }
-    },
-    ".//planned-disbursement/value/@currency": {
-      "_path_-998.xml": {
-        "GBP": 5,
-        "USD": 4
-      },
-      "_path_-us.xml": {
-        "GBP": 1
-      }
-    },
-    ".//recipient-country/@code": {
-      "_path_-998.xml": {
-        "US": 3,
-        "BE": 1,
-        "GB": 1
-      },
-      "_path_-us.xml": {
-        "US": 1,
-        "KE": 1,
-        "GH": 1,
-        "UG": 1
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "_path_-998.xml": {
-        "998": 4
-      },
-      "_path_-us.xml": {
-        "389": 1,
-        "298": 1
-      }
-    },
-    ".//recipient-region/@vocabulary": {
-      "_path_-998.xml": {
-        "1": 4
-      },
-      "_path_-us.xml": {
-        "1": 2
-      }
-    },
-    ".//reporting-org/@type": {
-      "_path_-998.xml": {
-        "21": 4
-      },
-      "_path_-us.xml": {
-        "21": 1
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "_path_-998.xml": {
-        "12240": 1,
-        "13020": 2,
-        "32182": 1
-      },
-      "_path_-us.xml": {
-        "32182": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "_path_-998.xml": {
-        "1": 4
-      },
-      "_path_-us.xml": {
-        "1": 1
-      }
-    },
-    ".//transaction/disbursement-channel/@code": {
-      "_path_-998.xml": {
-        "2": 3
-      },
-      "_path_-us.xml": {
-        "3": 1
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "_path_-998.xml": {
-        "10": 39,
-        "21": 126,
-        "70": 1
-      },
-      "_path_-us.xml": {
-        "10": 12,
-        "21": 16
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "_path_-998.xml": {
-        "21": 64,
-        "70": 47,
-        "71": 1,
-        "22": 24,
-        "80": 9,
-        "72": 4
-      },
-      "_path_-us.xml": {
-        "21": 13,
-        "80": 6,
-        "73": 1,
-        "70": 3
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "_path_-998.xml": {
-        "1": 27,
-        "11": 14,
-        "2": 37,
-        "3": 88,
-        "4": 31
-      },
-      "_path_-us.xml": {
-        "4": 17,
-        "1": 13,
-        "3": 18
-      }
-    },
-    ".//transaction/value/@currency": {
-      "_path_-998.xml": {
-        "GBP": 195
-      },
-      "_path_-us.xml": {
-        "GBP": 45
-      }
-    },
-    ".//@xml:lang": {
-      "_path_-998.xml": {
-        "en": 78
-      },
-      "_path_-us.xml": {
-        "en": 16
-      }
-    },
-    ".//transaction/finance-type/@code": {
-      "_path_-us.xml": {
-        "110": 1
       }
     }
   }

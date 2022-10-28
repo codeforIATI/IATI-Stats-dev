@@ -1,192 +1,128 @@
 {
   "2": {
     ".//@default-currency": {
-      "uva_org-bd.xml": {
-        "EUR": 1
-      },
       "uva_org-activities.xml": {
         "EUR": 12
+      },
+      "uva_org-bd.xml": {
+        "EUR": 1
       }
     },
     ".//activity-date/@type": {
-      "uva_org-bd.xml": {
-        "2": 1
-      },
       "uva_org-activities.xml": {
         "1": 12,
         "3": 12
+      },
+      "uva_org-bd.xml": {
+        "2": 1
       }
     },
     ".//activity-status/@code": {
-      "uva_org-bd.xml": {
-        "2": 1
-      },
       "uva_org-activities.xml": {
         "4": 12
+      },
+      "uva_org-bd.xml": {
+        "2": 1
       }
     },
     ".//budget/@status": {
-      "uva_org-bd.xml": {
-        "2": 1
-      },
       "uva_org-activities.xml": {
         "2": 12
+      },
+      "uva_org-bd.xml": {
+        "2": 1
       }
     },
     ".//budget/@type": {
-      "uva_org-bd.xml": {
-        "1": 1
-      },
       "uva_org-activities.xml": {
         "2": 12
+      },
+      "uva_org-bd.xml": {
+        "1": 1
       }
     },
     ".//budget/value/@currency": {
-      "uva_org-bd.xml": {
-        "EUR": 1
-      },
       "uva_org-activities.xml": {
         "EUR": 12
+      },
+      "uva_org-bd.xml": {
+        "EUR": 1
       }
     },
     ".//collaboration-type/@code": {
-      "uva_org-bd.xml": {
-        "1": 1
-      },
       "uva_org-activities.xml": {
         "1": 12
-      }
-    },
-    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "uva_org-bd.xml": {
-        "C01": 1
       },
-      "uva_org-activities.xml": {
-        "C01": 12
-      }
-    },
-    ".//default-finance-type/@code": {
-      "uva_org-bd.xml": {
-        "110": 1
-      },
-      "uva_org-activities.xml": {
-        "110": 12
-      }
-    },
-    ".//default-flow-type/@code": {
-      "uva_org-bd.xml": {
-        "20": 1
-      },
-      "uva_org-activities.xml": {
-        "30": 12
-      }
-    },
-    ".//default-tied-status/@code": {
-      "uva_org-bd.xml": {
-        "5": 1
-      },
-      "uva_org-activities.xml": {
-        "5": 12
-      }
-    },
-    ".//description/@type": {
       "uva_org-bd.xml": {
         "1": 1
-      },
-      "uva_org-activities.xml": {
-        "1": 12,
-        "2": 12,
-        "3": 12,
-        "4": 12
-      }
-    },
-    ".//participating-org/@role": {
-      "uva_org-bd.xml": {
-        "1": 1,
-        "4": 1
-      },
-      "uva_org-activities.xml": {
-        "2": 12,
-        "1": 1,
-        "4": 1
-      }
-    },
-    ".//participating-org/@type": {
-      "uva_org-bd.xml": {
-        "10": 1,
-        "80": 1
-      },
-      "uva_org-activities.xml": {
-        "21": 14
-      }
-    },
-    ".//recipient-country/@code": {
-      "uva_org-bd.xml": {
-        "BD": 1
-      },
-      "uva_org-activities.xml": {
-        "BD": 6,
-        "BF": 6,
-        "BJ": 6,
-        "ET": 6,
-        "GH": 6,
-        "ML": 6,
-        "NP": 6,
-        "PK": 6,
-        "SN": 6,
-        "SL": 3,
-        "UG": 6
-      }
-    },
-    ".//reporting-org/@type": {
-      "uva_org-bd.xml": {
-        "80": 1
-      },
-      "uva_org-activities.xml": {
-        "21": 12
-      }
-    },
-    ".//result/@type": {
-      "uva_org-bd.xml": {
-        "1": 5
-      },
-      "uva_org-activities.xml": {
-        "1": 41,
-        "2": 2
-      }
-    },
-    ".//result/indicator/@measure": {
-      "uva_org-bd.xml": {
-        "2": 4,
-        "1": 1
-      },
-      "uva_org-activities.xml": {
-        "1": 41,
-        "2": 2
-      }
-    },
-    ".//result/indicator/reference/@vocabulary": {
-      "uva_org-bd.xml": {
-        "99": 5
-      }
-    },
-    ".//sector/@vocabulary": {
-      "uva_org-bd.xml": {
-        "6": 1
-      }
-    },
-    ".//@xml:lang": {
-      "uva_org-bd.xml": {
-        "en": 35,
-        "nl": 1
-      },
-      "uva_org-activities.xml": {
-        "en": 12
       }
     },
     ".//contact-info/@type": {
       "uva_org-activities.xml": {
         "2": 12
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "uva_org-activities.xml": {
+        "C01": 12
+      },
+      "uva_org-bd.xml": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "uva_org-activities.xml": {
+        "110": 12
+      },
+      "uva_org-bd.xml": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "uva_org-activities.xml": {
+        "30": 12
+      },
+      "uva_org-bd.xml": {
+        "20": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "uva_org-activities.xml": {
+        "5": 12
+      },
+      "uva_org-bd.xml": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "uva_org-activities.xml": {
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 12
+      },
+      "uva_org-bd.xml": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "uva_org-activities.xml": {
+        "2": 12,
+        "1": 1,
+        "4": 1
+      },
+      "uva_org-bd.xml": {
+        "1": 1,
+        "4": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "uva_org-activities.xml": {
+        "21": 14
+      },
+      "uva_org-bd.xml": {
+        "10": 1,
+        "80": 1
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -204,9 +140,54 @@
         "1": 12
       }
     },
+    ".//recipient-country/@code": {
+      "uva_org-activities.xml": {
+        "BD": 6,
+        "BF": 6,
+        "BJ": 6,
+        "ET": 6,
+        "GH": 6,
+        "ML": 6,
+        "NP": 6,
+        "PK": 6,
+        "SN": 6,
+        "SL": 3,
+        "UG": 6
+      },
+      "uva_org-bd.xml": {
+        "BD": 1
+      }
+    },
     ".//related-activity/@type": {
       "uva_org-activities.xml": {
         "1": 11
+      }
+    },
+    ".//reporting-org/@type": {
+      "uva_org-activities.xml": {
+        "21": 12
+      },
+      "uva_org-bd.xml": {
+        "80": 1
+      }
+    },
+    ".//result/@type": {
+      "uva_org-activities.xml": {
+        "1": 41,
+        "2": 2
+      },
+      "uva_org-bd.xml": {
+        "1": 5
+      }
+    },
+    ".//result/indicator/@measure": {
+      "uva_org-activities.xml": {
+        "1": 41,
+        "2": 2
+      },
+      "uva_org-bd.xml": {
+        "2": 4,
+        "1": 1
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -224,6 +205,25 @@
     ".//transaction/value/@currency": {
       "uva_org-activities.xml": {
         "EUR": 64
+      }
+    },
+    ".//@xml:lang": {
+      "uva_org-activities.xml": {
+        "en": 12
+      },
+      "uva_org-bd.xml": {
+        "en": 35,
+        "nl": 1
+      }
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "uva_org-bd.xml": {
+        "99": 5
+      }
+    },
+    ".//sector/@vocabulary": {
+      "uva_org-bd.xml": {
+        "6": 1
       }
     }
   }

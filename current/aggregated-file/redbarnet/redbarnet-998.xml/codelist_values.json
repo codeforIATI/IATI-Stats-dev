@@ -1,62 +1,63 @@
 {
   ".//@default-currency": {
-    "DKK": 22
+    "DKK": 24
   },
   ".//@xml:lang": {
-    "en": 80
+    "en": 92
   },
   ".//activity-date/@type": {
-    "2": 20,
-    "3": 22,
+    "2": 22,
+    "3": 24,
     "1": 2
   },
   ".//activity-scope/@code": {
-    "1": 12,
     "2": 6,
-    "4": 2
+    "4": 2,
+    "1": 14
   },
   ".//activity-status/@code": {
-    "2": 22
+    "2": 22,
+    "3": 2
   },
   ".//budget/@status": {
     "2": 26
   },
   ".//budget/@type": {
-    "1": 6,
-    "2": 20
+    "2": 20,
+    "1": 6
   },
   ".//budget/value/@currency": {
     "DKK": 26
   },
   ".//contact-info/@type": {
-    "1": 16
+    "1": 18
   },
   ".//default-aid-type/@vocabulary": {
-    "1": 22
+    "1": 24
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "B03": 22
+    "B03": 24
   },
   ".//default-finance-type/@code": {
-    "110": 22
+    "110": 24
   },
   ".//default-flow-type/@code": {
-    "10": 22
+    "10": 24
   },
   ".//default-tied-status/@code": {
-    "5": 22
+    "5": 24
   },
   ".//description/@type": {
-    "1": 22
+    "1": 24
   },
   ".//participating-org/@role": {
-    "1": 22,
-    "2": 21,
+    "1": 24,
+    "2": 24,
     "4": 20
   },
   ".//participating-org/@type": {
-    "10": 22,
-    "21": 41
+    "10": 24,
+    "21": 44
   },
   ".//policy-marker/@significance": {
     "1": 6,
@@ -76,45 +77,49 @@
     "BF": 1
   },
   ".//recipient-region/@vocabulary": {
-    "1": 22
+    "1": 24
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "998": 22
+    "998": 24
   },
   ".//reporting-org/@type": {
-    "21": 22
+    "21": 24
   },
   ".//sector/@vocabulary": {
-    "2": 39
+    "2": 39,
+    "1": 2
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "99810": 2
   },
   ".//sector[@vocabulary = '2']/@code": {
-    "998": 3,
     "151": 7,
     "152": 7,
     "160": 11,
     "111": 7,
     "121": 2,
+    "998": 3,
     "910": 2
   },
   ".//transaction/aid-type/@vocabulary": {
-    "1": 4
+    "1": 8
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "B03": 4
+    "B03": 8
   },
   ".//transaction/provider-org/@type": {
-    "10": 20,
-    "21": 24
+    "21": 24,
+    "10": 24
   },
   ".//transaction/receiver-org/@type": {
-    "21": 41
+    "21": 45
   },
   ".//transaction/transaction-type/@code": {
-    "1": 18,
     "4": 24,
+    "1": 22,
     "2": 2
   },
   ".//transaction/value/@currency": {
-    "DKK": 44
+    "DKK": 48
   }
 }

@@ -55,10 +55,6 @@
       "iati-activity/sector/@vocabulary": 7,
       "iati-activity/sector/@code": 7,
       "iati-activity/sector/@percentage": 7,
-      "iati-activity/tag": 3,
-      "iati-activity/tag/narrative": 3,
-      "iati-activity/tag/@vocabulary": 3,
-      "iati-activity/tag/@code": 3,
       "iati-activity/policy-marker": 7,
       "iati-activity/policy-marker/narrative": 7,
       "iati-activity/policy-marker/@code": 7,
@@ -115,7 +111,11 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 7,
       "iati-activity/@default-currency": 7,
       "iati-activity/@humanitarian": 7,
-      "iati-activity/@hierarchy": 7
+      "iati-activity/@hierarchy": 7,
+      "iati-activity/tag": 3,
+      "iati-activity/tag/narrative": 3,
+      "iati-activity/tag/@vocabulary": 3,
+      "iati-activity/tag/@code": 3
     },
     "elements_total": {
       "iati-activity": 7,
@@ -171,10 +171,6 @@
       "iati-activity/sector/@vocabulary": 7,
       "iati-activity/sector/@code": 7,
       "iati-activity/sector/@percentage": 7,
-      "iati-activity/tag": 3,
-      "iati-activity/tag/narrative": 3,
-      "iati-activity/tag/@vocabulary": 3,
-      "iati-activity/tag/@code": 3,
       "iati-activity/policy-marker": 84,
       "iati-activity/policy-marker/narrative": 84,
       "iati-activity/policy-marker/@code": 84,
@@ -231,13 +227,17 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 7,
       "iati-activity/@default-currency": 7,
       "iati-activity/@humanitarian": 7,
-      "iati-activity/@hierarchy": 7
+      "iati-activity/@hierarchy": 7,
+      "iati-activity/tag": 3,
+      "iati-activity/tag/narrative": 3,
+      "iati-activity/tag/@vocabulary": 3,
+      "iati-activity/tag/@code": 3
     },
     "forwardlooking_currency_year": {
-      "2050": {
+      "null": {
         "EUR": 0.0
       },
-      "null": {
+      "2050": {
         "EUR": 0.0
       }
     },

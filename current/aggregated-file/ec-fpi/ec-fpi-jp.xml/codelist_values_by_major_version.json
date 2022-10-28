@@ -32,8 +32,8 @@
       "1": 17
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 12,
-      "D02": 5
+      "D02": 5,
+      "C01": 12
     },
     ".//default-finance-type/@code": {
       "110": 17
@@ -85,8 +85,8 @@
     },
     ".//policy-marker/@significance": {
       "0": 191,
-      "1": 6,
-      "2": 7
+      "2": 7,
+      "1": 6
     },
     ".//policy-marker/@vocabulary": {
       "1": 204
@@ -102,35 +102,35 @@
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "25010": 2,
-      "99810": 2,
       "33110": 4,
-      "31310": 1,
+      "99810": 2,
+      "15112": 1,
+      "15170": 2,
       "15110": 1,
       "15130": 3,
-      "15170": 2,
-      "15112": 1,
+      "21030": 1,
+      "31310": 1,
       "15153": 1,
-      "15160": 1,
-      "21030": 1
+      "15160": 1
     },
     ".//sector/@vocabulary": {
       "1": 19
     },
     ".//tag[@vocabulary = '2']/@code": {
       "17": 10,
-      "13": 2,
+      "8": 3,
       "11": 1,
+      "13": 2,
       "16": 3,
-      "3": 1,
-      "8": 3
+      "3": 1
     },
     ".//tag/@vocabulary": {
       "2": 20,
       "99": 3
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 42,
-      "D02": 7
+      "D02": 7,
+      "C01": 42
     },
     ".//transaction/disbursement-channel/@code": {
       "2": 49

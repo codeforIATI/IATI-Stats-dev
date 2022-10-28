@@ -8,12 +8,12 @@
   },
   ".//activity-date/@type": {
     "2": 4,
-    "4": 1,
-    "3": 3
+    "3": 3,
+    "4": 1
   },
   ".//activity-status/@code": {
-    "3": 1,
-    "2": 3
+    "2": 3,
+    "3": 1
   },
   ".//budget/@status": {
     "1": 4,
@@ -68,13 +68,13 @@
     "70": 2
   },
   ".//recipient-country/@code": {
+    "CD": 25,
+    "GH": 14,
+    "GB": 33,
+    "CM": 14,
+    "CG": 11,
     "GA": 1,
-    "CF": 1,
-    "CD": 23,
-    "GH": 13,
-    "GB": 31,
-    "CM": 13,
-    "CG": 10
+    "CF": 1
   },
   ".//reporting-org/@type": {
     "21": 4
@@ -83,11 +83,11 @@
     "1": 11
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "31210": 4,
     "11430": 1,
     "15130": 1,
     "15150": 1,
     "15162": 1,
-    "31210": 4,
     "31281": 1,
     "92010": 1,
     "92030": 1
@@ -105,29 +105,29 @@
     "30": 202
   },
   ".//transaction/provider-org/@type": {
-    "21": 58,
-    "70": 15
+    "21": 63,
+    "70": 16
   },
   ".//transaction/receiver-org/@type": {
-    "24": 58,
-    "21": 15
+    "24": 63,
+    "21": 16
   },
   ".//transaction/recipient-country/@code": {
-    "GH": 13,
-    "GB": 31,
-    "CD": 22,
-    "CM": 13,
-    "CG": 10
+    "GH": 14,
+    "GB": 33,
+    "CD": 24,
+    "CM": 14,
+    "CG": 11
   },
   ".//transaction/tied-status/@code": {
     "3": 202
   },
   ".//transaction/transaction-type/@code": {
-    "3": 165,
-    "4": 95,
-    "1": 41
+    "4": 96,
+    "1": 42,
+    "3": 170
   },
   ".//transaction/value/@currency": {
-    "GBP": 292
+    "GBP": 299
   }
 }

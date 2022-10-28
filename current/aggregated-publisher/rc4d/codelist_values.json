@@ -31,8 +31,8 @@
     "1": 9
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "G01": 1,
-    "C01": 8
+    "C01": 8,
+    "G01": 1
   },
   ".//default-finance-type/@code": {
     "110": 9
@@ -62,9 +62,9 @@
     "A9": 2
   },
   ".//participating-org/@role": {
+    "1": 17,
     "2": 36,
-    "4": 18,
-    "1": 17
+    "4": 18
   },
   ".//participating-org/@type": {
     "22": 62,
@@ -90,8 +90,8 @@
     "1": 9
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "89": 1,
-    "998": 8
+    "998": 8,
+    "89": 1
   },
   ".//related-activity/@type": {
     "1": 9
@@ -110,10 +110,10 @@
     "1": 13
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "91010": 1,
     "15150": 4,
     "31120": 4,
-    "16050": 4
+    "16050": 4,
+    "91010": 1
   },
   ".//transaction/provider-org/@type": {
     "22": 17,
@@ -123,9 +123,9 @@
     "22": 26
   },
   ".//transaction/transaction-type/@code": {
-    "11": 24,
     "4": 29,
-    "1": 17
+    "1": 17,
+    "11": 24
   },
   ".//transaction/value/@currency": {
     "EUR": 1

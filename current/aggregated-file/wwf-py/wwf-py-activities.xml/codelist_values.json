@@ -13,10 +13,13 @@
     "2": 1
   },
   ".//budget/@status": {
-    "2": 1
+    "2": 5
+  },
+  ".//budget/@type": {
+    "1": 5
   },
   ".//budget/value/@currency": {
-    "EUR": 1
+    "EUR": 5
   },
   ".//collaboration-type/@code": {
     "1": 1
@@ -67,5 +70,16 @@
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "15150": 1,
     "14010": 1
+  },
+  ".//transaction/provider-org/@type": {
+    "21": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": 1,
+    "11": 1,
+    "4": 1
+  },
+  ".//transaction/value/@currency": {
+    "EUR": 3
   }
 }

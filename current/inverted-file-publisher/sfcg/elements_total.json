@@ -336,7 +336,7 @@
     "sfcg-activities.xml": 12
   },
   "iati-activity/policy-marker/@significance": {
-    "sfcg-activities.xml": 5
+    "sfcg-activities.xml": 12
   },
   "iati-activity/policy-marker/@vocabulary": {
     "sfcg-activities.xml": 9
@@ -417,7 +417,7 @@
     "sfcg-activities.xml": 91
   },
   "iati-activity/result/indicator/@aggregation-status": {
-    "sfcg-activities.xml": 19
+    "sfcg-activities.xml": 53
   },
   "iati-activity/result/indicator/@ascending": {
     "sfcg-activities.xml": 86
@@ -438,10 +438,10 @@
     "sfcg-activities.xml": 83
   },
   "iati-activity/result/indicator/baseline/comment": {
-    "sfcg-activities.xml": 4
+    "sfcg-activities.xml": 38
   },
   "iati-activity/result/indicator/baseline/comment/narrative": {
-    "sfcg-activities.xml": 4
+    "sfcg-activities.xml": 38
   },
   "iati-activity/result/indicator/baseline/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "sfcg-activities.xml": 1
@@ -459,16 +459,16 @@
     "sfcg-activities.xml": 103
   },
   "iati-activity/result/indicator/period/actual": {
-    "sfcg-activities.xml": 62
+    "sfcg-activities.xml": 95
   },
   "iati-activity/result/indicator/period/actual/@value": {
-    "sfcg-activities.xml": 45
+    "sfcg-activities.xml": 95
   },
   "iati-activity/result/indicator/period/actual/comment": {
-    "sfcg-activities.xml": 11
+    "sfcg-activities.xml": 17
   },
   "iati-activity/result/indicator/period/actual/comment/narrative": {
-    "sfcg-activities.xml": 11
+    "sfcg-activities.xml": 17
   },
   "iati-activity/result/indicator/period/actual/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "sfcg-activities.xml": 1
@@ -505,6 +505,12 @@
   },
   "iati-activity/result/indicator/period/target/@value": {
     "sfcg-activities.xml": 103
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "sfcg-activities.xml": 6
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "sfcg-activities.xml": 6
   },
   "iati-activity/result/indicator/period/target/dimension": {
     "sfcg-activities.xml": 6
@@ -573,10 +579,10 @@
     "sfcg-activities.xml": 14
   },
   "iati-activity/transaction": {
-    "sfcg-activities.xml": 160
+    "sfcg-activities.xml": 148
   },
   "iati-activity/transaction/@humanitarian": {
-    "sfcg-activities.xml": 5
+    "sfcg-activities.xml": 2
   },
   "iati-activity/transaction/@ref": {
     "sfcg-activities.xml": 2
@@ -591,10 +597,10 @@
     "sfcg-activities.xml": 2
   },
   "iati-activity/transaction/description": {
-    "sfcg-activities.xml": 115
+    "sfcg-activities.xml": 103
   },
   "iati-activity/transaction/description/narrative": {
-    "sfcg-activities.xml": 115
+    "sfcg-activities.xml": 103
   },
   "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "sfcg-activities.xml": 4
@@ -618,43 +624,49 @@
     "sfcg-activities.xml": 3
   },
   "iati-activity/transaction/provider-org": {
-    "sfcg-activities.xml": 125
+    "sfcg-activities.xml": 113
   },
   "iati-activity/transaction/provider-org/@provider-activity-id": {
-    "sfcg-activities.xml": 122
+    "sfcg-activities.xml": 111
   },
   "iati-activity/transaction/provider-org/@ref": {
-    "sfcg-activities.xml": 110
+    "sfcg-activities.xml": 98
   },
   "iati-activity/transaction/provider-org/@type": {
-    "sfcg-activities.xml": 124
+    "sfcg-activities.xml": 113
   },
   "iati-activity/transaction/provider-org/narrative": {
-    "sfcg-activities.xml": 108
+    "sfcg-activities.xml": 96
   },
   "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "sfcg-activities.xml": 1
   },
   "iati-activity/transaction/receiver-org": {
-    "sfcg-activities.xml": 100
+    "sfcg-activities.xml": 87
   },
   "iati-activity/transaction/receiver-org/@receiver-activity-id": {
-    "sfcg-activities.xml": 60
+    "sfcg-activities.xml": 48
   },
   "iati-activity/transaction/receiver-org/@ref": {
-    "sfcg-activities.xml": 64
+    "sfcg-activities.xml": 51
   },
   "iati-activity/transaction/receiver-org/@type": {
-    "sfcg-activities.xml": 98
+    "sfcg-activities.xml": 87
   },
   "iati-activity/transaction/receiver-org/narrative": {
-    "sfcg-activities.xml": 97
+    "sfcg-activities.xml": 84
   },
   "iati-activity/transaction/recipient-country": {
-    "sfcg-activities.xml": 41
+    "sfcg-activities.xml": 38
   },
   "iati-activity/transaction/recipient-country/@code": {
-    "sfcg-activities.xml": 41
+    "sfcg-activities.xml": 38
+  },
+  "iati-activity/transaction/recipient-region": {
+    "sfcg-activities.xml": 3
+  },
+  "iati-activity/transaction/recipient-region/@code": {
+    "sfcg-activities.xml": 3
   },
   "iati-activity/transaction/sector": {
     "sfcg-activities.xml": 30
@@ -672,25 +684,25 @@
     "sfcg-activities.xml": 2
   },
   "iati-activity/transaction/transaction-date": {
-    "sfcg-activities.xml": 160
+    "sfcg-activities.xml": 148
   },
   "iati-activity/transaction/transaction-date/@iso-date": {
-    "sfcg-activities.xml": 160
+    "sfcg-activities.xml": 148
   },
   "iati-activity/transaction/transaction-type": {
-    "sfcg-activities.xml": 160
+    "sfcg-activities.xml": 148
   },
   "iati-activity/transaction/transaction-type/@code": {
-    "sfcg-activities.xml": 160
+    "sfcg-activities.xml": 148
   },
   "iati-activity/transaction/value": {
-    "sfcg-activities.xml": 160
+    "sfcg-activities.xml": 148
   },
   "iati-activity/transaction/value/@currency": {
-    "sfcg-activities.xml": 159
+    "sfcg-activities.xml": 147
   },
   "iati-activity/transaction/value/@value-date": {
-    "sfcg-activities.xml": 160
+    "sfcg-activities.xml": 148
   },
   "iati-organisation": {
     "sfcg-org.xml": 1

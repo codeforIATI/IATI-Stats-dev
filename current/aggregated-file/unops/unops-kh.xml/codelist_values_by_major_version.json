@@ -1,32 +1,38 @@
 {
   "2": {
     ".//@default-currency": {
-      "USD": 32
+      "USD": 31
     },
     ".//activity-date/@type": {
-      "2": 32
+      "2": 31
+    },
+    ".//activity-status/@code": {
+      "2": 31
     },
     ".//budget/@type": {
-      "1": 32
+      "1": 31
+    },
+    ".//budget/value/@currency": {
+      "USD": 31
     },
     ".//contact-info/@type": {
-      "1": 32
+      "1": 31
     },
     ".//description/@type": {
-      "1": 32
+      "1": 31
     },
     ".//participating-org/@role": {
-      "4": 32,
-      "2": 32
+      "4": 31,
+      "2": 31
     },
     ".//participating-org/@type": {
-      "40": 64
+      "40": 62
     },
     ".//recipient-country/@code": {
-      "KH": 32
+      "KH": 31
     },
     ".//reporting-org/@type": {
-      "40": 32
+      "40": 31
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "12263": 6,
@@ -37,18 +43,21 @@
       "72011": 1,
       "12250": 2,
       "12191": 2,
-      "13040": 9,
+      "13040": 8,
       "99810": 2,
       "15130": 1
     },
     ".//sector/@vocabulary": {
-      "1": 32
+      "1": 31
     },
     ".//transaction/transaction-type/@code": {
-      "4": 32
+      "4": 31
+    },
+    ".//transaction/value/@currency": {
+      "USD": 31
     },
     ".//@xml:lang": {
-      "en": 32
+      "en": 31
     }
   }
 }

@@ -19,17 +19,17 @@
     },
     ".//budget/@status": {
       "ewla-activities.xml": {
-        "2": 1
+        "2": 2
       }
     },
     ".//budget/@type": {
       "ewla-activities.xml": {
-        "1": 1
+        "1": 2
       }
     },
     ".//budget/value/@currency": {
       "ewla-activities.xml": {
-        "EUR": 1
+        "EUR": 2
       }
     },
     ".//contact-info/@type": {
@@ -46,12 +46,18 @@
     },
     ".//document-link/@format": {
       "ewla-activities.xml": {
-        "application/1d-interleaved-parityfec": 3
+        "application/3gpp-ims+xml": 1,
+        "application/3gpdash-qoe-report+xml": 2
       }
     },
     ".//document-link/category/@code": {
       "ewla-activities.xml": {
         "A08": 3
+      }
+    },
+    ".//document-link/language/@code": {
+      "ewla-activities.xml": {
+        "en": 1
       }
     },
     ".//participating-org/@role": {
@@ -94,13 +100,14 @@
     },
     ".//result/@type": {
       "ewla-activities.xml": {
-        "2": 1,
-        "1": 2
+        "1": 2,
+        "2": 1
       }
     },
     ".//result/document-link/@format": {
       "ewla-activities.xml": {
-        "application/1d-interleaved-parityfec": 3
+        "application/3gpp-ims+xml": 1,
+        "application/3gpdash-qoe-report+xml": 2
       }
     },
     ".//result/document-link/category/@code": {
@@ -108,14 +115,19 @@
         "A08": 3
       }
     },
+    ".//result/document-link/language/@code": {
+      "ewla-activities.xml": {
+        "en": 1
+      }
+    },
     ".//result/indicator/@measure": {
       "ewla-activities.xml": {
-        "1": 22
+        "1": 28
       }
     },
     ".//result/indicator/reference/@vocabulary": {
       "ewla-activities.xml": {
-        "99": 22
+        "99": 28
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -128,24 +140,36 @@
         "1": 1
       }
     },
+    ".//transaction/disbursement-channel/@code": {
+      "ewla-activities.xml": {
+        "2": 2
+      }
+    },
     ".//transaction/provider-org/@type": {
       "ewla-activities.xml": {
-        "23": 1
+        "23": 4
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "ewla-activities.xml": {
+        "22": 4
       }
     },
     ".//transaction/transaction-type/@code": {
       "ewla-activities.xml": {
-        "1": 1
+        "1": 2,
+        "4": 1,
+        "11": 1
       }
     },
     ".//transaction/value/@currency": {
       "ewla-activities.xml": {
-        "EUR": 1
+        "EUR": 4
       }
     },
     ".//@xml:lang": {
       "ewla-activities.xml": {
-        "en": 57
+        "en": 108
       }
     }
   }

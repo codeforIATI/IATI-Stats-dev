@@ -21,6 +21,9 @@
   ".//collaboration-type/@code": {
     "2": 2
   },
+  ".//default-aid-type/@vocabulary": {
+    "1": 1
+  },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "B03": 2
   },
@@ -87,6 +90,9 @@
     "30": 229,
     "35": 1
   },
+  ".//transaction/provider-org/@type": {
+    "21": 9
+  },
   ".//transaction/recipient-country/@code": {
     "231": 230
   },
@@ -98,11 +104,11 @@
     "4": 27
   },
   ".//transaction/transaction-type/@code": {
-    "4": 246,
-    "1": 16,
+    "4": 255,
+    "1": 19,
     "2": 1
   },
   ".//transaction/value/@currency": {
-    "GBP": 78
+    "GBP": 90
   }
 }

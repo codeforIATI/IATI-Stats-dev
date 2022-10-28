@@ -62,6 +62,72 @@
   "iati-activity/budget/value/@value-date": {
     "paradigm-activities.xml": 1
   },
+  "iati-activity/contact-info": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/contact-info/@type": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/contact-info/department": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/contact-info/department/narrative": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/contact-info/email": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/contact-info/job-title": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/contact-info/job-title/narrative": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/contact-info/organisation": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/contact-info/organisation/narrative": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/contact-info/organisation/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/contact-info/person-name": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/contact-info/person-name/narrative": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/contact-info/person-name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/default-aid-type": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/default-aid-type/@code": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/default-aid-type/@vocabulary": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/default-finance-type": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/default-finance-type/@code": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/default-flow-type": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/default-flow-type/@code": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/default-tied-status": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/default-tied-status/@code": {
+    "paradigm-activities.xml": 1
+  },
   "iati-activity/description": {
     "paradigm-activities.xml": 2
   },
@@ -78,25 +144,46 @@
     "paradigm-activities.xml": 1
   },
   "iati-activity/participating-org": {
-    "paradigm-activities.xml": 2
+    "paradigm-activities.xml": 3
   },
   "iati-activity/participating-org/@activity-id": {
-    "paradigm-activities.xml": 2
+    "paradigm-activities.xml": 3
   },
   "iati-activity/participating-org/@ref": {
-    "paradigm-activities.xml": 2
+    "paradigm-activities.xml": 3
   },
   "iati-activity/participating-org/@role": {
-    "paradigm-activities.xml": 2
+    "paradigm-activities.xml": 3
   },
   "iati-activity/participating-org/@type": {
-    "paradigm-activities.xml": 2
+    "paradigm-activities.xml": 3
   },
   "iati-activity/participating-org/narrative": {
-    "paradigm-activities.xml": 2
+    "paradigm-activities.xml": 3
   },
   "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "paradigm-activities.xml": 2
+    "paradigm-activities.xml": 3
+  },
+  "iati-activity/policy-marker": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/policy-marker/@code": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/policy-marker/@significance": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/policy-marker/@vocabulary": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/policy-marker/@vocabulary-uri": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/policy-marker/narrative": {
+    "paradigm-activities.xml": 1
+  },
+  "iati-activity/policy-marker/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "paradigm-activities.xml": 1
   },
   "iati-activity/recipient-country": {
     "paradigm-activities.xml": 1
@@ -146,11 +233,74 @@
   "iati-activity/transaction": {
     "paradigm-activities.xml": 34
   },
+  "iati-activity/transaction/@humanitarian": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/aid-type": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/aid-type/@code": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/aid-type/@vocabulary": {
+    "paradigm-activities.xml": 34
+  },
   "iati-activity/transaction/description": {
-    "paradigm-activities.xml": 32
+    "paradigm-activities.xml": 34
   },
   "iati-activity/transaction/description/narrative": {
-    "paradigm-activities.xml": 32
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "paradigm-activities.xml": 29
+  },
+  "iati-activity/transaction/disbursement-channel": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/disbursement-channel/@code": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/finance-type": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/finance-type/@code": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/flow-type": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/flow-type/@code": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/provider-org": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/receiver-org": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/tied-status": {
+    "paradigm-activities.xml": 34
+  },
+  "iati-activity/transaction/tied-status/@code": {
+    "paradigm-activities.xml": 34
   },
   "iati-activity/transaction/transaction-date": {
     "paradigm-activities.xml": 34

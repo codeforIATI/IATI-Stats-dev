@@ -1,332 +1,253 @@
 {
   "2": {
     ".//@default-currency": {
-      "intersos_main-589.xml": {
-        "EUR": 2
-      },
-      "intersos_main-998.xml": {
-        "EUR": 1
+      "intersos_main-activities.xml": {
+        "EUR": 3
       }
     },
     ".//activity-date/@type": {
-      "intersos_main-589.xml": {
+      "intersos_main-activities.xml": {
         "1": 2,
         "3": 2,
-        "2": 1,
-        "4": 1
-      },
-      "intersos_main-998.xml": {
-        "2": 1,
-        "4": 1
+        "2": 2,
+        "4": 2
       }
     },
     ".//activity-status/@code": {
-      "intersos_main-589.xml": {
-        "3": 1,
-        "2": 1
-      },
-      "intersos_main-998.xml": {
-        "4": 1
+      "intersos_main-activities.xml": {
+        "2": 1,
+        "4": 1,
+        "3": 1
       }
     },
     ".//activity-scope/@code": {
-      "intersos_main-589.xml": {
-        "4": 1,
-        "5": 1
+      "intersos_main-activities.xml": {
+        "5": 1,
+        "4": 1
       }
     },
     ".//budget/@status": {
-      "intersos_main-589.xml": {
+      "intersos_main-activities.xml": {
         "2": 5
       }
     },
     ".//budget/@type": {
-      "intersos_main-589.xml": {
+      "intersos_main-activities.xml": {
         "1": 5
       }
     },
     ".//budget/value/@currency": {
-      "intersos_main-589.xml": {
-        "EUR": 1,
-        "USD": 4
+      "intersos_main-activities.xml": {
+        "USD": 4,
+        "EUR": 1
       }
     },
     ".//collaboration-type/@code": {
-      "intersos_main-589.xml": {
-        "1": 2
-      },
-      "intersos_main-998.xml": {
-        "1": 1
+      "intersos_main-activities.xml": {
+        "1": 3
       }
     },
     ".//contact-info/@type": {
-      "intersos_main-589.xml": {
-        "1": 2,
+      "intersos_main-activities.xml": {
+        "1": 3,
         "3": 1
-      },
-      "intersos_main-998.xml": {
-        "1": 1
       }
     },
     ".//country-budget-items/@vocabulary": {
-      "intersos_main-589.xml": {
+      "intersos_main-activities.xml": {
         "4": 1
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "intersos_main-589.xml": {
-        "C01": 2
-      },
-      "intersos_main-998.xml": {
-        "C01": 1
+      "intersos_main-activities.xml": {
+        "C01": 3
       }
     },
     ".//default-aid-type/@vocabulary": {
-      "intersos_main-589.xml": {
-        "1": 2
-      },
-      "intersos_main-998.xml": {
-        "1": 1
+      "intersos_main-activities.xml": {
+        "1": 3
       }
     },
     ".//default-finance-type/@code": {
-      "intersos_main-589.xml": {
-        "110": 2
-      },
-      "intersos_main-998.xml": {
-        "110": 1
+      "intersos_main-activities.xml": {
+        "110": 3
       }
     },
     ".//default-flow-type/@code": {
-      "intersos_main-589.xml": {
-        "10": 2
-      },
-      "intersos_main-998.xml": {
-        "10": 1
+      "intersos_main-activities.xml": {
+        "10": 3
       }
     },
     ".//default-tied-status/@code": {
-      "intersos_main-589.xml": {
-        "4": 2
-      },
-      "intersos_main-998.xml": {
-        "4": 1
+      "intersos_main-activities.xml": {
+        "4": 3
       }
     },
     ".//description/@type": {
-      "intersos_main-589.xml": {
-        "1": 2,
-        "2": 1
-      },
-      "intersos_main-998.xml": {
-        "1": 1,
-        "2": 1,
+      "intersos_main-activities.xml": {
+        "1": 3,
+        "2": 2,
         "3": 1
       }
     },
+    ".//document-link/@format": {
+      "intersos_main-activities.xml": {
+        "application/A2L": 1,
+        "application/vnd.ms-excel": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "intersos_main-activities.xml": {
+        "A03": 1,
+        "A08": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "intersos_main-activities.xml": {
+        "en": 2
+      }
+    },
     ".//humanitarian-scope/@type": {
-      "intersos_main-589.xml": {
+      "intersos_main-activities.xml": {
         "1": 1
       }
     },
     ".//humanitarian-scope/@vocabulary": {
-      "intersos_main-589.xml": {
+      "intersos_main-activities.xml": {
         "99": 1
       }
     },
+    ".//participating-org/@crs-channel-code": {
+      "intersos_main-activities.xml": {
+        "11000": 1
+      }
+    },
     ".//participating-org/@role": {
-      "intersos_main-589.xml": {
-        "1": 2,
-        "2": 1,
-        "4": 15
-      },
-      "intersos_main-998.xml": {
-        "1": 1,
-        "4": 14,
-        "2": 1
+      "intersos_main-activities.xml": {
+        "1": 3,
+        "2": 2,
+        "4": 29
       }
     },
     ".//participating-org/@type": {
-      "intersos_main-589.xml": {
-        "21": 2,
-        "10": 1,
-        "22": 15
-      },
-      "intersos_main-998.xml": {
-        "10": 1,
-        "22": 14,
-        "21": 1
+      "intersos_main-activities.xml": {
+        "10": 2,
+        "21": 3,
+        "22": 29
       }
     },
     ".//planned-disbursement/@type": {
-      "intersos_main-589.xml": {
+      "intersos_main-activities.xml": {
         "1": 2
       }
     },
     ".//planned-disbursement/provider-org/@type": {
-      "intersos_main-589.xml": {
+      "intersos_main-activities.xml": {
         "60": 2
       }
     },
     ".//planned-disbursement/value/@currency": {
-      "intersos_main-589.xml": {
+      "intersos_main-activities.xml": {
         "EUR": 2
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "intersos_main-589.xml": {
-        "1": 1,
+      "intersos_main-activities.xml": {
+        "1": 2,
         "9": 1,
         "11": 1
-      },
-      "intersos_main-998.xml": {
-        "1": 1
       }
     },
     ".//policy-marker/@significance": {
-      "intersos_main-589.xml": {
-        "2": 1,
+      "intersos_main-activities.xml": {
+        "2": 2,
         "1": 2
-      },
-      "intersos_main-998.xml": {
-        "2": 1
       }
     },
     ".//policy-marker/@vocabulary": {
-      "intersos_main-589.xml": {
-        "1": 3
-      },
-      "intersos_main-998.xml": {
-        "1": 1
-      }
-    },
-    ".//recipient-country/@code": {
-      "intersos_main-589.xml": {
-        "YE": 2
-      },
-      "intersos_main-998.xml": {
-        "YE": 1
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "intersos_main-589.xml": {
-        "589": 2
-      },
-      "intersos_main-998.xml": {
-        "998": 1
-      }
-    },
-    ".//recipient-region/@vocabulary": {
-      "intersos_main-589.xml": {
-        "1": 2
-      },
-      "intersos_main-998.xml": {
-        "1": 1
-      }
-    },
-    ".//reporting-org/@type": {
-      "intersos_main-589.xml": {
-        "21": 2
-      },
-      "intersos_main-998.xml": {
-        "21": 1
-      }
-    },
-    ".//result/@type": {
-      "intersos_main-589.xml": {
-        "1": 5,
-        "2": 3,
-        "3": 1
-      },
-      "intersos_main-998.xml": {
+      "intersos_main-activities.xml": {
         "1": 4
       }
     },
-    ".//result/indicator/@measure": {
-      "intersos_main-589.xml": {
-        "1": 13,
-        "2": 6,
-        "5": 2
-      },
-      "intersos_main-998.xml": {
-        "1": 7,
-        "2": 2
+    ".//recipient-country/@code": {
+      "intersos_main-activities.xml": {
+        "YE": 3
       }
     },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "intersos_main-589.xml": {
-        "12220": 1,
-        "15170": 1
-      },
-      "intersos_main-998.xml": {
-        "15170": 1
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "intersos_main-activities.xml": {
+        "998": 1,
+        "589": 1
       }
     },
-    ".//sector/@vocabulary": {
-      "intersos_main-589.xml": {
+    ".//recipient-region/@vocabulary": {
+      "intersos_main-activities.xml": {
         "1": 2
-      },
-      "intersos_main-998.xml": {
-        "1": 1
       }
     },
-    ".//transaction/disbursement-channel/@code": {
-      "intersos_main-589.xml": {
-        "2": 1
-      },
-      "intersos_main-998.xml": {
-        "2": 2
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "intersos_main-589.xml": {
-        "60": 3,
-        "10": 4,
-        "21": 8
-      },
-      "intersos_main-998.xml": {
-        "10": 3
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "intersos_main-589.xml": {
-        "21": 4
-      },
-      "intersos_main-998.xml": {
+    ".//reporting-org/@type": {
+      "intersos_main-activities.xml": {
         "21": 3
       }
     },
-    ".//transaction/transaction-type/@code": {
-      "intersos_main-589.xml": {
-        "4": 12,
-        "1": 4,
-        "11": 1
-      },
-      "intersos_main-998.xml": {
-        "4": 15,
+    ".//result/@type": {
+      "intersos_main-activities.xml": {
+        "2": 3,
+        "3": 1,
+        "1": 9
+      }
+    },
+    ".//result/indicator/@measure": {
+      "intersos_main-activities.xml": {
+        "5": 2,
+        "1": 20,
+        "2": 8
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "intersos_main-activities.xml": {
+        "15170": 2,
+        "12220": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "intersos_main-activities.xml": {
         "1": 3
       }
     },
+    ".//transaction/disbursement-channel/@code": {
+      "intersos_main-activities.xml": {
+        "2": 3
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "intersos_main-activities.xml": {
+        "21": 8,
+        "10": 7,
+        "60": 3
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "intersos_main-activities.xml": {
+        "21": 7
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "intersos_main-activities.xml": {
+        "4": 27,
+        "1": 7,
+        "11": 1
+      }
+    },
     ".//transaction/value/@currency": {
-      "intersos_main-589.xml": {
-        "EUR": 5,
-        "USD": 12
-      },
-      "intersos_main-998.xml": {
-        "USD": 18
+      "intersos_main-activities.xml": {
+        "USD": 30,
+        "EUR": 5
       }
     },
     ".//@xml:lang": {
-      "intersos_main-589.xml": {
-        "en": 44
-      },
-      "intersos_main-998.xml": {
-        "en": 30
-      }
-    },
-    ".//participating-org/@crs-channel-code": {
-      "intersos_main-998.xml": {
-        "11000": 1
+      "intersos_main-activities.xml": {
+        "en": 73
       }
     }
   }

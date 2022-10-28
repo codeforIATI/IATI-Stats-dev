@@ -34,42 +34,70 @@
   },
   "2": {
     ".//@default-currency": {
-      "acted-pk.xml": {
+      "acted-cd.xml": {
         "GBP": 1
       },
       "acted-lb.xml": {
         "GBP": 1
       },
-      "acted-cd.xml": {
+      "acted-pk.xml": {
         "GBP": 1
       }
     },
     ".//activity-date/@type": {
+      "acted-cd.xml": {
+        "1": 1
+      },
+      "acted-lb.xml": {
+        "2": 1
+      },
       "acted-pk.xml": {
+        "2": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "acted-cd.xml": {
         "2": 1
       },
       "acted-lb.xml": {
         "2": 1
       },
+      "acted-pk.xml": {
+        "2": 1
+      }
+    },
+    ".//budget/@status": {
+      "acted-cd.xml": {
+        "1": 1
+      },
+      "acted-lb.xml": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "acted-cd.xml": {
+        "1": 1
+      },
+      "acted-lb.xml": {
+        "1": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "acted-cd.xml": {
+        "GBP": 1
+      },
+      "acted-lb.xml": {
+        "EUR": 1
+      }
+    },
+    ".//contact-info/@type": {
       "acted-cd.xml": {
         "1": 1
       }
     },
-    ".//activity-status/@code": {
-      "acted-pk.xml": {
-        "2": 1
-      },
-      "acted-lb.xml": {
-        "2": 1
-      },
-      "acted-cd.xml": {
-        "2": 1
-      }
-    },
     ".//description/@type": {
-      "acted-pk.xml": {
-        "1": 1,
-        "2": 1
+      "acted-cd.xml": {
+        "1": 1
       },
       "acted-lb.xml": {
         "1": 1,
@@ -77,115 +105,15 @@
         "3": 1,
         "4": 1
       },
-      "acted-cd.xml": {
-        "1": 1
-      }
-    },
-    ".//participating-org/@role": {
       "acted-pk.xml": {
         "1": 1,
-        "4": 3
-      },
-      "acted-lb.xml": {
-        "1": 1,
-        "4": 4
-      },
-      "acted-cd.xml": {
-        "4": 1
-      }
-    },
-    ".//participating-org/@type": {
-      "acted-pk.xml": {
-        "10": 1,
-        "21": 3
-      },
-      "acted-lb.xml": {
-        "10": 1,
-        "21": 4
-      },
-      "acted-cd.xml": {
-        "21": 1
-      }
-    },
-    ".//recipient-country/@code": {
-      "acted-pk.xml": {
-        "PK": 1
-      },
-      "acted-lb.xml": {
-        "LB": 1
-      },
-      "acted-cd.xml": {
-        "CD": 1
-      }
-    },
-    ".//reporting-org/@type": {
-      "acted-pk.xml": {
-        "21": 1
-      },
-      "acted-lb.xml": {
-        "21": 1
-      },
-      "acted-cd.xml": {
-        "21": 1
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "acted-pk.xml": {
-        "43010": 1
-      },
-      "acted-lb.xml": {
-        "43010": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "acted-pk.xml": {
-        "1": 1
-      },
-      "acted-lb.xml": {
-        "1": 1
-      },
-      "acted-cd.xml": {
-        "98": 1
-      }
-    },
-    ".//@xml:lang": {
-      "acted-pk.xml": {
-        "en": 13,
-        "fr": 2
-      },
-      "acted-lb.xml": {
-        "en": 26,
-        "fr": 2
-      },
-      "acted-cd.xml": {
-        "en": 8
-      }
-    },
-    ".//budget/@status": {
-      "acted-lb.xml": {
         "2": 1
-      },
-      "acted-cd.xml": {
-        "1": 1
-      }
-    },
-    ".//budget/@type": {
-      "acted-lb.xml": {
-        "1": 1
-      },
-      "acted-cd.xml": {
-        "1": 1
-      }
-    },
-    ".//budget/value/@currency": {
-      "acted-lb.xml": {
-        "EUR": 1
-      },
-      "acted-cd.xml": {
-        "GBP": 1
       }
     },
     ".//document-link/@format": {
+      "acted-cd.xml": {
+        "application/iges": 1
+      },
       "acted-lb.xml": {
         "application/http": 24,
         "application/1d-interleaved-parityfec": 25,
@@ -194,12 +122,12 @@
         "application/activemessage": 1,
         "application/alto-costmap+json": 2,
         "application/msword": 2
-      },
-      "acted-cd.xml": {
-        "application/iges": 1
       }
     },
     ".//document-link/category/@code": {
+      "acted-cd.xml": {
+        "A05": 1
+      },
       "acted-lb.xml": {
         "A04": 6,
         "A02": 3,
@@ -213,35 +141,117 @@
         "B15": 2,
         "B01": 11,
         "B07": 6
-      },
-      "acted-cd.xml": {
-        "A05": 1
       }
     },
     ".//document-link/language/@code": {
-      "acted-lb.xml": {
-        "en": 60
-      },
       "acted-cd.xml": {
         "en": 1
+      },
+      "acted-lb.xml": {
+        "en": 60
+      }
+    },
+    ".//participating-org/@role": {
+      "acted-cd.xml": {
+        "4": 1
+      },
+      "acted-lb.xml": {
+        "1": 1,
+        "4": 4
+      },
+      "acted-pk.xml": {
+        "1": 1,
+        "4": 3
+      }
+    },
+    ".//participating-org/@type": {
+      "acted-cd.xml": {
+        "21": 1
+      },
+      "acted-lb.xml": {
+        "10": 1,
+        "21": 4
+      },
+      "acted-pk.xml": {
+        "10": 1,
+        "21": 3
+      }
+    },
+    ".//recipient-country/@code": {
+      "acted-cd.xml": {
+        "CD": 1
+      },
+      "acted-lb.xml": {
+        "LB": 1
+      },
+      "acted-pk.xml": {
+        "PK": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "acted-cd.xml": {
+        "21": 1
+      },
+      "acted-lb.xml": {
+        "21": 1
+      },
+      "acted-pk.xml": {
+        "21": 1
       }
     },
     ".//result/@type": {
+      "acted-cd.xml": {
+        "2": 1
+      },
       "acted-lb.xml": {
         "1": 15,
         "9": 6,
         "2": 5
-      },
-      "acted-cd.xml": {
-        "2": 1
       }
     },
     ".//result/indicator/@measure": {
-      "acted-lb.xml": {
-        "1": 26
-      },
       "acted-cd.xml": {
         "1": 1
+      },
+      "acted-lb.xml": {
+        "1": 26
+      }
+    },
+    ".//sector/@vocabulary": {
+      "acted-cd.xml": {
+        "98": 1
+      },
+      "acted-lb.xml": {
+        "1": 1
+      },
+      "acted-pk.xml": {
+        "1": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "acted-cd.xml": {
+        "1": 1
+      },
+      "acted-lb.xml": {
+        "1": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "acted-cd.xml": {
+        "GBP": 1
+      }
+    },
+    ".//@xml:lang": {
+      "acted-cd.xml": {
+        "en": 8
+      },
+      "acted-lb.xml": {
+        "en": 26,
+        "fr": 2
+      },
+      "acted-pk.xml": {
+        "en": 13,
+        "fr": 2
       }
     },
     ".//result/indicator/reference/@vocabulary": {
@@ -249,27 +259,17 @@
         "99": 20
       }
     },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "acted-lb.xml": {
+        "43010": 1
+      },
+      "acted-pk.xml": {
+        "43010": 1
+      }
+    },
     ".//transaction/provider-org/@type": {
       "acted-lb.xml": {
         "10": 1
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "acted-lb.xml": {
-        "1": 1
-      },
-      "acted-cd.xml": {
-        "1": 1
-      }
-    },
-    ".//contact-info/@type": {
-      "acted-cd.xml": {
-        "1": 1
-      }
-    },
-    ".//transaction/value/@currency": {
-      "acted-cd.xml": {
-        "GBP": 1
       }
     }
   }

@@ -1,17 +1,22 @@
 {
   "2": {
     ".//@default-currency": {
+      "congodorpen-998.xml": {
+        "EUR": 1
+      },
       "congodorpen-be.xml": {
         "EUR": 1
       },
       "congodorpen-cd.xml": {
         "EUR": 3
-      },
-      "congodorpen-998.xml": {
-        "EUR": 1
       }
     },
     ".//activity-date/@type": {
+      "congodorpen-998.xml": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
       "congodorpen-be.xml": {
         "1": 1,
         "2": 1,
@@ -22,22 +27,279 @@
         "2": 3,
         "3": 2,
         "4": 1
-      },
-      "congodorpen-998.xml": {
-        "1": 1,
-        "2": 1,
-        "3": 1
       }
     },
     ".//activity-status/@code": {
+      "congodorpen-998.xml": {
+        "1": 1
+      },
       "congodorpen-be.xml": {
         "2": 1
       },
       "congodorpen-cd.xml": {
         "2": 3
-      },
+      }
+    },
+    ".//activity-scope/@code": {
+      "congodorpen-998.xml": {
+        "5": 1
+      }
+    },
+    ".//collaboration-type/@code": {
       "congodorpen-998.xml": {
         "1": 1
+      },
+      "congodorpen-be.xml": {
+        "1": 1
+      },
+      "congodorpen-cd.xml": {
+        "1": 3
+      }
+    },
+    ".//contact-info/@type": {
+      "congodorpen-998.xml": {
+        "1": 1
+      },
+      "congodorpen-be.xml": {
+        "2": 1
+      },
+      "congodorpen-cd.xml": {
+        "1": 3
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "congodorpen-998.xml": {
+        "C01": 1
+      },
+      "congodorpen-be.xml": {
+        "C01": 1
+      },
+      "congodorpen-cd.xml": {
+        "C01": 3
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "congodorpen-998.xml": {
+        "1": 1
+      },
+      "congodorpen-be.xml": {
+        "1": 1
+      },
+      "congodorpen-cd.xml": {
+        "1": 3
+      }
+    },
+    ".//default-finance-type/@code": {
+      "congodorpen-998.xml": {
+        "110": 1
+      },
+      "congodorpen-be.xml": {
+        "110": 1
+      },
+      "congodorpen-cd.xml": {
+        "110": 3
+      }
+    },
+    ".//default-flow-type/@code": {
+      "congodorpen-998.xml": {
+        "30": 1
+      },
+      "congodorpen-be.xml": {
+        "30": 1
+      },
+      "congodorpen-cd.xml": {
+        "30": 3
+      }
+    },
+    ".//default-tied-status/@code": {
+      "congodorpen-998.xml": {
+        "5": 1
+      },
+      "congodorpen-be.xml": {
+        "5": 1
+      },
+      "congodorpen-cd.xml": {
+        "5": 3
+      }
+    },
+    ".//description/@type": {
+      "congodorpen-998.xml": {
+        "1": 1
+      },
+      "congodorpen-be.xml": {
+        "1": 1
+      },
+      "congodorpen-cd.xml": {
+        "1": 3
+      }
+    },
+    ".//document-link/@format": {
+      "congodorpen-998.xml": {
+        "application/vnd.cups-pdf": 1,
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "congodorpen-998.xml": {
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 2,
+        "A08": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "congodorpen-998.xml": {
+        "fr": 2
+      }
+    },
+    ".//other-identifier/@type": {
+      "congodorpen-998.xml": {
+        "A9": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "congodorpen-998.xml": {
+        "1": 2,
+        "2": 4,
+        "4": 4
+      },
+      "congodorpen-be.xml": {
+        "1": 1,
+        "2": 4,
+        "4": 4
+      },
+      "congodorpen-cd.xml": {
+        "1": 6,
+        "2": 12,
+        "4": 15
+      }
+    },
+    ".//participating-org/@type": {
+      "congodorpen-998.xml": {
+        "10": 1,
+        "22": 9
+      },
+      "congodorpen-be.xml": {
+        "10": 1,
+        "22": 8
+      },
+      "congodorpen-cd.xml": {
+        "10": 3,
+        "22": 18,
+        "24": 12
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "congodorpen-998.xml": {
+        "998": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "congodorpen-998.xml": {
+        "1": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "congodorpen-998.xml": {
+        "22": 1
+      },
+      "congodorpen-be.xml": {
+        "22": 1
+      },
+      "congodorpen-cd.xml": {
+        "22": 3
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "congodorpen-998.xml": {
+        "16050": 1,
+        "31120": 1,
+        "15150": 1
+      },
+      "congodorpen-be.xml": {
+        "16050": 1,
+        "31120": 1,
+        "15150": 1
+      },
+      "congodorpen-cd.xml": {
+        "15150": 1,
+        "31120": 1,
+        "16050": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "congodorpen-998.xml": {
+        "1": 3
+      },
+      "congodorpen-be.xml": {
+        "1": 3
+      },
+      "congodorpen-cd.xml": {
+        "1": 3
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "congodorpen-998.xml": {
+        "22": 8,
+        "10": 10
+      },
+      "congodorpen-be.xml": {
+        "22": 4
+      },
+      "congodorpen-cd.xml": {
+        "22": 94,
+        "24": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "congodorpen-998.xml": {
+        "22": 18
+      },
+      "congodorpen-cd.xml": {
+        "24": 96
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "congodorpen-998.xml": {
+        "11": 10,
+        "1": 8
+      },
+      "congodorpen-be.xml": {
+        "4": 4
+      },
+      "congodorpen-cd.xml": {
+        "4": 9,
+        "3": 48,
+        "2": 48
+      }
+    },
+    ".//transaction/value/@currency": {
+      "congodorpen-998.xml": {
+        "EUR": 1
+      },
+      "congodorpen-be.xml": {
+        "EUR": 2
+      },
+      "congodorpen-cd.xml": {
+        "EUR": 33
+      }
+    },
+    ".//@xml:lang": {
+      "congodorpen-998.xml": {
+        "fr": 8,
+        "nl": 4,
+        "en": 3
+      },
+      "congodorpen-be.xml": {
+        "fr": 5,
+        "nl": 2,
+        "en": 3
+      },
+      "congodorpen-cd.xml": {
+        "fr": 20,
+        "nl": 12,
+        "en": 3
       }
     },
     ".//budget/@status": {
@@ -57,126 +319,6 @@
         "2": 15
       }
     },
-    ".//collaboration-type/@code": {
-      "congodorpen-be.xml": {
-        "1": 1
-      },
-      "congodorpen-cd.xml": {
-        "1": 3
-      },
-      "congodorpen-998.xml": {
-        "1": 1
-      }
-    },
-    ".//contact-info/@type": {
-      "congodorpen-be.xml": {
-        "2": 1
-      },
-      "congodorpen-cd.xml": {
-        "1": 3
-      },
-      "congodorpen-998.xml": {
-        "1": 1
-      }
-    },
-    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "congodorpen-be.xml": {
-        "C01": 1
-      },
-      "congodorpen-cd.xml": {
-        "C01": 3
-      },
-      "congodorpen-998.xml": {
-        "C01": 1
-      }
-    },
-    ".//default-aid-type/@vocabulary": {
-      "congodorpen-be.xml": {
-        "1": 1
-      },
-      "congodorpen-cd.xml": {
-        "1": 3
-      },
-      "congodorpen-998.xml": {
-        "1": 1
-      }
-    },
-    ".//default-finance-type/@code": {
-      "congodorpen-be.xml": {
-        "110": 1
-      },
-      "congodorpen-cd.xml": {
-        "110": 3
-      },
-      "congodorpen-998.xml": {
-        "110": 1
-      }
-    },
-    ".//default-flow-type/@code": {
-      "congodorpen-be.xml": {
-        "30": 1
-      },
-      "congodorpen-cd.xml": {
-        "30": 3
-      },
-      "congodorpen-998.xml": {
-        "30": 1
-      }
-    },
-    ".//default-tied-status/@code": {
-      "congodorpen-be.xml": {
-        "5": 1
-      },
-      "congodorpen-cd.xml": {
-        "5": 3
-      },
-      "congodorpen-998.xml": {
-        "5": 1
-      }
-    },
-    ".//description/@type": {
-      "congodorpen-be.xml": {
-        "1": 1
-      },
-      "congodorpen-cd.xml": {
-        "1": 3
-      },
-      "congodorpen-998.xml": {
-        "1": 1
-      }
-    },
-    ".//participating-org/@role": {
-      "congodorpen-be.xml": {
-        "1": 1,
-        "2": 4,
-        "4": 4
-      },
-      "congodorpen-cd.xml": {
-        "1": 6,
-        "2": 12,
-        "4": 15
-      },
-      "congodorpen-998.xml": {
-        "1": 2,
-        "2": 4,
-        "4": 4
-      }
-    },
-    ".//participating-org/@type": {
-      "congodorpen-be.xml": {
-        "10": 1,
-        "22": 8
-      },
-      "congodorpen-cd.xml": {
-        "10": 3,
-        "22": 18,
-        "24": 12
-      },
-      "congodorpen-998.xml": {
-        "10": 1,
-        "22": 9
-      }
-    },
     ".//recipient-country/@code": {
       "congodorpen-be.xml": {
         "BE": 1
@@ -191,100 +333,6 @@
       },
       "congodorpen-cd.xml": {
         "1": 3
-      }
-    },
-    ".//reporting-org/@type": {
-      "congodorpen-be.xml": {
-        "22": 1
-      },
-      "congodorpen-cd.xml": {
-        "22": 3
-      },
-      "congodorpen-998.xml": {
-        "22": 1
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "congodorpen-be.xml": {
-        "16050": 1,
-        "31120": 1,
-        "15150": 1
-      },
-      "congodorpen-cd.xml": {
-        "15150": 1,
-        "31120": 1,
-        "16050": 1
-      },
-      "congodorpen-998.xml": {
-        "16050": 1,
-        "31120": 1,
-        "15150": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "congodorpen-be.xml": {
-        "1": 3
-      },
-      "congodorpen-cd.xml": {
-        "1": 3
-      },
-      "congodorpen-998.xml": {
-        "1": 3
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "congodorpen-be.xml": {
-        "22": 4
-      },
-      "congodorpen-cd.xml": {
-        "22": 94,
-        "24": 1
-      },
-      "congodorpen-998.xml": {
-        "22": 8,
-        "10": 10
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "congodorpen-be.xml": {
-        "4": 4
-      },
-      "congodorpen-cd.xml": {
-        "4": 9,
-        "3": 48,
-        "2": 48
-      },
-      "congodorpen-998.xml": {
-        "11": 10,
-        "1": 8
-      }
-    },
-    ".//transaction/value/@currency": {
-      "congodorpen-be.xml": {
-        "EUR": 2
-      },
-      "congodorpen-cd.xml": {
-        "EUR": 33
-      },
-      "congodorpen-998.xml": {
-        "EUR": 1
-      }
-    },
-    ".//@xml:lang": {
-      "congodorpen-be.xml": {
-        "fr": 5,
-        "nl": 2,
-        "en": 3
-      },
-      "congodorpen-cd.xml": {
-        "fr": 20,
-        "nl": 12,
-        "en": 3
-      },
-      "congodorpen-998.xml": {
-        "fr": 8,
-        "nl": 4,
-        "en": 3
       }
     },
     ".//location/exactness/@code": {
@@ -323,54 +371,6 @@
       "congodorpen-cd.xml": {
         "1": 2,
         "2": 5
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "congodorpen-cd.xml": {
-        "24": 96
-      },
-      "congodorpen-998.xml": {
-        "22": 18
-      }
-    },
-    ".//activity-scope/@code": {
-      "congodorpen-998.xml": {
-        "5": 1
-      }
-    },
-    ".//document-link/@format": {
-      "congodorpen-998.xml": {
-        "application/vnd.cups-pdf": 1,
-        "application/pdf": 1
-      }
-    },
-    ".//document-link/category/@code": {
-      "congodorpen-998.xml": {
-        "A02": 1,
-        "A03": 1,
-        "A04": 1,
-        "A05": 2,
-        "A08": 1
-      }
-    },
-    ".//document-link/language/@code": {
-      "congodorpen-998.xml": {
-        "fr": 2
-      }
-    },
-    ".//other-identifier/@type": {
-      "congodorpen-998.xml": {
-        "A9": 1
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "congodorpen-998.xml": {
-        "998": 1
-      }
-    },
-    ".//recipient-region/@vocabulary": {
-      "congodorpen-998.xml": {
-        "1": 1
       }
     }
   }

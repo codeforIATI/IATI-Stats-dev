@@ -1,38 +1,44 @@
 {
   ".//@default-currency": {
     "EUR": {
-      "lftw-int-activities.xml": 3
+      "lftw-int-activities.xml": 5
     }
   },
   ".//@xml:lang": {
     "en": {
-      "lftw-int-activities.xml": 3
+      "lftw-int-activities.xml": 5
     }
   },
   ".//activity-date/@type": {
     "2": {
-      "lftw-int-activities.xml": 3
+      "lftw-int-activities.xml": 5
     },
     "1": {
-      "lftw-int-activities.xml": 3
+      "lftw-int-activities.xml": 5
     },
     "3": {
-      "lftw-int-activities.xml": 3
+      "lftw-int-activities.xml": 5
+    },
+    "4": {
+      "lftw-int-activities.xml": 1
     }
   },
   ".//activity-status/@code": {
     "2": {
-      "lftw-int-activities.xml": 3
+      "lftw-int-activities.xml": 4
+    },
+    "3": {
+      "lftw-int-activities.xml": 1
     }
   },
   ".//budget/@status": {
     "2": {
-      "lftw-int-activities.xml": 9
+      "lftw-int-activities.xml": 13
     }
   },
   ".//budget/@type": {
     "1": {
-      "lftw-int-activities.xml": 8
+      "lftw-int-activities.xml": 12
     },
     "2": {
       "lftw-int-activities.xml": 1
@@ -40,39 +46,42 @@
   },
   ".//budget/value/@currency": {
     "GBP": {
-      "lftw-int-activities.xml": 9
+      "lftw-int-activities.xml": 10
+    },
+    "EUR": {
+      "lftw-int-activities.xml": 3
     }
   },
   ".//contact-info/@type": {
     "1": {
-      "lftw-int-activities.xml": 3
+      "lftw-int-activities.xml": 5
     }
   },
   ".//description/@type": {
     "1": {
-      "lftw-int-activities.xml": 3
+      "lftw-int-activities.xml": 5
     },
     "3": {
-      "lftw-int-activities.xml": 3
+      "lftw-int-activities.xml": 5
     }
   },
   ".//participating-org/@role": {
     "1": {
-      "lftw-int-activities.xml": 3
-    },
-    "4": {
       "lftw-int-activities.xml": 5
     },
+    "4": {
+      "lftw-int-activities.xml": 9
+    },
     "2": {
-      "lftw-int-activities.xml": 1
+      "lftw-int-activities.xml": 2
     }
   },
   ".//participating-org/@type": {
     "21": {
-      "lftw-int-activities.xml": 8
+      "lftw-int-activities.xml": 14
     },
     "22": {
-      "lftw-int-activities.xml": 1
+      "lftw-int-activities.xml": 2
     }
   },
   ".//recipient-country/@code": {
@@ -80,20 +89,26 @@
       "lftw-int-activities.xml": 1
     },
     "AT": {
-      "lftw-int-activities.xml": 3
+      "lftw-int-activities.xml": 5
     },
     "NP": {
       "lftw-int-activities.xml": 2
+    },
+    "UG": {
+      "lftw-int-activities.xml": 1
+    },
+    "BD": {
+      "lftw-int-activities.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "21": {
-      "lftw-int-activities.xml": 3
+      "lftw-int-activities.xml": 5
     }
   },
   ".//sector/@vocabulary": {
     "2": {
-      "lftw-int-activities.xml": 3
+      "lftw-int-activities.xml": 5
     }
   },
   ".//sector[@vocabulary = '2']/@code": {
@@ -101,20 +116,23 @@
       "lftw-int-activities.xml": 1
     },
     "111": {
-      "lftw-int-activities.xml": 1
+      "lftw-int-activities.xml": 2
     },
     "311": {
+      "lftw-int-activities.xml": 1
+    },
+    "430": {
       "lftw-int-activities.xml": 1
     }
   },
   ".//transaction/provider-org/@type": {
     "21": {
-      "lftw-int-activities.xml": 29
+      "lftw-int-activities.xml": 47
     }
   },
   ".//transaction/receiver-org/@type": {
     "21": {
-      "lftw-int-activities.xml": 13
+      "lftw-int-activities.xml": 21
     },
     "22": {
       "lftw-int-activities.xml": 8
@@ -122,16 +140,16 @@
   },
   ".//transaction/transaction-type/@code": {
     "2": {
-      "lftw-int-activities.xml": 5
-    },
-    "4": {
-      "lftw-int-activities.xml": 8
-    },
-    "3": {
       "lftw-int-activities.xml": 7
     },
-    "1": {
+    "4": {
+      "lftw-int-activities.xml": 16
+    },
+    "3": {
       "lftw-int-activities.xml": 9
+    },
+    "1": {
+      "lftw-int-activities.xml": 15
     }
   }
 }

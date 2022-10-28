@@ -1,15 +1,15 @@
 {
   ".//@default-currency": {
-    "USD": 118
+    "USD": 120
   },
   ".//@xml:lang": {
-    "en": 118
+    "en": 120
   },
   ".//activity-date/@type": {
-    "1": 118,
-    "2": 118,
-    "3": 118,
-    "4": 45
+    "1": 120,
+    "2": 120,
+    "3": 120,
+    "4": 47
   },
   ".//activity-scope/@code": {
     "8": 31,
@@ -18,47 +18,48 @@
     "7": 3
   },
   ".//activity-status/@code": {
-    "3": 45,
+    "3": 47,
     "2": 73
   },
   ".//budget/@status": {
-    "2": 273
+    "2": 276,
+    "1": 2
   },
   ".//budget/@type": {
-    "2": 273
+    "2": 278
   },
   ".//budget/value/@currency": {
-    "USD": 273
+    "USD": 278
   },
   ".//collaboration-type/@code": {
-    "4": 118
+    "4": 120
   },
   ".//conditions/condition/@type": {
-    "1": 174
+    "1": 176
   },
   ".//contact-info/@type": {
-    "1": 118
+    "1": 120
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 110,
+    "C01": 112,
     "G01": 8
   },
   ".//default-finance-type/@code": {
-    "110": 118
+    "110": 120
   },
   ".//default-flow-type/@code": {
-    "10": 118
+    "10": 120
   },
   ".//default-tied-status/@code": {
-    "3": 49,
-    "5": 69
+    "3": 50,
+    "5": 70
   },
   ".//description/@type": {
-    "1": 118
+    "1": 120
   },
   ".//document-link/@format": {
     "application/pdf": 90,
-    "text/html": 492,
+    "text/html": 495,
     "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": 2,
     "application/msword": 22,
     "application/vnd.ms-excel": 1
@@ -69,14 +70,14 @@
     "A05": 101,
     "A01": 78,
     "A07": 40,
-    "A10": 256,
-    "A12": 118,
+    "A10": 257,
+    "A12": 120,
     "A06": 29,
     "A08": 38,
     "A04": 19
   },
   ".//document-link/language/@code": {
-    "en": 538
+    "en": 540
   },
   ".//humanitarian-scope/@type": {
     "1": 6
@@ -113,37 +114,37 @@
     "1": 63
   },
   ".//participating-org/@role": {
-    "4": 118,
-    "2": 49,
+    "4": 120,
+    "2": 50,
     "1": 302
   },
   ".//participating-org/@type": {
-    "10": 132,
-    "40": 142,
+    "10": 131,
+    "40": 144,
     "22": 6,
     "70": 7
   },
   ".//policy-marker/@significance": {
     "0": 21,
     "2": 13,
-    "1": 35
+    "1": 36
   },
   ".//policy-marker/@vocabulary": {
-    "1": 69
+    "1": 70
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "1": 69
+    "1": 70
   },
   ".//recipient-country/@code": {
-    "JO": 118
+    "JO": 120
   },
   ".//related-activity/@type": {
-    "2": 69,
-    "1": 69,
+    "2": 70,
+    "1": 70,
     "3": 82
   },
   ".//reporting-org/@type": {
-    "40": 118
+    "40": 120
   },
   ".//result/@type": {
     "1": 93
@@ -154,16 +155,16 @@
     "2": 13
   },
   ".//sector/@vocabulary": {
-    "1": 125,
-    "8": 312,
-    "99": 67
+    "1": 127,
+    "8": 316,
+    "99": 68
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "15113": 11,
     "16050": 27,
     "15144": 21,
     "51010": 2,
-    "41010": 34,
+    "41010": 36,
     "15151": 19,
     "15220": 9,
     "99810": 2
@@ -181,8 +182,8 @@
     "1.4": 2,
     "1.5": 14,
     "12.4": 21,
-    "13.1": 32,
-    "13.2": 32,
+    "13.1": 34,
+    "13.2": 34,
     "16.3": 17,
     "1.3": 2,
     "13.3": 2,
@@ -191,7 +192,7 @@
     "10.3": 2
   },
   ".//tag/@vocabulary": {
-    "3": 312
+    "3": 316
   },
   ".//tag[@vocabulary = '3']/@code": {
     "16.5": 11,
@@ -206,8 +207,8 @@
     "1.4": 2,
     "1.5": 14,
     "12.4": 21,
-    "13.1": 32,
-    "13.2": 32,
+    "13.1": 34,
+    "13.2": 34,
     "16.3": 17,
     "1.3": 2,
     "13.3": 2,
@@ -216,26 +217,26 @@
     "10.3": 2
   },
   ".//transaction/disbursement-channel/@code": {
-    "2": 1410
+    "2": 1442
   },
   ".//transaction/provider-org/@type": {
-    "40": 767,
+    "40": 794,
     "10": 269,
     "70": 19,
     "22": 2
   },
   ".//transaction/receiver-org/@type": {
-    "40": 657,
-    "10": 24
+    "40": 661,
+    "10": 26
   },
   ".//transaction/transaction-type/@code": {
-    "4": 660,
-    "11": 519,
-    "1": 138,
-    "2": 69,
-    "3": 24
+    "4": 685,
+    "11": 522,
+    "1": 139,
+    "2": 70,
+    "3": 26
   },
   ".//transaction/value/@currency": {
-    "USD": 1410
+    "USD": 1442
   }
 }

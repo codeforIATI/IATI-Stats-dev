@@ -1,54 +1,55 @@
 {
   "2": {
     ".//@default-currency": {
-      "EUR": 2
+      "EUR": 16
     },
     ".//activity-date/@type": {
-      "1": 2,
-      "3": 2,
-      "2": 1,
-      "4": 1
+      "1": 16,
+      "2": 16,
+      "3": 16,
+      "4": 15
     },
     ".//activity-status/@code": {
-      "2": 1,
-      "4": 1
+      "4": 15,
+      "2": 1
     },
     ".//collaboration-type/@code": {
-      "1": 2
+      "1": 16
     },
     ".//contact-info/@type": {
-      "1": 2
+      "1": 16
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 2
     },
     ".//default-finance-type/@code": {
-      "110": 2
+      "110": 16
     },
     ".//default-flow-type/@code": {
-      "10": 2
+      "10": 16
     },
     ".//default-tied-status/@code": {
       "4": 2
     },
     ".//location/location-reach/@code": {
-      "1": 2
+      "1": 16
     },
     ".//other-identifier/@type": {
-      "A1": 2,
+      "A1": 16,
       "A2": 1
     },
     ".//participating-org/@crs-channel-code": {
-      "22000": 6
+      "11001": 9,
+      "22000": 9
     },
     ".//participating-org/@role": {
-      "1": 2,
-      "2": 2,
-      "4": 2
+      "1": 16,
+      "2": 16,
+      "4": 6
     },
     ".//participating-org/@type": {
-      "10": 4,
-      "22": 2
+      "10": 35,
+      "22": 3
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "1": 1,
@@ -73,20 +74,27 @@
       "1": 12
     },
     ".//recipient-country/@code": {
-      "ZW": 2
+      "ZW": 16
     },
     ".//related-activity/@type": {
-      "3": 43
+      "3": 77
     },
     ".//reporting-org/@type": {
-      "10": 2
+      "10": 16
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "12220": 5,
+      "72010": 1,
+      "32140": 2,
+      "41010": 2,
+      "15110": 2,
+      "25010": 1,
+      "12230": 1,
       "15170": 1,
       "31120": 1,
       "31194": 1,
       "43072": 1,
-      "12220": 1
+      "51010": 1
     },
     ".//tag[@vocabulary = '2']/@code": {
       "2": 1,
@@ -106,18 +114,19 @@
       "3": 6
     },
     ".//transaction/receiver-org/@type": {
-      "22": 8
+      "10": 33,
+      "22": 14
     },
     ".//transaction/transaction-type/@code": {
-      "2": 4,
-      "3": 4
+      "2": 81,
+      "3": 80
     },
     ".//transaction/value/@currency": {
-      "EUR": 8
+      "EUR": 161
     },
     ".//@xml:lang": {
-      "en": 5,
-      "it": 3
+      "en": 19,
+      "it": 31
     }
   }
 }

@@ -39,6 +39,16 @@
         "1": 1
       }
     },
+    ".//document-link/@format": {
+      "siha-southsudan-activities.xml": {
+        "application/3gpp-ims+xml": 2
+      }
+    },
+    ".//document-link/category/@code": {
+      "siha-southsudan-activities.xml": {
+        "A08": 2
+      }
+    },
     ".//participating-org/@role": {
       "siha-southsudan-activities.xml": {
         "1": 1,
@@ -64,18 +74,28 @@
     },
     ".//result/@type": {
       "siha-southsudan-activities.xml": {
-        "1": 2,
-        "2": 1
+        "2": 1,
+        "1": 2
+      }
+    },
+    ".//result/document-link/@format": {
+      "siha-southsudan-activities.xml": {
+        "application/3gpp-ims+xml": 2
+      }
+    },
+    ".//result/document-link/category/@code": {
+      "siha-southsudan-activities.xml": {
+        "A08": 2
       }
     },
     ".//result/indicator/@measure": {
       "siha-southsudan-activities.xml": {
-        "1": 20
+        "1": 28
       }
     },
-    ".//result/reference/@vocabulary": {
+    ".//result/indicator/reference/@vocabulary": {
       "siha-southsudan-activities.xml": {
-        "99": 3
+        "99": 28
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -88,19 +108,31 @@
         "1": 1
       }
     },
+    ".//transaction/provider-org/@type": {
+      "siha-southsudan-activities.xml": {
+        "23": 4
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "siha-southsudan-activities.xml": {
+        "22": 4
+      }
+    },
     ".//transaction/transaction-type/@code": {
       "siha-southsudan-activities.xml": {
-        "11": 1
+        "1": 2,
+        "11": 1,
+        "4": 1
       }
     },
     ".//transaction/value/@currency": {
       "siha-southsudan-activities.xml": {
-        "EUR": 1
+        "EUR": 4
       }
     },
     ".//@xml:lang": {
       "siha-southsudan-activities.xml": {
-        "en": 56
+        "en": 76
       }
     }
   }

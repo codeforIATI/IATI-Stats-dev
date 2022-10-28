@@ -26,8 +26,6 @@
       "iati-activity/activity-status": 5,
       "iati-activity/activity-status/@code": 5,
       "iati-activity/activity-date": 5,
-      "iati-activity/activity-date/narrative": 3,
-      "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 3,
       "iati-activity/activity-date/@type": 5,
       "iati-activity/activity-date/@iso-date": 5,
       "iati-activity/recipient-country": 5,
@@ -35,8 +33,6 @@
       "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 5,
       "iati-activity/recipient-country/@code": 5,
       "iati-activity/sector": 5,
-      "iati-activity/sector/narrative": 3,
-      "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 3,
       "iati-activity/sector/@code": 5,
       "iati-activity/sector/@vocabulary": 5,
       "iati-activity/@last-updated-datetime": 5,
@@ -44,7 +40,11 @@
       "iati-activity/@default-currency": 5,
       "iati-activity/@humanitarian": 5,
       "iati-activity/@hierarchy": 5,
-      "iati-activity/participating-org/@crs-channel-code": 1
+      "iati-activity/participating-org/@crs-channel-code": 1,
+      "iati-activity/activity-date/narrative": 3,
+      "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 3,
+      "iati-activity/sector/narrative": 3,
+      "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 3
     },
     "elements_total": {
       "iati-activity": 5,
@@ -71,8 +71,6 @@
       "iati-activity/activity-status": 5,
       "iati-activity/activity-status/@code": 5,
       "iati-activity/activity-date": 5,
-      "iati-activity/activity-date/narrative": 3,
-      "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 3,
       "iati-activity/activity-date/@type": 5,
       "iati-activity/activity-date/@iso-date": 5,
       "iati-activity/recipient-country": 5,
@@ -80,8 +78,6 @@
       "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 5,
       "iati-activity/recipient-country/@code": 5,
       "iati-activity/sector": 5,
-      "iati-activity/sector/narrative": 3,
-      "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 3,
       "iati-activity/sector/@code": 5,
       "iati-activity/sector/@vocabulary": 5,
       "iati-activity/@last-updated-datetime": 5,
@@ -89,7 +85,11 @@
       "iati-activity/@default-currency": 5,
       "iati-activity/@humanitarian": 5,
       "iati-activity/@hierarchy": 5,
-      "iati-activity/participating-org/@crs-channel-code": 1
+      "iati-activity/participating-org/@crs-channel-code": 1,
+      "iati-activity/activity-date/narrative": 3,
+      "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 3,
+      "iati-activity/sector/narrative": 3,
+      "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 3
     },
     "forwardlooking_currency_year": {},
     "forwardlooking_activities_current": {

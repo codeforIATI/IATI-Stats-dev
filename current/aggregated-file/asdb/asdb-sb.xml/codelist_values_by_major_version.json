@@ -17,13 +17,13 @@
       "1": 33
     },
     ".//budget/value/@currency": {
-      "USD": 713
+      "USD": 718
     },
     ".//collaboration-type/@code": {
       "2": 33
     },
     ".//conditions/condition/@type": {
-      "1": 9,
+      "1": 10,
       "2": 33,
       "3": 33
     },
@@ -31,16 +31,15 @@
       "1": 33
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "A01": 9,
-      "C01": 24
+      "A01": 10,
+      "C01": 23
     },
     ".//default-finance-type/@code": {
       "110": 24,
       "421": 9
     },
     ".//default-flow-type/@code": {
-      "10": 32,
-      "20": 1
+      "10": 33
     },
     ".//default-tied-status/@code": {
       "5": 33
@@ -62,6 +61,9 @@
     },
     ".//document-link/language/@code": {
       "en": 238
+    },
+    ".//location/location-id/@vocabulary": {
+      "G1": 90
     },
     ".//other-identifier/@type": {
       "B1": 33
@@ -124,11 +126,12 @@
     },
     ".//transaction/transaction-type/@code": {
       "2": 33,
-      "3": 791,
-      "5": 194
+      "3": 819,
+      "6": 2,
+      "5": 204
     },
     ".//transaction/value/@currency": {
-      "USD": 1018
+      "USD": 1058
     },
     ".//@xml:lang": {
       "en": 33

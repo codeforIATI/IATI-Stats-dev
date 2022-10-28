@@ -1,27 +1,27 @@
 {
   ".//@default-currency": {
     "EUR": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 3
+      "waste-activities.xml": 3,
+      "waste-1.xml": 1
     }
   },
   ".//@xml:lang": {
     "en": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 26
+      "waste-activities.xml": 26,
+      "waste-1.xml": 1
     }
   },
   ".//activity-date/@type": {
-    "1": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 1
-    },
-    "3": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 3
-    },
     "2": {
       "waste-activities.xml": 2
+    },
+    "3": {
+      "waste-activities.xml": 3,
+      "waste-1.xml": 1
+    },
+    "1": {
+      "waste-activities.xml": 1,
+      "waste-1.xml": 1
     }
   },
   ".//activity-scope/@code": {
@@ -31,8 +31,8 @@
   },
   ".//activity-status/@code": {
     "2": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 2
+      "waste-activities.xml": 2,
+      "waste-1.xml": 1
     },
     "1": {
       "waste-activities.xml": 1
@@ -62,14 +62,14 @@
     }
   },
   ".//contact-info/@type": {
+    "1": {
+      "waste-activities.xml": 2
+    },
     "2": {
       "waste-1.xml": 1
     },
     "4": {
       "waste-1.xml": 1
-    },
-    "1": {
-      "waste-activities.xml": 2
     }
   },
   ".//default-aid-type/@vocabulary": {
@@ -78,35 +78,35 @@
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "D02": {
-      "waste-1.xml": 1
-    },
     "C01": {
       "waste-activities.xml": 3
+    },
+    "D02": {
+      "waste-1.xml": 1
     }
   },
   ".//default-finance-type/@code": {
     "110": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 3
+      "waste-activities.xml": 3,
+      "waste-1.xml": 1
     }
   },
   ".//default-flow-type/@code": {
     "30": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 3
+      "waste-activities.xml": 3,
+      "waste-1.xml": 1
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 3
+      "waste-activities.xml": 3,
+      "waste-1.xml": 1
     }
   },
   ".//description/@type": {
     "1": {
-      "waste-1.xml": 2,
-      "waste-activities.xml": 3
+      "waste-activities.xml": 3,
+      "waste-1.xml": 2
     },
     "2": {
       "waste-1.xml": 1
@@ -132,28 +132,25 @@
   },
   ".//participating-org/@role": {
     "1": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 3
+      "waste-activities.xml": 3,
+      "waste-1.xml": 1
     },
     "2": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 3
-    },
-    "3": {
+      "waste-activities.xml": 3,
       "waste-1.xml": 1
     },
     "4": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 6
+      "waste-activities.xml": 6,
+      "waste-1.xml": 1
+    },
+    "3": {
+      "waste-1.xml": 1
     }
   },
   ".//participating-org/@type": {
     "22": {
-      "waste-1.xml": 3,
-      "waste-activities.xml": 4
-    },
-    "70": {
-      "waste-1.xml": 1
+      "waste-activities.xml": 4,
+      "waste-1.xml": 3
     },
     "60": {
       "waste-activities.xml": 5
@@ -163,12 +160,15 @@
     },
     "10": {
       "waste-activities.xml": 2
+    },
+    "70": {
+      "waste-1.xml": 1
     }
   },
   ".//policy-marker/@significance": {
     "1": {
-      "waste-1.xml": 2,
-      "waste-activities.xml": 2
+      "waste-activities.xml": 2,
+      "waste-1.xml": 2
     },
     "2": {
       "waste-1.xml": 1
@@ -176,104 +176,101 @@
   },
   ".//policy-marker/@vocabulary": {
     "1": {
-      "waste-1.xml": 3,
-      "waste-activities.xml": 2
+      "waste-activities.xml": 2,
+      "waste-1.xml": 3
     }
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "waste-activities.xml": 1,
+      "waste-1.xml": 1
+    },
+    "7": {
+      "waste-activities.xml": 1
+    },
     "2": {
       "waste-1.xml": 1
     },
     "3": {
       "waste-1.xml": 1
-    },
-    "1": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 1
-    },
-    "7": {
-      "waste-activities.xml": 1
     }
   },
   ".//recipient-country/@code": {
     "ET": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 3
-    },
-    "GH": {
+      "waste-activities.xml": 3,
       "waste-1.xml": 1
-    },
-    "NP": {
-      "waste-1.xml": 1
-    },
-    "UG": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 2
-    },
-    "BD": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 2
     },
     "KE": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 2
+      "waste-activities.xml": 2,
+      "waste-1.xml": 1
+    },
+    "BD": {
+      "waste-activities.xml": 2,
+      "waste-1.xml": 1
     },
     "IN": {
       "waste-activities.xml": 2
     },
     "TZ": {
       "waste-activities.xml": 2
+    },
+    "UG": {
+      "waste-activities.xml": 2,
+      "waste-1.xml": 1
+    },
+    "GH": {
+      "waste-1.xml": 1
+    },
+    "NP": {
+      "waste-1.xml": 1
     }
   },
   ".//reporting-org/@type": {
-    "70": {
-      "waste-1.xml": 1
-    },
     "21": {
       "waste-activities.xml": 3
+    },
+    "70": {
+      "waste-1.xml": 1
     }
   },
   ".//result/@type": {
-    "1": {
-      "waste-1.xml": 12
-    },
     "2": {
       "waste-activities.xml": 2
     },
     "3": {
       "waste-activities.xml": 1
+    },
+    "1": {
+      "waste-1.xml": 12
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "waste-1.xml": 14,
-      "waste-activities.xml": 3
+      "waste-activities.xml": 3,
+      "waste-1.xml": 14
     }
   },
   ".//sector/@vocabulary": {
     "1": {
-      "waste-1.xml": 2,
-      "waste-activities.xml": 3
+      "waste-activities.xml": 3,
+      "waste-1.xml": 2
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "14030": {
+      "waste-activities.xml": 3
+    },
     "14020": {
       "waste-1.xml": 1
     },
     "14050": {
       "waste-1.xml": 1
-    },
-    "14030": {
-      "waste-activities.xml": 3
     }
   },
   ".//transaction/provider-org/@type": {
-    "70": {
-      "waste-1.xml": 67
-    },
     "22": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 1
+      "waste-activities.xml": 1,
+      "waste-1.xml": 1
     },
     "10": {
       "waste-activities.xml": 6
@@ -283,20 +280,23 @@
     },
     "23": {
       "waste-activities.xml": 1
+    },
+    "70": {
+      "waste-1.xml": 67
     }
   },
   ".//transaction/receiver-org/@type": {
-    "70": {
-      "waste-1.xml": 27,
-      "waste-activities.xml": 19
+    "60": {
+      "waste-activities.xml": 13,
+      "waste-1.xml": 2
     },
     "22": {
-      "waste-1.xml": 39,
-      "waste-activities.xml": 34
+      "waste-activities.xml": 34,
+      "waste-1.xml": 39
     },
-    "60": {
-      "waste-1.xml": 2,
-      "waste-activities.xml": 13
+    "70": {
+      "waste-activities.xml": 19,
+      "waste-1.xml": 27
     },
     "90": {
       "waste-activities.xml": 11
@@ -309,22 +309,22 @@
     }
   },
   ".//transaction/transaction-type/@code": {
-    "4": {
-      "waste-1.xml": 7
-    },
     "3": {
-      "waste-1.xml": 61,
-      "waste-activities.xml": 58
+      "waste-activities.xml": 58,
+      "waste-1.xml": 61
     },
     "1": {
-      "waste-1.xml": 1,
-      "waste-activities.xml": 4
+      "waste-activities.xml": 4,
+      "waste-1.xml": 1
     },
     "11": {
       "waste-activities.xml": 2
     },
     "2": {
       "waste-activities.xml": 21
+    },
+    "4": {
+      "waste-1.xml": 7
     }
   },
   ".//transaction/value/@currency": {

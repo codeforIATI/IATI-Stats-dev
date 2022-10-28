@@ -29,16 +29,17 @@
   },
   ".//document-link/@format": {
     "text/html": 40,
-    "application/pdf": 1
+    "application/pdf": 3
   },
   ".//document-link/category/@code": {
     "A12": 40,
-    "A01": 1,
-    "A07": 1,
-    "A08": 1
+    "A02": 2,
+    "A07": 3,
+    "A08": 3,
+    "A01": 1
   },
   ".//document-link/language/@code": {
-    "en": 41
+    "en": 43
   },
   ".//location/exactness/@code": {
     "1": 20
@@ -69,29 +70,28 @@
     "311": 13
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 1654
+    "C01": 1660
   },
   ".//transaction/disbursement-channel/@code": {
-    "1": 1654
+    "1": 1660
   },
   ".//transaction/finance-type/@code": {
-    "421": 1609,
-    "110": 44,
-    "0": 1
+    "421": 1615,
+    "110": 45
   },
   ".//transaction/flow-type/@code": {
-    "20": 1654
+    "20": 1660
   },
   ".//transaction/provider-org/@type": {
-    "40": 1654
+    "40": 1660
   },
   ".//transaction/transaction-type/@code": {
-    "2": 33,
-    "3": 1621
+    "2": 34,
+    "3": 1626
   },
   ".//transaction/value/@currency": {
     "XDR": 1580,
-    "USD": 22,
-    "EUR": 52
+    "EUR": 58,
+    "USD": 22
   }
 }

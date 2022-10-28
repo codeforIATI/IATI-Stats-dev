@@ -33,34 +33,34 @@
     "ewla-activities.xml": 1
   },
   "iati-activity/budget": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 2
   },
   "iati-activity/budget/@status": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 2
   },
   "iati-activity/budget/@type": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 2
   },
   "iati-activity/budget/period-end": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 2
   },
   "iati-activity/budget/period-end/@iso-date": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 2
   },
   "iati-activity/budget/period-start": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 2
   },
   "iati-activity/budget/period-start/@iso-date": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 2
   },
   "iati-activity/budget/value": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 2
   },
   "iati-activity/budget/value/@currency": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 2
   },
   "iati-activity/budget/value/@value-date": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 2
   },
   "iati-activity/contact-info": {
     "ewla-activities.xml": 1
@@ -108,7 +108,7 @@
     "ewla-activities.xml": 3
   },
   "iati-activity/participating-org/@activity-id": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 3
   },
   "iati-activity/participating-org/@ref": {
     "ewla-activities.xml": 3
@@ -192,97 +192,133 @@
     "ewla-activities.xml": 3
   },
   "iati-activity/result/document-link/document-date": {
-    "ewla-activities.xml": 2
+    "ewla-activities.xml": 3
   },
   "iati-activity/result/document-link/document-date/@iso-date": {
-    "ewla-activities.xml": 2
+    "ewla-activities.xml": 3
+  },
+  "iati-activity/result/document-link/language": {
+    "ewla-activities.xml": 1
+  },
+  "iati-activity/result/document-link/language/@code": {
+    "ewla-activities.xml": 1
   },
   "iati-activity/result/document-link/title": {
     "ewla-activities.xml": 3
   },
   "iati-activity/result/document-link/title/narrative": {
-    "ewla-activities.xml": 3
+    "ewla-activities.xml": 4
   },
   "iati-activity/result/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "ewla-activities.xml": 3
+    "ewla-activities.xml": 4
   },
   "iati-activity/result/indicator": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/@aggregation-status": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "ewla-activities.xml": 3
   },
   "iati-activity/result/indicator/@measure": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/baseline": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/baseline/@iso-date": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/baseline/@value": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/baseline/@year": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "ewla-activities.xml": 16
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "ewla-activities.xml": 16
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ewla-activities.xml": 10
   },
   "iati-activity/result/indicator/description": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/description/narrative": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/period": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/period/actual": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/period/actual/@value": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
+  },
+  "iati-activity/result/indicator/period/actual/comment": {
+    "ewla-activities.xml": 15
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative": {
+    "ewla-activities.xml": 15
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ewla-activities.xml": 10
   },
   "iati-activity/result/indicator/period/period-end": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/period/period-end/@iso-date": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/period/period-start": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/period/period-start/@iso-date": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/period/target": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/period/target/@value": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "ewla-activities.xml": 14
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "ewla-activities.xml": 14
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ewla-activities.xml": 13
   },
   "iati-activity/result/indicator/reference": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/reference/@code": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/reference/@indicator-uri": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/reference/@vocabulary": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/title": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/title/narrative": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/indicator/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "ewla-activities.xml": 22
+    "ewla-activities.xml": 28
   },
   "iati-activity/result/title": {
     "ewla-activities.xml": 3
@@ -315,42 +351,78 @@
     "ewla-activities.xml": 1
   },
   "iati-activity/transaction": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 4
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "ewla-activities.xml": 4
+  },
+  "iati-activity/transaction/@ref": {
+    "ewla-activities.xml": 4
+  },
+  "iati-activity/transaction/description": {
+    "ewla-activities.xml": 3
+  },
+  "iati-activity/transaction/description/narrative": {
+    "ewla-activities.xml": 3
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ewla-activities.xml": 3
+  },
+  "iati-activity/transaction/disbursement-channel": {
+    "ewla-activities.xml": 2
+  },
+  "iati-activity/transaction/disbursement-channel/@code": {
+    "ewla-activities.xml": 2
   },
   "iati-activity/transaction/provider-org": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 4
   },
   "iati-activity/transaction/provider-org/@provider-activity-id": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 4
   },
   "iati-activity/transaction/provider-org/@ref": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 4
   },
   "iati-activity/transaction/provider-org/@type": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 4
   },
   "iati-activity/transaction/provider-org/narrative": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 2
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ewla-activities.xml": 2
+  },
+  "iati-activity/transaction/receiver-org": {
+    "ewla-activities.xml": 4
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "ewla-activities.xml": 4
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "ewla-activities.xml": 4
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "ewla-activities.xml": 4
   },
   "iati-activity/transaction/transaction-date": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 4
   },
   "iati-activity/transaction/transaction-date/@iso-date": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 4
   },
   "iati-activity/transaction/transaction-type": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 4
   },
   "iati-activity/transaction/transaction-type/@code": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 4
   },
   "iati-activity/transaction/value": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 4
   },
   "iati-activity/transaction/value/@currency": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 4
   },
   "iati-activity/transaction/value/@value-date": {
-    "ewla-activities.xml": 1
+    "ewla-activities.xml": 4
   }
 }

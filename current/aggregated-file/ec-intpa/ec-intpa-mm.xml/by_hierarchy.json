@@ -122,6 +122,10 @@
       "iati-activity/related-activity": 39,
       "iati-activity/related-activity/@ref": 39,
       "iati-activity/related-activity/@type": 39,
+      "iati-activity/crs-add": 1,
+      "iati-activity/crs-add/other-flags": 1,
+      "iati-activity/crs-add/other-flags/@code": 1,
+      "iati-activity/crs-add/other-flags/@significance": 1,
       "iati-activity/document-link": 1,
       "iati-activity/document-link/title": 1,
       "iati-activity/document-link/title/narrative": 1,
@@ -149,11 +153,7 @@
       "iati-activity/planned-disbursement/provider-org/narrative": 1,
       "iati-activity/planned-disbursement/provider-org/@provider-activity-id": 1,
       "iati-activity/planned-disbursement/provider-org/@type": 1,
-      "iati-activity/planned-disbursement/@type": 1,
-      "iati-activity/crs-add": 1,
-      "iati-activity/crs-add/other-flags": 1,
-      "iati-activity/crs-add/other-flags/@code": 1,
-      "iati-activity/crs-add/other-flags/@significance": 1
+      "iati-activity/planned-disbursement/@type": 1
     },
     "elements_total": {
       "iati-activity": 59,
@@ -276,6 +276,10 @@
       "iati-activity/related-activity": 135,
       "iati-activity/related-activity/@ref": 135,
       "iati-activity/related-activity/@type": 135,
+      "iati-activity/crs-add": 1,
+      "iati-activity/crs-add/other-flags": 1,
+      "iati-activity/crs-add/other-flags/@code": 1,
+      "iati-activity/crs-add/other-flags/@significance": 1,
       "iati-activity/document-link": 5,
       "iati-activity/document-link/title": 5,
       "iati-activity/document-link/title/narrative": 5,
@@ -303,11 +307,7 @@
       "iati-activity/planned-disbursement/provider-org/narrative": 6,
       "iati-activity/planned-disbursement/provider-org/@provider-activity-id": 6,
       "iati-activity/planned-disbursement/provider-org/@type": 6,
-      "iati-activity/planned-disbursement/@type": 6,
-      "iati-activity/crs-add": 1,
-      "iati-activity/crs-add/other-flags": 1,
-      "iati-activity/crs-add/other-flags/@code": 1,
-      "iati-activity/crs-add/other-flags/@significance": 1
+      "iati-activity/planned-disbursement/@type": 6
     },
     "forwardlooking_currency_year": {
       "null": {
@@ -316,13 +316,13 @@
       "2019": {
         "EUR": 0.0
       },
-      "2004": {
-        "EUR": 0.0
-      },
       "2022": {
         "EUR": 0.0
       },
       "2023": {
+        "EUR": 0.0
+      },
+      "2004": {
         "EUR": 0.0
       }
     },
@@ -342,69 +342,69 @@
       "2024": 0
     },
     "comprehensiveness": {
-      "version": 10,
-      "reporting-org": 10,
-      "iati-identifier": 10,
-      "participating-org": 10,
-      "title": 10,
-      "description": 10,
-      "activity-status": 10,
-      "activity-date": 10,
-      "sector": 10,
-      "country_or_region": 10,
-      "transaction_commitment": 10,
-      "transaction_spend": 1,
-      "transaction_currency": 10,
-      "transaction_traceability": 10,
-      "budget": 10,
+      "version": 8,
+      "reporting-org": 8,
+      "iati-identifier": 8,
+      "participating-org": 8,
+      "title": 8,
+      "description": 8,
+      "activity-status": 8,
+      "activity-date": 8,
+      "sector": 8,
+      "country_or_region": 8,
+      "transaction_commitment": 8,
+      "transaction_spend": 0,
+      "transaction_currency": 8,
+      "transaction_traceability": 8,
+      "budget": 8,
       "budget_not_provided": 0,
-      "contact-info": 10,
-      "location": 10,
-      "location_point_pos": 10,
-      "sector_dac": 10,
-      "capital-spend": 10,
+      "contact-info": 8,
+      "location": 8,
+      "location_point_pos": 8,
+      "sector_dac": 8,
+      "capital-spend": 8,
       "document-link": 0,
       "activity-website": 0,
       "recipient_language": 0,
-      "conditions_attached": 10,
+      "conditions_attached": 8,
       "result_indicator": 0,
-      "aid_type": 10
+      "aid_type": 8
     },
     "comprehensiveness_with_validation": {
-      "version": 10,
-      "reporting-org": 10,
-      "iati-identifier": 10,
-      "participating-org": 10,
-      "title": 10,
-      "description": 10,
-      "activity-status": 10,
-      "activity-date": 10,
-      "sector": 10,
-      "country_or_region": 10,
-      "transaction_commitment": 10,
-      "transaction_spend": 1,
-      "transaction_currency": 10,
-      "transaction_traceability": 10,
-      "budget": 10,
+      "version": 8,
+      "reporting-org": 8,
+      "iati-identifier": 8,
+      "participating-org": 8,
+      "title": 8,
+      "description": 8,
+      "activity-status": 8,
+      "activity-date": 8,
+      "sector": 8,
+      "country_or_region": 8,
+      "transaction_commitment": 8,
+      "transaction_spend": 0,
+      "transaction_currency": 8,
+      "transaction_traceability": 8,
+      "budget": 8,
       "budget_not_provided": 0,
-      "contact-info": 10,
-      "location": 10,
-      "location_point_pos": 10,
-      "sector_dac": 10,
-      "capital-spend": 10,
+      "contact-info": 8,
+      "location": 8,
+      "location_point_pos": 8,
+      "sector_dac": 8,
+      "capital-spend": 8,
       "document-link": 0,
       "activity-website": 0,
       "recipient_language": 0,
-      "conditions_attached": 10,
+      "conditions_attached": 8,
       "result_indicator": 0,
-      "aid_type": 10
+      "aid_type": 8
     },
     "comprehensiveness_denominators": {
-      "recipient_language": 10,
-      "transaction_spend": 7,
-      "transaction_traceability": 10
+      "recipient_language": 8,
+      "transaction_spend": 5,
+      "transaction_traceability": 8
     },
-    "comprehensiveness_denominator_default": 10
+    "comprehensiveness_denominator_default": 8
   },
   "2": {
     "activities": 272,

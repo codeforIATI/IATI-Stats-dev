@@ -1,374 +1,71 @@
 {
   "2": {
     ".//@default-currency": {
-      "cncd-998.xml": {
-        "EUR": 2
+      "cncd-89.xml": {
+        "EUR": 1
       },
       "cncd-cd.xml": {
         "EUR": 2
       },
+      "cncd-998.xml": {
+        "EUR": 2
+      },
       "cncd-be.xml": {
         "EUR": 5
-      },
-      "cncd-89.xml": {
-        "EUR": 1
       }
     },
     ".//activity-date/@type": {
-      "cncd-998.xml": {
-        "1": 2,
-        "2": 2,
-        "3": 2
+      "cncd-89.xml": {
+        "1": 1,
+        "3": 1,
+        "2": 1
       },
       "cncd-cd.xml": {
         "1": 2,
         "3": 2,
         "2": 2
       },
+      "cncd-998.xml": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      },
       "cncd-be.xml": {
         "1": 5,
         "3": 5,
         "2": 5
-      },
-      "cncd-89.xml": {
-        "1": 1,
-        "3": 1,
-        "2": 1
       }
     },
     ".//activity-status/@code": {
-      "cncd-998.xml": {
-        "2": 2
+      "cncd-89.xml": {
+        "2": 1
       },
       "cncd-cd.xml": {
+        "2": 2
+      },
+      "cncd-998.xml": {
         "2": 2
       },
       "cncd-be.xml": {
         "2": 5
-      },
-      "cncd-89.xml": {
-        "2": 1
-      }
-    },
-    ".//collaboration-type/@code": {
-      "cncd-998.xml": {
-        "1": 2
-      },
-      "cncd-cd.xml": {
-        "1": 2
-      },
-      "cncd-be.xml": {
-        "1": 5
-      },
-      "cncd-89.xml": {
-        "1": 1
-      }
-    },
-    ".//contact-info/@type": {
-      "cncd-998.xml": {
-        "1": 2
-      },
-      "cncd-cd.xml": {
-        "1": 2
-      },
-      "cncd-be.xml": {
-        "1": 5
-      },
-      "cncd-89.xml": {
-        "1": 1
-      }
-    },
-    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "cncd-998.xml": {
-        "C01": 1,
-        "H01": 1
-      },
-      "cncd-cd.xml": {
-        "C01": 2
-      },
-      "cncd-be.xml": {
-        "H01": 5
-      },
-      "cncd-89.xml": {
-        "G01": 1
-      }
-    },
-    ".//default-aid-type/@vocabulary": {
-      "cncd-998.xml": {
-        "1": 2
-      },
-      "cncd-cd.xml": {
-        "1": 2
-      },
-      "cncd-be.xml": {
-        "1": 5
-      },
-      "cncd-89.xml": {
-        "1": 1
-      }
-    },
-    ".//default-finance-type/@code": {
-      "cncd-998.xml": {
-        "110": 2
-      },
-      "cncd-cd.xml": {
-        "110": 2
-      },
-      "cncd-be.xml": {
-        "110": 5
-      },
-      "cncd-89.xml": {
-        "110": 1
-      }
-    },
-    ".//default-flow-type/@code": {
-      "cncd-998.xml": {
-        "30": 2
-      },
-      "cncd-cd.xml": {
-        "30": 2
-      },
-      "cncd-be.xml": {
-        "30": 5
-      },
-      "cncd-89.xml": {
-        "30": 1
-      }
-    },
-    ".//default-tied-status/@code": {
-      "cncd-998.xml": {
-        "5": 2
-      },
-      "cncd-cd.xml": {
-        "5": 2
-      },
-      "cncd-be.xml": {
-        "5": 5
-      },
-      "cncd-89.xml": {
-        "5": 1
-      }
-    },
-    ".//description/@type": {
-      "cncd-998.xml": {
-        "1": 2
-      },
-      "cncd-cd.xml": {
-        "1": 2
-      },
-      "cncd-be.xml": {
-        "1": 5
-      },
-      "cncd-89.xml": {
-        "1": 1
-      }
-    },
-    ".//document-link/@format": {
-      "cncd-998.xml": {
-        "application/pdf": 1,
-        "application/msword": 1
-      }
-    },
-    ".//document-link/category/@code": {
-      "cncd-998.xml": {
-        "A02": 2,
-        "A03": 2,
-        "A04": 2,
-        "A05": 2,
-        "A08": 2
-      }
-    },
-    ".//document-link/language/@code": {
-      "cncd-998.xml": {
-        "fr": 2
-      }
-    },
-    ".//other-identifier/@type": {
-      "cncd-998.xml": {
-        "A9": 2
-      }
-    },
-    ".//participating-org/@role": {
-      "cncd-998.xml": {
-        "1": 3,
-        "2": 4,
-        "4": 4
-      },
-      "cncd-cd.xml": {
-        "1": 4,
-        "2": 2,
-        "4": 8
-      },
-      "cncd-be.xml": {
-        "1": 8,
-        "2": 5,
-        "4": 5
-      },
-      "cncd-89.xml": {
-        "1": 1,
-        "2": 1
-      }
-    },
-    ".//participating-org/@type": {
-      "cncd-998.xml": {
-        "10": 2,
-        "22": 9
-      },
-      "cncd-cd.xml": {
-        "10": 2,
-        "22": 10,
-        "23": 2
-      },
-      "cncd-be.xml": {
-        "10": 5,
-        "22": 13
-      },
-      "cncd-89.xml": {
-        "10": 1,
-        "22": 1
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "cncd-998.xml": {
-        "998": 2
-      },
-      "cncd-89.xml": {
-        "89": 1
-      }
-    },
-    ".//recipient-region/@vocabulary": {
-      "cncd-998.xml": {
-        "1": 2
-      },
-      "cncd-89.xml": {
-        "1": 1
-      }
-    },
-    ".//reporting-org/@type": {
-      "cncd-998.xml": {
-        "22": 2
-      },
-      "cncd-cd.xml": {
-        "22": 2
-      },
-      "cncd-be.xml": {
-        "22": 5
-      },
-      "cncd-89.xml": {
-        "22": 1
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "cncd-998.xml": {
-        "99810": 2
-      },
-      "cncd-cd.xml": {
-        "15150": 1,
-        "41010": 1
-      },
-      "cncd-be.xml": {
-        "99820": 5
-      },
-      "cncd-89.xml": {
-        "91010": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "cncd-998.xml": {
-        "1": 2
-      },
-      "cncd-cd.xml": {
-        "1": 2
-      },
-      "cncd-be.xml": {
-        "1": 5
-      },
-      "cncd-89.xml": {
-        "1": 1
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "cncd-998.xml": {
-        "22": 12,
-        "10": 33
-      },
-      "cncd-cd.xml": {
-        "22": 23
-      },
-      "cncd-be.xml": {
-        "22": 10
-      },
-      "cncd-89.xml": {
-        "22": 2
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "cncd-998.xml": {
-        "22": 45
-      },
-      "cncd-cd.xml": {
-        "22": 12,
-        "23": 7
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "cncd-998.xml": {
-        "1": 24,
-        "11": 23
-      },
-      "cncd-cd.xml": {
-        "2": 6,
-        "3": 14,
-        "4": 10
-      },
-      "cncd-be.xml": {
-        "4": 25
-      },
-      "cncd-89.xml": {
-        "4": 5
-      }
-    },
-    ".//transaction/value/@currency": {
-      "cncd-998.xml": {
-        "EUR": 47
-      },
-      "cncd-cd.xml": {
-        "EUR": 29
-      },
-      "cncd-be.xml": {
-        "EUR": 23
-      },
-      "cncd-89.xml": {
-        "EUR": 4
-      }
-    },
-    ".//@xml:lang": {
-      "cncd-998.xml": {
-        "fr": 24,
-        "en": 2
-      },
-      "cncd-cd.xml": {
-        "fr": 69
-      },
-      "cncd-be.xml": {
-        "fr": 97
-      },
-      "cncd-89.xml": {
-        "fr": 9
       }
     },
     ".//budget/@status": {
+      "cncd-89.xml": {
+        "2": 5
+      },
       "cncd-cd.xml": {
         "2": 10
       },
       "cncd-be.xml": {
         "2": 25
-      },
-      "cncd-89.xml": {
-        "2": 5
       }
     },
     ".//budget/@type": {
+      "cncd-89.xml": {
+        "1": 1,
+        "2": 4
+      },
       "cncd-cd.xml": {
         "1": 2,
         "2": 8
@@ -376,21 +73,301 @@
       "cncd-be.xml": {
         "1": 13,
         "2": 12
-      },
-      "cncd-89.xml": {
-        "1": 1,
-        "2": 4
       }
     },
     ".//budget/value/@currency": {
+      "cncd-89.xml": {
+        "EUR": 5
+      },
       "cncd-cd.xml": {
         "EUR": 10
       },
       "cncd-be.xml": {
         "EUR": 25
-      },
+      }
+    },
+    ".//collaboration-type/@code": {
       "cncd-89.xml": {
-        "EUR": 5
+        "1": 1
+      },
+      "cncd-cd.xml": {
+        "1": 2
+      },
+      "cncd-998.xml": {
+        "1": 2
+      },
+      "cncd-be.xml": {
+        "1": 5
+      }
+    },
+    ".//contact-info/@type": {
+      "cncd-89.xml": {
+        "1": 1
+      },
+      "cncd-cd.xml": {
+        "1": 2
+      },
+      "cncd-998.xml": {
+        "1": 2
+      },
+      "cncd-be.xml": {
+        "1": 5
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cncd-89.xml": {
+        "G01": 1
+      },
+      "cncd-cd.xml": {
+        "C01": 2
+      },
+      "cncd-998.xml": {
+        "C01": 1,
+        "H01": 1
+      },
+      "cncd-be.xml": {
+        "H01": 5
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "cncd-89.xml": {
+        "1": 1
+      },
+      "cncd-cd.xml": {
+        "1": 2
+      },
+      "cncd-998.xml": {
+        "1": 2
+      },
+      "cncd-be.xml": {
+        "1": 5
+      }
+    },
+    ".//default-finance-type/@code": {
+      "cncd-89.xml": {
+        "110": 1
+      },
+      "cncd-cd.xml": {
+        "110": 2
+      },
+      "cncd-998.xml": {
+        "110": 2
+      },
+      "cncd-be.xml": {
+        "110": 5
+      }
+    },
+    ".//default-flow-type/@code": {
+      "cncd-89.xml": {
+        "30": 1
+      },
+      "cncd-cd.xml": {
+        "30": 2
+      },
+      "cncd-998.xml": {
+        "30": 2
+      },
+      "cncd-be.xml": {
+        "30": 5
+      }
+    },
+    ".//default-tied-status/@code": {
+      "cncd-89.xml": {
+        "5": 1
+      },
+      "cncd-cd.xml": {
+        "5": 2
+      },
+      "cncd-998.xml": {
+        "5": 2
+      },
+      "cncd-be.xml": {
+        "5": 5
+      }
+    },
+    ".//description/@type": {
+      "cncd-89.xml": {
+        "1": 1
+      },
+      "cncd-cd.xml": {
+        "1": 2
+      },
+      "cncd-998.xml": {
+        "1": 2
+      },
+      "cncd-be.xml": {
+        "1": 5
+      }
+    },
+    ".//participating-org/@role": {
+      "cncd-89.xml": {
+        "1": 1,
+        "2": 1
+      },
+      "cncd-cd.xml": {
+        "1": 4,
+        "2": 2,
+        "4": 8
+      },
+      "cncd-998.xml": {
+        "1": 3,
+        "2": 4,
+        "4": 4
+      },
+      "cncd-be.xml": {
+        "1": 8,
+        "2": 5,
+        "4": 5
+      }
+    },
+    ".//participating-org/@type": {
+      "cncd-89.xml": {
+        "10": 1,
+        "22": 1
+      },
+      "cncd-cd.xml": {
+        "10": 2,
+        "22": 10,
+        "23": 2
+      },
+      "cncd-998.xml": {
+        "10": 2,
+        "22": 9
+      },
+      "cncd-be.xml": {
+        "10": 5,
+        "22": 13
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cncd-89.xml": {
+        "89": 1
+      },
+      "cncd-998.xml": {
+        "998": 2
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "cncd-89.xml": {
+        "1": 1
+      },
+      "cncd-998.xml": {
+        "1": 2
+      }
+    },
+    ".//related-activity/@type": {
+      "cncd-89.xml": {
+        "1": 1
+      },
+      "cncd-cd.xml": {
+        "1": 2
+      },
+      "cncd-be.xml": {
+        "1": 5
+      }
+    },
+    ".//reporting-org/@type": {
+      "cncd-89.xml": {
+        "22": 1
+      },
+      "cncd-cd.xml": {
+        "22": 2
+      },
+      "cncd-998.xml": {
+        "22": 2
+      },
+      "cncd-be.xml": {
+        "22": 5
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cncd-89.xml": {
+        "91010": 1
+      },
+      "cncd-cd.xml": {
+        "15150": 1,
+        "41010": 1
+      },
+      "cncd-998.xml": {
+        "99810": 2
+      },
+      "cncd-be.xml": {
+        "99820": 5
+      }
+    },
+    ".//sector/@vocabulary": {
+      "cncd-89.xml": {
+        "1": 1
+      },
+      "cncd-cd.xml": {
+        "1": 2
+      },
+      "cncd-998.xml": {
+        "1": 2
+      },
+      "cncd-be.xml": {
+        "1": 5
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "cncd-89.xml": {
+        "22": 2
+      },
+      "cncd-cd.xml": {
+        "22": 23
+      },
+      "cncd-998.xml": {
+        "22": 12,
+        "10": 33
+      },
+      "cncd-be.xml": {
+        "22": 10
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "cncd-89.xml": {
+        "4": 5
+      },
+      "cncd-cd.xml": {
+        "2": 6,
+        "3": 14,
+        "4": 10
+      },
+      "cncd-998.xml": {
+        "1": 24,
+        "11": 23
+      },
+      "cncd-be.xml": {
+        "4": 25
+      }
+    },
+    ".//transaction/value/@currency": {
+      "cncd-89.xml": {
+        "EUR": 4
+      },
+      "cncd-cd.xml": {
+        "EUR": 29
+      },
+      "cncd-998.xml": {
+        "EUR": 47
+      },
+      "cncd-be.xml": {
+        "EUR": 23
+      }
+    },
+    ".//@xml:lang": {
+      "cncd-89.xml": {
+        "fr": 9
+      },
+      "cncd-cd.xml": {
+        "fr": 69
+      },
+      "cncd-998.xml": {
+        "fr": 24,
+        "en": 2
+      },
+      "cncd-be.xml": {
+        "fr": 97
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -443,17 +420,6 @@
         "BE": 5
       }
     },
-    ".//related-activity/@type": {
-      "cncd-cd.xml": {
-        "1": 2
-      },
-      "cncd-be.xml": {
-        "1": 5
-      },
-      "cncd-89.xml": {
-        "1": 1
-      }
-    },
     ".//result/@type": {
       "cncd-cd.xml": {
         "2": 18
@@ -469,6 +435,40 @@
       "cncd-be.xml": {
         "1": 24,
         "2": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "cncd-cd.xml": {
+        "22": 12,
+        "23": 7
+      },
+      "cncd-998.xml": {
+        "22": 45
+      }
+    },
+    ".//document-link/@format": {
+      "cncd-998.xml": {
+        "application/pdf": 1,
+        "application/msword": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "cncd-998.xml": {
+        "A02": 2,
+        "A03": 2,
+        "A04": 2,
+        "A05": 2,
+        "A08": 2
+      }
+    },
+    ".//document-link/language/@code": {
+      "cncd-998.xml": {
+        "fr": 2
+      }
+    },
+    ".//other-identifier/@type": {
+      "cncd-998.xml": {
+        "A9": 2
       }
     },
     ".//location/location-class/@code": {

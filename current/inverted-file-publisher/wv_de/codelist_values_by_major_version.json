@@ -4,6 +4,10 @@
       "wv_de-activities.xml": {
         "EUR": 133,
         "USD": 1
+      },
+      "wv_de-org.xml": {
+        "EUR": 164,
+        "USD": 1
       }
     },
     ".//activity-date/@type": {
@@ -11,41 +15,67 @@
         "1": 134,
         "2": 134,
         "3": 134
+      },
+      "wv_de-org.xml": {
+        "1": 165,
+        "2": 165,
+        "3": 165
       }
     },
     ".//activity-status/@code": {
       "wv_de-activities.xml": {
         "2": 134
+      },
+      "wv_de-org.xml": {
+        "2": 165
       }
     },
     ".//collaboration-type/@code": {
       "wv_de-activities.xml": {
         "3": 134
+      },
+      "wv_de-org.xml": {
+        "3": 165
       }
     },
     ".//contact-info/@type": {
       "wv_de-activities.xml": {
         "1": 134
+      },
+      "wv_de-org.xml": {
+        "1": 165
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "wv_de-activities.xml": {
         "C01": 134
+      },
+      "wv_de-org.xml": {
+        "C01": 165
       }
     },
     ".//default-finance-type/@code": {
       "wv_de-activities.xml": {
         "110": 134
+      },
+      "wv_de-org.xml": {
+        "110": 165
       }
     },
     ".//default-flow-type/@code": {
       "wv_de-activities.xml": {
         "30": 134
+      },
+      "wv_de-org.xml": {
+        "30": 165
       }
     },
     ".//default-tied-status/@code": {
       "wv_de-activities.xml": {
         "5": 134
+      },
+      "wv_de-org.xml": {
+        "5": 165
       }
     },
     ".//participating-org/@role": {
@@ -54,6 +84,12 @@
         "3": 134,
         "4": 268,
         "1": 187
+      },
+      "wv_de-org.xml": {
+        "2": 165,
+        "3": 165,
+        "4": 330,
+        "1": 241
       }
     },
     ".//participating-org/@type": {
@@ -63,6 +99,13 @@
         "10": 34,
         "40": 25,
         "60": 5
+      },
+      "wv_de-org.xml": {
+        "21": 761,
+        "40": 31,
+        "15": 62,
+        "10": 40,
+        "60": 6
       }
     },
     ".//recipient-country/@code": {
@@ -107,10 +150,59 @@
         "BD": 5,
         "BA": 3,
         "PH": 1
+      },
+      "wv_de-org.xml": {
+        "SN": 5,
+        "KE": 8,
+        "HT": 3,
+        "JO": 7,
+        "LK": 5,
+        "MR": 2,
+        "ID": 3,
+        "NI": 1,
+        "PE": 1,
+        "LB": 6,
+        "CD": 7,
+        "SO": 10,
+        "SD": 5,
+        "BI": 5,
+        "SS": 5,
+        "IQ": 3,
+        "AM": 3,
+        "GE": 4,
+        "TD": 4,
+        "MM": 3,
+        "PS": 4,
+        "KH": 1,
+        "IN": 6,
+        "ZW": 5,
+        "TZ": 1,
+        "ML": 2,
+        "TL": 1,
+        "ET": 7,
+        "MN": 3,
+        "AF": 9,
+        "MZ": 2,
+        "NE": 4,
+        "VN": 3,
+        "HN": 2,
+        "UG": 1,
+        "GT": 1,
+        "BO": 2,
+        "BD": 5,
+        "BA": 5,
+        "PH": 3,
+        "CF": 2,
+        "UA": 3,
+        "BF": 1
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "wv_de-activities.xml": {
+        "289": 1,
+        "798": 1
+      },
+      "wv_de-org.xml": {
         "289": 1,
         "798": 1
       }
@@ -118,6 +210,9 @@
     ".//reporting-org/@type": {
       "wv_de-activities.xml": {
         "21": 134
+      },
+      "wv_de-org.xml": {
+        "21": 165
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -138,11 +233,34 @@
         "72010": 20,
         "15220": 3,
         "15170": 1
+      },
+      "wv_de-org.xml": {
+        "12220": 12,
+        "52010": 23,
+        "15110": 21,
+        "16064": 1,
+        "41010": 6,
+        "15150": 6,
+        "11120": 14,
+        "14030": 15,
+        "15180": 2,
+        "74010": 9,
+        "73010": 1,
+        "15160": 18,
+        "12240": 6,
+        "72010": 22,
+        "15220": 3,
+        "15170": 1,
+        "43060": 4,
+        "32310": 1
       }
     },
     ".//sector/@vocabulary": {
       "wv_de-activities.xml": {
         "99": 134
+      },
+      "wv_de-org.xml": {
+        "99": 165
       }
     },
     ".//transaction/provider-org/@type": {
@@ -152,17 +270,31 @@
         "40": 25,
         "21": 66,
         "60": 5
+      },
+      "wv_de-org.xml": {
+        "40": 31,
+        "15": 62,
+        "10": 40,
+        "21": 101,
+        "60": 6
       }
     },
     ".//transaction/transaction-type/@code": {
       "wv_de-activities.xml": {
         "2": 134,
         "11": 187
+      },
+      "wv_de-org.xml": {
+        "2": 165,
+        "11": 241
       }
     },
     ".//@xml:lang": {
       "wv_de-activities.xml": {
         "en": 134
+      },
+      "wv_de-org.xml": {
+        "en": 165
       }
     }
   }

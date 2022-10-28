@@ -6,14 +6,29 @@
     ".//activity-date/@type": {
       "2": 15
     },
+    ".//activity-status/@code": {
+      "2": 15
+    },
     ".//budget/@type": {
       "1": 15
+    },
+    ".//budget/value/@currency": {
+      "USD": 15
     },
     ".//contact-info/@type": {
       "1": 15
     },
     ".//description/@type": {
       "1": 15
+    },
+    ".//document-link/@format": {
+      "application/pdf": 1
+    },
+    ".//document-link/category/@code": {
+      "A07": 1
+    },
+    ".//document-link/language/@code": {
+      "en": 1
     },
     ".//participating-org/@role": {
       "4": 15,
@@ -42,6 +57,9 @@
     },
     ".//transaction/transaction-type/@code": {
       "4": 15
+    },
+    ".//transaction/value/@currency": {
+      "USD": 15
     },
     ".//@xml:lang": {
       "en": 15

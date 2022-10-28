@@ -91,6 +91,20 @@
   ".//reporting-org/@type": {
     "40": 8
   },
+  ".//sector/@vocabulary": {
+    "1": 12
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15180": 3,
+    "13010": 2,
+    "13096": 1,
+    "16062": 1,
+    "11231": 1,
+    "13020": 1,
+    "13030": 1,
+    "13040": 1,
+    "13081": 1
+  },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": 16
   },

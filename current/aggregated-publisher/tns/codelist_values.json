@@ -23,9 +23,9 @@
     "2": 1
   },
   ".//budget/value/@currency": {
+    "GBP": 5,
     "USD": 1,
-    "EUR": 1,
-    "GBP": 5
+    "EUR": 1
   },
   ".//contact-info/@type": {
     "1": 3,
@@ -69,12 +69,12 @@
     "11004": 1
   },
   ".//participating-org/@role": {
-    "4": 5,
-    "1": 4
+    "1": 4,
+    "4": 5
   },
   ".//participating-org/@type": {
-    "21": 4,
     "10": 4,
+    "21": 4,
     "15": 1
   },
   ".//policy-marker/@significance": {
@@ -113,8 +113,8 @@
     "2": 13
   },
   ".//sector/@vocabulary": {
-    "1": 4,
-    "2": 1
+    "2": 1,
+    "1": 4
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "31120": 2,
@@ -136,14 +136,14 @@
     "15": 2
   },
   ".//transaction/transaction-type/@code": {
-    "11": 13,
+    "4": 13,
     "1": 13,
-    "3": 2,
-    "4": 13
+    "11": 13,
+    "3": 2
   },
   ".//transaction/value/@currency": {
-    "USD": 6,
     "GBP": 25,
+    "USD": 6,
     "EUR": 9
   }
 }

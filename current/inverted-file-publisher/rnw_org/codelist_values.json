@@ -123,8 +123,15 @@
     },
     "PS": {
       "rnw_org-activities2021.xml": 1
-    },
-    "YE": {
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "rnw_org-activities2021.xml": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "589": {
       "rnw_org-activities2021.xml": 1
     }
   },
@@ -174,15 +181,15 @@
   },
   ".//transaction/provider-org/@type": {
     "21": {
-      "rnw_org-activities2021.xml": 16
+      "rnw_org-activities2021.xml": 18
     }
   },
   ".//transaction/receiver-org/@type": {
     "21": {
-      "rnw_org-activities2021.xml": 10
+      "rnw_org-activities2021.xml": 13
     },
     "24": {
-      "rnw_org-activities2021.xml": 5
+      "rnw_org-activities2021.xml": 4
     }
   },
   ".//transaction/transaction-type/@code": {
@@ -190,21 +197,21 @@
       "rnw_org-activities2021.xml": 4
     },
     "1": {
-      "rnw_org-activities2021.xml": 3
+      "rnw_org-activities2021.xml": 6
     },
     "11": {
       "rnw_org-activities2021.xml": 4
     },
-    "3": {
-      "rnw_org-activities2021.xml": 6
-    },
     "2": {
-      "rnw_org-activities2021.xml": 1
+      "rnw_org-activities2021.xml": 2
+    },
+    "3": {
+      "rnw_org-activities2021.xml": 4
     }
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "rnw_org-activities2021.xml": 18
+      "rnw_org-activities2021.xml": 20
     }
   }
 }

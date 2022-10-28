@@ -3,7 +3,7 @@
     "EUR": 848
   },
   ".//@xml:lang": {
-    "en": 3979,
+    "en": 3984,
     "EN": 25
   },
   ".//activity-date/@type": {
@@ -53,11 +53,11 @@
     "B03": 3,
     "PDA": 1,
     "NGO": 2,
-    "PRJ": 2,
-    "EMD": 1,
-    "B04": 1,
     "DFA": 1,
-    "TCO": 1
+    "B04": 1,
+    "PRJ": 2,
+    "TCO": 1,
+    "EMD": 1
   },
   ".//default-finance-type/@code": {
     "110": 848
@@ -82,11 +82,11 @@
   },
   ".//document-link/category/@code": {
     "A10": 163,
-    "A04": 5,
     "A05": 5,
-    "A02": 5,
     "A03": 5,
-    "A01": 5
+    "A04": 5,
+    "A01": 5,
+    "A02": 5
   },
   ".//document-link/language/@code": {
     "FR": 156,
@@ -159,8 +159,8 @@
     "15": 848
   },
   ".//result/@type": {
-    "9": 1,
-    "1": 9
+    "1": 9,
+    "9": 1
   },
   ".//result/indicator/@measure": {
     "1": 10
@@ -251,12 +251,12 @@
     "21040": 2,
     "21061": 2,
     "15220": 1,
-    "13020": 2,
-    "15240": 1,
-    "32130": 1,
     "152": 3,
+    "13020": 2,
+    "15180": 1,
+    "15240": 1,
     "41030": 1,
-    "15180": 1
+    "32130": 1
   },
   ".//tag/@vocabulary": {
     "2": 169,
@@ -281,7 +281,7 @@
     "4": 5
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 2185,
+    "C01": 2190,
     "A01": 108,
     "D02": 570,
     "B03": 4,
@@ -289,18 +289,18 @@
     "NGO": 5
   },
   ".//transaction/disbursement-channel/@code": {
-    "2": 3128
+    "2": 3133
   },
   ".//transaction/finance-type/@code": {
-    "110": 2873
+    "110": 2878
   },
   ".//transaction/flow-type/@code": {
-    "10": 2864,
+    "10": 2869,
     "50": 8,
     "20": 1
   },
   ".//transaction/provider-org/@type": {
-    "15": 3128
+    "15": 3133
   },
   ".//transaction/tied-status/@code": {
     "5": 1021,
@@ -308,11 +308,11 @@
     "3": 243
   },
   ".//transaction/transaction-type/@code": {
-    "3": 1357,
-    "4": 1516,
+    "3": 1360,
+    "4": 1518,
     "2": 255
   },
   ".//transaction/value/@currency": {
-    "EUR": 3128
+    "EUR": 3133
   }
 }

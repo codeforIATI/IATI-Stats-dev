@@ -3,25 +3,24 @@
     "": 1
   },
   ".//@xml:lang": {
-    "FR": 14,
-    "nl": 64,
-    "en": 66,
-    "fr": 88
+    "EN": 15,
+    "nl": 6,
+    "en": 47,
+    "fr": 34
   },
   ".//activity-date/@type": {
     "1": 1,
     "3": 1,
-    "2": 1,
-    "4": 1
+    "2": 1
   },
   ".//activity-status/@code": {
     "2": 1
   },
   ".//budget/@status": {
-    "2": 1
+    "2": 5
   },
   ".//budget/value/@currency": {
-    "XOF": 1
+    "XOF": 5
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": 1
@@ -74,12 +73,14 @@
     "22": 1
   },
   ".//result/@type": {
-    "3": 4,
-    "2": 5,
+    "2": 2,
     "1": 2
   },
   ".//result/indicator/@measure": {
-    "1": 22
+    "1": 13
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": 13
   },
   ".//sector/@vocabulary": {
     "1": 1
@@ -88,14 +89,14 @@
     "15150": 1
   },
   ".//transaction/provider-org/@type": {
-    "21": 2
+    "21": 3
   },
   ".//transaction/transaction-type/@code": {
-    "11": 1,
+    "11": 2,
     "1": 1,
     "4": 1
   },
   ".//transaction/value/@currency": {
-    "XOF": 3
+    "XOF": 4
   }
 }

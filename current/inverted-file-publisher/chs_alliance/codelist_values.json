@@ -6,7 +6,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "chs_alliance-activities.xml": 28
+      "chs_alliance-activities.xml": 68
     }
   },
   ".//activity-date/@type": {
@@ -19,17 +19,20 @@
   },
   ".//activity-status/@code": {
     "2": {
-      "chs_alliance-activities.xml": 3
+      "chs_alliance-activities.xml": 2
+    },
+    "4": {
+      "chs_alliance-activities.xml": 1
     }
   },
   ".//budget/@status": {
     "2": {
-      "chs_alliance-activities.xml": 6
+      "chs_alliance-activities.xml": 5
     }
   },
   ".//budget/@type": {
     "1": {
-      "chs_alliance-activities.xml": 6
+      "chs_alliance-activities.xml": 5
     }
   },
   ".//budget/value/@currency": {
@@ -37,7 +40,7 @@
       "chs_alliance-activities.xml": 2
     },
     "CHF": {
-      "chs_alliance-activities.xml": 4
+      "chs_alliance-activities.xml": 3
     }
   },
   ".//collaboration-type/@code": {
@@ -78,6 +81,24 @@
   ".//description/@type": {
     "2": {
       "chs_alliance-activities.xml": 3
+    }
+  },
+  ".//document-link/@format": {
+    "application/A2L": {
+      "chs_alliance-activities.xml": 1
+    },
+    "application/http": {
+      "chs_alliance-activities.xml": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A08": {
+      "chs_alliance-activities.xml": 2
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "chs_alliance-activities.xml": 1
     }
   },
   ".//participating-org/@crs-channel-code": {
@@ -156,15 +177,33 @@
   },
   ".//result/@type": {
     "2": {
+      "chs_alliance-activities.xml": 2
+    }
+  },
+  ".//result/document-link/@format": {
+    "application/A2L": {
+      "chs_alliance-activities.xml": 1
+    },
+    "application/http": {
+      "chs_alliance-activities.xml": 1
+    }
+  },
+  ".//result/document-link/category/@code": {
+    "A08": {
+      "chs_alliance-activities.xml": 2
+    }
+  },
+  ".//result/document-link/language/@code": {
+    "en": {
       "chs_alliance-activities.xml": 1
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "chs_alliance-activities.xml": 2
+      "chs_alliance-activities.xml": 3
     },
     "2": {
-      "chs_alliance-activities.xml": 2
+      "chs_alliance-activities.xml": 1
     }
   },
   ".//sector/@vocabulary": {
@@ -182,12 +221,12 @@
   },
   ".//transaction/aid-type/@vocabulary": {
     "1": {
-      "chs_alliance-activities.xml": 6
+      "chs_alliance-activities.xml": 26
     }
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": {
-      "chs_alliance-activities.xml": 6
+      "chs_alliance-activities.xml": 26
     }
   },
   ".//transaction/disbursement-channel/@code": {
@@ -197,25 +236,28 @@
   },
   ".//transaction/finance-type/@code": {
     "110": {
-      "chs_alliance-activities.xml": 6
+      "chs_alliance-activities.xml": 26
     }
   },
   ".//transaction/flow-type/@code": {
     "10": {
-      "chs_alliance-activities.xml": 6
+      "chs_alliance-activities.xml": 26
     }
   },
   ".//transaction/provider-org/@type": {
     "10": {
-      "chs_alliance-activities.xml": 3
+      "chs_alliance-activities.xml": 4
     },
     "21": {
-      "chs_alliance-activities.xml": 3
+      "chs_alliance-activities.xml": 20
     }
   },
   ".//transaction/receiver-org/@type": {
     "21": {
-      "chs_alliance-activities.xml": 3
+      "chs_alliance-activities.xml": 4
+    },
+    "15": {
+      "chs_alliance-activities.xml": 1
     }
   },
   ".//transaction/recipient-country/@code": {
@@ -235,15 +277,15 @@
   },
   ".//transaction/tied-status/@code": {
     "5": {
-      "chs_alliance-activities.xml": 6
+      "chs_alliance-activities.xml": 26
     }
   },
   ".//transaction/transaction-type/@code": {
     "4": {
-      "chs_alliance-activities.xml": 5
+      "chs_alliance-activities.xml": 24
     },
     "1": {
-      "chs_alliance-activities.xml": 1
+      "chs_alliance-activities.xml": 2
     }
   },
   ".//transaction/value/@currency": {
@@ -251,7 +293,10 @@
       "chs_alliance-activities.xml": 2
     },
     "CHF": {
-      "chs_alliance-activities.xml": 4
+      "chs_alliance-activities.xml": 22
+    },
+    "EUR": {
+      "chs_alliance-activities.xml": 1
     }
   }
 }

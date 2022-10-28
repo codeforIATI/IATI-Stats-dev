@@ -7,11 +7,11 @@
       "1": 36,
       "2": 36,
       "3": 36,
-      "4": 18
+      "4": 20
     },
     ".//activity-status/@code": {
-      "3": 20,
-      "2": 16
+      "3": 22,
+      "2": 14
     },
     ".//activity-scope/@code": {
       "1": 36
@@ -35,8 +35,8 @@
       "2": 1
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 31,
       "D02": 4,
+      "C01": 31,
       "B03": 1
     },
     ".//default-finance-type/@code": {
@@ -71,13 +71,13 @@
       "4": 36
     },
     ".//participating-org/@type": {
-      "15": 91,
+      "15": 90,
       "40": 10,
-      "70": 1,
       "N/A": 1,
+      "70": 2,
+      "90": 1,
       "10": 2,
       "22": 1,
-      "90": 1,
       "21": 1
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -116,17 +116,17 @@
       "15": 36
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15151": 1,
-      "73010": 2,
       "15220": 15,
+      "15151": 1,
       "15210": 5,
+      "73010": 2,
       "32265": 2,
       "12110": 1,
-      "15130": 3,
       "15110": 1,
-      "32210": 4,
+      "15130": 3,
       "15113": 2,
       "11330": 1,
+      "32210": 4,
       "12250": 1
     },
     ".//sector/@vocabulary": {
@@ -145,8 +145,8 @@
       "99": 3
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 52,
       "D02": 9,
+      "C01": 52,
       "B03": 3
     },
     ".//transaction/disbursement-channel/@code": {
@@ -174,7 +174,7 @@
       "EUR": 84
     },
     ".//@xml:lang": {
-      "en": 162
+      "en": 164
     }
   }
 }

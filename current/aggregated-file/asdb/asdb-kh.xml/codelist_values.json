@@ -1,111 +1,114 @@
 {
   ".//@default-currency": {
-    "USD": 109
+    "USD": 111
   },
   ".//@xml:lang": {
-    "en": 117
+    "en": 119
   },
   ".//activity-date/@type": {
-    "1": 109,
-    "2": 109,
-    "3": 109,
-    "4": 65
+    "1": 111,
+    "2": 111,
+    "3": 111,
+    "4": 68
   },
   ".//activity-scope/@code": {
-    "1": 109
+    "1": 111
   },
   ".//activity-status/@code": {
-    "3": 65,
+    "3": 67,
     "2": 43,
     "1": 1
   },
   ".//budget/value/@currency": {
-    "USD": 2434
+    "USD": 2498
   },
   ".//collaboration-type/@code": {
-    "2": 109
+    "2": 111
   },
   ".//conditions/condition/@type": {
     "1": 30,
-    "2": 109,
-    "3": 109
+    "2": 111,
+    "3": 111
   },
   ".//country-budget-items/@vocabulary": {
-    "1": 109
+    "1": 111
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "A01": 30,
-    "C01": 79
+    "C01": 81
   },
   ".//default-finance-type/@code": {
-    "421": 84,
+    "421": 86,
     "110": 25
   },
   ".//default-flow-type/@code": {
     "10": 105,
-    "20": 4
+    "21": 6
   },
   ".//default-tied-status/@code": {
-    "5": 109
+    "5": 111
   },
   ".//document-link/@format": {
-    "application/pdf": 810
+    "application/pdf": 814
   },
   ".//document-link/category/@code": {
     "A09": 105,
     "A07": 174,
-    "A08": 390,
+    "A08": 394,
     "A04": 105,
-    "A01": 108,
-    "A02": 108,
-    "A03": 108,
-    "A05": 108,
+    "A01": 110,
+    "A02": 110,
+    "A03": 110,
+    "A05": 110,
     "A11": 105,
     "A10": 105
   },
   ".//document-link/language/@code": {
-    "en": 810
+    "en": 814
+  },
+  ".//location/location-id/@vocabulary": {
+    "G1": 616
   },
   ".//other-identifier/@type": {
-    "B1": 109
+    "B1": 111
   },
   ".//participating-org/@role": {
-    "1": 109,
-    "4": 266
+    "1": 111,
+    "4": 269
   },
   ".//participating-org/@type": {
-    "40": 109,
-    "10": 265,
+    "40": 111,
+    "10": 268,
     "70": 1
   },
   ".//policy-marker/@vocabulary": {
-    "99": 500
+    "99": 507
   },
   ".//recipient-country/@code": {
-    "KH": 109
+    "KH": 111
   },
   ".//reporting-org/@type": {
-    "40": 109
+    "40": 111
   },
   ".//result/@type": {
-    "1": 109
+    "1": 111
   },
   ".//result/document-link/@format": {
-    "application/pdf": 195
+    "application/pdf": 197
   },
   ".//result/document-link/category/@code": {
-    "A08": 195,
+    "A08": 197,
     "A07": 87
   },
   ".//result/document-link/language/@code": {
-    "en": 195
+    "en": 197
   },
   ".//result/indicator/@measure": {
     "1": 125,
-    "5": 102
+    "5": 104
   },
   ".//sector/@vocabulary": {
-    "1": 110
+    "1": 112
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "15111": 9,
@@ -133,20 +136,21 @@
     "12110": 1,
     "24030": 1,
     "15110": 3,
+    "32161": 1,
     "31161": 2,
     "21030": 2,
     "13040": 2,
-    "24040": 2,
+    "24040": 3,
     "12220": 1,
     "14015": 1
   },
   ".//transaction/transaction-type/@code": {
-    "2": 109,
-    "3": 3217,
-    "6": 1276,
-    "5": 4575
+    "2": 111,
+    "3": 3483,
+    "6": 1393,
+    "5": 4795
   },
   ".//transaction/value/@currency": {
-    "USD": 9177
+    "USD": 9782
   }
 }

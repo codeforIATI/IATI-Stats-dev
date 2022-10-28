@@ -4,11 +4,11 @@
       "onl-activity-old.xml": {
         "EUR": 2229
       },
+      "onl-activity.xml": {
+        "EUR": 1597
+      },
       "onl-activity-old2.xml": {
         "EUR": 2534
-      },
-      "onl-activity.xml": {
-        "EUR": 1566
       }
     },
     ".//activity-date/@type": {
@@ -18,25 +18,30 @@
         "3": 2209,
         "4": 2209
       },
+      "onl-activity.xml": {
+        "2": 1594,
+        "1": 1576,
+        "3": 1576,
+        "4": 661
+      },
       "onl-activity-old2.xml": {
         "2": 2534,
         "1": 2516,
         "3": 2516,
         "4": 2516
-      },
-      "onl-activity.xml": {
-        "2": 1559,
-        "1": 1545,
-        "3": 1545,
-        "4": 644
       }
     },
     ".//activity-status/@code": {
       "onl-activity-old.xml": {
-        "2": 1621,
-        "3": 524,
+        "2": 1593,
+        "3": 552,
         "4": 78,
         "1": 6
+      },
+      "onl-activity.xml": {
+        "2": 1544,
+        "3": 51,
+        "1": 2
       },
       "onl-activity-old2.xml": {
         "2": 890,
@@ -44,55 +49,50 @@
         "4": 535,
         "1": 8,
         "5": 1
-      },
-      "onl-activity.xml": {
-        "2": 1515,
-        "3": 49,
-        "1": 2
       }
     },
     ".//budget/@type": {
       "onl-activity-old.xml": {
-        "2": 3820
+        "2": 3822
+      },
+      "onl-activity.xml": {
+        "2": 2563
       },
       "onl-activity-old2.xml": {
         "2": 3872
-      },
-      "onl-activity.xml": {
-        "2": 2523
       }
     },
     ".//budget/value/@currency": {
       "onl-activity-old.xml": {
-        "EUR": 3820
+        "EUR": 3822
+      },
+      "onl-activity.xml": {
+        "EUR": 2563
       },
       "onl-activity-old2.xml": {
         "EUR": 3872
-      },
-      "onl-activity.xml": {
-        "EUR": 2523
       }
     },
     ".//contact-info/@type": {
       "onl-activity-old.xml": {
         "1": 2229
       },
+      "onl-activity.xml": {
+        "1": 1597
+      },
       "onl-activity-old2.xml": {
         "1": 2534
-      },
-      "onl-activity.xml": {
-        "1": 1566
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "onl-activity-old.xml": {
         "C01": 2229
       },
+      "onl-activity.xml": {
+        "C01": 1597
+      },
       "onl-activity-old2.xml": {
         "C01": 2534
-      },
-      "onl-activity.xml": {
-        "C01": 1566
       }
     },
     ".//default-aid-type[@vocabulary = '4']/@code": {
@@ -101,7 +101,7 @@
         "2": 11
       },
       "onl-activity.xml": {
-        "2": 8,
+        "2": 9,
         "1": 16
       }
     },
@@ -110,89 +110,89 @@
         "1": 2229,
         "4": 25
       },
+      "onl-activity.xml": {
+        "1": 1597,
+        "4": 25
+      },
       "onl-activity-old2.xml": {
         "1": 2534
-      },
-      "onl-activity.xml": {
-        "1": 1566,
-        "4": 24
       }
     },
     ".//default-finance-type/@code": {
       "onl-activity-old.xml": {
         "110": 2229
       },
+      "onl-activity.xml": {
+        "110": 1597
+      },
       "onl-activity-old2.xml": {
         "110": 2534
-      },
-      "onl-activity.xml": {
-        "110": 1566
       }
     },
     ".//default-flow-type/@code": {
       "onl-activity-old.xml": {
         "30": 2229
       },
+      "onl-activity.xml": {
+        "30": 1597
+      },
       "onl-activity-old2.xml": {
         "30": 2534
-      },
-      "onl-activity.xml": {
-        "30": 1566
       }
     },
     ".//default-tied-status/@code": {
       "onl-activity-old.xml": {
         "5": 2229
       },
+      "onl-activity.xml": {
+        "5": 1597
+      },
       "onl-activity-old2.xml": {
         "5": 2534
-      },
-      "onl-activity.xml": {
-        "5": 1566
       }
     },
     ".//description/@type": {
       "onl-activity-old.xml": {
         "1": 2229
       },
+      "onl-activity.xml": {
+        "1": 1597
+      },
       "onl-activity-old2.xml": {
         "1": 2534
-      },
-      "onl-activity.xml": {
-        "1": 1566
       }
     },
     ".//document-link/@format": {
       "onl-activity-old.xml": {
         "application/http": 2229
       },
+      "onl-activity.xml": {
+        "application/http": 1597
+      },
       "onl-activity-old2.xml": {
         "application/http": 2534
-      },
-      "onl-activity.xml": {
-        "application/http": 1566
       }
     },
     ".//document-link/category/@code": {
       "onl-activity-old.xml": {
         "A12": 2229
       },
+      "onl-activity.xml": {
+        "A12": 1597
+      },
       "onl-activity-old2.xml": {
         "A12": 2534
-      },
-      "onl-activity.xml": {
-        "A12": 1566
       }
     },
     ".//document-link/language/@code": {
       "onl-activity-old.xml": {
         "en": 2229
       },
+      "onl-activity.xml": {
+        "en": 1597
+      },
       "onl-activity-old2.xml": {
         "en": 2534
-      },
-      "onl-activity.xml": {
-        "en": 1566
       }
     },
     ".//humanitarian-scope/@type": {
@@ -215,22 +215,22 @@
       "onl-activity-old.xml": {
         "1": 513
       },
+      "onl-activity.xml": {
+        "1": 298
+      },
       "onl-activity-old2.xml": {
         "1": 66
-      },
-      "onl-activity.xml": {
-        "1": 293
       }
     },
     ".//location/exactness/@code": {
       "onl-activity-old.xml": {
         "2": 513
       },
+      "onl-activity.xml": {
+        "2": 298
+      },
       "onl-activity-old2.xml": {
         "2": 66
-      },
-      "onl-activity.xml": {
-        "2": 293
       }
     },
     ".//participating-org/@role": {
@@ -240,17 +240,17 @@
         "1": 2209,
         "3": 1766
       },
+      "onl-activity.xml": {
+        "4": 1597,
+        "2": 1576,
+        "1": 1576,
+        "3": 1427
+      },
       "onl-activity-old2.xml": {
         "4": 2534,
         "2": 2516,
         "1": 2516,
         "3": 1060
-      },
-      "onl-activity.xml": {
-        "4": 1566,
-        "2": 1545,
-        "1": 1545,
-        "3": 1398
       }
     },
     ".//participating-org/@type": {
@@ -265,6 +265,18 @@
         "72": 7,
         "11": 25
       },
+      "onl-activity.xml": {
+        "21": 3685,
+        "10": 1439,
+        "90": 441,
+        "24": 499,
+        "80": 26,
+        "23": 34,
+        "11": 38,
+        "73": 1,
+        "72": 11,
+        "71": 2
+      },
       "onl-activity-old2.xml": {
         "21": 5976,
         "10": 1063,
@@ -274,40 +286,28 @@
         "23": 80,
         "72": 7,
         "11": 4
-      },
-      "onl-activity.xml": {
-        "21": 3614,
-        "10": 1410,
-        "90": 430,
-        "24": 491,
-        "80": 25,
-        "23": 33,
-        "11": 37,
-        "73": 1,
-        "72": 11,
-        "71": 2
       }
     },
     ".//planned-disbursement/@type": {
       "onl-activity-old.xml": {
-        "1": 84
+        "1": 83
+      },
+      "onl-activity.xml": {
+        "1": 1585
       },
       "onl-activity-old2.xml": {
         "1": 28
-      },
-      "onl-activity.xml": {
-        "1": 1657
       }
     },
     ".//planned-disbursement/value/@currency": {
       "onl-activity-old.xml": {
-        "EUR": 84
+        "EUR": 83
+      },
+      "onl-activity.xml": {
+        "EUR": 1585
       },
       "onl-activity-old2.xml": {
         "EUR": 28
-      },
-      "onl-activity.xml": {
-        "EUR": 1657
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -319,6 +319,14 @@
         "1": 155,
         "9": 50
       },
+      "onl-activity.xml": {
+        "3": 963,
+        "4": 98,
+        "5": 26,
+        "1": 40,
+        "9": 27,
+        "7": 48
+      },
       "onl-activity-old2.xml": {
         "1": 450,
         "4": 516,
@@ -326,36 +334,28 @@
         "7": 37,
         "9": 84,
         "5": 29
-      },
-      "onl-activity.xml": {
-        "3": 940,
-        "4": 98,
-        "5": 26,
-        "1": 39,
-        "9": 27,
-        "7": 49
       }
     },
     ".//policy-marker/@significance": {
       "onl-activity-old.xml": {
         "0": 2314
       },
+      "onl-activity.xml": {
+        "0": 1202
+      },
       "onl-activity-old2.xml": {
         "0": 2927
-      },
-      "onl-activity.xml": {
-        "0": 1179
       }
     },
     ".//policy-marker/@vocabulary": {
       "onl-activity-old.xml": {
         "1": 2314
       },
+      "onl-activity.xml": {
+        "1": 1202
+      },
       "onl-activity-old2.xml": {
         "1": 2927
-      },
-      "onl-activity.xml": {
-        "1": 1179
       }
     },
     ".//recipient-country/@code": {
@@ -423,6 +423,74 @@
         "EG": 2,
         "ES": 1
       },
+      "onl-activity.xml": {
+        "NG": 93,
+        "VN": 135,
+        "MZ": 62,
+        "GB": 3,
+        "BD": 24,
+        "ET": 3,
+        "ID": 49,
+        "NL": 158,
+        "PK": 9,
+        "KH": 175,
+        "LA": 27,
+        "JP": 1,
+        "PH": 36,
+        "IN": 12,
+        "TH": 6,
+        "KE": 54,
+        "ML": 39,
+        "NE": 98,
+        "TZ": 23,
+        "UG": 119,
+        "TN": 79,
+        "NP": 7,
+        "MM": 5,
+        "SE": 3,
+        "BO": 3,
+        "SV": 1,
+        "SN": 6,
+        "AF": 4,
+        "PS": 150,
+        "BR": 4,
+        "LR": 2,
+        "ZA": 7,
+        "CO": 1,
+        "TL": 1,
+        "25": 1,
+        "ZW": 2,
+        "PE": 6,
+        "GT": 1,
+        "ZM": 3,
+        "HK": 1,
+        "BJ": 2,
+        "SO": 87,
+        "TR": 4,
+        "BI": 25,
+        "BE": 2,
+        "NO": 1,
+        "DE": 1,
+        "BF": 3,
+        "GR": 8,
+        "IT": 1,
+        "IE": 1,
+        "CA": 1,
+        "TD": 1,
+        "LB": 7,
+        "EG": 1,
+        "GH": 1,
+        "GM": 1,
+        "JO": 2,
+        "IQ": 1,
+        "YE": 4,
+        "SY": 3,
+        "SS": 2,
+        "MX": 1,
+        "MY": 1,
+        "AU": 1,
+        "MA": 1
+      },
       "onl-activity-old2.xml": {
         "NL": 290,
         "BD": 55,
@@ -488,105 +556,39 @@
         "TH": 1,
         "SY": 3,
         "FR": 2
-      },
-      "onl-activity.xml": {
-        "NG": 92,
-        "VN": 133,
-        "MZ": 62,
-        "GB": 3,
-        "BD": 24,
-        "ET": 3,
-        "ID": 46,
-        "NL": 155,
-        "PK": 9,
-        "KH": 171,
-        "LA": 25,
-        "JP": 1,
-        "PH": 36,
-        "IN": 12,
-        "TH": 6,
-        "KE": 53,
-        "ML": 39,
-        "NE": 96,
-        "TZ": 23,
-        "UG": 117,
-        "TN": 78,
-        "NP": 6,
-        "MM": 5,
-        "SE": 3,
-        "BO": 3,
-        "SN": 6,
-        "AF": 4,
-        "PS": 144,
-        "BR": 4,
-        "LR": 2,
-        "ZA": 7,
-        "CO": 1,
-        "TL": 1,
-        "ZW": 2,
-        "PE": 6,
-        "GT": 1,
-        "ZM": 3,
-        "HK": 1,
-        "BJ": 2,
-        "SO": 86,
-        "TR": 4,
-        "BI": 25,
-        "BE": 2,
-        "NO": 1,
-        "DE": 1,
-        "BF": 3,
-        "GR": 8,
-        "IT": 1,
-        "IE": 1,
-        "CA": 1,
-        "TD": 1,
-        "LB": 7,
-        "EG": 1,
-        "GH": 1,
-        "GM": 1,
-        "JO": 2,
-        "IQ": 1,
-        "YE": 4,
-        "SY": 3,
-        "SS": 2,
-        "MX": 1,
-        "MY": 1,
-        "AU": 1,
-        "MA": 1
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "onl-activity-old.xml": {
         "998": 20
       },
-      "onl-activity-old2.xml": {
-        "998": 18
-      },
       "onl-activity.xml": {
         "998": 21
+      },
+      "onl-activity-old2.xml": {
+        "998": 18
       }
     },
     ".//related-activity/@type": {
       "onl-activity-old.xml": {
         "1": 950
       },
+      "onl-activity.xml": {
+        "1": 680
+      },
       "onl-activity-old2.xml": {
         "1": 385
-      },
-      "onl-activity.xml": {
-        "1": 667
       }
     },
     ".//reporting-org/@type": {
       "onl-activity-old.xml": {
         "21": 2229
       },
+      "onl-activity.xml": {
+        "21": 1597
+      },
       "onl-activity-old2.xml": {
         "21": 2534
-      },
-      "onl-activity.xml": {
-        "21": 1566
       }
     },
     ".//result/@type": {
@@ -594,35 +596,35 @@
         "1": 3915,
         "2": 3801
       },
+      "onl-activity.xml": {
+        "1": 1841,
+        "2": 2840
+      },
       "onl-activity-old2.xml": {
         "1": 3819,
         "2": 3817
-      },
-      "onl-activity.xml": {
-        "1": 1805,
-        "2": 2773
       }
     },
     ".//result/indicator/@measure": {
       "onl-activity-old.xml": {
         "1": 14016
       },
+      "onl-activity.xml": {
+        "1": 10791
+      },
       "onl-activity-old2.xml": {
         "1": 14837
-      },
-      "onl-activity.xml": {
-        "1": 10509
       }
     },
     ".//result/indicator/reference/@vocabulary": {
       "onl-activity-old.xml": {
         "99": 14016
       },
+      "onl-activity.xml": {
+        "99": 10791
+      },
       "onl-activity-old2.xml": {
         "99": 14837
-      },
-      "onl-activity.xml": {
-        "99": 10509
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -645,6 +647,26 @@
         "73010": 10,
         "32110": 7
       },
+      "onl-activity.xml": {
+        "15150": 877,
+        "33110": 98,
+        "31110": 213,
+        "11110": 77,
+        "31210": 10,
+        "24040": 71,
+        "16010": 25,
+        "14030": 123,
+        "12110": 13,
+        "72010": 43,
+        "31310": 34,
+        "32110": 7,
+        "72040": 77,
+        "72050": 49,
+        "23010": 11,
+        "74010": 60,
+        "73010": 6,
+        "21010": 1
+      },
       "onl-activity-old2.xml": {
         "15150": 1310,
         "16010": 71,
@@ -660,26 +682,6 @@
         "32110": 3,
         "72050": 1,
         "74010": 1
-      },
-      "onl-activity.xml": {
-        "15150": 862,
-        "33110": 97,
-        "31110": 207,
-        "11110": 77,
-        "31210": 7,
-        "24040": 71,
-        "16010": 24,
-        "14030": 122,
-        "12110": 13,
-        "72010": 40,
-        "31310": 34,
-        "32110": 7,
-        "72040": 73,
-        "72050": 48,
-        "23010": 11,
-        "74010": 58,
-        "73010": 6,
-        "21010": 1
       }
     },
     ".//sector/@vocabulary": {
@@ -688,14 +690,14 @@
         "1": 2412,
         "10": 274
       },
+      "onl-activity.xml": {
+        "99": 1656,
+        "1": 1795,
+        "10": 157
+      },
       "onl-activity-old2.xml": {
         "99": 2854,
         "1": 2937
-      },
-      "onl-activity.xml": {
-        "99": 1626,
-        "1": 1758,
-        "10": 153
       }
     },
     ".//tag[@vocabulary = '2']/@code": {
@@ -709,6 +711,16 @@
         "2": 73,
         "1": 750
       },
+      "onl-activity.xml": {
+        "10": 90,
+        "15": 26,
+        "16": 403,
+        "8": 98,
+        "5": 89,
+        "1": 317,
+        "2": 14,
+        "13": 48
+      },
       "onl-activity-old2.xml": {
         "16": 109,
         "10": 70,
@@ -718,55 +730,45 @@
         "2": 32,
         "15": 3,
         "13": 13
-      },
-      "onl-activity.xml": {
-        "10": 90,
-        "15": 26,
-        "16": 401,
-        "8": 98,
-        "5": 88,
-        "1": 311,
-        "2": 14,
-        "13": 49
       }
     },
     ".//tag/@vocabulary": {
       "onl-activity-old.xml": {
         "2": 2293
       },
+      "onl-activity.xml": {
+        "2": 1085
+      },
       "onl-activity-old2.xml": {
         "2": 624
-      },
-      "onl-activity.xml": {
-        "2": 1077
       }
     },
     ".//transaction/transaction-type/@code": {
       "onl-activity-old.xml": {
-        "1": 23938,
-        "3": 5259,
-        "4": 22292
-      },
-      "onl-activity-old2.xml": {
-        "1": 17843,
-        "4": 13218,
-        "3": 6976
+        "1": 23950,
+        "3": 5260,
+        "4": 22308
       },
       "onl-activity.xml": {
-        "4": 12360,
-        "1": 11514,
-        "3": 3015
+        "4": 12877,
+        "1": 12014,
+        "3": 3155
+      },
+      "onl-activity-old2.xml": {
+        "1": 17844,
+        "4": 13219,
+        "3": 6976
       }
     },
     ".//@xml:lang": {
       "onl-activity-old.xml": {
         "en": 2229
       },
+      "onl-activity.xml": {
+        "en": 1597
+      },
       "onl-activity-old2.xml": {
         "en": 2534
-      },
-      "onl-activity.xml": {
-        "en": 1566
       }
     },
     ".//sector[@vocabulary = '10']/@code": {
@@ -782,15 +784,15 @@
         "5403": 2
       },
       "onl-activity.xml": {
-        "6": 43,
-        "11": 35,
+        "6": 45,
+        "11": 36,
         "7": 13,
         "9": 7,
         "10": 30,
         "4": 8,
         "5404": 3,
         "1": 5,
-        "2": 7,
+        "2": 8,
         "3": 1,
         "5403": 1
       }

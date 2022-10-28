@@ -6,17 +6,17 @@
     "en": 136
   },
   ".//activity-date/@type": {
+    "1": 1,
     "2": 3,
-    "3": 1,
-    "1": 1
+    "3": 1
   },
   ".//activity-scope/@code": {
     "4": 1
   },
   ".//activity-status/@code": {
-    "3": 1,
+    "2": 2,
     "4": 1,
-    "2": 2
+    "3": 1
   },
   ".//budget/@type": {
     "1": 3
@@ -40,8 +40,8 @@
     "application/pdf": 2
   },
   ".//document-link/category/@code": {
-    "A07": 1,
-    "B01": 1
+    "B01": 1,
+    "A07": 1
   },
   ".//document-link/language/@code": {
     "en": 1
@@ -56,9 +56,9 @@
     "21": 5
   },
   ".//recipient-country/@code": {
-    "TZ": 2,
+    "SS": 1,
     "CD": 1,
-    "SS": 1
+    "TZ": 2
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "289": 2
@@ -76,9 +76,9 @@
     "1": 4
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "13020": 2,
+    "15220": 1,
     "15150": 1,
-    "15220": 1
+    "13020": 2
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": 64
@@ -90,16 +90,16 @@
     "110": 41
   },
   ".//transaction/flow-type/@code": {
-    "20": 39,
-    "30": 27
+    "30": 27,
+    "20": 39
   },
   ".//transaction/tied-status/@code": {
     "5": 32
   },
   ".//transaction/transaction-type/@code": {
-    "4": 32,
     "3": 32,
-    "1": 32
+    "1": 32,
+    "4": 32
   },
   ".//transaction/value/@currency": {
     "GBP": 39

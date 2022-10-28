@@ -1,8 +1,11 @@
 {
   "2": {
     ".//@default-currency": {
-      "sfd-yemen-in062018.xml": {
-        "USD": 1
+      "sfd-yemen-dfid-300527-list-of-activities.xml": {
+        "GBP": 122
+      },
+      "sfd-yemen-projects_wash-activity4000000920.xml": {
+        "USD": 40
       },
       "sfd-yemen-4000003151-list.xml": {
         " USD ": 10
@@ -10,16 +13,27 @@
       "sfd-yemen-activities.xml": {
         "USD": 1
       },
+      "sfd-yemen-in062018.xml": {
+        "USD": 1
+      }
+    },
+    ".//budget/value/@currency": {
       "sfd-yemen-dfid-300527-list-of-activities.xml": {
-        "GBP": 122
+        "GBP": 119
       },
       "sfd-yemen-projects_wash-activity4000000920.xml": {
         "USD": 40
+      },
+      "sfd-yemen-4000003151-list.xml": {
+        " USD ": 8
       }
     },
     ".//description/@type": {
-      "sfd-yemen-in062018.xml": {
-        "1": 1
+      "sfd-yemen-dfid-300527-list-of-activities.xml": {
+        "1": 119
+      },
+      "sfd-yemen-projects_wash-activity4000000920.xml": {
+        "1": 40
       },
       "sfd-yemen-4000003151-list.xml": {
         "1": 8
@@ -28,16 +42,27 @@
         "1": 1,
         "2": 1
       },
+      "sfd-yemen-in062018.xml": {
+        "1": 1
+      }
+    },
+    ".//other-identifier/@type": {
       "sfd-yemen-dfid-300527-list-of-activities.xml": {
-        "1": 119
+        "A1": 3,
+        "B1": 3
       },
-      "sfd-yemen-projects_wash-activity4000000920.xml": {
-        "1": 40
+      "sfd-yemen-4000003151-list.xml": {
+        "A1": 2
       }
     },
     ".//participating-org/@role": {
-      "sfd-yemen-in062018.xml": {
-        "1": 1
+      "sfd-yemen-dfid-300527-list-of-activities.xml": {
+        "4": 122,
+        "1": 122
+      },
+      "sfd-yemen-projects_wash-activity4000000920.xml": {
+        "1": 40,
+        "4": 40
       },
       "sfd-yemen-4000003151-list.xml": {
         "4": 10,
@@ -47,26 +72,38 @@
         "1": 1,
         "4": 1
       },
-      "sfd-yemen-dfid-300527-list-of-activities.xml": {
-        "4": 122,
-        "1": 122
-      },
-      "sfd-yemen-projects_wash-activity4000000920.xml": {
-        "1": 40,
-        "4": 40
+      "sfd-yemen-in062018.xml": {
+        "1": 1
       }
     },
-    ".//participating-org/@type": {
-      "sfd-yemen-in062018.xml": {
-        "10": 1
+    ".//recipient-country/@code": {
+      "sfd-yemen-dfid-300527-list-of-activities.xml": {
+        "YE": 119
+      },
+      "sfd-yemen-projects_wash-activity4000000920.xml": {
+        "YE": 40
+      },
+      "sfd-yemen-4000003151-list.xml": {
+        "YE": 8
       },
       "sfd-yemen-activities.xml": {
-        "10": 2
+        "YE": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "sfd-yemen-dfid-300527-list-of-activities.xml": {
+        "1": 122
+      },
+      "sfd-yemen-4000003151-list.xml": {
+        "1": 7
       }
     },
     ".//reporting-org/@type": {
-      "sfd-yemen-in062018.xml": {
-        "40": 1
+      "sfd-yemen-dfid-300527-list-of-activities.xml": {
+        "40": 122
+      },
+      "sfd-yemen-projects_wash-activity4000000920.xml": {
+        "40": 40
       },
       "sfd-yemen-4000003151-list.xml": {
         "40": 10
@@ -74,26 +111,30 @@
       "sfd-yemen-activities.xml": {
         "15": 1
       },
+      "sfd-yemen-in062018.xml": {
+        "40": 1
+      }
+    },
+    ".//sector/@vocabulary": {
       "sfd-yemen-dfid-300527-list-of-activities.xml": {
-        "40": 122
+        "DAC-3": 119
       },
       "sfd-yemen-projects_wash-activity4000000920.xml": {
-        "40": 40
-      }
-    },
-    ".//result/@type": {
-      "sfd-yemen-in062018.xml": {
-        "1": 1
-      }
-    },
-    ".//result/indicator/@measure": {
-      "sfd-yemen-in062018.xml": {
-        "3": 4
+        "DAC-3": 40
+      },
+      "sfd-yemen-4000003151-list.xml": {
+        "DAC-3": 8
+      },
+      "sfd-yemen-activities.xml": {
+        "1": 2
       }
     },
     ".//@xml:lang": {
-      "sfd-yemen-in062018.xml": {
-        "en": 1
+      "sfd-yemen-dfid-300527-list-of-activities.xml": {
+        "en": 122
+      },
+      "sfd-yemen-projects_wash-activity4000000920.xml": {
+        "en": 40
       },
       "sfd-yemen-4000003151-list.xml": {
         "en": 10
@@ -101,79 +142,20 @@
       "sfd-yemen-activities.xml": {
         "en": 11
       },
-      "sfd-yemen-dfid-300527-list-of-activities.xml": {
-        "en": 122
-      },
-      "sfd-yemen-projects_wash-activity4000000920.xml": {
-        "en": 40
+      "sfd-yemen-in062018.xml": {
+        "en": 1
       }
     },
     ".//activity-status/@code": {
+      "sfd-yemen-projects_wash-activity4000000920.xml": {
+        "4": 39,
+        "5": 1
+      },
       "sfd-yemen-4000003151-list.xml": {
         "2": 8
       },
       "sfd-yemen-activities.xml": {
         "2": 1
-      },
-      "sfd-yemen-projects_wash-activity4000000920.xml": {
-        "4": 39,
-        "5": 1
-      }
-    },
-    ".//budget/value/@currency": {
-      "sfd-yemen-4000003151-list.xml": {
-        " USD ": 8
-      },
-      "sfd-yemen-dfid-300527-list-of-activities.xml": {
-        "GBP": 119
-      },
-      "sfd-yemen-projects_wash-activity4000000920.xml": {
-        "USD": 40
-      }
-    },
-    ".//other-identifier/@type": {
-      "sfd-yemen-4000003151-list.xml": {
-        "A1": 2
-      },
-      "sfd-yemen-dfid-300527-list-of-activities.xml": {
-        "A1": 3,
-        "B1": 3
-      }
-    },
-    ".//recipient-country/@code": {
-      "sfd-yemen-4000003151-list.xml": {
-        "YE": 8
-      },
-      "sfd-yemen-activities.xml": {
-        "YE": 1
-      },
-      "sfd-yemen-dfid-300527-list-of-activities.xml": {
-        "YE": 119
-      },
-      "sfd-yemen-projects_wash-activity4000000920.xml": {
-        "YE": 40
-      }
-    },
-    ".//related-activity/@type": {
-      "sfd-yemen-4000003151-list.xml": {
-        "1": 7
-      },
-      "sfd-yemen-dfid-300527-list-of-activities.xml": {
-        "1": 122
-      }
-    },
-    ".//sector/@vocabulary": {
-      "sfd-yemen-4000003151-list.xml": {
-        "DAC-3": 8
-      },
-      "sfd-yemen-activities.xml": {
-        "1": 2
-      },
-      "sfd-yemen-dfid-300527-list-of-activities.xml": {
-        "DAC-3": 119
-      },
-      "sfd-yemen-projects_wash-activity4000000920.xml": {
-        "DAC-3": 40
       }
     },
     ".//transaction/transaction-type/@code": {
@@ -251,6 +233,14 @@
         "12004": 1
       }
     },
+    ".//participating-org/@type": {
+      "sfd-yemen-activities.xml": {
+        "10": 2
+      },
+      "sfd-yemen-in062018.xml": {
+        "10": 1
+      }
+    },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "sfd-yemen-activities.xml": {
         "14021": 1,
@@ -270,6 +260,16 @@
     ".//transaction/receiver-org/@type": {
       "sfd-yemen-activities.xml": {
         "15": 3
+      }
+    },
+    ".//result/@type": {
+      "sfd-yemen-in062018.xml": {
+        "1": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "sfd-yemen-in062018.xml": {
+        "3": 4
       }
     }
   }

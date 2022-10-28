@@ -37,6 +37,11 @@
       "sacu-activities.xml": 2
     }
   },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "sacu-activities.xml": 1
+    }
+  },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "B03": {
       "sacu-activities.xml": 2
@@ -159,6 +164,11 @@
       "sacu-activities.xml": 1
     }
   },
+  ".//transaction/provider-org/@type": {
+    "21": {
+      "sacu-activities.xml": 9
+    }
+  },
   ".//transaction/recipient-country/@code": {
     "231": {
       "sacu-activities.xml": 230
@@ -179,10 +189,10 @@
   },
   ".//transaction/transaction-type/@code": {
     "4": {
-      "sacu-activities.xml": 246
+      "sacu-activities.xml": 255
     },
     "1": {
-      "sacu-activities.xml": 16
+      "sacu-activities.xml": 19
     },
     "2": {
       "sacu-activities.xml": 1
@@ -190,7 +200,7 @@
   },
   ".//transaction/value/@currency": {
     "GBP": {
-      "sacu-activities.xml": 78
+      "sacu-activities.xml": 90
     }
   }
 }

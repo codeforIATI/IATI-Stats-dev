@@ -6,16 +6,16 @@
     "en": 79
   },
   ".//activity-date/@type": {
-    "2": 1,
+    "1": 14,
     "3": 15,
-    "1": 14
+    "2": 1
   },
   ".//activity-status/@code": {
     "2": 15
   },
   ".//budget/@status": {
-    "1": 18,
-    "2": 19
+    "2": 19,
+    "1": 18
   },
   ".//budget/@type": {
     "1": 37
@@ -24,8 +24,8 @@
     "DKK": 37
   },
   ".//contact-info/@type": {
-    "1": 3,
-    "2": 8
+    "2": 8,
+    "1": 3
   },
   ".//default-aid-type/@vocabulary": {
     "1": 15
@@ -64,32 +64,33 @@
     "4": 15
   },
   ".//participating-org/@type": {
-    "10": 3,
     "21": 41,
+    "10": 3,
     "22": 1
   },
   ".//recipient-country/@code": {
-    "DK": 89,
+    "NG": 10,
     "BD": 9,
-    "TZ": 11,
-    "LR": 7,
-    "ZM": 9,
-    "JO": 7,
-    "SL": 1,
-    "SN": 1,
+    "DK": 124,
     "GT": 1,
     "MZ": 2,
-    "SY": 1,
+    "KE": 11,
+    "GB": 2,
+    "ML": 4,
+    "UG": 15,
+    "PS": 14,
     "LB": 5,
-    "UG": 10,
-    "ML": 1,
-    "NG": 10,
+    "TZ": 11,
+    "LR": 7,
     "ET": 2,
-    "KE": 6,
-    "PS": 7,
     "ZW": 12,
+    "JO": 7,
+    "SY": 1,
     "GH": 1,
     "NP": 2,
+    "ZM": 9,
+    "SL": 1,
+    "SN": 1,
     "MM": 1
   },
   ".//recipient-region/@vocabulary": {
@@ -101,8 +102,8 @@
     "998": 1
   },
   ".//related-activity/@type": {
-    "2": 47,
-    "1": 11
+    "1": 11,
+    "2": 47
   },
   ".//reporting-org/@type": {
     "21": 15
@@ -129,40 +130,43 @@
     "10": 231
   },
   ".//transaction/provider-org/@type": {
+    "21": 355,
     "10": 43,
     "11": 1,
-    "21": 298,
     "15": 1
   },
   ".//transaction/receiver-org/@type": {
-    "21": 63,
-    "22": 94,
-    "90": 7,
-    "71": 35,
-    "10": 1
+    "21": 65,
+    "71": 51,
+    "90": 24,
+    "22": 113,
+    "10": 1,
+    "72": 2,
+    "73": 1
   },
   ".//transaction/recipient-country/@code": {
-    "DK": 89,
-    "BD": 8,
-    "TZ": 10,
-    "LR": 7,
-    "ZM": 8,
-    "JO": 7,
-    "SL": 1,
-    "SN": 1,
+    "DK": 124,
     "GT": 1,
     "MZ": 1,
-    "SY": 1,
+    "KE": 10,
+    "GB": 2,
+    "ML": 4,
+    "UG": 14,
+    "PS": 13,
     "LB": 5,
-    "UG": 9,
-    "ML": 1,
+    "TZ": 10,
+    "BD": 8,
+    "LR": 7,
     "NG": 9,
     "ET": 2,
-    "KE": 5,
-    "PS": 6,
     "ZW": 11,
+    "JO": 7,
+    "SY": 1,
     "GH": 1,
-    "NP": 2
+    "NP": 2,
+    "ZM": 8,
+    "SL": 1,
+    "SN": 1
   },
   ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "89": 34
@@ -172,15 +176,15 @@
     "4": 20
   },
   ".//transaction/transaction-type/@code": {
+    "2": 42,
+    "3": 243,
     "13": 9,
     "11": 11,
     "1": 24,
-    "3": 224,
-    "4": 46,
-    "5": 1,
-    "2": 42
+    "4": 84,
+    "5": 1
   },
   ".//transaction/value/@currency": {
-    "DKK": 270
+    "DKK": 327
   }
 }

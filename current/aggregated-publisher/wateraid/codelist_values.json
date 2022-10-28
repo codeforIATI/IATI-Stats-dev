@@ -1,16 +1,16 @@
 {
   ".//@default-currency": {
-    "GBP": 488
+    "GBP": 489
   },
   ".//@xml:lang": {
-    "en": 1139,
-    "pt": 1,
-    "fr": 1
+    "en": 1152,
+    "fr": 1,
+    "pt": 1
   },
   ".//activity-date/@type": {
     "start-actual": 483,
     "end-planned": 434,
-    "2": 5,
+    "2": 6,
     "3": 5,
     "4": 2
   },
@@ -19,18 +19,18 @@
     "4": 1
   },
   ".//activity-status/@code": {
-    "2": 485,
+    "2": 486,
     "3": 3
   },
   ".//budget/@status": {
-    "2": 4
+    "2": 7
   },
   ".//budget/@type": {
-    "1": 137,
+    "1": 140,
     "2": 7
   },
   ".//budget/value/@currency": {
-    "GBP": 144
+    "GBP": 147
   },
   ".//contact-info/@type": {
     "1": 487
@@ -38,88 +38,95 @@
   ".//default-aid-type/@code": {
     "C01": 458
   },
+  ".//default-aid-type/@vocabulary": {
+    "1": 1
+  },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 5
+    "C01": 5,
+    "B03": 1
   },
   ".//default-finance-type/@code": {
-    "110": 488
+    "110": 489
   },
   ".//default-flow-type/@code": {
     "30": 484,
-    "10": 4
+    "10": 5
   },
   ".//default-tied-status/@code": {
-    "5": 432,
+    "5": 433,
     "4": 10,
     "3": 21
   },
   ".//description/@type": {
-    "1": 484
+    "1": 485
   },
   ".//document-link/@format": {
-    "PDF": 3,
-    "application/pdf": 43
+    "application/pdf": 43,
+    "PDF": 3
   },
   ".//document-link/category/@code": {
-    "A11": 3,
     "A07": 12,
     "A02": 6,
     "B01": 9,
-    "B03": 16
+    "B03": 16,
+    "A11": 3
   },
   ".//document-link/language/@code": {
     "en": 45,
     "fr": 1
   },
+  ".//participating-org/@crs-channel-code": {
+    "21000": 1
+  },
   ".//participating-org/@role": {
     "Funding": 837,
     "Implementing": 2067,
-    "1": 5,
-    "3": 1,
-    "2": 1,
-    "4": 32
+    "1": 7,
+    "4": 33,
+    "3": 2,
+    "2": 2
   },
   ".//participating-org/@type": {
-    "21": 711,
+    "21": 714,
     "22": 1691,
-    "70": 184,
+    "70": 185,
     "60": 28,
     "40": 61,
     "52": 177,
+    "10": 69,
     "15": 9,
-    "10": 68,
     "80": 10,
     "30": 1
   },
   ".//recipient-country/@code": {
     "NG": 13,
-    "BD": 71,
-    "LR": 8,
-    "RW": 16,
-    "MM": 11,
-    "LS": 2,
-    "SL": 10,
-    "NP": 29,
-    "ET": 41,
     "MZ": 18,
-    "GB": 5,
-    "GH": 16,
-    "UG": 30,
-    "MW": 23,
+    "LR": 8,
+    "LS": 2,
+    "SZ": 2,
     "PK": 15,
-    "TZ": 32,
-    "AO": 2,
-    "BF": 27,
-    "IN": 26,
-    "KE": 2,
-    "MG": 36,
+    "ZM": 17,
     "ML": 29,
+    "BD": 71,
+    "NP": 29,
+    "BF": 27,
+    "TZ": 32,
+    "KE": 2,
+    "GH": 16,
+    "GB": 6,
+    "AO": 2,
+    "ET": 42,
+    "IN": 26,
+    "MG": 36,
+    "MW": 23,
     "M": 1,
     "NE": 13,
+    "RW": 16,
+    "SL": 10,
     "S": 1,
     "T": 1,
-    "ZM": 17,
-    "SZ": 2
+    "UG": 30,
+    "MM": 11
   },
   ".//related-activity/@type": {
     "1": 482,
@@ -127,7 +134,7 @@
     "": 1
   },
   ".//reporting-org/@type": {
-    "21": 488
+    "21": 489
   },
   ".//result/@type": {
     "3": 3,
@@ -141,11 +148,11 @@
   },
   ".//sector/@vocabulary": {
     "DAC": 483,
-    "1": 1,
-    "2": 4
+    "2": 4,
+    "1": 2
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "14030": 1
+    "14030": 2
   },
   ".//sector[@vocabulary = '2']/@code": {
     "140": 4
@@ -153,28 +160,43 @@
   ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
     "140": 483
   },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": 1
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": 1
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": 1
+  },
+  ".//transaction/finance-type/@code": {
+    "110": 1
+  },
   ".//transaction/flow-type/@code": {
     "30": 13624,
-    "10": 402
+    "10": 403
   },
   ".//transaction/provider-org/@type": {
     "21": 63,
-    "70": 12
+    "70": 13
   },
   ".//transaction/receiver-org/@type": {
     "22": 45,
-    "21": 11
+    "21": 12
+  },
+  ".//transaction/tied-status/@code": {
+    "5": 1
   },
   ".//transaction/transaction-type/@code": {
     "D": 7908,
     "E": 3053,
     "IF": 2608,
-    "4": 35,
+    "1": 23,
     "3": 128,
-    "1": 22,
+    "4": 35,
     "2": 1
   },
   ".//transaction/value/@currency": {
-    "GBP": 14103
+    "GBP": 14104
   }
 }

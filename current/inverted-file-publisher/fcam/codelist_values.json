@@ -6,7 +6,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "fcam-activities.xml": 154
+      "fcam-activities.xml": 156
     }
   },
   ".//activity-date/@type": {
@@ -172,6 +172,11 @@
       "fcam-activities.xml": 2
     }
   },
+  ".//recipient-country/@code": {
+    "NI": {
+      "fcam-activities.xml": 2
+    }
+  },
   ".//recipient-region/@vocabulary": {
     "1": {
       "fcam-activities.xml": 8
@@ -186,6 +191,9 @@
     },
     "998": {
       "fcam-activities.xml": 3
+    },
+    "1032": {
+      "fcam-activities.xml": 2
     },
     "389": {
       "fcam-activities.xml": 1
@@ -265,6 +273,9 @@
     },
     "10": {
       "fcam-activities.xml": 7
+    },
+    "21": {
+      "fcam-activities.xml": 2
     }
   },
   ".//transaction/receiver-org/@type": {
@@ -274,8 +285,16 @@
     "22": {
       "fcam-activities.xml": 8
     },
+    "23": {
+      "fcam-activities.xml": 2
+    },
     "21": {
       "fcam-activities.xml": 1
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "NI": {
+      "fcam-activities.xml": 2
     }
   },
   ".//transaction/recipient-region/@vocabulary": {
@@ -284,6 +303,9 @@
     }
   },
   ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1032": {
+      "fcam-activities.xml": 2
+    },
     "389": {
       "fcam-activities.xml": 1
     }
@@ -296,7 +318,10 @@
       "fcam-activities.xml": 82
     },
     "1": {
-      "fcam-activities.xml": 9
+      "fcam-activities.xml": 10
+    },
+    "11": {
+      "fcam-activities.xml": 1
     },
     "2": {
       "fcam-activities.xml": 4
@@ -304,7 +329,7 @@
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "fcam-activities.xml": 135
+      "fcam-activities.xml": 137
     }
   }
 }

@@ -23,6 +23,14 @@
     "1": 21
   },
   ".//budget/value/@currency": {
+    "USD": 6,
+    "COP": 1,
+    "TZS": 2,
+    "BRL": 1,
+    "GBP": 11,
+    "INR": 1,
+    "CNY": 2,
+    "KES": 6,
     "25": 1,
     "104": 1,
     "140": 1,
@@ -127,15 +135,7 @@
     "421": 1,
     "142": 1,
     "334": 1,
-    "1": 1,
-    "BRL": 1,
-    "USD": 6,
-    "COP": 1,
-    "CNY": 2,
-    "GBP": 11,
-    "INR": 1,
-    "TZS": 2,
-    "KES": 6
+    "1": 1
   },
   ".//description/@type": {
     "1": 28
@@ -147,12 +147,12 @@
   },
   ".//participating-org/@role": {
     "implementing": 106,
-    "Implementing": 268,
-    "Extending": 268,
-    "Funding": 268,
     "4": 30,
     "1": 5,
-    "2": 5
+    "2": 5,
+    "Implementing": 268,
+    "Extending": 268,
+    "Funding": 268
   },
   ".//participating-org/@type": {
     "21": 298,
@@ -160,6 +160,13 @@
     "70": 5
   },
   ".//recipient-country/@code": {
+    "PE": 4,
+    "BR": 17,
+    "CO": 11,
+    "US": 18,
+    "CA": 3,
+    "MX": 1,
+    "TZ": 8,
     "PK": 7,
     "NP": 8,
     "MY": 7,
@@ -168,66 +175,59 @@
     "HK": 1,
     "BT": 5,
     "CN": 24,
-    "AU": 4,
-    "GB": 124,
-    "CH": 7,
-    "KE": 17,
+    "PG": 2,
+    "GA": 2,
     "CM": 2,
-    "TZ": 8,
+    "KE": 17,
+    "DE": 1,
     "RU": 6,
+    "SE": 2,
+    "GB": 124,
+    "AU": 4,
+    "CH": 7,
     "VN": 2,
-    "CO": 11,
-    "US": 18,
     "FJ": 1,
-    "BR": 17,
     "BO": 2,
-    "PE": 4,
     "MZ": 1,
-    "CA": 3,
-    "MX": 1,
     "GH": 1,
     "DK": 1,
     "ZA": 2,
     "NL": 1,
     "PH": 1,
-    "PG": 2,
-    "GA": 2,
-    "DE": 1,
-    "SE": 2,
     "NA": 1
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "489": 1,
     "798": 2,
+    "89": 2,
+    "889": 7,
     "998": 33,
     "298": 57,
-    "789": 3,
-    "889": 7,
-    "489": 1,
-    "89": 2
+    "789": 3
   },
   ".//reporting-org/@type": {
     "21": 402
   },
   ".//sector/@vocabulary": {
-    "RO": 453,
-    "1": 28
+    "1": 28,
+    "RO": 453
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "23010": 3,
     "15144": 1,
     "41030": 9,
+    "14015": 1,
+    "23010": 3,
+    "31120": 1,
+    "41010": 2,
+    "72050": 1,
     "14040": 1,
     "33110": 3,
     "31210": 1,
-    "72050": 1,
-    "41010": 2,
-    "24010": 1,
-    "14015": 1,
-    "31120": 1,
     "21011": 1,
     "15140": 1,
     "32162": 1,
-    "31130": 1
+    "31130": 1,
+    "24010": 1
   },
   ".//transaction/aid-type/@vocabulary": {
     "1": 1
@@ -243,32 +243,32 @@
   },
   ".//transaction/provider-org/@type": {
     "10": 51,
-    "70": 20,
-    "21": 107
+    "21": 107,
+    "70": 20
   },
   ".//transaction/receiver-org/@type": {
     "10": 2,
     "21": 20
   },
   ".//transaction/tied-status/@code": {
-    "ACTIVE": 267,
-    "5": 1
+    "5": 1,
+    "ACTIVE": 267
   },
   ".//transaction/transaction-type/@code": {
     "D": 250,
-    "E": 123,
     "3": 105,
+    "4": 57,
     "1": 20,
-    "4": 57
+    "E": 123
   },
   ".//transaction/value/@currency": {
-    "BRL": 4,
     "USD": 11,
     "COP": 4,
-    "CNY": 7,
+    "TZS": 6,
+    "BRL": 4,
     "GBP": 131,
     "INR": 1,
-    "TZS": 6,
+    "CNY": 7,
     "KES": 14,
     "EUR": 1
   }

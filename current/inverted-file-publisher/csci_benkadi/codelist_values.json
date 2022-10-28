@@ -5,17 +5,17 @@
     }
   },
   ".//@xml:lang": {
-    "FR": {
-      "csci_benkadi-actvities.xml": 14
+    "EN": {
+      "csci_benkadi-actvities.xml": 15
     },
     "nl": {
-      "csci_benkadi-actvities.xml": 66
+      "csci_benkadi-actvities.xml": 8
     },
     "en": {
-      "csci_benkadi-actvities.xml": 66
+      "csci_benkadi-actvities.xml": 50
     },
     "fr": {
-      "csci_benkadi-actvities.xml": 88
+      "csci_benkadi-actvities.xml": 36
     }
   },
   ".//activity-date/@type": {
@@ -27,24 +27,21 @@
     },
     "2": {
       "csci_benkadi-actvities.xml": 1
-    },
-    "4": {
-      "csci_benkadi-actvities.xml": 1
     }
   },
   ".//activity-status/@code": {
-    "2": {
+    "1": {
       "csci_benkadi-actvities.xml": 1
     }
   },
   ".//budget/@status": {
-    "2": {
-      "csci_benkadi-actvities.xml": 1
+    "1": {
+      "csci_benkadi-actvities.xml": 5
     }
   },
   ".//budget/value/@currency": {
     "XOF": {
-      "csci_benkadi-actvities.xml": 1
+      "csci_benkadi-actvities.xml": 5
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -142,11 +139,8 @@
     }
   },
   ".//result/@type": {
-    "3": {
-      "csci_benkadi-actvities.xml": 4
-    },
     "2": {
-      "csci_benkadi-actvities.xml": 5
+      "csci_benkadi-actvities.xml": 2
     },
     "1": {
       "csci_benkadi-actvities.xml": 2
@@ -154,10 +148,12 @@
   },
   ".//result/indicator/@measure": {
     "1": {
-      "csci_benkadi-actvities.xml": 21
-    },
-    "2": {
-      "csci_benkadi-actvities.xml": 1
+      "csci_benkadi-actvities.xml": 14
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "csci_benkadi-actvities.xml": 14
     }
   },
   ".//sector/@vocabulary": {
@@ -172,12 +168,12 @@
   },
   ".//transaction/provider-org/@type": {
     "21": {
-      "csci_benkadi-actvities.xml": 2
+      "csci_benkadi-actvities.xml": 3
     }
   },
   ".//transaction/transaction-type/@code": {
     "11": {
-      "csci_benkadi-actvities.xml": 1
+      "csci_benkadi-actvities.xml": 2
     },
     "1": {
       "csci_benkadi-actvities.xml": 1
@@ -188,7 +184,7 @@
   },
   ".//transaction/value/@currency": {
     "XOF": {
-      "csci_benkadi-actvities.xml": 3
+      "csci_benkadi-actvities.xml": 4
     }
   }
 }

@@ -83,6 +83,21 @@
         "3": 2
       }
     },
+    ".//document-link/@format": {
+      "awid-activities.xml": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "awid-activities.xml": {
+        "A08": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "awid-activities.xml": {
+        "en": 1
+      }
+    },
     ".//participating-org/@crs-channel-code": {
       "awid-activities.xml": {
         "21000": 6,
@@ -148,6 +163,21 @@
         "1": 2
       }
     },
+    ".//result/document-link/@format": {
+      "awid-activities.xml": {
+        "application/pdf": 1
+      }
+    },
+    ".//result/document-link/category/@code": {
+      "awid-activities.xml": {
+        "A08": 1
+      }
+    },
+    ".//result/document-link/language/@code": {
+      "awid-activities.xml": {
+        "en": 1
+      }
+    },
     ".//result/indicator/@measure": {
       "awid-activities.xml": {
         "1": 527,
@@ -156,7 +186,7 @@
     },
     ".//result/indicator/reference/@vocabulary": {
       "awid-activities.xml": {
-        "99": 12
+        "99": 22
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -171,50 +201,49 @@
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "awid-activities.xml": {
-        "A01": 1
+        "A01": 4
       }
     },
     ".//transaction/aid-type/@vocabulary": {
       "awid-activities.xml": {
-        "1": 1
+        "1": 4
       }
     },
     ".//transaction/disbursement-channel/@code": {
       "awid-activities.xml": {
-        "2": 4
+        "2": 6
       }
     },
     ".//transaction/finance-type/@code": {
       "awid-activities.xml": {
-        "110": 3
+        "110": 5
       }
     },
     ".//transaction/flow-type/@code": {
       "awid-activities.xml": {
-        "30": 4
+        "30": 5
       }
     },
     ".//transaction/provider-org/@type": {
       "awid-activities.xml": {
         "21": 2,
-        "60": 4
+        "60": 5
       }
     },
     ".//transaction/receiver-org/@type": {
       "awid-activities.xml": {
-        "21": 6
+        "21": 7
       }
     },
     ".//transaction/tied-status/@code": {
       "awid-activities.xml": {
-        "5": 4
+        "5": 5
       }
     },
     ".//transaction/transaction-type/@code": {
       "awid-activities.xml": {
         "4": 46,
-        "1": 2,
-        "3": 2,
+        "1": 4,
         "11": 1
       }
     },
@@ -225,7 +254,7 @@
     },
     ".//@xml:lang": {
       "awid-activities.xml": {
-        "en": 807
+        "en": 867
       }
     }
   }

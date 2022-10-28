@@ -1,67 +1,68 @@
 {
   ".//@default-currency": {
-    "EUR": 2
+    "EUR": 4
   },
   ".//@xml:lang": {
-    "en": 6,
-    "it": 2
+    "en": 8,
+    "it": 7
   },
   ".//activity-date/@type": {
-    "1": 2,
-    "2": 1,
-    "3": 2,
-    "4": 2
+    "1": 4,
+    "2": 3,
+    "3": 4,
+    "4": 4
   },
   ".//activity-status/@code": {
-    "4": 2
+    "4": 4
   },
   ".//collaboration-type/@code": {
-    "1": 2
+    "1": 4
   },
   ".//contact-info/@type": {
-    "1": 2
+    "1": 4
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 1,
+    "C01": 2,
     "B01": 1
   },
   ".//default-finance-type/@code": {
-    "110": 2
+    "110": 4
   },
   ".//default-flow-type/@code": {
-    "10": 2
+    "10": 4
   },
   ".//location/location-reach/@code": {
-    "1": 2
+    "1": 4
   },
   ".//other-identifier/@type": {
-    "A2": 1,
-    "A1": 2
+    "A1": 4,
+    "A2": 2
   },
   ".//participating-org/@crs-channel-code": {
-    "22000": 6
+    "22000": 6,
+    "11001": 3
   },
   ".//participating-org/@role": {
-    "1": 2,
-    "2": 2,
-    "4": 2
+    "1": 4,
+    "2": 4,
+    "4": 3
   },
   ".//participating-org/@type": {
-    "10": 4,
+    "10": 9,
     "22": 2
   },
   ".//policy-marker/@significance": {
-    "2": 3,
+    "2": 4,
     "0": 14,
-    "1": 1
+    "1": 2
   },
   ".//policy-marker/@vocabulary": {
-    "1": 18
+    "1": 20
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "1": 2,
+    "1": 3,
     "2": 2,
-    "3": 2,
+    "3": 3,
     "4": 2,
     "5": 2,
     "6": 2,
@@ -70,25 +71,28 @@
     "9": 2
   },
   ".//recipient-country/@code": {
-    "KH": 2
+    "KH": 4
   },
   ".//related-activity/@type": {
     "3": 2
   },
   ".//reporting-org/@type": {
-    "10": 2
+    "10": 4
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "12220": 2
+    "11330": 1,
+    "12220": 2,
+    "15130": 1
   },
   ".//transaction/receiver-org/@type": {
-    "22": 8
+    "22": 8,
+    "10": 7
   },
   ".//transaction/transaction-type/@code": {
-    "2": 3,
-    "3": 5
+    "2": 11,
+    "3": 11
   },
   ".//transaction/value/@currency": {
-    "EUR": 8
+    "EUR": 22
   }
 }

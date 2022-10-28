@@ -267,7 +267,7 @@
     "awid-activities.xml": 6
   },
   "iati-activity/result/@aggregation-status": {
-    "awid-activities.xml": 5
+    "awid-activities.xml": 4
   },
   "iati-activity/result/@type": {
     "awid-activities.xml": 6
@@ -280,6 +280,51 @@
   },
   "iati-activity/result/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "awid-activities.xml": 2
+  },
+  "iati-activity/result/document-link": {
+    "awid-activities.xml": 1
+  },
+  "iati-activity/result/document-link/@format": {
+    "awid-activities.xml": 1
+  },
+  "iati-activity/result/document-link/@url": {
+    "awid-activities.xml": 1
+  },
+  "iati-activity/result/document-link/category": {
+    "awid-activities.xml": 1
+  },
+  "iati-activity/result/document-link/category/@code": {
+    "awid-activities.xml": 1
+  },
+  "iati-activity/result/document-link/description": {
+    "awid-activities.xml": 1
+  },
+  "iati-activity/result/document-link/description/narrative": {
+    "awid-activities.xml": 1
+  },
+  "iati-activity/result/document-link/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "awid-activities.xml": 1
+  },
+  "iati-activity/result/document-link/document-date": {
+    "awid-activities.xml": 1
+  },
+  "iati-activity/result/document-link/document-date/@iso-date": {
+    "awid-activities.xml": 1
+  },
+  "iati-activity/result/document-link/language": {
+    "awid-activities.xml": 1
+  },
+  "iati-activity/result/document-link/language/@code": {
+    "awid-activities.xml": 1
+  },
+  "iati-activity/result/document-link/title": {
+    "awid-activities.xml": 1
+  },
+  "iati-activity/result/document-link/title/narrative": {
+    "awid-activities.xml": 1
+  },
+  "iati-activity/result/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "awid-activities.xml": 1
   },
   "iati-activity/result/indicator": {
     "awid-activities.xml": 6
@@ -303,6 +348,24 @@
     "awid-activities.xml": 2
   },
   "iati-activity/result/indicator/baseline/@year": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/baseline/dimension": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/baseline/dimension/@name": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/baseline/dimension/@value": {
     "awid-activities.xml": 2
   },
   "iati-activity/result/indicator/baseline/location": {
@@ -336,7 +399,22 @@
     "awid-activities.xml": 2
   },
   "iati-activity/result/indicator/period/actual/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "awid-activities.xml": 1
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/actual/dimension": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/actual/dimension/@name": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/actual/dimension/@value": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/actual/location": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/actual/location/@ref": {
+    "awid-activities.xml": 2
   },
   "iati-activity/result/indicator/period/period-end": {
     "awid-activities.xml": 6
@@ -357,10 +435,28 @@
     "awid-activities.xml": 2
   },
   "iati-activity/result/indicator/period/target/comment": {
-    "awid-activities.xml": 1
+    "awid-activities.xml": 2
   },
   "iati-activity/result/indicator/period/target/comment/narrative": {
-    "awid-activities.xml": 1
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/target/dimension": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/target/dimension/@name": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/target/dimension/@value": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/target/location": {
+    "awid-activities.xml": 2
+  },
+  "iati-activity/result/indicator/period/target/location/@ref": {
+    "awid-activities.xml": 2
   },
   "iati-activity/result/indicator/reference": {
     "awid-activities.xml": 2
@@ -423,13 +519,13 @@
     "awid-activities.xml": 3
   },
   "iati-activity/transaction/aid-type": {
-    "awid-activities.xml": 1
+    "awid-activities.xml": 2
   },
   "iati-activity/transaction/aid-type/@code": {
-    "awid-activities.xml": 1
+    "awid-activities.xml": 2
   },
   "iati-activity/transaction/aid-type/@vocabulary": {
-    "awid-activities.xml": 1
+    "awid-activities.xml": 2
   },
   "iati-activity/transaction/description": {
     "awid-activities.xml": 2

@@ -68,8 +68,8 @@
     },
     ".//document-link/category/@code": {
       "A02": 9,
-      "A01": 3,
       "A07": 1,
+      "A01": 3,
       "A12": 1
     },
     ".//document-link/language/@code": {
@@ -118,9 +118,9 @@
     },
     ".//recipient-country/@code": {
       "NP": 5,
-      "GB": 1,
+      "MW": 15,
       "IN": 8,
-      "MW": 15
+      "GB": 1
     },
     ".//reporting-org/@type": {
       "21": 29
@@ -137,12 +137,12 @@
       "12220": 12,
       "72040": 3,
       "72010": 3,
-      "12191": 1,
-      "12230": 1,
-      "13020": 3,
       "13040": 1,
       "73010": 1,
-      "23030": 1
+      "23030": 1,
+      "12230": 1,
+      "13020": 3,
+      "12191": 1
     },
     ".//sector[@vocabulary = '7']/@code": {
       "3": 9,
@@ -170,29 +170,6 @@
     ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
       "HCOVD20": 3
     },
-    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 2
-    },
-    ".//transaction/aid-type/@vocabulary": {
-      "1": 2
-    },
-    ".//transaction/disbursement-channel/@code": {
-      "2": 3
-    },
-    ".//transaction/finance-type/@code": {
-      "110": 2
-    },
-    ".//transaction/flow-type/@code": {
-      "30": 2
-    },
-    ".//transaction/receiver-org/@type": {
-      "22": 82,
-      "21": 13,
-      "24": 22
-    },
-    ".//transaction/tied-status/@code": {
-      "5": 2
-    },
     ".//planned-disbursement/@type": {
       "1": 53
     },
@@ -204,10 +181,33 @@
       "1": 2,
       "3": 1
     },
+    ".//transaction/disbursement-channel/@code": {
+      "2": 3
+    },
     ".//transaction/provider-org/@type": {
       "15": 1,
       "10": 13,
       "70": 11
+    },
+    ".//transaction/receiver-org/@type": {
+      "21": 13,
+      "22": 82,
+      "24": 22
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "C01": 2
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "1": 2
+    },
+    ".//transaction/finance-type/@code": {
+      "110": 2
+    },
+    ".//transaction/flow-type/@code": {
+      "30": 2
+    },
+    ".//transaction/tied-status/@code": {
+      "5": 2
     }
   }
 }

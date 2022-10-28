@@ -60,6 +60,10 @@
       "iati-activity/location/location-class": 4,
       "iati-activity/location/location-class/@code": 4,
       "iati-activity/location/@ref": 4,
+      "iati-activity/sector": 3,
+      "iati-activity/sector/@code": 3,
+      "iati-activity/sector/@percentage": 3,
+      "iati-activity/sector/@vocabulary": 3,
       "iati-activity/collaboration-type": 4,
       "iati-activity/collaboration-type/@code": 4,
       "iati-activity/default-flow-type": 4,
@@ -124,11 +128,7 @@
       "iati-activity/@hierarchy": 4,
       "iati-activity/@last-updated-datetime": 4,
       "iati-activity/@linked-data-uri": 4,
-      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 4,
-      "iati-activity/sector": 3,
-      "iati-activity/sector/@code": 3,
-      "iati-activity/sector/@percentage": 3,
-      "iati-activity/sector/@vocabulary": 3
+      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 4
     },
     "elements_total": {
       "iati-activity": 4,
@@ -189,6 +189,10 @@
       "iati-activity/location/location-class": 4,
       "iati-activity/location/location-class/@code": 4,
       "iati-activity/location/@ref": 4,
+      "iati-activity/sector": 3,
+      "iati-activity/sector/@code": 3,
+      "iati-activity/sector/@percentage": 3,
+      "iati-activity/sector/@vocabulary": 3,
       "iati-activity/collaboration-type": 4,
       "iati-activity/collaboration-type/@code": 4,
       "iati-activity/default-flow-type": 4,
@@ -253,15 +257,11 @@
       "iati-activity/@hierarchy": 4,
       "iati-activity/@last-updated-datetime": 4,
       "iati-activity/@linked-data-uri": 4,
-      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 4,
-      "iati-activity/sector": 8,
-      "iati-activity/sector/@code": 8,
-      "iati-activity/sector/@percentage": 8,
-      "iati-activity/sector/@vocabulary": 8
+      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 4
     },
     "forwardlooking_currency_year": {
       "2022": {
-        "USD": 1017303.69
+        "USD": 1075.0
       }
     },
     "forwardlooking_activities_current": {
@@ -317,11 +317,11 @@
       "description": 4,
       "activity-status": 4,
       "activity-date": 4,
-      "sector": 2,
+      "sector": 3,
       "country_or_region": 4,
-      "transaction_commitment": 4,
+      "transaction_commitment": 0,
       "transaction_spend": 0,
-      "transaction_currency": 4,
+      "transaction_currency": 0,
       "transaction_traceability": 4,
       "budget": 4,
       "budget_not_provided": 0,

@@ -22,6 +22,9 @@
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "B03": 2
     },
+    ".//default-aid-type/@vocabulary": {
+      "1": 1
+    },
     ".//default-finance-type/@code": {
       "110": 2
     },
@@ -91,17 +94,20 @@
     ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "4": 230
     },
+    ".//transaction/provider-org/@type": {
+      "21": 9
+    },
     ".//transaction/tied-status/@code": {
       "5": 203,
       "4": 27
     },
     ".//transaction/transaction-type/@code": {
-      "4": 246,
-      "1": 16,
+      "4": 255,
+      "1": 19,
       "2": 1
     },
     ".//transaction/value/@currency": {
-      "GBP": 78
+      "GBP": 90
     },
     ".//@xml:lang": {
       "en": 77

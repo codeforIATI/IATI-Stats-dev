@@ -1,47 +1,26 @@
 {
   "2": {
     ".//@default-currency": {
+      "GBP": 122,
       "USD": 42,
-      " USD ": 10,
-      "GBP": 122
+      " USD ": 10
+    },
+    ".//budget/value/@currency": {
+      "GBP": 119,
+      "USD": 40,
+      " USD ": 8
     },
     ".//description/@type": {
       "1": 169,
       "2": 1
     },
-    ".//participating-org/@role": {
-      "1": 174,
-      "4": 173
-    },
-    ".//participating-org/@type": {
-      "10": 3
-    },
-    ".//reporting-org/@type": {
-      "40": 173,
-      "15": 1
-    },
-    ".//result/@type": {
-      "1": 1
-    },
-    ".//result/indicator/@measure": {
-      "3": 4
-    },
-    ".//@xml:lang": {
-      "en": 184
-    },
-    ".//activity-status/@code": {
-      "2": 9,
-      "4": 39,
-      "5": 1
-    },
-    ".//budget/value/@currency": {
-      " USD ": 8,
-      "GBP": 119,
-      "USD": 40
-    },
     ".//other-identifier/@type": {
       "A1": 5,
       "B1": 3
+    },
+    ".//participating-org/@role": {
+      "4": 173,
+      "1": 174
     },
     ".//recipient-country/@code": {
       "YE": 168
@@ -49,9 +28,21 @@
     ".//related-activity/@type": {
       "1": 129
     },
+    ".//reporting-org/@type": {
+      "40": 173,
+      "15": 1
+    },
     ".//sector/@vocabulary": {
       "DAC-3": 167,
       "1": 2
+    },
+    ".//@xml:lang": {
+      "en": 184
+    },
+    ".//activity-status/@code": {
+      "4": 39,
+      "5": 1,
+      "2": 9
     },
     ".//transaction/transaction-type/@code": {
       "D": 4,
@@ -98,6 +89,9 @@
       "11000": 1,
       "12004": 1
     },
+    ".//participating-org/@type": {
+      "10": 3
+    },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "14021": 1,
       "14010": 1
@@ -110,6 +104,12 @@
     },
     ".//transaction/receiver-org/@type": {
       "15": 3
+    },
+    ".//result/@type": {
+      "1": 1
+    },
+    ".//result/indicator/@measure": {
+      "3": 4
     }
   }
 }

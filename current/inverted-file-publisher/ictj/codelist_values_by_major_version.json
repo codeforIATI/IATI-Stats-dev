@@ -2,93 +2,98 @@
   "2": {
     ".//@default-currency": {
       "ictj-activities.xml": {
-        "USD": 9
+        "USD": 23
       }
     },
     ".//activity-date/@type": {
       "ictj-activities.xml": {
-        "2": 4,
-        "1": 5,
-        "3": 1
+        "2": 13,
+        "1": 10,
+        "3": 2
       }
     },
     ".//activity-status/@code": {
       "ictj-activities.xml": {
-        "2": 9
+        "2": 23
       }
     },
     ".//activity-scope/@code": {
       "ictj-activities.xml": {
-        "4": 1,
-        "1": 1
+        "4": 4,
+        "1": 4,
+        "2": 1
       }
     },
     ".//budget/@status": {
       "ictj-activities.xml": {
-        "2": 12,
+        "2": 27,
         "1": 6
       }
     },
     ".//budget/@type": {
       "ictj-activities.xml": {
-        "2": 7,
-        "1": 11
+        "2": 8,
+        "1": 25
       }
     },
     ".//budget/value/@currency": {
       "ictj-activities.xml": {
-        "USD": 18
+        "USD": 33
       }
     },
     ".//description/@type": {
       "ictj-activities.xml": {
-        "2": 7,
-        "1": 2
+        "2": 19,
+        "1": 5
       }
     },
     ".//document-link/@format": {
       "ictj-activities.xml": {
-        "application/pdf": 37,
+        "application/pdf": 45,
         "application/vnd.cups-pdf": 2
       }
     },
     ".//document-link/category/@code": {
       "ictj-activities.xml": {
-        "A08": 32,
+        "A08": 40,
         "B01": 7
       }
     },
     ".//document-link/language/@code": {
       "ictj-activities.xml": {
-        "en": 38
+        "en": 46
       }
     },
     ".//participating-org/@role": {
       "ictj-activities.xml": {
-        "1": 9,
-        "4": 21
+        "1": 23,
+        "4": 39
       }
     },
     ".//participating-org/@type": {
       "ictj-activities.xml": {
-        "10": 9,
-        "21": 9,
-        "22": 7,
-        "80": 1,
+        "10": 23,
+        "21": 21,
+        "22": 8,
+        "80": 2,
         "90": 1,
-        "15": 3
+        "15": 6,
+        "60": 1
       }
     },
     ".//recipient-country/@code": {
       "ictj-activities.xml": {
-        "SY": 1,
-        "TN": 1,
-        "LB": 1,
-        "US": 1,
-        "CO": 1,
-        "LY": 1,
-        "SD": 1,
-        "AF": 1
+        "SY": 2,
+        "TN": 2,
+        "LB": 2,
+        "US": 7,
+        "CO": 2,
+        "LY": 2,
+        "SD": 2,
+        "AF": 1,
+        "YE": 1,
+        "SS": 1,
+        "UG": 1
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -103,7 +108,7 @@
     },
     ".//reporting-org/@type": {
       "ictj-activities.xml": {
-        "21": 9
+        "21": 23
       }
     },
     ".//result/@type": {
@@ -129,19 +134,19 @@
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "ictj-activities.xml": {
-        "15150": 6,
-        "15160": 7,
-        "15170": 1,
-        "15220": 9,
-        "15131": 1,
-        "15113": 1,
-        "15180": 2,
+        "15150": 14,
+        "15160": 19,
+        "15170": 2,
+        "15220": 19,
+        "15131": 3,
+        "15113": 2,
+        "15180": 6,
         "15162": 1
       }
     },
     ".//sector/@vocabulary": {
       "ictj-activities.xml": {
-        "1": 28
+        "1": 66
       }
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -157,17 +162,22 @@
     },
     ".//transaction/disbursement-channel/@code": {
       "ictj-activities.xml": {
-        "2": 1
+        "2": 13
       }
     },
     ".//transaction/finance-type/@code": {
       "ictj-activities.xml": {
-        "110": 38
+        "110": 39
       }
     },
     ".//transaction/flow-type/@code": {
       "ictj-activities.xml": {
-        "10": 38
+        "10": 39
+      }
+    },
+    ".//transaction/recipient-country/@code": {
+      "ictj-activities.xml": {
+        "US": 4
       }
     },
     ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -182,33 +192,33 @@
     },
     ".//transaction/provider-org/@type": {
       "ictj-activities.xml": {
-        "10": 37
+        "10": 53
       }
     },
     ".//transaction/receiver-org/@type": {
       "ictj-activities.xml": {
-        "21": 26
+        "21": 42
       }
     },
     ".//transaction/tied-status/@code": {
       "ictj-activities.xml": {
-        "5": 41
+        "5": 56
       }
     },
     ".//transaction/transaction-type/@code": {
       "ictj-activities.xml": {
-        "4": 41,
-        "1": 6
+        "4": 52,
+        "1": 21
       }
     },
     ".//transaction/value/@currency": {
       "ictj-activities.xml": {
-        "USD": 47
+        "USD": 73
       }
     },
     ".//@xml:lang": {
       "ictj-activities.xml": {
-        "en": 53
+        "en": 138
       }
     }
   }

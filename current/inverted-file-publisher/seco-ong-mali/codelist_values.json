@@ -5,17 +5,17 @@
     }
   },
   ".//@xml:lang": {
-    "FR": {
-      "seco-ong-mali-activities.xml": 14
+    "EN": {
+      "seco-ong-mali-activities.xml": 15
     },
     "nl": {
-      "seco-ong-mali-activities.xml": 66
+      "seco-ong-mali-activities.xml": 8
     },
     "en": {
-      "seco-ong-mali-activities.xml": 66
+      "seco-ong-mali-activities.xml": 41
     },
     "fr": {
-      "seco-ong-mali-activities.xml": 92
+      "seco-ong-mali-activities.xml": 30
     }
   },
   ".//activity-date/@type": {
@@ -27,9 +27,6 @@
     },
     "2": {
       "seco-ong-mali-activities.xml": 1
-    },
-    "4": {
-      "seco-ong-mali-activities.xml": 1
     }
   },
   ".//activity-status/@code": {
@@ -39,12 +36,12 @@
   },
   ".//budget/@status": {
     "2": {
-      "seco-ong-mali-activities.xml": 1
+      "seco-ong-mali-activities.xml": 5
     }
   },
   ".//budget/value/@currency": {
     "XOF": {
-      "seco-ong-mali-activities.xml": 1
+      "seco-ong-mali-activities.xml": 5
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -142,11 +139,8 @@
     }
   },
   ".//result/@type": {
-    "3": {
-      "seco-ong-mali-activities.xml": 4
-    },
     "2": {
-      "seco-ong-mali-activities.xml": 5
+      "seco-ong-mali-activities.xml": 2
     },
     "1": {
       "seco-ong-mali-activities.xml": 2
@@ -154,7 +148,12 @@
   },
   ".//result/indicator/@measure": {
     "1": {
-      "seco-ong-mali-activities.xml": 22
+      "seco-ong-mali-activities.xml": 11
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "seco-ong-mali-activities.xml": 11
     }
   },
   ".//sector/@vocabulary": {
@@ -169,12 +168,12 @@
   },
   ".//transaction/provider-org/@type": {
     "21": {
-      "seco-ong-mali-activities.xml": 2
+      "seco-ong-mali-activities.xml": 3
     }
   },
   ".//transaction/transaction-type/@code": {
     "11": {
-      "seco-ong-mali-activities.xml": 1
+      "seco-ong-mali-activities.xml": 2
     },
     "1": {
       "seco-ong-mali-activities.xml": 1
@@ -185,7 +184,7 @@
   },
   ".//transaction/value/@currency": {
     "XOF": {
-      "seco-ong-mali-activities.xml": 3
+      "seco-ong-mali-activities.xml": 4
     }
   }
 }

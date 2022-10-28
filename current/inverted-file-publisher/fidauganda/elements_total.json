@@ -92,6 +92,9 @@
   "iati-activity/participating-org/@activity-id": {
     "fidauganda-activities.xml": 3
   },
+  "iati-activity/participating-org/@crs-channel-code": {
+    "fidauganda-activities.xml": 3
+  },
   "iati-activity/participating-org/@ref": {
     "fidauganda-activities.xml": 3
   },
@@ -177,10 +180,10 @@
     "fidauganda-activities.xml": 3
   },
   "iati-activity/result/document-link/document-date": {
-    "fidauganda-activities.xml": 2
+    "fidauganda-activities.xml": 3
   },
   "iati-activity/result/document-link/document-date/@iso-date": {
-    "fidauganda-activities.xml": 2
+    "fidauganda-activities.xml": 3
   },
   "iati-activity/result/document-link/title": {
     "fidauganda-activities.xml": 3
@@ -192,85 +195,106 @@
     "fidauganda-activities.xml": 3
   },
   "iati-activity/result/indicator": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/@aggregation-status": {
-    "fidauganda-activities.xml": 16
+    "fidauganda-activities.xml": 24
   },
   "iati-activity/result/indicator/@ascending": {
-    "fidauganda-activities.xml": 4
+    "fidauganda-activities.xml": 2
   },
   "iati-activity/result/indicator/@measure": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/baseline": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/baseline/@iso-date": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/baseline/@value": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/baseline/@year": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "fidauganda-activities.xml": 9
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "fidauganda-activities.xml": 9
   },
   "iati-activity/result/indicator/description": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/description/narrative": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/period": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/period/actual": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/period/actual/@value": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
+  },
+  "iati-activity/result/indicator/period/actual/comment": {
+    "fidauganda-activities.xml": 9
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative": {
+    "fidauganda-activities.xml": 9
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "fidauganda-activities.xml": 2
   },
   "iati-activity/result/indicator/period/period-end": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/period/period-end/@iso-date": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/period/period-start": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/period/period-start/@iso-date": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/period/target": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/period/target/@value": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "fidauganda-activities.xml": 8
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "fidauganda-activities.xml": 8
   },
   "iati-activity/result/indicator/reference": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/reference/@code": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/reference/@indicator-uri": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/reference/@vocabulary": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/title": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/title/narrative": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 26
   },
   "iati-activity/result/indicator/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "fidauganda-activities.xml": 20
+    "fidauganda-activities.xml": 25
   },
   "iati-activity/result/title": {
     "fidauganda-activities.xml": 3
@@ -300,63 +324,78 @@
     "fidauganda-activities.xml": 1
   },
   "iati-activity/transaction": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
   },
   "iati-activity/transaction/@humanitarian": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
+  },
+  "iati-activity/transaction/@ref": {
+    "fidauganda-activities.xml": 5
+  },
+  "iati-activity/transaction/description": {
+    "fidauganda-activities.xml": 2
+  },
+  "iati-activity/transaction/description/narrative": {
+    "fidauganda-activities.xml": 2
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "fidauganda-activities.xml": 2
   },
   "iati-activity/transaction/disbursement-channel": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 2
   },
   "iati-activity/transaction/disbursement-channel/@code": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 2
   },
   "iati-activity/transaction/finance-type": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 2
   },
   "iati-activity/transaction/finance-type/@code": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 2
   },
   "iati-activity/transaction/provider-org": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
   },
   "iati-activity/transaction/provider-org/@provider-activity-id": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "fidauganda-activities.xml": 5
   },
   "iati-activity/transaction/provider-org/@type": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
   },
   "iati-activity/transaction/receiver-org": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
   },
   "iati-activity/transaction/receiver-org/@receiver-activity-id": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
   },
   "iati-activity/transaction/receiver-org/@ref": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
   },
   "iati-activity/transaction/receiver-org/@type": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
   },
   "iati-activity/transaction/transaction-date": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
   },
   "iati-activity/transaction/transaction-date/@iso-date": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
   },
   "iati-activity/transaction/transaction-type": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
   },
   "iati-activity/transaction/transaction-type/@code": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
   },
   "iati-activity/transaction/value": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
   },
   "iati-activity/transaction/value/@currency": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
   },
   "iati-activity/transaction/value/@value-date": {
-    "fidauganda-activities.xml": 1
+    "fidauganda-activities.xml": 5
   }
 }

@@ -5,7 +5,7 @@
         "EUR": 16
       },
       "jass-jass-pu-activitydataset.xml": {
-        "EUR": 5
+        "EUR": 11
       }
     },
     ".//activity-date/@type": {
@@ -15,8 +15,8 @@
         "1": 1
       },
       "jass-jass-pu-activitydataset.xml": {
-        "2": 5,
-        "3": 5
+        "2": 11,
+        "3": 11
       }
     },
     ".//activity-status/@code": {
@@ -25,7 +25,7 @@
         "2": 3
       },
       "jass-jass-pu-activitydataset.xml": {
-        "2": 5
+        "2": 11
       }
     },
     ".//budget/@status": {
@@ -44,7 +44,7 @@
         "EUR": 15
       },
       "jass-jass-pu-activitydataset.xml": {
-        "EUR": 25
+        "EUR": 55
       }
     },
     ".//collaboration-type/@code": {
@@ -52,7 +52,7 @@
         "3": 16
       },
       "jass-jass-pu-activitydataset.xml": {
-        "1": 5
+        "1": 11
       }
     },
     ".//contact-info/@type": {
@@ -61,7 +61,7 @@
         "2": 1
       },
       "jass-jass-pu-activitydataset.xml": {
-        "1": 5
+        "1": 11
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -69,7 +69,7 @@
         "A01": 16
       },
       "jass-jass-pu-activitydataset.xml": {
-        "C01": 5
+        "C01": 11
       }
     },
     ".//default-aid-type/@vocabulary": {
@@ -82,7 +82,7 @@
         "110": 16
       },
       "jass-jass-pu-activitydataset.xml": {
-        "110": 5
+        "110": 11
       }
     },
     ".//default-flow-type/@code": {
@@ -90,7 +90,7 @@
         "30": 16
       },
       "jass-jass-pu-activitydataset.xml": {
-        "30": 5
+        "30": 11
       }
     },
     ".//default-tied-status/@code": {
@@ -98,7 +98,7 @@
         "5": 16
       },
       "jass-jass-pu-activitydataset.xml": {
-        "5": 5
+        "5": 11
       }
     },
     ".//description/@type": {
@@ -109,7 +109,7 @@
         "4": 2
       },
       "jass-jass-pu-activitydataset.xml": {
-        "1": 5
+        "1": 11
       }
     },
     ".//participating-org/@crs-channel-code": {
@@ -126,8 +126,8 @@
       },
       "jass-jass-pu-activitydataset.xml": {
         "1": 1,
-        "2": 5,
-        "4": 12
+        "2": 11,
+        "4": 21
       }
     },
     ".//participating-org/@type": {
@@ -137,8 +137,9 @@
       },
       "jass-jass-pu-activitydataset.xml": {
         "10": 1,
-        "21": 12,
-        "22": 4,
+        "21": 24,
+        "22": 5,
+        "90": 2,
         "24": 1
       }
     },
@@ -147,7 +148,7 @@
         "1": 16
       },
       "jass-jass-pu-activitydataset.xml": {
-        "1": 5
+        "1": 11
       }
     },
     ".//policy-marker/@significance": {
@@ -156,7 +157,7 @@
         "1": 3
       },
       "jass-jass-pu-activitydataset.xml": {
-        "1": 5
+        "1": 11
       }
     },
     ".//policy-marker/@vocabulary": {
@@ -164,7 +165,7 @@
         "1": 16
       },
       "jass-jass-pu-activitydataset.xml": {
-        "1": 5
+        "1": 11
       }
     },
     ".//recipient-country/@code": {
@@ -177,31 +178,31 @@
       },
       "jass-jass-pu-activitydataset.xml": {
         "US": 1,
-        "KE": 1,
-        "HN": 1,
-        "GT": 1,
-        "ZW": 1,
-        "ZA": 1,
-        "MW": 1
+        "ZW": 2,
+        "ZA": 2,
+        "MW": 2,
+        "ID": 2,
+        "KH": 2,
+        "MM": 2,
+        "KE": 2,
+        "GT": 2,
+        "HN": 2
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "jass-activities.xml": {
         "998": 4,
-        "798": 6,
+        "798": 3,
         "498": 3,
         "298": 3
       },
       "jass-jass-pu-activitydataset.xml": {
-        "1029": 1,
-        "679": 1,
-        "389": 1
+        "389": 2
       }
     },
     ".//recipient-region/@vocabulary": {
       "jass-activities.xml": {
-        "1": 16,
-        "99": 9
+        "1": 13
       }
     },
     ".//related-activity/@type": {
@@ -209,7 +210,7 @@
         "1": 16
       },
       "jass-jass-pu-activitydataset.xml": {
-        "1": 4
+        "1": 10
       }
     },
     ".//reporting-org/@type": {
@@ -217,7 +218,7 @@
         "21": 16
       },
       "jass-jass-pu-activitydataset.xml": {
-        "21": 5
+        "21": 11
       }
     },
     ".//result/@type": {
@@ -226,8 +227,8 @@
         "1": 2
       },
       "jass-jass-pu-activitydataset.xml": {
-        "2": 18,
-        "1": 33
+        "1": 87,
+        "2": 53
       }
     },
     ".//result/indicator/@measure": {
@@ -236,15 +237,15 @@
         "5": 6
       },
       "jass-jass-pu-activitydataset.xml": {
-        "1": 57
+        "1": 158
       }
     },
     ".//result/indicator/reference/@vocabulary": {
       "jass-activities.xml": {
-        "99": 16
+        "99": 32
       },
       "jass-jass-pu-activitydataset.xml": {
-        "99": 57
+        "99": 158
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -252,7 +253,7 @@
         "15170": 16
       },
       "jass-jass-pu-activitydataset.xml": {
-        "15170": 5
+        "15170": 11
       }
     },
     ".//sector/@vocabulary": {
@@ -260,12 +261,32 @@
         "1": 16
       },
       "jass-jass-pu-activitydataset.xml": {
-        "1": 5
+        "1": 11
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "jass-activities.xml": {
+        "A01": 6
+      }
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "jass-activities.xml": {
+        "1": 6
       }
     },
     ".//transaction/disbursement-channel/@code": {
       "jass-activities.xml": {
-        "2": 4
+        "2": 7
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "jass-activities.xml": {
+        "110": 6
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "jass-activities.xml": {
+        "30": 6
       }
     },
     ".//transaction/provider-org/@type": {
@@ -274,7 +295,8 @@
         "21": 4
       },
       "jass-jass-pu-activitydataset.xml": {
-        "10": 3
+        "10": 3,
+        "21": 160
       }
     },
     ".//transaction/receiver-org/@type": {
@@ -282,24 +304,30 @@
         "21": 8
       },
       "jass-jass-pu-activitydataset.xml": {
-        "21": 7,
-        "22": 11,
+        "21": 144,
+        "22": 13,
+        "90": 4,
         "24": 2
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "jass-activities.xml": {
+        "5": 6
       }
     },
     ".//transaction/transaction-type/@code": {
       "jass-activities.xml": {
         "4": 57,
-        "11": 1,
         "3": 2,
+        "11": 1,
         "1": 2
       },
       "jass-jass-pu-activitydataset.xml": {
         "11": 1,
         "1": 2,
-        "2": 8,
-        "3": 12,
-        "4": 37
+        "2": 11,
+        "3": 15,
+        "4": 134
       }
     },
     ".//transaction/value/@currency": {
@@ -308,15 +336,16 @@
       },
       "jass-jass-pu-activitydataset.xml": {
         "EUR": 8,
-        "USD": 52
+        "USD": 153,
+        "IDR": 2
       }
     },
     ".//@xml:lang": {
       "jass-activities.xml": {
-        "en": 1911
+        "en": 1941
       },
       "jass-jass-pu-activitydataset.xml": {
-        "en": 5
+        "en": 11
       }
     },
     ".//document-link/@format": {

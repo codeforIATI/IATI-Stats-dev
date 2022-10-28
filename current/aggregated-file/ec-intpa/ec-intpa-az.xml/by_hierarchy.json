@@ -596,13 +596,13 @@
       }
     },
     "forwardlooking_activities_current": {
-      "2022": 0,
-      "2023": 0,
+      "2022": 1,
+      "2023": 1,
       "2024": 0
     },
     "forwardlooking_activities_with_budgets": {
-      "2022": 0,
-      "2023": 0,
+      "2022": 1,
+      "2023": 1,
       "2024": 0
     },
     "forwardlooking_activities_with_budget_not_provided": {
@@ -610,13 +610,69 @@
       "2023": 0,
       "2024": 0
     },
-    "comprehensiveness": {},
-    "comprehensiveness_with_validation": {},
-    "comprehensiveness_denominators": {
+    "comprehensiveness": {
+      "version": 1,
+      "reporting-org": 1,
+      "iati-identifier": 1,
+      "participating-org": 1,
+      "title": 1,
+      "description": 1,
+      "activity-status": 1,
+      "activity-date": 1,
+      "sector": 1,
+      "country_or_region": 1,
+      "transaction_commitment": 0,
+      "transaction_spend": 1,
+      "transaction_currency": 1,
+      "transaction_traceability": 1,
+      "budget": 1,
+      "budget_not_provided": 0,
+      "contact-info": 1,
+      "location": 1,
+      "location_point_pos": 1,
+      "sector_dac": 1,
+      "capital-spend": 1,
+      "document-link": 0,
+      "activity-website": 0,
       "recipient_language": 0,
-      "transaction_spend": 0,
-      "transaction_traceability": 0
+      "conditions_attached": 1,
+      "result_indicator": 0,
+      "aid_type": 1
     },
-    "comprehensiveness_denominator_default": 0
+    "comprehensiveness_with_validation": {
+      "version": 1,
+      "reporting-org": 1,
+      "iati-identifier": 1,
+      "participating-org": 1,
+      "title": 1,
+      "description": 1,
+      "activity-status": 1,
+      "activity-date": 1,
+      "sector": 1,
+      "country_or_region": 1,
+      "transaction_commitment": 0,
+      "transaction_spend": 1,
+      "transaction_currency": 1,
+      "transaction_traceability": 1,
+      "budget": 1,
+      "budget_not_provided": 0,
+      "contact-info": 1,
+      "location": 1,
+      "location_point_pos": 1,
+      "sector_dac": 1,
+      "capital-spend": 1,
+      "document-link": 0,
+      "activity-website": 0,
+      "recipient_language": 0,
+      "conditions_attached": 1,
+      "result_indicator": 0,
+      "aid_type": 1
+    },
+    "comprehensiveness_denominators": {
+      "recipient_language": 1,
+      "transaction_spend": 1,
+      "transaction_traceability": 1
+    },
+    "comprehensiveness_denominator_default": 1
   }
 }

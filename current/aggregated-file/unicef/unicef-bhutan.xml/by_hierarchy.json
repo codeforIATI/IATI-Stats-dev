@@ -215,7 +215,6 @@
       "iati-activity/result/indicator/baseline/comment/narrative": 69,
       "iati-activity/result/indicator/baseline/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 69,
       "iati-activity/result/indicator/baseline/@year": 69,
-      "iati-activity/result/indicator/baseline/@value": 62,
       "iati-activity/result/indicator/period": 69,
       "iati-activity/result/indicator/period/period-start": 69,
       "iati-activity/result/indicator/period/period-start/@iso-date": 69,
@@ -227,14 +226,12 @@
       "iati-activity/result/indicator/period/target/comment": 69,
       "iati-activity/result/indicator/period/target/comment/narrative": 69,
       "iati-activity/result/indicator/period/target/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 69,
-      "iati-activity/result/indicator/period/target/@value": 30,
       "iati-activity/result/indicator/period/actual": 69,
       "iati-activity/result/indicator/period/actual/location": 69,
       "iati-activity/result/indicator/period/actual/dimension": 69,
       "iati-activity/result/indicator/period/actual/comment": 69,
       "iati-activity/result/indicator/period/actual/comment/narrative": 69,
       "iati-activity/result/indicator/period/actual/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 69,
-      "iati-activity/result/indicator/period/actual/@value": 62,
       "iati-activity/result/indicator/@ascending": 69,
       "iati-activity/result/@type": 69,
       "iati-activity/result/@aggregation-status": 69,
@@ -242,7 +239,10 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 69,
       "iati-activity/@default-currency": 69,
       "iati-activity/@humanitarian": 69,
-      "iati-activity/@hierarchy": 69
+      "iati-activity/@hierarchy": 69,
+      "iati-activity/result/indicator/baseline/@value": 62,
+      "iati-activity/result/indicator/period/actual/@value": 62,
+      "iati-activity/result/indicator/period/target/@value": 30
     },
     "elements_total": {
       "iati-activity": 69,
@@ -260,12 +260,12 @@
       "iati-activity/description/narrative": 69,
       "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 69,
       "iati-activity/description/@type": 69,
-      "iati-activity/participating-org": 742,
-      "iati-activity/participating-org/narrative": 742,
-      "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 742,
-      "iati-activity/participating-org/@ref": 680,
-      "iati-activity/participating-org/@type": 742,
-      "iati-activity/participating-org/@role": 742,
+      "iati-activity/participating-org": 751,
+      "iati-activity/participating-org/narrative": 751,
+      "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 751,
+      "iati-activity/participating-org/@ref": 688,
+      "iati-activity/participating-org/@type": 751,
+      "iati-activity/participating-org/@role": 751,
       "iati-activity/other-identifier": 69,
       "iati-activity/other-identifier/owner-org": 69,
       "iati-activity/other-identifier/owner-org/narrative": 69,
@@ -397,24 +397,24 @@
       "iati-activity/planned-disbursement/@type": 214,
       "iati-activity/capital-spend": 69,
       "iati-activity/capital-spend/@percentage": 69,
-      "iati-activity/transaction": 2725,
-      "iati-activity/transaction/transaction-type": 2725,
-      "iati-activity/transaction/transaction-type/@code": 2725,
-      "iati-activity/transaction/transaction-date": 2725,
-      "iati-activity/transaction/transaction-date/@iso-date": 2725,
-      "iati-activity/transaction/value": 2725,
-      "iati-activity/transaction/value/@currency": 2725,
-      "iati-activity/transaction/value/@value-date": 2725,
-      "iati-activity/transaction/description": 2725,
-      "iati-activity/transaction/description/narrative": 2725,
-      "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2725,
-      "iati-activity/transaction/provider-org": 2725,
-      "iati-activity/transaction/provider-org/narrative": 2725,
-      "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2725,
-      "iati-activity/transaction/disbursement-channel": 2725,
-      "iati-activity/transaction/disbursement-channel/@code": 2725,
-      "iati-activity/transaction/@ref": 2725,
-      "iati-activity/transaction/@humanitarian": 2725,
+      "iati-activity/transaction": 2764,
+      "iati-activity/transaction/transaction-type": 2764,
+      "iati-activity/transaction/transaction-type/@code": 2764,
+      "iati-activity/transaction/transaction-date": 2764,
+      "iati-activity/transaction/transaction-date/@iso-date": 2764,
+      "iati-activity/transaction/value": 2764,
+      "iati-activity/transaction/value/@currency": 2764,
+      "iati-activity/transaction/value/@value-date": 2764,
+      "iati-activity/transaction/description": 2764,
+      "iati-activity/transaction/description/narrative": 2764,
+      "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2764,
+      "iati-activity/transaction/provider-org": 2764,
+      "iati-activity/transaction/provider-org/narrative": 2764,
+      "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2764,
+      "iati-activity/transaction/disbursement-channel": 2764,
+      "iati-activity/transaction/disbursement-channel/@code": 2764,
+      "iati-activity/transaction/@ref": 2764,
+      "iati-activity/transaction/@humanitarian": 2764,
       "iati-activity/document-link": 1750,
       "iati-activity/document-link/title": 1750,
       "iati-activity/document-link/title/narrative": 1750,
@@ -458,7 +458,6 @@
       "iati-activity/result/indicator/baseline/comment/narrative": 292,
       "iati-activity/result/indicator/baseline/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 292,
       "iati-activity/result/indicator/baseline/@year": 292,
-      "iati-activity/result/indicator/baseline/@value": 285,
       "iati-activity/result/indicator/period": 292,
       "iati-activity/result/indicator/period/period-start": 292,
       "iati-activity/result/indicator/period/period-start/@iso-date": 292,
@@ -470,14 +469,12 @@
       "iati-activity/result/indicator/period/target/comment": 292,
       "iati-activity/result/indicator/period/target/comment/narrative": 292,
       "iati-activity/result/indicator/period/target/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 292,
-      "iati-activity/result/indicator/period/target/@value": 177,
       "iati-activity/result/indicator/period/actual": 292,
       "iati-activity/result/indicator/period/actual/location": 292,
       "iati-activity/result/indicator/period/actual/dimension": 292,
       "iati-activity/result/indicator/period/actual/comment": 292,
       "iati-activity/result/indicator/period/actual/comment/narrative": 292,
       "iati-activity/result/indicator/period/actual/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 292,
-      "iati-activity/result/indicator/period/actual/@value": 285,
       "iati-activity/result/indicator/@ascending": 292,
       "iati-activity/result/@type": 69,
       "iati-activity/result/@aggregation-status": 69,
@@ -485,20 +482,20 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 69,
       "iati-activity/@default-currency": 69,
       "iati-activity/@humanitarian": 69,
-      "iati-activity/@hierarchy": 69
+      "iati-activity/@hierarchy": 69,
+      "iati-activity/result/indicator/baseline/@value": 285,
+      "iati-activity/result/indicator/period/actual/@value": 285,
+      "iati-activity/result/indicator/period/target/@value": 177
     },
     "forwardlooking_currency_year": {
-      "2022": {
-        "USD": 15953125.0
-      },
-      "2013": {
-        "USD": 15296223.0
-      },
       "2012": {
         "USD": 10311108.0
       },
       "2011": {
         "USD": 2005233.5
+      },
+      "2013": {
+        "USD": 15296223.0
       },
       "2014": {
         "USD": 9640002.0
@@ -515,14 +512,17 @@
       "2015": {
         "USD": 9640002.0
       },
-      "2023": {
-        "USD": 10088775.0
-      },
-      "2021": {
-        "USD": 9693223.5
-      },
       "2020": {
         "USD": 6556721.0
+      },
+      "2021": {
+        "USD": 9721223.5
+      },
+      "2022": {
+        "USD": 16037063.5
+      },
+      "2023": {
+        "USD": 10088590.5
       },
       "2019": {
         "USD": 8214881.5

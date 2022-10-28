@@ -1,43 +1,43 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "itad-mw.xml": 1,
-      "itad-zw.xml": 1,
-      "itad-mz.xml": 1,
       "itad-et.xml": 1,
-      "itad-gh.xml": 2,
       "itad-gt.xml": 1,
-      "itad-er.xml": 1
+      "itad-gh.xml": 2,
+      "itad-er.xml": 1,
+      "itad-zw.xml": 1,
+      "itad-mw.xml": 1,
+      "itad-mz.xml": 1
     }
   },
   ".//@xml:lang": {
     "en": {
-      "itad-mw.xml": 12,
-      "itad-zw.xml": 16,
-      "itad-mz.xml": 18,
       "itad-et.xml": 9,
-      "itad-gh.xml": 33,
       "itad-gt.xml": 12,
-      "itad-er.xml": 15
+      "itad-gh.xml": 33,
+      "itad-er.xml": 15,
+      "itad-zw.xml": 16,
+      "itad-mw.xml": 12,
+      "itad-mz.xml": 18
     }
   },
   ".//activity-date/@type": {
     "1": {
-      "itad-mw.xml": 1,
-      "itad-zw.xml": 1,
-      "itad-et.xml": 1,
-      "itad-gh.xml": 1
-    },
-    "3": {
-      "itad-zw.xml": 1,
-      "itad-et.xml": 1
-    },
-    "2": {
-      "itad-mz.xml": 1,
       "itad-et.xml": 1,
       "itad-gh.xml": 1,
+      "itad-zw.xml": 1,
+      "itad-mw.xml": 1
+    },
+    "3": {
+      "itad-et.xml": 1,
+      "itad-zw.xml": 1
+    },
+    "2": {
+      "itad-et.xml": 1,
       "itad-gt.xml": 1,
-      "itad-er.xml": 1
+      "itad-gh.xml": 1,
+      "itad-er.xml": 1,
+      "itad-mz.xml": 1
     },
     "4": {
       "itad-er.xml": 1
@@ -45,12 +45,12 @@
   },
   ".//activity-status/@code": {
     "2": {
-      "itad-mw.xml": 1,
-      "itad-zw.xml": 1,
-      "itad-mz.xml": 1,
       "itad-et.xml": 1,
+      "itad-gt.xml": 1,
       "itad-gh.xml": 2,
-      "itad-gt.xml": 1
+      "itad-zw.xml": 1,
+      "itad-mw.xml": 1,
+      "itad-mz.xml": 1
     },
     "5": {
       "itad-er.xml": 1
@@ -64,12 +64,12 @@
   },
   ".//budget/@type": {
     "1": {
-      "itad-mw.xml": 1,
-      "itad-zw.xml": 1,
-      "itad-mz.xml": 1,
       "itad-et.xml": 2,
+      "itad-gt.xml": 1,
       "itad-gh.xml": 2,
-      "itad-gt.xml": 1
+      "itad-zw.xml": 1,
+      "itad-mw.xml": 1,
+      "itad-mz.xml": 1
     },
     "2": {
       "itad-er.xml": 4
@@ -77,35 +77,26 @@
   },
   ".//budget/value/@currency": {
     "GBP": {
-      "itad-mw.xml": 1,
-      "itad-zw.xml": 1,
-      "itad-mz.xml": 1,
       "itad-et.xml": 2,
       "itad-gh.xml": 2,
-      "itad-er.xml": 4
+      "itad-er.xml": 4,
+      "itad-zw.xml": 1,
+      "itad-mw.xml": 1,
+      "itad-mz.xml": 1
     }
   },
   ".//description/@type": {
     "1": {
-      "itad-mw.xml": 1,
-      "itad-zw.xml": 1,
-      "itad-mz.xml": 1,
       "itad-et.xml": 1,
-      "itad-gh.xml": 2,
       "itad-gt.xml": 1,
-      "itad-er.xml": 1
+      "itad-gh.xml": 2,
+      "itad-er.xml": 1,
+      "itad-zw.xml": 1,
+      "itad-mw.xml": 1,
+      "itad-mz.xml": 1
     }
   },
   ".//participating-org/@role": {
-    "4": {
-      "itad-mw.xml": 1,
-      "itad-zw.xml": 1,
-      "itad-mz.xml": 1,
-      "itad-et.xml": 1,
-      "itad-gh.xml": 2,
-      "itad-gt.xml": 1,
-      "itad-er.xml": 1
-    },
     "1": {
       "itad-et.xml": 1,
       "itad-er.xml": 1
@@ -113,57 +104,33 @@
     "2": {
       "itad-et.xml": 1,
       "itad-er.xml": 1
+    },
+    "4": {
+      "itad-et.xml": 1,
+      "itad-gt.xml": 1,
+      "itad-gh.xml": 2,
+      "itad-er.xml": 1,
+      "itad-zw.xml": 1,
+      "itad-mw.xml": 1,
+      "itad-mz.xml": 1
     }
   },
   ".//participating-org/@type": {
-    "70": {
-      "itad-mw.xml": 1,
-      "itad-zw.xml": 1,
-      "itad-mz.xml": 1,
-      "itad-et.xml": 2,
-      "itad-gh.xml": 2,
-      "itad-gt.xml": 1,
-      "itad-er.xml": 2
-    },
     "10": {
       "itad-et.xml": 1,
       "itad-er.xml": 1
+    },
+    "70": {
+      "itad-et.xml": 2,
+      "itad-gt.xml": 1,
+      "itad-gh.xml": 2,
+      "itad-er.xml": 2,
+      "itad-zw.xml": 1,
+      "itad-mw.xml": 1,
+      "itad-mz.xml": 1
     }
   },
   ".//recipient-country/@code": {
-    "MW": {
-      "itad-mw.xml": 1
-    },
-    "ZW": {
-      "itad-zw.xml": 1
-    },
-    "KE": {
-      "itad-zw.xml": 1
-    },
-    "ZA": {
-      "itad-zw.xml": 1
-    },
-    "IN": {
-      "itad-zw.xml": 1
-    },
-    "MZ": {
-      "itad-mz.xml": 1,
-      "itad-et.xml": 1
-    },
-    "LK": {
-      "itad-mz.xml": 1
-    },
-    "VN": {
-      "itad-mz.xml": 1,
-      "itad-gt.xml": 1
-    },
-    "KH": {
-      "itad-mz.xml": 1,
-      "itad-er.xml": 1
-    },
-    "LA": {
-      "itad-mz.xml": 1
-    },
     "ET": {
       "itad-et.xml": 1
     },
@@ -176,6 +143,10 @@
     "BF": {
       "itad-et.xml": 1,
       "itad-gh.xml": 1
+    },
+    "MZ": {
+      "itad-et.xml": 1,
+      "itad-mz.xml": 1
     },
     "CD": {
       "itad-et.xml": 1,
@@ -191,17 +162,6 @@
     "VU": {
       "itad-et.xml": 1
     },
-    "GH": {
-      "itad-gh.xml": 2,
-      "itad-gt.xml": 1
-    },
-    "NE": {
-      "itad-gh.xml": 1,
-      "itad-er.xml": 1
-    },
-    "NG": {
-      "itad-gh.xml": 1
-    },
     "GT": {
       "itad-gt.xml": 1
     },
@@ -210,6 +170,10 @@
     },
     "LR": {
       "itad-gt.xml": 1
+    },
+    "GH": {
+      "itad-gt.xml": 1,
+      "itad-gh.xml": 2
     },
     "CI": {
       "itad-gt.xml": 1
@@ -220,11 +184,26 @@
     "ID": {
       "itad-gt.xml": 1
     },
+    "VN": {
+      "itad-gt.xml": 1,
+      "itad-mz.xml": 1
+    },
     "CL": {
       "itad-gt.xml": 1
     },
+    "NE": {
+      "itad-gh.xml": 1,
+      "itad-er.xml": 1
+    },
+    "NG": {
+      "itad-gh.xml": 1
+    },
     "BD": {
       "itad-er.xml": 1
+    },
+    "KH": {
+      "itad-er.xml": 1,
+      "itad-mz.xml": 1
     },
     "ER": {
       "itad-er.xml": 1
@@ -243,45 +222,63 @@
     },
     "PK": {
       "itad-er.xml": 1
+    },
+    "ZW": {
+      "itad-zw.xml": 1
+    },
+    "KE": {
+      "itad-zw.xml": 1
+    },
+    "ZA": {
+      "itad-zw.xml": 1
+    },
+    "IN": {
+      "itad-zw.xml": 1
+    },
+    "MW": {
+      "itad-mw.xml": 1
+    },
+    "LK": {
+      "itad-mz.xml": 1
+    },
+    "LA": {
+      "itad-mz.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "70": {
-      "itad-mw.xml": 1,
-      "itad-zw.xml": 1,
-      "itad-mz.xml": 1,
       "itad-et.xml": 1,
-      "itad-gh.xml": 2,
       "itad-gt.xml": 1,
-      "itad-er.xml": 1
+      "itad-gh.xml": 2,
+      "itad-er.xml": 1,
+      "itad-zw.xml": 1,
+      "itad-mw.xml": 1,
+      "itad-mz.xml": 1
     }
   },
   ".//sector/@vocabulary": {
-    "1": {
-      "itad-mw.xml": 1,
-      "itad-zw.xml": 1,
-      "itad-mz.xml": 1,
-      "itad-et.xml": 1,
-      "itad-gh.xml": 2,
-      "itad-gt.xml": 1,
-      "itad-er.xml": 4
-    },
     "2": {
       "itad-et.xml": 1
+    },
+    "1": {
+      "itad-et.xml": 1,
+      "itad-gt.xml": 1,
+      "itad-gh.xml": 2,
+      "itad-er.xml": 4,
+      "itad-zw.xml": 1,
+      "itad-mw.xml": 1,
+      "itad-mz.xml": 1
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "15150": {
-      "itad-mw.xml": 1
-    },
-    "99810": {
-      "itad-zw.xml": 1,
-      "itad-mz.xml": 1,
-      "itad-gh.xml": 2,
-      "itad-gt.xml": 1
-    },
     "72010": {
       "itad-et.xml": 1
+    },
+    "99810": {
+      "itad-gt.xml": 1,
+      "itad-gh.xml": 2,
+      "itad-zw.xml": 1,
+      "itad-mz.xml": 1
     },
     "14010": {
       "itad-er.xml": 1
@@ -294,6 +291,9 @@
     },
     "14081": {
       "itad-er.xml": 1
+    },
+    "15150": {
+      "itad-mw.xml": 1
     }
   },
   ".//sector[@vocabulary = '2']/@code": {
@@ -328,22 +328,22 @@
   },
   ".//transaction/transaction-type/@code": {
     "4": {
-      "itad-mw.xml": 5,
-      "itad-zw.xml": 9,
-      "itad-mz.xml": 9,
       "itad-et.xml": 9,
-      "itad-gh.xml": 19,
       "itad-gt.xml": 7,
-      "itad-er.xml": 32
+      "itad-gh.xml": 19,
+      "itad-er.xml": 32,
+      "itad-zw.xml": 9,
+      "itad-mw.xml": 5,
+      "itad-mz.xml": 9
     },
     "1": {
-      "itad-mw.xml": 3,
-      "itad-zw.xml": 6,
-      "itad-mz.xml": 7,
       "itad-et.xml": 6,
-      "itad-gh.xml": 16,
       "itad-gt.xml": 4,
-      "itad-er.xml": 9
+      "itad-gh.xml": 16,
+      "itad-er.xml": 9,
+      "itad-zw.xml": 6,
+      "itad-mw.xml": 3,
+      "itad-mz.xml": 7
     },
     "7": {
       "itad-er.xml": 1
@@ -351,13 +351,13 @@
   },
   ".//transaction/value/@currency": {
     "GBP": {
-      "itad-mw.xml": 6,
-      "itad-zw.xml": 15,
-      "itad-mz.xml": 15,
       "itad-et.xml": 15,
-      "itad-gh.xml": 34,
       "itad-gt.xml": 11,
-      "itad-er.xml": 41
+      "itad-gh.xml": 34,
+      "itad-er.xml": 41,
+      "itad-zw.xml": 15,
+      "itad-mw.xml": 6,
+      "itad-mz.xml": 15
     }
   }
 }

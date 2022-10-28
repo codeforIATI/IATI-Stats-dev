@@ -3,8 +3,9 @@
     "EUR": 30
   },
   ".//@xml:lang": {
-    "en": 7592,
-    "nl": 244
+    "EN": 478,
+    "nl": 320,
+    "en": 7385
   },
   ".//activity-date/@type": {
     "1": 30,
@@ -48,11 +49,11 @@
   },
   ".//participating-org/@role": {
     "2": 30,
-    "4": 21,
+    "4": 51,
     "1": 2
   },
   ".//participating-org/@type": {
-    "21": 44,
+    "21": 74,
     "22": 7,
     "10": 2
   },
@@ -95,11 +96,15 @@
     "21": 30
   },
   ".//result/@type": {
+    "2": 36,
     "1": 107
   },
   ".//result/indicator/@measure": {
-    "1": 156,
-    "2": 1
+    "1": 202,
+    "2": 2
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": 128
   },
   ".//sector/@vocabulary": {
     "1": 59
@@ -108,13 +113,15 @@
     "15150": 30,
     "15152": 29
   },
+  ".//transaction/provider-org/@type": {
+    "10": 2
+  },
   ".//transaction/transaction-type/@code": {
     "2": 38,
-    "3": 94,
-    "4": 125,
+    "3": 105,
     "11": 2
   },
   ".//transaction/value/@currency": {
-    "EUR": 259
+    "EUR": 145
   }
 }

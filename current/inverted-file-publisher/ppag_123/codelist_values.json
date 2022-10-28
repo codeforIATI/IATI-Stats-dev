@@ -1,113 +1,130 @@
 {
   ".//@default-currency": {
     "USD": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//@xml:lang": {
     "en": {
-      "ppag_123-activities.xml": 210
+      "ppag_123-activities.xml": 336
     }
   },
   ".//activity-date/@type": {
     "1": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     },
     "2": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     },
     "3": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//activity-status/@code": {
     "2": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//budget/@status": {
     "2": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//budget/@type": {
     "1": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//budget/value/@currency": {
     "GHS": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//contact-info/@type": {
     "2": {
       "ppag_123-activities.xml": 1
+    },
+    "1": {
+      "ppag_123-activities.xml": 1
     }
   },
   ".//default-aid-type/@vocabulary": {
     "1": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//default-finance-type/@code": {
     "110": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//default-flow-type/@code": {
     "10": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//description/@type": {
     "1": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     },
     "2": {
-      "ppag_123-activities.xml": 1
-    }
-  },
-  ".//document-link/@format": {
-    "application/msword": {
       "ppag_123-activities.xml": 2
-    }
-  },
-  ".//document-link/category/@code": {
-    "A08": {
-      "ppag_123-activities.xml": 2
-    }
-  },
-  ".//document-link/language/@code": {
-    "en": {
-      "ppag_123-activities.xml": 2
-    }
-  },
-  ".//participating-org/@role": {
-    "2": {
-      "ppag_123-activities.xml": 1
-    },
-    "4": {
-      "ppag_123-activities.xml": 9
-    },
-    "1": {
-      "ppag_123-activities.xml": 1
     },
     "3": {
       "ppag_123-activities.xml": 1
     }
   },
+  ".//document-link/@format": {
+    "application/msword": {
+      "ppag_123-activities.xml": 3
+    }
+  },
+  ".//document-link/category/@code": {
+    "A08": {
+      "ppag_123-activities.xml": 2
+    },
+    "B01": {
+      "ppag_123-activities.xml": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "ppag_123-activities.xml": 3
+    }
+  },
+  ".//participating-org/@crs-channel-code": {
+    "11000": {
+      "ppag_123-activities.xml": 1
+    },
+    "20000": {
+      "ppag_123-activities.xml": 5
+    }
+  },
+  ".//participating-org/@role": {
+    "2": {
+      "ppag_123-activities.xml": 2
+    },
+    "4": {
+      "ppag_123-activities.xml": 12
+    },
+    "1": {
+      "ppag_123-activities.xml": 2
+    },
+    "3": {
+      "ppag_123-activities.xml": 2
+    }
+  },
   ".//participating-org/@type": {
     "22": {
-      "ppag_123-activities.xml": 11
+      "ppag_123-activities.xml": 16
     },
     "10": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//policy-marker/@significance": {
@@ -117,20 +134,20 @@
   },
   ".//policy-marker/@vocabulary": {
     "1": {
-      "ppag_123-activities.xml": 2
+      "ppag_123-activities.xml": 4
     }
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "1": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     },
     "3": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//recipient-country/@code": {
     "GH": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//recipient-region/@vocabulary": {
@@ -145,70 +162,73 @@
   },
   ".//reporting-org/@type": {
     "22": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//result/@type": {
     "1": {
-      "ppag_123-activities.xml": 30
+      "ppag_123-activities.xml": 53
     },
     "2": {
-      "ppag_123-activities.xml": 15
+      "ppag_123-activities.xml": 19
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "ppag_123-activities.xml": 56
+      "ppag_123-activities.xml": 93
     },
     "2": {
-      "ppag_123-activities.xml": 6
+      "ppag_123-activities.xml": 9
+    },
+    "5": {
+      "ppag_123-activities.xml": 1
     }
   },
   ".//sector/@vocabulary": {
     "1": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "15150": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//transaction/disbursement-channel/@code": {
     "2": {
-      "ppag_123-activities.xml": 10
+      "ppag_123-activities.xml": 19
     }
   },
   ".//transaction/provider-org/@type": {
-    "10": {
-      "ppag_123-activities.xml": 3
-    },
     "23": {
+      "ppag_123-activities.xml": 12
+    },
+    "10": {
       "ppag_123-activities.xml": 7
     }
   },
   ".//transaction/receiver-org/@type": {
     "23": {
-      "ppag_123-activities.xml": 11
+      "ppag_123-activities.xml": 20
     }
   },
   ".//transaction/transaction-type/@code": {
-    "11": {
-      "ppag_123-activities.xml": 1
+    "4": {
+      "ppag_123-activities.xml": 12
     },
-    "1": {
+    "11": {
       "ppag_123-activities.xml": 2
     },
-    "4": {
-      "ppag_123-activities.xml": 7
+    "1": {
+      "ppag_123-activities.xml": 4
     },
     "2": {
-      "ppag_123-activities.xml": 1
+      "ppag_123-activities.xml": 2
     }
   },
   ".//transaction/value/@currency": {
     "GHS": {
-      "ppag_123-activities.xml": 11
+      "ppag_123-activities.xml": 20
     }
   }
 }

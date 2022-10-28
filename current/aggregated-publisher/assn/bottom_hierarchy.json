@@ -48,7 +48,7 @@
     "country_or_region": 1,
     "transaction_commitment": 1,
     "transaction_spend": 1,
-    "transaction_currency": 0,
+    "transaction_currency": 1,
     "transaction_traceability": 1,
     "budget": 1,
     "budget_not_provided": 0,
@@ -144,6 +144,8 @@
     "iati-activity/transaction/recipient-country": 1,
     "iati-activity/transaction/recipient-country/@code": 1,
     "iati-activity/@last-updated-datetime": 1,
+    "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 1,
+    "iati-activity/@default-currency": 1,
     "iati-activity/@humanitarian": 1,
     "iati-activity/@hierarchy": 1
   },
@@ -227,6 +229,8 @@
     "iati-activity/transaction/recipient-country": 18,
     "iati-activity/transaction/recipient-country/@code": 18,
     "iati-activity/@last-updated-datetime": 1,
+    "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 1,
+    "iati-activity/@default-currency": 1,
     "iati-activity/@humanitarian": 1,
     "iati-activity/@hierarchy": 1
   },

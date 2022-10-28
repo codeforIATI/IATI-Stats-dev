@@ -1,19 +1,19 @@
 {
   "2": {
     ".//@default-currency": {
-      "sosnl-ng.xml": {
-        "EUR": 1
-      },
-      "sosnl-cf.xml": {
-        "EUR": 2
-      },
       "sosnl-298.xml": {
         "EUR": 8
       },
       "sosnl-et.xml": {
         "EUR": 6
       },
-      "sosnl-sd.xml": {
+      "sosnl-ng.xml": {
+        "EUR": 1
+      },
+      "sosnl-289.xml": {
+        "EUR": 5
+      },
+      "sosnl-co.xml": {
         "EUR": 1
       },
       "sosnl-489.xml": {
@@ -22,28 +22,17 @@
       "sosnl-so.xml": {
         "EUR": 3
       },
+      "sosnl-sd.xml": {
+        "EUR": 1
+      },
+      "sosnl-cf.xml": {
+        "EUR": 2
+      },
       "sosnl-ua.xml": {
         "EUR": 1
-      },
-      "sosnl-co.xml": {
-        "EUR": 1
-      },
-      "sosnl-289.xml": {
-        "EUR": 5
       }
     },
     ".//activity-date/@type": {
-      "sosnl-ng.xml": {
-        "1": 1,
-        "2": 1,
-        "3": 1
-      },
-      "sosnl-cf.xml": {
-        "1": 2,
-        "2": 1,
-        "3": 1,
-        "4": 2
-      },
       "sosnl-298.xml": {
         "2": 7,
         "1": 3,
@@ -55,8 +44,18 @@
         "3": 3,
         "4": 1
       },
-      "sosnl-sd.xml": {
-        "1": 1
+      "sosnl-ng.xml": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "sosnl-289.xml": {
+        "2": 5,
+        "4": 5
+      },
+      "sosnl-co.xml": {
+        "1": 1,
+        "4": 1
       },
       "sosnl-489.xml": {
         "2": 1,
@@ -68,28 +67,22 @@
         "4": 1,
         "2": 2
       },
+      "sosnl-sd.xml": {
+        "1": 1
+      },
+      "sosnl-cf.xml": {
+        "1": 2,
+        "2": 1,
+        "3": 1,
+        "4": 2
+      },
       "sosnl-ua.xml": {
         "1": 1,
         "2": 1,
         "3": 1
-      },
-      "sosnl-co.xml": {
-        "1": 1,
-        "4": 1
-      },
-      "sosnl-289.xml": {
-        "2": 5,
-        "4": 5
       }
     },
     ".//activity-status/@code": {
-      "sosnl-ng.xml": {
-        "2": 1
-      },
-      "sosnl-cf.xml": {
-        "4": 1,
-        "3": 1
-      },
       "sosnl-298.xml": {
         "2": 6,
         "3": 1,
@@ -99,8 +92,15 @@
         "2": 4,
         "4": 2
       },
-      "sosnl-sd.xml": {
+      "sosnl-ng.xml": {
         "2": 1
+      },
+      "sosnl-289.xml": {
+        "2": 3,
+        "3": 2
+      },
+      "sosnl-co.xml": {
+        "4": 1
       },
       "sosnl-489.xml": {
         "3": 1
@@ -109,26 +109,143 @@
         "2": 1,
         "3": 2
       },
-      "sosnl-ua.xml": {
+      "sosnl-sd.xml": {
         "2": 1
       },
-      "sosnl-co.xml": {
+      "sosnl-cf.xml": {
+        "4": 1,
+        "3": 1
+      },
+      "sosnl-ua.xml": {
+        "2": 1
+      }
+    },
+    ".//activity-scope/@code": {
+      "sosnl-298.xml": {
+        "5": 7,
         "4": 1
       },
+      "sosnl-et.xml": {
+        "4": 4,
+        "5": 2
+      },
       "sosnl-289.xml": {
-        "2": 3,
-        "3": 2
+        "3": 5
+      },
+      "sosnl-co.xml": {
+        "5": 1
+      },
+      "sosnl-489.xml": {
+        "4": 1
+      },
+      "sosnl-so.xml": {
+        "5": 1,
+        "4": 1
+      },
+      "sosnl-sd.xml": {
+        "4": 1
+      },
+      "sosnl-cf.xml": {
+        "6": 2
+      },
+      "sosnl-ua.xml": {
+        "5": 1
+      }
+    },
+    ".//budget/@status": {
+      "sosnl-298.xml": {
+        "2": 9
+      },
+      "sosnl-et.xml": {
+        "2": 13
+      },
+      "sosnl-289.xml": {
+        "2": 17,
+        "1": 3
+      },
+      "sosnl-co.xml": {
+        "2": 1
+      },
+      "sosnl-489.xml": {
+        "2": 1
+      },
+      "sosnl-so.xml": {
+        "2": 3
+      },
+      "sosnl-sd.xml": {
+        "2": 2
+      },
+      "sosnl-cf.xml": {
+        "2": 2
+      },
+      "sosnl-ua.xml": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "sosnl-298.xml": {
+        "1": 7,
+        "2": 2
+      },
+      "sosnl-et.xml": {
+        "1": 8,
+        "2": 5
+      },
+      "sosnl-289.xml": {
+        "1": 14,
+        "2": 5
+      },
+      "sosnl-co.xml": {
+        "1": 1
+      },
+      "sosnl-489.xml": {
+        "1": 1
+      },
+      "sosnl-so.xml": {
+        "2": 1,
+        "1": 2
+      },
+      "sosnl-sd.xml": {
+        "1": 1,
+        "2": 1
+      },
+      "sosnl-cf.xml": {
+        "2": 2
+      },
+      "sosnl-ua.xml": {
+        "1": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "sosnl-298.xml": {
+        "EUR": 9
+      },
+      "sosnl-et.xml": {
+        "EUR": 12
+      },
+      "sosnl-289.xml": {
+        "EUR": 19
+      },
+      "sosnl-co.xml": {
+        "EUR": 1
+      },
+      "sosnl-489.xml": {
+        "EUR": 1
+      },
+      "sosnl-so.xml": {
+        "EUR": 3
+      },
+      "sosnl-sd.xml": {
+        "EUR": 2
+      },
+      "sosnl-cf.xml": {
+        "EUR": 2
+      },
+      "sosnl-ua.xml": {
+        "EUR": 1
       }
     },
     ".//description/@type": {
-      "sosnl-ng.xml": {
-        "1": 1
-      },
-      "sosnl-cf.xml": {
-        "1": 2,
-        "2": 1,
-        "3": 1
-      },
       "sosnl-298.xml": {
         "1": 8
       },
@@ -137,8 +254,18 @@
         "2": 1,
         "3": 1
       },
-      "sosnl-sd.xml": {
+      "sosnl-ng.xml": {
         "1": 1
+      },
+      "sosnl-289.xml": {
+        "2": 4,
+        "1": 2,
+        "3": 1
+      },
+      "sosnl-co.xml": {
+        "1": 1,
+        "2": 1,
+        "3": 1
       },
       "sosnl-489.xml": {
         "1": 1
@@ -148,32 +275,74 @@
         "2": 1,
         "3": 1
       },
+      "sosnl-sd.xml": {
+        "1": 1
+      },
+      "sosnl-cf.xml": {
+        "1": 2,
+        "2": 1,
+        "3": 1
+      },
       "sosnl-ua.xml": {
         "1": 1,
         "2": 1,
         "3": 1
-      },
-      "sosnl-co.xml": {
-        "1": 1,
-        "2": 1,
-        "3": 1
-      },
-      "sosnl-289.xml": {
-        "2": 4,
-        "1": 2,
-        "3": 1
       }
     },
-    ".//participating-org/@role": {
-      "sosnl-ng.xml": {
-        "4": 5,
+    ".//location/location-class/@code": {
+      "sosnl-298.xml": {
+        "1": 5
+      },
+      "sosnl-et.xml": {
+        "1": 1
+      },
+      "sosnl-co.xml": {
+        "1": 1
+      },
+      "sosnl-so.xml": {
+        "1": 1
+      },
+      "sosnl-cf.xml": {
+        "1": 1
+      }
+    },
+    ".//location/location-reach/@code": {
+      "sosnl-298.xml": {
+        "2": 1
+      },
+      "sosnl-co.xml": {
+        "2": 1
+      },
+      "sosnl-so.xml": {
+        "2": 1
+      }
+    },
+    ".//location/exactness/@code": {
+      "sosnl-298.xml": {
+        "2": 3,
+        "1": 5
+      },
+      "sosnl-et.xml": {
+        "2": 1
+      },
+      "sosnl-co.xml": {
+        "2": 1
+      },
+      "sosnl-so.xml": {
         "2": 1
       },
       "sosnl-cf.xml": {
-        "1": 2,
-        "2": 2,
-        "4": 3
-      },
+        "1": 1
+      }
+    },
+    ".//participating-org/@crs-channel-code": {
+      "sosnl-298.xml": {
+        "11000": 2,
+        "21000": 2,
+        "20000": 1
+      }
+    },
+    ".//participating-org/@role": {
       "sosnl-298.xml": {
         "1": 8,
         "2": 8,
@@ -184,10 +353,19 @@
         "2": 6,
         "4": 15
       },
-      "sosnl-sd.xml": {
+      "sosnl-ng.xml": {
+        "4": 5,
+        "2": 1
+      },
+      "sosnl-289.xml": {
+        "4": 13,
         "1": 1,
-        "2": 1,
-        "4": 1
+        "2": 1
+      },
+      "sosnl-co.xml": {
+        "1": 1,
+        "4": 5,
+        "2": 1
       },
       "sosnl-489.xml": {
         "1": 1,
@@ -199,32 +377,23 @@
         "2": 2,
         "4": 10
       },
+      "sosnl-sd.xml": {
+        "1": 1,
+        "2": 1,
+        "4": 1
+      },
+      "sosnl-cf.xml": {
+        "1": 2,
+        "2": 2,
+        "4": 3
+      },
       "sosnl-ua.xml": {
         "4": 1,
-        "1": 1,
-        "2": 1
-      },
-      "sosnl-co.xml": {
-        "1": 1,
-        "4": 5,
-        "2": 1
-      },
-      "sosnl-289.xml": {
-        "4": 13,
         "1": 1,
         "2": 1
       }
     },
     ".//participating-org/@type": {
-      "sosnl-ng.xml": {
-        "22": 4,
-        "60": 2
-      },
-      "sosnl-cf.xml": {
-        "21": 3,
-        "22": 3,
-        "60": 1
-      },
       "sosnl-298.xml": {
         "21": 8,
         "60": 8,
@@ -235,10 +404,19 @@
         "21": 10,
         "22": 6
       },
-      "sosnl-sd.xml": {
-        "21": 1,
+      "sosnl-ng.xml": {
+        "22": 4,
+        "60": 2
+      },
+      "sosnl-289.xml": {
+        "60": 5,
+        "22": 8,
+        "10": 1
+      },
+      "sosnl-co.xml": {
         "60": 1,
-        "22": 1
+        "22": 1,
+        "21": 5
       },
       "sosnl-489.xml": {
         "15": 1,
@@ -250,31 +428,23 @@
         "22": 4,
         "60": 1
       },
+      "sosnl-sd.xml": {
+        "21": 1,
+        "60": 1,
+        "22": 1
+      },
+      "sosnl-cf.xml": {
+        "21": 3,
+        "22": 3,
+        "60": 1
+      },
       "sosnl-ua.xml": {
         "22": 1,
         "21": 1,
         "60": 1
-      },
-      "sosnl-co.xml": {
-        "60": 1,
-        "22": 1,
-        "21": 5
-      },
-      "sosnl-289.xml": {
-        "60": 5,
-        "22": 8,
-        "10": 1
       }
     },
     ".//recipient-country/@code": {
-      "sosnl-ng.xml": {
-        "SO": 1,
-        "ML": 1,
-        "NG": 1
-      },
-      "sosnl-cf.xml": {
-        "CF": 2
-      },
       "sosnl-298.xml": {
         "SO": 3,
         "CF": 2,
@@ -285,8 +455,19 @@
       "sosnl-et.xml": {
         "ET": 6
       },
-      "sosnl-sd.xml": {
-        "SD": 1
+      "sosnl-ng.xml": {
+        "SO": 1,
+        "ML": 1,
+        "NG": 1
+      },
+      "sosnl-289.xml": {
+        "NG": 5,
+        "ML": 5,
+        "SO": 5,
+        "NL": 1
+      },
+      "sosnl-co.xml": {
+        "CO": 1
       },
       "sosnl-489.xml": {
         "CO": 1,
@@ -296,33 +477,65 @@
         "SO": 3,
         "ET": 1
       },
+      "sosnl-sd.xml": {
+        "SD": 1
+      },
+      "sosnl-cf.xml": {
+        "CF": 2
+      },
       "sosnl-ua.xml": {
         "UA": 1
-      },
-      "sosnl-co.xml": {
-        "CO": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "sosnl-298.xml": {
+        "298": 8
       },
       "sosnl-289.xml": {
-        "NG": 5,
-        "ML": 5,
-        "SO": 5,
-        "NL": 1
+        "289": 4
+      },
+      "sosnl-489.xml": {
+        "489": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "sosnl-298.xml": {
+        "1": 8
+      },
+      "sosnl-289.xml": {
+        "1": 4,
+        "99": 1
+      },
+      "sosnl-489.xml": {
+        "1": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "sosnl-298.xml": {
+        "1": 1
+      },
+      "sosnl-289.xml": {
+        "2": 8,
+        "1": 1
+      },
+      "sosnl-cf.xml": {
+        "1": 2
       }
     },
     ".//reporting-org/@type": {
-      "sosnl-ng.xml": {
-        "60": 1
-      },
-      "sosnl-cf.xml": {
-        "60": 2
-      },
       "sosnl-298.xml": {
         "60": 8
       },
       "sosnl-et.xml": {
         "60": 6
       },
-      "sosnl-sd.xml": {
+      "sosnl-ng.xml": {
+        "60": 1
+      },
+      "sosnl-289.xml": {
+        "60": 5
+      },
+      "sosnl-co.xml": {
         "60": 1
       },
       "sosnl-489.xml": {
@@ -331,32 +544,33 @@
       "sosnl-so.xml": {
         "60": 3
       },
+      "sosnl-sd.xml": {
+        "60": 1
+      },
+      "sosnl-cf.xml": {
+        "60": 2
+      },
       "sosnl-ua.xml": {
         "60": 1
-      },
-      "sosnl-co.xml": {
-        "60": 1
-      },
-      "sosnl-289.xml": {
-        "60": 5
       }
     },
     ".//result/@type": {
-      "sosnl-ng.xml": {
-        "9": 2,
-        "2": 4
-      },
-      "sosnl-cf.xml": {
-        "1": 24
-      },
       "sosnl-298.xml": {
         "1": 105
       },
       "sosnl-et.xml": {
         "1": 49
       },
-      "sosnl-sd.xml": {
-        "1": 15
+      "sosnl-ng.xml": {
+        "9": 2,
+        "2": 4
+      },
+      "sosnl-289.xml": {
+        "1": 12,
+        "2": 8
+      },
+      "sosnl-co.xml": {
+        "1": 10
       },
       "sosnl-489.xml": {
         "1": 7,
@@ -365,25 +579,17 @@
       "sosnl-so.xml": {
         "1": 21
       },
+      "sosnl-sd.xml": {
+        "1": 15
+      },
+      "sosnl-cf.xml": {
+        "1": 24
+      },
       "sosnl-ua.xml": {
         "1": 20
-      },
-      "sosnl-co.xml": {
-        "1": 10
-      },
-      "sosnl-289.xml": {
-        "1": 12,
-        "2": 8
       }
     },
     ".//result/indicator/@measure": {
-      "sosnl-ng.xml": {
-        "1": 6
-      },
-      "sosnl-cf.xml": {
-        "2": 3,
-        "1": 21
-      },
       "sosnl-298.xml": {
         "1": 99,
         "2": 6
@@ -392,9 +598,14 @@
         "1": 43,
         "2": 7
       },
-      "sosnl-sd.xml": {
-        "1": 13,
-        "2": 2
+      "sosnl-ng.xml": {
+        "1": 6
+      },
+      "sosnl-289.xml": {
+        "1": 20
+      },
+      "sosnl-co.xml": {
+        "1": 10
       },
       "sosnl-489.xml": {
         "3": 9,
@@ -404,25 +615,20 @@
         "1": 20,
         "2": 1
       },
+      "sosnl-sd.xml": {
+        "1": 13,
+        "2": 2
+      },
+      "sosnl-cf.xml": {
+        "2": 3,
+        "1": 21
+      },
       "sosnl-ua.xml": {
         "1": 18,
         "2": 2
-      },
-      "sosnl-co.xml": {
-        "1": 10
-      },
-      "sosnl-289.xml": {
-        "1": 20
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "sosnl-ng.xml": {
-        "16020": 1
-      },
-      "sosnl-cf.xml": {
-        "72050": 1,
-        "72010": 1
-      },
       "sosnl-298.xml": {
         "12240": 1,
         "14031": 1
@@ -431,8 +637,24 @@
         "72040": 1,
         "72050": 1
       },
+      "sosnl-ng.xml": {
+        "16020": 1
+      },
+      "sosnl-289.xml": {
+        "32130": 3,
+        "11230": 3
+      },
+      "sosnl-co.xml": {
+        "72040": 1,
+        "72050": 1,
+        "72010": 1
+      },
       "sosnl-so.xml": {
         "72040": 1,
+        "72050": 1,
+        "72010": 1
+      },
+      "sosnl-cf.xml": {
         "72050": 1,
         "72010": 1
       },
@@ -440,25 +662,29 @@
         "72040": 1,
         "72010": 2,
         "72050": 1
+      }
+    },
+    ".//sector[@vocabulary = '2']/@code": {
+      "sosnl-298.xml": {
+        "720": 7
       },
-      "sosnl-co.xml": {
-        "72040": 1,
-        "72050": 1,
-        "72010": 1
+      "sosnl-et.xml": {
+        "720": 4
       },
-      "sosnl-289.xml": {
-        "32130": 3,
-        "11230": 3
+      "sosnl-489.xml": {
+        "720": 1
+      },
+      "sosnl-so.xml": {
+        "720": 2
+      },
+      "sosnl-sd.xml": {
+        "720": 1
+      },
+      "sosnl-cf.xml": {
+        "720": 1
       }
     },
     ".//sector/@vocabulary": {
-      "sosnl-ng.xml": {
-        "1": 1
-      },
-      "sosnl-cf.xml": {
-        "1": 2,
-        "2": 1
-      },
       "sosnl-298.xml": {
         "2": 7,
         "1": 2
@@ -468,8 +694,14 @@
         "2": 4,
         "1": 2
       },
-      "sosnl-sd.xml": {
-        "2": 1
+      "sosnl-ng.xml": {
+        "1": 1
+      },
+      "sosnl-289.xml": {
+        "1": 6
+      },
+      "sosnl-co.xml": {
+        "1": 3
       },
       "sosnl-489.xml": {
         "2": 1
@@ -478,344 +710,53 @@
         "1": 3,
         "2": 2
       },
+      "sosnl-sd.xml": {
+        "2": 1
+      },
+      "sosnl-cf.xml": {
+        "1": 2,
+        "2": 1
+      },
       "sosnl-ua.xml": {
         "1": 4
-      },
-      "sosnl-co.xml": {
-        "1": 3
-      },
-      "sosnl-289.xml": {
-        "1": 6
-      }
-    },
-    ".//@xml:lang": {
-      "sosnl-ng.xml": {
-        "en": 4
-      },
-      "sosnl-cf.xml": {
-        "en": 14
-      },
-      "sosnl-298.xml": {
-        "en": 81
-      },
-      "sosnl-et.xml": {
-        "en": 38
-      },
-      "sosnl-sd.xml": {
-        "en": 5
-      },
-      "sosnl-489.xml": {
-        "en": 19
-      },
-      "sosnl-so.xml": {
-        "en": 18
-      },
-      "sosnl-ua.xml": {
-        "en": 41
-      },
-      "sosnl-co.xml": {
-        "en": 9
-      },
-      "sosnl-289.xml": {
-        "en": 68
-      }
-    },
-    ".//activity-scope/@code": {
-      "sosnl-cf.xml": {
-        "6": 2
-      },
-      "sosnl-298.xml": {
-        "5": 7,
-        "4": 1
-      },
-      "sosnl-et.xml": {
-        "4": 4,
-        "5": 2
-      },
-      "sosnl-sd.xml": {
-        "4": 1
-      },
-      "sosnl-489.xml": {
-        "4": 1
-      },
-      "sosnl-so.xml": {
-        "5": 1,
-        "4": 1
-      },
-      "sosnl-ua.xml": {
-        "5": 1
-      },
-      "sosnl-co.xml": {
-        "5": 1
-      },
-      "sosnl-289.xml": {
-        "3": 5
-      }
-    },
-    ".//budget/@status": {
-      "sosnl-cf.xml": {
-        "2": 2
-      },
-      "sosnl-298.xml": {
-        "2": 9
-      },
-      "sosnl-et.xml": {
-        "2": 13
-      },
-      "sosnl-sd.xml": {
-        "2": 2
-      },
-      "sosnl-489.xml": {
-        "2": 1
-      },
-      "sosnl-so.xml": {
-        "2": 3
-      },
-      "sosnl-ua.xml": {
-        "2": 1
-      },
-      "sosnl-co.xml": {
-        "2": 1
-      },
-      "sosnl-289.xml": {
-        "2": 17,
-        "1": 3
-      }
-    },
-    ".//budget/@type": {
-      "sosnl-cf.xml": {
-        "2": 2
-      },
-      "sosnl-298.xml": {
-        "1": 7,
-        "2": 2
-      },
-      "sosnl-et.xml": {
-        "1": 8,
-        "2": 5
-      },
-      "sosnl-sd.xml": {
-        "1": 1,
-        "2": 1
-      },
-      "sosnl-489.xml": {
-        "1": 1
-      },
-      "sosnl-so.xml": {
-        "2": 1,
-        "1": 2
-      },
-      "sosnl-ua.xml": {
-        "1": 1
-      },
-      "sosnl-co.xml": {
-        "1": 1
-      },
-      "sosnl-289.xml": {
-        "1": 14,
-        "2": 5
-      }
-    },
-    ".//budget/value/@currency": {
-      "sosnl-cf.xml": {
-        "EUR": 2
-      },
-      "sosnl-298.xml": {
-        "EUR": 9
-      },
-      "sosnl-et.xml": {
-        "EUR": 12
-      },
-      "sosnl-sd.xml": {
-        "EUR": 2
-      },
-      "sosnl-489.xml": {
-        "EUR": 1
-      },
-      "sosnl-so.xml": {
-        "EUR": 3
-      },
-      "sosnl-ua.xml": {
-        "EUR": 1
-      },
-      "sosnl-co.xml": {
-        "EUR": 1
-      },
-      "sosnl-289.xml": {
-        "EUR": 19
-      }
-    },
-    ".//location/location-class/@code": {
-      "sosnl-cf.xml": {
-        "1": 1
-      },
-      "sosnl-298.xml": {
-        "1": 5
-      },
-      "sosnl-et.xml": {
-        "1": 1
-      },
-      "sosnl-so.xml": {
-        "1": 1
-      },
-      "sosnl-co.xml": {
-        "1": 1
-      }
-    },
-    ".//location/exactness/@code": {
-      "sosnl-cf.xml": {
-        "1": 1
-      },
-      "sosnl-298.xml": {
-        "2": 3,
-        "1": 5
-      },
-      "sosnl-et.xml": {
-        "2": 1
-      },
-      "sosnl-so.xml": {
-        "2": 1
-      },
-      "sosnl-co.xml": {
-        "2": 1
-      }
-    },
-    ".//related-activity/@type": {
-      "sosnl-cf.xml": {
-        "1": 2
-      },
-      "sosnl-298.xml": {
-        "1": 1
-      },
-      "sosnl-289.xml": {
-        "2": 8,
-        "1": 1
-      }
-    },
-    ".//sector[@vocabulary = '2']/@code": {
-      "sosnl-cf.xml": {
-        "720": 1
-      },
-      "sosnl-298.xml": {
-        "720": 7
-      },
-      "sosnl-et.xml": {
-        "720": 4
-      },
-      "sosnl-sd.xml": {
-        "720": 1
-      },
-      "sosnl-489.xml": {
-        "720": 1
-      },
-      "sosnl-so.xml": {
-        "720": 2
-      }
-    },
-    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "sosnl-cf.xml": {
-        "C01": 4
-      },
-      "sosnl-so.xml": {
-        "H02": 1
-      },
-      "sosnl-ua.xml": {
-        "C01": 5
-      },
-      "sosnl-co.xml": {
-        "H02": 1
-      },
-      "sosnl-289.xml": {
-        "B03": 20,
-        "C01": 7
-      }
-    },
-    ".//transaction/aid-type/@vocabulary": {
-      "sosnl-cf.xml": {
-        "1": 4
-      },
-      "sosnl-so.xml": {
-        "1": 1
-      },
-      "sosnl-ua.xml": {
-        "1": 5
-      },
-      "sosnl-co.xml": {
-        "1": 1
-      },
-      "sosnl-289.xml": {
-        "1": 27
       }
     },
     ".//transaction/disbursement-channel/@code": {
-      "sosnl-cf.xml": {
-        "2": 4
-      },
       "sosnl-298.xml": {
         "2": 3
       },
-      "sosnl-so.xml": {
-        "2": 8,
-        "1": 1
-      },
-      "sosnl-ua.xml": {
-        "2": 5
+      "sosnl-289.xml": {
+        "2": 25
       },
       "sosnl-co.xml": {
         "2": 12,
         "1": 1
       },
-      "sosnl-289.xml": {
-        "2": 25
-      }
-    },
-    ".//transaction/finance-type/@code": {
-      "sosnl-cf.xml": {
-        "110": 4
-      },
       "sosnl-so.xml": {
-        "110": 9
+        "2": 8,
+        "1": 1
+      },
+      "sosnl-cf.xml": {
+        "2": 4
       },
       "sosnl-ua.xml": {
-        "110": 5
-      },
-      "sosnl-co.xml": {
-        "110": 9
-      },
-      "sosnl-289.xml": {
-        "110": 27
-      }
-    },
-    ".//transaction/flow-type/@code": {
-      "sosnl-cf.xml": {
-        "30": 4
-      },
-      "sosnl-so.xml": {
-        "10": 1
-      },
-      "sosnl-ua.xml": {
-        "30": 5
-      },
-      "sosnl-co.xml": {
-        "10": 1
-      },
-      "sosnl-289.xml": {
-        "10": 20,
-        "30": 7
+        "2": 5
       }
     },
     ".//transaction/provider-org/@type": {
-      "sosnl-cf.xml": {
-        "21": 12
-      },
       "sosnl-298.xml": {
         "21": 55
       },
       "sosnl-et.xml": {
         "21": 54
       },
-      "sosnl-sd.xml": {
-        "21": 7
+      "sosnl-289.xml": {
+        "60": 12,
+        "10": 5
+      },
+      "sosnl-co.xml": {
+        "21": 21,
+        "10": 1
       },
       "sosnl-489.xml": {
         "21": 1
@@ -824,23 +765,17 @@
         "21": 23,
         "10": 2
       },
+      "sosnl-sd.xml": {
+        "21": 7
+      },
+      "sosnl-cf.xml": {
+        "21": 12
+      },
       "sosnl-ua.xml": {
         "21": 5
-      },
-      "sosnl-co.xml": {
-        "21": 21,
-        "10": 1
-      },
-      "sosnl-289.xml": {
-        "60": 12,
-        "10": 5
       }
     },
     ".//transaction/receiver-org/@type": {
-      "sosnl-cf.xml": {
-        "21": 6,
-        "22": 1
-      },
       "sosnl-298.xml": {
         "22": 39,
         "21": 15
@@ -849,9 +784,13 @@
         "21": 40,
         "22": 16
       },
-      "sosnl-sd.xml": {
+      "sosnl-289.xml": {
+        "60": 12,
         "21": 4,
-        "22": 3
+        "22": 1
+      },
+      "sosnl-co.xml": {
+        "21": 19
       },
       "sosnl-489.xml": {
         "22": 1
@@ -860,43 +799,19 @@
         "21": 19,
         "22": 5
       },
+      "sosnl-sd.xml": {
+        "21": 4,
+        "22": 3
+      },
+      "sosnl-cf.xml": {
+        "21": 6,
+        "22": 1
+      },
       "sosnl-ua.xml": {
         "21": 1
-      },
-      "sosnl-co.xml": {
-        "21": 19
-      },
-      "sosnl-289.xml": {
-        "60": 12,
-        "21": 4,
-        "22": 1
-      }
-    },
-    ".//transaction/tied-status/@code": {
-      "sosnl-cf.xml": {
-        "4": 4
-      },
-      "sosnl-so.xml": {
-        "4": 9
-      },
-      "sosnl-ua.xml": {
-        "4": 5
-      },
-      "sosnl-co.xml": {
-        "4": 19
-      },
-      "sosnl-289.xml": {
-        "4": 20,
-        "5": 7
       }
     },
     ".//transaction/transaction-type/@code": {
-      "sosnl-cf.xml": {
-        "3": 8,
-        "1": 4,
-        "2": 1,
-        "11": 1
-      },
       "sosnl-298.xml": {
         "2": 7,
         "3": 32,
@@ -909,11 +824,14 @@
         "1": 5,
         "11": 9
       },
-      "sosnl-sd.xml": {
-        "11": 2,
-        "2": 1,
-        "3": 2,
-        "1": 2
+      "sosnl-289.xml": {
+        "1": 25,
+        "11": 2
+      },
+      "sosnl-co.xml": {
+        "2": 9,
+        "3": 13,
+        "11": 1
       },
       "sosnl-489.xml": {
         "3": 1
@@ -924,33 +842,36 @@
         "2": 10,
         "3": 14
       },
+      "sosnl-sd.xml": {
+        "11": 2,
+        "2": 1,
+        "3": 2,
+        "1": 2
+      },
+      "sosnl-cf.xml": {
+        "3": 8,
+        "1": 4,
+        "2": 1,
+        "11": 1
+      },
       "sosnl-ua.xml": {
         "1": 1,
         "2": 4,
         "3": 3
-      },
-      "sosnl-co.xml": {
-        "2": 9,
-        "3": 13,
-        "11": 1
-      },
-      "sosnl-289.xml": {
-        "1": 25,
-        "11": 2
       }
     },
     ".//transaction/value/@currency": {
-      "sosnl-cf.xml": {
-        "EUR": 14
-      },
       "sosnl-298.xml": {
         "EUR": 55
       },
       "sosnl-et.xml": {
         "EUR": 52
       },
-      "sosnl-sd.xml": {
-        "EUR": 7
+      "sosnl-289.xml": {
+        "EUR": 27
+      },
+      "sosnl-co.xml": {
+        "EUR": 23
       },
       "sosnl-489.xml": {
         "EUR": 1
@@ -958,65 +879,56 @@
       "sosnl-so.xml": {
         "EUR": 27
       },
+      "sosnl-sd.xml": {
+        "EUR": 7
+      },
+      "sosnl-cf.xml": {
+        "EUR": 14
+      },
       "sosnl-ua.xml": {
         "EUR": 8
-      },
-      "sosnl-co.xml": {
-        "EUR": 23
-      },
-      "sosnl-289.xml": {
-        "EUR": 27
       }
     },
-    ".//location/location-reach/@code": {
+    ".//@xml:lang": {
       "sosnl-298.xml": {
-        "2": 1
+        "en": 81
+      },
+      "sosnl-et.xml": {
+        "en": 38
+      },
+      "sosnl-ng.xml": {
+        "en": 4
+      },
+      "sosnl-289.xml": {
+        "en": 68
+      },
+      "sosnl-co.xml": {
+        "en": 9
+      },
+      "sosnl-489.xml": {
+        "en": 19
       },
       "sosnl-so.xml": {
-        "2": 1
+        "en": 18
       },
-      "sosnl-co.xml": {
-        "2": 1
-      }
-    },
-    ".//participating-org/@crs-channel-code": {
-      "sosnl-298.xml": {
-        "11000": 2,
-        "21000": 2,
-        "20000": 1
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "sosnl-298.xml": {
-        "298": 8
+      "sosnl-sd.xml": {
+        "en": 5
       },
-      "sosnl-489.xml": {
-        "489": 1
+      "sosnl-cf.xml": {
+        "en": 14
       },
-      "sosnl-289.xml": {
-        "289": 4
-      }
-    },
-    ".//recipient-region/@vocabulary": {
-      "sosnl-298.xml": {
-        "1": 8
-      },
-      "sosnl-489.xml": {
-        "1": 1
-      },
-      "sosnl-289.xml": {
-        "1": 4,
-        "99": 1
+      "sosnl-ua.xml": {
+        "en": 41
       }
     },
     ".//location/location-id/@vocabulary": {
       "sosnl-et.xml": {
         "A3": 1
       },
-      "sosnl-so.xml": {
+      "sosnl-co.xml": {
         "A3": 1
       },
-      "sosnl-co.xml": {
+      "sosnl-so.xml": {
         "A3": 1
       }
     },
@@ -1029,19 +941,107 @@
         "Support": 1
       }
     },
-    ".//location/administrative/@vocabulary": {
-      "sosnl-so.xml": {
-        "A1": 1
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "sosnl-289.xml": {
+        "B03": 20,
+        "C01": 7
       },
       "sosnl-co.xml": {
+        "H02": 1
+      },
+      "sosnl-so.xml": {
+        "H02": 1
+      },
+      "sosnl-cf.xml": {
+        "C01": 4
+      },
+      "sosnl-ua.xml": {
+        "C01": 5
+      }
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "sosnl-289.xml": {
+        "1": 27
+      },
+      "sosnl-co.xml": {
+        "1": 1
+      },
+      "sosnl-so.xml": {
+        "1": 1
+      },
+      "sosnl-cf.xml": {
+        "1": 4
+      },
+      "sosnl-ua.xml": {
+        "1": 5
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "sosnl-289.xml": {
+        "110": 27
+      },
+      "sosnl-co.xml": {
+        "110": 9
+      },
+      "sosnl-so.xml": {
+        "110": 9
+      },
+      "sosnl-cf.xml": {
+        "110": 4
+      },
+      "sosnl-ua.xml": {
+        "110": 5
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "sosnl-289.xml": {
+        "10": 20,
+        "30": 7
+      },
+      "sosnl-co.xml": {
+        "10": 1
+      },
+      "sosnl-so.xml": {
+        "10": 1
+      },
+      "sosnl-cf.xml": {
+        "30": 4
+      },
+      "sosnl-ua.xml": {
+        "30": 5
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "sosnl-289.xml": {
+        "4": 20,
+        "5": 7
+      },
+      "sosnl-co.xml": {
+        "4": 19
+      },
+      "sosnl-so.xml": {
+        "4": 9
+      },
+      "sosnl-cf.xml": {
+        "4": 4
+      },
+      "sosnl-ua.xml": {
+        "4": 5
+      }
+    },
+    ".//location/administrative/@vocabulary": {
+      "sosnl-co.xml": {
+        "A1": 1
+      },
+      "sosnl-so.xml": {
         "A1": 1
       }
     },
     ".//location/feature-designation/@code": {
-      "sosnl-so.xml": {
+      "sosnl-co.xml": {
         "ADM1": 1
       },
-      "sosnl-co.xml": {
+      "sosnl-so.xml": {
         "ADM1": 1
       }
     }

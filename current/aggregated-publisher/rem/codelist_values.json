@@ -20,8 +20,8 @@
     "1": 4
   },
   ".//budget/value/@currency": {
-    "GBP": 1,
     "EUR": 2,
+    "GBP": 1,
     "USD": 1
   },
   ".//description/@type": {
@@ -45,20 +45,20 @@
     "22": 1
   },
   ".//recipient-country/@code": {
-    "LK": 1,
     "CG": 1,
     "CF": 1,
     "GA": 1,
     "CM": 1,
     "CD": 2,
+    "LK": 1,
     "LR": 1
   },
   ".//reporting-org/@type": {
     "21": 4
   },
   ".//sector/@vocabulary": {
-    "ADT": 3,
-    "DAC": 4
+    "DAC": 4,
+    "ADT": 3
   },
   ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
     "15150": 2,
@@ -80,8 +80,8 @@
     "E": 8
   },
   ".//transaction/value/@currency": {
-    "GBP": 3,
     "EUR": 4,
+    "GBP": 3,
     "USD": 1
   }
 }

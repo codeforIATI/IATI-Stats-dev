@@ -5,9 +5,9 @@
     },
     ".//activity-date/@type": {
       "2": 11,
-      "3": 11,
       "4": 8,
-      "1": 6
+      "1": 6,
+      "3": 11
     },
     ".//activity-status/@code": {
       "4": 7,
@@ -37,16 +37,16 @@
       "application/msword": 1
     },
     ".//document-link/category/@code": {
-      "A02": 20,
       "B01": 149,
-      "A05": 18,
+      "A02": 20,
       "A08": 12,
-      "A01": 4,
-      "A07": 6,
       "B02": 2,
+      "A07": 6,
       "A03": 2,
+      "A05": 18,
       "B09": 1,
-      "A06": 1
+      "A06": 1,
+      "A01": 4
     },
     ".//document-link/language/@code": {
       "en": 161
@@ -62,11 +62,11 @@
       "21": 1
     },
     ".//recipient-country/@code": {
-      "TZ": 4,
-      "ZW": 4,
       "ZM": 4,
+      "GH": 2,
       "MW": 2,
-      "GH": 2
+      "TZ": 4,
+      "ZW": 4
     },
     ".//reporting-org/@type": {
       "21": 13
@@ -78,6 +78,9 @@
     ".//sector/@vocabulary": {
       "1": 14
     },
+    ".//transaction/flow-type/@code": {
+      "10": 1
+    },
     ".//transaction/transaction-type/@code": {
       "4": 765,
       "1": 163,
@@ -88,9 +91,6 @@
     },
     ".//@xml:lang": {
       "en": 189
-    },
-    ".//transaction/flow-type/@code": {
-      "10": 1
     }
   }
 }

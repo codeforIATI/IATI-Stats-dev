@@ -26,8 +26,8 @@
       "EUR": 33
     },
     ".//collaboration-type/@code": {
-      "1": 31,
-      "3": 2
+      "3": 2,
+      "1": 31
     },
     ".//contact-info/@type": {
       "1": 33
@@ -36,17 +36,17 @@
       "2": 1
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "B01": 2,
       "C01": 28,
-      "B03": 3,
-      "B01": 2
+      "B03": 3
     },
     ".//default-finance-type/@code": {
       "110": 33
     },
     ".//default-flow-type/@code": {
+      "20": 1,
       "10": 28,
-      "50": 4,
-      "20": 1
+      "50": 4
     },
     ".//default-tied-status/@code": {
       "5": 11,
@@ -77,8 +77,8 @@
     ".//participating-org/@type": {
       "15": 77,
       "40": 19,
-      "21": 1,
-      "90": 2
+      "90": 2,
+      "21": 1
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "1": 33,
@@ -95,9 +95,9 @@
       "12": 33
     },
     ".//policy-marker/@significance": {
-      "1": 17,
       "0": 337,
-      "2": 42
+      "2": 42,
+      "1": 17
     },
     ".//policy-marker/@vocabulary": {
       "1": 396
@@ -116,14 +116,14 @@
       "15": 33
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15210": 8,
       "15220": 19,
+      "15210": 8,
       "15160": 2,
       "15153": 2,
       "43060": 1,
-      "15170": 1,
       "15190": 2,
       "99810": 2,
+      "15170": 1,
       "74010": 1,
       "15130": 1,
       "72010": 1
@@ -143,23 +143,23 @@
       "99": 1
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 54,
-      "B03": 3,
-      "B01": 2
+      "B01": 2,
+      "C01": 55,
+      "B03": 3
     },
     ".//transaction/disbursement-channel/@code": {
-      "2": 68
+      "2": 69
     },
     ".//transaction/finance-type/@code": {
-      "110": 59
+      "110": 60
     },
     ".//transaction/flow-type/@code": {
-      "10": 52,
-      "50": 6,
-      "20": 1
+      "20": 1,
+      "10": 53,
+      "50": 6
     },
     ".//transaction/provider-org/@type": {
-      "15": 68
+      "15": 69
     },
     ".//transaction/tied-status/@code": {
       "5": 22,
@@ -167,12 +167,12 @@
       "3": 6
     },
     ".//transaction/transaction-type/@code": {
-      "3": 47,
+      "3": 48,
       "4": 12,
       "2": 9
     },
     ".//transaction/value/@currency": {
-      "EUR": 68
+      "EUR": 69
     },
     ".//@xml:lang": {
       "en": 148

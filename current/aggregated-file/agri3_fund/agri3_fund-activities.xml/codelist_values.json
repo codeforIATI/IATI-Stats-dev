@@ -2,61 +2,68 @@
   ".//@default-currency": {
     "USD": 3,
     "CNY": 1,
-    "EUR": 2
+    "EUR": 3
   },
   ".//@xml:lang": {
-    "en": 12
+    "en": 14
   },
   ".//activity-date/@type": {
-    "2": 6
+    "2": 7
   },
   ".//activity-status/@code": {
-    "2": 6
+    "2": 7
   },
   ".//default-finance-type/@code": {
-    "1100": 6
+    "1100": 7
   },
   ".//default-flow-type/@code": {
-    "37": 6
+    "37": 7
   },
   ".//default-tied-status/@code": {
-    "5": 6
+    "5": 7
   },
   ".//description/@type": {
-    "1": 6
+    "1": 7
   },
   ".//participating-org/@role": {
-    "3": 6
+    "3": 7
   },
   ".//participating-org/@type": {
-    "30": 6
+    "30": 7
   },
   ".//recipient-country/@code": {
-    "BR": 5,
+    "BR": 6,
     "CN": 1
   },
   ".//recipient-region/@vocabulary": {
-    "1": 6
+    "1": 7
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "489": 5,
+    "489": 6,
     "798": 1
   },
   ".//reporting-org/@type": {
-    "30": 6
+    "30": 7
+  },
+  ".//result/@type": {
+    "3": 13
+  },
+  ".//result/indicator/@measure": {
+    "1": 19,
+    "2": 2
   },
   ".//sector/@vocabulary": {
-    "1": 6
+    "1": 7
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "31163": 3,
-    "31130": 3
+    "31130": 4
   },
   ".//transaction/transaction-type/@code": {
-    "10": 5
+    "10": 7
   },
   ".//transaction/value/@currency": {
-    "USD": 3,
+    "USD": 5,
     "CNY": 1,
     "EUR": 1
   }

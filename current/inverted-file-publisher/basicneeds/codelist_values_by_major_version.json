@@ -104,20 +104,26 @@
   },
   "2": {
     ".//@default-currency": {
+      "basicneeds-ug.xml": {
+        "GBP": 1
+      },
+      "basicneeds-in.xml": {
+        "GBP": 1
+      },
       "basicneeds-np.xml": {
         "GBP": 1
       },
       "basicneeds-gh.xml": {
         "GBP": 2
-      },
-      "basicneeds-in.xml": {
-        "GBP": 1
-      },
-      "basicneeds-ug.xml": {
-        "GBP": 1
       }
     },
     ".//activity-date/@type": {
+      "basicneeds-ug.xml": {
+        "2": 1
+      },
+      "basicneeds-in.xml": {
+        "2": 1
+      },
       "basicneeds-np.xml": {
         "2": 1
       },
@@ -125,71 +131,83 @@
         "2": 1,
         "1": 1,
         "3": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "basicneeds-ug.xml": {
+        "2": 1
       },
       "basicneeds-in.xml": {
         "2": 1
       },
-      "basicneeds-ug.xml": {
-        "2": 1
-      }
-    },
-    ".//activity-status/@code": {
       "basicneeds-np.xml": {
         "2": 1
       },
       "basicneeds-gh.xml": {
         "2": 2
+      }
+    },
+    ".//budget/@type": {
+      "basicneeds-ug.xml": {
+        "1": 1
       },
       "basicneeds-in.xml": {
         "2": 1
       },
-      "basicneeds-ug.xml": {
-        "2": 1
+      "basicneeds-gh.xml": {
+        "2": 4,
+        "1": 2
       }
     },
     ".//budget/value/@currency": {
+      "basicneeds-ug.xml": {
+        "GBP": 1
+      },
+      "basicneeds-in.xml": {
+        "GBP": 1
+      },
       "basicneeds-np.xml": {
         "GBP": 1
       },
       "basicneeds-gh.xml": {
         "GBP": 6
-      },
-      "basicneeds-in.xml": {
-        "GBP": 1
-      },
-      "basicneeds-ug.xml": {
-        "GBP": 1
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "basicneeds-ug.xml": {
+        "C01": 1
+      },
+      "basicneeds-in.xml": {
+        "C01": 1
+      },
       "basicneeds-np.xml": {
         "C01": 1
       },
       "basicneeds-gh.xml": {
         "C01": 2
-      },
-      "basicneeds-in.xml": {
-        "C01": 1
-      },
-      "basicneeds-ug.xml": {
-        "C01": 1
       }
     },
     ".//description/@type": {
+      "basicneeds-ug.xml": {
+        "1": 1
+      },
+      "basicneeds-in.xml": {
+        "1": 1
+      },
       "basicneeds-np.xml": {
         "1": 1
       },
       "basicneeds-gh.xml": {
         "1": 2
-      },
-      "basicneeds-in.xml": {
-        "1": 1
-      },
-      "basicneeds-ug.xml": {
-        "1": 1
       }
     },
     ".//participating-org/@role": {
+      "basicneeds-ug.xml": {
+        "4": 4
+      },
+      "basicneeds-in.xml": {
+        "4": 1
+      },
       "basicneeds-np.xml": {
         "4": 1
       },
@@ -197,15 +215,16 @@
         "4": 7,
         "2": 1,
         "1": 2
-      },
-      "basicneeds-in.xml": {
-        "4": 1
-      },
-      "basicneeds-ug.xml": {
-        "4": 4
       }
     },
     ".//participating-org/@type": {
+      "basicneeds-ug.xml": {
+        "22": 3,
+        "23": 1
+      },
+      "basicneeds-in.xml": {
+        "23": 1
+      },
       "basicneeds-np.xml": {
         "22": 1
       },
@@ -215,44 +234,43 @@
         "21": 1,
         "10": 1,
         "70": 1
-      },
-      "basicneeds-in.xml": {
-        "23": 1
-      },
-      "basicneeds-ug.xml": {
-        "22": 3,
-        "23": 1
       }
     },
     ".//recipient-country/@code": {
+      "basicneeds-ug.xml": {
+        "UG": 1
+      },
+      "basicneeds-in.xml": {
+        "IN": 1
+      },
       "basicneeds-np.xml": {
         "NP": 1
       },
       "basicneeds-gh.xml": {
         "GH": 2
-      },
-      "basicneeds-in.xml": {
-        "IN": 1
-      },
-      "basicneeds-ug.xml": {
-        "UG": 1
       }
     },
     ".//reporting-org/@type": {
+      "basicneeds-ug.xml": {
+        "21": 1
+      },
+      "basicneeds-in.xml": {
+        "21": 1
+      },
       "basicneeds-np.xml": {
         "21": 1
       },
       "basicneeds-gh.xml": {
         "21": 2
-      },
-      "basicneeds-in.xml": {
-        "21": 1
-      },
-      "basicneeds-ug.xml": {
-        "21": 1
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "basicneeds-ug.xml": {
+        "193": 1
+      },
+      "basicneeds-in.xml": {
+        "193": 1
+      },
       "basicneeds-np.xml": {
         "193": 1
       },
@@ -262,15 +280,16 @@
         "12110": 1,
         "12191": 1,
         "12220": 1
-      },
-      "basicneeds-in.xml": {
-        "193": 1
-      },
-      "basicneeds-ug.xml": {
-        "193": 1
       }
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "basicneeds-ug.xml": {
+        "B03": 6,
+        "C01": 4
+      },
+      "basicneeds-in.xml": {
+        "C01": 10
+      },
       "basicneeds-np.xml": {
         "B03": 5,
         "C01": 6
@@ -278,72 +297,71 @@
       "basicneeds-gh.xml": {
         "C01": 4,
         "B03": 7
-      },
-      "basicneeds-in.xml": {
-        "C01": 10
-      },
-      "basicneeds-ug.xml": {
-        "B03": 6,
-        "C01": 4
       }
     },
     ".//transaction/disbursement-channel/@code": {
+      "basicneeds-ug.xml": {
+        "2": 10
+      },
+      "basicneeds-in.xml": {
+        "2": 10
+      },
       "basicneeds-np.xml": {
         "2": 11
       },
       "basicneeds-gh.xml": {
         "2": 10
-      },
-      "basicneeds-in.xml": {
-        "2": 10
-      },
-      "basicneeds-ug.xml": {
-        "2": 10
       }
     },
     ".//transaction/finance-type/@code": {
-      "basicneeds-np.xml": {
-        "110": 11
-      },
-      "basicneeds-gh.xml": {
-        "110": 11
+      "basicneeds-ug.xml": {
+        "110": 10
       },
       "basicneeds-in.xml": {
         "110": 10
       },
-      "basicneeds-ug.xml": {
-        "110": 10
+      "basicneeds-np.xml": {
+        "110": 11
+      },
+      "basicneeds-gh.xml": {
+        "110": 11
       }
     },
     ".//transaction/flow-type/@code": {
-      "basicneeds-np.xml": {
-        "10": 11
-      },
-      "basicneeds-gh.xml": {
+      "basicneeds-ug.xml": {
         "10": 10
       },
       "basicneeds-in.xml": {
         "10": 9
       },
-      "basicneeds-ug.xml": {
+      "basicneeds-np.xml": {
+        "10": 11
+      },
+      "basicneeds-gh.xml": {
         "10": 10
       }
     },
     ".//transaction/tied-status/@code": {
-      "basicneeds-np.xml": {
-        "4": 11
-      },
-      "basicneeds-gh.xml": {
+      "basicneeds-ug.xml": {
         "4": 10
       },
       "basicneeds-in.xml": {
         "4": 10
       },
-      "basicneeds-ug.xml": {
+      "basicneeds-np.xml": {
+        "4": 11
+      },
+      "basicneeds-gh.xml": {
         "4": 10
       }
     },
     ".//transaction/transaction-type/@code": {
+      "basicneeds-ug.xml": {
+        "4": 10
+      },
+      "basicneeds-in.xml": {
+        "4": 10
+      },
       "basicneeds-np.xml": {
         "4": 11
       },
@@ -352,58 +370,40 @@
         "1": 8,
         "2": 1,
         "3": 20
-      },
-      "basicneeds-in.xml": {
-        "4": 10
-      },
-      "basicneeds-ug.xml": {
-        "4": 10
       }
     },
     ".//transaction/value/@currency": {
+      "basicneeds-ug.xml": {
+        "GBP": 8
+      },
+      "basicneeds-in.xml": {
+        "GBP": 8
+      },
       "basicneeds-np.xml": {
         "GBP": 9
       },
       "basicneeds-gh.xml": {
         "GBP": 41
-      },
-      "basicneeds-in.xml": {
-        "GBP": 8
-      },
-      "basicneeds-ug.xml": {
-        "GBP": 8
       }
     },
     ".//@xml:lang": {
+      "basicneeds-ug.xml": {
+        "en": 11
+      },
+      "basicneeds-in.xml": {
+        "en": 8
+      },
       "basicneeds-np.xml": {
         "en": 8
       },
       "basicneeds-gh.xml": {
         "en": 35,
         "es": 2
-      },
-      "basicneeds-in.xml": {
-        "en": 8
-      },
-      "basicneeds-ug.xml": {
-        "en": 11
       }
     },
     ".//budget/@status": {
       "basicneeds-gh.xml": {
         "1": 6
-      }
-    },
-    ".//budget/@type": {
-      "basicneeds-gh.xml": {
-        "2": 4,
-        "1": 2
-      },
-      "basicneeds-in.xml": {
-        "2": 1
-      },
-      "basicneeds-ug.xml": {
-        "1": 1
       }
     },
     ".//sector/@vocabulary": {

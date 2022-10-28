@@ -8,7 +8,10 @@
         "EUR": 868
       },
       "agriterra-activities.xml": {
-        "EUR": 935
+        "EUR": 934
+      },
+      "agriterra-org-251021.xml": {
+        "EUR": 52
       }
     },
     ".//activity-date/@type": {
@@ -25,10 +28,14 @@
         "3": 868
       },
       "agriterra-activities.xml": {
-        "2": 935,
+        "2": 934,
         "4": 612,
-        "1": 935,
-        "3": 934
+        "1": 934,
+        "3": 933
+      },
+      "agriterra-org-251021.xml": {
+        "1": 52,
+        "3": 52
       }
     },
     ".//activity-status/@code": {
@@ -48,10 +55,13 @@
       },
       "agriterra-activities.xml": {
         "4": 233,
-        "3": 580,
+        "3": 579,
         "5": 15,
         "1": 87,
         "2": 20
+      },
+      "agriterra-org-251021.xml": {
+        "2": 52
       }
     },
     ".//budget/@status": {
@@ -63,7 +73,10 @@
         "1": 75
       },
       "agriterra-activities.xml": {
-        "1": 317
+        "1": 316
+      },
+      "agriterra-org-251021.xml": {
+        "2": 70
       }
     },
     ".//budget/@type": {
@@ -74,7 +87,10 @@
         "1": 75
       },
       "agriterra-activities.xml": {
-        "1": 317
+        "1": 316
+      },
+      "agriterra-org-251021.xml": {
+        "1": 70
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -85,7 +101,10 @@
         "C01": 868
       },
       "agriterra-activities.xml": {
-        "C01": 935
+        "C01": 934
+      },
+      "agriterra-org-251021.xml": {
+        "C01": 52
       }
     },
     ".//default-finance-type/@code": {
@@ -96,7 +115,10 @@
         "110": 868
       },
       "agriterra-activities.xml": {
-        "110": 935
+        "110": 934
+      },
+      "agriterra-org-251021.xml": {
+        "110": 52
       }
     },
     ".//default-flow-type/@code": {
@@ -107,7 +129,10 @@
         "10": 868
       },
       "agriterra-activities.xml": {
-        "10": 935
+        "10": 934
+      },
+      "agriterra-org-251021.xml": {
+        "30": 52
       }
     },
     ".//default-tied-status/@code": {
@@ -118,7 +143,10 @@
         "5": 868
       },
       "agriterra-activities.xml": {
-        "5": 935
+        "5": 934
+      },
+      "agriterra-org-251021.xml": {
+        "5": 52
       }
     },
     ".//location/location-reach/@code": {
@@ -140,10 +168,14 @@
         "3": 1709
       },
       "agriterra-activities.xml": {
-        "2": 935,
-        "4": 4687,
-        "1": 970,
+        "2": 934,
+        "4": 4685,
+        "1": 969,
         "3": 1805
+      },
+      "agriterra-org-251021.xml": {
+        "2": 52,
+        "1": 88
       }
     },
     ".//participating-org/@type": {
@@ -171,9 +203,9 @@
         "15": 17
       },
       "agriterra-activities.xml": {
-        "21": 3682,
-        "72": 3753,
-        "10": 846,
+        "21": 3680,
+        "72": 3752,
+        "10": 845,
         "11": 3,
         "71": 8,
         "40": 42,
@@ -182,6 +214,10 @@
         "80": 7,
         "60": 4,
         "15": 17
+      },
+      "agriterra-org-251021.xml": {
+        "21": 52,
+        "10": 88
       }
     },
     ".//planned-disbursement/@type": {
@@ -197,7 +233,10 @@
         "2": 868
       },
       "agriterra-activities.xml": {
-        "2": 935
+        "2": 934
+      },
+      "agriterra-org-251021.xml": {
+        "3": 52
       }
     },
     ".//policy-marker/@significance": {
@@ -208,7 +247,10 @@
         "2": 7
       },
       "agriterra-activities.xml": {
-        "2": 223
+        "2": 222
+      },
+      "agriterra-org-251021.xml": {
+        "0": 52
       }
     },
     ".//policy-marker/@vocabulary": {
@@ -219,7 +261,10 @@
         "1": 868
       },
       "agriterra-activities.xml": {
-        "1": 935
+        "1": 934
+      },
+      "agriterra-org-251021.xml": {
+        "1": 52
       }
     },
     ".//recipient-country/@code": {
@@ -334,6 +379,29 @@
         "SS": 3,
         "JO": 1,
         "EC": 1
+      },
+      "agriterra-org-251021.xml": {
+        "PH": 6,
+        "VN": 14,
+        "CD": 18,
+        "NL": 22,
+        "UG": 8,
+        "BF": 2,
+        "BI": 4,
+        "BO": 8,
+        "CI": 2,
+        "ET": 18,
+        "GH": 6,
+        "ID": 6,
+        "KE": 4,
+        "MM": 4,
+        "NE": 2,
+        "NP": 6,
+        "PE": 6,
+        "RW": 2,
+        "SS": 2,
+        "TZ": 4,
+        "ZM": 2
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -349,9 +417,14 @@
       },
       "agriterra-activities.xml": {
         "489": 10,
-        "298": 26,
+        "298": 25,
         "998": 27,
         "689": 19
+      },
+      "agriterra-org-251021.xml": {
+        "798": 2,
+        "489": 4,
+        "998": 2
       }
     },
     ".//reporting-org/@type": {
@@ -362,7 +435,10 @@
         "22": 868
       },
       "agriterra-activities.xml": {
-        "22": 935
+        "22": 934
+      },
+      "agriterra-org-251021.xml": {
+        "21": 52
       }
     },
     ".//result/@type": {
@@ -417,7 +493,7 @@
         "31182": 2
       },
       "agriterra-activities.xml": {
-        "31110": 525,
+        "31110": 524,
         "31181": 27,
         "31164": 61,
         "31166": 21,
@@ -433,6 +509,9 @@
         "31130": 1,
         "31310": 1,
         "31182": 2
+      },
+      "agriterra-org-251021.xml": {
+        "31110": 52
       }
     },
     ".//sector/@vocabulary": {
@@ -443,7 +522,10 @@
         "1": 868
       },
       "agriterra-activities.xml": {
-        "1": 935
+        "1": 934
+      },
+      "agriterra-org-251021.xml": {
+        "1": 52
       }
     },
     ".//transaction/transaction-type/@code": {
@@ -461,10 +543,13 @@
         "2": 45
       },
       "agriterra-activities.xml": {
-        "3": 1259,
-        "4": 7115,
-        "11": 3722,
-        "1": 2065
+        "3": 1258,
+        "4": 7112,
+        "11": 3720,
+        "1": 2064
+      },
+      "agriterra-org-251021.xml": {
+        "4": 154
       }
     },
     ".//@xml:lang": {
@@ -476,8 +561,11 @@
         "nl": 9
       },
       "agriterra-activities.xml": {
-        "en": 1871,
-        "nl": 364
+        "en": 1869,
+        "nl": 363
+      },
+      "agriterra-org-251021.xml": {
+        "en": 52
       }
     },
     ".//activity-scope/@code": {
@@ -489,7 +577,7 @@
       },
       "agriterra-activities.xml": {
         "4": 176,
-        "2": 633,
+        "2": 632,
         "5": 95,
         "1": 31
       }
@@ -499,7 +587,10 @@
         "EUR": 75
       },
       "agriterra-activities.xml": {
-        "EUR": 317
+        "EUR": 316
+      },
+      "agriterra-org-251021.xml": {
+        "EUR": 70
       }
     },
     ".//collaboration-type/@code": {
@@ -507,7 +598,7 @@
         "3": 868
       },
       "agriterra-activities.xml": {
-        "3": 935
+        "3": 934
       }
     },
     ".//default-aid-type/@vocabulary": {
@@ -515,7 +606,7 @@
         "1": 868
       },
       "agriterra-activities.xml": {
-        "1": 935
+        "1": 934
       }
     },
     ".//description/@type": {
@@ -526,10 +617,15 @@
         "3": 1
       },
       "agriterra-activities.xml": {
-        "1": 933,
-        "2": 867,
-        "4": 822,
+        "1": 932,
+        "2": 866,
+        "4": 821,
         "3": 1
+      },
+      "agriterra-org-251021.xml": {
+        "1": 52,
+        "2": 52,
+        "3": 52
       }
     },
     ".//recipient-region/@vocabulary": {
@@ -537,7 +633,7 @@
         "1": 57
       },
       "agriterra-activities.xml": {
-        "1": 72
+        "1": 71
       }
     },
     ".//related-activity/@type": {
@@ -545,7 +641,10 @@
         "1": 578
       },
       "agriterra-activities.xml": {
-        "1": 795
+        "1": 794
+      },
+      "agriterra-org-251021.xml": {
+        "1": 55
       }
     },
     ".//transaction/disbursement-channel/@code": {
@@ -554,6 +653,9 @@
       },
       "agriterra-activities.xml": {
         "2": 4
+      },
+      "agriterra-org-251021.xml": {
+        "1": 154
       }
     },
     ".//transaction/flow-type/@code": {
@@ -571,9 +673,12 @@
         "72": 675
       },
       "agriterra-activities.xml": {
-        "21": 9848,
-        "10": 3578,
-        "72": 735
+        "21": 9844,
+        "10": 3576,
+        "72": 734
+      },
+      "agriterra-org-251021.xml": {
+        "10": 154
       }
     },
     ".//transaction/receiver-org/@type": {
@@ -582,8 +687,11 @@
         "21": 9686
       },
       "agriterra-activities.xml": {
-        "72": 2186,
-        "21": 11956
+        "72": 2185,
+        "21": 11950
+      },
+      "agriterra-org-251021.xml": {
+        "21": 154
       }
     },
     ".//transaction/tied-status/@code": {
@@ -600,6 +708,46 @@
       },
       "agriterra-activities.xml": {
         "EUR": 4
+      },
+      "agriterra-org-251021.xml": {
+        "EUR": 154
+      }
+    },
+    ".//contact-info/@type": {
+      "agriterra-org-251021.xml": {
+        "1": 52
+      }
+    },
+    ".//transaction/recipient-country/@code": {
+      "agriterra-org-251021.xml": {
+        "PH": 6,
+        "VN": 14,
+        "CD": 18,
+        "NL": 22,
+        "UG": 8,
+        "BF": 2,
+        "BI": 4,
+        "BO": 8,
+        "CI": 2,
+        "ET": 18,
+        "GH": 6,
+        "ID": 6,
+        "KE": 4,
+        "MM": 4,
+        "NE": 2,
+        "NP": 6,
+        "PE": 6,
+        "RW": 2,
+        "SS": 2,
+        "TZ": 4,
+        "ZM": 2
+      }
+    },
+    ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "agriterra-org-251021.xml": {
+        "798": 2,
+        "489": 4,
+        "998": 2
       }
     }
   }

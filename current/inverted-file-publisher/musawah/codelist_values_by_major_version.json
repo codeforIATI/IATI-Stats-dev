@@ -42,6 +42,17 @@
         "2": 1
       }
     },
+    ".//document-link/@format": {
+      "musawah-activities.xml": {
+        "application/1d-interleaved-parityfec": 1,
+        "application/3gpp-ims+xml": 2
+      }
+    },
+    ".//document-link/category/@code": {
+      "musawah-activities.xml": {
+        "A08": 3
+      }
+    },
     ".//participating-org/@role": {
       "musawah-activities.xml": {
         "4": 1
@@ -83,22 +94,29 @@
     },
     ".//result/@type": {
       "musawah-activities.xml": {
-        "2": 6
+        "2": 1,
+        "1": 2
+      }
+    },
+    ".//result/document-link/@format": {
+      "musawah-activities.xml": {
+        "application/1d-interleaved-parityfec": 1,
+        "application/3gpp-ims+xml": 2
+      }
+    },
+    ".//result/document-link/category/@code": {
+      "musawah-activities.xml": {
+        "A08": 3
       }
     },
     ".//result/indicator/@measure": {
       "musawah-activities.xml": {
-        "1": 10
+        "1": 28
       }
     },
     ".//result/indicator/reference/@vocabulary": {
       "musawah-activities.xml": {
-        "99": 2
-      }
-    },
-    ".//result/reference/@vocabulary": {
-      "musawah-activities.xml": {
-        "99": 3
+        "99": 28
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -119,29 +137,29 @@
     },
     ".//transaction/provider-org/@type": {
       "musawah-activities.xml": {
-        "21": 1,
-        "23": 1
+        "23": 3
       }
     },
     ".//transaction/receiver-org/@type": {
       "musawah-activities.xml": {
-        "21": 1
+        "21": 3
       }
     },
     ".//transaction/transaction-type/@code": {
       "musawah-activities.xml": {
         "4": 1,
-        "1": 1
+        "1": 1,
+        "11": 1
       }
     },
     ".//transaction/value/@currency": {
       "musawah-activities.xml": {
-        "EUR": 2
+        "EUR": 3
       }
     },
     ".//@xml:lang": {
       "musawah-activities.xml": {
-        "en": 30
+        "en": 71
       }
     }
   }

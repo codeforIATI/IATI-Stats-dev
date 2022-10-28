@@ -109,10 +109,6 @@
       "iati-activity/@default-currency": 5,
       "iati-activity/@humanitarian": 5,
       "iati-activity/@hierarchy": 5,
-      "iati-activity/crs-add": 1,
-      "iati-activity/crs-add/other-flags": 1,
-      "iati-activity/crs-add/other-flags/@code": 1,
-      "iati-activity/crs-add/other-flags/@significance": 1,
       "iati-activity/tag": 1,
       "iati-activity/tag/@vocabulary": 1,
       "iati-activity/tag/@code": 1,
@@ -128,7 +124,11 @@
       "iati-activity/planned-disbursement/provider-org/narrative": 1,
       "iati-activity/planned-disbursement/provider-org/@provider-activity-id": 1,
       "iati-activity/planned-disbursement/provider-org/@type": 1,
-      "iati-activity/planned-disbursement/@type": 1
+      "iati-activity/planned-disbursement/@type": 1,
+      "iati-activity/crs-add": 1,
+      "iati-activity/crs-add/other-flags": 1,
+      "iati-activity/crs-add/other-flags/@code": 1,
+      "iati-activity/crs-add/other-flags/@significance": 1
     },
     "elements_total": {
       "iati-activity": 5,
@@ -238,10 +238,6 @@
       "iati-activity/@default-currency": 5,
       "iati-activity/@humanitarian": 5,
       "iati-activity/@hierarchy": 5,
-      "iati-activity/crs-add": 1,
-      "iati-activity/crs-add/other-flags": 1,
-      "iati-activity/crs-add/other-flags/@code": 1,
-      "iati-activity/crs-add/other-flags/@significance": 1,
       "iati-activity/tag": 1,
       "iati-activity/tag/@vocabulary": 1,
       "iati-activity/tag/@code": 1,
@@ -257,16 +253,20 @@
       "iati-activity/planned-disbursement/provider-org/narrative": 2,
       "iati-activity/planned-disbursement/provider-org/@provider-activity-id": 2,
       "iati-activity/planned-disbursement/provider-org/@type": 2,
-      "iati-activity/planned-disbursement/@type": 2
+      "iati-activity/planned-disbursement/@type": 2,
+      "iati-activity/crs-add": 1,
+      "iati-activity/crs-add/other-flags": 1,
+      "iati-activity/crs-add/other-flags/@code": 1,
+      "iati-activity/crs-add/other-flags/@significance": 1
     },
     "forwardlooking_currency_year": {
-      "null": {
-        "EUR": 0.0
-      },
       "2002": {
         "EUR": 0.0
       },
       "2022": {
+        "EUR": 0.0
+      },
+      "null": {
         "EUR": 0.0
       }
     },

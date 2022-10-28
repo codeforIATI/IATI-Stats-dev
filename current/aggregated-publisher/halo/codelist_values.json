@@ -8,8 +8,8 @@
   },
   ".//activity-date/@type": {
     "2": 20,
-    "1": 13,
     "3": 18,
+    "1": 13,
     "4": 2
   },
   ".//activity-scope/@code": {
@@ -17,12 +17,12 @@
     "4": 8
   },
   ".//activity-status/@code": {
-    "2": 18,
-    "4": 4
+    "2": 17,
+    "4": 5
   },
   ".//budget/@status": {
-    "2": 48,
-    "1": 23
+    "1": 23,
+    "2": 48
   },
   ".//budget/@type": {
     "1": 43,
@@ -60,15 +60,15 @@
     "4": 5
   },
   ".//document-link/@format": {
-    "application/vnd.ms-word.document.macroEnabled.12": 4,
     "application/pdf": 21,
+    "application/vnd.ms-word.document.macroEnabled.12": 4,
     "image/vnd.sealedmedia.softseal.jpg": 1,
     "application/vnd.document+json": 1
   },
   ".//document-link/category/@code": {
+    "A07": 1,
     "A01": 7,
     "B01": 18,
-    "A07": 1,
     "A02": 1
   },
   ".//document-link/language/@code": {
@@ -78,16 +78,16 @@
     "1": 6
   },
   ".//participating-org/@role": {
-    "1": 8,
     "4": 35,
+    "1": 8,
     "2": 13
   },
   ".//participating-org/@type": {
     "21": 42,
-    "70": 4,
     "60": 4,
     "10": 4,
-    "22": 2
+    "22": 2,
+    "70": 4
   },
   ".//policy-marker/@significance": {
     "1": 8,
@@ -101,25 +101,25 @@
     "11": 3
   },
   ".//recipient-country/@code": {
-    "MM": 2,
-    "KH": 1,
-    "SY": 3,
-    "LK": 2,
-    "LA": 2,
-    "AO": 1,
-    "UA": 3,
+    "ZW": 2,
     "AF": 3,
     "SO": 4,
     "CO": 2,
+    "SY": 3,
+    "UA": 3,
     "PS": 3,
     "XK": 2,
     "YE": 1,
-    "ZW": 2
+    "LK": 2,
+    "KH": 1,
+    "MM": 2,
+    "LA": 2,
+    "AO": 1
   },
   ".//related-activity/@type": {
+    "2": 11,
     "1": 16,
-    "3": 61,
-    "2": 11
+    "3": 61
   },
   ".//reporting-org/@type": {
     "21": 22
@@ -141,26 +141,26 @@
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "15250": 24,
-    "72050": 1,
-    "92010": 1,
-    "15110": 3,
-    "15240": 1,
     "12220": 3,
-    "15220": 1
+    "15240": 1,
+    "15110": 3,
+    "15220": 1,
+    "72050": 1,
+    "92010": 1
   },
   ".//transaction/provider-org/@type": {
-    "21": 263,
-    "10": 113
+    "10": 113,
+    "21": 263
   },
   ".//transaction/receiver-org/@type": {
     "21": 332,
     "22": 22
   },
   ".//transaction/transaction-type/@code": {
-    "11": 7,
     "1": 99,
-    "4": 109,
     "3": 148,
+    "4": 109,
+    "11": 7,
     "2": 18
   },
   ".//transaction/value/@currency": {

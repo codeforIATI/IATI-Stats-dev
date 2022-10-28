@@ -18,6 +18,12 @@
       "Funding": 268
     },
     ".//recipient-country/@code": {
+      "PE": 3,
+      "BR": 16,
+      "US": 18,
+      "CA": 3,
+      "CO": 9,
+      "MX": 1,
       "PK": 7,
       "NP": 6,
       "MY": 6,
@@ -26,40 +32,34 @@
       "HK": 1,
       "BT": 5,
       "CN": 19,
+      "DE": 1,
+      "RU": 6,
+      "SE": 2,
       "AU": 4,
       "GB": 123,
       "CH": 7,
       "KE": 5,
       "CM": 1,
       "TZ": 6,
-      "RU": 6,
       "VN": 2,
-      "CO": 9,
-      "US": 18,
       "FJ": 1,
-      "BR": 16,
       "BO": 2,
-      "PE": 3,
       "MZ": 1,
-      "CA": 3,
-      "MX": 1,
       "GH": 1,
       "DK": 1,
       "ZA": 2,
       "NL": 1,
       "PH": 1,
-      "DE": 1,
-      "SE": 2,
       "NA": 1
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "489": 1,
       "798": 2,
+      "89": 2,
+      "889": 7,
       "998": 33,
       "298": 57,
-      "789": 3,
-      "889": 7,
-      "489": 1,
-      "89": 2
+      "789": 3
     },
     ".//reporting-org/@type": {
       "21": 374
@@ -203,17 +203,14 @@
     ".//budget/@status": {
       "2": 30
     },
-    ".//budget/@type": {
-      "1": 21
-    },
     ".//budget/value/@currency": {
-      "BRL": 1,
       "USD": 6,
       "COP": 1,
-      "CNY": 2,
+      "TZS": 2,
+      "BRL": 1,
       "GBP": 11,
       "INR": 1,
-      "TZS": 2,
+      "CNY": 2,
       "KES": 6
     },
     ".//description/@type": {
@@ -230,74 +227,77 @@
       "70": 5
     },
     ".//recipient-country/@code": {
-      "BR": 1,
       "CO": 2,
+      "TZ": 2,
+      "BR": 1,
+      "PE": 1,
+      "IN": 1,
+      "NP": 2,
       "CN": 5,
       "ID": 2,
       "PG": 2,
       "GA": 2,
       "CM": 1,
-      "NP": 2,
-      "IN": 1,
+      "KE": 12,
       "MY": 1,
-      "TZ": 2,
-      "GB": 1,
-      "PE": 1,
-      "KE": 12
+      "GB": 1
     },
     ".//reporting-org/@type": {
       "21": 28
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "23010": 3,
       "15144": 1,
       "41030": 9,
+      "14015": 1,
+      "23010": 3,
+      "31120": 1,
+      "41010": 2,
+      "72050": 1,
       "14040": 1,
       "33110": 3,
       "31210": 1,
-      "72050": 1,
-      "41010": 2,
-      "24010": 1,
-      "14015": 1,
-      "31120": 1,
       "21011": 1,
       "15140": 1,
       "32162": 1,
-      "31130": 1
+      "31130": 1,
+      "24010": 1
     },
     ".//sector/@vocabulary": {
       "1": 28
     },
-    ".//transaction/finance-type/@code": {
-      "110": 2
-    },
     ".//transaction/provider-org/@type": {
       "10": 51,
-      "70": 20,
-      "21": 107
-    },
-    ".//transaction/receiver-org/@type": {
-      "10": 2,
-      "21": 20
+      "21": 107,
+      "70": 20
     },
     ".//transaction/transaction-type/@code": {
       "3": 105,
-      "1": 20,
-      "4": 57
+      "4": 57,
+      "1": 20
     },
     ".//transaction/value/@currency": {
-      "BRL": 4,
       "USD": 11,
       "COP": 4,
-      "CNY": 7,
+      "TZS": 6,
+      "BRL": 4,
       "GBP": 131,
       "INR": 1,
-      "TZS": 6,
+      "CNY": 7,
       "KES": 14,
       "EUR": 1
     },
     ".//@xml:lang": {
       "en": 56
+    },
+    ".//budget/@type": {
+      "1": 21
+    },
+    ".//transaction/finance-type/@code": {
+      "110": 2
+    },
+    ".//transaction/receiver-org/@type": {
+      "10": 2,
+      "21": 20
     },
     ".//participating-org/@crs-channel-code": {
       "10000": 1,

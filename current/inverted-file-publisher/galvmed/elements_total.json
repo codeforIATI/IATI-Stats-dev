@@ -39,34 +39,61 @@
     "galvmed-activities.xml": 1
   },
   "iati-activity/budget": {
-    "galvmed-activities.xml": 12
+    "galvmed-activities.xml": 13
   },
   "iati-activity/budget/@status": {
-    "galvmed-activities.xml": 12
+    "galvmed-activities.xml": 13
   },
   "iati-activity/budget/@type": {
-    "galvmed-activities.xml": 12
+    "galvmed-activities.xml": 13
   },
   "iati-activity/budget/period-end": {
-    "galvmed-activities.xml": 12
+    "galvmed-activities.xml": 13
   },
   "iati-activity/budget/period-end/@iso-date": {
-    "galvmed-activities.xml": 12
+    "galvmed-activities.xml": 13
   },
   "iati-activity/budget/period-start": {
-    "galvmed-activities.xml": 12
+    "galvmed-activities.xml": 13
   },
   "iati-activity/budget/period-start/@iso-date": {
-    "galvmed-activities.xml": 12
+    "galvmed-activities.xml": 13
   },
   "iati-activity/budget/value": {
-    "galvmed-activities.xml": 12
+    "galvmed-activities.xml": 13
   },
   "iati-activity/budget/value/@currency": {
-    "galvmed-activities.xml": 12
+    "galvmed-activities.xml": 13
   },
   "iati-activity/budget/value/@value-date": {
-    "galvmed-activities.xml": 12
+    "galvmed-activities.xml": 13
+  },
+  "iati-activity/default-aid-type": {
+    "galvmed-activities.xml": 2
+  },
+  "iati-activity/default-aid-type/@code": {
+    "galvmed-activities.xml": 2
+  },
+  "iati-activity/default-aid-type/@vocabulary": {
+    "galvmed-activities.xml": 2
+  },
+  "iati-activity/default-finance-type": {
+    "galvmed-activities.xml": 1
+  },
+  "iati-activity/default-finance-type/@code": {
+    "galvmed-activities.xml": 1
+  },
+  "iati-activity/default-flow-type": {
+    "galvmed-activities.xml": 1
+  },
+  "iati-activity/default-flow-type/@code": {
+    "galvmed-activities.xml": 1
+  },
+  "iati-activity/default-tied-status": {
+    "galvmed-activities.xml": 1
+  },
+  "iati-activity/default-tied-status/@code": {
+    "galvmed-activities.xml": 1
   },
   "iati-activity/description": {
     "galvmed-activities.xml": 1
@@ -149,6 +176,18 @@
   "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "galvmed-activities.xml": 2
   },
+  "iati-activity/policy-marker": {
+    "galvmed-activities.xml": 3
+  },
+  "iati-activity/policy-marker/@code": {
+    "galvmed-activities.xml": 3
+  },
+  "iati-activity/policy-marker/@significance": {
+    "galvmed-activities.xml": 3
+  },
+  "iati-activity/policy-marker/@vocabulary": {
+    "galvmed-activities.xml": 3
+  },
   "iati-activity/recipient-country": {
     "galvmed-activities.xml": 23
   },
@@ -204,79 +243,79 @@
     "galvmed-activities.xml": 1
   },
   "iati-activity/transaction": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/@humanitarian": {
-    "galvmed-activities.xml": 6
+    "galvmed-activities.xml": 7
   },
   "iati-activity/transaction/@ref": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/description": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/description/narrative": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "galvmed-activities.xml": 3
   },
   "iati-activity/transaction/disbursement-channel": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/disbursement-channel/@code": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/provider-org": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/provider-org/@provider-activity-id": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/provider-org/@ref": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/provider-org/@type": {
-    "galvmed-activities.xml": 6
+    "galvmed-activities.xml": 7
   },
   "iati-activity/transaction/receiver-org": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/receiver-org/@receiver-activity-id": {
-    "galvmed-activities.xml": 6
+    "galvmed-activities.xml": 7
   },
   "iati-activity/transaction/receiver-org/@ref": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 57
   },
   "iati-activity/transaction/receiver-org/@type": {
-    "galvmed-activities.xml": 14
+    "galvmed-activities.xml": 15
   },
   "iati-activity/transaction/receiver-org/narrative": {
-    "galvmed-activities.xml": 38
+    "galvmed-activities.xml": 44
   },
   "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "galvmed-activities.xml": 38
+    "galvmed-activities.xml": 44
   },
   "iati-activity/transaction/transaction-date": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/transaction-date/@iso-date": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/transaction-type": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/transaction-type/@code": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/value": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/value/@currency": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-activity/transaction/value/@value-date": {
-    "galvmed-activities.xml": 54
+    "galvmed-activities.xml": 61
   },
   "iati-organisation": {
     "galvmed-org.xml": 1

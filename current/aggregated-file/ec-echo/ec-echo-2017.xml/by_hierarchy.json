@@ -401,10 +401,10 @@
       "iati-activity/transaction/provider-org/@provider-activity-id": 627,
       "iati-activity/transaction/provider-org/@type": 627,
       "iati-activity/transaction/receiver-org": 627,
-      "iati-activity/transaction/receiver-org/narrative": 627,
-      "iati-activity/transaction/@ref": 586,
       "iati-activity/transaction/receiver-org/@ref": 627,
       "iati-activity/transaction/receiver-org/@receiver-activity-id": 627,
+      "iati-activity/transaction/receiver-org/narrative": 627,
+      "iati-activity/transaction/@ref": 586,
       "iati-activity/document-link": 627,
       "iati-activity/document-link/title": 627,
       "iati-activity/document-link/title/narrative": 627,
@@ -528,10 +528,10 @@
       "iati-activity/transaction/provider-org/@provider-activity-id": 3191,
       "iati-activity/transaction/provider-org/@type": 3191,
       "iati-activity/transaction/receiver-org": 3191,
-      "iati-activity/transaction/receiver-org/narrative": 2526,
-      "iati-activity/transaction/@ref": 1894,
       "iati-activity/transaction/receiver-org/@ref": 665,
       "iati-activity/transaction/receiver-org/@receiver-activity-id": 665,
+      "iati-activity/transaction/receiver-org/narrative": 2526,
+      "iati-activity/transaction/@ref": 1894,
       "iati-activity/document-link": 1649,
       "iati-activity/document-link/title": 1649,
       "iati-activity/document-link/title/narrative": 1649,
@@ -567,11 +567,11 @@
       "iati-activity/transaction/description/narrative": 38
     },
     "forwardlooking_currency_year": {
-      "2017": {
-        "EUR": 1519173505.65
-      },
       "2016": {
         "EUR": 859550801.8
+      },
+      "2017": {
+        "EUR": 1519173505.65
       },
       "2018": {
         "EUR": 161293715.78
@@ -579,11 +579,11 @@
       "2019": {
         "EUR": 27844723.24
       },
-      "2020": {
-        "EUR": 28321488.4
-      },
       "2021": {
         "EUR": 201693377.2
+      },
+      "2020": {
+        "EUR": 28321488.4
       }
     },
     "forwardlooking_activities_current": {
@@ -601,69 +601,13 @@
       "2023": 0,
       "2024": 0
     },
-    "comprehensiveness": {
-      "version": 1,
-      "reporting-org": 1,
-      "iati-identifier": 1,
-      "participating-org": 1,
-      "title": 1,
-      "description": 1,
-      "activity-status": 1,
-      "activity-date": 1,
-      "sector": 1,
-      "country_or_region": 1,
-      "transaction_commitment": 1,
-      "transaction_spend": 1,
-      "transaction_currency": 1,
-      "transaction_traceability": 1,
-      "budget": 1,
-      "budget_not_provided": 0,
-      "contact-info": 1,
-      "location": 1,
-      "location_point_pos": 1,
-      "sector_dac": 1,
-      "capital-spend": 1,
-      "document-link": 1,
-      "activity-website": 0,
-      "recipient_language": 1,
-      "conditions_attached": 1,
-      "result_indicator": 0,
-      "aid_type": 1
-    },
-    "comprehensiveness_with_validation": {
-      "version": 1,
-      "reporting-org": 1,
-      "iati-identifier": 1,
-      "participating-org": 1,
-      "title": 1,
-      "description": 1,
-      "activity-status": 1,
-      "activity-date": 1,
-      "sector": 1,
-      "country_or_region": 1,
-      "transaction_commitment": 1,
-      "transaction_spend": 1,
-      "transaction_currency": 1,
-      "transaction_traceability": 1,
-      "budget": 1,
-      "budget_not_provided": 0,
-      "contact-info": 1,
-      "location": 1,
-      "location_point_pos": 1,
-      "sector_dac": 1,
-      "capital-spend": 1,
-      "document-link": 1,
-      "activity-website": 0,
-      "recipient_language": 1,
-      "conditions_attached": 1,
-      "result_indicator": 0,
-      "aid_type": 1
-    },
+    "comprehensiveness": {},
+    "comprehensiveness_with_validation": {},
     "comprehensiveness_denominators": {
-      "recipient_language": 1,
-      "transaction_spend": 1,
-      "transaction_traceability": 1
+      "recipient_language": 0,
+      "transaction_spend": 0,
+      "transaction_traceability": 0
     },
-    "comprehensiveness_denominator_default": 1
+    "comprehensiveness_denominator_default": 0
   }
 }

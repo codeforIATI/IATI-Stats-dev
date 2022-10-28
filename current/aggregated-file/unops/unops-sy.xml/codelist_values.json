@@ -8,8 +8,14 @@
   ".//activity-date/@type": {
     "2": 20
   },
+  ".//activity-status/@code": {
+    "2": 20
+  },
   ".//budget/@type": {
     "1": 20
+  },
+  ".//budget/value/@currency": {
+    "USD": 20
   },
   ".//contact-info/@type": {
     "1": 20
@@ -38,11 +44,14 @@
     "15230": 10,
     "15250": 4,
     "43071": 1,
+    "99810": 1,
     "72010": 2,
-    "12110": 1,
-    "99810": 1
+    "12110": 1
   },
   ".//transaction/transaction-type/@code": {
     "4": 20
+  },
+  ".//transaction/value/@currency": {
+    "USD": 20
   }
 }

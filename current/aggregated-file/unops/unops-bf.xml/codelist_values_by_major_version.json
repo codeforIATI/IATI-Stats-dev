@@ -1,39 +1,55 @@
 {
   "2": {
     ".//@default-currency": {
-      "USD": 20
+      "USD": 21
     },
     ".//activity-date/@type": {
-      "2": 20
+      "2": 21
+    },
+    ".//activity-status/@code": {
+      "2": 21
     },
     ".//budget/@type": {
-      "1": 20
+      "1": 21
+    },
+    ".//budget/value/@currency": {
+      "USD": 21
     },
     ".//contact-info/@type": {
-      "1": 20
+      "1": 21
     },
     ".//description/@type": {
-      "1": 20
+      "1": 21
+    },
+    ".//document-link/@format": {
+      "application/pdf": 1
+    },
+    ".//document-link/category/@code": {
+      "A07": 1
+    },
+    ".//document-link/language/@code": {
+      "en": 1
     },
     ".//participating-org/@role": {
-      "4": 20,
-      "2": 20
+      "4": 21,
+      "2": 21
     },
     ".//participating-org/@type": {
-      "40": 40
+      "40": 42
     },
     ".//recipient-country/@code": {
-      "BF": 20
+      "BF": 21
     },
     ".//reporting-org/@type": {
-      "40": 20
+      "40": 21
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "23210": 1,
-      "15230": 2,
+      "15230": 3,
       "15250": 2,
-      "99810": 4,
       "16063": 1,
+      "99810": 3,
+      "72050": 1,
       "16062": 1,
       "72010": 1,
       "12263": 2,
@@ -43,13 +59,16 @@
       "41010": 3
     },
     ".//sector/@vocabulary": {
-      "1": 20
+      "1": 21
     },
     ".//transaction/transaction-type/@code": {
-      "4": 20
+      "4": 21
+    },
+    ".//transaction/value/@currency": {
+      "USD": 21
     },
     ".//@xml:lang": {
-      "en": 20
+      "en": 21
     }
   }
 }

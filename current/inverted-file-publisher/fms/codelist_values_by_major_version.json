@@ -37,6 +37,31 @@
         "1": 1
       }
     },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "fms-activities.xml": {
+        "C01": 1
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "fms-activities.xml": {
+        "1": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "fms-activities.xml": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "fms-activities.xml": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "fms-activities.xml": {
+        "3": 1
+      }
+    },
     ".//description/@type": {
       "fms-activities.xml": {
         "1": 2,
@@ -106,12 +131,12 @@
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "fms-activities.xml": {
-        "498": 1
+        "498": 2
       }
     },
     ".//recipient-region/@vocabulary": {
       "fms-activities.xml": {
-        "1": 1
+        "1": 2
       }
     },
     ".//reporting-org/@type": {

@@ -12,6 +12,7 @@
   "iati-activity/activity-status/@code": 1,
   "iati-activity/budget": 1,
   "iati-activity/budget/@status": 1,
+  "iati-activity/budget/@type": 1,
   "iati-activity/budget/period-end": 1,
   "iati-activity/budget/period-end/@iso-date": 1,
   "iati-activity/budget/period-start": 1,
@@ -58,5 +59,18 @@
   "iati-activity/sector/@vocabulary": 1,
   "iati-activity/title": 1,
   "iati-activity/title/narrative": 1,
-  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
+  "iati-activity/transaction": 1,
+  "iati-activity/transaction/@ref": 1,
+  "iati-activity/transaction/provider-org": 1,
+  "iati-activity/transaction/provider-org/@provider-activity-id": 1,
+  "iati-activity/transaction/provider-org/@ref": 1,
+  "iati-activity/transaction/provider-org/@type": 1,
+  "iati-activity/transaction/transaction-date": 1,
+  "iati-activity/transaction/transaction-date/@iso-date": 1,
+  "iati-activity/transaction/transaction-type": 1,
+  "iati-activity/transaction/transaction-type/@code": 1,
+  "iati-activity/transaction/value": 1,
+  "iati-activity/transaction/value/@currency": 1,
+  "iati-activity/transaction/value/@value-date": 1
 }

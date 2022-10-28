@@ -23,8 +23,8 @@
     },
     ".//budget/@status": {
       "sfcg-activities.xml": {
-        "2": 68,
-        "1": 7
+        "2": 71,
+        "1": 4
       }
     },
     ".//budget/@type": {
@@ -172,7 +172,8 @@
     ".//policy-marker/@significance": {
       "sfcg-activities.xml": {
         "1": 4,
-        "0": 1
+        "0": 1,
+        "2": 7
       }
     },
     ".//policy-marker/@vocabulary": {
@@ -193,15 +194,16 @@
         "NE": 11,
         "AF": 7,
         "SS": 7,
-        "BE": 4,
         "IQ": 4,
-        "KE": 2
+        "KE": 2,
+        "BE": 1
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "sfcg-activities.xml": {
         "589": 1,
-        "189": 1
+        "189": 1,
+        "89": 3
       }
     },
     ".//recipient-region/@vocabulary": {
@@ -298,21 +300,25 @@
         "NE": 11,
         "AF": 7,
         "ML": 13,
-        "SS": 7,
-        "BE": 3
+        "SS": 7
+      }
+    },
+    ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "sfcg-activities.xml": {
+        "89": 3
       }
     },
     ".//transaction/provider-org/@type": {
       "sfcg-activities.xml": {
         "10": 20,
-        "23": 94,
+        "23": 83,
         "21": 10
       }
     },
     ".//transaction/receiver-org/@type": {
       "sfcg-activities.xml": {
         "21": 4,
-        "23": 59,
+        "23": 48,
         "22": 35
       }
     },
@@ -337,12 +343,12 @@
         "4": 43,
         "11": 13,
         "2": 28,
-        "3": 37
+        "3": 25
       }
     },
     ".//transaction/value/@currency": {
       "sfcg-activities.xml": {
-        "EUR": 127,
+        "EUR": 115,
         "GBP": 32
       }
     },

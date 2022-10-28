@@ -1,12 +1,12 @@
 {
   ".//@default-currency": {
     "BDT": {
-      "bu-activities.xml": 7
+      "bu-activities.xml": 9
     }
   },
   ".//@xml:lang": {
     "en": {
-      "bu-activities.xml": 115
+      "bu-activities.xml": 411
     },
     "bn": {
       "bu-activities.xml": 9
@@ -14,13 +14,13 @@
   },
   ".//activity-date/@type": {
     "1": {
-      "bu-activities.xml": 1
+      "bu-activities.xml": 3
     },
     "2": {
       "bu-activities.xml": 7
     },
     "3": {
-      "bu-activities.xml": 2
+      "bu-activities.xml": 4
     },
     "4": {
       "bu-activities.xml": 3
@@ -31,36 +31,39 @@
       "bu-activities.xml": 1
     },
     "2": {
-      "bu-activities.xml": 6
+      "bu-activities.xml": 8
     }
   },
   ".//budget/@status": {
     "2": {
-      "bu-activities.xml": 2
+      "bu-activities.xml": 5
     }
   },
   ".//budget/@type": {
     "1": {
-      "bu-activities.xml": 2
+      "bu-activities.xml": 4
+    },
+    "2": {
+      "bu-activities.xml": 1
     }
   },
   ".//budget/value/@currency": {
     "BDT": {
-      "bu-activities.xml": 2
+      "bu-activities.xml": 5
     }
   },
   ".//description/@type": {
     "1": {
-      "bu-activities.xml": 4
+      "bu-activities.xml": 6
     },
     "2": {
-      "bu-activities.xml": 2
+      "bu-activities.xml": 4
     },
     "3": {
-      "bu-activities.xml": 5
+      "bu-activities.xml": 7
     },
     "4": {
-      "bu-activities.xml": 2
+      "bu-activities.xml": 4
     }
   },
   ".//document-link/@format": {
@@ -77,7 +80,7 @@
       "bu-activities.xml": 2
     },
     "application/http": {
-      "bu-activities.xml": 3
+      "bu-activities.xml": 16
     },
     "video/VP8": {
       "bu-activities.xml": 1
@@ -89,7 +92,7 @@
       "bu-activities.xml": 2
     },
     "application/msword": {
-      "bu-activities.xml": 1
+      "bu-activities.xml": 2
     },
     "application/vnd.openxmlformats-officedocument.wordprocessingml.template": {
       "bu-activities.xml": 1
@@ -106,12 +109,18 @@
       "bu-activities.xml": 1
     },
     "A08": {
-      "bu-activities.xml": 16
+      "bu-activities.xml": 28
+    },
+    "A07": {
+      "bu-activities.xml": 1
+    },
+    "B09": {
+      "bu-activities.xml": 1
     }
   },
   ".//document-link/language/@code": {
     "en": {
-      "bu-activities.xml": 9
+      "bu-activities.xml": 23
     },
     "bn": {
       "bu-activities.xml": 2
@@ -124,17 +133,17 @@
   },
   ".//participating-org/@role": {
     "4": {
-      "bu-activities.xml": 7
+      "bu-activities.xml": 9
     }
   },
   ".//participating-org/@type": {
     "80": {
-      "bu-activities.xml": 7
+      "bu-activities.xml": 9
     }
   },
   ".//recipient-country/@code": {
     "BD": {
-      "bu-activities.xml": 10
+      "bu-activities.xml": 12
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -149,12 +158,15 @@
   },
   ".//reporting-org/@type": {
     "80": {
-      "bu-activities.xml": 7
+      "bu-activities.xml": 9
     }
   },
   ".//result/@type": {
     "1": {
-      "bu-activities.xml": 24
+      "bu-activities.xml": 38
+    },
+    "2": {
+      "bu-activities.xml": 3
     }
   },
   ".//result/document-link/@format": {
@@ -168,7 +180,7 @@
       "bu-activities.xml": 2
     },
     "application/http": {
-      "bu-activities.xml": 3
+      "bu-activities.xml": 16
     },
     "application/pdf": {
       "bu-activities.xml": 3
@@ -183,7 +195,7 @@
       "bu-activities.xml": 2
     },
     "application/msword": {
-      "bu-activities.xml": 1
+      "bu-activities.xml": 2
     },
     "application/vnd.openxmlformats-officedocument.wordprocessingml.template": {
       "bu-activities.xml": 1
@@ -191,7 +203,13 @@
   },
   ".//result/document-link/category/@code": {
     "A08": {
-      "bu-activities.xml": 16
+      "bu-activities.xml": 28
+    },
+    "A07": {
+      "bu-activities.xml": 1
+    },
+    "B09": {
+      "bu-activities.xml": 1
     }
   },
   ".//result/document-link/language/@code": {
@@ -199,20 +217,20 @@
       "bu-activities.xml": 2
     },
     "en": {
-      "bu-activities.xml": 6
+      "bu-activities.xml": 20
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "bu-activities.xml": 21
+      "bu-activities.xml": 37
     },
     "5": {
-      "bu-activities.xml": 3
+      "bu-activities.xml": 6
     }
   },
   ".//sector/@vocabulary": {
     "1": {
-      "bu-activities.xml": 5
+      "bu-activities.xml": 7
     },
     "10": {
       "bu-activities.xml": 3
@@ -223,7 +241,7 @@
       "bu-activities.xml": 1
     },
     "43082": {
-      "bu-activities.xml": 4
+      "bu-activities.xml": 6
     }
   },
   ".//sector[@vocabulary = '10']/@code": {
@@ -239,20 +257,23 @@
   },
   ".//transaction/disbursement-channel/@code": {
     "2": {
-      "bu-activities.xml": 6
+      "bu-activities.xml": 78
+    },
+    "1": {
+      "bu-activities.xml": 1
     }
   },
   ".//transaction/finance-type/@code": {
-    "422": {
-      "bu-activities.xml": 1
-    },
     "110": {
+      "bu-activities.xml": 180
+    },
+    "422": {
       "bu-activities.xml": 1
     }
   },
   ".//transaction/provider-org/@type": {
     "10": {
-      "bu-activities.xml": 1
+      "bu-activities.xml": 3
     },
     "80": {
       "bu-activities.xml": 8
@@ -275,21 +296,21 @@
   },
   ".//transaction/transaction-type/@code": {
     "4": {
-      "bu-activities.xml": 274
+      "bu-activities.xml": 449
     },
     "1": {
-      "bu-activities.xml": 4
-    },
-    "7": {
-      "bu-activities.xml": 2
+      "bu-activities.xml": 7
     },
     "11": {
+      "bu-activities.xml": 2
+    },
+    "7": {
       "bu-activities.xml": 2
     }
   },
   ".//transaction/value/@currency": {
     "BDT": {
-      "bu-activities.xml": 274
+      "bu-activities.xml": 452
     },
     "USD": {
       "bu-activities.xml": 8

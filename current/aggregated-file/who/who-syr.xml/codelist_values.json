@@ -3,7 +3,7 @@
     "USD": 155
   },
   ".//@xml:lang": {
-    "en": 20892
+    "en": 21896
   },
   ".//activity-date/@type": {
     "1": 155,
@@ -65,11 +65,15 @@
   },
   ".//humanitarian-scope/@type": {
     "2": 64,
-    "1": 7
+    "1": 8
   },
   ".//humanitarian-scope/@vocabulary": {
     "2-1": 65,
-    "99": 6
+    "99": 6,
+    "1-2": 1
+  },
+  ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
+    "EP-2022-000310-SYR": 1
   },
   ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
     "HSYR15": 2,
@@ -88,16 +92,16 @@
     "HSYR22": 2
   },
   ".//participating-org/@role": {
-    "1": 363,
+    "1": 366,
     "2": 155,
     "3": 155,
     "4": 155
   },
   ".//participating-org/@type": {
+    "40": 620,
     "70": 63,
-    "40": 621,
-    "10": 129,
-    "60": 3,
+    "10": 132,
+    "60": 4,
     "15": 12
   },
   ".//recipient-country/@code": {
@@ -153,38 +157,38 @@
     "3.9": 4
   },
   ".//transaction/aid-type/@vocabulary": {
-    "2": 903
+    "2": 1237
   },
   ".//transaction/aid-type[@vocabulary = '2']/@code": {
-    "1": 162,
-    "3": 580,
-    "4": 155,
+    "1": 204,
+    "3": 810,
+    "4": 217,
     "2": 6
   },
   ".//transaction/flow-type/@code": {
     "20": 75,
-    "30": 57,
+    "30": 56,
     "35": 7,
     "50": 20,
     "10": 129,
-    "40": 24
+    "40": 26
   },
   ".//transaction/provider-org/@type": {
-    "40": 5683,
+    "40": 6017,
     "10": 35,
-    "60": 3,
+    "60": 4,
     "15": 12
   },
   ".//transaction/receiver-org/@type": {
-    "40": 5637
+    "40": 5957
   },
   ".//transaction/transaction-type/@code": {
     "2": 155,
-    "11": 312,
-    "4": 5170,
-    "3": 325
+    "11": 313,
+    "4": 5489,
+    "3": 339
   },
   ".//transaction/value/@currency": {
-    "USD": 5962
+    "USD": 6296
   }
 }

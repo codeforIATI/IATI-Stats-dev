@@ -6,7 +6,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "siha-southsudan-activities.xml": 56
+      "siha-southsudan-activities.xml": 76
     }
   },
   ".//activity-date/@type": {
@@ -51,6 +51,16 @@
       "siha-southsudan-activities.xml": 1
     }
   },
+  ".//document-link/@format": {
+    "application/3gpp-ims+xml": {
+      "siha-southsudan-activities.xml": 2
+    }
+  },
+  ".//document-link/category/@code": {
+    "A08": {
+      "siha-southsudan-activities.xml": 2
+    }
+  },
   ".//participating-org/@role": {
     "1": {
       "siha-southsudan-activities.xml": 1
@@ -81,21 +91,31 @@
     }
   },
   ".//result/@type": {
-    "1": {
-      "siha-southsudan-activities.xml": 2
-    },
     "2": {
       "siha-southsudan-activities.xml": 1
+    },
+    "1": {
+      "siha-southsudan-activities.xml": 2
+    }
+  },
+  ".//result/document-link/@format": {
+    "application/3gpp-ims+xml": {
+      "siha-southsudan-activities.xml": 2
+    }
+  },
+  ".//result/document-link/category/@code": {
+    "A08": {
+      "siha-southsudan-activities.xml": 2
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "siha-southsudan-activities.xml": 20
+      "siha-southsudan-activities.xml": 28
     }
   },
-  ".//result/reference/@vocabulary": {
+  ".//result/indicator/reference/@vocabulary": {
     "99": {
-      "siha-southsudan-activities.xml": 3
+      "siha-southsudan-activities.xml": 28
     }
   },
   ".//sector/@vocabulary": {
@@ -108,14 +128,30 @@
       "siha-southsudan-activities.xml": 1
     }
   },
+  ".//transaction/provider-org/@type": {
+    "23": {
+      "siha-southsudan-activities.xml": 4
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": {
+      "siha-southsudan-activities.xml": 4
+    }
+  },
   ".//transaction/transaction-type/@code": {
+    "1": {
+      "siha-southsudan-activities.xml": 2
+    },
     "11": {
+      "siha-southsudan-activities.xml": 1
+    },
+    "4": {
       "siha-southsudan-activities.xml": 1
     }
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "siha-southsudan-activities.xml": 1
+      "siha-southsudan-activities.xml": 4
     }
   }
 }

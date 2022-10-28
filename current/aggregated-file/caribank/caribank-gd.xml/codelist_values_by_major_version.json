@@ -20,8 +20,8 @@
       "USD": 4
     },
     ".//description/@type": {
-      "1": 1,
-      "2": 2
+      "2": 2,
+      "1": 1
     },
     ".//participating-org/@role": {
       "1": 2
@@ -42,8 +42,8 @@
       "40": 2
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "31110": 1,
-      "11220": 1
+      "11220": 1,
+      "31110": 1
     },
     ".//sector/@vocabulary": {
       "1": 2
@@ -52,10 +52,11 @@
       "40": 1
     },
     ".//transaction/transaction-type/@code": {
-      "5": 7
+      "5": 15
     },
     ".//transaction/value/@currency": {
-      "USD": 6
+      "EUR": 4,
+      "USD": 10
     },
     ".//@xml:lang": {
       "en": 7

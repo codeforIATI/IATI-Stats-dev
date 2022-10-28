@@ -2,188 +2,194 @@
   "2": {
     ".//@default-currency": {
       "fca-activities.xml": {
-        "EUR": 1
+        "EUR": 2
       }
     },
     ".//activity-date/@type": {
       "fca-activities.xml": {
-        "2": 1,
-        "3": 1
+        "2": 2,
+        "3": 2,
+        "4": 1,
+        "1": 2
       }
     },
     ".//activity-status/@code": {
       "fca-activities.xml": {
-        "4": 1
+        "4": 1,
+        "2": 1
       }
     },
     ".//activity-scope/@code": {
       "fca-activities.xml": {
-        "4": 1
+        "4": 2
       }
     },
     ".//budget/@status": {
       "fca-activities.xml": {
-        "2": 3
+        "2": 4,
+        "1": 2
       }
     },
     ".//budget/@type": {
       "fca-activities.xml": {
-        "1": 3
+        "1": 6
       }
     },
     ".//budget/value/@currency": {
       "fca-activities.xml": {
-        "EUR": 3
+        "EUR": 3,
+        "JOD": 3
       }
     },
     ".//contact-info/@type": {
       "fca-activities.xml": {
-        "1": 1
+        "1": 2
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "fca-activities.xml": {
-        "C01": 1
+        "C01": 2
       }
     },
     ".//default-aid-type/@vocabulary": {
       "fca-activities.xml": {
-        "1": 1
+        "1": 2
       }
     },
     ".//default-finance-type/@code": {
       "fca-activities.xml": {
-        "110": 1
+        "110": 2
       }
     },
     ".//default-flow-type/@code": {
       "fca-activities.xml": {
-        "30": 1
+        "30": 2
       }
     },
     ".//default-tied-status/@code": {
       "fca-activities.xml": {
-        "5": 1
+        "5": 2
       }
     },
     ".//description/@type": {
       "fca-activities.xml": {
-        "1": 1,
-        "3": 1
+        "1": 2,
+        "3": 2
       }
     },
     ".//document-link/@format": {
       "fca-activities.xml": {
-        "application/pdf": 2
+        "application/pdf": 3
       }
     },
     ".//document-link/category/@code": {
       "fca-activities.xml": {
-        "B01": 2
+        "B01": 3
       }
     },
     ".//document-link/language/@code": {
       "fca-activities.xml": {
-        "en": 2
+        "en": 3
       }
     },
     ".//participating-org/@role": {
       "fca-activities.xml": {
-        "1": 1,
-        "2": 1,
+        "1": 2,
+        "2": 2,
         "4": 2
       }
     },
     ".//participating-org/@type": {
       "fca-activities.xml": {
-        "10": 1,
-        "21": 2,
+        "10": 2,
+        "21": 3,
         "22": 1
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "fca-activities.xml": {
-        "1": 1,
+        "1": 2,
         "3": 1,
-        "4": 1,
-        "10": 1,
         "11": 1
       }
     },
     ".//policy-marker/@significance": {
       "fca-activities.xml": {
-        "2": 2,
-        "1": 2,
-        "0": 1
+        "2": 1,
+        "1": 3
       }
     },
     ".//policy-marker/@vocabulary": {
       "fca-activities.xml": {
-        "1": 5
+        "1": 4
       }
     },
     ".//recipient-country/@code": {
       "fca-activities.xml": {
-        "JO": 1
+        "JO": 2
       }
     },
     ".//reporting-org/@type": {
       "fca-activities.xml": {
-        "21": 1
+        "21": 2
       }
     },
     ".//result/@type": {
       "fca-activities.xml": {
         "1": 3,
-        "2": 1
+        "2": 5,
+        "3": 1
       }
     },
     ".//result/indicator/@measure": {
       "fca-activities.xml": {
-        "1": 6,
-        "2": 1,
-        "3": 1
+        "1": 22,
+        "2": 2
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "fca-activities.xml": {
-        "11230": 1,
-        "33181": 1
+        "16010": 1,
+        "32140": 1,
+        "25030": 1,
+        "16020": 1
       }
     },
     ".//sector/@vocabulary": {
       "fca-activities.xml": {
-        "1": 2
+        "1": 4
       }
     },
     ".//transaction/provider-org/@type": {
       "fca-activities.xml": {
-        "21": 5,
-        "10": 2
+        "21": 17,
+        "10": 7
       }
     },
     ".//transaction/receiver-org/@type": {
       "fca-activities.xml": {
+        "22": 12,
         "21": 7
       }
     },
     ".//transaction/transaction-type/@code": {
       "fca-activities.xml": {
-        "4": 3,
-        "3": 11,
-        "1": 2,
-        "11": 1,
-        "2": 1
+        "3": 13,
+        "1": 6,
+        "11": 2,
+        "2": 3,
+        "4": 3
       }
     },
     ".//transaction/value/@currency": {
       "fca-activities.xml": {
-        "EUR": 2
+        "EUR": 2,
+        "JOD": 7
       }
     },
     ".//@xml:lang": {
       "fca-activities.xml": {
-        "en": 6
+        "en": 8
       }
     }
   }

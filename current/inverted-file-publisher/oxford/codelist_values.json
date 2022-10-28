@@ -1,26 +1,26 @@
 {
   ".//@default-currency": {
     "GBP": {
+      "oxford-gb.xml": 2,
       "oxford-998.xml": 1,
-      "oxford-mm.xml": 1,
-      "oxford-gb.xml": 2
+      "oxford-mm.xml": 1
     }
   },
   ".//@xml:lang": {
     "en": {
-      "oxford-998.xml": 10,
-      "oxford-mm.xml": 39,
-      "oxford-gb.xml": 48
+      "oxford-gb.xml": 48,
+      "oxford-998.xml": 8,
+      "oxford-mm.xml": 39
     }
   },
   ".//activity-date/@type": {
     "2": {
-      "oxford-998.xml": 1,
-      "oxford-gb.xml": 2
+      "oxford-gb.xml": 2,
+      "oxford-998.xml": 1
     },
     "3": {
-      "oxford-998.xml": 1,
-      "oxford-gb.xml": 1
+      "oxford-gb.xml": 1,
+      "oxford-998.xml": 1
     },
     "1": {
       "oxford-mm.xml": 1
@@ -28,136 +28,91 @@
   },
   ".//activity-status/@code": {
     "2": {
+      "oxford-gb.xml": 2,
       "oxford-998.xml": 1,
-      "oxford-mm.xml": 1,
-      "oxford-gb.xml": 2
+      "oxford-mm.xml": 1
     }
   },
   ".//budget/@status": {
-    "2": {
-      "oxford-998.xml": 5,
-      "oxford-gb.xml": 2
-    },
     "1": {
-      "oxford-mm.xml": 4,
-      "oxford-gb.xml": 3
+      "oxford-gb.xml": 3,
+      "oxford-mm.xml": 4
+    },
+    "2": {
+      "oxford-gb.xml": 2,
+      "oxford-998.xml": 6
     }
   },
   ".//budget/@type": {
     "1": {
-      "oxford-998.xml": 3,
-      "oxford-mm.xml": 3,
-      "oxford-gb.xml": 2
+      "oxford-gb.xml": 2,
+      "oxford-998.xml": 4,
+      "oxford-mm.xml": 3
     },
     "2": {
-      "oxford-998.xml": 2,
-      "oxford-gb.xml": 3
+      "oxford-gb.xml": 3,
+      "oxford-998.xml": 2
     }
   },
   ".//budget/value/@currency": {
     "GBP": {
-      "oxford-998.xml": 5,
-      "oxford-mm.xml": 4,
-      "oxford-gb.xml": 4
+      "oxford-gb.xml": 4,
+      "oxford-998.xml": 6,
+      "oxford-mm.xml": 4
+    }
+  },
+  ".//contact-info/@type": {
+    "2": {
+      "oxford-998.xml": 1
     }
   },
   ".//description/@type": {
+    "1": {
+      "oxford-gb.xml": 2,
+      "oxford-mm.xml": 1
+    },
     "2": {
       "oxford-998.xml": 1
-    },
-    "1": {
-      "oxford-mm.xml": 1,
-      "oxford-gb.xml": 2
     }
   },
   ".//participating-org/@crs-channel-code": {
-    "10000": {
-      "oxford-mm.xml": 1
-    },
     "11001": {
       "oxford-gb.xml": 1
+    },
+    "10000": {
+      "oxford-mm.xml": 1
     }
   },
   ".//participating-org/@role": {
     "4": {
-      "oxford-998.xml": 18,
-      "oxford-mm.xml": 4,
-      "oxford-gb.xml": 11
+      "oxford-gb.xml": 11,
+      "oxford-998.xml": 16,
+      "oxford-mm.xml": 4
     },
     "1": {
-      "oxford-gb.xml": 2
+      "oxford-gb.xml": 2,
+      "oxford-998.xml": 1
     },
     "2": {
-      "oxford-gb.xml": 1
+      "oxford-gb.xml": 1,
+      "oxford-998.xml": 1
     }
   },
   ".//participating-org/@type": {
-    "10": {
-      "oxford-998.xml": 2,
-      "oxford-gb.xml": 2
-    },
     "80": {
+      "oxford-gb.xml": 12,
       "oxford-998.xml": 15,
-      "oxford-mm.xml": 4,
-      "oxford-gb.xml": 12
+      "oxford-mm.xml": 4
+    },
+    "10": {
+      "oxford-gb.xml": 2,
+      "oxford-998.xml": 2
     },
     "70": {
       "oxford-998.xml": 1
     }
   },
   ".//recipient-country/@code": {
-    "NG": {
-      "oxford-998.xml": 5
-    },
-    "BF": {
-      "oxford-998.xml": 5
-    },
-    "TH": {
-      "oxford-998.xml": 8
-    },
-    "CD": {
-      "oxford-998.xml": 4
-    },
-    "TZ": {
-      "oxford-998.xml": 3
-    },
-    "GN": {
-      "oxford-998.xml": 2
-    },
-    "US": {
-      "oxford-998.xml": 4
-    },
-    "KH": {
-      "oxford-998.xml": 5
-    },
-    "NE": {
-      "oxford-998.xml": 1
-    },
-    "RW": {
-      "oxford-998.xml": 5
-    },
-    "GB": {
-      "oxford-998.xml": 12,
-      "oxford-gb.xml": 2
-    },
-    "NL": {
-      "oxford-998.xml": 3
-    },
-    "GM": {
-      "oxford-998.xml": 4
-    },
-    "BD": {
-      "oxford-998.xml": 2
-    },
-    "KE": {
-      "oxford-998.xml": 1
-    },
-    "ID": {
-      "oxford-998.xml": 1
-    },
-    "MM": {
-      "oxford-mm.xml": 1
-    },
     "IN": {
       "oxford-gb.xml": 1
     },
@@ -169,34 +124,83 @@
     },
     "VN": {
       "oxford-gb.xml": 1
+    },
+    "GB": {
+      "oxford-gb.xml": 2,
+      "oxford-998.xml": 11
+    },
+    "TH": {
+      "oxford-998.xml": 8
+    },
+    "NG": {
+      "oxford-998.xml": 4
+    },
+    "BD": {
+      "oxford-998.xml": 2
+    },
+    "US": {
+      "oxford-998.xml": 4
+    },
+    "TZ": {
+      "oxford-998.xml": 2
+    },
+    "GN": {
+      "oxford-998.xml": 1
+    },
+    "RW": {
+      "oxford-998.xml": 3
+    },
+    "CD": {
+      "oxford-998.xml": 4
+    },
+    "BF": {
+      "oxford-998.xml": 3
+    },
+    "KH": {
+      "oxford-998.xml": 5
+    },
+    "NE": {
+      "oxford-998.xml": 1
+    },
+    "NL": {
+      "oxford-998.xml": 3
+    },
+    "GM": {
+      "oxford-998.xml": 3
+    },
+    "ID": {
+      "oxford-998.xml": 1
+    },
+    "MM": {
+      "oxford-mm.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "80": {
+      "oxford-gb.xml": 2,
       "oxford-998.xml": 1,
-      "oxford-mm.xml": 1,
-      "oxford-gb.xml": 2
+      "oxford-mm.xml": 1
     }
   },
   ".//sector/@vocabulary": {
-    "1": {
-      "oxford-998.xml": 1,
-      "oxford-mm.xml": 1,
-      "oxford-gb.xml": 1
-    },
     "7": {
       "oxford-gb.xml": 1
+    },
+    "1": {
+      "oxford-gb.xml": 1,
+      "oxford-998.xml": 1,
+      "oxford-mm.xml": 1
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15162": {
+      "oxford-gb.xml": 1
+    },
     "12262": {
       "oxford-998.xml": 1
     },
     "11420": {
       "oxford-mm.xml": 1
-    },
-    "15162": {
-      "oxford-gb.xml": 1
     }
   },
   ".//sector[@vocabulary = '7']/@code": {
@@ -206,87 +210,88 @@
   },
   ".//transaction/aid-type/@vocabulary": {
     "1": {
-      "oxford-998.xml": 24,
-      "oxford-gb.xml": 8
+      "oxford-gb.xml": 8,
+      "oxford-998.xml": 55
     }
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": {
-      "oxford-998.xml": 5
-    },
-    "B03": {
-      "oxford-998.xml": 15
-    },
     "A01": {
-      "oxford-998.xml": 4,
       "oxford-gb.xml": 8
+    },
+    "C01": {
+      "oxford-998.xml": 55
     }
   },
   ".//transaction/disbursement-channel/@code": {
     "2": {
-      "oxford-998.xml": 65
+      "oxford-998.xml": 55
     }
   },
   ".//transaction/finance-type/@code": {
     "110": {
-      "oxford-998.xml": 65,
-      "oxford-gb.xml": 8
+      "oxford-gb.xml": 8,
+      "oxford-998.xml": 55
     }
   },
   ".//transaction/flow-type/@code": {
     "10": {
-      "oxford-998.xml": 65,
-      "oxford-gb.xml": 8
+      "oxford-gb.xml": 8,
+      "oxford-998.xml": 55
     }
   },
   ".//transaction/provider-org/@type": {
-    "80": {
-      "oxford-998.xml": 18,
-      "oxford-mm.xml": 20,
-      "oxford-gb.xml": 6
-    },
     "10": {
-      "oxford-998.xml": 9,
-      "oxford-gb.xml": 8
+      "oxford-gb.xml": 8,
+      "oxford-998.xml": 8
+    },
+    "80": {
+      "oxford-gb.xml": 6,
+      "oxford-mm.xml": 20
     }
   },
   ".//transaction/receiver-org/@type": {
     "80": {
-      "oxford-998.xml": 53,
-      "oxford-mm.xml": 9,
-      "oxford-gb.xml": 11
+      "oxford-gb.xml": 11,
+      "oxford-998.xml": 48,
+      "oxford-mm.xml": 9
     },
     "73": {
-      "oxford-998.xml": 3
+      "oxford-998.xml": 4
     },
     "10": {
       "oxford-998.xml": 3
-    },
-    "70": {
-      "oxford-998.xml": 2
     }
   },
   ".//transaction/recipient-country/@code": {
-    "NG": {
-      "oxford-998.xml": 5
-    },
-    "BF": {
-      "oxford-998.xml": 5
+    "GB": {
+      "oxford-998.xml": 11
     },
     "TH": {
       "oxford-998.xml": 8
     },
-    "CD": {
+    "NG": {
       "oxford-998.xml": 4
     },
-    "TZ": {
-      "oxford-998.xml": 3
-    },
-    "GN": {
+    "BD": {
       "oxford-998.xml": 2
     },
     "US": {
       "oxford-998.xml": 4
+    },
+    "TZ": {
+      "oxford-998.xml": 2
+    },
+    "GN": {
+      "oxford-998.xml": 1
+    },
+    "RW": {
+      "oxford-998.xml": 3
+    },
+    "CD": {
+      "oxford-998.xml": 4
+    },
+    "BF": {
+      "oxford-998.xml": 3
     },
     "KH": {
       "oxford-998.xml": 5
@@ -294,23 +299,11 @@
     "NE": {
       "oxford-998.xml": 1
     },
-    "RW": {
-      "oxford-998.xml": 5
-    },
-    "GB": {
-      "oxford-998.xml": 12
-    },
     "NL": {
       "oxford-998.xml": 3
     },
     "GM": {
-      "oxford-998.xml": 4
-    },
-    "BD": {
-      "oxford-998.xml": 2
-    },
-    "KE": {
-      "oxford-998.xml": 1
+      "oxford-998.xml": 3
     },
     "ID": {
       "oxford-998.xml": 1
@@ -318,36 +311,33 @@
   },
   ".//transaction/tied-status/@code": {
     "5": {
-      "oxford-998.xml": 65,
-      "oxford-gb.xml": 8
+      "oxford-gb.xml": 8,
+      "oxford-998.xml": 54
+    },
+    "4": {
+      "oxford-998.xml": 1
     }
   },
   ".//transaction/transaction-type/@code": {
     "4": {
-      "oxford-998.xml": 37,
-      "oxford-mm.xml": 12,
-      "oxford-gb.xml": 8
-    },
-    "2": {
-      "oxford-998.xml": 19
-    },
-    "1": {
-      "oxford-998.xml": 8,
-      "oxford-mm.xml": 11,
-      "oxford-gb.xml": 8
-    },
-    "11": {
-      "oxford-998.xml": 1
+      "oxford-gb.xml": 8,
+      "oxford-mm.xml": 12
     },
     "3": {
-      "oxford-gb.xml": 20
+      "oxford-gb.xml": 20,
+      "oxford-998.xml": 47
+    },
+    "1": {
+      "oxford-gb.xml": 8,
+      "oxford-998.xml": 8,
+      "oxford-mm.xml": 11
     }
   },
   ".//transaction/value/@currency": {
     "GBP": {
-      "oxford-998.xml": 65,
-      "oxford-mm.xml": 22,
-      "oxford-gb.xml": 35
+      "oxford-gb.xml": 35,
+      "oxford-998.xml": 55,
+      "oxford-mm.xml": 22
     }
   }
 }

@@ -1,62 +1,62 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "_path_-998.xml": 4,
-      "_path_-us.xml": 1
+      "_path_-us.xml": 1,
+      "_path_-998.xml": 4
     }
   },
   ".//@xml:lang": {
     "en": {
-      "_path_-998.xml": 78,
-      "_path_-us.xml": 16
+      "_path_-us.xml": 16,
+      "_path_-998.xml": 78
     }
   },
   ".//activity-date/@type": {
     "2": {
-      "_path_-998.xml": 4,
-      "_path_-us.xml": 1
+      "_path_-us.xml": 1,
+      "_path_-998.xml": 4
     },
     "3": {
-      "_path_-998.xml": 1,
-      "_path_-us.xml": 1
+      "_path_-us.xml": 1,
+      "_path_-998.xml": 1
     }
   },
   ".//activity-status/@code": {
     "2": {
-      "_path_-998.xml": 4,
-      "_path_-us.xml": 1
+      "_path_-us.xml": 1,
+      "_path_-998.xml": 4
     }
   },
   ".//budget/@status": {
-    "1": {
-      "_path_-998.xml": 5,
-      "_path_-us.xml": 2
-    },
     "2": {
-      "_path_-998.xml": 8,
-      "_path_-us.xml": 3
+      "_path_-us.xml": 3,
+      "_path_-998.xml": 8
+    },
+    "1": {
+      "_path_-us.xml": 2,
+      "_path_-998.xml": 5
     }
   },
   ".//budget/@type": {
     "2": {
-      "_path_-998.xml": 5,
-      "_path_-us.xml": 2
+      "_path_-us.xml": 2,
+      "_path_-998.xml": 5
     },
     "1": {
-      "_path_-998.xml": 7,
-      "_path_-us.xml": 2
+      "_path_-us.xml": 2,
+      "_path_-998.xml": 7
     }
   },
   ".//budget/value/@currency": {
     "GBP": {
-      "_path_-998.xml": 11,
-      "_path_-us.xml": 4
+      "_path_-us.xml": 4,
+      "_path_-998.xml": 11
     }
   },
   ".//contact-info/@type": {
     "1": {
-      "_path_-998.xml": 2,
-      "_path_-us.xml": 1
+      "_path_-us.xml": 1,
+      "_path_-998.xml": 2
     },
     "3": {
       "_path_-998.xml": 1
@@ -67,8 +67,8 @@
   },
   ".//description/@type": {
     "1": {
-      "_path_-998.xml": 4,
-      "_path_-us.xml": 1
+      "_path_-us.xml": 1,
+      "_path_-998.xml": 4
     }
   },
   ".//document-link/@format": {
@@ -108,27 +108,27 @@
     }
   },
   ".//participating-org/@role": {
+    "4": {
+      "_path_-us.xml": 1,
+      "_path_-998.xml": 15
+    },
     "1": {
       "_path_-998.xml": 1
-    },
-    "4": {
-      "_path_-998.xml": 15,
-      "_path_-us.xml": 1
     },
     "2": {
       "_path_-998.xml": 2
     }
   },
   ".//participating-org/@type": {
+    "21": {
+      "_path_-us.xml": 1,
+      "_path_-998.xml": 8
+    },
     "10": {
       "_path_-998.xml": 1
     },
     "70": {
       "_path_-998.xml": 4
-    },
-    "21": {
-      "_path_-998.xml": 8,
-      "_path_-us.xml": 1
     },
     "22": {
       "_path_-998.xml": 3
@@ -142,33 +142,33 @@
   },
   ".//planned-disbursement/@type": {
     "1": {
-      "_path_-998.xml": 11,
-      "_path_-us.xml": 1
+      "_path_-us.xml": 1,
+      "_path_-998.xml": 11
     }
   },
   ".//planned-disbursement/provider-org/@type": {
-    "21": {
-      "_path_-998.xml": 8
-    },
     "73": {
       "_path_-us.xml": 1
+    },
+    "21": {
+      "_path_-998.xml": 8
     }
   },
   ".//planned-disbursement/receiver-org/@type": {
+    "73": {
+      "_path_-us.xml": 1
+    },
     "80": {
       "_path_-998.xml": 5
     },
     "70": {
       "_path_-998.xml": 3
-    },
-    "73": {
-      "_path_-us.xml": 1
     }
   },
   ".//planned-disbursement/value/@currency": {
     "GBP": {
-      "_path_-998.xml": 5,
-      "_path_-us.xml": 1
+      "_path_-us.xml": 1,
+      "_path_-998.xml": 5
     },
     "USD": {
       "_path_-998.xml": 4
@@ -176,14 +176,8 @@
   },
   ".//recipient-country/@code": {
     "US": {
-      "_path_-998.xml": 3,
-      "_path_-us.xml": 1
-    },
-    "BE": {
-      "_path_-998.xml": 1
-    },
-    "GB": {
-      "_path_-998.xml": 1
+      "_path_-us.xml": 1,
+      "_path_-998.xml": 3
     },
     "KE": {
       "_path_-us.xml": 1
@@ -193,55 +187,61 @@
     },
     "UG": {
       "_path_-us.xml": 1
+    },
+    "BE": {
+      "_path_-998.xml": 1
+    },
+    "GB": {
+      "_path_-998.xml": 1
     }
   },
   ".//recipient-region/@vocabulary": {
     "1": {
-      "_path_-998.xml": 4,
-      "_path_-us.xml": 2
+      "_path_-us.xml": 2,
+      "_path_-998.xml": 4
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "998": {
-      "_path_-998.xml": 4
-    },
     "389": {
       "_path_-us.xml": 1
     },
     "298": {
       "_path_-us.xml": 1
+    },
+    "998": {
+      "_path_-998.xml": 4
     }
   },
   ".//reporting-org/@type": {
     "21": {
-      "_path_-998.xml": 4,
-      "_path_-us.xml": 1
+      "_path_-us.xml": 1,
+      "_path_-998.xml": 4
     }
   },
   ".//sector/@vocabulary": {
     "1": {
-      "_path_-998.xml": 4,
-      "_path_-us.xml": 1
+      "_path_-us.xml": 1,
+      "_path_-998.xml": 4
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "32182": {
+      "_path_-us.xml": 1,
+      "_path_-998.xml": 1
+    },
     "12240": {
       "_path_-998.xml": 1
     },
     "13020": {
       "_path_-998.xml": 2
-    },
-    "32182": {
-      "_path_-998.xml": 1,
-      "_path_-us.xml": 1
     }
   },
   ".//transaction/disbursement-channel/@code": {
-    "2": {
-      "_path_-998.xml": 3
-    },
     "3": {
       "_path_-us.xml": 1
+    },
+    "2": {
+      "_path_-998.xml": 3
     }
   },
   ".//transaction/finance-type/@code": {
@@ -251,12 +251,12 @@
   },
   ".//transaction/provider-org/@type": {
     "10": {
-      "_path_-998.xml": 39,
-      "_path_-us.xml": 12
+      "_path_-us.xml": 12,
+      "_path_-998.xml": 39
     },
     "21": {
-      "_path_-998.xml": 126,
-      "_path_-us.xml": 16
+      "_path_-us.xml": 16,
+      "_path_-998.xml": 126
     },
     "70": {
       "_path_-998.xml": 1
@@ -264,12 +264,19 @@
   },
   ".//transaction/receiver-org/@type": {
     "21": {
-      "_path_-998.xml": 64,
-      "_path_-us.xml": 13
+      "_path_-us.xml": 13,
+      "_path_-998.xml": 64
+    },
+    "80": {
+      "_path_-us.xml": 6,
+      "_path_-998.xml": 9
+    },
+    "73": {
+      "_path_-us.xml": 1
     },
     "70": {
-      "_path_-998.xml": 47,
-      "_path_-us.xml": 3
+      "_path_-us.xml": 3,
+      "_path_-998.xml": 47
     },
     "71": {
       "_path_-998.xml": 1
@@ -277,41 +284,34 @@
     "22": {
       "_path_-998.xml": 24
     },
-    "80": {
-      "_path_-998.xml": 9,
-      "_path_-us.xml": 6
-    },
     "72": {
       "_path_-998.xml": 4
-    },
-    "73": {
-      "_path_-us.xml": 1
     }
   },
   ".//transaction/transaction-type/@code": {
+    "4": {
+      "_path_-us.xml": 17,
+      "_path_-998.xml": 31
+    },
     "1": {
-      "_path_-998.xml": 27,
-      "_path_-us.xml": 13
+      "_path_-us.xml": 13,
+      "_path_-998.xml": 27
+    },
+    "3": {
+      "_path_-us.xml": 18,
+      "_path_-998.xml": 88
     },
     "11": {
       "_path_-998.xml": 14
     },
     "2": {
       "_path_-998.xml": 37
-    },
-    "3": {
-      "_path_-998.xml": 88,
-      "_path_-us.xml": 18
-    },
-    "4": {
-      "_path_-998.xml": 31,
-      "_path_-us.xml": 17
     }
   },
   ".//transaction/value/@currency": {
     "GBP": {
-      "_path_-998.xml": 195,
-      "_path_-us.xml": 45
+      "_path_-us.xml": 45,
+      "_path_-998.xml": 195
     }
   }
 }

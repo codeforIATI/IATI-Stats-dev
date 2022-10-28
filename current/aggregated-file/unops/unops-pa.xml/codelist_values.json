@@ -1,37 +1,43 @@
 {
   ".//@default-currency": {
-    "USD": 41
+    "USD": 42
   },
   ".//@xml:lang": {
-    "en": 41
+    "en": 42
   },
   ".//activity-date/@type": {
-    "2": 41
+    "2": 42
+  },
+  ".//activity-status/@code": {
+    "2": 42
   },
   ".//budget/@type": {
-    "1": 41
+    "1": 42
+  },
+  ".//budget/value/@currency": {
+    "USD": 42
   },
   ".//contact-info/@type": {
-    "1": 41
+    "1": 42
   },
   ".//description/@type": {
-    "1": 41
+    "1": 42
   },
   ".//participating-org/@role": {
-    "4": 41,
-    "2": 41
+    "4": 42,
+    "2": 42
   },
   ".//participating-org/@type": {
-    "40": 82
+    "40": 84
   },
   ".//recipient-country/@code": {
-    "PA": 41
+    "PA": 42
   },
   ".//reporting-org/@type": {
-    "40": 41
+    "40": 42
   },
   ".//sector/@vocabulary": {
-    "1": 41
+    "1": 42
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "41010": 13,
@@ -42,6 +48,7 @@
     "13020": 1,
     "72010": 14,
     "15110": 1,
+    "21020": 1,
     "11330": 1,
     "43030": 1,
     "15130": 1,
@@ -50,6 +57,9 @@
     "11120": 1
   },
   ".//transaction/transaction-type/@code": {
-    "4": 41
+    "4": 42
+  },
+  ".//transaction/value/@currency": {
+    "USD": 42
   }
 }

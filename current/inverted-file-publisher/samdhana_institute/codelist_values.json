@@ -6,7 +6,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "samdhana_institute-activities.xml": 1
+      "samdhana_institute-activities.xml": 2
     }
   },
   ".//activity-date/@type": {
@@ -169,6 +169,24 @@
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "15150": {
       "samdhana_institute-activities.xml": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "22": {
+      "samdhana_institute-activities.xml": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "samdhana_institute-activities.xml": 2
+    },
+    "1": {
+      "samdhana_institute-activities.xml": 2
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "samdhana_institute-activities.xml": 4
     }
   }
 }

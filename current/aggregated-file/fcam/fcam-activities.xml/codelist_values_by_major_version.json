@@ -84,9 +84,13 @@
     ".//policy-marker/@vocabulary": {
       "1": 20
     },
+    ".//recipient-country/@code": {
+      "NI": 2
+    },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "498": 5,
       "998": 3,
+      "1032": 2,
       "389": 1
     },
     ".//recipient-region/@vocabulary": {
@@ -129,7 +133,11 @@
     ".//sector/@vocabulary": {
       "1": 11
     },
+    ".//transaction/recipient-country/@code": {
+      "NI": 2
+    },
     ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "1032": 2,
       "389": 1
     },
     ".//transaction/recipient-region/@vocabulary": {
@@ -137,24 +145,27 @@
     },
     ".//transaction/provider-org/@type": {
       "60": 11,
-      "10": 7
+      "10": 7,
+      "21": 2
     },
     ".//transaction/receiver-org/@type": {
       "60": 19,
       "22": 8,
+      "23": 2,
       "21": 1
     },
     ".//transaction/transaction-type/@code": {
       "4": 41,
       "3": 82,
-      "1": 9,
+      "1": 10,
+      "11": 1,
       "2": 4
     },
     ".//transaction/value/@currency": {
-      "EUR": 135
+      "EUR": 137
     },
     ".//@xml:lang": {
-      "en": 154
+      "en": 156
     }
   }
 }

@@ -10,7 +10,7 @@
     "3": 1
   },
   ".//activity-status/@code": {
-    "1": 1
+    "2": 1
   },
   ".//description/@type": {
     "2": 1
@@ -35,5 +35,11 @@
   },
   ".//sector[@vocabulary = '7']/@code": {
     "2": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": 2
+  },
+  ".//transaction/value/@currency": {
+    "USD": 2
   }
 }

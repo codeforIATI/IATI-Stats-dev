@@ -8,11 +8,16 @@
   "iati-activity/activity-date/@iso-date": 10,
   "iati-activity/activity-date/@type": 10,
   "iati-activity/activity-status": 10,
+  "iati-activity/activity-status/@code": 10,
   "iati-activity/budget": 10,
   "iati-activity/budget/@type": 10,
   "iati-activity/budget/period-end": 10,
+  "iati-activity/budget/period-end/@iso-date": 10,
   "iati-activity/budget/period-start": 10,
+  "iati-activity/budget/period-start/@iso-date": 10,
   "iati-activity/budget/value": 10,
+  "iati-activity/budget/value/@currency": 10,
+  "iati-activity/budget/value/@value-date": 10,
   "iati-activity/contact-info": 10,
   "iati-activity/contact-info/@type": 10,
   "iati-activity/contact-info/email": 10,
@@ -26,6 +31,7 @@
   "iati-activity/description": 10,
   "iati-activity/description/@type": 10,
   "iati-activity/description/narrative": 10,
+  "iati-activity/document-link": 10,
   "iati-activity/iati-identifier": 10,
   "iati-activity/participating-org": 20,
   "iati-activity/participating-org/@ref": 20,
@@ -57,5 +63,7 @@
   "iati-activity/transaction/transaction-date/@iso-date": 10,
   "iati-activity/transaction/transaction-type": 10,
   "iati-activity/transaction/transaction-type/@code": 10,
-  "iati-activity/transaction/value": 10
+  "iati-activity/transaction/value": 10,
+  "iati-activity/transaction/value/@currency": 10,
+  "iati-activity/transaction/value/@value-date": 10
 }

@@ -8,14 +8,29 @@
   ".//activity-date/@type": {
     "2": 20
   },
+  ".//activity-status/@code": {
+    "2": 20
+  },
   ".//budget/@type": {
     "1": 20
+  },
+  ".//budget/value/@currency": {
+    "USD": 20
   },
   ".//contact-info/@type": {
     "1": 20
   },
   ".//description/@type": {
     "1": 20
+  },
+  ".//document-link/@format": {
+    "application/pdf": 1
+  },
+  ".//document-link/category/@code": {
+    "A07": 1
+  },
+  ".//document-link/language/@code": {
+    "en": 1
   },
   ".//participating-org/@role": {
     "4": 20,
@@ -34,14 +49,14 @@
     "1": 20
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "33110": 1,
     "12263": 1,
     "12110": 1,
+    "33110": 1,
     "14081": 1,
     "41010": 3,
     "23230": 3,
-    "23210": 1,
     "12220": 1,
+    "23210": 1,
     "31320": 1,
     "99810": 1,
     "43030": 1,
@@ -53,5 +68,8 @@
   },
   ".//transaction/transaction-type/@code": {
     "4": 20
+  },
+  ".//transaction/value/@currency": {
+    "USD": 20
   }
 }

@@ -1,103 +1,118 @@
 {
   "2": {
     ".//@default-currency": {
-      "EUR": 12
+      "EUR": 31
     },
     ".//activity-date/@type": {
-      "1": 12,
-      "3": 12,
-      "4": 5,
-      "2": 5
+      "1": 31,
+      "2": 30,
+      "3": 31,
+      "4": 25
     },
     ".//activity-status/@code": {
-      "4": 6,
+      "4": 25,
       "2": 3,
       "3": 3
     },
     ".//collaboration-type/@code": {
-      "1": 12
+      "1": 30
     },
     ".//contact-info/@type": {
-      "1": 12
+      "1": 31
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 10,
+      "C01": 11,
       "B01": 1,
-      "D01": 1
+      "D01": 2,
+      "G01": 1
     },
     ".//default-finance-type/@code": {
-      "110": 12
+      "110": 31
     },
     ".//default-flow-type/@code": {
-      "10": 12
+      "10": 31
     },
     ".//default-tied-status/@code": {
       "5": 2,
       "4": 2
     },
     ".//location/location-reach/@code": {
-      "1": 12
+      "1": 31
     },
     ".//other-identifier/@type": {
-      "A1": 12,
-      "A2": 10
+      "A1": 31,
+      "A2": 15
     },
     ".//participating-org/@crs-channel-code": {
       "22000": 21,
-      "11001": 9,
+      "11001": 27,
       "12001": 6
     },
     ".//participating-org/@role": {
-      "1": 12,
-      "2": 12,
-      "4": 12
+      "1": 31,
+      "2": 31,
+      "4": 18
     },
     ".//participating-org/@type": {
-      "10": 29,
+      "10": 73,
       "22": 7
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "1": 12,
-      "2": 12,
-      "3": 12,
-      "4": 12,
+      "1": 15,
+      "2": 15,
+      "3": 16,
+      "4": 13,
       "5": 12,
       "6": 12,
       "7": 12,
       "8": 12,
-      "9": 12,
-      "11": 5,
+      "9": 13,
+      "11": 6,
       "10": 1,
       "12": 1
     },
     ".//policy-marker/@significance": {
-      "1": 33,
-      "0": 74,
-      "2": 8
+      "1": 40,
+      "0": 79,
+      "2": 9
     },
     ".//policy-marker/@vocabulary": {
-      "1": 115
+      "1": 128
     },
     ".//recipient-country/@code": {
-      "MA": 12
+      "MA": 31
     },
     ".//related-activity/@type": {
-      "3": 231
+      "3": 265
     },
     ".//reporting-org/@type": {
-      "10": 12
+      "10": 31
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "15190": 2,
-      "14030": 2,
-      "16010": 2,
-      "31120": 2,
+      "15130": 1,
+      "22040": 1,
+      "14030": 3,
+      "16010": 3,
+      "24081": 1,
+      "99810": 2,
+      "31120": 3,
+      "12220": 1,
+      "11330": 1,
+      "31161": 2,
+      "15111": 1,
+      "91010": 1,
       "24040": 1,
+      "11420": 1,
+      "12230": 1,
+      "23081": 1,
       "11120": 1,
       "11130": 1,
       "11220": 1,
       "99820": 1,
-      "15110": 2
+      "15110": 2,
+      "12281": 1,
+      "14010": 1
     },
     ".//tag[@vocabulary = '2']/@code": {
       "10": 2,
@@ -121,18 +136,18 @@
     },
     ".//transaction/receiver-org/@type": {
       "22": 32,
-      "10": 42
+      "10": 100
     },
     ".//transaction/transaction-type/@code": {
-      "2": 32,
-      "3": 42
+      "2": 143,
+      "3": 148
     },
     ".//transaction/value/@currency": {
-      "EUR": 74
+      "EUR": 291
     },
     ".//@xml:lang": {
-      "en": 28,
-      "it": 20
+      "en": 57,
+      "it": 53
     }
   }
 }

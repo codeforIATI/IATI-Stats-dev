@@ -1,12 +1,12 @@
 {
   ".//@default-currency": {
     "EUR": {
-      "vngi-activities.xml": 21
+      "vngi-activities.xml": 23
     }
   },
   ".//@xml:lang": {
     "en": {
-      "vngi-activities.xml": 20
+      "vngi-activities.xml": 22
     },
     "fr": {
       "vngi-activities.xml": 1
@@ -14,13 +14,13 @@
   },
   ".//activity-date/@type": {
     "1": {
-      "vngi-activities.xml": 20
-    },
-    "3": {
-      "vngi-activities.xml": 21
+      "vngi-activities.xml": 22
     },
     "2": {
-      "vngi-activities.xml": 11
+      "vngi-activities.xml": 13
+    },
+    "3": {
+      "vngi-activities.xml": 23
     },
     "4": {
       "vngi-activities.xml": 2
@@ -36,7 +36,7 @@
   },
   ".//activity-status/@code": {
     "2": {
-      "vngi-activities.xml": 21
+      "vngi-activities.xml": 23
     }
   },
   ".//budget/@status": {
@@ -61,17 +61,17 @@
   },
   ".//contact-info/@type": {
     "2": {
-      "vngi-activities.xml": 26
+      "vngi-activities.xml": 29
     }
   },
   ".//default-aid-type/@vocabulary": {
     "1": {
-      "vngi-activities.xml": 21
+      "vngi-activities.xml": 23
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": {
-      "vngi-activities.xml": 13
+      "vngi-activities.xml": 15
     },
     "B03": {
       "vngi-activities.xml": 7
@@ -82,7 +82,7 @@
   },
   ".//default-finance-type/@code": {
     "110": {
-      "vngi-activities.xml": 20
+      "vngi-activities.xml": 22
     },
     "2": {
       "vngi-activities.xml": 1
@@ -90,12 +90,12 @@
   },
   ".//default-flow-type/@code": {
     "10": {
-      "vngi-activities.xml": 21
+      "vngi-activities.xml": 23
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "vngi-activities.xml": 11
+      "vngi-activities.xml": 13
     },
     "4": {
       "vngi-activities.xml": 3
@@ -106,7 +106,7 @@
   },
   ".//description/@type": {
     "1": {
-      "vngi-activities.xml": 64
+      "vngi-activities.xml": 68
     },
     "3": {
       "vngi-activities.xml": 11
@@ -117,13 +117,16 @@
   },
   ".//document-link/@format": {
     "image/jpeg": {
-      "vngi-activities.xml": 21
+      "vngi-activities.xml": 23
     },
-    "application/http": {
-      "vngi-activities.xml": 309
+    "application/vnd.ms-excel": {
+      "vngi-activities.xml": 1
     },
     "application/pdf": {
-      "vngi-activities.xml": 16
+      "vngi-activities.xml": 17
+    },
+    "application/http": {
+      "vngi-activities.xml": 310
     },
     "application/vnd.oma.poc.optimized-progress-report+xml": {
       "vngi-activities.xml": 1
@@ -131,7 +134,13 @@
   },
   ".//document-link/category/@code": {
     "A12": {
-      "vngi-activities.xml": 330
+      "vngi-activities.xml": 333
+    },
+    "A05": {
+      "vngi-activities.xml": 1
+    },
+    "B01": {
+      "vngi-activities.xml": 4
     },
     "A02": {
       "vngi-activities.xml": 5
@@ -139,16 +148,13 @@
     "A07": {
       "vngi-activities.xml": 4
     },
-    "B01": {
-      "vngi-activities.xml": 3
-    },
     "A08": {
       "vngi-activities.xml": 5
     }
   },
   ".//document-link/language/@code": {
     "en": {
-      "vngi-activities.xml": 285
+      "vngi-activities.xml": 286
     },
     "es": {
       "vngi-activities.xml": 1
@@ -159,26 +165,26 @@
   },
   ".//other-identifier/@type": {
     "B9": {
-      "vngi-activities.xml": 21
+      "vngi-activities.xml": 23
     }
   },
   ".//participating-org/@role": {
     "1": {
-      "vngi-activities.xml": 21
+      "vngi-activities.xml": 23
     },
     "4": {
-      "vngi-activities.xml": 21
+      "vngi-activities.xml": 23
     },
     "2": {
-      "vngi-activities.xml": 2
+      "vngi-activities.xml": 4
     }
   },
   ".//participating-org/@type": {
     "10": {
-      "vngi-activities.xml": 6
+      "vngi-activities.xml": 7
     },
     "15": {
-      "vngi-activities.xml": 26
+      "vngi-activities.xml": 31
     },
     "22": {
       "vngi-activities.xml": 8
@@ -192,7 +198,7 @@
   },
   ".//policy-marker/@significance": {
     "2": {
-      "vngi-activities.xml": 11
+      "vngi-activities.xml": 13
     },
     "1": {
       "vngi-activities.xml": 14
@@ -203,12 +209,12 @@
   },
   ".//policy-marker/@vocabulary": {
     "1": {
-      "vngi-activities.xml": 32
+      "vngi-activities.xml": 34
     }
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "3": {
-      "vngi-activities.xml": 20
+      "vngi-activities.xml": 22
     },
     "1": {
       "vngi-activities.xml": 10
@@ -221,20 +227,38 @@
     }
   },
   ".//recipient-country/@code": {
+    "EG": {
+      "vngi-activities.xml": 1
+    },
     "SO": {
-      "vngi-activities.xml": 4
+      "vngi-activities.xml": 5
     },
     "CD": {
       "vngi-activities.xml": 2
     },
-    "NL": {
-      "vngi-activities.xml": 1
-    },
     "UG": {
-      "vngi-activities.xml": 4
+      "vngi-activities.xml": 5
+    },
+    "IQ": {
+      "vngi-activities.xml": 2
+    },
+    "ML": {
+      "vngi-activities.xml": 3
     },
     "SS": {
+      "vngi-activities.xml": 4
+    },
+    "PS": {
       "vngi-activities.xml": 3
+    },
+    "MZ": {
+      "vngi-activities.xml": 1
+    },
+    "BI": {
+      "vngi-activities.xml": 4
+    },
+    "NL": {
+      "vngi-activities.xml": 1
     },
     "ET": {
       "vngi-activities.xml": 1
@@ -242,47 +266,40 @@
     "SD": {
       "vngi-activities.xml": 1
     },
-    "BI": {
-      "vngi-activities.xml": 3
-    },
-    "IQ": {
-      "vngi-activities.xml": 1
-    },
     "RW": {
-      "vngi-activities.xml": 2
-    },
-    "PS": {
-      "vngi-activities.xml": 2
-    },
-    "ML": {
       "vngi-activities.xml": 2
     },
     "BJ": {
       "vngi-activities.xml": 1
     }
   },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "vngi-activities.xml": 1
+    }
+  },
   ".//related-activity/@type": {
+    "2": {
+      "vngi-activities.xml": 14
+    },
     "1": {
       "vngi-activities.xml": 16
-    },
-    "2": {
-      "vngi-activities.xml": 10
     }
   },
   ".//reporting-org/@type": {
     "15": {
-      "vngi-activities.xml": 21
+      "vngi-activities.xml": 23
     }
   },
   ".//result/@type": {
     "2": {
-      "vngi-activities.xml": 56
+      "vngi-activities.xml": 60
     },
     "9": {
-      "vngi-activities.xml": 18
+      "vngi-activities.xml": 28
     },
     "3": {
-      "vngi-activities.xml": 13
+      "vngi-activities.xml": 14
     },
     "1": {
       "vngi-activities.xml": 24
@@ -290,7 +307,7 @@
   },
   ".//result/indicator/@measure": {
     "1": {
-      "vngi-activities.xml": 69
+      "vngi-activities.xml": 143
     },
     "2": {
       "vngi-activities.xml": 182
@@ -306,12 +323,15 @@
   },
   ".//sector/@vocabulary": {
     "1": {
-      "vngi-activities.xml": 35
+      "vngi-activities.xml": 37
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "14010": {
+      "vngi-activities.xml": 1
+    },
     "15112": {
-      "vngi-activities.xml": 11
+      "vngi-activities.xml": 12
     },
     "31120": {
       "vngi-activities.xml": 1
@@ -334,18 +354,18 @@
   },
   ".//transaction/provider-org/@type": {
     "10": {
-      "vngi-activities.xml": 15
+      "vngi-activities.xml": 16
+    },
+    "15": {
+      "vngi-activities.xml": 69
     },
     "22": {
       "vngi-activities.xml": 10
-    },
-    "15": {
-      "vngi-activities.xml": 68
     }
   },
   ".//transaction/receiver-org/@type": {
     "15": {
-      "vngi-activities.xml": 84
+      "vngi-activities.xml": 86
     },
     "21": {
       "vngi-activities.xml": 1
@@ -359,7 +379,7 @@
       "vngi-activities.xml": 37
     },
     "11": {
-      "vngi-activities.xml": 6
+      "vngi-activities.xml": 8
     },
     "4": {
       "vngi-activities.xml": 35

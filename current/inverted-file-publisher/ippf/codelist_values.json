@@ -1,7 +1,7 @@
 {
   ".//@default-currency": {
     "USD": {
-      "ippf-activities.xml": 23
+      "ippf-activities.xml": 24
     },
     "EUR": {
       "ippf-activities.xml": 2
@@ -12,7 +12,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "ippf-activities.xml": 895
+      "ippf-activities.xml": 917
     },
     "es": {
       "ippf-activities.xml": 45
@@ -26,7 +26,7 @@
   },
   ".//activity-date/@type": {
     "2": {
-      "ippf-activities.xml": 29
+      "ippf-activities.xml": 30
     },
     "4": {
       "ippf-activities.xml": 17
@@ -35,12 +35,12 @@
       "ippf-activities.xml": 20
     },
     "3": {
-      "ippf-activities.xml": 23
+      "ippf-activities.xml": 24
     }
   },
   ".//activity-status/@code": {
     "4": {
-      "ippf-activities.xml": 21
+      "ippf-activities.xml": 22
     },
     "2": {
       "ippf-activities.xml": 14
@@ -51,7 +51,7 @@
   },
   ".//budget/@status": {
     "2": {
-      "ippf-activities.xml": 61
+      "ippf-activities.xml": 68
     },
     "1": {
       "ippf-activities.xml": 17
@@ -59,10 +59,10 @@
   },
   ".//budget/@type": {
     "1": {
-      "ippf-activities.xml": 50
+      "ippf-activities.xml": 54
     },
     "2": {
-      "ippf-activities.xml": 28
+      "ippf-activities.xml": 31
     }
   },
   ".//budget/value/@currency": {
@@ -70,15 +70,21 @@
       "ippf-activities.xml": 43
     },
     "USD": {
-      "ippf-activities.xml": 5
+      "ippf-activities.xml": 9
     },
     "GBP": {
-      "ippf-activities.xml": 29
+      "ippf-activities.xml": 30
+    },
+    "NOK": {
+      "ippf-activities.xml": 1
+    },
+    "CAD": {
+      "ippf-activities.xml": 1
     }
   },
   ".//collaboration-type/@code": {
     "3": {
-      "ippf-activities.xml": 18
+      "ippf-activities.xml": 19
     },
     "2": {
       "ippf-activities.xml": 6
@@ -92,18 +98,18 @@
   },
   ".//contact-info/@type": {
     "2": {
-      "ippf-activities.xml": 3
+      "ippf-activities.xml": 4
     },
     "3": {
-      "ippf-activities.xml": 1
+      "ippf-activities.xml": 2
     },
     "1": {
-      "ippf-activities.xml": 14
+      "ippf-activities.xml": 15
     }
   },
   ".//default-aid-type/@vocabulary": {
     "1": {
-      "ippf-activities.xml": 24
+      "ippf-activities.xml": 25
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -118,16 +124,19 @@
     },
     "B02": {
       "ippf-activities.xml": 11
+    },
+    "B04": {
+      "ippf-activities.xml": 1
     }
   },
   ".//default-finance-type/@code": {
     "110": {
-      "ippf-activities.xml": 38
+      "ippf-activities.xml": 39
     }
   },
   ".//default-flow-type/@code": {
     "10": {
-      "ippf-activities.xml": 15
+      "ippf-activities.xml": 16
     },
     "30": {
       "ippf-activities.xml": 23
@@ -135,12 +144,12 @@
   },
   ".//default-tied-status/@code": {
     "5": {
-      "ippf-activities.xml": 38
+      "ippf-activities.xml": 39
     }
   },
   ".//description/@type": {
     "1": {
-      "ippf-activities.xml": 38
+      "ippf-activities.xml": 39
     },
     "2": {
       "ippf-activities.xml": 3
@@ -151,7 +160,7 @@
   },
   ".//document-link/@format": {
     "application/pdf": {
-      "ippf-activities.xml": 21
+      "ippf-activities.xml": 23
     },
     "text/html": {
       "ippf-activities.xml": 1
@@ -168,13 +177,13 @@
       "ippf-activities.xml": 24
     },
     "A02": {
-      "ippf-activities.xml": 1
+      "ippf-activities.xml": 2
     },
     "A03": {
       "ippf-activities.xml": 1
     },
     "A08": {
-      "ippf-activities.xml": 1
+      "ippf-activities.xml": 2
     },
     "A12": {
       "ippf-activities.xml": 1
@@ -182,41 +191,49 @@
   },
   ".//document-link/language/@code": {
     "en": {
-      "ippf-activities.xml": 26
+      "ippf-activities.xml": 28
+    }
+  },
+  ".//participating-org/@crs-channel-code": {
+    "20000": {
+      "ippf-activities.xml": 1
     }
   },
   ".//participating-org/@role": {
     "1": {
-      "ippf-activities.xml": 47
+      "ippf-activities.xml": 52
     },
     "4": {
-      "ippf-activities.xml": 113
+      "ippf-activities.xml": 201
     },
     "2": {
-      "ippf-activities.xml": 12
+      "ippf-activities.xml": 13
     }
   },
   ".//participating-org/@type": {
     "21": {
-      "ippf-activities.xml": 60
+      "ippf-activities.xml": 62
     },
     "10": {
-      "ippf-activities.xml": 13
+      "ippf-activities.xml": 17
     },
     "70": {
       "ippf-activities.xml": 3
     },
     "60": {
-      "ippf-activities.xml": 2
+      "ippf-activities.xml": 3
     },
     "22": {
-      "ippf-activities.xml": 86
+      "ippf-activities.xml": 169
     },
     "80": {
-      "ippf-activities.xml": 3
+      "ippf-activities.xml": 5
     },
     "24": {
       "ippf-activities.xml": 5
+    },
+    "23": {
+      "ippf-activities.xml": 2
     }
   },
   ".//policy-marker/@significance": {
@@ -228,16 +245,19 @@
     },
     "0": {
       "ippf-activities.xml": 10
+    },
+    "3": {
+      "ippf-activities.xml": 1
     }
   },
   ".//policy-marker/@vocabulary": {
     "1": {
-      "ippf-activities.xml": 10
+      "ippf-activities.xml": 11
     }
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "9": {
-      "ippf-activities.xml": 7
+      "ippf-activities.xml": 9
     },
     "1": {
       "ippf-activities.xml": 2
@@ -361,7 +381,7 @@
   },
   ".//recipient-region/@vocabulary": {
     "1": {
-      "ippf-activities.xml": 17
+      "ippf-activities.xml": 24
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -369,13 +389,13 @@
       "ippf-activities.xml": 2
     },
     "289": {
-      "ippf-activities.xml": 3
+      "ippf-activities.xml": 4
     },
     "998": {
       "ippf-activities.xml": 4
     },
     "89": {
-      "ippf-activities.xml": 2
+      "ippf-activities.xml": 3
     },
     "789": {
       "ippf-activities.xml": 2
@@ -390,18 +410,21 @@
       "ippf-activities.xml": 1
     },
     "589": {
-      "ippf-activities.xml": 1
+      "ippf-activities.xml": 2
     },
     "489": {
-      "ippf-activities.xml": 1
+      "ippf-activities.xml": 2
     },
     "798": {
-      "ippf-activities.xml": 1
+      "ippf-activities.xml": 2
     },
     "889": {
       "ippf-activities.xml": 1
     },
     "619": {
+      "ippf-activities.xml": 2
+    },
+    "1031": {
       "ippf-activities.xml": 1
     }
   },
@@ -415,7 +438,7 @@
   },
   ".//reporting-org/@type": {
     "21": {
-      "ippf-activities.xml": 38
+      "ippf-activities.xml": 39
     }
   },
   ".//result/@type": {
@@ -423,12 +446,12 @@
       "ippf-activities.xml": 27
     },
     "2": {
-      "ippf-activities.xml": 1
+      "ippf-activities.xml": 7
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "ippf-activities.xml": 61
+      "ippf-activities.xml": 70
     },
     "2": {
       "ippf-activities.xml": 7
@@ -436,15 +459,15 @@
   },
   ".//sector/@vocabulary": {
     "1": {
-      "ippf-activities.xml": 94
+      "ippf-activities.xml": 99
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "13020": {
-      "ippf-activities.xml": 26
+      "ippf-activities.xml": 27
     },
     "13030": {
-      "ippf-activities.xml": 28
+      "ippf-activities.xml": 29
     },
     "13040": {
       "ippf-activities.xml": 6
@@ -459,16 +482,16 @@
       "ippf-activities.xml": 5
     },
     "92030": {
-      "ippf-activities.xml": 7
+      "ippf-activities.xml": 8
     },
     "12261": {
       "ippf-activities.xml": 9
     },
     "13081": {
-      "ippf-activities.xml": 1
+      "ippf-activities.xml": 2
     },
     "15164": {
-      "ippf-activities.xml": 1
+      "ippf-activities.xml": 2
     },
     "12110": {
       "ippf-activities.xml": 1
@@ -489,7 +512,7 @@
   },
   ".//transaction/disbursement-channel/@code": {
     "2": {
-      "ippf-activities.xml": 1021
+      "ippf-activities.xml": 1163
     },
     "1": {
       "ippf-activities.xml": 4
@@ -516,15 +539,15 @@
       "ippf-activities.xml": 75
     },
     "10": {
-      "ippf-activities.xml": 16
+      "ippf-activities.xml": 17
     }
   },
   ".//transaction/receiver-org/@type": {
     "21": {
-      "ippf-activities.xml": 45
+      "ippf-activities.xml": 46
     },
     "22": {
-      "ippf-activities.xml": 845
+      "ippf-activities.xml": 987
     },
     "80": {
       "ippf-activities.xml": 11
@@ -560,19 +583,19 @@
   },
   ".//transaction/transaction-type/@code": {
     "4": {
-      "ippf-activities.xml": 539
+      "ippf-activities.xml": 540
     },
     "1": {
-      "ippf-activities.xml": 423
+      "ippf-activities.xml": 426
     },
     "3": {
-      "ippf-activities.xml": 1305
+      "ippf-activities.xml": 1368
     },
     "11": {
       "ippf-activities.xml": 45
     },
     "2": {
-      "ippf-activities.xml": 204
+      "ippf-activities.xml": 283
     }
   },
   ".//transaction/value/@currency": {
@@ -580,16 +603,16 @@
       "ippf-activities.xml": 225
     },
     "USD": {
-      "ippf-activities.xml": 634
+      "ippf-activities.xml": 778
     },
     "NOK": {
-      "ippf-activities.xml": 13
+      "ippf-activities.xml": 14
+    },
+    "GBP": {
+      "ippf-activities.xml": 931
     },
     "CAD": {
       "ippf-activities.xml": 1
-    },
-    "GBP": {
-      "ippf-activities.xml": 930
     }
   }
 }

@@ -34,8 +34,8 @@
     "1": 15
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "D02": 3,
-    "C01": 12
+    "C01": 12,
+    "D02": 3
   },
   ".//default-finance-type/@code": {
     "110": 15
@@ -73,9 +73,9 @@
     "90": 1
   },
   ".//policy-marker/@significance": {
-    "1": 12,
     "0": 158,
-    "2": 10
+    "2": 10,
+    "1": 12
   },
   ".//policy-marker/@vocabulary": {
     "1": 180
@@ -108,12 +108,12 @@
     "1": 15
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "15151": 4,
     "15240": 2,
+    "15151": 4,
     "15220": 3,
     "15152": 1,
-    "72010": 1,
     "15190": 1,
+    "72010": 1,
     "11330": 3
   },
   ".//tag/@vocabulary": {
@@ -124,8 +124,8 @@
     "16": 8
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "D02": 5,
-    "C01": 28
+    "C01": 28,
+    "D02": 5
   },
   ".//transaction/disbursement-channel/@code": {
     "2": 36
@@ -143,8 +143,8 @@
     "5": 22
   },
   ".//transaction/transaction-type/@code": {
-    "4": 7,
     "3": 26,
+    "4": 7,
     "2": 3
   },
   ".//transaction/value/@currency": {

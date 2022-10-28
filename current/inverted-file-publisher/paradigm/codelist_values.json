@@ -6,7 +6,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "paradigm-activities.xml": 7
+      "paradigm-activities.xml": 40
     }
   },
   ".//activity-date/@type": {
@@ -37,6 +37,36 @@
       "paradigm-activities.xml": 1
     }
   },
+  ".//contact-info/@type": {
+    "2": {
+      "paradigm-activities.xml": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "paradigm-activities.xml": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": {
+      "paradigm-activities.xml": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "paradigm-activities.xml": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "40": {
+      "paradigm-activities.xml": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "4": {
+      "paradigm-activities.xml": 1
+    }
+  },
   ".//description/@type": {
     "2": {
       "paradigm-activities.xml": 1
@@ -51,6 +81,9 @@
     },
     "4": {
       "paradigm-activities.xml": 1
+    },
+    "2": {
+      "paradigm-activities.xml": 1
     }
   },
   ".//participating-org/@type": {
@@ -58,6 +91,16 @@
       "paradigm-activities.xml": 1
     },
     "21": {
+      "paradigm-activities.xml": 2
+    }
+  },
+  ".//policy-marker/@significance": {
+    "2": {
+      "paradigm-activities.xml": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "99": {
       "paradigm-activities.xml": 1
     }
   },
@@ -79,6 +122,49 @@
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "15160": {
       "paradigm-activities.xml": 1
+    }
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": {
+      "paradigm-activities.xml": 34
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": {
+      "paradigm-activities.xml": 34
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "paradigm-activities.xml": 34
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "paradigm-activities.xml": 34
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "40": {
+      "paradigm-activities.xml": 11
+    },
+    "10": {
+      "paradigm-activities.xml": 23
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "paradigm-activities.xml": 34
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "paradigm-activities.xml": 34
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "4": {
+      "paradigm-activities.xml": 34
     }
   },
   ".//transaction/transaction-type/@code": {

@@ -3,7 +3,7 @@
     "EUR": 1
   },
   ".//@xml:lang": {
-    "en": 1
+    "en": 2
   },
   ".//activity-date/@type": {
     "2": 1,
@@ -82,5 +82,15 @@
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "15150": 1
+  },
+  ".//transaction/provider-org/@type": {
+    "22": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": 2,
+    "1": 2
+  },
+  ".//transaction/value/@currency": {
+    "EUR": 4
   }
 }

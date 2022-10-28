@@ -8,6 +8,9 @@
   "iati-activity/@hierarchy": {
     "sacu-activities.xml": 2
   },
+  "iati-activity/@humanitarian": {
+    "sacu-activities.xml": 1
+  },
   "iati-activity/@last-updated-datetime": {
     "sacu-activities.xml": 2
   },
@@ -73,6 +76,9 @@
   },
   "iati-activity/default-aid-type/@code": {
     "sacu-activities.xml": 2
+  },
+  "iati-activity/default-aid-type/@vocabulary": {
+    "sacu-activities.xml": 1
   },
   "iati-activity/default-finance-type": {
     "sacu-activities.xml": 2
@@ -198,10 +204,13 @@
     "sacu-activities.xml": 1
   },
   "iati-activity/transaction": {
-    "sacu-activities.xml": 263
+    "sacu-activities.xml": 275
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "sacu-activities.xml": 45
   },
   "iati-activity/transaction/@ref": {
-    "sacu-activities.xml": 261
+    "sacu-activities.xml": 273
   },
   "iati-activity/transaction/aid-type": {
     "sacu-activities.xml": 230
@@ -210,10 +219,10 @@
     "sacu-activities.xml": 230
   },
   "iati-activity/transaction/description": {
-    "sacu-activities.xml": 263
+    "sacu-activities.xml": 275
   },
   "iati-activity/transaction/description/narrative": {
-    "sacu-activities.xml": 292
+    "sacu-activities.xml": 304
   },
   "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "sacu-activities.xml": 47
@@ -237,16 +246,19 @@
     "sacu-activities.xml": 230
   },
   "iati-activity/transaction/provider-org": {
-    "sacu-activities.xml": 236
+    "sacu-activities.xml": 239
   },
   "iati-activity/transaction/provider-org/@provider-activity-id": {
-    "sacu-activities.xml": 13
+    "sacu-activities.xml": 16
   },
   "iati-activity/transaction/provider-org/@ref": {
-    "sacu-activities.xml": 117
+    "sacu-activities.xml": 120
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "sacu-activities.xml": 9
   },
   "iati-activity/transaction/provider-org/narrative": {
-    "sacu-activities.xml": 264
+    "sacu-activities.xml": 267
   },
   "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "sacu-activities.xml": 2
@@ -306,25 +318,25 @@
     "sacu-activities.xml": 230
   },
   "iati-activity/transaction/transaction-date": {
-    "sacu-activities.xml": 263
+    "sacu-activities.xml": 275
   },
   "iati-activity/transaction/transaction-date/@iso-date": {
-    "sacu-activities.xml": 263
+    "sacu-activities.xml": 275
   },
   "iati-activity/transaction/transaction-type": {
-    "sacu-activities.xml": 263
+    "sacu-activities.xml": 275
   },
   "iati-activity/transaction/transaction-type/@code": {
-    "sacu-activities.xml": 263
+    "sacu-activities.xml": 275
   },
   "iati-activity/transaction/value": {
-    "sacu-activities.xml": 263
+    "sacu-activities.xml": 275
   },
   "iati-activity/transaction/value/@currency": {
-    "sacu-activities.xml": 78
+    "sacu-activities.xml": 90
   },
   "iati-activity/transaction/value/@value-date": {
-    "sacu-activities.xml": 263
+    "sacu-activities.xml": 275
   },
   "iati-organisation": {
     "sacu-org.xml": 1

@@ -5,11 +5,14 @@
     }
   },
   ".//@xml:lang": {
-    "en": {
-      "bltp-l4p-activity.xml": 84
+    "EN": {
+      "bltp-l4p-activity.xml": 17
     },
     "nl": {
       "bltp-l4p-activity.xml": 36
+    },
+    "en": {
+      "bltp-l4p-activity.xml": 69
     }
   },
   ".//activity-date/@type": {
@@ -67,11 +70,14 @@
     },
     "1": {
       "bltp-l4p-activity.xml": 1
+    },
+    "4": {
+      "bltp-l4p-activity.xml": 1
     }
   },
   ".//participating-org/@type": {
     "22": {
-      "bltp-l4p-activity.xml": 1
+      "bltp-l4p-activity.xml": 2
     },
     "21": {
       "bltp-l4p-activity.xml": 1
@@ -118,6 +124,11 @@
       "bltp-l4p-activity.xml": 8
     }
   },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "bltp-l4p-activity.xml": 7
+    }
+  },
   ".//sector/@vocabulary": {
     "1": {
       "bltp-l4p-activity.xml": 2
@@ -131,12 +142,17 @@
       "bltp-l4p-activity.xml": 1
     }
   },
+  ".//transaction/provider-org/@type": {
+    "21": {
+      "bltp-l4p-activity.xml": 5
+    }
+  },
   ".//transaction/transaction-type/@code": {
     "11": {
       "bltp-l4p-activity.xml": 1
     },
     "1": {
-      "bltp-l4p-activity.xml": 3
+      "bltp-l4p-activity.xml": 4
     },
     "4": {
       "bltp-l4p-activity.xml": 4
@@ -144,7 +160,7 @@
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "bltp-l4p-activity.xml": 8
+      "bltp-l4p-activity.xml": 9
     }
   }
 }

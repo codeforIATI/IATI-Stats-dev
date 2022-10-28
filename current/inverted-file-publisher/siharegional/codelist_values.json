@@ -6,7 +6,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "siharegional-activities.xml": 139
+      "siharegional-activities.xml": 131
     }
   },
   ".//activity-date/@type": {
@@ -101,26 +101,29 @@
   },
   ".//document-link/@format": {
     "application/pdf": {
-      "siharegional-activities.xml": 1
-    },
-    "application/http": {
-      "siharegional-activities.xml": 1
-    },
-    "application/1d-interleaved-parityfec": {
       "siharegional-activities.xml": 3
+    },
+    "application/3gpdash-qoe-report+xml": {
+      "siharegional-activities.xml": 1
+    },
+    "application/3gpp-ims+xml": {
+      "siharegional-activities.xml": 2
     }
   },
   ".//document-link/category/@code": {
     "A01": {
       "siharegional-activities.xml": 1
     },
+    "B01": {
+      "siharegional-activities.xml": 2
+    },
     "A08": {
-      "siharegional-activities.xml": 4
+      "siharegional-activities.xml": 3
     }
   },
   ".//document-link/language/@code": {
     "en": {
-      "siharegional-activities.xml": 1
+      "siharegional-activities.xml": 3
     }
   },
   ".//other-identifier/@type": {
@@ -130,7 +133,10 @@
   },
   ".//participating-org/@crs-channel-code": {
     "20000": {
-      "siharegional-activities.xml": 6
+      "siharegional-activities.xml": 8
+    },
+    "11000": {
+      "siharegional-activities.xml": 1
     }
   },
   ".//participating-org/@role": {
@@ -218,7 +224,7 @@
   },
   ".//related-activity/@type": {
     "2": {
-      "siharegional-activities.xml": 2
+      "siharegional-activities.xml": 6
     },
     "1": {
       "siharegional-activities.xml": 1
@@ -230,34 +236,34 @@
     }
   },
   ".//result/@type": {
-    "2": {
+    "1": {
       "siharegional-activities.xml": 2
     },
-    "1": {
-      "siharegional-activities.xml": 9
+    "2": {
+      "siharegional-activities.xml": 1
     }
   },
   ".//result/document-link/@format": {
-    "application/http": {
+    "application/3gpdash-qoe-report+xml": {
       "siharegional-activities.xml": 1
     },
-    "application/1d-interleaved-parityfec": {
-      "siharegional-activities.xml": 3
+    "application/3gpp-ims+xml": {
+      "siharegional-activities.xml": 2
     }
   },
   ".//result/document-link/category/@code": {
     "A08": {
-      "siharegional-activities.xml": 4
+      "siharegional-activities.xml": 3
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "siharegional-activities.xml": 38
+      "siharegional-activities.xml": 28
     }
   },
   ".//result/indicator/reference/@vocabulary": {
     "99": {
-      "siharegional-activities.xml": 22
+      "siharegional-activities.xml": 28
     }
   },
   ".//sector/@vocabulary": {
@@ -272,12 +278,12 @@
   },
   ".//transaction/aid-type/@vocabulary": {
     "1": {
-      "siharegional-activities.xml": 2
+      "siharegional-activities.xml": 4
     }
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "A01": {
-      "siharegional-activities.xml": 2
+      "siharegional-activities.xml": 4
     }
   },
   ".//transaction/disbursement-channel/@code": {
@@ -287,45 +293,48 @@
   },
   ".//transaction/finance-type/@code": {
     "110": {
-      "siharegional-activities.xml": 5
+      "siharegional-activities.xml": 8
     }
   },
   ".//transaction/provider-org/@type": {
-    "10": {
-      "siharegional-activities.xml": 1
-    },
     "23": {
-      "siharegional-activities.xml": 6
+      "siharegional-activities.xml": 18
+    },
+    "10": {
+      "siharegional-activities.xml": 3
     }
   },
   ".//transaction/receiver-org/@type": {
+    "23": {
+      "siharegional-activities.xml": 6
+    },
     "22": {
-      "siharegional-activities.xml": 3
+      "siharegional-activities.xml": 19
     },
     "21": {
-      "siharegional-activities.xml": 1
-    },
-    "23": {
-      "siharegional-activities.xml": 5
+      "siharegional-activities.xml": 3
     }
   },
   ".//transaction/transaction-type/@code": {
+    "11": {
+      "siharegional-activities.xml": 3
+    },
     "3": {
-      "siharegional-activities.xml": 4
+      "siharegional-activities.xml": 12
+    },
+    "2": {
+      "siharegional-activities.xml": 7
     },
     "1": {
-      "siharegional-activities.xml": 1
+      "siharegional-activities.xml": 4
     },
     "4": {
-      "siharegional-activities.xml": 5
-    },
-    "11": {
-      "siharegional-activities.xml": 1
+      "siharegional-activities.xml": 3
     }
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "siharegional-activities.xml": 11
+      "siharegional-activities.xml": 29
     }
   }
 }

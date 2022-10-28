@@ -8,8 +8,8 @@
   ".//activity-date/@type": {
     "2": 8,
     "3": 7,
-    "1": 1,
-    "4": 1
+    "4": 1,
+    "1": 1
   },
   ".//activity-status/@code": {
     "2": 8
@@ -32,8 +32,8 @@
     "1": 2
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 1,
-    "B03": 1
+    "B03": 1,
+    "C01": 1
   },
   ".//default-finance-type/@code": {
     "110": 2
@@ -48,12 +48,12 @@
     "1": 8
   },
   ".//document-link/@format": {
-    "application/vnd.openxmlformats-officedocument.wordprocessingml.document": 1,
-    "text/html": 1
+    "text/html": 1,
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document": 1
   },
   ".//document-link/category/@code": {
-    "A06": 1,
-    "B18": 1
+    "B18": 1,
+    "A06": 1
   },
   ".//document-link/language/@code": {
     "en": 1
@@ -65,23 +65,23 @@
     "1": 6
   },
   ".//location/location-reach/@code": {
-    "1": 1,
-    "2": 7
+    "2": 7,
+    "1": 1
   },
   ".//participating-org/@role": {
-    "2": 4,
     "1": 8,
+    "2": 4,
     "4": 25
   },
   ".//participating-org/@type": {
-    "70": 14,
     "10": 8,
-    "21": 4,
+    "70": 14,
     "80": 5,
-    "72": 1,
+    "21": 4,
     "22": 1,
     "60": 2,
-    "15": 2
+    "15": 2,
+    "72": 1
   },
   ".//policy-marker/@significance": {
     "1": 2,
@@ -91,15 +91,20 @@
     "1": 5
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "6": 1,
     "10": 1,
     "1": 1,
     "3": 1,
-    "4": 1,
-    "6": 1
+    "4": 1
   },
   ".//recipient-country/@code": {
-    "NP": 2,
-    "CN": 1,
+    "BF": 1,
+    "TD": 1,
+    "CM": 1,
+    "ML": 1,
+    "MR": 1,
+    "NE": 1,
+    "SN": 1,
     "ET": 1,
     "KE": 1,
     "NG": 4,
@@ -110,13 +115,8 @@
     "ID": 1,
     "VN": 1,
     "TH": 1,
-    "BF": 1,
-    "TD": 1,
-    "CM": 1,
-    "ML": 1,
-    "MR": 1,
-    "NE": 1,
-    "SN": 1
+    "NP": 2,
+    "CN": 1
   },
   ".//reporting-org/@type": {
     "70": 8
@@ -131,34 +131,34 @@
     "15112": 1
   },
   ".//sector[@vocabulary = '2']/@code": {
-    "730": 1,
-    "740": 1,
     "520": 1,
     "151": 2,
     "160": 1,
     "210": 1,
     "230": 1,
-    "111": 1
+    "111": 1,
+    "730": 1,
+    "740": 1
   },
   ".//sector[@vocabulary = '7']/@code": {
     "7": 1
   },
   ".//transaction/provider-org/@type": {
+    "80": 2,
     "10": 2,
-    "70": 1,
-    "80": 2
+    "70": 1
   },
   ".//transaction/receiver-org/@type": {
+    "80": 5,
     "21": 3,
-    "70": 1,
-    "80": 5
+    "70": 1
   },
   ".//transaction/transaction-type/@code": {
     "4": 79,
-    "3": 247,
-    "1": 75
+    "3": 249,
+    "1": 76
   },
   ".//transaction/value/@currency": {
-    "GBP": 377
+    "GBP": 380
   }
 }

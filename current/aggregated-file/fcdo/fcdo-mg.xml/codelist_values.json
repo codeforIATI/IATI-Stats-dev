@@ -91,8 +91,8 @@
     "70": 1
   },
   ".//policy-marker/@significance": {
-    "0": 20,
-    "1": 1
+    "0": 19,
+    "1": 2
   },
   ".//policy-marker/@vocabulary": {
     "1": 21
@@ -108,15 +108,16 @@
   ".//recipient-country/@code": {
     "MG": 11,
     "CM": 1,
-    "ER": 1
+    "ER": 1,
+    "TZ": 1
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "298": 1
   },
   ".//related-activity/@type": {
-    "2": 19,
+    "2": 22,
     "1": 7,
-    "3": 44
+    "3": 53
   },
   ".//reporting-org/@type": {
     "10": 11
@@ -125,7 +126,12 @@
     "72010": 10,
     "52010": 1,
     "72040": 2,
-    "72050": 1
+    "72050": 1,
+    "15190": 1,
+    "41010": 1
+  },
+  ".//tag/@vocabulary": {
+    "99": 1
   },
   ".//transaction/receiver-org/@type": {
     "40": 7,

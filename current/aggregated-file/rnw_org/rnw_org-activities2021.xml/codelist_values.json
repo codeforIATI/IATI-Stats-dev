@@ -67,8 +67,13 @@
   ".//recipient-country/@code": {
     "IQ": 1,
     "NL": 2,
-    "PS": 1,
-    "YE": 1
+    "PS": 1
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": 1
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "589": 1
   },
   ".//related-activity/@type": {
     "1": 2,
@@ -95,20 +100,20 @@
     "43010": 1
   },
   ".//transaction/provider-org/@type": {
-    "21": 16
+    "21": 18
   },
   ".//transaction/receiver-org/@type": {
-    "21": 10,
-    "24": 5
+    "21": 13,
+    "24": 4
   },
   ".//transaction/transaction-type/@code": {
     "4": 4,
-    "1": 3,
+    "1": 6,
     "11": 4,
-    "3": 6,
-    "2": 1
+    "2": 2,
+    "3": 4
   },
   ".//transaction/value/@currency": {
-    "EUR": 18
+    "EUR": 20
   }
 }

@@ -1,21 +1,17 @@
 {
   "2": {
     ".//@default-currency": {
-      "rfuk-ga.xml": {
-        "GBP": 1
-      },
       "rfuk-cd.xml": {
         "GBP": 1
       },
       "rfuk-998.xml": {
         "GBP": 2
+      },
+      "rfuk-ga.xml": {
+        "GBP": 1
       }
     },
     ".//activity-date/@type": {
-      "rfuk-ga.xml": {
-        "2": 1,
-        "4": 1
-      },
       "rfuk-cd.xml": {
         "2": 1,
         "3": 1
@@ -23,73 +19,285 @@
       "rfuk-998.xml": {
         "2": 2,
         "3": 2
+      },
+      "rfuk-ga.xml": {
+        "2": 1,
+        "4": 1
       }
     },
     ".//activity-status/@code": {
-      "rfuk-ga.xml": {
-        "3": 1
-      },
       "rfuk-cd.xml": {
         "2": 1
       },
       "rfuk-998.xml": {
         "2": 2
+      },
+      "rfuk-ga.xml": {
+        "3": 1
+      }
+    },
+    ".//budget/@status": {
+      "rfuk-cd.xml": {
+        "1": 1
+      },
+      "rfuk-998.xml": {
+        "2": 2,
+        "1": 3
       }
     },
     ".//budget/@type": {
-      "rfuk-ga.xml": {
-        "1": 1
-      },
       "rfuk-cd.xml": {
         "1": 1
       },
       "rfuk-998.xml": {
         "2": 3,
         "1": 2
+      },
+      "rfuk-ga.xml": {
+        "1": 1
       }
     },
     ".//budget/value/@currency": {
-      "rfuk-ga.xml": {
-        "GBP": 1
-      },
       "rfuk-cd.xml": {
         "GBP": 1
       },
       "rfuk-998.xml": {
         "GBP": 5
+      },
+      "rfuk-ga.xml": {
+        "GBP": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "rfuk-cd.xml": {
+        "1": 1
+      },
+      "rfuk-998.xml": {
+        "1": 2
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "rfuk-ga.xml": {
-        "C01": 1
-      },
       "rfuk-cd.xml": {
         "C01": 1
       },
       "rfuk-998.xml": {
         "C01": 2
+      },
+      "rfuk-ga.xml": {
+        "C01": 1
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "rfuk-cd.xml": {
+        "1": 1
+      },
+      "rfuk-998.xml": {
+        "1": 2
       }
     },
     ".//default-finance-type/@code": {
-      "rfuk-ga.xml": {
-        "110": 1
-      },
       "rfuk-cd.xml": {
         "110": 1
       },
       "rfuk-998.xml": {
         "110": 2
+      },
+      "rfuk-ga.xml": {
+        "110": 1
       }
     },
     ".//default-flow-type/@code": {
-      "rfuk-ga.xml": {
-        "30": 1
-      },
       "rfuk-cd.xml": {
         "30": 1
       },
       "rfuk-998.xml": {
         "10": 2
+      },
+      "rfuk-ga.xml": {
+        "30": 1
+      }
+    },
+    ".//description/@type": {
+      "rfuk-cd.xml": {
+        "1": 1
+      },
+      "rfuk-998.xml": {
+        "1": 2
+      }
+    },
+    ".//participating-org/@role": {
+      "rfuk-cd.xml": {
+        "1": 1,
+        "4": 2
+      },
+      "rfuk-998.xml": {
+        "1": 2,
+        "4": 10,
+        "2": 2
+      },
+      "rfuk-ga.xml": {
+        "1": 1,
+        "4": 2
+      }
+    },
+    ".//participating-org/@type": {
+      "rfuk-cd.xml": {
+        "10": 1,
+        "22": 2
+      },
+      "rfuk-998.xml": {
+        "10": 2,
+        "22": 10,
+        "70": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "rfuk-cd.xml": {
+        "CD": 1
+      },
+      "rfuk-998.xml": {
+        "GH": 14,
+        "GB": 33,
+        "CD": 24,
+        "CM": 14,
+        "CG": 11
+      },
+      "rfuk-ga.xml": {
+        "GA": 1,
+        "CF": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "rfuk-cd.xml": {
+        "21": 1
+      },
+      "rfuk-998.xml": {
+        "21": 2
+      },
+      "rfuk-ga.xml": {
+        "21": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "rfuk-cd.xml": {
+        "31210": 1
+      },
+      "rfuk-998.xml": {
+        "31210": 2
+      },
+      "rfuk-ga.xml": {
+        "11430": 1,
+        "15130": 1,
+        "15150": 1,
+        "15162": 1,
+        "31210": 1,
+        "31281": 1,
+        "92010": 1,
+        "92030": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "rfuk-cd.xml": {
+        "1": 1
+      },
+      "rfuk-998.xml": {
+        "1": 2
+      },
+      "rfuk-ga.xml": {
+        "1": 8
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "rfuk-cd.xml": {
+        "2": 110
+      },
+      "rfuk-ga.xml": {
+        "2": 92
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "rfuk-cd.xml": {
+        "110": 74
+      },
+      "rfuk-ga.xml": {
+        "110": 92
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "rfuk-cd.xml": {
+        "30": 110
+      },
+      "rfuk-ga.xml": {
+        "30": 92
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "rfuk-cd.xml": {
+        "3": 110
+      },
+      "rfuk-ga.xml": {
+        "3": 92
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "rfuk-cd.xml": {
+        "4": 68,
+        "1": 13,
+        "3": 39
+      },
+      "rfuk-998.xml": {
+        "3": 63,
+        "1": 16,
+        "4": 17
+      },
+      "rfuk-ga.xml": {
+        "3": 68,
+        "4": 11,
+        "1": 13
+      }
+    },
+    ".//transaction/value/@currency": {
+      "rfuk-cd.xml": {
+        "GBP": 120
+      },
+      "rfuk-998.xml": {
+        "GBP": 96
+      },
+      "rfuk-ga.xml": {
+        "GBP": 83
+      }
+    },
+    ".//@xml:lang": {
+      "rfuk-cd.xml": {
+        "en": 7
+      },
+      "rfuk-998.xml": {
+        "en": 12
+      },
+      "rfuk-ga.xml": {
+        "en": 87,
+        "fr": 3
+      }
+    },
+    ".//transaction/recipient-country/@code": {
+      "rfuk-998.xml": {
+        "GH": 14,
+        "GB": 33,
+        "CD": 24,
+        "CM": 14,
+        "CG": 11
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "rfuk-998.xml": {
+        "21": 63,
+        "70": 16
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "rfuk-998.xml": {
+        "24": 63,
+        "21": 16
       }
     },
     ".//document-link/@format": {
@@ -110,217 +318,9 @@
         "fr": 1
       }
     },
-    ".//participating-org/@role": {
-      "rfuk-ga.xml": {
-        "1": 1,
-        "4": 2
-      },
-      "rfuk-cd.xml": {
-        "1": 1,
-        "4": 2
-      },
-      "rfuk-998.xml": {
-        "1": 2,
-        "4": 10,
-        "2": 2
-      }
-    },
-    ".//recipient-country/@code": {
-      "rfuk-ga.xml": {
-        "GA": 1,
-        "CF": 1
-      },
-      "rfuk-cd.xml": {
-        "CD": 1
-      },
-      "rfuk-998.xml": {
-        "GH": 13,
-        "GB": 31,
-        "CD": 22,
-        "CM": 13,
-        "CG": 10
-      }
-    },
-    ".//reporting-org/@type": {
-      "rfuk-ga.xml": {
-        "21": 1
-      },
-      "rfuk-cd.xml": {
-        "21": 1
-      },
-      "rfuk-998.xml": {
-        "21": 2
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "rfuk-ga.xml": {
-        "11430": 1,
-        "15130": 1,
-        "15150": 1,
-        "15162": 1,
-        "31210": 1,
-        "31281": 1,
-        "92010": 1,
-        "92030": 1
-      },
-      "rfuk-cd.xml": {
-        "31210": 1
-      },
-      "rfuk-998.xml": {
-        "31210": 2
-      }
-    },
-    ".//sector/@vocabulary": {
-      "rfuk-ga.xml": {
-        "1": 8
-      },
-      "rfuk-cd.xml": {
-        "1": 1
-      },
-      "rfuk-998.xml": {
-        "1": 2
-      }
-    },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "rfuk-ga.xml": {
         "C01": 92
-      }
-    },
-    ".//transaction/disbursement-channel/@code": {
-      "rfuk-ga.xml": {
-        "2": 92
-      },
-      "rfuk-cd.xml": {
-        "2": 110
-      }
-    },
-    ".//transaction/finance-type/@code": {
-      "rfuk-ga.xml": {
-        "110": 92
-      },
-      "rfuk-cd.xml": {
-        "110": 74
-      }
-    },
-    ".//transaction/flow-type/@code": {
-      "rfuk-ga.xml": {
-        "30": 92
-      },
-      "rfuk-cd.xml": {
-        "30": 110
-      }
-    },
-    ".//transaction/tied-status/@code": {
-      "rfuk-ga.xml": {
-        "3": 92
-      },
-      "rfuk-cd.xml": {
-        "3": 110
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "rfuk-ga.xml": {
-        "3": 68,
-        "4": 11,
-        "1": 13
-      },
-      "rfuk-cd.xml": {
-        "4": 68,
-        "1": 13,
-        "3": 39
-      },
-      "rfuk-998.xml": {
-        "3": 58,
-        "1": 15,
-        "4": 16
-      }
-    },
-    ".//transaction/value/@currency": {
-      "rfuk-ga.xml": {
-        "GBP": 83
-      },
-      "rfuk-cd.xml": {
-        "GBP": 120
-      },
-      "rfuk-998.xml": {
-        "GBP": 89
-      }
-    },
-    ".//@xml:lang": {
-      "rfuk-ga.xml": {
-        "en": 87,
-        "fr": 3
-      },
-      "rfuk-cd.xml": {
-        "en": 7
-      },
-      "rfuk-998.xml": {
-        "en": 12
-      }
-    },
-    ".//budget/@status": {
-      "rfuk-cd.xml": {
-        "1": 1
-      },
-      "rfuk-998.xml": {
-        "2": 2,
-        "1": 3
-      }
-    },
-    ".//contact-info/@type": {
-      "rfuk-cd.xml": {
-        "1": 1
-      },
-      "rfuk-998.xml": {
-        "1": 2
-      }
-    },
-    ".//default-aid-type/@vocabulary": {
-      "rfuk-cd.xml": {
-        "1": 1
-      },
-      "rfuk-998.xml": {
-        "1": 2
-      }
-    },
-    ".//description/@type": {
-      "rfuk-cd.xml": {
-        "1": 1
-      },
-      "rfuk-998.xml": {
-        "1": 2
-      }
-    },
-    ".//participating-org/@type": {
-      "rfuk-cd.xml": {
-        "10": 1,
-        "22": 2
-      },
-      "rfuk-998.xml": {
-        "10": 2,
-        "22": 10,
-        "70": 2
-      }
-    },
-    ".//transaction/recipient-country/@code": {
-      "rfuk-998.xml": {
-        "GH": 13,
-        "GB": 31,
-        "CD": 22,
-        "CM": 13,
-        "CG": 10
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "rfuk-998.xml": {
-        "21": 58,
-        "70": 15
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "rfuk-998.xml": {
-        "24": 58,
-        "21": 15
       }
     }
   }

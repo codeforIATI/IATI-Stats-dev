@@ -18,8 +18,8 @@
       "iati-activity/participating-org": 4729,
       "iati-activity/participating-org/narrative": 4729,
       "iati-activity/participating-org/@role": 4729,
-      "iati-activity/participating-org/@type": 4729,
       "iati-activity/participating-org/@ref": 4729,
+      "iati-activity/participating-org/@type": 4729,
       "iati-activity/other-identifier": 4729,
       "iati-activity/other-identifier/owner-org": 4729,
       "iati-activity/other-identifier/owner-org/narrative": 4729,
@@ -117,7 +117,6 @@
       "iati-activity/transaction/@{http://afdb.org/iati/}finance-type-id": 4729,
       "iati-activity/transaction/description": 4299,
       "iati-activity/transaction/description/narrative": 4299,
-      "iati-activity/transaction/receiver-org/@ref": 2611,
       "iati-activity/document-link": 4729,
       "iati-activity/document-link/title": 4729,
       "iati-activity/document-link/title/narrative": 4729,
@@ -153,6 +152,7 @@
       "iati-activity/@default-currency": 4729,
       "iati-activity/@hierarchy": 4729,
       "iati-activity/@last-updated-datetime": 4729,
+      "iati-activity/transaction/receiver-org/@ref": 2611,
       "iati-activity/recipient-region": 745,
       "iati-activity/recipient-region/@code": 745
     },
@@ -173,8 +173,8 @@
       "iati-activity/participating-org": 14240,
       "iati-activity/participating-org/narrative": 14240,
       "iati-activity/participating-org/@role": 14240,
-      "iati-activity/participating-org/@type": 14240,
       "iati-activity/participating-org/@ref": 5247,
+      "iati-activity/participating-org/@type": 14240,
       "iati-activity/other-identifier": 4729,
       "iati-activity/other-identifier/owner-org": 4729,
       "iati-activity/other-identifier/owner-org/narrative": 4729,
@@ -272,7 +272,6 @@
       "iati-activity/transaction/@{http://afdb.org/iati/}finance-type-id": 98241,
       "iati-activity/transaction/description": 90441,
       "iati-activity/transaction/description/narrative": 90441,
-      "iati-activity/transaction/receiver-org/@ref": 53379,
       "iati-activity/document-link": 33801,
       "iati-activity/document-link/title": 33801,
       "iati-activity/document-link/title/narrative": 33801,
@@ -308,6 +307,7 @@
       "iati-activity/@default-currency": 4729,
       "iati-activity/@hierarchy": 4729,
       "iati-activity/@last-updated-datetime": 4729,
+      "iati-activity/transaction/receiver-org/@ref": 53379,
       "iati-activity/recipient-region": 745,
       "iati-activity/recipient-region/@code": 745
     },
@@ -318,11 +318,11 @@
       "2021": {
         "XDR": 5430464515.161665
       },
-      "2022": {
-        "XDR": 4789526706.498457
-      },
       "2019": {
         "XDR": 5259368194.329688
+      },
+      "2022": {
+        "XDR": 4789526706.498457
       },
       "2023": {
         "XDR": 2870340969.980404
@@ -330,47 +330,8 @@
       "2024": {
         "XDR": 1697928731.306828
       },
-      "2025": {
-        "XDR": 1102400417.227676
-      },
       "2018": {
         "XDR": 4472964292.678848
-      },
-      "2004": {
-        "XDR": 1403198786.28974
-      },
-      "2005": {
-        "XDR": 1439551496.626844
-      },
-      "2006": {
-        "XDR": 1486871397.191166
-      },
-      "2007": {
-        "XDR": 1795827483.733906
-      },
-      "2008": {
-        "XDR": 2412945341.996308
-      },
-      "2009": {
-        "XDR": 2955448379.982145
-      },
-      "2010": {
-        "XDR": 3046861502.524814
-      },
-      "2011": {
-        "XDR": 3516911147.820706
-      },
-      "2012": {
-        "XDR": 3252802667.727487
-      },
-      "2014": {
-        "XDR": 3490811793.433318
-      },
-      "2013": {
-        "XDR": 3043496044.735266
-      },
-      "2015": {
-        "XDR": 3246589868.800462
       },
       "2016": {
         "XDR": 5318612223.812416
@@ -378,80 +339,8 @@
       "2017": {
         "XDR": 5534168418.632353
       },
-      "2002": {
-        "XDR": 1156248967.114904
-      },
-      "2003": {
-        "XDR": 1263391205.472518
-      },
-      "2026": {
-        "XDR": 598552560.181351
-      },
-      "2027": {
-        "XDR": 159372230.906398
-      },
-      "2028": {
-        "XDR": 27013714.255965
-      },
-      "2029": {
-        "XDR": 827934.632544
-      },
-      "2030": {
-        "XDR": 827934.632544
-      },
-      "2031": {
-        "XDR": 827934.632544
-      },
-      "2032": {
-        "XDR": 413967.316272
-      },
-      "1971": {
-        "XDR": 7956483.353904
-      },
-      "1972": {
-        "XDR": 9691575.106239
-      },
-      "1973": {
-        "XDR": 20257282.105229
-      },
-      "1974": {
-        "XDR": 35067955.914243
-      },
-      "1975": {
-        "XDR": 61932276.399208
-      },
-      "1976": {
-        "XDR": 81742779.11165
-      },
-      "1977": {
-        "XDR": 115956750.728538
-      },
-      "1978": {
-        "XDR": 140567529.22669
-      },
-      "1979": {
-        "XDR": 159495346.784026
-      },
-      "1980": {
-        "XDR": 185722690.212147
-      },
-      "1981": {
-        "XDR": 206606143.483783
-      },
-      "1982": {
-        "XDR": 220190327.276158
-      },
-      "1983": {
-        "XDR": 261656152.741444
-      },
-      "1984": {
-        "XDR": 309238425.435956
-      },
-      "1985": {
-        "XDR": 355466497.669237
-      },
-      "1986": {
-        "XDR": 391673367.449356
+      "1991": {
+        "XDR": 1278752627.449402
       },
       "1992": {
         "XDR": 1655904865.361589
@@ -480,8 +369,32 @@
       "2000": {
         "XDR": 862322818.197803
       },
-      "2001": {
-        "XDR": 926837858.69028
+      "1978": {
+        "XDR": 140567529.22669
+      },
+      "1979": {
+        "XDR": 159495346.784026
+      },
+      "1980": {
+        "XDR": 185722690.212147
+      },
+      "1981": {
+        "XDR": 206606143.483783
+      },
+      "1982": {
+        "XDR": 220190327.276158
+      },
+      "1983": {
+        "XDR": 261656152.741444
+      },
+      "1984": {
+        "XDR": 309238425.435956
+      },
+      "1985": {
+        "XDR": 355466497.669237
+      },
+      "1986": {
+        "XDR": 391673367.449356
       },
       "1987": {
         "XDR": 543215589.020262
@@ -495,29 +408,116 @@
       "1990": {
         "XDR": 1045076894.108978
       },
-      "1991": {
-        "XDR": 1278752627.449402
+      "2001": {
+        "XDR": 926837858.69028
       },
-      "1969": {
-        "XDR": 2150677.439519
+      "2002": {
+        "XDR": 1156248967.114904
+      },
+      "2003": {
+        "XDR": 1263391205.472518
+      },
+      "2004": {
+        "XDR": 1403198786.28974
+      },
+      "2005": {
+        "XDR": 1439551496.626844
+      },
+      "2006": {
+        "XDR": 1486871397.191166
+      },
+      "2007": {
+        "XDR": 1795827483.733906
+      },
+      "2008": {
+        "XDR": 2412945341.996308
+      },
+      "2009": {
+        "XDR": 2955448379.982145
+      },
+      "2010": {
+        "XDR": 3046861502.524814
+      },
+      "2011": {
+        "XDR": 3516911147.820706
+      },
+      "2012": {
+        "XDR": 3252802667.727487
+      },
+      "2013": {
+        "XDR": 3043496044.735266
+      },
+      "2014": {
+        "XDR": 3490811793.433318
+      },
+      "1973": {
+        "XDR": 20257282.105229
+      },
+      "1974": {
+        "XDR": 35067955.914243
+      },
+      "1975": {
+        "XDR": 61932276.399208
+      },
+      "1976": {
+        "XDR": 81742779.11165
+      },
+      "1977": {
+        "XDR": 115956750.728538
+      },
+      "2015": {
+        "XDR": 3246589868.800462
       },
       "1970": {
         "XDR": 5662213.69683
       },
+      "1971": {
+        "XDR": 7956483.353904
+      },
+      "1972": {
+        "XDR": 9691575.106239
+      },
+      "2025": {
+        "XDR": 1102400417.227676
+      },
+      "2026": {
+        "XDR": 598552560.181351
+      },
+      "2027": {
+        "XDR": 159372230.906398
+      },
       "1968": {
         "XDR": 1610499.473884
       },
+      "1969": {
+        "XDR": 2150677.439519
+      },
       "1967": {
         "XDR": 530769.230769
+      },
+      "2028": {
+        "XDR": 27013714.255965
+      },
+      "2029": {
+        "XDR": 827934.632544
+      },
+      "2030": {
+        "XDR": 827934.632544
+      },
+      "2031": {
+        "XDR": 827934.632544
+      },
+      "2032": {
+        "XDR": 413967.316272
       }
     },
     "forwardlooking_activities_current": {
-      "2022": 896,
-      "2023": 896,
+      "2022": 881,
+      "2023": 881,
       "2024": 590
     },
     "forwardlooking_activities_with_budgets": {
-      "2022": 655,
+      "2022": 640,
       "2023": 552,
       "2024": 285
     },
@@ -527,68 +527,68 @@
       "2024": 0
     },
     "comprehensiveness": {
-      "version": 996,
-      "reporting-org": 996,
-      "iati-identifier": 996,
-      "participating-org": 996,
-      "title": 996,
-      "description": 995,
-      "activity-status": 996,
-      "activity-date": 996,
-      "sector": 996,
-      "country_or_region": 996,
-      "transaction_commitment": 996,
-      "transaction_spend": 714,
-      "transaction_currency": 996,
+      "version": 976,
+      "reporting-org": 976,
+      "iati-identifier": 976,
+      "participating-org": 976,
+      "title": 976,
+      "description": 975,
+      "activity-status": 976,
+      "activity-date": 976,
+      "sector": 976,
+      "country_or_region": 976,
+      "transaction_commitment": 976,
+      "transaction_spend": 695,
+      "transaction_currency": 976,
       "transaction_traceability": 251,
-      "budget": 995,
+      "budget": 975,
       "budget_not_provided": 0,
-      "contact-info": 917,
-      "location": 995,
-      "location_point_pos": 995,
-      "sector_dac": 996,
-      "capital-spend": 996,
-      "document-link": 996,
-      "activity-website": 977,
-      "recipient_language": 557,
-      "conditions_attached": 996,
-      "result_indicator": 995,
-      "aid_type": 704
+      "contact-info": 897,
+      "location": 975,
+      "location_point_pos": 975,
+      "sector_dac": 976,
+      "capital-spend": 976,
+      "document-link": 976,
+      "activity-website": 957,
+      "recipient_language": 551,
+      "conditions_attached": 976,
+      "result_indicator": 975,
+      "aid_type": 686
     },
     "comprehensiveness_with_validation": {
-      "version": 996,
-      "reporting-org": 996,
-      "iati-identifier": 996,
-      "participating-org": 996,
-      "title": 996,
-      "description": 995,
-      "activity-status": 996,
-      "activity-date": 996,
-      "sector": 996,
-      "country_or_region": 996,
-      "transaction_commitment": 996,
-      "transaction_spend": 714,
-      "transaction_currency": 996,
+      "version": 976,
+      "reporting-org": 976,
+      "iati-identifier": 976,
+      "participating-org": 976,
+      "title": 976,
+      "description": 975,
+      "activity-status": 976,
+      "activity-date": 976,
+      "sector": 976,
+      "country_or_region": 976,
+      "transaction_commitment": 976,
+      "transaction_spend": 695,
+      "transaction_currency": 976,
       "transaction_traceability": 251,
-      "budget": 995,
+      "budget": 975,
       "budget_not_provided": 0,
-      "contact-info": 917,
-      "location": 995,
-      "location_point_pos": 995,
-      "sector_dac": 996,
-      "capital-spend": 996,
-      "document-link": 996,
-      "activity-website": 977,
-      "recipient_language": 557,
-      "conditions_attached": 996,
-      "result_indicator": 995,
-      "aid_type": 704
+      "contact-info": 897,
+      "location": 975,
+      "location_point_pos": 975,
+      "sector_dac": 976,
+      "capital-spend": 976,
+      "document-link": 976,
+      "activity-website": 957,
+      "recipient_language": 551,
+      "conditions_attached": 976,
+      "result_indicator": 975,
+      "aid_type": 686
     },
     "comprehensiveness_denominators": {
-      "recipient_language": 703,
-      "transaction_spend": 831,
+      "recipient_language": 692,
+      "transaction_spend": 820,
       "transaction_traceability": 251
     },
-    "comprehensiveness_denominator_default": 996
+    "comprehensiveness_denominator_default": 976
   }
 }

@@ -1,52 +1,62 @@
 {
   ".//@default-currency": {
-    "USD": 38
+    "USD": 39
   },
   ".//@xml:lang": {
-    "en": 38
+    "en": 39
   },
   ".//activity-date/@type": {
-    "2": 38
+    "2": 39
+  },
+  ".//activity-status/@code": {
+    "2": 39
   },
   ".//budget/@type": {
-    "1": 38
+    "1": 39
+  },
+  ".//budget/value/@currency": {
+    "USD": 39
   },
   ".//contact-info/@type": {
-    "1": 38
+    "1": 39
   },
   ".//description/@type": {
-    "1": 38
+    "1": 39
   },
   ".//participating-org/@role": {
-    "4": 38,
-    "2": 38
+    "4": 39,
+    "2": 39
   },
   ".//participating-org/@type": {
-    "40": 76
+    "40": 78
   },
   ".//recipient-country/@code": {
-    "DK": 38
+    "DK": 39
   },
   ".//reporting-org/@type": {
-    "40": 38
+    "40": 39
   },
   ".//sector/@vocabulary": {
-    "1": 38
+    "1": 39
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "41010": 20,
-    "15113": 1,
     "99810": 4,
     "22040": 1,
     "12263": 1,
     "91010": 4,
     "15220": 2,
+    "12110": 1,
+    "15113": 1,
     "72010": 2,
     "41020": 1,
     "31110": 1,
     "31120": 1
   },
   ".//transaction/transaction-type/@code": {
-    "4": 38
+    "4": 39
+  },
+  ".//transaction/value/@currency": {
+    "USD": 39
   }
 }

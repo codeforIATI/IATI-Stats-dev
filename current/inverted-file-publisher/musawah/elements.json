@@ -176,13 +176,40 @@
   "iati-activity/result/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "musawah-activities.xml": 1
   },
+  "iati-activity/result/document-link": {
+    "musawah-activities.xml": 1
+  },
+  "iati-activity/result/document-link/@format": {
+    "musawah-activities.xml": 1
+  },
+  "iati-activity/result/document-link/@url": {
+    "musawah-activities.xml": 1
+  },
+  "iati-activity/result/document-link/category": {
+    "musawah-activities.xml": 1
+  },
+  "iati-activity/result/document-link/category/@code": {
+    "musawah-activities.xml": 1
+  },
+  "iati-activity/result/document-link/document-date": {
+    "musawah-activities.xml": 1
+  },
+  "iati-activity/result/document-link/document-date/@iso-date": {
+    "musawah-activities.xml": 1
+  },
+  "iati-activity/result/document-link/title": {
+    "musawah-activities.xml": 1
+  },
+  "iati-activity/result/document-link/title/narrative": {
+    "musawah-activities.xml": 1
+  },
+  "iati-activity/result/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "musawah-activities.xml": 1
+  },
   "iati-activity/result/indicator": {
     "musawah-activities.xml": 1
   },
   "iati-activity/result/indicator/@aggregation-status": {
-    "musawah-activities.xml": 1
-  },
-  "iati-activity/result/indicator/@ascending": {
     "musawah-activities.xml": 1
   },
   "iati-activity/result/indicator/@measure": {
@@ -200,10 +227,10 @@
   "iati-activity/result/indicator/baseline/@year": {
     "musawah-activities.xml": 1
   },
-  "iati-activity/result/indicator/baseline/location": {
+  "iati-activity/result/indicator/baseline/comment": {
     "musawah-activities.xml": 1
   },
-  "iati-activity/result/indicator/baseline/location/@ref": {
+  "iati-activity/result/indicator/baseline/comment/narrative": {
     "musawah-activities.xml": 1
   },
   "iati-activity/result/indicator/description": {
@@ -230,15 +257,6 @@
   "iati-activity/result/indicator/period/actual/comment/narrative": {
     "musawah-activities.xml": 1
   },
-  "iati-activity/result/indicator/period/actual/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "musawah-activities.xml": 1
-  },
-  "iati-activity/result/indicator/period/actual/location": {
-    "musawah-activities.xml": 1
-  },
-  "iati-activity/result/indicator/period/actual/location/@ref": {
-    "musawah-activities.xml": 1
-  },
   "iati-activity/result/indicator/period/period-end": {
     "musawah-activities.xml": 1
   },
@@ -263,15 +281,6 @@
   "iati-activity/result/indicator/period/target/comment/narrative": {
     "musawah-activities.xml": 1
   },
-  "iati-activity/result/indicator/period/target/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "musawah-activities.xml": 1
-  },
-  "iati-activity/result/indicator/period/target/location": {
-    "musawah-activities.xml": 1
-  },
-  "iati-activity/result/indicator/period/target/location/@ref": {
-    "musawah-activities.xml": 1
-  },
   "iati-activity/result/indicator/reference": {
     "musawah-activities.xml": 1
   },
@@ -291,18 +300,6 @@
     "musawah-activities.xml": 1
   },
   "iati-activity/result/indicator/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "musawah-activities.xml": 1
-  },
-  "iati-activity/result/reference": {
-    "musawah-activities.xml": 1
-  },
-  "iati-activity/result/reference/@code": {
-    "musawah-activities.xml": 1
-  },
-  "iati-activity/result/reference/@vocabulary": {
-    "musawah-activities.xml": 1
-  },
-  "iati-activity/result/reference/@vocabulary-uri": {
     "musawah-activities.xml": 1
   },
   "iati-activity/result/title": {
@@ -336,6 +333,12 @@
     "musawah-activities.xml": 1
   },
   "iati-activity/transaction": {
+    "musawah-activities.xml": 1
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "musawah-activities.xml": 1
+  },
+  "iati-activity/transaction/@ref": {
     "musawah-activities.xml": 1
   },
   "iati-activity/transaction/description": {

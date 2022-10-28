@@ -38,79 +38,79 @@
     },
     ".//participating-org/@type": {
       "70": 86,
-      "21": 263,
-      "22": 422,
-      "80": 6,
-      "23": 3,
       "10": 9,
-      "60": 2
+      "21": 263,
+      "60": 2,
+      "22": 422,
+      "23": 3,
+      "80": 6
     },
     ".//recipient-country/@code": {
       "NG": 174,
-      "ZW": 92,
-      "UG": 234,
-      "SS": 78,
-      "MW": 126,
-      "MZ": 15,
-      "PK": 80,
-      "SN": 26,
-      "BD": 162,
       "AF": 70,
-      "KE": 186,
-      "ET": 132,
-      "HT": 27,
-      "SL": 155,
-      "TZ": 102,
-      "GH": 105,
-      "MM": 48,
-      "NP": 190,
-      "KH": 19,
-      "ZM": 59,
-      "GW": 21,
-      "RW": 78,
-      "LR": 27,
-      "IN": 7,
-      "SO": 18,
-      "NE": 23,
-      "CD": 47,
-      "SD": 39,
-      "MG": 6,
-      "CF": 45,
-      "LA": 1,
-      "BI": 14,
-      "YE": 12,
-      "TJ": 11,
-      "IQ": 3,
-      "GB": 22,
-      "LB": 8,
       "AO": 4,
-      "ML": 10,
-      "TG": 9,
-      "CM": 6,
+      "BD": 162,
       "BJ": 1,
       "BT": 1,
       "BO": 1,
       "BW": 1,
       "BF": 2,
+      "BI": 14,
+      "CM": 6,
+      "CF": 45,
       "KM": 1,
       "CG": 1,
       "CI": 2,
+      "CD": 47,
       "EG": 1,
       "SZ": 1,
+      "ET": 132,
       "GA": 1,
       "GM": 3,
+      "GH": 105,
       "GT": 1,
       "GN": 1,
+      "GW": 21,
+      "HT": 27,
       "HN": 1,
+      "IN": 7,
       "ID": 1,
       "JO": 1,
+      "KE": 186,
       "LS": 2,
+      "LR": 27,
+      "MG": 6,
+      "MW": 126,
+      "ML": 10,
       "MR": 1,
+      "MZ": 15,
       "NA": 1,
+      "NP": 190,
       "NI": 1,
+      "NE": 23,
+      "PK": 80,
       "PS": 1,
+      "RW": 78,
+      "SN": 26,
+      "SL": 155,
+      "SO": 18,
       "ZA": 1,
-      "LK": 1
+      "SS": 78,
+      "LK": 1,
+      "SD": 39,
+      "TZ": 102,
+      "TG": 9,
+      "UG": 234,
+      "ZM": 59,
+      "ZW": 92,
+      "MM": 48,
+      "KH": 19,
+      "LA": 1,
+      "YE": 12,
+      "TJ": 11,
+      "IQ": 3,
+      "GB": 22,
+      "LB": 8
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "298": 2,
@@ -171,8 +171,8 @@
     ".//transaction/transaction-type/@code": {
       "1": 754,
       "4": 64,
-      "2": 937,
       "3": 3167,
+      "2": 937,
       "11": 2
     },
     ".//transaction/value/@currency": {
@@ -183,19 +183,9 @@
       "NOK": 1,
       "SEK": 14
     },
-    ".//@default-currency": {
-      "GBP": 4
-    },
-    ".//collaboration-type/@code": {
-      "1": 2
-    },
-    ".//contact-info/@type": {
-      "1": 2,
-      "2": 2
-    },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 4,
-      "B03": 1
+      "B03": 1,
+      "C01": 4
     },
     ".//default-finance-type/@code": {
       "110": 4
@@ -225,9 +215,16 @@
       "2": 61,
       "1": 2
     },
+    ".//@default-currency": {
+      "GBP": 4
+    },
     ".//budget/@status": {
       "2": 2,
       "1": 3
+    },
+    ".//contact-info/@type": {
+      "2": 2,
+      "1": 2
     },
     ".//default-aid-type/@vocabulary": {
       "1": 2
@@ -263,6 +260,9 @@
     ".//@xml:lang": {
       "en": 49,
       "fr": 5
+    },
+    ".//collaboration-type/@code": {
+      "1": 2
     }
   }
 }

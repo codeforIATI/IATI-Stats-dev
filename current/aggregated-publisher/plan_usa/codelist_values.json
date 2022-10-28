@@ -7,18 +7,18 @@
   },
   ".//activity-date/@type": {
     "start-actual": 19,
-    "end-planned": 19,
-    "end-actual": 1
+    "end-actual": 1,
+    "end-planned": 19
   },
   ".//activity-status/@code": {
+    "4": 5,
     "3": 2,
     "2": 11,
-    "4": 5,
     "5": 1
   },
   ".//budget/@type": {
-    "2": 9,
-    "1": 10
+    "1": 10,
+    "2": 9
   },
   ".//budget/value/@currency": {
     "USD": 14
@@ -40,48 +40,48 @@
     "110": 19
   },
   ".//default-flow-type/@code": {
-    "10": 16,
-    "30": 3
+    "30": 3,
+    "10": 16
   },
   ".//default-tied-status/@code": {
     "5": 17,
     "3": 2
   },
   ".//description/@type": {
-    "2": 4,
-    "1": 16
+    "1": 16,
+    "2": 4
   },
   ".//participating-org/@role": {
-    "Funding": 19,
     "Implementing": 15,
+    "Funding": 19,
     "Accountable": 1
   },
   ".//participating-org/@type": {
-    "40": 5,
     "21": 15,
+    "60": 3,
     "10": 12,
-    "60": 3
+    "40": 5
   },
   ".//recipient-country/@code": {
-    "CM": 1,
-    "KH": 1,
-    "SN": 1,
-    "BF": 1,
+    "KE": 2,
+    "MZ": 1,
     "SD": 1,
+    "CM": 1,
+    "GN": 1,
+    "BF": 1,
+    "VN": 1,
+    "BJ": 1,
+    "NG": 1,
+    "PH": 2,
+    "SN": 1,
+    "GH": 2,
+    "NP": 1,
+    "TG": 1,
     "BD": 1,
     "ET": 1,
-    "GH": 2,
-    "KE": 2,
-    "NG": 1,
-    "TG": 1,
-    "NP": 1,
     "UG": 1,
-    "PH": 2,
-    "BJ": 1,
     "NE": 1,
-    "VN": 1,
-    "GN": 1,
-    "MZ": 1
+    "KH": 1
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "298": 5,
@@ -94,17 +94,17 @@
     "DAC": 19
   },
   ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
-    "12262": 3,
-    "14081": 2,
-    "15162": 2,
+    "11240": 1,
     "12261": 2,
-    "12230": 2,
-    "13020": 1,
-    "11220": 2,
-    "72050": 1,
+    "12262": 3,
     "74010": 2,
     "13040": 1,
-    "11240": 1
+    "12230": 2,
+    "72050": 1,
+    "15162": 2,
+    "11220": 2,
+    "13020": 1,
+    "14081": 2
   },
   ".//transaction/aid-type/@code": {
     "B03": 68,
@@ -119,17 +119,17 @@
     "110": 77
   },
   ".//transaction/flow-type/@code": {
-    "10": 63,
-    "30": 14
+    "30": 14,
+    "10": 63
   },
   ".//transaction/tied-status/@code": {
     "5": 73,
     "3": 4
   },
   ".//transaction/transaction-type/@code": {
-    "IF": 9,
+    "C": 10,
     "E": 58,
-    "C": 10
+    "IF": 9
   },
   ".//transaction/value/@currency": {
     "USD": 13

@@ -18,18 +18,18 @@
     },
     ".//budget/@status": {
       "elrha-activities.xml": {
-        "1": 9
+        "1": 10
       }
     },
     ".//budget/@type": {
       "elrha-activities.xml": {
         "2": 4,
-        "1": 5
+        "1": 6
       }
     },
     ".//budget/value/@currency": {
       "elrha-activities.xml": {
-        "GBP": 9
+        "GBP": 10
       }
     },
     ".//description/@type": {
@@ -46,16 +46,16 @@
     ".//participating-org/@role": {
       "elrha-activities.xml": {
         "1": 9,
-        "4": 110,
+        "4": 113,
         "2": 4
       }
     },
     ".//participating-org/@type": {
       "elrha-activities.xml": {
         "10": 8,
-        "21": 47,
+        "21": 49,
         "24": 4,
-        "80": 37,
+        "80": 38,
         "70": 8,
         "22": 13,
         "90": 1,
@@ -66,51 +66,52 @@
     },
     ".//recipient-country/@code": {
       "elrha-activities.xml": {
-        "DK": 1,
-        "UG": 20,
-        "NP": 3,
-        "GB": 69,
-        "CH": 1,
-        "PH": 9,
-        "GH": 5,
-        "LB": 4,
-        "ID": 7,
-        "BD": 16,
-        "NG": 4,
-        "SY": 4,
-        "IN": 21,
-        "US": 7,
-        "SS": 2,
-        "ET": 8,
-        "SD": 1,
-        "JO": 11,
-        "IQ": 8,
-        "KE": 10,
-        "EC": 2,
-        "MZ": 3,
+        "IN": 24,
+        "GB": 87,
         "GT": 4,
+        "IQ": 8,
+        "GH": 8,
+        "UG": 24,
+        "PH": 10,
+        "ID": 8,
+        "ET": 11,
+        "BD": 21,
+        "SY": 4,
+        "SS": 3,
+        "MZ": 3,
+        "NG": 5,
+        "LB": 4,
+        "JO": 14,
+        "NP": 4,
+        "EC": 3,
+        "US": 9,
+        "DK": 1,
+        "CH": 1,
+        "SD": 2,
+        "KE": 12,
+        "TZ": 1,
+        "MM": 3,
+        "ZM": 3,
+        "AF": 7,
+        "CD": 4,
+        "SO": 6,
+        "ML": 4,
+        "NE": 2,
+        "TH": 3,
+        "CO": 3,
         "FR": 1,
         "BF": 1,
-        "CO": 3,
-        "MM": 3,
-        "TH": 3,
-        "NE": 2,
-        "ZM": 3,
         "PS": 1,
-        "SO": 4,
-        "CD": 3,
-        "TZ": 1,
-        "AF": 3,
-        "ML": 4
+        "UA": 2
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "elrha-activities.xml": {
-        "998": 244,
-        "298": 12,
+        "998": 304,
+        "798": 13,
+        "298": 17,
         "489": 3,
         "689": 2,
-        "798": 12,
         "589": 3,
         "389": 1
       }
@@ -153,121 +154,122 @@
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "elrha-activities.xml": {
-        "C01": 518
+        "C01": 641
       }
     },
     ".//transaction/aid-type/@vocabulary": {
       "elrha-activities.xml": {
-        "1": 518
+        "1": 641
       }
     },
     ".//transaction/disbursement-channel/@code": {
       "elrha-activities.xml": {
-        "2": 518
+        "2": 641
       }
     },
     ".//transaction/finance-type/@code": {
       "elrha-activities.xml": {
-        "110": 518
+        "110": 641
       }
     },
     ".//transaction/flow-type/@code": {
       "elrha-activities.xml": {
-        "10": 66,
-        "30": 452
+        "30": 557,
+        "10": 84
       }
     },
     ".//transaction/recipient-country/@code": {
       "elrha-activities.xml": {
-        "DK": 1,
-        "UG": 20,
-        "NP": 3,
-        "GB": 69,
-        "CH": 1,
-        "PH": 9,
-        "GH": 5,
-        "LB": 4,
-        "ID": 7,
-        "BD": 16,
-        "NG": 4,
-        "SY": 4,
-        "IN": 21,
-        "US": 7,
-        "SS": 2,
-        "ET": 8,
-        "SD": 1,
-        "JO": 11,
-        "IQ": 8,
-        "KE": 10,
-        "EC": 2,
-        "MZ": 3,
+        "IN": 24,
+        "GB": 87,
         "GT": 4,
+        "IQ": 8,
+        "GH": 8,
+        "UG": 24,
+        "PH": 10,
+        "ID": 8,
+        "ET": 11,
+        "BD": 21,
+        "SY": 4,
+        "SS": 3,
+        "MZ": 3,
+        "NG": 5,
+        "LB": 4,
+        "JO": 14,
+        "NP": 4,
+        "EC": 3,
+        "US": 9,
+        "DK": 1,
+        "CH": 1,
+        "SD": 2,
+        "KE": 12,
+        "TZ": 1,
+        "MM": 3,
+        "ZM": 3,
+        "AF": 7,
+        "CD": 4,
+        "SO": 6,
+        "ML": 4,
+        "NE": 2,
+        "TH": 3,
+        "CO": 3,
         "FR": 1,
         "BF": 1,
-        "CO": 3,
-        "MM": 3,
-        "TH": 3,
-        "NE": 2,
-        "ZM": 3,
         "PS": 1,
-        "SO": 4,
-        "CD": 3,
-        "TZ": 1,
-        "AF": 3,
-        "ML": 4
+        "UA": 2
       }
     },
     ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "elrha-activities.xml": {
-        "998": 244,
-        "298": 12,
+        "998": 304,
+        "798": 13,
+        "298": 17,
         "489": 3,
         "689": 2,
-        "798": 12,
         "589": 3,
         "389": 1
       }
     },
     ".//transaction/provider-org/@type": {
       "elrha-activities.xml": {
-        "10": 60,
-        "21": 451,
-        "60": 6,
+        "21": 556,
+        "10": 76,
+        "60": 8,
         "22": 1
       }
     },
     ".//transaction/receiver-org/@type": {
       "elrha-activities.xml": {
-        "21": 172,
-        "70": 23,
-        "80": 81,
-        "24": 16,
+        "90": 5,
+        "21": 200,
+        "80": 88,
+        "24": 18,
         "22": 16,
-        "40": 4,
-        "90": 5
+        "70": 23,
+        "40": 4
       }
     },
     ".//transaction/tied-status/@code": {
       "elrha-activities.xml": {
-        "5": 518
+        "5": 641
       }
     },
     ".//transaction/transaction-type/@code": {
       "elrha-activities.xml": {
-        "1": 66,
-        "3": 180,
-        "2": 71,
-        "4": 201
+        "2": 88,
+        "4": 247,
+        "1": 84,
+        "3": 222
       }
     },
     ".//transaction/value/@currency": {
       "elrha-activities.xml": {
-        "GBP": 518
+        "GBP": 641
       }
     },
     ".//@xml:lang": {
       "elrha-activities.xml": {
-        "en": 430
+        "en": 436
       }
     }
   }

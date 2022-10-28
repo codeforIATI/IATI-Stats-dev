@@ -56,9 +56,9 @@
       "iati-activity/sector/@code": 2,
       "iati-activity/sector/@percentage": 2,
       "iati-activity/tag": 2,
+      "iati-activity/tag/narrative": 2,
       "iati-activity/tag/@vocabulary": 2,
       "iati-activity/tag/@code": 2,
-      "iati-activity/tag/narrative": 2,
       "iati-activity/policy-marker": 2,
       "iati-activity/policy-marker/narrative": 2,
       "iati-activity/policy-marker/@code": 2,
@@ -106,16 +106,16 @@
       "iati-activity/transaction/tied-status/@code": 2,
       "iati-activity/transaction/@ref": 2,
       "iati-activity/transaction/@humanitarian": 2,
-      "iati-activity/related-activity": 1,
-      "iati-activity/related-activity/@ref": 1,
-      "iati-activity/related-activity/@type": 1,
       "iati-activity/conditions": 2,
       "iati-activity/conditions/@attached": 2,
       "iati-activity/@last-updated-datetime": 2,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 2,
       "iati-activity/@default-currency": 2,
       "iati-activity/@humanitarian": 2,
-      "iati-activity/@hierarchy": 2
+      "iati-activity/@hierarchy": 2,
+      "iati-activity/related-activity": 1,
+      "iati-activity/related-activity/@ref": 1,
+      "iati-activity/related-activity/@type": 1
     },
     "elements_total": {
       "iati-activity": 2,
@@ -172,9 +172,9 @@
       "iati-activity/sector/@code": 3,
       "iati-activity/sector/@percentage": 3,
       "iati-activity/tag": 3,
+      "iati-activity/tag/narrative": 2,
       "iati-activity/tag/@vocabulary": 3,
       "iati-activity/tag/@code": 3,
-      "iati-activity/tag/narrative": 2,
       "iati-activity/policy-marker": 24,
       "iati-activity/policy-marker/narrative": 24,
       "iati-activity/policy-marker/@code": 24,
@@ -222,22 +222,22 @@
       "iati-activity/transaction/tied-status/@code": 2,
       "iati-activity/transaction/@ref": 2,
       "iati-activity/transaction/@humanitarian": 2,
-      "iati-activity/related-activity": 2,
-      "iati-activity/related-activity/@ref": 2,
-      "iati-activity/related-activity/@type": 2,
       "iati-activity/conditions": 2,
       "iati-activity/conditions/@attached": 2,
       "iati-activity/@last-updated-datetime": 2,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 2,
       "iati-activity/@default-currency": 2,
       "iati-activity/@humanitarian": 2,
-      "iati-activity/@hierarchy": 2
+      "iati-activity/@hierarchy": 2,
+      "iati-activity/related-activity": 2,
+      "iati-activity/related-activity/@ref": 2,
+      "iati-activity/related-activity/@type": 2
     },
     "forwardlooking_currency_year": {
-      "null": {
+      "2050": {
         "EUR": 0.0
       },
-      "2050": {
+      "null": {
         "EUR": 0.0
       }
     },

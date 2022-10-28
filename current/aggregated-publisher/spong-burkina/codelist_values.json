@@ -3,25 +3,24 @@
     "": 2
   },
   ".//@xml:lang": {
-    "EN": 28,
-    "nl": 66,
-    "en": 92,
-    "fr": 66
+    "EN": 30,
+    "nl": 8,
+    "en": 44,
+    "fr": 32
   },
   ".//activity-date/@type": {
     "1": 2,
     "3": 2,
-    "2": 2,
-    "4": 2
+    "2": 2
   },
   ".//activity-status/@code": {
     "2": 2
   },
   ".//budget/@status": {
-    "2": 2
+    "2": 10
   },
   ".//budget/value/@currency": {
-    "XOF": 2
+    "XOF": 10
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": 2
@@ -53,18 +52,18 @@
     "22": 6
   },
   ".//policy-marker/@significance": {
-    "2": 4,
-    "1": 6
+    "1": 6,
+    "2": 4
   },
   ".//policy-marker/@vocabulary": {
     "1": 10
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "7": 2,
-    "6": 2,
-    "2": 2,
     "1": 2,
-    "3": 2
+    "2": 2,
+    "3": 2,
+    "6": 2,
+    "7": 2
   },
   ".//recipient-country/@code": {
     "BF": 2
@@ -73,12 +72,14 @@
     "22": 2
   },
   ".//result/@type": {
-    "3": 4,
-    "2": 5,
+    "2": 2,
     "1": 2
   },
   ".//result/indicator/@measure": {
-    "1": 22
+    "1": 12
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": 12
   },
   ".//sector/@vocabulary": {
     "1": 2
@@ -87,14 +88,14 @@
     "15150": 2
   },
   ".//transaction/provider-org/@type": {
-    "22": 4
+    "22": 6
   },
   ".//transaction/transaction-type/@code": {
-    "11": 2,
+    "11": 4,
     "1": 2,
     "4": 2
   },
   ".//transaction/value/@currency": {
-    "XOF": 6
+    "XOF": 8
   }
 }

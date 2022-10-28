@@ -9,8 +9,8 @@
       "1": 1
     },
     ".//activity-status/@code": {
-      "4": 14,
-      "5": 1
+      "5": 1,
+      "4": 14
     },
     ".//budget/@status": {
       "2": 75
@@ -67,12 +67,12 @@
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "2": 14,
-      "5": 8,
-      "7": 12,
-      "6": 12,
-      "1": 14,
       "3": 14,
       "4": 13,
+      "1": 14,
+      "7": 12,
+      "6": 12,
+      "5": 8,
       "9": 1
     },
     ".//policy-marker/@significance": {
@@ -83,34 +83,26 @@
       "1": 88
     },
     ".//recipient-country/@code": {
-      "EC": 1,
-      "SV": 1,
-      "PE": 1,
-      "UG": 1,
-      "BF": 1,
-      "GT": 1,
       "ZA": 1,
-      "BR": 1,
-      "GN": 1,
-      "HN": 1,
+      "UG": 1,
       "CD": 1,
+      "BR": 1,
+      "GT": 1,
+      "BF": 1,
+      "TZ": 1,
       "BE": 1,
       "PH": 1,
-      "TZ": 1
+      "GN": 1,
+      "EC": 1,
+      "HN": 1,
+      "PE": 1,
+      "SV": 1
     },
     ".//related-activity/@type": {
       "1": 15
     },
     ".//reporting-org/@type": {
       "22": 15
-    },
-    ".//result/@type": {
-      "2": 13
-    },
-    ".//result/indicator/@measure": {
-      "2": 141,
-      "1": 7,
-      "3": 1
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "31120": 13,
@@ -126,24 +118,32 @@
     },
     ".//transaction/receiver-org/@type": {
       "24": 458,
-      "23": 3,
-      "22": 2
+      "22": 2,
+      "23": 3
     },
     ".//transaction/transaction-type/@code": {
-      "3": 387,
+      "4": 73,
       "2": 83,
-      "4": 73
+      "3": 387
     },
     ".//transaction/value/@currency": {
       "EUR": 519
     },
     ".//@xml:lang": {
       "en": 602,
-      "es": 272,
-      "eo": 1,
-      "fr": 227,
       "nl": 25,
-      "pt": 20
+      "fr": 227,
+      "pt": 20,
+      "es": 272,
+      "eo": 1
+    },
+    ".//result/@type": {
+      "2": 13
+    },
+    ".//result/indicator/@measure": {
+      "2": 141,
+      "1": 7,
+      "3": 1
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "89": 1

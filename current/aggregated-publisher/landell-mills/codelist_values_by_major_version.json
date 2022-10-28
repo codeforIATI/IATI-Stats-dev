@@ -5,13 +5,13 @@
     },
     ".//activity-date/@type": {
       "2": 6,
-      "4": 3,
       "3": 3,
-      "1": 1
+      "1": 1,
+      "4": 3
     },
     ".//activity-status/@code": {
-      "4": 5,
-      "2": 1
+      "2": 1,
+      "4": 5
     },
     ".//budget/@status": {
       "2": 19
@@ -44,14 +44,10 @@
       "70": 4
     },
     ".//recipient-country/@code": {
+      "SY": 1,
+      "MW": 2,
       "NP": 1,
       "UG": 1,
-      "GH": 1,
-      "MW": 2,
-      "ET": 1,
-      "MZ": 1,
-      "SN": 1,
-      "TZ": 1,
       "BR": 1,
       "EG": 1,
       "ID": 1,
@@ -61,7 +57,11 @@
       "NG": 1,
       "PH": 1,
       "ZA": 1,
-      "SY": 1
+      "GH": 1,
+      "ET": 1,
+      "MZ": 1,
+      "SN": 1,
+      "TZ": 1
     },
     ".//reporting-org/@type": {
       "70": 6
@@ -90,8 +90,8 @@
       "en": 42
     },
     ".//document-link/@format": {
-      "application/pdf": 3,
-      "application/msword": 1
+      "application/msword": 1,
+      "application/pdf": 3
     },
     ".//document-link/category/@code": {
       "A02": 3,
@@ -100,14 +100,14 @@
     ".//document-link/language/@code": {
       "en": 4
     },
+    ".//sector[@vocabulary = '2']/@code": {
+      "998": 1
+    },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "289": 1
     },
     ".//recipient-region/@vocabulary": {
       "1": 1
-    },
-    ".//sector[@vocabulary = '2']/@code": {
-      "998": 1
     }
   }
 }

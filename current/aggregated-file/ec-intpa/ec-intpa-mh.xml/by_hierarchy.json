@@ -54,6 +54,9 @@
       "iati-activity/sector/@vocabulary": 8,
       "iati-activity/sector/@code": 8,
       "iati-activity/sector/@percentage": 8,
+      "iati-activity/tag": 1,
+      "iati-activity/tag/@vocabulary": 1,
+      "iati-activity/tag/@code": 1,
       "iati-activity/policy-marker": 8,
       "iati-activity/policy-marker/narrative": 8,
       "iati-activity/policy-marker/@code": 8,
@@ -111,10 +114,7 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 8,
       "iati-activity/@default-currency": 8,
       "iati-activity/@humanitarian": 8,
-      "iati-activity/@hierarchy": 8,
-      "iati-activity/tag": 1,
-      "iati-activity/tag/@vocabulary": 1,
-      "iati-activity/tag/@code": 1
+      "iati-activity/@hierarchy": 8
     },
     "elements_total": {
       "iati-activity": 8,
@@ -169,6 +169,9 @@
       "iati-activity/sector/@vocabulary": 8,
       "iati-activity/sector/@code": 8,
       "iati-activity/sector/@percentage": 8,
+      "iati-activity/tag": 1,
+      "iati-activity/tag/@vocabulary": 1,
+      "iati-activity/tag/@code": 1,
       "iati-activity/policy-marker": 96,
       "iati-activity/policy-marker/narrative": 96,
       "iati-activity/policy-marker/@code": 96,
@@ -226,19 +229,16 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 8,
       "iati-activity/@default-currency": 8,
       "iati-activity/@humanitarian": 8,
-      "iati-activity/@hierarchy": 8,
-      "iati-activity/tag": 1,
-      "iati-activity/tag/@vocabulary": 1,
-      "iati-activity/tag/@code": 1
+      "iati-activity/@hierarchy": 8
     },
     "forwardlooking_currency_year": {
-      "null": {
+      "2023": {
         "EUR": 0.0
       },
       "2022": {
         "EUR": 0.0
       },
-      "2023": {
+      "null": {
         "EUR": 0.0
       }
     },
@@ -624,13 +624,13 @@
       }
     },
     "forwardlooking_activities_current": {
-      "2022": 2,
-      "2023": 2,
+      "2022": 0,
+      "2023": 0,
       "2024": 0
     },
     "forwardlooking_activities_with_budgets": {
-      "2022": 2,
-      "2023": 1,
+      "2022": 0,
+      "2023": 0,
       "2024": 0
     },
     "forwardlooking_activities_with_budget_not_provided": {

@@ -39,12 +39,17 @@
     },
     ".//document-link/@format": {
       "fidauganda-activities.xml": {
-        "application/1d-interleaved-parityfec": 3
+        "application/3gpp-ims+xml": 3
       }
     },
     ".//document-link/category/@code": {
       "fidauganda-activities.xml": {
         "A08": 3
+      }
+    },
+    ".//participating-org/@crs-channel-code": {
+      "fidauganda-activities.xml": {
+        "20000": 3
       }
     },
     ".//participating-org/@role": {
@@ -57,7 +62,7 @@
     ".//participating-org/@type": {
       "fidauganda-activities.xml": {
         "23": 1,
-        "21": 2
+        "22": 2
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -104,7 +109,7 @@
     },
     ".//result/document-link/@format": {
       "fidauganda-activities.xml": {
-        "application/1d-interleaved-parityfec": 3
+        "application/3gpp-ims+xml": 3
       }
     },
     ".//result/document-link/category/@code": {
@@ -114,12 +119,12 @@
     },
     ".//result/indicator/@measure": {
       "fidauganda-activities.xml": {
-        "1": 20
+        "1": 26
       }
     },
     ".//result/indicator/reference/@vocabulary": {
       "fidauganda-activities.xml": {
-        "99": 20
+        "99": 26
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -135,37 +140,40 @@
     },
     ".//transaction/disbursement-channel/@code": {
       "fidauganda-activities.xml": {
-        "2": 1
+        "2": 2
       }
     },
     ".//transaction/finance-type/@code": {
       "fidauganda-activities.xml": {
-        "110": 1
+        "110": 2
       }
     },
     ".//transaction/provider-org/@type": {
       "fidauganda-activities.xml": {
-        "21": 1
+        "23": 3,
+        "21": 2
       }
     },
     ".//transaction/receiver-org/@type": {
       "fidauganda-activities.xml": {
-        "22": 1
+        "22": 5
       }
     },
     ".//transaction/transaction-type/@code": {
       "fidauganda-activities.xml": {
-        "1": 1
+        "4": 2,
+        "11": 1,
+        "1": 2
       }
     },
     ".//transaction/value/@currency": {
       "fidauganda-activities.xml": {
-        "EUR": 1
+        "EUR": 5
       }
     },
     ".//@xml:lang": {
       "fidauganda-activities.xml": {
-        "en": 50
+        "en": 65
       }
     }
   }

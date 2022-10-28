@@ -1,169 +1,163 @@
 {
   "2": {
     ".//@default-currency": {
+      "clingendael-activities.xml": {
+        "EUR": 6
+      },
       "clingendael-998.xml": {
         "EUR": 19
-      },
-      "clingendael-activities.xml": {
-        "EUR": 5
       }
     },
     ".//activity-date/@type": {
+      "clingendael-activities.xml": {
+        "2": 6,
+        "1": 3,
+        "3": 5
+      },
       "clingendael-998.xml": {
         "2": 19,
         "1": 8,
         "3": 8,
         "4": 16
-      },
-      "clingendael-activities.xml": {
-        "2": 5,
-        "1": 3,
-        "3": 5
       }
     },
     ".//activity-status/@code": {
-      "clingendael-998.xml": {
-        "2": 3,
-        "3": 16
-      },
       "clingendael-activities.xml": {
         "3": 1,
         "4": 1,
-        "2": 3
+        "2": 4
+      },
+      "clingendael-998.xml": {
+        "2": 3,
+        "3": 16
       }
     },
     ".//activity-scope/@code": {
-      "clingendael-998.xml": {
-        "3": 2
-      },
       "clingendael-activities.xml": {
         "3": 2,
         "5": 1
+      },
+      "clingendael-998.xml": {
+        "3": 2
       }
     },
     ".//budget/@status": {
+      "clingendael-activities.xml": {
+        "2": 17,
+        "1": 3
+      },
       "clingendael-998.xml": {
         "2": 13,
         "1": 16
-      },
-      "clingendael-activities.xml": {
-        "2": 16,
-        "1": 3
       }
     },
     ".//budget/@type": {
+      "clingendael-activities.xml": {
+        "1": 19,
+        "2": 1
+      },
       "clingendael-998.xml": {
         "1": 24,
         "2": 5
-      },
+      }
+    },
+    ".//budget/value/@currency": {
       "clingendael-activities.xml": {
-        "1": 18,
-        "2": 1
+        "EUR": 7
       }
     },
     ".//collaboration-type/@code": {
+      "clingendael-activities.xml": {
+        "3": 5,
+        "1": 1
+      },
       "clingendael-998.xml": {
         "3": 19
-      },
-      "clingendael-activities.xml": {
-        "3": 4,
-        "1": 1
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "clingendael-activities.xml": {
+        "C01": 6
+      },
       "clingendael-998.xml": {
         "C01": 19
-      },
-      "clingendael-activities.xml": {
-        "C01": 5
       }
     },
     ".//default-aid-type/@vocabulary": {
+      "clingendael-activities.xml": {
+        "1": 6
+      },
       "clingendael-998.xml": {
         "1": 4
-      },
-      "clingendael-activities.xml": {
-        "1": 5
       }
     },
     ".//description/@type": {
+      "clingendael-activities.xml": {
+        "1": 6,
+        "2": 3,
+        "3": 3
+      },
       "clingendael-998.xml": {
         "1": 19,
         "2": 18,
         "3": 18,
         "4": 2
-      },
-      "clingendael-activities.xml": {
-        "1": 5,
-        "2": 3,
-        "3": 3
       }
     },
     ".//document-link/@format": {
-      "clingendael-998.xml": {
-        "application/pdf": 4
-      },
       "clingendael-activities.xml": {
         "application/pdf": 28,
         "application/msword": 2
+      },
+      "clingendael-998.xml": {
+        "application/pdf": 4
       }
     },
     ".//document-link/category/@code": {
-      "clingendael-998.xml": {
-        "B01": 4
-      },
       "clingendael-activities.xml": {
         "B01": 8,
         "A08": 21,
         "A05": 1
+      },
+      "clingendael-998.xml": {
+        "B01": 4
       }
     },
     ".//document-link/language/@code": {
-      "clingendael-998.xml": {
-        "en": 3
-      },
       "clingendael-activities.xml": {
         "en": 30
+      },
+      "clingendael-998.xml": {
+        "en": 3
       }
     },
     ".//participating-org/@role": {
+      "clingendael-activities.xml": {
+        "1": 4,
+        "2": 3,
+        "4": 7
+      },
       "clingendael-998.xml": {
         "4": 19,
         "1": 19,
         "2": 17
-      },
-      "clingendael-activities.xml": {
-        "1": 4,
-        "2": 3,
-        "4": 6
       }
     },
     ".//participating-org/@type": {
+      "clingendael-activities.xml": {
+        "10": 4,
+        "80": 6,
+        "22": 2,
+        "21": 1,
+        "40": 1
+      },
       "clingendael-998.xml": {
         "22": 13,
         "10": 3,
         "80": 39
-      },
-      "clingendael-activities.xml": {
-        "10": 4,
-        "80": 6,
-        "22": 1,
-        "21": 1,
-        "40": 1
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "clingendael-998.xml": {
-        "1": 14,
-        "2": 2,
-        "3": 2,
-        "4": 2,
-        "5": 2,
-        "6": 2,
-        "7": 2,
-        "8": 2,
-        "9": 2
-      },
       "clingendael-activities.xml": {
         "1": 2,
         "2": 2,
@@ -174,25 +168,40 @@
         "7": 2,
         "8": 2,
         "9": 2
+      },
+      "clingendael-998.xml": {
+        "1": 14,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 2
       }
     },
     ".//policy-marker/@significance": {
-      "clingendael-998.xml": {
-        "0": 9
-      },
       "clingendael-activities.xml": {
         "2": 1
+      },
+      "clingendael-998.xml": {
+        "0": 9
       }
     },
     ".//policy-marker/@vocabulary": {
-      "clingendael-998.xml": {
-        "1": 22
-      },
       "clingendael-activities.xml": {
         "1": 11
+      },
+      "clingendael-998.xml": {
+        "1": 22
       }
     },
     ".//recipient-country/@code": {
+      "clingendael-activities.xml": {
+        "ET": 1,
+        "NL": 3
+      },
       "clingendael-998.xml": {
         "AF": 1,
         "BD": 1,
@@ -232,141 +241,41 @@
         "UG": 1,
         "YE": 1,
         "ZW": 1
-      },
-      "clingendael-activities.xml": {
-        "ET": 1,
-        "NL": 2
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "clingendael-998.xml": {
-        "998": 18
-      },
       "clingendael-activities.xml": {
         "998": 2,
         "89": 1
-      }
-    },
-    ".//related-activity/@type": {
-      "clingendael-998.xml": {
-        "1": 16,
-        "3": 19
-      }
-    },
-    ".//reporting-org/@type": {
-      "clingendael-998.xml": {
-        "22": 1,
-        "80": 18
       },
-      "clingendael-activities.xml": {
-        "80": 5
-      }
-    },
-    ".//result/@type": {
       "clingendael-998.xml": {
-        "1": 13,
-        "2": 5
-      },
-      "clingendael-activities.xml": {
-        "1": 14,
-        "2": 15,
-        "3": 1,
-        "9": 1
-      }
-    },
-    ".//result/indicator/@measure": {
-      "clingendael-998.xml": {
-        "2": 17,
-        "1": 16,
-        "5": 2
-      },
-      "clingendael-activities.xml": {
-        "1": 44,
-        "2": 83,
-        "5": 13,
-        "4": 1
-      }
-    },
-    ".//result/indicator/reference/@vocabulary": {
-      "clingendael-998.xml": {
-        "99": 12
-      },
-      "clingendael-activities.xml": {
-        "99": 120
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "clingendael-998.xml": {
-        "11120": 1,
-        "15220": 9,
-        "11430": 9
-      },
-      "clingendael-activities.xml": {
-        "11430": 2,
-        "15112": 1,
-        "15220": 2,
-        "15210": 1,
-        "15230": 1,
-        "15131": 1,
-        "15150": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "clingendael-998.xml": {
-        "1": 19
-      },
-      "clingendael-activities.xml": {
-        "1": 9
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "clingendael-998.xml": {
-        "10": 6,
-        "80": 40
-      },
-      "clingendael-activities.xml": {
-        "10": 11,
-        "80": 2
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "clingendael-998.xml": {
-        "80": 46
-      },
-      "clingendael-activities.xml": {
-        "80": 7,
-        "60": 1
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "clingendael-998.xml": {
-        "11": 5,
-        "1": 12,
-        "3": 29
-      },
-      "clingendael-activities.xml": {
-        "11": 3,
-        "1": 8,
-        "4": 2
-      }
-    },
-    ".//@xml:lang": {
-      "clingendael-998.xml": {
-        "en": 133,
-        "nl": 3
-      },
-      "clingendael-activities.xml": {
-        "en": 598
-      }
-    },
-    ".//budget/value/@currency": {
-      "clingendael-activities.xml": {
-        "EUR": 6
+        "998": 18
       }
     },
     ".//recipient-region/@vocabulary": {
       "clingendael-activities.xml": {
         "1": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "clingendael-activities.xml": {
+        "80": 6
+      },
+      "clingendael-998.xml": {
+        "22": 1,
+        "80": 18
+      }
+    },
+    ".//result/@type": {
+      "clingendael-activities.xml": {
+        "1": 14,
+        "2": 15,
+        "3": 1,
+        "9": 1
+      },
+      "clingendael-998.xml": {
+        "1": 13,
+        "2": 5
       }
     },
     ".//result/document-link/@format": {
@@ -386,14 +295,105 @@
         "en": 2
       }
     },
+    ".//result/indicator/@measure": {
+      "clingendael-activities.xml": {
+        "1": 44,
+        "2": 83,
+        "5": 13,
+        "4": 1
+      },
+      "clingendael-998.xml": {
+        "2": 17,
+        "1": 16,
+        "5": 2
+      }
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "clingendael-activities.xml": {
+        "99": 120
+      },
+      "clingendael-998.xml": {
+        "99": 12
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "clingendael-activities.xml": {
+        "11430": 3,
+        "15112": 1,
+        "15220": 2,
+        "15210": 1,
+        "15230": 1,
+        "15131": 1,
+        "15150": 1
+      },
+      "clingendael-998.xml": {
+        "11120": 1,
+        "15220": 9,
+        "11430": 9
+      }
+    },
+    ".//sector/@vocabulary": {
+      "clingendael-activities.xml": {
+        "1": 10
+      },
+      "clingendael-998.xml": {
+        "1": 19
+      }
+    },
     ".//transaction/disbursement-channel/@code": {
       "clingendael-activities.xml": {
         "2": 1
       }
     },
+    ".//transaction/provider-org/@type": {
+      "clingendael-activities.xml": {
+        "10": 13,
+        "80": 2
+      },
+      "clingendael-998.xml": {
+        "10": 6,
+        "80": 40
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "clingendael-activities.xml": {
+        "80": 9,
+        "60": 1
+      },
+      "clingendael-998.xml": {
+        "80": 46
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "clingendael-activities.xml": {
+        "11": 3,
+        "1": 10,
+        "4": 3
+      },
+      "clingendael-998.xml": {
+        "11": 5,
+        "1": 12,
+        "3": 29
+      }
+    },
     ".//transaction/value/@currency": {
       "clingendael-activities.xml": {
-        "EUR": 1
+        "EUR": 4
+      }
+    },
+    ".//@xml:lang": {
+      "clingendael-activities.xml": {
+        "en": 604
+      },
+      "clingendael-998.xml": {
+        "en": 133,
+        "nl": 3
+      }
+    },
+    ".//related-activity/@type": {
+      "clingendael-998.xml": {
+        "1": 16,
+        "3": 19
       }
     }
   }

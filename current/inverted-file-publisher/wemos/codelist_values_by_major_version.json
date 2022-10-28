@@ -1,29 +1,279 @@
 {
   "2": {
     ".//@default-currency": {
-      "wemos-activities.xml": {
-        "EUR": 3
-      },
       "wemos-makeway.xml": {
         "EUR": 8
+      },
+      "wemos-activities.xml": {
+        "EUR": 3
       }
     },
     ".//activity-date/@type": {
-      "wemos-activities.xml": {
-        "2": 3,
-        "3": 3
-      },
       "wemos-makeway.xml": {
         "1": 8,
         "3": 8
+      },
+      "wemos-activities.xml": {
+        "2": 3,
+        "3": 3
       }
     },
     ".//activity-status/@code": {
-      "wemos-activities.xml": {
-        "2": 3
-      },
       "wemos-makeway.xml": {
         "2": 8
+      },
+      "wemos-activities.xml": {
+        "2": 3
+      }
+    },
+    ".//contact-info/@type": {
+      "wemos-makeway.xml": {
+        "2": 9
+      },
+      "wemos-activities.xml": {
+        "1": 3
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "wemos-makeway.xml": {
+        "C01": 8
+      },
+      "wemos-activities.xml": {
+        "C01": 1
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "wemos-makeway.xml": {
+        "1": 8
+      },
+      "wemos-activities.xml": {
+        "1": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "wemos-makeway.xml": {
+        "110": 8
+      },
+      "wemos-activities.xml": {
+        "110": 3
+      }
+    },
+    ".//default-flow-type/@code": {
+      "wemos-makeway.xml": {
+        "30": 8
+      },
+      "wemos-activities.xml": {
+        "30": 3
+      }
+    },
+    ".//default-tied-status/@code": {
+      "wemos-makeway.xml": {
+        "5": 8
+      },
+      "wemos-activities.xml": {
+        "5": 3
+      }
+    },
+    ".//description/@type": {
+      "wemos-makeway.xml": {
+        "1": 16
+      },
+      "wemos-activities.xml": {
+        "1": 3
+      }
+    },
+    ".//document-link/@format": {
+      "wemos-makeway.xml": {
+        "image/jpeg": 8,
+        "application/pdf": 5
+      },
+      "wemos-activities.xml": {
+        "application/pdf": 10
+      }
+    },
+    ".//document-link/category/@code": {
+      "wemos-makeway.xml": {
+        "A12": 8,
+        "B01": 2,
+        "A08": 1,
+        "B06": 2
+      },
+      "wemos-activities.xml": {
+        "A08": 10
+      }
+    },
+    ".//other-identifier/@type": {
+      "wemos-makeway.xml": {
+        "B9": 8
+      }
+    },
+    ".//participating-org/@role": {
+      "wemos-makeway.xml": {
+        "1": 8,
+        "2": 7,
+        "4": 12
+      },
+      "wemos-activities.xml": {
+        "1": 3,
+        "4": 3,
+        "2": 3
+      }
+    },
+    ".//participating-org/@type": {
+      "wemos-makeway.xml": {
+        "21": 25,
+        "10": 1,
+        "22": 1
+      },
+      "wemos-activities.xml": {
+        "21": 1,
+        "22": 8
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "wemos-makeway.xml": {
+        "1": 8,
+        "3": 8,
+        "9": 8
+      },
+      "wemos-activities.xml": {
+        "9": 3,
+        "3": 3,
+        "1": 3
+      }
+    },
+    ".//policy-marker/@significance": {
+      "wemos-makeway.xml": {
+        "2": 24
+      },
+      "wemos-activities.xml": {
+        "2": 3,
+        "1": 6
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "wemos-makeway.xml": {
+        "1": 24
+      },
+      "wemos-activities.xml": {
+        "1": 9
+      }
+    },
+    ".//recipient-country/@code": {
+      "wemos-makeway.xml": {
+        "RW": 3,
+        "ET": 3,
+        "KE": 3,
+        "ZM": 3,
+        "UG": 3
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "wemos-makeway.xml": {
+        "289": 3
+      },
+      "wemos-activities.xml": {
+        "89": 2,
+        "298": 2,
+        "998": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "wemos-makeway.xml": {
+        "1": 7,
+        "2": 6
+      },
+      "wemos-activities.xml": {
+        "2": 2,
+        "1": 2
+      }
+    },
+    ".//reporting-org/@type": {
+      "wemos-makeway.xml": {
+        "21": 8
+      },
+      "wemos-activities.xml": {
+        "22": 3
+      }
+    },
+    ".//result/@type": {
+      "wemos-makeway.xml": {
+        "2": 50,
+        "9": 6,
+        "3": 2
+      },
+      "wemos-activities.xml": {
+        "1": 11
+      }
+    },
+    ".//result/indicator/@measure": {
+      "wemos-makeway.xml": {
+        "1": 117,
+        "5": 12
+      },
+      "wemos-activities.xml": {
+        "1": 21
+      }
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "wemos-makeway.xml": {
+        "99": 117
+      },
+      "wemos-activities.xml": {
+        "99": 21
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "wemos-makeway.xml": {
+        "13020": 8
+      },
+      "wemos-activities.xml": {
+        "15150": 3
+      }
+    },
+    ".//sector/@vocabulary": {
+      "wemos-makeway.xml": {
+        "1": 8
+      },
+      "wemos-activities.xml": {
+        "1": 3
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "wemos-makeway.xml": {
+        "21": 24,
+        "10": 3
+      },
+      "wemos-activities.xml": {
+        "22": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "wemos-makeway.xml": {
+        "21": 25,
+        "22": 2
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "wemos-makeway.xml": {
+        "11": 8,
+        "4": 6,
+        "1": 3,
+        "2": 11,
+        "3": 5
+      },
+      "wemos-activities.xml": {
+        "1": 13,
+        "4": 20,
+        "11": 3
+      }
+    },
+    ".//@xml:lang": {
+      "wemos-makeway.xml": {
+        "en": 8
+      },
+      "wemos-activities.xml": {
+        "en": 57
       }
     },
     ".//budget/@status": {
@@ -46,82 +296,6 @@
         "1": 3
       }
     },
-    ".//contact-info/@type": {
-      "wemos-activities.xml": {
-        "1": 3
-      },
-      "wemos-makeway.xml": {
-        "2": 9
-      }
-    },
-    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "wemos-activities.xml": {
-        "C01": 1
-      },
-      "wemos-makeway.xml": {
-        "C01": 8
-      }
-    },
-    ".//default-aid-type/@vocabulary": {
-      "wemos-activities.xml": {
-        "1": 1
-      },
-      "wemos-makeway.xml": {
-        "1": 8
-      }
-    },
-    ".//default-finance-type/@code": {
-      "wemos-activities.xml": {
-        "110": 3
-      },
-      "wemos-makeway.xml": {
-        "110": 8
-      }
-    },
-    ".//default-flow-type/@code": {
-      "wemos-activities.xml": {
-        "30": 3
-      },
-      "wemos-makeway.xml": {
-        "30": 8
-      }
-    },
-    ".//default-tied-status/@code": {
-      "wemos-activities.xml": {
-        "5": 3
-      },
-      "wemos-makeway.xml": {
-        "5": 8
-      }
-    },
-    ".//description/@type": {
-      "wemos-activities.xml": {
-        "1": 3
-      },
-      "wemos-makeway.xml": {
-        "1": 16
-      }
-    },
-    ".//document-link/@format": {
-      "wemos-activities.xml": {
-        "application/pdf": 10
-      },
-      "wemos-makeway.xml": {
-        "image/jpeg": 8,
-        "application/pdf": 5
-      }
-    },
-    ".//document-link/category/@code": {
-      "wemos-activities.xml": {
-        "A08": 10
-      },
-      "wemos-makeway.xml": {
-        "A12": 8,
-        "B01": 2,
-        "A08": 1,
-        "B06": 2
-      }
-    },
     ".//document-link/language/@code": {
       "wemos-activities.xml": {
         "en": 10
@@ -142,132 +316,9 @@
         "2": 9
       }
     },
-    ".//participating-org/@role": {
-      "wemos-activities.xml": {
-        "1": 3,
-        "4": 3,
-        "2": 3
-      },
-      "wemos-makeway.xml": {
-        "1": 8,
-        "2": 7,
-        "4": 12
-      }
-    },
-    ".//participating-org/@type": {
-      "wemos-activities.xml": {
-        "21": 1,
-        "22": 8
-      },
-      "wemos-makeway.xml": {
-        "21": 25,
-        "10": 1,
-        "22": 1
-      }
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "wemos-activities.xml": {
-        "9": 3,
-        "3": 3,
-        "1": 3
-      },
-      "wemos-makeway.xml": {
-        "1": 8,
-        "3": 8,
-        "9": 8
-      }
-    },
-    ".//policy-marker/@significance": {
-      "wemos-activities.xml": {
-        "2": 3,
-        "1": 6
-      },
-      "wemos-makeway.xml": {
-        "2": 24
-      }
-    },
-    ".//policy-marker/@vocabulary": {
-      "wemos-activities.xml": {
-        "1": 9
-      },
-      "wemos-makeway.xml": {
-        "1": 24
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "wemos-activities.xml": {
-        "89": 2,
-        "298": 2,
-        "998": 1
-      },
-      "wemos-makeway.xml": {
-        "289": 3
-      }
-    },
     ".//recipient-region/@vocabulary": {
       "wemos-activities.xml": {
         "1": 5
-      }
-    },
-    ".//related-activity/@type": {
-      "wemos-activities.xml": {
-        "2": 2,
-        "1": 2
-      },
-      "wemos-makeway.xml": {
-        "1": 7,
-        "2": 6
-      }
-    },
-    ".//reporting-org/@type": {
-      "wemos-activities.xml": {
-        "22": 3
-      },
-      "wemos-makeway.xml": {
-        "21": 8
-      }
-    },
-    ".//result/@type": {
-      "wemos-activities.xml": {
-        "1": 11
-      },
-      "wemos-makeway.xml": {
-        "2": 50,
-        "9": 6,
-        "3": 2
-      }
-    },
-    ".//result/indicator/@measure": {
-      "wemos-activities.xml": {
-        "1": 21
-      },
-      "wemos-makeway.xml": {
-        "1": 117,
-        "5": 12
-      }
-    },
-    ".//result/indicator/reference/@vocabulary": {
-      "wemos-activities.xml": {
-        "99": 21
-      },
-      "wemos-makeway.xml": {
-        "99": 117
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "wemos-activities.xml": {
-        "15150": 3
-      },
-      "wemos-makeway.xml": {
-        "13020": 8
-      }
-    },
-    ".//sector/@vocabulary": {
-      "wemos-activities.xml": {
-        "1": 3
-      },
-      "wemos-makeway.xml": {
-        "1": 8
       }
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -295,65 +346,14 @@
         "30": 12
       }
     },
-    ".//transaction/provider-org/@type": {
-      "wemos-activities.xml": {
-        "22": 1
-      },
-      "wemos-makeway.xml": {
-        "21": 24,
-        "10": 3
-      }
-    },
     ".//transaction/tied-status/@code": {
       "wemos-activities.xml": {
         "5": 12
       }
     },
-    ".//transaction/transaction-type/@code": {
-      "wemos-activities.xml": {
-        "1": 13,
-        "4": 20,
-        "11": 3
-      },
-      "wemos-makeway.xml": {
-        "11": 8,
-        "4": 6,
-        "1": 3,
-        "2": 11,
-        "3": 5
-      }
-    },
     ".//transaction/value/@currency": {
       "wemos-activities.xml": {
         "EUR": 31
-      }
-    },
-    ".//@xml:lang": {
-      "wemos-activities.xml": {
-        "en": 57
-      },
-      "wemos-makeway.xml": {
-        "en": 8
-      }
-    },
-    ".//other-identifier/@type": {
-      "wemos-makeway.xml": {
-        "B9": 8
-      }
-    },
-    ".//recipient-country/@code": {
-      "wemos-makeway.xml": {
-        "RW": 3,
-        "ET": 3,
-        "KE": 3,
-        "ZM": 3,
-        "UG": 3
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "wemos-makeway.xml": {
-        "21": 25,
-        "22": 2
       }
     }
   }

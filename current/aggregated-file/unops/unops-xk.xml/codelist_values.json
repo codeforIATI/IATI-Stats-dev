@@ -1,45 +1,55 @@
 {
   ".//@default-currency": {
-    "USD": 9
+    "USD": 10
   },
   ".//@xml:lang": {
-    "en": 9
+    "en": 10
   },
   ".//activity-date/@type": {
-    "2": 9
+    "2": 10
+  },
+  ".//activity-status/@code": {
+    "2": 10
   },
   ".//budget/@type": {
-    "1": 9
+    "1": 10
+  },
+  ".//budget/value/@currency": {
+    "USD": 10
   },
   ".//contact-info/@type": {
-    "1": 9
+    "1": 10
   },
   ".//description/@type": {
-    "1": 9
+    "1": 10
   },
   ".//participating-org/@role": {
-    "4": 9,
-    "2": 9
+    "4": 10,
+    "2": 10
   },
   ".//participating-org/@type": {
-    "40": 18
+    "40": 20
   },
   ".//recipient-country/@code": {
-    "XK": 9
+    "XK": 10
   },
   ".//reporting-org/@type": {
-    "40": 9
+    "40": 10
   },
   ".//sector/@vocabulary": {
-    "1": 9
+    "1": 10
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "99810": 1,
     "72010": 5,
     "12110": 2,
     "41010": 1,
     "11420": 1
   },
   ".//transaction/transaction-type/@code": {
-    "4": 9
+    "4": 10
+  },
+  ".//transaction/value/@currency": {
+    "USD": 10
   }
 }

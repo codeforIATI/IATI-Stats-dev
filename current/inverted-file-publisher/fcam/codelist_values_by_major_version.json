@@ -126,10 +126,16 @@
         "1": 20
       }
     },
+    ".//recipient-country/@code": {
+      "fcam-activities.xml": {
+        "NI": 2
+      }
+    },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "fcam-activities.xml": {
         "498": 5,
         "998": 3,
+        "1032": 2,
         "389": 1
       }
     },
@@ -195,8 +201,14 @@
         "1": 11
       }
     },
+    ".//transaction/recipient-country/@code": {
+      "fcam-activities.xml": {
+        "NI": 2
+      }
+    },
     ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "fcam-activities.xml": {
+        "1032": 2,
         "389": 1
       }
     },
@@ -208,13 +220,15 @@
     ".//transaction/provider-org/@type": {
       "fcam-activities.xml": {
         "60": 11,
-        "10": 7
+        "10": 7,
+        "21": 2
       }
     },
     ".//transaction/receiver-org/@type": {
       "fcam-activities.xml": {
         "60": 19,
         "22": 8,
+        "23": 2,
         "21": 1
       }
     },
@@ -222,18 +236,19 @@
       "fcam-activities.xml": {
         "4": 41,
         "3": 82,
-        "1": 9,
+        "1": 10,
+        "11": 1,
         "2": 4
       }
     },
     ".//transaction/value/@currency": {
       "fcam-activities.xml": {
-        "EUR": 135
+        "EUR": 137
       }
     },
     ".//@xml:lang": {
       "fcam-activities.xml": {
-        "en": 154
+        "en": 156
       }
     }
   }
