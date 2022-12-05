@@ -101,6 +101,33 @@
   "iati-activity/contact-info/website": {
     "ywca-activities.xml": 1
   },
+  "iati-activity/default-aid-type": {
+    "ywca-activities.xml": 1
+  },
+  "iati-activity/default-aid-type/@code": {
+    "ywca-activities.xml": 1
+  },
+  "iati-activity/default-aid-type/@vocabulary": {
+    "ywca-activities.xml": 1
+  },
+  "iati-activity/default-finance-type": {
+    "ywca-activities.xml": 1
+  },
+  "iati-activity/default-finance-type/@code": {
+    "ywca-activities.xml": 1
+  },
+  "iati-activity/default-flow-type": {
+    "ywca-activities.xml": 1
+  },
+  "iati-activity/default-flow-type/@code": {
+    "ywca-activities.xml": 1
+  },
+  "iati-activity/default-tied-status": {
+    "ywca-activities.xml": 1
+  },
+  "iati-activity/default-tied-status/@code": {
+    "ywca-activities.xml": 1
+  },
   "iati-activity/description": {
     "ywca-activities.xml": 2
   },
@@ -140,6 +167,18 @@
   "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "ywca-activities.xml": 1
   },
+  "iati-activity/policy-marker": {
+    "ywca-activities.xml": 1
+  },
+  "iati-activity/policy-marker/@code": {
+    "ywca-activities.xml": 1
+  },
+  "iati-activity/policy-marker/@significance": {
+    "ywca-activities.xml": 1
+  },
+  "iati-activity/policy-marker/@vocabulary": {
+    "ywca-activities.xml": 1
+  },
   "iati-activity/recipient-country": {
     "ywca-activities.xml": 1
   },
@@ -171,13 +210,13 @@
     "ywca-activities.xml": 3
   },
   "iati-activity/result/description": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 1
   },
   "iati-activity/result/description/narrative": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 1
   },
   "iati-activity/result/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 1
   },
   "iati-activity/result/document-link": {
     "ywca-activities.xml": 3
@@ -225,19 +264,19 @@
     "ywca-activities.xml": 3
   },
   "iati-activity/result/indicator": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/@aggregation-status": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/@ascending": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/@measure": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/baseline": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/baseline/@iso-date": {
     "ywca-activities.xml": 5
@@ -246,7 +285,7 @@
     "ywca-activities.xml": 5
   },
   "iati-activity/result/indicator/baseline/@year": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/baseline/location": {
     "ywca-activities.xml": 5
@@ -255,16 +294,16 @@
     "ywca-activities.xml": 5
   },
   "iati-activity/result/indicator/description": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 4
   },
   "iati-activity/result/indicator/description/narrative": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 4
   },
   "iati-activity/result/indicator/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 4
   },
   "iati-activity/result/indicator/period": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/period/actual": {
     "ywca-activities.xml": 5
@@ -279,16 +318,16 @@
     "ywca-activities.xml": 4
   },
   "iati-activity/result/indicator/period/period-end": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/period/period-end/@iso-date": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/period/period-start": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/period/period-start/@iso-date": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/period/target": {
     "ywca-activities.xml": 5
@@ -303,37 +342,25 @@
     "ywca-activities.xml": 5
   },
   "iati-activity/result/indicator/reference": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/reference/@code": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/reference/@indicator-uri": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/reference/@vocabulary": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/title": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/title/narrative": {
-    "ywca-activities.xml": 5
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/indicator/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "ywca-activities.xml": 5
-  },
-  "iati-activity/result/reference": {
-    "ywca-activities.xml": 3
-  },
-  "iati-activity/result/reference/@code": {
-    "ywca-activities.xml": 3
-  },
-  "iati-activity/result/reference/@vocabulary": {
-    "ywca-activities.xml": 3
-  },
-  "iati-activity/result/reference/@vocabulary-uri": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 6
   },
   "iati-activity/result/title": {
     "ywca-activities.xml": 3
@@ -363,13 +390,13 @@
     "ywca-activities.xml": 1
   },
   "iati-activity/transaction": {
-    "ywca-activities.xml": 7
+    "ywca-activities.xml": 5
   },
   "iati-activity/transaction/@humanitarian": {
-    "ywca-activities.xml": 7
+    "ywca-activities.xml": 5
   },
   "iati-activity/transaction/@ref": {
-    "ywca-activities.xml": 7
+    "ywca-activities.xml": 5
   },
   "iati-activity/transaction/finance-type": {
     "ywca-activities.xml": 3
@@ -378,49 +405,49 @@
     "ywca-activities.xml": 3
   },
   "iati-activity/transaction/provider-org": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 5
   },
   "iati-activity/transaction/provider-org/@provider-activity-id": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 5
   },
   "iati-activity/transaction/provider-org/@ref": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 5
   },
   "iati-activity/transaction/provider-org/@type": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 4
   },
   "iati-activity/transaction/receiver-org": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 4
   },
   "iati-activity/transaction/receiver-org/@receiver-activity-id": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 4
   },
   "iati-activity/transaction/receiver-org/@ref": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 4
   },
   "iati-activity/transaction/receiver-org/@type": {
-    "ywca-activities.xml": 3
+    "ywca-activities.xml": 4
   },
   "iati-activity/transaction/transaction-date": {
-    "ywca-activities.xml": 7
+    "ywca-activities.xml": 5
   },
   "iati-activity/transaction/transaction-date/@iso-date": {
-    "ywca-activities.xml": 7
+    "ywca-activities.xml": 5
   },
   "iati-activity/transaction/transaction-type": {
-    "ywca-activities.xml": 7
+    "ywca-activities.xml": 5
   },
   "iati-activity/transaction/transaction-type/@code": {
-    "ywca-activities.xml": 7
+    "ywca-activities.xml": 5
   },
   "iati-activity/transaction/value": {
-    "ywca-activities.xml": 7
+    "ywca-activities.xml": 5
   },
   "iati-activity/transaction/value/@currency": {
-    "ywca-activities.xml": 7
+    "ywca-activities.xml": 5
   },
   "iati-activity/transaction/value/@value-date": {
-    "ywca-activities.xml": 7
+    "ywca-activities.xml": 5
   },
   "iati-organisation": {
     "ywca-org.xml": 1

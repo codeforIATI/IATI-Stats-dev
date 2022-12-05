@@ -6,7 +6,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "ons-activities.xml": 77
+      "ons-activities.xml": 101
     }
   },
   ".//activity-date/@type": {
@@ -82,21 +82,24 @@
     }
   },
   ".//document-link/@format": {
-    "application/msword": {
-      "ons-activities.xml": 1
-    },
     "application/vnd.ms-excel": {
-      "ons-activities.xml": 1
+      "ons-activities.xml": 2
+    },
+    "application/msword": {
+      "ons-activities.xml": 2
     },
     "text/html": {
       "ons-activities.xml": 2
     }
   },
   ".//document-link/category/@code": {
+    "A08": {
+      "ons-activities.xml": 2
+    },
     "A02": {
       "ons-activities.xml": 1
     },
-    "A08": {
+    "A07": {
       "ons-activities.xml": 1
     },
     "B02": {
@@ -108,7 +111,7 @@
   },
   ".//document-link/language/@code": {
     "en": {
-      "ons-activities.xml": 4
+      "ons-activities.xml": 6
     }
   },
   ".//location/location-class/@code": {
@@ -243,7 +246,7 @@
   },
   ".//transaction/provider-org/@type": {
     "10": {
-      "ons-activities.xml": 42
+      "ons-activities.xml": 62
     }
   },
   ".//transaction/receiver-org/@type": {
@@ -256,12 +259,12 @@
       "ons-activities.xml": 1
     },
     "4": {
-      "ons-activities.xml": 41
+      "ons-activities.xml": 61
     }
   },
   ".//transaction/value/@currency": {
     "GBP": {
-      "ons-activities.xml": 42
+      "ons-activities.xml": 62
     }
   }
 }

@@ -4,24 +4,24 @@
       "CHF": 9
     },
     ".//activity-date/@type": {
-      "2": 8,
       "1": 4,
+      "2": 8,
       "3": 4,
       "4": 1
     },
     ".//activity-status/@code": {
-      "2": 7,
-      "4": 2
+      "4": 2,
+      "2": 7
     },
     ".//activity-scope/@code": {
-      "2": 1,
-      "6": 1,
       "4": 3,
-      "1": 2
+      "6": 1,
+      "1": 2,
+      "2": 1
     },
     ".//budget/@status": {
-      "1": 9,
-      "2": 21
+      "2": 21,
+      "1": 9
     },
     ".//budget/@type": {
       "1": 22,
@@ -31,15 +31,6 @@
       "CHF": 26,
       "GBP": 1
     },
-    ".//collaboration-type/@code": {
-      "8": 1,
-      "2": 1,
-      "1": 2
-    },
-    ".//contact-info/@type": {
-      "1": 3,
-      "2": 1
-    },
     ".//description/@type": {
       "1": 8,
       "2": 7,
@@ -47,30 +38,33 @@
       "4": 4
     },
     ".//document-link/@format": {
-      "application/pdf": 134,
-      "text/html": 9,
+      "application/pdf": 141,
       "application/vnd.ms-excel": 3,
       "application/tamp-update": 1,
+      "text/html": 5,
       "text/plain": 14
     },
     ".//document-link/category/@code": {
-      "B15": 1,
-      "A02": 6,
-      "A12": 12,
-      "A08": 76,
-      "B01": 57,
-      "B06": 1,
+      "A02": 5,
+      "B08": 2,
+      "A08": 85,
       "A05": 1,
+      "B01": 57,
       "A10": 1,
       "A07": 2,
+      "A12": 8,
       "B02": 1,
       "B09": 1,
-      "B08": 2
+      "B06": 1
     },
     ".//document-link/language/@code": {
-      "en": 154,
-      "fr": 7,
-      "ar": 8
+      "en": 159,
+      "fr": 3,
+      "ar": 4
+    },
+    ".//participating-org/@crs-channel-code": {
+      "11000": 4,
+      "20000": 2
     },
     ".//participating-org/@role": {
       "1": 40,
@@ -80,33 +74,57 @@
     ".//participating-org/@type": {
       "10": 33,
       "60": 18,
+      "15": 3,
       "24": 1,
-      "40": 3,
-      "15": 3
+      "40": 3
+    },
+    ".//planned-disbursement/@type": {
+      "1": 15,
+      "2": 2
+    },
+    ".//planned-disbursement/provider-org/@type": {
+      "10": 17
+    },
+    ".//planned-disbursement/receiver-org/@type": {
+      "60": 17
+    },
+    ".//planned-disbursement/value/@currency": {
+      "CHF": 11,
+      "SEK": 5,
+      "EUR": 1
     },
     ".//recipient-country/@code": {
+      "MK": 9,
+      "CD": 1,
+      "ML": 1,
+      "CH": 3,
       "EG": 1,
       "LY": 1,
       "MA": 1,
-      "TN": 1,
-      "CD": 1,
-      "ML": 1,
-      "MK": 9,
-      "CH": 3
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "189": 1,
-      "289": 2,
-      "998": 82,
-      "298": 1,
-      "589": 1,
-      "89": 1
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 6
+      "TN": 1
     },
     ".//reporting-org/@type": {
       "60": 9
+    },
+    ".//result/@type": {
+      "1": 18,
+      "2": 17,
+      "3": 2
+    },
+    ".//result/document-link/@format": {
+      "application/pdf": 5
+    },
+    ".//result/document-link/category/@code": {
+      "A08": 5
+    },
+    ".//result/document-link/language/@code": {
+      "en": 3
+    },
+    ".//result/indicator/@measure": {
+      "5": 23,
+      "3": 10,
+      "2": 10,
+      "1": 7
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "15210": 96,
@@ -119,20 +137,17 @@
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "B04": 45,
-      "D01": 1,
-      "C01": 16
-    },
-    ".//transaction/aid-type[@vocabulary = '2']/@code": {
-      "2": 1
+      "C01": 16,
+      "D01": 1
     },
     ".//transaction/aid-type/@vocabulary": {
-      "2": 1,
-      "1": 62
+      "1": 62,
+      "2": 1
     },
     ".//transaction/disbursement-channel/@code": {
       "2": 53,
-      "4": 1,
-      "1": 3
+      "1": 3,
+      "4": 1
     },
     ".//transaction/finance-type/@code": {
       "110": 53
@@ -141,32 +156,48 @@
       "10": 55
     },
     ".//transaction/provider-org/@type": {
-      "60": 2,
       "10": 115,
-      "40": 12
+      "40": 12,
+      "60": 2
     },
     ".//transaction/receiver-org/@type": {
       "60": 124,
       "10": 2
     },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "15210": 92,
+      "15131": 2
+    },
+    ".//transaction/sector/@vocabulary": {
+      "1": 94
+    },
     ".//transaction/tied-status/@code": {
-      "3": 1,
       "5": 45,
-      "4": 6
+      "4": 6,
+      "3": 1
     },
     ".//transaction/transaction-type/@code": {
-      "4": 50,
-      "1": 111,
+      "1": 114,
+      "4": 53,
       "7": 4
     },
     ".//transaction/value/@currency": {
-      "CHF": 142,
-      "EUR": 9,
+      "CHF": 147,
+      "SEK": 5,
       "GBP": 8,
-      "SEK": 5
+      "EUR": 10
     },
     ".//@xml:lang": {
-      "en": 462
+      "en": 459
+    },
+    ".//collaboration-type/@code": {
+      "2": 1,
+      "1": 2,
+      "8": 1
+    },
+    ".//contact-info/@type": {
+      "1": 3,
+      "2": 1
     },
     ".//location/location-reach/@code": {
       "1": 1
@@ -182,16 +213,16 @@
     ".//policy-marker/@vocabulary": {
       "1": 3
     },
-    ".//result/@type": {
-      "1": 18,
-      "2": 17,
-      "3": 2
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "289": 2,
+      "998": 82,
+      "298": 1,
+      "589": 1,
+      "89": 1,
+      "189": 1
     },
-    ".//result/indicator/@measure": {
-      "3": 10,
-      "2": 10,
-      "5": 23,
-      "1": 7
+    ".//recipient-region/@vocabulary": {
+      "1": 6
     },
     ".//result/indicator/reference/@vocabulary": {
       "99": 18
@@ -211,40 +242,8 @@
     ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "998": 82
     },
-    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15210": 92,
-      "15131": 2
-    },
-    ".//transaction/sector/@vocabulary": {
-      "1": 94
-    },
-    ".//participating-org/@crs-channel-code": {
-      "11000": 4,
-      "20000": 2
-    },
-    ".//planned-disbursement/@type": {
-      "1": 15,
-      "2": 2
-    },
-    ".//planned-disbursement/provider-org/@type": {
-      "10": 17
-    },
-    ".//planned-disbursement/receiver-org/@type": {
-      "60": 17
-    },
-    ".//planned-disbursement/value/@currency": {
-      "CHF": 11,
-      "SEK": 5,
-      "EUR": 1
-    },
-    ".//result/document-link/@format": {
-      "application/pdf": 5
-    },
-    ".//result/document-link/category/@code": {
-      "A08": 5
-    },
-    ".//result/document-link/language/@code": {
-      "en": 3
+    ".//transaction/aid-type[@vocabulary = '2']/@code": {
+      "2": 1
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   ".//@default-currency": {
-    "USD": 170
+    "USD": 176
   },
   ".//@xml:lang": {
-    "es": 170
+    "es": 176
   },
   ".//activity-date/@type": {
-    "1": 170,
-    "2": 170,
-    "3": 170,
+    "1": 176,
+    "2": 176,
+    "3": 176,
     "4": 98
   },
   ".//activity-scope/@code": {
@@ -20,44 +20,45 @@
   },
   ".//activity-status/@code": {
     "3": 98,
-    "2": 72
+    "2": 78
   },
   ".//budget/@status": {
-    "2": 345
+    "2": 356,
+    "1": 2
   },
   ".//budget/@type": {
-    "2": 345
+    "2": 358
   },
   ".//budget/value/@currency": {
-    "USD": 345
+    "USD": 358
   },
   ".//collaboration-type/@code": {
-    "4": 170
+    "4": 176
   },
   ".//conditions/condition/@type": {
-    "1": 197
+    "1": 203
   },
   ".//contact-info/@type": {
-    "1": 170
+    "1": 176
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 170
+    "C01": 176
   },
   ".//default-finance-type/@code": {
-    "110": 170
+    "110": 176
   },
   ".//default-flow-type/@code": {
-    "10": 170
+    "10": 176
   },
   ".//default-tied-status/@code": {
-    "3": 75,
-    "5": 95
+    "3": 78,
+    "5": 98
   },
   ".//description/@type": {
-    "1": 170
+    "1": 176
   },
   ".//document-link/@format": {
-    "text/html": 559,
+    "text/html": 568,
     "application/pdf": 670,
     "image/jpeg": 1,
     "application/msword": 8,
@@ -66,18 +67,18 @@
   },
   ".//document-link/category/@code": {
     "A06": 34,
-    "A10": 258,
-    "A12": 170,
+    "A10": 261,
+    "A12": 176,
     "A02": 176,
     "A03": 109,
     "A04": 33,
     "A05": 438,
     "A07": 32,
-    "A08": 244,
+    "A08": 242,
     "A01": 101
   },
   ".//document-link/language/@code": {
-    "en": 1035,
+    "en": 1041,
     "es": 114
   },
   ".//humanitarian-scope/@type": {
@@ -118,36 +119,37 @@
     "1": 105
   },
   ".//participating-org/@role": {
-    "2": 75,
-    "1": 211,
-    "4": 168
+    "2": 78,
+    "1": 217,
+    "4": 174
   },
   ".//participating-org/@type": {
-    "40": 193,
-    "10": 184,
-    "70": 6
+    "40": 202,
+    "10": 186,
+    "70": 6,
+    "0": 2
   },
   ".//policy-marker/@significance": {
     "0": 35,
-    "1": 52,
+    "1": 55,
     "2": 7
   },
   ".//policy-marker/@vocabulary": {
-    "1": 94
+    "1": 97
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "1": 94
+    "1": 97
   },
   ".//recipient-country/@code": {
-    "CL": 170
+    "CL": 176
   },
   ".//related-activity/@type": {
-    "2": 95,
-    "1": 95,
+    "2": 98,
+    "1": 98,
     "3": 94
   },
   ".//reporting-org/@type": {
-    "40": 170
+    "40": 176
   },
   ".//result/@type": {
     "1": 128
@@ -157,7 +159,7 @@
     "1": 131
   },
   ".//sector/@vocabulary": {
-    "1": 179,
+    "1": 185,
     "8": 225,
     "99": 87
   },
@@ -175,7 +177,7 @@
     "74010": 2,
     "74020": 4,
     "15170": 4,
-    "51010": 9
+    "51010": 15
   },
   ".//sector[@vocabulary = '8']/@code": {
     "12.4": 25,
@@ -225,25 +227,26 @@
     "12.5": 2
   },
   ".//transaction/disbursement-channel/@code": {
-    "2": 1572
+    "2": 1619
   },
   ".//transaction/provider-org/@type": {
-    "40": 1071,
-    "10": 355,
-    "70": 20
+    "40": 1102,
+    "10": 366,
+    "70": 20,
+    "0": 3
   },
   ".//transaction/receiver-org/@type": {
-    "40": 537,
+    "40": 553,
     "10": 10
   },
   ".//transaction/transaction-type/@code": {
-    "4": 930,
-    "11": 397,
-    "2": 95,
-    "1": 140,
+    "4": 958,
+    "11": 410,
+    "2": 98,
+    "1": 143,
     "3": 10
   },
   ".//transaction/value/@currency": {
-    "USD": 1572
+    "USD": 1619
   }
 }

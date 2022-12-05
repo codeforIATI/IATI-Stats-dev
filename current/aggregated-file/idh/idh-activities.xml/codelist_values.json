@@ -55,17 +55,17 @@
   },
   ".//document-link/@format": {
     "text/html": 8,
-    "application/pdf": 4,
+    "application/pdf": 6,
     "application/msword": 1
   },
   ".//document-link/category/@code": {
     "A12": 8,
-    "B01": 3,
+    "B01": 4,
     "A02": 1,
-    "A08": 1
+    "A08": 2
   },
   ".//document-link/language/@code": {
-    "en": 13
+    "en": 15
   },
   ".//participating-org/@role": {
     "1": 123,
@@ -103,7 +103,7 @@
   },
   ".//recipient-country/@code": {
     "BR": 8,
-    "CO": 5,
+    "CO": 4,
     "ET": 7,
     "ID": 11,
     "CI": 7,
@@ -130,25 +130,24 @@
     "US": 1,
     "EG": 1,
     "CN": 5,
-    "EC": 2,
+    "EC": 1,
     "HN": 1,
     "NG": 5,
     "MZ": 2,
     "LR": 3,
-    "NL": 1,
     "TD": 1,
     "KH": 1,
     "MX": 1,
     "MY": 1
   },
   ".//recipient-region/@vocabulary": {
-    "1": 49
+    "1": 47
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "998": 30,
     "489": 3,
-    "298": 10,
-    "89": 2,
+    "298": 9,
+    "89": 1,
     "789": 1,
     "798": 4
   },
@@ -165,7 +164,7 @@
     "3": 37
   },
   ".//result/indicator/@measure": {
-    "1": 561,
+    "1": 560,
     "2": 75,
     "5": 78,
     "3": 34
@@ -194,26 +193,29 @@
   ".//transaction/provider-org/@type": {
     "21": 315,
     "70": 7,
-    "10": 99,
+    "10": 100,
     "30": 3,
     "60": 11,
+    "71": 3,
     "15": 5,
     "40": 9
   },
   ".//transaction/receiver-org/@type": {
-    "21": 330,
+    "21": 331,
     "70": 3,
     "30": 1,
-    "10": 1
+    "10": 1,
+    "90": 1,
+    "71": 1
   },
   ".//transaction/transaction-type/@code": {
-    "4": 138,
-    "11": 221,
-    "1": 112,
-    "2": 88
+    "4": 143,
+    "11": 222,
+    "1": 115,
+    "2": 89
   },
   ".//transaction/value/@currency": {
-    "EUR": 558,
+    "EUR": 567,
     "UAH": 1
   }
 }

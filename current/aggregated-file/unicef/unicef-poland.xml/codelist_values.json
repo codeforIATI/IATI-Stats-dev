@@ -3,7 +3,7 @@
     "USD": 7
   },
   ".//@xml:lang": {
-    "en": 747
+    "en": 819
   },
   ".//activity-date/@type": {
     "1": 7,
@@ -99,14 +99,14 @@
     "B1": 7
   },
   ".//participating-org/@role": {
-    "4": 43,
+    "4": 64,
     "1": 32,
     "3": 7
   },
   ".//participating-org/@type": {
-    "40": 21,
-    "10": 52,
-    "30": 9
+    "10": 73,
+    "30": 9,
+    "40": 21
   },
   ".//planned-disbursement/@type": {
     "2": 21
@@ -121,8 +121,8 @@
     "USD": 21
   },
   ".//policy-marker/@significance": {
-    "1": 6,
-    "2": 1
+    "2": 1,
+    "1": 6
   },
   ".//policy-marker/@vocabulary": {
     "1": 7
@@ -152,40 +152,42 @@
     "99": 7
   },
   ".//sector/@vocabulary": {
-    "99": 12,
-    "1": 11,
-    "7": 9
+    "99": 13,
+    "1": 12,
+    "7": 10
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "11110": 1,
-    "91010": 2,
     "15180": 2,
-    "16015": 1,
     "72050": 2,
-    "12250": 1,
+    "16015": 1,
     "15150": 1,
-    "12110": 1
+    "12250": 1,
+    "12240": 1,
+    "12110": 1,
+    "91010": 2,
+    "11110": 1
   },
   ".//sector[@vocabulary = '7']/@code": {
-    "4": 2,
-    "17": 3,
-    "10": 1,
     "16": 2,
-    "3": 1
+    "10": 1,
+    "17": 3,
+    "3": 1,
+    "2": 1,
+    "4": 2
   },
   ".//transaction/disbursement-channel/@code": {
-    "2": 110
+    "2": 134
   },
   ".//transaction/provider-org/@type": {
-    "": 110
+    "": 134
   },
   ".//transaction/transaction-type/@code": {
-    "4": 39,
+    "4": 63,
     "3": 7,
     "2": 32,
     "1": 32
   },
   ".//transaction/value/@currency": {
-    "USD": 110
+    "USD": 134
   }
 }

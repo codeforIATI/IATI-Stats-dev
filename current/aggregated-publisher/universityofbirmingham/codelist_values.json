@@ -37,17 +37,17 @@
     "80": 4
   },
   ".//recipient-country/@code": {
+    "GB": 4,
     "ZA": 3,
     "RW": 4,
-    "GH": 2,
-    "GB": 4
+    "GH": 2
   },
   ".//reporting-org/@type": {
     "80": 4
   },
   ".//sector/@vocabulary": {
-    "7": 10,
-    "1": 6
+    "1": 6,
+    "7": 10
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "11420": 1,
@@ -72,11 +72,11 @@
   },
   ".//transaction/transaction-type/@code": {
     "3": 52,
-    "2": 8,
-    "4": 4
+    "4": 4,
+    "2": 8
   },
   ".//transaction/value/@currency": {
-    "ZAR": 2,
-    "GBP": 62
+    "GBP": 62,
+    "ZAR": 2
   }
 }

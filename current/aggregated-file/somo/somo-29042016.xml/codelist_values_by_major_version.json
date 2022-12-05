@@ -14,8 +14,8 @@
       "2": 2
     },
     ".//budget/@status": {
-      "2": 40,
-      "1": 10
+      "2": 45,
+      "1": 5
     },
     ".//budget/value/@currency": {
       "EUR": 50
@@ -64,11 +64,15 @@
     },
     ".//result/@type": {
       "9": 2,
-      "2": 45,
-      "3": 3
+      "2": 47,
+      "3": 3,
+      "1": 1
     },
     ".//result/indicator/@measure": {
-      "1": 113
+      "1": 118
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "99": 1
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "15150": 5,
@@ -87,20 +91,20 @@
       "1": 48
     },
     ".//transaction/provider-org/@type": {
-      "22": 129
+      "22": 130
     },
     ".//transaction/transaction-type/@code": {
       "11": 4,
-      "1": 125,
+      "1": 126,
       "4": 118
     },
     ".//transaction/value/@currency": {
-      "EUR": 247
+      "EUR": 248
     },
     ".//@xml:lang": {
-      "EN": 461,
-      "nl": 168,
-      "en": 454,
+      "EN": 462,
+      "nl": 161,
+      "en": 484,
       "fr": 2,
       "es": 2
     }

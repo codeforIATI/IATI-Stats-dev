@@ -1,86 +1,218 @@
 {
   "2": {
     ".//@default-currency": {
-      "cowi-act.xml": {
-        "EUR": 2
-      },
       "cowi-activities.xml": {
         "GBP": 1
+      },
+      "cowi-act.xml": {
+        "EUR": 2
       }
     },
     ".//activity-date/@type": {
+      "cowi-activities.xml": {
+        "2": 1,
+        "3": 1
+      },
       "cowi-act.xml": {
         "1": 2,
         "2": 2,
         "3": 2
-      },
-      "cowi-activities.xml": {
-        "2": 1,
-        "3": 1
       }
     },
     ".//activity-status/@code": {
-      "cowi-act.xml": {
-        "2": 2
-      },
       "cowi-activities.xml": {
         "2": 1
+      },
+      "cowi-act.xml": {
+        "2": 2
+      }
+    },
+    ".//budget/@status": {
+      "cowi-activities.xml": {
+        "2": 7
+      }
+    },
+    ".//budget/@type": {
+      "cowi-activities.xml": {
+        "1": 7
+      }
+    },
+    ".//budget/value/@currency": {
+      "cowi-activities.xml": {
+        "EUR": 7
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cowi-activities.xml": {
+        "C01": 1
+      },
+      "cowi-act.xml": {
+        "D02": 2
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "cowi-activities.xml": {
+        "1": 1
+      },
+      "cowi-act.xml": {
+        "1": 2
+      }
+    },
+    ".//default-finance-type/@code": {
+      "cowi-activities.xml": {
+        "110": 1
+      },
+      "cowi-act.xml": {
+        "110": 2
+      }
+    },
+    ".//default-flow-type/@code": {
+      "cowi-activities.xml": {
+        "10": 1
+      },
+      "cowi-act.xml": {
+        "10": 2
+      }
+    },
+    ".//default-tied-status/@code": {
+      "cowi-activities.xml": {
+        "5": 1
+      },
+      "cowi-act.xml": {
+        "5": 2
+      }
+    },
+    ".//description/@type": {
+      "cowi-activities.xml": {
+        "1": 1
+      },
+      "cowi-act.xml": {
+        "1": 9,
+        "2": 2,
+        "3": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "cowi-activities.xml": {
+        "1": 1
+      },
+      "cowi-act.xml": {
+        "1": 2,
+        "2": 2,
+        "4": 4
+      }
+    },
+    ".//participating-org/@type": {
+      "cowi-activities.xml": {
+        "10": 1
+      },
+      "cowi-act.xml": {
+        "10": 2,
+        "70": 4,
+        "21": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "cowi-activities.xml": {
+        "AO": 1,
+        "BW": 1,
+        "CD": 1,
+        "LS": 1,
+        "MW": 1,
+        "MZ": 1,
+        "NA": 1,
+        "ZA": 1,
+        "SZ": 1,
+        "TZ": 1,
+        "ZM": 1,
+        "ZW": 1
+      },
+      "cowi-act.xml": {
+        "BJ": 2
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cowi-activities.xml": {
+        "289": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "cowi-activities.xml": {
+        "1": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "cowi-activities.xml": {
+        "70": 1
+      },
+      "cowi-act.xml": {
+        "70": 2
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cowi-activities.xml": {
+        "41010": 1,
+        "14040": 1,
+        "14010": 1
+      },
+      "cowi-act.xml": {
+        "14030": 2
+      }
+    },
+    ".//sector/@vocabulary": {
+      "cowi-activities.xml": {
+        "1": 3
+      },
+      "cowi-act.xml": {
+        "1": 2
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "cowi-activities.xml": {
+        "70": 158,
+        "10": 6,
+        "60": 1
+      },
+      "cowi-act.xml": {
+        "70": 22
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "cowi-activities.xml": {
+        "70": 162
+      },
+      "cowi-act.xml": {
+        "70": 34,
+        "10": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "cowi-activities.xml": {
+        "4": 164,
+        "2": 1
+      },
+      "cowi-act.xml": {
+        "1": 35,
+        "4": 27
+      }
+    },
+    ".//transaction/value/@currency": {
+      "cowi-activities.xml": {
+        "EUR": 165
+      }
+    },
+    ".//@xml:lang": {
+      "cowi-activities.xml": {
+        "en": 260
+      },
+      "cowi-act.xml": {
+        "fr": 2
       }
     },
     ".//contact-info/@type": {
       "cowi-act.xml": {
         "2": 7,
         "1": 2
-      }
-    },
-    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "cowi-act.xml": {
-        "D02": 2
-      },
-      "cowi-activities.xml": {
-        "C01": 1
-      }
-    },
-    ".//default-aid-type/@vocabulary": {
-      "cowi-act.xml": {
-        "1": 2
-      },
-      "cowi-activities.xml": {
-        "1": 1
-      }
-    },
-    ".//default-finance-type/@code": {
-      "cowi-act.xml": {
-        "110": 2
-      },
-      "cowi-activities.xml": {
-        "110": 1
-      }
-    },
-    ".//default-flow-type/@code": {
-      "cowi-act.xml": {
-        "10": 2
-      },
-      "cowi-activities.xml": {
-        "10": 1
-      }
-    },
-    ".//default-tied-status/@code": {
-      "cowi-act.xml": {
-        "5": 2
-      },
-      "cowi-activities.xml": {
-        "5": 1
-      }
-    },
-    ".//description/@type": {
-      "cowi-act.xml": {
-        "1": 9,
-        "2": 2,
-        "3": 1
-      },
-      "cowi-activities.xml": {
-        "1": 1
       }
     },
     ".//document-link/@format": {
@@ -114,26 +246,6 @@
         "B9": 2
       }
     },
-    ".//participating-org/@role": {
-      "cowi-act.xml": {
-        "1": 2,
-        "2": 2,
-        "4": 4
-      },
-      "cowi-activities.xml": {
-        "1": 1
-      }
-    },
-    ".//participating-org/@type": {
-      "cowi-act.xml": {
-        "10": 2,
-        "70": 4,
-        "21": 2
-      },
-      "cowi-activities.xml": {
-        "10": 1
-      }
-    },
     ".//planned-disbursement/provider-org/@type": {
       "cowi-act.xml": {
         "10": 1
@@ -160,37 +272,10 @@
         "1": 4
       }
     },
-    ".//recipient-country/@code": {
-      "cowi-act.xml": {
-        "BJ": 2
-      },
-      "cowi-activities.xml": {
-        "AO": 1,
-        "BW": 1,
-        "CD": 1,
-        "LS": 1,
-        "MW": 1,
-        "MZ": 1,
-        "NA": 1,
-        "ZA": 1,
-        "SZ": 1,
-        "TZ": 1,
-        "ZM": 1,
-        "ZW": 1
-      }
-    },
     ".//related-activity/@type": {
       "cowi-act.xml": {
         "3": 6,
         "1": 2
-      }
-    },
-    ".//reporting-org/@type": {
-      "cowi-act.xml": {
-        "70": 2
-      },
-      "cowi-activities.xml": {
-        "70": 1
       }
     },
     ".//result/@type": {
@@ -203,91 +288,6 @@
       "cowi-act.xml": {
         "2": 7,
         "1": 8
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "cowi-act.xml": {
-        "14030": 2
-      },
-      "cowi-activities.xml": {
-        "41010": 1,
-        "14040": 1,
-        "14010": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "cowi-act.xml": {
-        "1": 2
-      },
-      "cowi-activities.xml": {
-        "1": 3
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "cowi-act.xml": {
-        "70": 22
-      },
-      "cowi-activities.xml": {
-        "70": 158,
-        "10": 6,
-        "60": 1
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "cowi-act.xml": {
-        "70": 34,
-        "10": 1
-      },
-      "cowi-activities.xml": {
-        "70": 162
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "cowi-act.xml": {
-        "1": 35,
-        "4": 27
-      },
-      "cowi-activities.xml": {
-        "4": 164,
-        "2": 1
-      }
-    },
-    ".//@xml:lang": {
-      "cowi-act.xml": {
-        "fr": 2
-      },
-      "cowi-activities.xml": {
-        "en": 260
-      }
-    },
-    ".//budget/@status": {
-      "cowi-activities.xml": {
-        "2": 7
-      }
-    },
-    ".//budget/@type": {
-      "cowi-activities.xml": {
-        "1": 7
-      }
-    },
-    ".//budget/value/@currency": {
-      "cowi-activities.xml": {
-        "EUR": 7
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "cowi-activities.xml": {
-        "289": 1
-      }
-    },
-    ".//recipient-region/@vocabulary": {
-      "cowi-activities.xml": {
-        "1": 1
-      }
-    },
-    ".//transaction/value/@currency": {
-      "cowi-activities.xml": {
-        "EUR": 165
       }
     }
   }

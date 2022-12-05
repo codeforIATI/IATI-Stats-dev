@@ -80,6 +80,15 @@
       "iati-activity/default-flow-type/@code": 9,
       "iati-activity/default-tied-status": 9,
       "iati-activity/default-tied-status/@code": 9,
+      "iati-activity/budget": 9,
+      "iati-activity/budget/period-start": 9,
+      "iati-activity/budget/period-start/@iso-date": 9,
+      "iati-activity/budget/period-end": 9,
+      "iati-activity/budget/period-end/@iso-date": 9,
+      "iati-activity/budget/value": 9,
+      "iati-activity/budget/value/@value-date": 9,
+      "iati-activity/budget/@status": 9,
+      "iati-activity/budget/@type": 9,
       "iati-activity/transaction": 9,
       "iati-activity/transaction/transaction-type": 9,
       "iati-activity/transaction/transaction-type/@code": 9,
@@ -98,25 +107,16 @@
       "iati-activity/@last-updated-datetime": 9,
       "iati-activity/activity-scope": 1,
       "iati-activity/activity-scope/@code": 1,
-      "iati-activity/policy-marker": 1,
-      "iati-activity/policy-marker/@code": 1,
-      "iati-activity/policy-marker/@significance": 1,
-      "iati-activity/policy-marker/@vocabulary": 1,
+      "iati-activity/policy-marker": 8,
+      "iati-activity/policy-marker/@code": 8,
+      "iati-activity/policy-marker/@significance": 8,
+      "iati-activity/policy-marker/@vocabulary": 8,
       "iati-activity/collaboration-type": 1,
       "iati-activity/collaboration-type/@code": 1,
       "iati-activity/default-finance-type": 7,
       "iati-activity/default-finance-type/@code": 7,
       "iati-activity/default-aid-type": 7,
       "iati-activity/default-aid-type/@code": 7,
-      "iati-activity/budget": 1,
-      "iati-activity/budget/period-start": 1,
-      "iati-activity/budget/period-start/@iso-date": 1,
-      "iati-activity/budget/period-end": 1,
-      "iati-activity/budget/period-end/@iso-date": 1,
-      "iati-activity/budget/value": 1,
-      "iati-activity/budget/value/@value-date": 1,
-      "iati-activity/budget/@status": 1,
-      "iati-activity/budget/@type": 1,
       "iati-activity/document-link": 1,
       "iati-activity/document-link/title": 1,
       "iati-activity/document-link/title/narrative": 1,
@@ -210,6 +210,15 @@
       "iati-activity/default-flow-type/@code": 9,
       "iati-activity/default-tied-status": 9,
       "iati-activity/default-tied-status/@code": 9,
+      "iati-activity/budget": 22,
+      "iati-activity/budget/period-start": 22,
+      "iati-activity/budget/period-start/@iso-date": 22,
+      "iati-activity/budget/period-end": 22,
+      "iati-activity/budget/period-end/@iso-date": 22,
+      "iati-activity/budget/value": 22,
+      "iati-activity/budget/value/@value-date": 22,
+      "iati-activity/budget/@status": 22,
+      "iati-activity/budget/@type": 22,
       "iati-activity/transaction": 18,
       "iati-activity/transaction/transaction-type": 18,
       "iati-activity/transaction/transaction-type/@code": 18,
@@ -228,25 +237,16 @@
       "iati-activity/@last-updated-datetime": 9,
       "iati-activity/activity-scope": 1,
       "iati-activity/activity-scope/@code": 1,
-      "iati-activity/policy-marker": 7,
-      "iati-activity/policy-marker/@code": 7,
-      "iati-activity/policy-marker/@significance": 7,
-      "iati-activity/policy-marker/@vocabulary": 7,
+      "iati-activity/policy-marker": 62,
+      "iati-activity/policy-marker/@code": 62,
+      "iati-activity/policy-marker/@significance": 62,
+      "iati-activity/policy-marker/@vocabulary": 62,
       "iati-activity/collaboration-type": 1,
       "iati-activity/collaboration-type/@code": 1,
       "iati-activity/default-finance-type": 7,
       "iati-activity/default-finance-type/@code": 7,
       "iati-activity/default-aid-type": 7,
       "iati-activity/default-aid-type/@code": 7,
-      "iati-activity/budget": 6,
-      "iati-activity/budget/period-start": 6,
-      "iati-activity/budget/period-start/@iso-date": 6,
-      "iati-activity/budget/period-end": 6,
-      "iati-activity/budget/period-end/@iso-date": 6,
-      "iati-activity/budget/value": 6,
-      "iati-activity/budget/value/@value-date": 6,
-      "iati-activity/budget/@status": 6,
-      "iati-activity/budget/@type": 6,
       "iati-activity/document-link": 7,
       "iati-activity/document-link/title": 7,
       "iati-activity/document-link/title/narrative": 7,
@@ -262,11 +262,26 @@
       "iati-activity/conditions/condition/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2
     },
     "forwardlooking_currency_year": {
-      "1995": {
-        "EUR": 145126.8
+      "1984": {
+        "EUR": 655932.93
+      },
+      "1985": {
+        "EUR": 621042.77
+      },
+      "1990": {
+        "EUR": 2773594.27
+      },
+      "1993": {
+        "EUR": 1320733.66
+      },
+      "1994": {
+        "EUR": 615940.16
       },
       "1996": {
-        "EUR": 145525.5
+        "EUR": 160064.46
+      },
+      "1995": {
+        "EUR": 145126.8
       },
       "1997": {
         "EUR": 145525.5
@@ -279,6 +294,30 @@
       },
       "null": {
         "EUR": 2621053.8
+      },
+      "2010": {
+        "EUR": 300000.0
+      },
+      "2012": {
+        "EUR": 457000.0
+      },
+      "2013": {
+        "EUR": 357000.0
+      },
+      "2015": {
+        "EUR": 636000.0
+      },
+      "2019": {
+        "EUR": 741531.9
+      },
+      "2021": {
+        "EUR": -0.02
+      },
+      "2022": {
+        "EUR": 298149.85
+      },
+      "2023": {
+        "EUR": 226267.64
       }
     },
     "forwardlooking_activities_current": {
@@ -287,8 +326,8 @@
       "2024": 1
     },
     "forwardlooking_activities_with_budgets": {
-      "2022": 0,
-      "2023": 0,
+      "2022": 1,
+      "2023": 1,
       "2024": 0
     },
     "forwardlooking_activities_with_budget_not_provided": {
@@ -311,7 +350,7 @@
       "transaction_spend": 2,
       "transaction_currency": 2,
       "transaction_traceability": 2,
-      "budget": 0,
+      "budget": 2,
       "budget_not_provided": 0,
       "contact-info": 2,
       "location": 2,
@@ -340,7 +379,7 @@
       "transaction_spend": 2,
       "transaction_currency": 2,
       "transaction_traceability": 2,
-      "budget": 0,
+      "budget": 2,
       "budget_not_provided": 0,
       "contact-info": 2,
       "location": 2,

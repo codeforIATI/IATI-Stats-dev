@@ -1,8 +1,8 @@
 {
   "2": {
     ".//@default-currency": {
-      "dcaf-189.xml": {
-        "CHF": 1
+      "dcaf-mk.xml": {
+        "CHF": 2
       },
       "dcaf-289.xml": {
         "CHF": 2
@@ -10,13 +10,15 @@
       "dcaf-998.xml": {
         "CHF": 4
       },
-      "dcaf-mk.xml": {
-        "CHF": 2
+      "dcaf-189.xml": {
+        "CHF": 1
       }
     },
     ".//activity-date/@type": {
-      "dcaf-189.xml": {
-        "2": 1
+      "dcaf-mk.xml": {
+        "1": 1,
+        "2": 2,
+        "3": 2
       },
       "dcaf-289.xml": {
         "1": 2,
@@ -28,14 +30,13 @@
         "2": 3,
         "1": 1
       },
-      "dcaf-mk.xml": {
-        "1": 1,
-        "2": 2,
-        "3": 2
+      "dcaf-189.xml": {
+        "2": 1
       }
     },
     ".//activity-status/@code": {
-      "dcaf-189.xml": {
+      "dcaf-mk.xml": {
+        "4": 1,
         "2": 1
       },
       "dcaf-289.xml": {
@@ -45,14 +46,13 @@
       "dcaf-998.xml": {
         "2": 4
       },
-      "dcaf-mk.xml": {
-        "4": 1,
+      "dcaf-189.xml": {
         "2": 1
       }
     },
     ".//activity-scope/@code": {
-      "dcaf-189.xml": {
-        "2": 1
+      "dcaf-mk.xml": {
+        "4": 2
       },
       "dcaf-289.xml": {
         "6": 1,
@@ -61,14 +61,13 @@
       "dcaf-998.xml": {
         "1": 2
       },
-      "dcaf-mk.xml": {
-        "4": 2
+      "dcaf-189.xml": {
+        "2": 1
       }
     },
     ".//budget/@status": {
-      "dcaf-189.xml": {
-        "1": 3,
-        "2": 1
+      "dcaf-mk.xml": {
+        "2": 7
       },
       "dcaf-289.xml": {
         "2": 8,
@@ -78,14 +77,15 @@
         "1": 4,
         "2": 5
       },
-      "dcaf-mk.xml": {
-        "2": 7
-      }
-    },
-    ".//budget/@type": {
       "dcaf-189.xml": {
         "1": 3,
         "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "dcaf-mk.xml": {
+        "1": 4,
+        "2": 3
       },
       "dcaf-289.xml": {
         "1": 6,
@@ -94,14 +94,14 @@
       "dcaf-998.xml": {
         "1": 9
       },
-      "dcaf-mk.xml": {
-        "1": 4,
-        "2": 3
+      "dcaf-189.xml": {
+        "1": 3,
+        "2": 1
       }
     },
     ".//budget/value/@currency": {
-      "dcaf-189.xml": {
-        "CHF": 4
+      "dcaf-mk.xml": {
+        "CHF": 7
       },
       "dcaf-289.xml": {
         "CHF": 7
@@ -110,40 +110,16 @@
         "CHF": 8,
         "GBP": 1
       },
-      "dcaf-mk.xml": {
-        "CHF": 7
-      }
-    },
-    ".//collaboration-type/@code": {
       "dcaf-189.xml": {
-        "8": 1
-      },
-      "dcaf-289.xml": {
-        "2": 1,
-        "1": 1
-      },
-      "dcaf-998.xml": {
-        "1": 1
-      }
-    },
-    ".//contact-info/@type": {
-      "dcaf-189.xml": {
-        "1": 1
-      },
-      "dcaf-289.xml": {
-        "1": 1,
-        "2": 1
-      },
-      "dcaf-998.xml": {
-        "1": 1
+        "CHF": 4
       }
     },
     ".//description/@type": {
-      "dcaf-189.xml": {
-        "1": 1,
-        "2": 1,
-        "3": 1,
-        "4": 1
+      "dcaf-mk.xml": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2
       },
       "dcaf-289.xml": {
         "1": 2,
@@ -155,17 +131,16 @@
         "4": 1,
         "2": 3
       },
-      "dcaf-mk.xml": {
-        "1": 2,
-        "2": 2,
-        "3": 2,
-        "4": 2
+      "dcaf-189.xml": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1
       }
     },
     ".//document-link/@format": {
-      "dcaf-189.xml": {
-        "application/pdf": 67,
-        "text/html": 8
+      "dcaf-mk.xml": {
+        "application/pdf": 16
       },
       "dcaf-289.xml": {
         "application/pdf": 33,
@@ -178,18 +153,16 @@
         "text/plain": 14,
         "application/vnd.ms-excel": 1
       },
-      "dcaf-mk.xml": {
-        "application/pdf": 16
+      "dcaf-189.xml": {
+        "text/html": 4,
+        "application/pdf": 74
       }
     },
     ".//document-link/category/@code": {
-      "dcaf-189.xml": {
-        "B15": 1,
-        "A02": 1,
-        "A12": 11,
-        "A08": 50,
-        "B01": 11,
-        "B06": 1
+      "dcaf-mk.xml": {
+        "A02": 2,
+        "B08": 2,
+        "A08": 12
       },
       "dcaf-289.xml": {
         "A02": 2,
@@ -207,17 +180,16 @@
         "A08": 2,
         "A02": 1
       },
-      "dcaf-mk.xml": {
-        "A02": 2,
-        "B08": 2,
-        "A08": 12
+      "dcaf-189.xml": {
+        "A12": 7,
+        "A08": 59,
+        "B01": 11,
+        "B06": 1
       }
     },
     ".//document-link/language/@code": {
-      "dcaf-189.xml": {
-        "en": 72,
-        "fr": 5,
-        "ar": 8
+      "dcaf-mk.xml": {
+        "en": 14
       },
       "dcaf-289.xml": {
         "en": 34,
@@ -226,15 +198,23 @@
       "dcaf-998.xml": {
         "en": 34
       },
+      "dcaf-189.xml": {
+        "en": 77,
+        "ar": 4,
+        "fr": 1
+      }
+    },
+    ".//participating-org/@crs-channel-code": {
       "dcaf-mk.xml": {
-        "en": 14
+        "11000": 4,
+        "20000": 2
       }
     },
     ".//participating-org/@role": {
-      "dcaf-189.xml": {
-        "1": 6,
-        "2": 1,
-        "4": 1
+      "dcaf-mk.xml": {
+        "1": 8,
+        "2": 2,
+        "4": 2
       },
       "dcaf-289.xml": {
         "1": 2,
@@ -246,16 +226,17 @@
         "2": 4,
         "4": 3
       },
-      "dcaf-mk.xml": {
-        "1": 8,
-        "2": 2,
-        "4": 2
+      "dcaf-189.xml": {
+        "1": 6,
+        "2": 1,
+        "4": 1
       }
     },
     ".//participating-org/@type": {
-      "dcaf-189.xml": {
+      "dcaf-mk.xml": {
         "10": 6,
-        "60": 2
+        "60": 5,
+        "15": 1
       },
       "dcaf-289.xml": {
         "10": 2,
@@ -268,18 +249,37 @@
         "40": 3,
         "15": 2
       },
-      "dcaf-mk.xml": {
+      "dcaf-189.xml": {
         "10": 6,
-        "60": 5,
-        "15": 1
+        "60": 2
+      }
+    },
+    ".//planned-disbursement/@type": {
+      "dcaf-mk.xml": {
+        "1": 15,
+        "2": 2
+      }
+    },
+    ".//planned-disbursement/provider-org/@type": {
+      "dcaf-mk.xml": {
+        "10": 17
+      }
+    },
+    ".//planned-disbursement/receiver-org/@type": {
+      "dcaf-mk.xml": {
+        "60": 17
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "dcaf-mk.xml": {
+        "CHF": 11,
+        "SEK": 5,
+        "EUR": 1
       }
     },
     ".//recipient-country/@code": {
-      "dcaf-189.xml": {
-        "EG": 1,
-        "LY": 1,
-        "MA": 1,
-        "TN": 1
+      "dcaf-mk.xml": {
+        "MK": 2
       },
       "dcaf-289.xml": {
         "CD": 1,
@@ -289,38 +289,16 @@
         "MK": 7,
         "CH": 3
       },
-      "dcaf-mk.xml": {
-        "MK": 2
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "dcaf-189.xml": {
-        "189": 1
-      },
-      "dcaf-289.xml": {
-        "289": 2
-      },
-      "dcaf-998.xml": {
-        "998": 82,
-        "298": 1,
-        "589": 1,
-        "89": 1
-      }
-    },
-    ".//recipient-region/@vocabulary": {
-      "dcaf-189.xml": {
-        "1": 1
-      },
-      "dcaf-289.xml": {
-        "1": 2
-      },
-      "dcaf-998.xml": {
-        "1": 3
+        "EG": 1,
+        "LY": 1,
+        "MA": 1,
+        "TN": 1
       }
     },
     ".//reporting-org/@type": {
-      "dcaf-189.xml": {
-        "60": 1
+      "dcaf-mk.xml": {
+        "60": 2
       },
       "dcaf-289.xml": {
         "60": 2
@@ -328,13 +306,59 @@
       "dcaf-998.xml": {
         "60": 4
       },
+      "dcaf-189.xml": {
+        "60": 1
+      }
+    },
+    ".//result/@type": {
       "dcaf-mk.xml": {
-        "60": 2
+        "1": 2,
+        "2": 3
+      },
+      "dcaf-289.xml": {
+        "1": 16,
+        "2": 3,
+        "3": 1
+      },
+      "dcaf-998.xml": {
+        "3": 1,
+        "2": 11
+      }
+    },
+    ".//result/document-link/@format": {
+      "dcaf-mk.xml": {
+        "application/pdf": 5
+      }
+    },
+    ".//result/document-link/category/@code": {
+      "dcaf-mk.xml": {
+        "A08": 5
+      }
+    },
+    ".//result/document-link/language/@code": {
+      "dcaf-mk.xml": {
+        "en": 3
+      }
+    },
+    ".//result/indicator/@measure": {
+      "dcaf-mk.xml": {
+        "5": 5
+      },
+      "dcaf-289.xml": {
+        "3": 10,
+        "2": 4,
+        "5": 16,
+        "1": 3
+      },
+      "dcaf-998.xml": {
+        "5": 2,
+        "2": 6,
+        "1": 4
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "dcaf-189.xml": {
-        "15210": 1
+      "dcaf-mk.xml": {
+        "15210": 8
       },
       "dcaf-289.xml": {
         "15210": 2
@@ -343,13 +367,13 @@
         "15210": 85,
         "15131": 2
       },
-      "dcaf-mk.xml": {
-        "15210": 8
+      "dcaf-189.xml": {
+        "15210": 1
       }
     },
     ".//sector/@vocabulary": {
-      "dcaf-189.xml": {
-        "1": 1
+      "dcaf-mk.xml": {
+        "1": 8
       },
       "dcaf-289.xml": {
         "1": 2
@@ -359,14 +383,13 @@
         "7": 1,
         "8": 3
       },
-      "dcaf-mk.xml": {
-        "1": 8
+      "dcaf-189.xml": {
+        "1": 1
       }
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "dcaf-189.xml": {
-        "B04": 15,
-        "D01": 1
+      "dcaf-mk.xml": {
+        "B04": 30
       },
       "dcaf-289.xml": {
         "C01": 10
@@ -374,19 +397,14 @@
       "dcaf-998.xml": {
         "C01": 6
       },
-      "dcaf-mk.xml": {
-        "B04": 30
-      }
-    },
-    ".//transaction/aid-type[@vocabulary = '2']/@code": {
       "dcaf-189.xml": {
-        "2": 1
+        "B04": 15,
+        "D01": 1
       }
     },
     ".//transaction/aid-type/@vocabulary": {
-      "dcaf-189.xml": {
-        "2": 1,
-        "1": 16
+      "dcaf-mk.xml": {
+        "1": 30
       },
       "dcaf-289.xml": {
         "1": 10
@@ -394,14 +412,15 @@
       "dcaf-998.xml": {
         "1": 6
       },
-      "dcaf-mk.xml": {
-        "1": 30
+      "dcaf-189.xml": {
+        "1": 16,
+        "2": 1
       }
     },
     ".//transaction/disbursement-channel/@code": {
-      "dcaf-189.xml": {
-        "2": 9,
-        "4": 1
+      "dcaf-mk.xml": {
+        "2": 27,
+        "1": 3
       },
       "dcaf-289.xml": {
         "2": 11
@@ -409,14 +428,14 @@
       "dcaf-998.xml": {
         "2": 6
       },
-      "dcaf-mk.xml": {
-        "2": 27,
-        "1": 3
+      "dcaf-189.xml": {
+        "2": 9,
+        "4": 1
       }
     },
     ".//transaction/finance-type/@code": {
-      "dcaf-189.xml": {
-        "110": 9
+      "dcaf-mk.xml": {
+        "110": 30
       },
       "dcaf-289.xml": {
         "110": 10
@@ -424,25 +443,24 @@
       "dcaf-998.xml": {
         "110": 4
       },
-      "dcaf-mk.xml": {
-        "110": 30
+      "dcaf-189.xml": {
+        "110": 9
       }
     },
     ".//transaction/flow-type/@code": {
-      "dcaf-189.xml": {
-        "10": 21
+      "dcaf-mk.xml": {
+        "10": 29
       },
       "dcaf-998.xml": {
         "10": 5
       },
-      "dcaf-mk.xml": {
-        "10": 29
+      "dcaf-189.xml": {
+        "10": 21
       }
     },
     ".//transaction/provider-org/@type": {
-      "dcaf-189.xml": {
-        "60": 2,
-        "10": 12
+      "dcaf-mk.xml": {
+        "10": 29
       },
       "dcaf-289.xml": {
         "10": 11
@@ -451,14 +469,14 @@
         "10": 63,
         "40": 12
       },
-      "dcaf-mk.xml": {
-        "10": 29
+      "dcaf-189.xml": {
+        "10": 12,
+        "60": 2
       }
     },
     ".//transaction/receiver-org/@type": {
-      "dcaf-189.xml": {
-        "60": 10,
-        "10": 2
+      "dcaf-mk.xml": {
+        "60": 28
       },
       "dcaf-289.xml": {
         "60": 11
@@ -466,26 +484,44 @@
       "dcaf-998.xml": {
         "60": 75
       },
+      "dcaf-189.xml": {
+        "60": 10,
+        "10": 2
+      }
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "dcaf-mk.xml": {
-        "60": 28
+        "15210": 7
+      },
+      "dcaf-998.xml": {
+        "15210": 85,
+        "15131": 2
+      }
+    },
+    ".//transaction/sector/@vocabulary": {
+      "dcaf-mk.xml": {
+        "1": 7
+      },
+      "dcaf-998.xml": {
+        "1": 87
       }
     },
     ".//transaction/tied-status/@code": {
-      "dcaf-189.xml": {
-        "3": 1,
-        "5": 15
+      "dcaf-mk.xml": {
+        "5": 30
       },
       "dcaf-998.xml": {
         "4": 6
       },
-      "dcaf-mk.xml": {
-        "5": 30
+      "dcaf-189.xml": {
+        "5": 15,
+        "3": 1
       }
     },
     ".//transaction/transaction-type/@code": {
-      "dcaf-189.xml": {
-        "4": 12,
-        "1": 16
+      "dcaf-mk.xml": {
+        "1": 15,
+        "4": 15
       },
       "dcaf-289.xml": {
         "4": 6,
@@ -496,15 +532,15 @@
         "4": 17,
         "7": 4
       },
-      "dcaf-mk.xml": {
-        "1": 15,
-        "4": 15
+      "dcaf-189.xml": {
+        "4": 15,
+        "1": 19
       }
     },
     ".//transaction/value/@currency": {
-      "dcaf-189.xml": {
-        "CHF": 18,
-        "EUR": 9
+      "dcaf-mk.xml": {
+        "CHF": 25,
+        "SEK": 5
       },
       "dcaf-289.xml": {
         "CHF": 12
@@ -513,14 +549,14 @@
         "CHF": 87,
         "GBP": 8
       },
-      "dcaf-mk.xml": {
-        "CHF": 25,
-        "SEK": 5
+      "dcaf-189.xml": {
+        "CHF": 23,
+        "EUR": 10
       }
     },
     ".//@xml:lang": {
-      "dcaf-189.xml": {
-        "en": 112
+      "dcaf-mk.xml": {
+        "en": 169
       },
       "dcaf-289.xml": {
         "en": 59
@@ -528,8 +564,32 @@
       "dcaf-998.xml": {
         "en": 122
       },
-      "dcaf-mk.xml": {
-        "en": 169
+      "dcaf-189.xml": {
+        "en": 109
+      }
+    },
+    ".//collaboration-type/@code": {
+      "dcaf-289.xml": {
+        "2": 1,
+        "1": 1
+      },
+      "dcaf-998.xml": {
+        "1": 1
+      },
+      "dcaf-189.xml": {
+        "8": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "dcaf-289.xml": {
+        "1": 1,
+        "2": 1
+      },
+      "dcaf-998.xml": {
+        "1": 1
+      },
+      "dcaf-189.xml": {
+        "1": 1
       }
     },
     ".//location/location-reach/@code": {
@@ -554,35 +614,29 @@
         "1": 3
       }
     },
-    ".//result/@type": {
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "dcaf-289.xml": {
-        "1": 16,
-        "2": 3,
-        "3": 1
+        "289": 2
       },
       "dcaf-998.xml": {
-        "3": 1,
-        "2": 11
+        "998": 82,
+        "298": 1,
+        "589": 1,
+        "89": 1
       },
-      "dcaf-mk.xml": {
-        "1": 2,
-        "2": 3
+      "dcaf-189.xml": {
+        "189": 1
       }
     },
-    ".//result/indicator/@measure": {
+    ".//recipient-region/@vocabulary": {
       "dcaf-289.xml": {
-        "3": 10,
-        "2": 4,
-        "5": 16,
-        "1": 3
+        "1": 2
       },
       "dcaf-998.xml": {
-        "5": 2,
-        "2": 6,
-        "1": 4
+        "1": 3
       },
-      "dcaf-mk.xml": {
-        "5": 5
+      "dcaf-189.xml": {
+        "1": 1
       }
     },
     ".//result/indicator/reference/@vocabulary": {
@@ -613,65 +667,9 @@
         "998": 82
       }
     },
-    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "dcaf-998.xml": {
-        "15210": 85,
-        "15131": 2
-      },
-      "dcaf-mk.xml": {
-        "15210": 7
-      }
-    },
-    ".//transaction/sector/@vocabulary": {
-      "dcaf-998.xml": {
-        "1": 87
-      },
-      "dcaf-mk.xml": {
-        "1": 7
-      }
-    },
-    ".//participating-org/@crs-channel-code": {
-      "dcaf-mk.xml": {
-        "11000": 4,
-        "20000": 2
-      }
-    },
-    ".//planned-disbursement/@type": {
-      "dcaf-mk.xml": {
-        "1": 15,
-        "2": 2
-      }
-    },
-    ".//planned-disbursement/provider-org/@type": {
-      "dcaf-mk.xml": {
-        "10": 17
-      }
-    },
-    ".//planned-disbursement/receiver-org/@type": {
-      "dcaf-mk.xml": {
-        "60": 17
-      }
-    },
-    ".//planned-disbursement/value/@currency": {
-      "dcaf-mk.xml": {
-        "CHF": 11,
-        "SEK": 5,
-        "EUR": 1
-      }
-    },
-    ".//result/document-link/@format": {
-      "dcaf-mk.xml": {
-        "application/pdf": 5
-      }
-    },
-    ".//result/document-link/category/@code": {
-      "dcaf-mk.xml": {
-        "A08": 5
-      }
-    },
-    ".//result/document-link/language/@code": {
-      "dcaf-mk.xml": {
-        "en": 3
+    ".//transaction/aid-type[@vocabulary = '2']/@code": {
+      "dcaf-189.xml": {
+        "2": 1
       }
     }
   }

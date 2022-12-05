@@ -7,11 +7,11 @@
       "1": 6,
       "2": 6,
       "3": 6,
-      "4": 1
+      "4": 3
     },
     ".//activity-status/@code": {
-      "2": 5,
-      "4": 1
+      "2": 3,
+      "4": 3
     },
     ".//collaboration-type/@code": {
       "1": 6
@@ -37,13 +37,14 @@
     ".//participating-org/@role": {
       "1": 5,
       "2": 8,
-      "4": 22
+      "4": 27
     },
     ".//participating-org/@type": {
       "10": 4,
       "21": 13,
-      "22": 9,
-      "24": 8,
+      "22": 11,
+      "24": 10,
+      "80": 1,
       "72": 1
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -62,8 +63,9 @@
       "CM": 1,
       "ET": 1,
       "CD": 1,
-      "MW": 1,
-      "NP": 1
+      "NP": 2,
+      "TH": 1,
+      "MW": 1
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "998": 3
@@ -94,26 +96,27 @@
       "1": 17
     },
     ".//transaction/provider-org/@type": {
-      "21": 112,
-      "10": 22,
-      "22": 1
+      "21": 117,
+      "10": 27,
+      "22": 16
     },
     ".//transaction/receiver-org/@type": {
-      "21": 69,
-      "24": 31,
+      "21": 87,
+      "24": 34,
       "90": 7,
+      "80": 1,
       "22": 8,
       "72": 1
     },
     ".//transaction/transaction-type/@code": {
-      "11": 4,
-      "1": 32,
-      "3": 59,
-      "4": 19,
-      "2": 21
+      "11": 5,
+      "1": 37,
+      "3": 66,
+      "4": 22,
+      "2": 30
     },
     ".//transaction/value/@currency": {
-      "GBP": 134,
+      "GBP": 159,
       "XOF": 1
     },
     ".//@xml:lang": {

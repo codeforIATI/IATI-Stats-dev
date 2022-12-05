@@ -1,39 +1,39 @@
 {
   ".//@default-currency": {
+    "": {
+      "amwa-pod-activity.xml": 1
+    },
     "EUR": {
       "amwa-activities.xml": 4,
       "amwa-makeway.xml": 7
-    },
-    "": {
-      "amwa-pod-activity.xml": 1
     }
   },
   ".//@xml:lang": {
-    "en": {
-      "amwa-activities.xml": 28,
-      "amwa-makeway.xml": 7,
-      "amwa-pod-activity.xml": 161
-    },
     "EN": {
       "amwa-pod-activity.xml": 15
     },
     "nl": {
       "amwa-pod-activity.xml": 24
+    },
+    "en": {
+      "amwa-pod-activity.xml": 161,
+      "amwa-activities.xml": 28,
+      "amwa-makeway.xml": 7
     }
   },
   ".//activity-date/@type": {
-    "2": {
-      "amwa-activities.xml": 4,
-      "amwa-pod-activity.xml": 1
+    "1": {
+      "amwa-pod-activity.xml": 1,
+      "amwa-makeway.xml": 7
     },
     "3": {
+      "amwa-pod-activity.xml": 1,
       "amwa-activities.xml": 4,
-      "amwa-makeway.xml": 7,
-      "amwa-pod-activity.xml": 1
+      "amwa-makeway.xml": 7
     },
-    "1": {
-      "amwa-makeway.xml": 7,
-      "amwa-pod-activity.xml": 1
+    "2": {
+      "amwa-pod-activity.xml": 1,
+      "amwa-activities.xml": 4
     },
     "4": {
       "amwa-pod-activity.xml": 1
@@ -41,15 +41,15 @@
   },
   ".//activity-status/@code": {
     "2": {
+      "amwa-pod-activity.xml": 1,
       "amwa-activities.xml": 4,
-      "amwa-makeway.xml": 7,
-      "amwa-pod-activity.xml": 1
+      "amwa-makeway.xml": 7
     }
   },
   ".//budget/@status": {
     "2": {
-      "amwa-activities.xml": 18,
-      "amwa-pod-activity.xml": 1
+      "amwa-pod-activity.xml": 1,
+      "amwa-activities.xml": 18
     }
   },
   ".//budget/@type": {
@@ -78,31 +78,31 @@
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": {
-      "amwa-makeway.xml": 7
-    },
     "B03": {
       "amwa-pod-activity.xml": 1
+    },
+    "C01": {
+      "amwa-makeway.xml": 7
     }
   },
   ".//default-finance-type/@code": {
     "110": {
+      "amwa-pod-activity.xml": 1,
       "amwa-activities.xml": 4,
-      "amwa-makeway.xml": 7,
-      "amwa-pod-activity.xml": 1
+      "amwa-makeway.xml": 7
     }
   },
   ".//default-flow-type/@code": {
     "30": {
+      "amwa-pod-activity.xml": 1,
       "amwa-activities.xml": 4,
-      "amwa-makeway.xml": 7,
-      "amwa-pod-activity.xml": 1
+      "amwa-makeway.xml": 7
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "amwa-makeway.xml": 7,
-      "amwa-pod-activity.xml": 1
+      "amwa-pod-activity.xml": 1,
+      "amwa-makeway.xml": 7
     }
   },
   ".//description/@type": {
@@ -127,63 +127,63 @@
     }
   },
   ".//participating-org/@role": {
-    "1": {
-      "amwa-activities.xml": 4,
-      "amwa-makeway.xml": 7,
-      "amwa-pod-activity.xml": 1
-    },
     "2": {
+      "amwa-pod-activity.xml": 1,
       "amwa-activities.xml": 4,
-      "amwa-makeway.xml": 7,
-      "amwa-pod-activity.xml": 1
+      "amwa-makeway.xml": 7
+    },
+    "1": {
+      "amwa-pod-activity.xml": 1,
+      "amwa-activities.xml": 4,
+      "amwa-makeway.xml": 7
     },
     "4": {
+      "amwa-pod-activity.xml": 1,
       "amwa-activities.xml": 4,
-      "amwa-makeway.xml": 7,
-      "amwa-pod-activity.xml": 1
+      "amwa-makeway.xml": 7
     }
   },
   ".//participating-org/@type": {
-    "21": {
-      "amwa-activities.xml": 12,
-      "amwa-makeway.xml": 21,
-      "amwa-pod-activity.xml": 1
-    },
     "22": {
       "amwa-pod-activity.xml": 2
+    },
+    "21": {
+      "amwa-pod-activity.xml": 1,
+      "amwa-activities.xml": 12,
+      "amwa-makeway.xml": 21
     }
   },
   ".//policy-marker/@significance": {
+    "4": {
+      "amwa-pod-activity.xml": 1
+    },
     "1": {
       "amwa-activities.xml": 8
     },
     "2": {
       "amwa-activities.xml": 12,
       "amwa-makeway.xml": 21
-    },
-    "4": {
-      "amwa-pod-activity.xml": 1
     }
   },
   ".//policy-marker/@vocabulary": {
     "1": {
+      "amwa-pod-activity.xml": 1,
       "amwa-activities.xml": 20,
-      "amwa-makeway.xml": 21,
-      "amwa-pod-activity.xml": 1
+      "amwa-makeway.xml": 21
     }
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "3": {
+      "amwa-pod-activity.xml": 1,
+      "amwa-activities.xml": 4,
+      "amwa-makeway.xml": 7
+    },
     "1": {
       "amwa-activities.xml": 4,
       "amwa-makeway.xml": 7
     },
     "2": {
       "amwa-activities.xml": 4
-    },
-    "3": {
-      "amwa-activities.xml": 4,
-      "amwa-makeway.xml": 7,
-      "amwa-pod-activity.xml": 1
     },
     "6": {
       "amwa-activities.xml": 4
@@ -219,15 +219,15 @@
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1027": {
+      "amwa-pod-activity.xml": 1,
+      "amwa-activities.xml": 4
+    },
     "1029": {
       "amwa-activities.xml": 1
     },
     "189": {
       "amwa-activities.xml": 1
-    },
-    "1027": {
-      "amwa-activities.xml": 4,
-      "amwa-pod-activity.xml": 1
     },
     "289": {
       "amwa-makeway.xml": 1
@@ -243,18 +243,18 @@
     }
   },
   ".//reporting-org/@type": {
+    "22": {
+      "amwa-pod-activity.xml": 1
+    },
     "21": {
       "amwa-activities.xml": 4,
       "amwa-makeway.xml": 7
-    },
-    "22": {
-      "amwa-pod-activity.xml": 1
     }
   },
   ".//result/@type": {
     "2": {
-      "amwa-makeway.xml": 45,
-      "amwa-pod-activity.xml": 3
+      "amwa-pod-activity.xml": 3,
+      "amwa-makeway.xml": 45
     },
     "1": {
       "amwa-pod-activity.xml": 9
@@ -262,43 +262,43 @@
   },
   ".//result/indicator/@measure": {
     "1": {
-      "amwa-makeway.xml": 91,
-      "amwa-pod-activity.xml": 40
+      "amwa-pod-activity.xml": 40,
+      "amwa-makeway.xml": 91
     }
   },
   ".//result/indicator/reference/@vocabulary": {
     "99": {
-      "amwa-makeway.xml": 91,
-      "amwa-pod-activity.xml": 27
+      "amwa-pod-activity.xml": 27,
+      "amwa-makeway.xml": 91
     }
   },
   ".//sector/@vocabulary": {
     "1": {
+      "amwa-pod-activity.xml": 2,
       "amwa-activities.xml": 8,
-      "amwa-makeway.xml": 7,
-      "amwa-pod-activity.xml": 2
+      "amwa-makeway.xml": 7
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "15150": {
-      "amwa-activities.xml": 4,
+    "15152": {
       "amwa-pod-activity.xml": 1
+    },
+    "15150": {
+      "amwa-pod-activity.xml": 1,
+      "amwa-activities.xml": 4
     },
     "41010": {
       "amwa-activities.xml": 4
     },
     "13020": {
       "amwa-makeway.xml": 7
-    },
-    "15152": {
-      "amwa-pod-activity.xml": 1
     }
   },
   ".//transaction/provider-org/@type": {
     "21": {
+      "amwa-pod-activity.xml": 3,
       "amwa-activities.xml": 3,
-      "amwa-makeway.xml": 13,
-      "amwa-pod-activity.xml": 3
+      "amwa-makeway.xml": 13
     }
   },
   ".//transaction/receiver-org/@type": {
@@ -333,29 +333,29 @@
   },
   ".//transaction/transaction-type/@code": {
     "11": {
+      "amwa-pod-activity.xml": 1,
       "amwa-activities.xml": 4,
-      "amwa-makeway.xml": 7,
-      "amwa-pod-activity.xml": 1
+      "amwa-makeway.xml": 7
+    },
+    "1": {
+      "amwa-pod-activity.xml": 2,
+      "amwa-activities.xml": 1,
+      "amwa-makeway.xml": 1
+    },
+    "4": {
+      "amwa-pod-activity.xml": 4,
+      "amwa-activities.xml": 1,
+      "amwa-makeway.xml": 5
     },
     "2": {
       "amwa-activities.xml": 3,
       "amwa-makeway.xml": 5
-    },
-    "4": {
-      "amwa-activities.xml": 1,
-      "amwa-makeway.xml": 5,
-      "amwa-pod-activity.xml": 4
-    },
-    "1": {
-      "amwa-activities.xml": 1,
-      "amwa-makeway.xml": 1,
-      "amwa-pod-activity.xml": 2
     }
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "amwa-activities.xml": 1,
-      "amwa-pod-activity.xml": 7
+      "amwa-pod-activity.xml": 7,
+      "amwa-activities.xml": 1
     }
   }
 }

@@ -176,6 +176,15 @@
   "iati-activity/result/@type": {
     "alab-activities.xml": 2
   },
+  "iati-activity/result/description": {
+    "alab-activities.xml": 1
+  },
+  "iati-activity/result/description/narrative": {
+    "alab-activities.xml": 1
+  },
+  "iati-activity/result/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "alab-activities.xml": 1
+  },
   "iati-activity/result/document-link": {
     "alab-activities.xml": 2
   },
@@ -218,6 +227,24 @@
   "iati-activity/result/indicator/@measure": {
     "alab-activities.xml": 2
   },
+  "iati-activity/result/indicator/baseline": {
+    "alab-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/@iso-date": {
+    "alab-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "alab-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "alab-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/location": {
+    "alab-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/location/@ref": {
+    "alab-activities.xml": 1
+  },
   "iati-activity/result/indicator/description": {
     "alab-activities.xml": 2
   },
@@ -236,6 +263,12 @@
   "iati-activity/result/indicator/period/actual/@value": {
     "alab-activities.xml": 2
   },
+  "iati-activity/result/indicator/period/actual/comment": {
+    "alab-activities.xml": 1
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative": {
+    "alab-activities.xml": 1
+  },
   "iati-activity/result/indicator/period/period-end": {
     "alab-activities.xml": 2
   },
@@ -249,10 +282,10 @@
     "alab-activities.xml": 2
   },
   "iati-activity/result/indicator/period/target": {
-    "alab-activities.xml": 1
+    "alab-activities.xml": 2
   },
   "iati-activity/result/indicator/period/target/@value": {
-    "alab-activities.xml": 1
+    "alab-activities.xml": 2
   },
   "iati-activity/result/indicator/title": {
     "alab-activities.xml": 2

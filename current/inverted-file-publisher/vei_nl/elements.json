@@ -69,30 +69,63 @@
     "vei_nl-activities.xml": 29
   },
   "iati-activity/contact-info": {
+    "vei_nl-activities.xml": 2
+  },
+  "iati-activity/contact-info/@type": {
+    "vei_nl-activities.xml": 1
+  },
+  "iati-activity/contact-info/department": {
+    "vei_nl-activities.xml": 1
+  },
+  "iati-activity/contact-info/department/narrative": {
+    "vei_nl-activities.xml": 1
+  },
+  "iati-activity/contact-info/department/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "vei_nl-activities.xml": 1
   },
   "iati-activity/contact-info/email": {
-    "vei_nl-activities.xml": 1
+    "vei_nl-activities.xml": 2
   },
   "iati-activity/contact-info/job-title": {
-    "vei_nl-activities.xml": 1
+    "vei_nl-activities.xml": 2
   },
   "iati-activity/contact-info/job-title/narrative": {
+    "vei_nl-activities.xml": 2
+  },
+  "iati-activity/contact-info/job-title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vei_nl-activities.xml": 1
+  },
+  "iati-activity/contact-info/mailing-address": {
+    "vei_nl-activities.xml": 1
+  },
+  "iati-activity/contact-info/mailing-address/narrative": {
+    "vei_nl-activities.xml": 1
+  },
+  "iati-activity/contact-info/mailing-address/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "vei_nl-activities.xml": 1
   },
   "iati-activity/contact-info/organisation": {
-    "vei_nl-activities.xml": 1
+    "vei_nl-activities.xml": 2
   },
   "iati-activity/contact-info/organisation/narrative": {
+    "vei_nl-activities.xml": 2
+  },
+  "iati-activity/contact-info/organisation/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "vei_nl-activities.xml": 1
   },
   "iati-activity/contact-info/person-name": {
-    "vei_nl-activities.xml": 1
+    "vei_nl-activities.xml": 2
   },
   "iati-activity/contact-info/person-name/narrative": {
+    "vei_nl-activities.xml": 2
+  },
+  "iati-activity/contact-info/person-name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "vei_nl-activities.xml": 1
   },
   "iati-activity/contact-info/telephone": {
+    "vei_nl-activities.xml": 2
+  },
+  "iati-activity/contact-info/website": {
     "vei_nl-activities.xml": 1
   },
   "iati-activity/default-aid-type": {
@@ -167,9 +200,6 @@
   "iati-activity/document-link/title/narrative": {
     "vei_nl-activities.xml": 1
   },
-  "iati-activity/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "vei_nl-activities.xml": 1
-  },
   "iati-activity/iati-identifier": {
     "vei_nl-activities.xml": 29
   },
@@ -195,16 +225,25 @@
     "vei_nl-activities.xml": 3
   },
   "iati-activity/policy-marker": {
-    "vei_nl-activities.xml": 27
+    "vei_nl-activities.xml": 28
   },
   "iati-activity/policy-marker/@code": {
-    "vei_nl-activities.xml": 27
+    "vei_nl-activities.xml": 28
   },
   "iati-activity/policy-marker/@significance": {
-    "vei_nl-activities.xml": 27
+    "vei_nl-activities.xml": 28
   },
   "iati-activity/policy-marker/@vocabulary": {
-    "vei_nl-activities.xml": 27
+    "vei_nl-activities.xml": 28
+  },
+  "iati-activity/policy-marker/@vocabulary-uri": {
+    "vei_nl-activities.xml": 1
+  },
+  "iati-activity/policy-marker/narrative": {
+    "vei_nl-activities.xml": 1
+  },
+  "iati-activity/policy-marker/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vei_nl-activities.xml": 1
   },
   "iati-activity/recipient-country": {
     "vei_nl-activities.xml": 28
@@ -264,7 +303,7 @@
     "vei_nl-activities.xml": 19
   },
   "iati-activity/result/indicator/@aggregation-status": {
-    "vei_nl-activities.xml": 6
+    "vei_nl-activities.xml": 7
   },
   "iati-activity/result/indicator/@ascending": {
     "vei_nl-activities.xml": 18
@@ -387,7 +426,7 @@
     "vei_nl-activities.xml": 29
   },
   "iati-activity/transaction/@humanitarian": {
-    "vei_nl-activities.xml": 1
+    "vei_nl-activities.xml": 2
   },
   "iati-activity/transaction/description": {
     "vei_nl-activities.xml": 21
@@ -396,6 +435,12 @@
     "vei_nl-activities.xml": 21
   },
   "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vei_nl-activities.xml": 1
+  },
+  "iati-activity/transaction/disbursement-channel": {
+    "vei_nl-activities.xml": 1
+  },
+  "iati-activity/transaction/disbursement-channel/@code": {
     "vei_nl-activities.xml": 1
   },
   "iati-activity/transaction/provider-org": {
@@ -411,10 +456,13 @@
     "vei_nl-activities.xml": 3
   },
   "iati-activity/transaction/provider-org/narrative": {
-    "vei_nl-activities.xml": 21
+    "vei_nl-activities.xml": 22
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vei_nl-activities.xml": 1
   },
   "iati-activity/transaction/receiver-org": {
-    "vei_nl-activities.xml": 1
+    "vei_nl-activities.xml": 2
   },
   "iati-activity/transaction/receiver-org/@receiver-activity-id": {
     "vei_nl-activities.xml": 1
@@ -423,13 +471,13 @@
     "vei_nl-activities.xml": 1
   },
   "iati-activity/transaction/receiver-org/@type": {
-    "vei_nl-activities.xml": 1
+    "vei_nl-activities.xml": 2
   },
   "iati-activity/transaction/receiver-org/narrative": {
-    "vei_nl-activities.xml": 1
+    "vei_nl-activities.xml": 2
   },
   "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "vei_nl-activities.xml": 1
+    "vei_nl-activities.xml": 2
   },
   "iati-activity/transaction/transaction-date": {
     "vei_nl-activities.xml": 29

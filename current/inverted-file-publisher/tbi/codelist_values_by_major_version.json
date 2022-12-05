@@ -19,19 +19,19 @@
     },
     ".//budget/@status": {
       "tbi-activities.xml": {
-        "2": 131,
+        "2": 136,
         "1": 13
       }
     },
     ".//budget/@type": {
       "tbi-activities.xml": {
         "1": 78,
-        "2": 17
+        "2": 22
       }
     },
     ".//budget/value/@currency": {
       "tbi-activities.xml": {
-        "EUR": 77
+        "EUR": 80
       }
     },
     ".//contact-info/@type": {
@@ -122,12 +122,12 @@
         "CO": 3,
         "SR": 2,
         "ET": 3,
-        "NL": 2
+        "NL": 5
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "tbi-activities.xml": {
-        "998": 13,
+        "998": 15,
         "89": 2,
         "298": 1,
         "489": 1,
@@ -195,14 +195,19 @@
         "1": 148
       }
     },
+    ".//transaction/recipient-country/@code": {
+      "tbi-activities.xml": {
+        "NL": 3
+      }
+    },
     ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "tbi-activities.xml": {
-        "998": 1
+        "998": 3
       }
     },
     ".//transaction/transaction-type/@code": {
       "tbi-activities.xml": {
-        "4": 113,
+        "4": 118,
         "1": 15,
         "11": 13,
         "2": 20
@@ -210,7 +215,7 @@
     },
     ".//transaction/value/@currency": {
       "tbi-activities.xml": {
-        "EUR": 57
+        "EUR": 62
       }
     },
     ".//@xml:lang": {

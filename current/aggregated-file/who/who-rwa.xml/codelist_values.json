@@ -1,99 +1,103 @@
 {
   ".//@default-currency": {
-    "USD": 160
+    "USD": 161
   },
   ".//@xml:lang": {
-    "en": 11041
+    "en": 11404
   },
   ".//activity-date/@type": {
-    "1": 160,
-    "3": 160,
-    "2": 160,
+    "1": 161,
+    "3": 161,
+    "2": 161,
     "4": 123
   },
   ".//activity-scope/@code": {
-    "4": 160
+    "4": 161
   },
   ".//activity-status/@code": {
     "4": 123,
-    "2": 37
+    "2": 38
   },
   ".//budget/@status": {
-    "2": 320
+    "2": 322
   },
   ".//budget/@type": {
-    "1": 320
+    "1": 322
   },
   ".//budget/value/@currency": {
-    "USD": 320
+    "USD": 322
   },
   ".//collaboration-type/@code": {
-    "4": 160
+    "4": 161
   },
   ".//country-budget-items/@vocabulary": {
-    "1": 160
+    "1": 161
   },
   ".//default-aid-type/@vocabulary": {
-    "1": 160
+    "1": 161
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "B03": 160
+    "B03": 161
   },
   ".//default-finance-type/@code": {
-    "110": 160
+    "110": 161
   },
   ".//default-flow-type/@code": {
-    "10": 160
+    "10": 161
   },
   ".//default-tied-status/@code": {
-    "5": 160
+    "5": 161
   },
   ".//description/@type": {
-    "1": 160,
-    "2": 160
+    "1": 161,
+    "2": 161
   },
   ".//document-link/@format": {
-    "application/pdf": 244,
-    "text/html": 115
+    "application/pdf": 245,
+    "text/html": 116
   },
   ".//document-link/category/@code": {
-    "B03": 244,
-    "A08": 115
+    "B03": 245,
+    "A08": 116
   },
   ".//document-link/language/@code": {
-    "en": 359
+    "en": 361
   },
   ".//humanitarian-scope/@type": {
-    "1": 14,
+    "1": 15,
     "2": 5
   },
   ".//humanitarian-scope/@vocabulary": {
     "99": 14,
-    "2-1": 5
+    "2-1": 5,
+    "1-2": 1
+  },
+  ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
+    "EP-2022-000315-UGA": 1
   },
   ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
     "HCOVD20": 5
   },
   ".//participating-org/@role": {
-    "1": 303,
-    "2": 160,
-    "3": 160,
-    "4": 160
+    "1": 310,
+    "2": 161,
+    "3": 161,
+    "4": 161
   },
   ".//participating-org/@type": {
-    "40": 615,
+    "40": 620,
     "10": 76,
-    "70": 78,
+    "70": 83,
     "60": 14
   },
   ".//recipient-country/@code": {
-    "RW": 160
+    "RW": 161
   },
   ".//reporting-org/@type": {
-    "40": 160
+    "40": 161
   },
   ".//sector/@vocabulary": {
-    "1": 280
+    "1": 281
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "13040": 14,
@@ -103,7 +107,7 @@
     "12240": 10,
     "43073": 7,
     "13020": 21,
-    "12110": 64,
+    "12110": 65,
     "12281": 19,
     "12220": 17,
     "12182": 7,
@@ -143,37 +147,37 @@
     "5.1": 2
   },
   ".//transaction/aid-type/@vocabulary": {
-    "2": 642
+    "2": 756
   },
   ".//transaction/aid-type[@vocabulary = '2']/@code": {
-    "1": 304,
-    "3": 88,
-    "4": 178,
-    "2": 72
+    "4": 204,
+    "1": 349,
+    "3": 110,
+    "2": 93
   },
   ".//transaction/flow-type/@code": {
     "20": 47,
-    "30": 68,
-    "40": 23,
+    "30": 69,
+    "40": 24,
     "50": 27,
-    "10": 99,
+    "10": 104,
     "35": 2
   },
   ".//transaction/provider-org/@type": {
-    "40": 2416,
+    "40": 2525,
     "10": 32,
     "60": 14
   },
   ".//transaction/receiver-org/@type": {
-    "40": 2569
+    "40": 2684
   },
   ".//transaction/transaction-type/@code": {
-    "2": 160,
-    "11": 266,
-    "4": 2143,
+    "2": 161,
+    "11": 273,
+    "4": 2250,
     "3": 85
   },
   ".//transaction/value/@currency": {
-    "USD": 2654
+    "USD": 2769
   }
 }

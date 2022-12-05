@@ -35,8 +35,8 @@
       "2": 1
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "D02": 4,
       "C01": 31,
+      "D02": 4,
       "B03": 1
     },
     ".//default-finance-type/@code": {
@@ -75,10 +75,10 @@
       "40": 10,
       "N/A": 1,
       "70": 2,
-      "90": 1,
       "10": 2,
+      "21": 1,
       "22": 1,
-      "21": 1
+      "90": 1
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "1": 36,
@@ -116,17 +116,17 @@
       "15": 36
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15220": 15,
       "15151": 1,
-      "15210": 5,
+      "15220": 15,
       "73010": 2,
       "32265": 2,
-      "12110": 1,
-      "15110": 1,
+      "15210": 5,
       "15130": 3,
+      "15110": 1,
+      "12110": 1,
       "15113": 2,
-      "11330": 1,
       "32210": 4,
+      "11330": 1,
       "12250": 1
     },
     ".//sector/@vocabulary": {
@@ -134,32 +134,32 @@
     },
     ".//tag[@vocabulary = '2']/@code": {
       "16": 17,
-      "9": 1,
       "1": 1,
       "10": 1,
       "12": 1,
-      "8": 1
+      "8": 1,
+      "9": 1
     },
     ".//tag/@vocabulary": {
       "2": 22,
       "99": 3
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "C01": 53,
       "D02": 9,
-      "C01": 52,
       "B03": 3
     },
     ".//transaction/disbursement-channel/@code": {
-      "2": 84
+      "2": 85
     },
     ".//transaction/finance-type/@code": {
-      "110": 64
+      "110": 65
     },
     ".//transaction/flow-type/@code": {
-      "10": 64
+      "10": 65
     },
     ".//transaction/provider-org/@type": {
-      "15": 84
+      "15": 85
     },
     ".//transaction/tied-status/@code": {
       "5": 35,
@@ -167,11 +167,11 @@
     },
     ".//transaction/transaction-type/@code": {
       "3": 49,
-      "4": 15,
+      "4": 16,
       "2": 20
     },
     ".//transaction/value/@currency": {
-      "EUR": 84
+      "EUR": 85
     },
     ".//@xml:lang": {
       "en": 164

@@ -1,43 +1,37 @@
 {
   "2": {
     ".//@default-currency": {
-      "EUR": 6
+      "EUR": 9
     },
     ".//activity-date/@type": {
-      "2": 6,
-      "3": 6,
-      "1": 5
+      "2": 9,
+      "3": 9,
+      "1": 8
     },
     ".//activity-status/@code": {
-      "2": 6
+      "2": 9
     },
     ".//activity-scope/@code": {
-      "1": 6
-    },
-    ".//budget/@status": {
-      "2": 10,
-      "1": 15
-    },
-    ".//budget/value/@currency": {
-      "EUR": 25
+      "1": 1,
+      "4": 8
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 6
+      "C01": 9
     },
     ".//default-aid-type/@vocabulary": {
-      "1": 6
+      "1": 9
     },
     ".//default-finance-type/@code": {
-      "110": 6
+      "110": 9
     },
     ".//default-flow-type/@code": {
-      "10": 6
+      "10": 9
     },
     ".//default-tied-status/@code": {
-      "5": 6
+      "5": 9
     },
     ".//description/@type": {
-      "1": 6,
+      "1": 9,
       "2": 3,
       "3": 2
     },
@@ -45,81 +39,73 @@
       "21000": 3
     },
     ".//participating-org/@role": {
-      "1": 6,
-      "2": 6,
-      "4": 6
+      "1": 9,
+      "2": 9,
+      "4": 9
     },
     ".//participating-org/@type": {
-      "21": 7,
-      "22": 11
+      "21": 10,
+      "22": 17
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "1": 6,
-      "3": 6
+      "1": 9,
+      "3": 9
     },
     ".//policy-marker/@significance": {
-      "2": 12
+      "2": 18
     },
     ".//policy-marker/@vocabulary": {
-      "1": 12
+      "1": 18
     },
     ".//recipient-country/@code": {
-      "KE": 6,
-      "RW": 6,
-      "UG": 6
+      "KE": 5,
+      "RW": 5,
+      "UG": 1
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "1027": 6
+      "1027": 1
     },
     ".//recipient-region/@vocabulary": {
-      "1": 6
+      "1": 1
     },
     ".//related-activity/@type": {
-      "1": 5
-    },
-    ".//reporting-org/@type": {
-      "22": 6
-    },
-    ".//result/@type": {
-      "2": 8
-    },
-    ".//result/indicator/@measure": {
       "1": 8
     },
+    ".//reporting-org/@type": {
+      "22": 9
+    },
+    ".//result/@type": {
+      "2": 5,
+      "1": 7
+    },
+    ".//result/indicator/@measure": {
+      "1": 16
+    },
     ".//result/indicator/reference/@vocabulary": {
-      "99": 21
+      "99": 10
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15170": 6
+      "15170": 9
     },
     ".//sector/@vocabulary": {
-      "1": 6
-    },
-    ".//transaction/finance-type/@code": {
-      "110": 5
-    },
-    ".//transaction/flow-type/@code": {
-      "10": 5
+      "1": 9
     },
     ".//transaction/provider-org/@type": {
-      "21": 7
+      "21": 2
     },
     ".//transaction/receiver-org/@type": {
-      "22": 7
-    },
-    ".//transaction/tied-status/@code": {
-      "5": 5
+      "22": 2
     },
     ".//transaction/transaction-type/@code": {
-      "11": 6,
-      "1": 6,
-      "4": 5
+      "11": 1,
+      "1": 1,
+      "4": 8
     },
     ".//transaction/value/@currency": {
-      "EUR": 17
+      "EUR": 10
     },
     ".//@xml:lang": {
-      "en": 9
+      "en": 12
     }
   }
 }

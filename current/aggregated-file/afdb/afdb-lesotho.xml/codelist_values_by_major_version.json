@@ -1,122 +1,123 @@
 {
   "2": {
     ".//@default-currency": {
-      "XDR": 62
+      "XDR": 64
     },
     ".//activity-date/@type": {
-      "1": 62,
-      "2": 62,
-      "3": 62,
-      "4": 54
+      "1": 64,
+      "2": 63,
+      "3": 64,
+      "4": 55
     },
     ".//activity-status/@code": {
       "2": 6,
       "5": 2,
-      "3": 54
+      "3": 55,
+      "1": 1
     },
     ".//activity-scope/@code": {
-      "4": 62
+      "4": 64
     },
     ".//budget/@type": {
-      "1": 1642
+      "1": 1672
     },
     ".//budget/value/@currency": {
-      "XDR": 1642
+      "XDR": 1672
     },
     ".//collaboration-type/@code": {
-      "2": 62
+      "2": 64
     },
     ".//conditions/condition/@type": {
-      "1": 62,
-      "2": 62
+      "1": 64,
+      "2": 64
     },
     ".//country-budget-items/@vocabulary": {
-      "1": 62
+      "1": 64
     },
     ".//description/@type": {
-      "1": 47,
-      "2": 44,
-      "3": 29
+      "1": 49,
+      "2": 46,
+      "3": 31
     },
     ".//document-link/@format": {
-      "text/html": 74,
-      "application/pdf": 174,
-      "application/vnd.ms-excel": 92
+      "application/pdf": 187,
+      "application/vnd.ms-excel": 100,
+      "text/html": 138
     },
     ".//document-link/category/@code": {
-      "A12": 64,
-      "A01": 36,
-      "A02": 65,
-      "A03": 107,
-      "A04": 29,
-      "A05": 29,
-      "A08": 100,
-      "A06": 102,
-      "A11": 102,
-      "A07": 71,
-      "A10": 66,
+      "A01": 39,
+      "A02": 71,
+      "A03": 115,
+      "A04": 32,
+      "A05": 32,
+      "A08": 108,
+      "A06": 109,
+      "A11": 109,
+      "A07": 76,
+      "A10": 72,
+      "A12": 128,
       "A09": 1
     },
     ".//document-link/language/@code": {
-      "fr": 101,
-      "en": 239
+      "en": 257,
+      "fr": 168
     },
     ".//location/administrative/@vocabulary": {
-      "G1": 96,
+      "G1": 100,
       "A1": 2
     },
     ".//location/feature-designation/@code": {
-      "ADM1": 31,
+      "ADM1": 33,
       "PPL": 8,
       "PCLI": 5,
       "RGN": 1,
       "PPLA": 4
     },
     ".//location/location-class/@code": {
-      "1": 36,
+      "1": 38,
       "2": 12,
       "4": 1
     },
     ".//location/location-id/@vocabulary": {
-      "G1": 48,
+      "G1": 50,
       "A1": 1
     },
     ".//location/exactness/@code": {
       "2": 39,
-      "1": 10
+      "1": 12
     },
     ".//other-identifier/@type": {
-      "B1": 62
+      "B1": 64
     },
     ".//participating-org/@role": {
-      "4": 83,
+      "4": 85,
       "3": 37,
-      "1": 67
+      "1": 69
     },
     ".//participating-org/@type": {
-      "10": 123,
-      "40": 64
+      "10": 125,
+      "40": 66
     },
     ".//recipient-country/@code": {
-      "LS": 62
+      "LS": 64
     },
     ".//reporting-org/@type": {
-      "40": 62
+      "40": 64
     },
     ".//result/@type": {
-      "1": 206
+      "1": 235
     },
     ".//result/indicator/@measure": {
-      "1": 174,
-      "2": 32
+      "1": 200,
+      "2": 35
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "22020": 2,
-      "15124": 4,
+      "15124": 5,
       "31110": 9,
       "15142": 3,
       "43042": 2,
-      "32110": 2,
+      "32110": 3,
       "21011": 5,
       "21050": 1,
       "21023": 10,
@@ -133,33 +134,34 @@
       "73010": 1
     },
     ".//sector/@vocabulary": {
-      "1": 62
+      "1": 64
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 2325,
+      "C01": 2382,
       "D02": 107,
       "A02": 61,
       "A01": 36
     },
     ".//transaction/finance-type/@code": {
-      "421": 2365,
-      "110": 164
+      "421": 2401,
+      "110": 185
     },
     ".//transaction/flow-type/@code": {
-      "10": 2564
+      "10": 2605,
+      "21": 16
     },
     ".//transaction/tied-status/@code": {
-      "5": 2564
+      "5": 2621
     },
     ".//transaction/transaction-type/@code": {
-      "2": 111,
-      "3": 399,
-      "5": 1116,
-      "6": 938
+      "2": 113,
+      "3": 433,
+      "5": 1122,
+      "6": 953
     },
     ".//@xml:lang": {
-      "en": 303,
-      "fr": 103
+      "en": 315,
+      "fr": 111
     }
   }
 }

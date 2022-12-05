@@ -68,7 +68,7 @@
       "BF": 3,
       "MZ": 2,
       "NL": 2,
-      "MM": 2,
+      "MM": 3,
       "ET": 2,
       "GT": 2,
       "JO": 2,
@@ -82,8 +82,7 @@
       "BI": 1
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "998": 12,
-      "798": 1
+      "998": 12
     },
     ".//related-activity/@type": {
       "1": 28
@@ -110,20 +109,21 @@
       "1": 59
     },
     ".//transaction/provider-org/@type": {
-      "10": 2
+      "10": 8
     },
     ".//transaction/transaction-type/@code": {
       "2": 38,
-      "3": 105,
-      "11": 2
+      "3": 109,
+      "11": 2,
+      "1": 6
     },
     ".//transaction/value/@currency": {
-      "EUR": 145
+      "EUR": 155
     },
     ".//@xml:lang": {
-      "EN": 478,
+      "EN": 488,
       "nl": 320,
-      "en": 7385
+      "en": 7129
     }
   }
 }

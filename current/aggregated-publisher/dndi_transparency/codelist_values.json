@@ -3,24 +3,24 @@
     "EUR": 15
   },
   ".//@xml:lang": {
-    "en": 33
+    "en": 36
   },
   ".//activity-date/@type": {
     "1": 15,
-    "3": 14
+    "3": 15
   },
   ".//activity-status/@code": {
     "4": 1,
     "2": 14
   },
   ".//budget/@status": {
-    "1": 41
+    "1": 55
   },
   ".//budget/@type": {
-    "1": 41
+    "1": 55
   },
   ".//budget/value/@currency": {
-    "EUR": 40
+    "EUR": 51
   },
   ".//default-aid-type/@vocabulary": {
     "1": 15
@@ -42,17 +42,18 @@
     "2": 14
   },
   ".//document-link/@format": {
-    "text/html": 27,
-    "application/pdf": 77
+    "text/html": 39,
+    "application/pdf": 105,
+    "application/A2L": 1
   },
   ".//document-link/category/@code": {
     "B16": 15,
-    "B01": 76,
+    "B01": 105,
     "A12": 12,
-    "A05": 1
+    "A08": 13
   },
   ".//document-link/language/@code": {
-    "en": 104
+    "en": 133
   },
   ".//participating-org/@role": {
     "1": 15
@@ -64,76 +65,93 @@
     "99": 14
   },
   ".//recipient-country/@code": {
-    "CH": 4001,
-    "GB": 660,
-    "IT": 88,
-    "SE": 17,
-    "FR": 865,
-    "US": 951,
-    "ZA": 214,
-    "JP": 261,
-    "KE": 982,
-    "ES": 108,
-    "AU": 58,
-    "TH": 62,
-    "AT": 54,
-    "IN": 498,
-    "DE": 123,
-    "IE": 9,
+    "CH": 5013,
+    "GB": 915,
+    "IT": 106,
+    "SE": 21,
+    "FR": 1112,
+    "US": 1313,
+    "ZA": 234,
+    "JP": 327,
+    "KE": 1351,
+    "ES": 135,
+    "AU": 74,
+    "TH": 81,
+    "AT": 67,
+    "IN": 722,
+    "DE": 179,
+    "IE": 14,
     "PL": 2,
-    "MY": 399,
-    "CA": 42,
-    "BR": 1087,
-    "AR": 29,
-    "PT": 3,
-    "UG": 58,
-    "CN": 111,
-    "CD": 537,
-    "GH": 28,
-    "JO": 56,
-    "NL": 109,
-    "GT": 14,
-    "BE": 90,
+    "MY": 556,
+    "CA": 46,
+    "BR": 1555,
+    "AR": 56,
+    "PT": 5,
+    "UG": 75,
+    "CN": 129,
+    "BE": 154,
+    "CD": 785,
+    "GH": 41,
+    "GT": 17,
+    "MU": 2,
+    "NL": 135,
+    "JO": 61,
     "FI": 1,
-    "MU": 1,
-    "GN": 15,
-    "SN": 17,
-    "KR": 25,
+    "GN": 17,
+    "SN": 23,
     "CL": 4,
-    "MW": 4,
-    "BB": 10,
+    "MW": 6,
+    "KR": 42,
+    "CO": 38,
+    "SD": 50,
+    "BB": 13,
+    "AE": 15,
+    "PE": 5,
+    "BO": 14,
+    "ET": 20,
+    "PA": 2,
+    "SG": 4,
     "BD": 1,
-    "ET": 14,
-    "AE": 7,
-    "CO": 12,
-    "PE": 3,
-    "SG": 1,
     "NO": 11,
-    "SD": 27,
-    "PA": 1,
     "HU": 2,
+    "EG": 4,
     "SK": 1,
-    "EG": 3,
-    "TZ": 13,
-    "LV": 10,
-    "BO": 11,
+    "TZ": 22,
+    "LV": 11,
     "BN": 1,
     "MX": 1,
     "EE": 1,
     "LK": 3,
     "ZM": 1,
-    "IL": 3,
+    "LU": 1,
+    "IL": 4,
+    "CM": 7,
+    "CI": 5,
     "BF": 1,
-    "CM": 3,
-    "CI": 2,
     "ML": 3,
     "MZ": 1
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "89": 13
+    "89": 15
   },
   ".//reporting-org/@type": {
     "60": 15
+  },
+  ".//result/@type": {
+    "1": 13
+  },
+  ".//result/document-link/@format": {
+    "text/html": 12,
+    "application/A2L": 1
+  },
+  ".//result/document-link/category/@code": {
+    "A08": 13
+  },
+  ".//result/document-link/language/@code": {
+    "en": 1
+  },
+  ".//result/indicator/@measure": {
+    "1": 16
   },
   ".//sector/@vocabulary": {
     "8": 15,
@@ -151,106 +169,107 @@
     "121": 1
   },
   ".//transaction/aid-type/@vocabulary": {
-    "1": 11743
+    "1": 15633
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 11743
+    "C01": 15633
   },
   ".//transaction/finance-type/@code": {
-    "110": 11743
+    "110": 15633
   },
   ".//transaction/flow-type/@code": {
-    "10": 11743
+    "10": 15633
   },
   ".//transaction/provider-org/@type": {
-    "10": 7446,
-    "15": 365,
-    "60": 1989,
-    "21": 1164,
-    "70": 330,
-    "11": 93,
-    "40": 335,
+    "10": 9425,
+    "15": 466,
+    "60": 2835,
+    "21": 1636,
+    "70": 632,
+    "11": 142,
+    "40": 476,
     "90": 21
   },
   ".//transaction/receiver-org/@type": {
-    "60": 11743
+    "60": 15633
   },
   ".//transaction/recipient-country/@code": {
-    "CH": 4001,
-    "GB": 660,
-    "IT": 88,
-    "SE": 17,
-    "FR": 865,
-    "US": 951,
-    "ZA": 214,
-    "JP": 261,
-    "KE": 982,
-    "ES": 108,
-    "AU": 58,
-    "TH": 62,
-    "AT": 54,
-    "IN": 498,
-    "DE": 123,
-    "IE": 9,
+    "CH": 5013,
+    "GB": 915,
+    "IT": 106,
+    "SE": 21,
+    "FR": 1112,
+    "US": 1313,
+    "ZA": 234,
+    "JP": 327,
+    "KE": 1351,
+    "ES": 135,
+    "AU": 74,
+    "TH": 81,
+    "AT": 67,
+    "IN": 722,
+    "DE": 179,
+    "IE": 14,
     "PL": 2,
-    "MY": 399,
-    "CA": 42,
-    "BR": 1087,
-    "AR": 29,
-    "PT": 3,
-    "UG": 58,
-    "CN": 111,
-    "CD": 537,
-    "GH": 28,
-    "JO": 56,
-    "NL": 109,
-    "GT": 14,
-    "BE": 90,
+    "MY": 556,
+    "CA": 46,
+    "BR": 1555,
+    "AR": 56,
+    "PT": 5,
+    "UG": 75,
+    "CN": 129,
+    "BE": 154,
+    "CD": 785,
+    "GH": 41,
+    "GT": 17,
+    "MU": 2,
+    "NL": 135,
+    "JO": 61,
     "FI": 1,
-    "MU": 1,
-    "GN": 15,
-    "SN": 17,
-    "KR": 25,
+    "GN": 17,
+    "SN": 23,
     "CL": 4,
-    "MW": 4,
-    "BB": 10,
+    "MW": 6,
+    "KR": 42,
+    "CO": 38,
+    "SD": 50,
+    "BB": 13,
+    "AE": 15,
+    "PE": 5,
+    "BO": 14,
+    "ET": 20,
+    "PA": 2,
+    "SG": 4,
     "BD": 1,
-    "ET": 14,
-    "AE": 7,
-    "CO": 12,
-    "PE": 3,
-    "SG": 1,
     "NO": 11,
-    "SD": 27,
-    "PA": 1,
     "HU": 2,
+    "EG": 4,
     "SK": 1,
-    "EG": 3,
-    "TZ": 13,
-    "LV": 10,
-    "BO": 11,
+    "TZ": 22,
+    "LV": 11,
     "BN": 1,
     "MX": 1,
     "EE": 1,
     "LK": 3,
     "ZM": 1,
-    "IL": 3,
+    "LU": 1,
+    "IL": 4,
+    "CM": 7,
+    "CI": 5,
     "BF": 1,
-    "CM": 3,
-    "CI": 2,
     "ML": 3,
     "MZ": 1
   },
   ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "89": 13
+    "89": 15
   },
   ".//transaction/tied-status/@code": {
-    "5": 11743
+    "5": 15633
   },
   ".//transaction/transaction-type/@code": {
-    "4": 11743
+    "4": 15633
   },
   ".//transaction/value/@currency": {
-    "EUR": 11743
+    "EUR": 15633
   }
 }

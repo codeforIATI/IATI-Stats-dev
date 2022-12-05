@@ -20,12 +20,12 @@
     },
     ".//budget/@status": {
       "w-d-actitvities.xml": {
-        "2": 30
+        "2": 35
       }
     },
     ".//budget/value/@currency": {
       "w-d-actitvities.xml": {
-        "EUR": 30
+        "EUR": 35
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -132,14 +132,19 @@
     },
     ".//result/@type": {
       "w-d-actitvities.xml": {
-        "2": 81,
+        "2": 83,
         "1": 65
       }
     },
     ".//result/indicator/@measure": {
       "w-d-actitvities.xml": {
-        "1": 253,
+        "1": 255,
         "2": 84
+      }
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "w-d-actitvities.xml": {
+        "99": 2
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -161,37 +166,37 @@
     ".//transaction/provider-org/@type": {
       "w-d-actitvities.xml": {
         "60": 2,
-        "22": 39,
-        "10": 19
+        "22": 41,
+        "10": 23
       }
     },
     ".//transaction/transaction-type/@code": {
       "w-d-actitvities.xml": {
         "4": 189,
-        "11": 6,
-        "1": 54,
+        "11": 7,
+        "1": 59,
         "2": 47,
-        "3": 255
+        "3": 275
       }
     },
     ".//transaction/value/@currency": {
       "w-d-actitvities.xml": {
-        "EUR": 192,
+        "EUR": 198,
         "ETB": 232,
         "CAD": 12,
         "SLL": 1,
         "UGX": 33,
         "USD": 1,
-        "XOF": 71,
-        "NOK": 9
+        "XOF": 90,
+        "NOK": 10
       }
     },
     ".//@xml:lang": {
       "w-d-actitvities.xml": {
-        "EN": 840,
-        "nl": 187,
-        "en": 943,
-        "fr": 124,
+        "EN": 869,
+        "nl": 189,
+        "en": 953,
+        "fr": 132,
         "es": 120
       }
     }

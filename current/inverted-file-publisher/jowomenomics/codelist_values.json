@@ -6,7 +6,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "jowomenomics-activities.xml": 16
+      "jowomenomics-activities.xml": 81
     }
   },
   ".//activity-date/@type": {
@@ -14,12 +14,20 @@
       "jowomenomics-activities.xml": 3
     },
     "4": {
-      "jowomenomics-activities.xml": 2
+      "jowomenomics-activities.xml": 3
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "jowomenomics-activities.xml": 3
     }
   },
   ".//activity-status/@code": {
     "2": {
-      "jowomenomics-activities.xml": 3
+      "jowomenomics-activities.xml": 1
+    },
+    "4": {
+      "jowomenomics-activities.xml": 2
     }
   },
   ".//budget/@status": {
@@ -37,9 +45,54 @@
       "jowomenomics-activities.xml": 3
     }
   },
+  ".//contact-info/@type": {
+    "1": {
+      "jowomenomics-activities.xml": 3
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "jowomenomics-activities.xml": 3
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "jowomenomics-activities.xml": 3
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "jowomenomics-activities.xml": 3
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "jowomenomics-activities.xml": 3
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "jowomenomics-activities.xml": 3
+    }
+  },
   ".//description/@type": {
     "1": {
       "jowomenomics-activities.xml": 3
+    }
+  },
+  ".//document-link/@format": {
+    "application/vnd.oma.poc.detailed-progress-report+xml": {
+      "jowomenomics-activities.xml": 2
+    }
+  },
+  ".//document-link/category/@code": {
+    "B01": {
+      "jowomenomics-activities.xml": 2
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "jowomenomics-activities.xml": 2
     }
   },
   ".//participating-org/@crs-channel-code": {
@@ -50,10 +103,34 @@
   ".//participating-org/@role": {
     "1": {
       "jowomenomics-activities.xml": 3
+    },
+    "2": {
+      "jowomenomics-activities.xml": 3
+    },
+    "4": {
+      "jowomenomics-activities.xml": 3
     }
   },
   ".//participating-org/@type": {
     "10": {
+      "jowomenomics-activities.xml": 3
+    },
+    "22": {
+      "jowomenomics-activities.xml": 6
+    }
+  },
+  ".//policy-marker/@significance": {
+    "2": {
+      "jowomenomics-activities.xml": 3
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "jowomenomics-activities.xml": 3
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
       "jowomenomics-activities.xml": 3
     }
   },
@@ -62,37 +139,91 @@
       "jowomenomics-activities.xml": 3
     }
   },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "jowomenomics-activities.xml": 3
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "589": {
+      "jowomenomics-activities.xml": 3
+    }
+  },
+  ".//related-activity/@type": {
+    "2": {
+      "jowomenomics-activities.xml": 2
+    },
+    "3": {
+      "jowomenomics-activities.xml": 2
+    },
+    "1": {
+      "jowomenomics-activities.xml": 2
+    }
+  },
   ".//reporting-org/@type": {
     "22": {
       "jowomenomics-activities.xml": 3
     }
   },
+  ".//result/@type": {
+    "1": {
+      "jowomenomics-activities.xml": 6
+    },
+    "2": {
+      "jowomenomics-activities.xml": 2
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "jowomenomics-activities.xml": 15
+    },
+    "2": {
+      "jowomenomics-activities.xml": 2
+    }
+  },
   ".//sector/@vocabulary": {
     "1": {
-      "jowomenomics-activities.xml": 2
-    },
-    "7": {
-      "jowomenomics-activities.xml": 1
+      "jowomenomics-activities.xml": 3
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "15164": {
-      "jowomenomics-activities.xml": 2
+      "jowomenomics-activities.xml": 3
     }
   },
-  ".//sector[@vocabulary = '7']/@code": {
-    "5": {
-      "jowomenomics-activities.xml": 1
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "jowomenomics-activities.xml": 7
+    },
+    "22": {
+      "jowomenomics-activities.xml": 7
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "90": {
+      "jowomenomics-activities.xml": 7
     }
   },
   ".//transaction/transaction-type/@code": {
+    "11": {
+      "jowomenomics-activities.xml": 3
+    },
+    "4": {
+      "jowomenomics-activities.xml": 3
+    },
+    "3": {
+      "jowomenomics-activities.xml": 3
+    },
+    "2": {
+      "jowomenomics-activities.xml": 3
+    },
     "1": {
-      "jowomenomics-activities.xml": 2
+      "jowomenomics-activities.xml": 3
     }
   },
   ".//transaction/value/@currency": {
     "JOD": {
-      "jowomenomics-activities.xml": 2
+      "jowomenomics-activities.xml": 15
     }
   }
 }

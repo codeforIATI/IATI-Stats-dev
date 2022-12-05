@@ -1,358 +1,233 @@
 {
   ".//@default-currency": {
     "EUR": {
-      "nfp-org-nfp.xml": 2,
-      "nfp-org-apf.xml": 4
+      "nfp-nfp-iati.xml": 2
     }
   },
   ".//@xml:lang": {
     "en": {
-      "nfp-org-nfp.xml": 3,
-      "nfp-org-apf.xml": 5
-    },
-    "EN": {
-      "nfp-org-nfp.xml": 5,
-      "nfp-org-apf.xml": 9
+      "nfp-nfp-iati.xml": 2
     }
   },
   ".//activity-date/@type": {
-    "1": {
-      "nfp-org-nfp.xml": 2,
-      "nfp-org-apf.xml": 4
-    },
     "2": {
-      "nfp-org-nfp.xml": 2,
-      "nfp-org-apf.xml": 4
+      "nfp-nfp-iati.xml": 2
     },
     "3": {
-      "nfp-org-nfp.xml": 2,
-      "nfp-org-apf.xml": 4
-    },
-    "4": {
-      "nfp-org-nfp.xml": 1,
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 2
     }
   },
   ".//activity-status/@code": {
-    "2": {
-      "nfp-org-nfp.xml": 2,
-      "nfp-org-apf.xml": 1
+    "4": {
+      "nfp-nfp-iati.xml": 1
     },
-    "3": {
-      "nfp-org-apf.xml": 3
-    }
-  },
-  ".//budget/@type": {
-    "1": {
-      "nfp-org-nfp.xml": 2,
-      "nfp-org-apf.xml": 3
+    "2": {
+      "nfp-nfp-iati.xml": 1
     }
   },
   ".//budget/value/@currency": {
     "EUR": {
-      "nfp-org-nfp.xml": 1,
-      "nfp-org-apf.xml": 3
-    },
-    "Euro": {
-      "nfp-org-nfp.xml": 1
+      "nfp-nfp-iati.xml": 5
     }
   },
   ".//collaboration-type/@code": {
     "3": {
-      "nfp-org-nfp.xml": 2,
-      "nfp-org-apf.xml": 4
+      "nfp-nfp-iati.xml": 2
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "nfp-nfp-iati.xml": 2
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "B01": {
-      "nfp-org-nfp.xml": 2,
-      "nfp-org-apf.xml": 4
+      "nfp-nfp-iati.xml": 2
     }
   },
   ".//default-finance-type/@code": {
     "110": {
-      "nfp-org-nfp.xml": 2,
-      "nfp-org-apf.xml": 4
+      "nfp-nfp-iati.xml": 2
     }
   },
   ".//default-flow-type/@code": {
     "10": {
-      "nfp-org-nfp.xml": 2,
-      "nfp-org-apf.xml": 4
+      "nfp-nfp-iati.xml": 2
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "nfp-org-nfp.xml": 2,
-      "nfp-org-apf.xml": 4
+      "nfp-nfp-iati.xml": 2
     }
   },
   ".//description/@type": {
     "1": {
-      "nfp-org-nfp.xml": 4,
-      "nfp-org-apf.xml": 8
+      "nfp-nfp-iati.xml": 2
     }
   },
   ".//document-link/@format": {
     "image/jpeg": {
-      "nfp-org-nfp.xml": 1,
-      "nfp-org-apf.xml": 4
+      "nfp-nfp-iati.xml": 2
     },
     "text/plain": {
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 3
     }
   },
   ".//document-link/category/@code": {
     "A12": {
-      "nfp-org-nfp.xml": 1,
-      "nfp-org-apf.xml": 4
+      "nfp-nfp-iati.xml": 2
     },
     "B01": {
-      "nfp-org-apf.xml": 1
+      "nfp-nfp-iati.xml": 1
     },
     "A05": {
-      "nfp-org-apf.xml": 1
+      "nfp-nfp-iati.xml": 1
     },
     "A08": {
-      "nfp-org-apf.xml": 1
+      "nfp-nfp-iati.xml": 1
     }
   },
-  ".//location/exactness/@code": {
-    "1": {
-      "nfp-org-apf.xml": 62
-    },
-    "2": {
-      "nfp-org-apf.xml": 16
-    }
-  },
-  ".//location/location-class/@code": {
-    "1": {
-      "nfp-org-apf.xml": 78
-    }
-  },
-  ".//location/location-reach/@code": {
-    "1": {
-      "nfp-org-apf.xml": 78
+  ".//document-link/language/@code": {
+    "en": {
+      "nfp-nfp-iati.xml": 5
     }
   },
   ".//participating-org/@role": {
     "1": {
-      "nfp-org-nfp.xml": 3,
-      "nfp-org-apf.xml": 4
-    },
-    "3": {
-      "nfp-org-nfp.xml": 1
+      "nfp-nfp-iati.xml": 4
     },
     "4": {
-      "nfp-org-nfp.xml": 2,
-      "nfp-org-apf.xml": 6
+      "nfp-nfp-iati.xml": 2
+    },
+    "2": {
+      "nfp-nfp-iati.xml": 2
+    },
+    "3": {
+      "nfp-nfp-iati.xml": 1
     }
   },
   ".//participating-org/@type": {
-    "1": {
-      "nfp-org-nfp.xml": 1,
-      "nfp-org-apf.xml": 1
+    "10": {
+      "nfp-nfp-iati.xml": 3
     },
     "60": {
-      "nfp-org-nfp.xml": 2,
-      "nfp-org-apf.xml": 3
-    },
-    "90": {
-      "nfp-org-nfp.xml": 1,
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 6
     }
   },
   ".//policy-marker/@significance": {
     "2": {
-      "nfp-org-nfp.xml": 9,
-      "nfp-org-apf.xml": 15
+      "nfp-nfp-iati.xml": 2
     }
   },
   ".//policy-marker/@vocabulary": {
-    "99": {
-      "nfp-org-nfp.xml": 9,
-      "nfp-org-apf.xml": 15
+    "1": {
+      "nfp-nfp-iati.xml": 2
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12": {
+      "nfp-nfp-iati.xml": 2
     }
   },
   ".//recipient-country/@code": {
-    "NL": {
-      "nfp-org-nfp.xml": 10,
-      "nfp-org-apf.xml": 9
-    },
     "BJ": {
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 1
     },
     "BI": {
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 1
     },
     "ET": {
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 1
     },
     "ID": {
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 1
     },
     "KE": {
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 1
     },
     "ML": {
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 1
     },
     "MM": {
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 1
+    },
+    "NL": {
+      "nfp-nfp-iati.xml": 2
     },
     "NE": {
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 1
     },
     "RW": {
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 1
     },
     "UG": {
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 1
     },
     "TZ": {
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 1
     },
     "ZM": {
-      "nfp-org-apf.xml": 3
-    }
-  },
-  ".//related-activity/@type": {
-    "1": {
-      "nfp-org-nfp.xml": 1,
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 1
     }
   },
   ".//reporting-org/@type": {
-    "21": {
-      "nfp-org-nfp.xml": 2,
-      "nfp-org-apf.xml": 4
+    "60": {
+      "nfp-nfp-iati.xml": 2
     }
   },
   ".//result/@type": {
     "1": {
-      "nfp-org-nfp.xml": 5,
-      "nfp-org-apf.xml": 15
+      "nfp-nfp-iati.xml": 25
     },
     "2": {
-      "nfp-org-nfp.xml": 4
+      "nfp-nfp-iati.xml": 4
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "nfp-org-nfp.xml": 20,
-      "nfp-org-apf.xml": 95
+      "nfp-nfp-iati.xml": 61
     },
     "2": {
-      "nfp-org-nfp.xml": 43
-    }
-  },
-  ".//result/indicator/reference/@vocabulary": {
-    "99": {
-      "nfp-org-nfp.xml": 63,
-      "nfp-org-apf.xml": 95
+      "nfp-nfp-iati.xml": 42
     }
   },
   ".//sector/@vocabulary": {
-    "2": {
-      "nfp-org-nfp.xml": 1,
-      "nfp-org-apf.xml": 3
-    },
-    "7": {
-      "nfp-org-nfp.xml": 2
-    },
-    "8": {
-      "nfp-org-nfp.xml": 1
-    },
     "1": {
-      "nfp-org-nfp.xml": 10,
-      "nfp-org-apf.xml": 6
+      "nfp-nfp-iati.xml": 2
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "31110": {
-      "nfp-org-nfp.xml": 10,
-      "nfp-org-apf.xml": 6
-    }
-  },
-  ".//sector[@vocabulary = '2']/@code": {
-    "122": {
-      "nfp-org-nfp.xml": 1,
-      "nfp-org-apf.xml": 3
-    }
-  },
-  ".//sector[@vocabulary = '7']/@code": {
-    "2": {
-      "nfp-org-nfp.xml": 1
-    },
-    "17": {
-      "nfp-org-nfp.xml": 1
-    }
-  },
-  ".//sector[@vocabulary = '8']/@code": {
-    "0": {
-      "nfp-org-nfp.xml": 1
-    }
-  },
-  ".//transaction/disbursement-channel/@code": {
-    "2": {
-      "nfp-org-nfp.xml": 10,
-      "nfp-org-apf.xml": 6
+    "43071": {
+      "nfp-nfp-iati.xml": 2
     }
   },
   ".//transaction/provider-org/@type": {
-    "11": {
-      "nfp-org-nfp.xml": 6,
-      "nfp-org-apf.xml": 6
-    },
-    "21": {
-      "nfp-org-nfp.xml": 2
+    "10": {
+      "nfp-nfp-iati.xml": 13
     },
     "60": {
-      "nfp-org-nfp.xml": 2
+      "nfp-nfp-iati.xml": 17
     }
   },
   ".//transaction/receiver-org/@type": {
     "60": {
-      "nfp-org-nfp.xml": 5,
-      "nfp-org-apf.xml": 3
-    },
-    "90": {
-      "nfp-org-nfp.xml": 5,
-      "nfp-org-apf.xml": 3
-    }
-  },
-  ".//transaction/recipient-country/@code": {
-    "NL": {
-      "nfp-org-nfp.xml": 10,
-      "nfp-org-apf.xml": 6
-    }
-  },
-  ".//transaction/sector/@vocabulary": {
-    "1": {
-      "nfp-org-nfp.xml": 10,
-      "nfp-org-apf.xml": 6
-    }
-  },
-  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "31110": {
-      "nfp-org-nfp.xml": 10,
-      "nfp-org-apf.xml": 6
+      "nfp-nfp-iati.xml": 30
     }
   },
   ".//transaction/transaction-type/@code": {
     "11": {
-      "nfp-org-nfp.xml": 5,
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 6
+    },
+    "1": {
+      "nfp-nfp-iati.xml": 13
     },
     "4": {
-      "nfp-org-nfp.xml": 5,
-      "nfp-org-apf.xml": 3
+      "nfp-nfp-iati.xml": 11
     }
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "nfp-org-nfp.xml": 10,
-      "nfp-org-apf.xml": 6
+      "nfp-nfp-iati.xml": 30
     }
   }
 }

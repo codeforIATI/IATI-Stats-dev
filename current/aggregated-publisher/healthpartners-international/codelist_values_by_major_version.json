@@ -49,10 +49,10 @@
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "15113": 1,
       "15150": 1,
-      "12240": 1,
       "12250": 1,
       "13020": 1,
       "12181": 1,
+      "12240": 1,
       "12220": 1
     },
     ".//sector/@vocabulary": {
@@ -72,6 +72,21 @@
       "en": 31,
       "ha": 1
     },
+    ".//activity-scope/@code": {
+      "8": 1
+    },
+    ".//transaction/provider-org/@type": {
+      "70": 10,
+      "21": 1,
+      "10": 3
+    },
+    ".//transaction/receiver-org/@type": {
+      "70": 2,
+      "21": 1
+    },
+    ".//sector[@vocabulary = '2']/@code": {
+      "430": 1
+    },
     ".//default-tied-status/@code": {
       "5": 1
     },
@@ -81,23 +96,8 @@
     ".//recipient-region/@vocabulary": {
       "1": 1
     },
-    ".//transaction/provider-org/@type": {
-      "70": 10,
-      "21": 1,
-      "10": 3
-    },
     ".//transaction/tied-status/@code": {
       "5": 3
-    },
-    ".//activity-scope/@code": {
-      "8": 1
-    },
-    ".//transaction/receiver-org/@type": {
-      "70": 2,
-      "21": 1
-    },
-    ".//sector[@vocabulary = '2']/@code": {
-      "430": 1
     }
   }
 }

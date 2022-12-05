@@ -1,33 +1,43 @@
 {
   ".//@default-currency": {
     "CAD": {
-      "hgc-ca.xml": 1,
-      "hgc-activities.xml": 1
+      "hgc-ca.xml": 2,
+      "hgc-activities.xml": 2
     }
   },
   ".//@xml:lang": {
     "en": {
-      "hgc-ca.xml": 11,
-      "hgc-activities.xml": 11
+      "hgc-ca.xml": 17,
+      "hgc-activities.xml": 17
     }
   },
   ".//activity-date/@type": {
     "2": {
-      "hgc-ca.xml": 1,
-      "hgc-activities.xml": 1
+      "hgc-ca.xml": 2,
+      "hgc-activities.xml": 2
     },
     "3": {
-      "hgc-ca.xml": 1,
-      "hgc-activities.xml": 1
+      "hgc-ca.xml": 2,
+      "hgc-activities.xml": 2
     }
   },
   ".//activity-status/@code": {
+    "2": {
+      "hgc-ca.xml": 2,
+      "hgc-activities.xml": 2
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
     "2": {
       "hgc-ca.xml": 1,
       "hgc-activities.xml": 1
     }
   },
-  ".//budget/@status": {
+  ".//budget/@type": {
     "1": {
       "hgc-ca.xml": 1,
       "hgc-activities.xml": 1
@@ -37,12 +47,16 @@
     "CAD": {
       "hgc-ca.xml": 1,
       "hgc-activities.xml": 1
+    },
+    "GBP": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
     }
   },
   ".//description/@type": {
     "1": {
-      "hgc-ca.xml": 1,
-      "hgc-activities.xml": 1
+      "hgc-ca.xml": 2,
+      "hgc-activities.xml": 2
     }
   },
   ".//participating-org/@crs-channel-code": {
@@ -51,42 +65,42 @@
       "hgc-activities.xml": 4
     },
     "22000": {
-      "hgc-ca.xml": 1,
-      "hgc-activities.xml": 1
+      "hgc-ca.xml": 2,
+      "hgc-activities.xml": 2
     }
   },
   ".//participating-org/@role": {
     "1": {
-      "hgc-ca.xml": 4,
-      "hgc-activities.xml": 4
+      "hgc-ca.xml": 5,
+      "hgc-activities.xml": 5
     },
     "4": {
-      "hgc-ca.xml": 1,
-      "hgc-activities.xml": 1
+      "hgc-ca.xml": 2,
+      "hgc-activities.xml": 2
     }
   },
   ".//participating-org/@type": {
     "10": {
-      "hgc-ca.xml": 4,
-      "hgc-activities.xml": 4
+      "hgc-ca.xml": 5,
+      "hgc-activities.xml": 5
     },
     "22": {
-      "hgc-ca.xml": 1,
-      "hgc-activities.xml": 1
+      "hgc-ca.xml": 2,
+      "hgc-activities.xml": 2
     }
   },
   ".//recipient-country/@code": {
     "CA": {
-      "hgc-ca.xml": 55,
-      "hgc-activities.xml": 55
+      "hgc-ca.xml": 61,
+      "hgc-activities.xml": 61
     },
     "CD": {
       "hgc-ca.xml": 35,
       "hgc-activities.xml": 35
     },
     "JO": {
-      "hgc-ca.xml": 3,
-      "hgc-activities.xml": 3
+      "hgc-ca.xml": 4,
+      "hgc-activities.xml": 4
     },
     "AU": {
       "hgc-ca.xml": 5,
@@ -105,48 +119,88 @@
       "hgc-activities.xml": 3
     },
     "UG": {
-      "hgc-ca.xml": 6,
-      "hgc-activities.xml": 6
+      "hgc-ca.xml": 8,
+      "hgc-activities.xml": 8
     },
     "AF": {
       "hgc-ca.xml": 6,
       "hgc-activities.xml": 6
-    },
-    "SS": {
-      "hgc-ca.xml": 17,
-      "hgc-activities.xml": 17
     },
     "TZ": {
       "hgc-ca.xml": 3,
       "hgc-activities.xml": 3
     },
     "KE": {
-      "hgc-ca.xml": 11,
-      "hgc-activities.xml": 11
+      "hgc-ca.xml": 12,
+      "hgc-activities.xml": 12
+    },
+    "SS": {
+      "hgc-ca.xml": 17,
+      "hgc-activities.xml": 17
     },
     "BD": {
       "hgc-ca.xml": 3,
       "hgc-activities.xml": 3
     },
-    "PK": {
-      "hgc-ca.xml": 2,
-      "hgc-activities.xml": 2
+    "IQ": {
+      "hgc-ca.xml": 3,
+      "hgc-activities.xml": 3
     },
-    "SO": {
-      "hgc-ca.xml": 5,
-      "hgc-activities.xml": 5
+    "PK": {
+      "hgc-ca.xml": 3,
+      "hgc-activities.xml": 3
     },
     "NG": {
-      "hgc-ca.xml": 11,
-      "hgc-activities.xml": 11
+      "hgc-ca.xml": 12,
+      "hgc-activities.xml": 12
     },
     "US": {
       "hgc-ca.xml": 4,
       "hgc-activities.xml": 4
     },
-    "IQ": {
-      "hgc-ca.xml": 2,
-      "hgc-activities.xml": 2
+    "SO": {
+      "hgc-ca.xml": 5,
+      "hgc-activities.xml": 5
+    },
+    "LR": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "IN": {
+      "hgc-ca.xml": 5,
+      "hgc-activities.xml": 5
+    },
+    "CO": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "PE": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "RW": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "GE": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "CM": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "MX": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "LB": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "ZA": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -165,14 +219,24 @@
   },
   ".//reporting-org/@type": {
     "22": {
-      "hgc-ca.xml": 1,
-      "hgc-activities.xml": 1
+      "hgc-ca.xml": 2,
+      "hgc-activities.xml": 2
     }
   },
   ".//sector/@vocabulary": {
     "2": {
       "hgc-ca.xml": 4,
       "hgc-activities.xml": 4
+    },
+    "1": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12340": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
     }
   },
   ".//sector[@vocabulary = '2']/@code": {
@@ -195,16 +259,16 @@
   },
   ".//transaction/recipient-country/@code": {
     "CA": {
-      "hgc-ca.xml": 55,
-      "hgc-activities.xml": 55
+      "hgc-ca.xml": 61,
+      "hgc-activities.xml": 61
     },
     "CD": {
       "hgc-ca.xml": 35,
       "hgc-activities.xml": 35
     },
     "JO": {
-      "hgc-ca.xml": 3,
-      "hgc-activities.xml": 3
+      "hgc-ca.xml": 4,
+      "hgc-activities.xml": 4
     },
     "AU": {
       "hgc-ca.xml": 5,
@@ -223,48 +287,88 @@
       "hgc-activities.xml": 3
     },
     "UG": {
-      "hgc-ca.xml": 6,
-      "hgc-activities.xml": 6
+      "hgc-ca.xml": 8,
+      "hgc-activities.xml": 8
     },
     "AF": {
       "hgc-ca.xml": 6,
       "hgc-activities.xml": 6
-    },
-    "SS": {
-      "hgc-ca.xml": 17,
-      "hgc-activities.xml": 17
     },
     "TZ": {
       "hgc-ca.xml": 3,
       "hgc-activities.xml": 3
     },
     "KE": {
-      "hgc-ca.xml": 11,
-      "hgc-activities.xml": 11
+      "hgc-ca.xml": 12,
+      "hgc-activities.xml": 12
+    },
+    "SS": {
+      "hgc-ca.xml": 17,
+      "hgc-activities.xml": 17
     },
     "BD": {
       "hgc-ca.xml": 3,
       "hgc-activities.xml": 3
     },
-    "PK": {
-      "hgc-ca.xml": 2,
-      "hgc-activities.xml": 2
+    "IQ": {
+      "hgc-ca.xml": 3,
+      "hgc-activities.xml": 3
     },
-    "SO": {
-      "hgc-ca.xml": 5,
-      "hgc-activities.xml": 5
+    "PK": {
+      "hgc-ca.xml": 3,
+      "hgc-activities.xml": 3
     },
     "NG": {
-      "hgc-ca.xml": 11,
-      "hgc-activities.xml": 11
+      "hgc-ca.xml": 12,
+      "hgc-activities.xml": 12
     },
     "US": {
       "hgc-ca.xml": 4,
       "hgc-activities.xml": 4
     },
-    "IQ": {
-      "hgc-ca.xml": 2,
-      "hgc-activities.xml": 2
+    "SO": {
+      "hgc-ca.xml": 5,
+      "hgc-activities.xml": 5
+    },
+    "LR": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "IN": {
+      "hgc-ca.xml": 5,
+      "hgc-activities.xml": 5
+    },
+    "CO": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "PE": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "RW": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "GE": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "CM": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "MX": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "LB": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
+    },
+    "ZA": {
+      "hgc-ca.xml": 1,
+      "hgc-activities.xml": 1
     }
   },
   ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -283,22 +387,22 @@
   },
   ".//transaction/transaction-type/@code": {
     "1": {
-      "hgc-ca.xml": 55,
-      "hgc-activities.xml": 55
+      "hgc-ca.xml": 61,
+      "hgc-activities.xml": 61
     },
     "2": {
-      "hgc-ca.xml": 212,
-      "hgc-activities.xml": 212
+      "hgc-ca.xml": 233,
+      "hgc-activities.xml": 233
     }
   },
   ".//transaction/value/@currency": {
+    "CAD": {
+      "hgc-ca.xml": 257,
+      "hgc-activities.xml": 257
+    },
     "USD": {
       "hgc-ca.xml": 37,
       "hgc-activities.xml": 37
-    },
-    "CAD": {
-      "hgc-ca.xml": 230,
-      "hgc-activities.xml": 230
     }
   }
 }

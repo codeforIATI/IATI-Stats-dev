@@ -42,6 +42,31 @@
         "1": 1
       }
     },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "ywca-activities.xml": {
+        "C01": 1
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "ywca-activities.xml": {
+        "1": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "ywca-activities.xml": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "ywca-activities.xml": {
+        "30": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "ywca-activities.xml": {
+        "5": 1
+      }
+    },
     ".//description/@type": {
       "ywca-activities.xml": {
         "1": 1,
@@ -81,6 +106,21 @@
         "21": 1
       }
     },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "ywca-activities.xml": {
+        "1": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "ywca-activities.xml": {
+        "1": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "ywca-activities.xml": {
+        "1": 1
+      }
+    },
     ".//recipient-country/@code": {
       "ywca-activities.xml": {
         "PS": 1
@@ -113,17 +153,12 @@
     },
     ".//result/indicator/@measure": {
       "ywca-activities.xml": {
-        "1": 5
+        "1": 6
       }
     },
     ".//result/indicator/reference/@vocabulary": {
       "ywca-activities.xml": {
-        "99": 5
-      }
-    },
-    ".//result/reference/@vocabulary": {
-      "ywca-activities.xml": {
-        "99": 3
+        "99": 6
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -143,23 +178,24 @@
     },
     ".//transaction/provider-org/@type": {
       "ywca-activities.xml": {
-        "21": 3
+        "21": 4
       }
     },
     ".//transaction/receiver-org/@type": {
       "ywca-activities.xml": {
-        "22": 3
+        "22": 4
       }
     },
     ".//transaction/transaction-type/@code": {
       "ywca-activities.xml": {
         "1": 3,
-        "11": 4
+        "11": 1,
+        "4": 1
       }
     },
     ".//transaction/value/@currency": {
       "ywca-activities.xml": {
-        "EUR": 7
+        "EUR": 5
       }
     },
     ".//@xml:lang": {

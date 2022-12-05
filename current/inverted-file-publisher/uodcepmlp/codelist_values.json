@@ -1,17 +1,17 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "uodcepmlp-activities.xml": 2
+      "uodcepmlp-activities.xml": 4
     }
   },
   ".//@xml:lang": {
     "en": {
-      "uodcepmlp-activities.xml": 37
+      "uodcepmlp-activities.xml": 51
     }
   },
   ".//activity-date/@type": {
     "2": {
-      "uodcepmlp-activities.xml": 1
+      "uodcepmlp-activities.xml": 3
     },
     "1": {
       "uodcepmlp-activities.xml": 1
@@ -19,12 +19,15 @@
   },
   ".//activity-status/@code": {
     "2": {
-      "uodcepmlp-activities.xml": 2
+      "uodcepmlp-activities.xml": 3
+    },
+    "3": {
+      "uodcepmlp-activities.xml": 1
     }
   },
   ".//budget/@status": {
     "2": {
-      "uodcepmlp-activities.xml": 1
+      "uodcepmlp-activities.xml": 3
     },
     "1": {
       "uodcepmlp-activities.xml": 1
@@ -33,16 +36,19 @@
   ".//budget/@type": {
     "2": {
       "uodcepmlp-activities.xml": 2
+    },
+    "1": {
+      "uodcepmlp-activities.xml": 2
     }
   },
   ".//budget/value/@currency": {
     "GBP": {
-      "uodcepmlp-activities.xml": 2
+      "uodcepmlp-activities.xml": 4
     }
   },
   ".//description/@type": {
     "1": {
-      "uodcepmlp-activities.xml": 2
+      "uodcepmlp-activities.xml": 4
     }
   },
   ".//document-link/@format": {
@@ -77,9 +83,12 @@
   },
   ".//participating-org/@crs-channel-code": {
     "51000": {
-      "uodcepmlp-activities.xml": 1
+      "uodcepmlp-activities.xml": 4
     },
     "10000": {
+      "uodcepmlp-activities.xml": 2
+    },
+    "11001": {
       "uodcepmlp-activities.xml": 1
     }
   },
@@ -88,12 +97,21 @@
       "uodcepmlp-activities.xml": 1
     },
     "2": {
+      "uodcepmlp-activities.xml": 5
+    },
+    "1": {
       "uodcepmlp-activities.xml": 1
     }
   },
   ".//participating-org/@type": {
     "80": {
-      "uodcepmlp-activities.xml": 2
+      "uodcepmlp-activities.xml": 5
+    },
+    "10": {
+      "uodcepmlp-activities.xml": 1
+    },
+    "15": {
+      "uodcepmlp-activities.xml": 1
     }
   },
   ".//recipient-country/@code": {
@@ -134,20 +152,37 @@
       "uodcepmlp-activities.xml": 1
     },
     "ET": {
-      "uodcepmlp-activities.xml": 1
+      "uodcepmlp-activities.xml": 2
     },
     "ID": {
+      "uodcepmlp-activities.xml": 1
+    },
+    "BD": {
+      "uodcepmlp-activities.xml": 1
+    },
+    "IN": {
+      "uodcepmlp-activities.xml": 1
+    },
+    "PK": {
       "uodcepmlp-activities.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "80": {
-      "uodcepmlp-activities.xml": 2
+      "uodcepmlp-activities.xml": 4
     }
   },
   ".//sector/@vocabulary": {
     "7": {
       "uodcepmlp-activities.xml": 10
+    },
+    "1": {
+      "uodcepmlp-activities.xml": 2
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12182": {
+      "uodcepmlp-activities.xml": 2
     }
   },
   ".//sector[@vocabulary = '7']/@code": {

@@ -26,8 +26,8 @@
     "GBP": 39
   },
   ".//contact-info/@type": {
-    "3": 6,
-    "2": 5
+    "2": 5,
+    "3": 6
   },
   ".//default-aid-type/@vocabulary": {
     "1": 11
@@ -49,8 +49,8 @@
     "1": 15
   },
   ".//document-link/@format": {
-    "application/msword": 4,
     "application/pdf": 18,
+    "application/msword": 4,
     "application/vnd.ms-word.document.macroEnabled.12": 2
   },
   ".//document-link/category/@code": {
@@ -71,9 +71,9 @@
     "70": 24
   },
   ".//policy-marker/@significance": {
-    "4": 1,
+    "0": 4,
     "1": 1,
-    "0": 4
+    "4": 1
   },
   ".//policy-marker/@vocabulary": {
     "1": 6
@@ -84,6 +84,7 @@
     "4": 1
   },
   ".//recipient-country/@code": {
+    "PK": 1,
     "GE": 1,
     "RS": 2,
     "MD": 1,
@@ -91,10 +92,13 @@
     "BA": 2,
     "MK": 2,
     "AM": 1,
+    "NP": 1,
+    "NG": 1,
+    "TZ": 2,
     "AL": 1,
     "XK": 1,
     "ME": 1,
-    "TZ": 2,
+    "GB": 5,
     "AF": 1,
     "CD": 1,
     "MM": 1,
@@ -103,11 +107,7 @@
     "CO": 1,
     "CF": 1,
     "SS": 1,
-    "NP": 1,
-    "NG": 1,
-    "ZW": 1,
-    "GB": 5,
-    "PK": 1
+    "ZW": 1
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "89": 2
@@ -120,17 +120,17 @@
     "2": 1
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15127": 3,
     "15122": 1,
+    "15170": 1,
+    "16010": 1,
     "15112": 1,
     "14010": 1,
-    "16010": 1,
-    "15127": 3,
-    "15170": 1,
-    "15180": 1,
     "15110": 2,
     "16062": 1,
     "12250": 1,
-    "15155": 1
+    "15155": 1,
+    "15180": 1
   },
   ".//sector[@vocabulary = '2']/@code": {
     "152": 1

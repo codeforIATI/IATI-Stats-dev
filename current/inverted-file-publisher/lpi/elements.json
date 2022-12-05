@@ -111,12 +111,9 @@
     "lpi-activities.xml": 1
   },
   "iati-activity/contact-info/person-name": {
-    "lpi-activities.xml": 2
+    "lpi-activities.xml": 1
   },
   "iati-activity/contact-info/person-name/narrative": {
-    "lpi-activities.xml": 2
-  },
-  "iati-activity/contact-info/person-name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "lpi-activities.xml": 1
   },
   "iati-activity/contact-info/telephone": {
@@ -124,6 +121,33 @@
   },
   "iati-activity/contact-info/website": {
     "lpi-activities.xml": 2
+  },
+  "iati-activity/default-aid-type": {
+    "lpi-activities.xml": 1
+  },
+  "iati-activity/default-aid-type/@code": {
+    "lpi-activities.xml": 1
+  },
+  "iati-activity/default-aid-type/@vocabulary": {
+    "lpi-activities.xml": 1
+  },
+  "iati-activity/default-finance-type": {
+    "lpi-activities.xml": 1
+  },
+  "iati-activity/default-finance-type/@code": {
+    "lpi-activities.xml": 1
+  },
+  "iati-activity/default-flow-type": {
+    "lpi-activities.xml": 1
+  },
+  "iati-activity/default-flow-type/@code": {
+    "lpi-activities.xml": 1
+  },
+  "iati-activity/default-tied-status": {
+    "lpi-activities.xml": 1
+  },
+  "iati-activity/default-tied-status/@code": {
+    "lpi-activities.xml": 1
   },
   "iati-activity/description": {
     "lpi-activities.xml": 2
@@ -216,9 +240,18 @@
     "lpi-activities.xml": 2
   },
   "iati-activity/policy-marker": {
-    "lpi-activities.xml": 1
+    "lpi-activities.xml": 2
   },
   "iati-activity/policy-marker/@code": {
+    "lpi-activities.xml": 2
+  },
+  "iati-activity/policy-marker/@significance": {
+    "lpi-activities.xml": 1
+  },
+  "iati-activity/policy-marker/narrative": {
+    "lpi-activities.xml": 1
+  },
+  "iati-activity/policy-marker/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "lpi-activities.xml": 1
   },
   "iati-activity/recipient-country": {
@@ -438,12 +471,18 @@
     "lpi-activities.xml": 2
   },
   "iati-activity/sector": {
-    "lpi-activities.xml": 1
+    "lpi-activities.xml": 2
   },
   "iati-activity/sector/@code": {
-    "lpi-activities.xml": 1
+    "lpi-activities.xml": 2
   },
   "iati-activity/sector/@vocabulary": {
+    "lpi-activities.xml": 2
+  },
+  "iati-activity/sector/narrative": {
+    "lpi-activities.xml": 1
+  },
+  "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "lpi-activities.xml": 1
   },
   "iati-activity/title": {
@@ -492,10 +531,10 @@
     "lpi-activities.xml": 2
   },
   "iati-activity/transaction/provider-org/narrative": {
-    "lpi-activities.xml": 1
+    "lpi-activities.xml": 2
   },
   "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "lpi-activities.xml": 1
+    "lpi-activities.xml": 2
   },
   "iati-activity/transaction/receiver-org": {
     "lpi-activities.xml": 2
@@ -510,28 +549,10 @@
     "lpi-activities.xml": 2
   },
   "iati-activity/transaction/receiver-org/narrative": {
-    "lpi-activities.xml": 1
+    "lpi-activities.xml": 2
   },
   "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "lpi-activities.xml": 1
-  },
-  "iati-activity/transaction/sector": {
-    "lpi-activities.xml": 1
-  },
-  "iati-activity/transaction/sector/@code": {
-    "lpi-activities.xml": 1
-  },
-  "iati-activity/transaction/sector/@vocabulary": {
-    "lpi-activities.xml": 1
-  },
-  "iati-activity/transaction/sector/@vocabulary-uri": {
-    "lpi-activities.xml": 1
-  },
-  "iati-activity/transaction/sector/narrative": {
-    "lpi-activities.xml": 1
-  },
-  "iati-activity/transaction/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "lpi-activities.xml": 1
+    "lpi-activities.xml": 2
   },
   "iati-activity/transaction/transaction-date": {
     "lpi-activities.xml": 2

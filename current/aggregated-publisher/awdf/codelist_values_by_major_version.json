@@ -81,16 +81,20 @@
       "99": 1
     },
     ".//recipient-country/@code": {
-      "KE": 1,
-      "TG": 1,
-      "NG": 1,
+      "NA": 1,
       "PS": 1,
-      "MA": 1,
-      "MW": 1,
-      "SL": 1,
+      "ZW": 1,
+      "IQ": 1,
+      "BI": 1,
+      "UG": 1,
+      "BF": 1,
       "AO": 1,
-      "YE": 1,
-      "BJ": 1
+      "DZ": 1,
+      "ZM": 1,
+      "CM": 1,
+      "NG": 1,
+      "CD": 1,
+      "NE": 1
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "298": 10,
@@ -141,7 +145,7 @@
       "1": 2
     },
     ".//transaction/disbursement-channel/@code": {
-      "2": 35
+      "2": 60
     },
     ".//transaction/finance-type/@code": {
       "110": 37
@@ -154,11 +158,12 @@
     },
     ".//transaction/provider-org/@type": {
       "10": 10,
-      "23": 65
+      "23": 89,
+      "22": 1
     },
     ".//transaction/receiver-org/@type": {
       "23": 10,
-      "22": 7
+      "22": 10
     },
     ".//transaction/sector/@vocabulary": {
       "99": 5
@@ -168,17 +173,17 @@
     },
     ".//transaction/transaction-type/@code": {
       "1": 9,
-      "3": 40,
-      "4": 21,
+      "3": 60,
+      "4": 24,
       "11": 1,
-      "2": 4
+      "2": 6
     },
     ".//transaction/value/@currency": {
       "EUR": 35,
-      "USD": 40
+      "USD": 65
     },
     ".//@xml:lang": {
-      "en": 537
+      "en": 593
     }
   }
 }

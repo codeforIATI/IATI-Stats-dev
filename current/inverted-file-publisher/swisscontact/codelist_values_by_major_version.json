@@ -2,24 +2,24 @@
   "2": {
     ".//@default-currency": {
       "swisscontact-activities.xml": {
-        "CHF": 2
+        "CHF": 1
       }
     },
     ".//activity-date/@type": {
       "swisscontact-activities.xml": {
-        "2": 2,
+        "2": 1,
         "3": 1
       }
     },
     ".//activity-status/@code": {
       "swisscontact-activities.xml": {
-        "2": 2
+        "2": 1
       }
     },
     ".//budget/@status": {
       "swisscontact-activities.xml": {
-        "1": 3,
-        "2": 2
+        "2": 2,
+        "1": 2
       }
     },
     ".//budget/@type": {
@@ -29,48 +29,143 @@
     },
     ".//budget/value/@currency": {
       "swisscontact-activities.xml": {
-        "CHF": 1,
         "EUR": 4
+      }
+    },
+    ".//contact-info/@type": {
+      "swisscontact-activities.xml": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "swisscontact-activities.xml": {
+        "C01": 1
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "swisscontact-activities.xml": {
+        "1": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "swisscontact-activities.xml": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "swisscontact-activities.xml": {
+        "30": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "swisscontact-activities.xml": {
+        "5": 1
       }
     },
     ".//description/@type": {
       "swisscontact-activities.xml": {
-        "1": 2
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "swisscontact-activities.xml": {
+        "application/pdf": 3,
+        "application/http": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "swisscontact-activities.xml": {
+        "A08": 1,
+        "A12": 1,
+        "B03": 1,
+        "A02": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "swisscontact-activities.xml": {
+        "fr": 4
       }
     },
     ".//participating-org/@role": {
       "swisscontact-activities.xml": {
-        "1": 2,
+        "1": 1,
         "2": 1,
         "4": 1
       }
     },
     ".//participating-org/@type": {
       "swisscontact-activities.xml": {
-        "21": 3,
-        "10": 1
+        "10": 1,
+        "21": 2
+      }
+    },
+    ".//planned-disbursement/@type": {
+      "swisscontact-activities.xml": {
+        "1": 5
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "swisscontact-activities.xml": {
+        "EUR": 5
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "swisscontact-activities.xml": {
+        "1": 1,
+        "3": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "swisscontact-activities.xml": {
+        "1": 2
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "swisscontact-activities.xml": {
+        "1": 2
       }
     },
     ".//recipient-country/@code": {
       "swisscontact-activities.xml": {
-        "AF": 1,
         "NE": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "swisscontact-activities.xml": {
+        "1030": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "swisscontact-activities.xml": {
+        "1": 1
       }
     },
     ".//reporting-org/@type": {
       "swisscontact-activities.xml": {
-        "21": 2
+        "21": 1
+      }
+    },
+    ".//result/@type": {
+      "swisscontact-activities.xml": {
+        "1": 5,
+        "3": 1,
+        "2": 2
+      }
+    },
+    ".//result/indicator/@measure": {
+      "swisscontact-activities.xml": {
+        "1": 15,
+        "5": 1
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "swisscontact-activities.xml": {
-        "11110": 1,
         "11330": 1
       }
     },
     ".//sector/@vocabulary": {
       "swisscontact-activities.xml": {
-        "1": 2
+        "1": 1
       }
     },
     ".//transaction/transaction-type/@code": {
@@ -86,8 +181,8 @@
     },
     ".//@xml:lang": {
       "swisscontact-activities.xml": {
-        "en": 8,
-        "fr": 5
+        "en": 5,
+        "fr": 39
       }
     }
   }

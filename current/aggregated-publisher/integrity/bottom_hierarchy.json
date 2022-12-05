@@ -32,7 +32,7 @@
   "comprehensiveness_denominator_default": 7,
   "comprehensiveness_denominators": {
     "recipient_language": 3,
-    "transaction_spend": 6,
+    "transaction_spend": 7,
     "transaction_traceability": 7
   },
   "comprehensiveness_with_validation": {
@@ -122,9 +122,6 @@
     "iati-activity/@default-currency": 8,
     "iati-activity/@humanitarian": 8,
     "iati-activity/@hierarchy": 8,
-    "iati-activity/activity-date/narrative": 2,
-    "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2,
-    "iati-activity/sector/@percentage": 3,
     "iati-activity/budget": 4,
     "iati-activity/budget/period-start": 4,
     "iati-activity/budget/period-start/@iso-date": 4,
@@ -135,6 +132,9 @@
     "iati-activity/budget/value/@value-date": 4,
     "iati-activity/budget/@type": 4,
     "iati-activity/budget/@status": 4,
+    "iati-activity/activity-date/narrative": 2,
+    "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2,
+    "iati-activity/sector/@percentage": 3,
     "iati-activity/transaction/recipient-region": 2,
     "iati-activity/transaction/recipient-region/@code": 2
   },
@@ -196,9 +196,6 @@
     "iati-activity/@default-currency": 8,
     "iati-activity/@humanitarian": 8,
     "iati-activity/@hierarchy": 8,
-    "iati-activity/activity-date/narrative": 4,
-    "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 4,
-    "iati-activity/sector/@percentage": 3,
     "iati-activity/budget": 4,
     "iati-activity/budget/period-start": 4,
     "iati-activity/budget/period-start/@iso-date": 4,
@@ -209,6 +206,9 @@
     "iati-activity/budget/value/@value-date": 4,
     "iati-activity/budget/@type": 4,
     "iati-activity/budget/@status": 4,
+    "iati-activity/activity-date/narrative": 4,
+    "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 4,
+    "iati-activity/sector/@percentage": 3,
     "iati-activity/transaction/recipient-region": 5,
     "iati-activity/transaction/recipient-region/@code": 5
   },

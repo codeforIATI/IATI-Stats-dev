@@ -1,22 +1,30 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "vso-activities.xml": 18,
+      "vso-gec.xml": 2,
       "vso-activity.xml": 27,
-      "vso-gec.xml": 2
+      "vso-activities.xml": 18
     }
   },
   ".//@xml:lang": {
     "en": {
-      "vso-activities.xml": 1222,
+      "vso-gec.xml": 2,
       "vso-activity.xml": 27,
-      "vso-gec.xml": 2
+      "vso-activities.xml": 1222
     },
     "ne": {
       "vso-activities.xml": 1
     }
   },
   ".//activity-date/@type": {
+    "end-planned": {
+      "vso-gec.xml": 2,
+      "vso-activity.xml": 27
+    },
+    "start-actual": {
+      "vso-gec.xml": 2,
+      "vso-activity.xml": 27
+    },
     "2": {
       "vso-activities.xml": 19
     },
@@ -28,21 +36,13 @@
     },
     "4": {
       "vso-activities.xml": 1
-    },
-    "end-planned": {
-      "vso-activity.xml": 27,
-      "vso-gec.xml": 2
-    },
-    "start-actual": {
-      "vso-activity.xml": 27,
-      "vso-gec.xml": 2
     }
   },
   ".//activity-status/@code": {
     "2": {
-      "vso-activities.xml": 16,
+      "vso-gec.xml": 2,
       "vso-activity.xml": 27,
-      "vso-gec.xml": 2
+      "vso-activities.xml": 16
     },
     "4": {
       "vso-activities.xml": 2
@@ -79,14 +79,14 @@
   },
   ".//default-aid-type/@code": {
     "C01": {
-      "vso-activity.xml": 27,
-      "vso-gec.xml": 2
+      "vso-gec.xml": 2,
+      "vso-activity.xml": 27
     }
   },
   ".//default-flow-type/@code": {
     "30": {
-      "vso-activity.xml": 27,
-      "vso-gec.xml": 2
+      "vso-gec.xml": 2,
+      "vso-activity.xml": 27
     }
   },
   ".//description/@type": {
@@ -102,12 +102,16 @@
   },
   ".//document-link/@format": {
     "application/pdf": {
-      "vso-activities.xml": 12,
+      "vso-gec.xml": 2,
       "vso-activity.xml": 27,
-      "vso-gec.xml": 2
+      "vso-activities.xml": 12
     }
   },
   ".//document-link/category/@code": {
+    "B03": {
+      "vso-gec.xml": 2,
+      "vso-activity.xml": 27
+    },
     "A06": {
       "vso-activities.xml": 2
     },
@@ -116,17 +120,13 @@
     },
     "B01": {
       "vso-activities.xml": 6
-    },
-    "B03": {
-      "vso-activity.xml": 27,
-      "vso-gec.xml": 2
     }
   },
   ".//document-link/language/@code": {
     "en": {
-      "vso-activities.xml": 11,
+      "vso-gec.xml": 2,
       "vso-activity.xml": 27,
-      "vso-gec.xml": 2
+      "vso-activities.xml": 11
     }
   },
   ".//participating-org/@crs-channel-code": {
@@ -141,6 +141,14 @@
     }
   },
   ".//participating-org/@role": {
+    "Funding": {
+      "vso-gec.xml": 2,
+      "vso-activity.xml": 27
+    },
+    "Accountable": {
+      "vso-gec.xml": 2,
+      "vso-activity.xml": 27
+    },
     "1": {
       "vso-activities.xml": 17
     },
@@ -152,24 +160,16 @@
     },
     "2": {
       "vso-activities.xml": 7
-    },
-    "Funding": {
-      "vso-activity.xml": 27,
-      "vso-gec.xml": 2
-    },
-    "Accountable": {
-      "vso-activity.xml": 27,
-      "vso-gec.xml": 2
     }
   },
   ".//participating-org/@type": {
+    "21": {
+      "vso-gec.xml": 2,
+      "vso-activity.xml": 27,
+      "vso-activities.xml": 38
+    },
     "10": {
       "vso-activities.xml": 4
-    },
-    "21": {
-      "vso-activities.xml": 38,
-      "vso-activity.xml": 27,
-      "vso-gec.xml": 2
     },
     "15": {
       "vso-activities.xml": 4
@@ -217,101 +217,110 @@
     }
   },
   ".//recipient-country/@code": {
-    "GB": {
-      "vso-activities.xml": 4,
-      "vso-activity.xml": 2
-    },
-    "BD": {
-      "vso-activities.xml": 3,
-      "vso-activity.xml": 1
-    },
-    "ET": {
-      "vso-activities.xml": 2,
-      "vso-activity.xml": 1
+    "NP": {
+      "vso-gec.xml": 1,
+      "vso-activities.xml": 5
     },
     "GH": {
-      "vso-activities.xml": 2,
-      "vso-activity.xml": 1
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 2
     },
     "KE": {
-      "vso-activities.xml": 4,
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 4
+    },
+    "PH": {
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 1
+    },
+    "TZ": {
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 3
+    },
+    "BD": {
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 3
+    },
+    "ET": {
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 2
+    },
+    "IN": {
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 1
+    },
+    "UG": {
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 2
+    },
+    "SZ": {
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 1
+    },
+    "SL": {
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 2
+    },
+    "SS": {
       "vso-activity.xml": 1
     },
     "KH": {
-      "vso-activities.xml": 4,
-      "vso-activity.xml": 1
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 4
     },
-    "LS": {
-      "vso-activities.xml": 1,
-      "vso-activity.xml": 1
+    "ZA": {
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 2
     },
     "MM": {
-      "vso-activities.xml": 2,
-      "vso-activity.xml": 1
-    },
-    "MW": {
-      "vso-activities.xml": 2,
-      "vso-activity.xml": 1
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 2
     },
     "MZ": {
-      "vso-activities.xml": 1,
-      "vso-activity.xml": 1
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 1
     },
-    "NG": {
-      "vso-activities.xml": 3,
-      "vso-activity.xml": 1
+    "ZW": {
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 3
     },
-    "NP": {
-      "vso-activities.xml": 5,
-      "vso-gec.xml": 1
+    "RW": {
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 4
     },
-    "PH": {
-      "vso-activities.xml": 1,
+    "#N/A": {
       "vso-activity.xml": 1
     },
     "PK": {
-      "vso-activities.xml": 3,
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 3
+    },
+    "PG": {
       "vso-activity.xml": 1
     },
-    "RW": {
-      "vso-activities.xml": 4,
-      "vso-activity.xml": 1
+    "GB": {
+      "vso-activity.xml": 2,
+      "vso-activities.xml": 4
     },
-    "SL": {
-      "vso-activities.xml": 2,
-      "vso-activity.xml": 1
+    "NG": {
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 3
     },
-    "SZ": {
-      "vso-activities.xml": 1,
-      "vso-activity.xml": 1
+    "LS": {
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 1
+    },
+    "MW": {
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 2
     },
     "TH": {
-      "vso-activities.xml": 1,
-      "vso-activity.xml": 1
-    },
-    "TZ": {
-      "vso-activities.xml": 3,
-      "vso-activity.xml": 1
-    },
-    "UG": {
-      "vso-activities.xml": 2,
-      "vso-activity.xml": 1
-    },
-    "ZA": {
-      "vso-activities.xml": 2,
-      "vso-activity.xml": 1
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 1
     },
     "ZM": {
-      "vso-activities.xml": 2,
-      "vso-activity.xml": 1
-    },
-    "ZW": {
-      "vso-activities.xml": 3,
-      "vso-activity.xml": 1
-    },
-    "IN": {
-      "vso-activities.xml": 1,
-      "vso-activity.xml": 1
+      "vso-activity.xml": 1,
+      "vso-activities.xml": 2
     },
     "BF": {
       "vso-activities.xml": 1
@@ -327,34 +336,25 @@
     },
     "TG": {
       "vso-activities.xml": 1
-    },
-    "SS": {
-      "vso-activity.xml": 1
-    },
-    "#N/A": {
-      "vso-activity.xml": 1
-    },
-    "PG": {
-      "vso-activity.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "21": {
-      "vso-activities.xml": 18,
+      "vso-gec.xml": 2,
       "vso-activity.xml": 27,
-      "vso-gec.xml": 2
+      "vso-activities.xml": 18
     }
   },
   ".//sector/@vocabulary": {
+    "RO": {
+      "vso-gec.xml": 10,
+      "vso-activity.xml": 135
+    },
     "1": {
       "vso-activities.xml": 29
     },
     "2": {
       "vso-activities.xml": 3
-    },
-    "RO": {
-      "vso-activity.xml": 135,
-      "vso-gec.xml": 10
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -512,6 +512,17 @@
     }
   },
   ".//transaction/transaction-type/@code": {
+    "D": {
+      "vso-gec.xml": 2
+    },
+    "IF": {
+      "vso-gec.xml": 1,
+      "vso-activity.xml": 100
+    },
+    "E": {
+      "vso-gec.xml": 9,
+      "vso-activity.xml": 253
+    },
     "11": {
       "vso-activities.xml": 10
     },
@@ -526,17 +537,6 @@
     },
     "2": {
       "vso-activities.xml": 6
-    },
-    "IF": {
-      "vso-activity.xml": 100,
-      "vso-gec.xml": 1
-    },
-    "E": {
-      "vso-activity.xml": 253,
-      "vso-gec.xml": 9
-    },
-    "D": {
-      "vso-gec.xml": 2
     }
   },
   ".//transaction/value/@currency": {

@@ -1,15 +1,15 @@
 {
   ".//@default-currency": {
-    "USD": 162
+    "USD": 166
   },
   ".//@xml:lang": {
-    "en": 162
+    "en": 166
   },
   ".//activity-date/@type": {
-    "1": 162,
-    "2": 162,
-    "3": 162,
-    "4": 83
+    "1": 166,
+    "2": 166,
+    "3": 166,
+    "4": 87
   },
   ".//activity-scope/@code": {
     "5": 8,
@@ -19,64 +19,66 @@
     "6": 8
   },
   ".//activity-status/@code": {
-    "3": 83,
+    "3": 87,
     "2": 79
   },
   ".//budget/@status": {
-    "2": 308
+    "2": 310
   },
   ".//budget/@type": {
-    "2": 308
+    "2": 310
   },
   ".//budget/value/@currency": {
-    "USD": 308
+    "USD": 310
   },
   ".//collaboration-type/@code": {
-    "4": 162
+    "4": 166
   },
   ".//conditions/condition/@type": {
-    "1": 268
+    "1": 274
   },
   ".//contact-info/@type": {
-    "1": 162
+    "1": 166
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 152,
+    "C01": 156,
     "G01": 10
   },
   ".//default-finance-type/@code": {
-    "110": 162
+    "110": 166
   },
   ".//default-flow-type/@code": {
-    "10": 162
+    "10": 166
   },
   ".//default-tied-status/@code": {
-    "3": 74,
-    "5": 88
+    "3": 76,
+    "5": 90
   },
   ".//description/@type": {
-    "1": 162
+    "1": 166
   },
   ".//document-link/@format": {
-    "application/pdf": 228,
-    "text/html": 500,
-    "application/msword": 21
+    "application/pdf": 248,
+    "text/html": 506,
+    "application/msword": 21,
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": 1
   },
   ".//document-link/category/@code": {
-    "A02": 102,
-    "A03": 89,
-    "A05": 156,
-    "A01": 128,
-    "A07": 56,
-    "A10": 183,
-    "A12": 162,
+    "A02": 110,
+    "A03": 91,
+    "A05": 164,
+    "A01": 129,
+    "A07": 57,
+    "A10": 185,
+    "A12": 166,
     "A09": 1,
     "A06": 46,
-    "A08": 81,
+    "A08": 95,
     "A04": 38
   },
   ".//document-link/language/@code": {
-    "en": 661
+    "en": 685,
+    "ru": 1
   },
   ".//humanitarian-scope/@type": {
     "1": 15
@@ -117,37 +119,37 @@
     "1": 81
   },
   ".//participating-org/@role": {
-    "4": 162,
-    "2": 74,
-    "1": 299
+    "4": 166,
+    "2": 76,
+    "1": 305
   },
   ".//participating-org/@type": {
-    "40": 238,
-    "10": 107,
+    "40": 244,
+    "10": 109,
     "22": 8,
     "70": 2
   },
   ".//policy-marker/@significance": {
-    "1": 57,
+    "1": 59,
     "0": 28,
     "2": 3
   },
   ".//policy-marker/@vocabulary": {
-    "1": 88
+    "1": 90
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "1": 88
+    "1": 90
   },
   ".//recipient-country/@code": {
-    "TJ": 162
+    "TJ": 166
   },
   ".//related-activity/@type": {
-    "2": 88,
-    "1": 88,
+    "2": 90,
+    "1": 90,
     "3": 60
   },
   ".//reporting-org/@type": {
-    "40": 162
+    "40": 166
   },
   ".//result/@type": {
     "1": 120
@@ -158,15 +160,15 @@
     "2": 16
   },
   ".//sector/@vocabulary": {
-    "1": 166,
-    "8": 227,
-    "99": 77
+    "1": 170,
+    "8": 233,
+    "99": 79
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "16050": 48,
+    "16050": 50,
     "51010": 4,
     "99810": 21,
-    "74020": 28,
+    "74020": 30,
     "15220": 10,
     "23111": 4,
     "41010": 25,
@@ -178,15 +180,15 @@
   ".//sector[@vocabulary = '8']/@code": {
     "1.2": 26,
     "1.4": 29,
-    "13.1": 27,
+    "13.1": 29,
     "13.a": 2,
     "3.3": 10,
-    "16.7": 13,
+    "16.7": 15,
     "16.a": 2,
     "16.1": 10,
     "7.1": 4,
     "15.1": 16,
-    "16.3": 24,
+    "16.3": 26,
     "16.6": 14,
     "15.2": 2,
     "17.9": 2,
@@ -199,20 +201,20 @@
     "5.5": 2
   },
   ".//tag/@vocabulary": {
-    "3": 227
+    "3": 233
   },
   ".//tag[@vocabulary = '3']/@code": {
     "1.2": 26,
     "1.4": 29,
-    "13.1": 27,
+    "13.1": 29,
     "13.a": 2,
     "3.3": 10,
-    "16.7": 13,
+    "16.7": 15,
     "16.a": 2,
     "16.1": 10,
     "7.1": 4,
     "15.1": 16,
-    "16.3": 24,
+    "16.3": 26,
     "16.6": 14,
     "15.2": 2,
     "17.9": 2,
@@ -225,26 +227,26 @@
     "5.5": 2
   },
   ".//transaction/disbursement-channel/@code": {
-    "2": 1652
+    "2": 1689
   },
   ".//transaction/provider-org/@type": {
-    "40": 1096,
-    "10": 203,
+    "40": 1128,
+    "10": 205,
     "22": 22,
     "70": 2
   },
   ".//transaction/receiver-org/@type": {
-    "40": 583,
-    "10": 61
+    "40": 588,
+    "10": 65
   },
   ".//transaction/transaction-type/@code": {
-    "4": 920,
-    "11": 477,
-    "1": 106,
-    "2": 88,
-    "3": 61
+    "4": 946,
+    "11": 480,
+    "1": 108,
+    "2": 90,
+    "3": 65
   },
   ".//transaction/value/@currency": {
-    "USD": 1652
+    "USD": 1689
   }
 }

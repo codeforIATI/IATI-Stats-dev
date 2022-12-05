@@ -236,6 +236,15 @@
   "iati-activity/recipient-country/@percentage": {
     "nwo-activities.xml": 1
   },
+  "iati-activity/recipient-region": {
+    "nwo-activities.xml": 1
+  },
+  "iati-activity/recipient-region/@code": {
+    "nwo-activities.xml": 1
+  },
+  "iati-activity/recipient-region/@vocabulary": {
+    "nwo-activities.xml": 1
+  },
   "iati-activity/reporting-org": {
     "nwo-activities.xml": 4
   },
@@ -314,6 +323,9 @@
   "iati-activity/result/title/narrative": {
     "nwo-activities.xml": 4
   },
+  "iati-activity/result/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "nwo-activities.xml": 1
+  },
   "iati-activity/sector": {
     "nwo-activities.xml": 4
   },
@@ -336,7 +348,7 @@
     "nwo-activities.xml": 4
   },
   "iati-activity/transaction": {
-    "nwo-activities.xml": 1
+    "nwo-activities.xml": 4
   },
   "iati-activity/transaction/description": {
     "nwo-activities.xml": 1
@@ -345,34 +357,49 @@
     "nwo-activities.xml": 1
   },
   "iati-activity/transaction/provider-org": {
-    "nwo-activities.xml": 1
+    "nwo-activities.xml": 4
   },
   "iati-activity/transaction/provider-org/@provider-activity-id": {
-    "nwo-activities.xml": 1
+    "nwo-activities.xml": 4
   },
   "iati-activity/transaction/provider-org/@ref": {
+    "nwo-activities.xml": 4
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "nwo-activities.xml": 3
+  },
+  "iati-activity/transaction/recipient-country": {
+    "nwo-activities.xml": 1
+  },
+  "iati-activity/transaction/recipient-country/@code": {
+    "nwo-activities.xml": 1
+  },
+  "iati-activity/transaction/recipient-region": {
+    "nwo-activities.xml": 1
+  },
+  "iati-activity/transaction/recipient-region/@code": {
     "nwo-activities.xml": 1
   },
   "iati-activity/transaction/transaction-date": {
-    "nwo-activities.xml": 1
+    "nwo-activities.xml": 4
   },
   "iati-activity/transaction/transaction-date/@iso-date": {
-    "nwo-activities.xml": 1
+    "nwo-activities.xml": 4
   },
   "iati-activity/transaction/transaction-type": {
-    "nwo-activities.xml": 1
+    "nwo-activities.xml": 4
   },
   "iati-activity/transaction/transaction-type/@code": {
-    "nwo-activities.xml": 1
+    "nwo-activities.xml": 4
   },
   "iati-activity/transaction/value": {
-    "nwo-activities.xml": 1
+    "nwo-activities.xml": 4
   },
   "iati-activity/transaction/value/@currency": {
-    "nwo-activities.xml": 1
+    "nwo-activities.xml": 4
   },
   "iati-activity/transaction/value/@value-date": {
-    "nwo-activities.xml": 1
+    "nwo-activities.xml": 4
   },
   "iati-organisation": {
     "nwo-org.xml": 1

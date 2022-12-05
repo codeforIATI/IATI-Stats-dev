@@ -1,320 +1,36 @@
 {
   "2": {
     ".//@default-currency": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "EUR": 3
-      },
       "nuffic20171017-okp-activities.xml": {
         "EUR": 4226
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "EUR": 3
       }
     },
     ".//activity-date/@type": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "1": 3,
-        "2": 3,
-        "3": 3
-      },
       "nuffic20171017-okp-activities.xml": {
         "1": 4221,
         "2": 148,
         "3": 4226,
         "4": 25
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "1": 3,
+        "2": 3,
+        "3": 3
       }
     },
     ".//activity-status/@code": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "2": 3
-      },
       "nuffic20171017-okp-activities.xml": {
         "2": 649,
         "4": 1965,
         "5": 649,
         "3": 962,
         "1": 1
-      }
-    },
-    ".//budget/value/@currency": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "EUR": 3
       },
-      "nuffic20171017-okp-activities.xml": {
-        "EUR": 5
-      }
-    },
-    ".//collaboration-type/@code": {
       "nuffic20171017-stunedvi-activities.xml": {
-        "1": 3
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "1": 3846
-      }
-    },
-    ".//contact-info/@type": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "1": 3
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "1": 4226
-      }
-    },
-    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "C01": 3
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "E01": 1,
-        "C01": 4225
-      }
-    },
-    ".//default-finance-type/@code": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "110": 3
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "110": 4226
-      }
-    },
-    ".//default-flow-type/@code": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "30": 3
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "30": 4224,
-        "10": 2
-      }
-    },
-    ".//default-tied-status/@code": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "4": 3
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "3": 1,
-        "4": 6,
-        "5": 4219
-      }
-    },
-    ".//description/@type": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "1": 3,
-        "2": 3,
-        "3": 2,
-        "4": 1
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "1": 4226,
-        "2": 110,
-        "3": 11
-      }
-    },
-    ".//participating-org/@role": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "1": 3,
-        "2": 18,
-        "4": 18
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "1": 409,
-        "2": 357,
-        "4": 4722,
-        "3": 1
-      }
-    },
-    ".//participating-org/@type": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "10": 1,
-        "60": 6,
-        "80": 32
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "10": 102,
-        "15": 476,
-        "80": 4500,
-        "70": 196,
-        "60": 18,
-        "22": 125,
-        "21": 65,
-        "23": 5,
-        "40": 2
-      }
-    },
-    ".//related-activity/@type": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "1": 2
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "1": 4224
-      }
-    },
-    ".//reporting-org/@type": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "21": 3
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "15": 380,
-        "21": 3846
-      }
-    },
-    ".//result/@type": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "1": 2
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "3": 3534,
-        "2": 1234,
-        "1": 39,
-        "9": 7
-      }
-    },
-    ".//result/indicator/@measure": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "1": 2
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "5": 4787,
-        "1": 19524,
-        "2": 7238
-      }
-    },
-    ".//result/indicator/reference/@vocabulary": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "99": 2
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "11420": 2,
-        "11110": 2
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "11110": 239,
-        "11120": 21,
-        "31110": 95,
-        "14020": 1,
-        "14010": 41,
-        "15220": 9,
-        "15131": 3,
-        "12110": 4,
-        "15210": 8,
-        "31120": 11,
-        "11130": 11,
-        "31140": 17,
-        "31181": 19,
-        "15130": 25,
-        "11420": 3848,
-        "13020": 11,
-        "11330": 6,
-        "31130": 31,
-        "23081": 1,
-        "43071": 27,
-        "16020": 10,
-        "12181": 6,
-        "15150": 1,
-        "11430": 49,
-        "31161": 2,
-        "16015": 1,
-        "25030": 2,
-        "13010": 29,
-        "11321": 1,
-        "14015": 2,
-        "14021": 2,
-        "15180": 1,
-        "14030": 4,
-        "11231": 2,
-        "31210": 1,
-        "31320": 1,
-        "31381": 2,
-        "52010": 3,
-        "23210": 2,
-        "12261": 2,
-        "12191": 1,
-        "43030": 1,
-        "14081": 3,
-        "31195": 1,
-        "43040": 1,
-        "15164": 1,
-        "31191": 1,
-        "15170": 1,
-        "32130": 1,
-        "33120": 1,
-        "21040": 1,
-        "23010": 1,
-        "11230": 3,
-        "13040": 1,
-        "14031": 1,
-        "15153": 1,
-        "72012": 13,
-        "empl": 1,
-        "13081": 1,
-        "21081": 1,
-        "15110": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "1": 4
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "1": 4588,
-        "99": 31,
-        "7": 2
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "10": 2,
-        "60": 4
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "10": 2,
-        "60": 5,
-        "80": 3,
-        "15": 3
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "60": 2,
-        "80": 4
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "60": 2,
-        "70": 3,
-        "22": 2
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "1": 1,
-        "11": 1,
-        "2": 2,
-        "3": 2
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "11": 1,
-        "1": 6,
-        "2": 2,
-        "3": 368,
-        "4": 5,
-        "7": 1
-      }
-    },
-    ".//transaction/value/@currency": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "EUR": 6
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "EUR": 21
-      }
-    },
-    ".//@xml:lang": {
-      "nuffic20171017-stunedvi-activities.xml": {
-        "en": 3
-      },
-      "nuffic20171017-okp-activities.xml": {
-        "en": 4201,
-        "fr": 22,
-        "es": 2,
-        "nl": 1
+        "2": 3
       }
     },
     ".//activity-scope/@code": {
@@ -333,9 +49,82 @@
         "1": 7426
       }
     },
+    ".//budget/value/@currency": {
+      "nuffic20171017-okp-activities.xml": {
+        "EUR": 5
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "EUR": 3
+      }
+    },
+    ".//collaboration-type/@code": {
+      "nuffic20171017-okp-activities.xml": {
+        "1": 3846
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "1": 3
+      }
+    },
+    ".//contact-info/@type": {
+      "nuffic20171017-okp-activities.xml": {
+        "1": 4226
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "1": 3
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "nuffic20171017-okp-activities.xml": {
+        "E01": 1,
+        "C01": 4225
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "C01": 3
+      }
+    },
     ".//default-aid-type/@vocabulary": {
       "nuffic20171017-okp-activities.xml": {
         "1": 380
+      }
+    },
+    ".//default-finance-type/@code": {
+      "nuffic20171017-okp-activities.xml": {
+        "110": 4226
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "110": 3
+      }
+    },
+    ".//default-flow-type/@code": {
+      "nuffic20171017-okp-activities.xml": {
+        "30": 4224,
+        "10": 2
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "30": 3
+      }
+    },
+    ".//default-tied-status/@code": {
+      "nuffic20171017-okp-activities.xml": {
+        "3": 1,
+        "4": 6,
+        "5": 4219
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "4": 3
+      }
+    },
+    ".//description/@type": {
+      "nuffic20171017-okp-activities.xml": {
+        "1": 4226,
+        "2": 110,
+        "3": 11
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "1": 3,
+        "2": 3,
+        "3": 2,
+        "4": 1
       }
     },
     ".//document-link/@format": {
@@ -367,6 +156,37 @@
     ".//other-identifier/@type": {
       "nuffic20171017-okp-activities.xml": {
         "B9": 380
+      }
+    },
+    ".//participating-org/@role": {
+      "nuffic20171017-okp-activities.xml": {
+        "1": 409,
+        "2": 357,
+        "4": 4722,
+        "3": 1
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "1": 3,
+        "2": 18,
+        "4": 18
+      }
+    },
+    ".//participating-org/@type": {
+      "nuffic20171017-okp-activities.xml": {
+        "10": 102,
+        "15": 476,
+        "80": 4500,
+        "70": 196,
+        "60": 18,
+        "22": 125,
+        "21": 65,
+        "23": 5,
+        "40": 2
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "10": 1,
+        "60": 6,
+        "80": 32
       }
     },
     ".//planned-disbursement/provider-org/@type": {
@@ -473,10 +293,190 @@
         "289": 1
       }
     },
+    ".//related-activity/@type": {
+      "nuffic20171017-okp-activities.xml": {
+        "1": 4224
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "1": 2
+      }
+    },
+    ".//reporting-org/@type": {
+      "nuffic20171017-okp-activities.xml": {
+        "15": 380,
+        "21": 3846
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "21": 3
+      }
+    },
+    ".//result/@type": {
+      "nuffic20171017-okp-activities.xml": {
+        "3": 3534,
+        "2": 1234,
+        "1": 39,
+        "9": 7
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "1": 2
+      }
+    },
+    ".//result/indicator/@measure": {
+      "nuffic20171017-okp-activities.xml": {
+        "5": 4787,
+        "1": 19524,
+        "2": 7238
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "1": 2
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "nuffic20171017-okp-activities.xml": {
+        "11110": 239,
+        "11120": 21,
+        "31110": 95,
+        "14020": 1,
+        "14010": 41,
+        "15220": 9,
+        "15131": 3,
+        "12110": 4,
+        "15210": 8,
+        "31120": 11,
+        "11130": 11,
+        "31140": 17,
+        "31181": 19,
+        "15130": 25,
+        "11420": 3848,
+        "13020": 11,
+        "11330": 6,
+        "31130": 31,
+        "23081": 1,
+        "43071": 27,
+        "16020": 10,
+        "12181": 6,
+        "15150": 1,
+        "11430": 49,
+        "31161": 2,
+        "16015": 1,
+        "25030": 2,
+        "13010": 29,
+        "11321": 1,
+        "14015": 2,
+        "14021": 2,
+        "15180": 1,
+        "14030": 4,
+        "11231": 2,
+        "31210": 1,
+        "31320": 1,
+        "31381": 2,
+        "52010": 3,
+        "23210": 2,
+        "12261": 2,
+        "12191": 1,
+        "43030": 1,
+        "14081": 3,
+        "31195": 1,
+        "43040": 1,
+        "15164": 1,
+        "31191": 1,
+        "15170": 1,
+        "32130": 1,
+        "33120": 1,
+        "21040": 1,
+        "23010": 1,
+        "11230": 3,
+        "13040": 1,
+        "14031": 1,
+        "15153": 1,
+        "72012": 13,
+        "empl": 1,
+        "13081": 1,
+        "21081": 1,
+        "15110": 1
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "11420": 2,
+        "11110": 2
+      }
+    },
     ".//sector[@vocabulary = '7']/@code": {
       "nuffic20171017-okp-activities.xml": {
         "11430": 1,
         "11130": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "nuffic20171017-okp-activities.xml": {
+        "1": 4588,
+        "99": 31,
+        "7": 2
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "1": 4
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "nuffic20171017-okp-activities.xml": {
+        "10": 2,
+        "60": 5,
+        "80": 3,
+        "15": 3
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "10": 2,
+        "60": 4
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "nuffic20171017-okp-activities.xml": {
+        "60": 2,
+        "70": 3,
+        "22": 2
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "60": 2,
+        "80": 4
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "nuffic20171017-okp-activities.xml": {
+        "11": 1,
+        "1": 6,
+        "2": 2,
+        "3": 368,
+        "4": 5,
+        "7": 1
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "1": 1,
+        "11": 1,
+        "2": 2,
+        "3": 2
+      }
+    },
+    ".//transaction/value/@currency": {
+      "nuffic20171017-okp-activities.xml": {
+        "EUR": 21
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "EUR": 6
+      }
+    },
+    ".//@xml:lang": {
+      "nuffic20171017-okp-activities.xml": {
+        "en": 4201,
+        "fr": 22,
+        "es": 2,
+        "nl": 1
+      },
+      "nuffic20171017-stunedvi-activities.xml": {
+        "en": 3
+      }
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "nuffic20171017-stunedvi-activities.xml": {
+        "99": 2
       }
     }
   }

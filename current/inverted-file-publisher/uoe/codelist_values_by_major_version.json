@@ -2,32 +2,48 @@
   "2": {
     ".//@default-currency": {
       "uoe-activities.xml": {
-        "GBP": 1
+        "GBP": 3
       }
     },
     ".//activity-date/@type": {
       "uoe-activities.xml": {
-        "2": 1
+        "2": 3
       }
     },
     ".//activity-status/@code": {
       "uoe-activities.xml": {
-        "2": 1
+        "2": 3
+      }
+    },
+    ".//budget/@status": {
+      "uoe-activities.xml": {
+        "1": 5
+      }
+    },
+    ".//budget/@type": {
+      "uoe-activities.xml": {
+        "1": 5
+      }
+    },
+    ".//budget/value/@currency": {
+      "uoe-activities.xml": {
+        "GBP": 5
       }
     },
     ".//description/@type": {
       "uoe-activities.xml": {
-        "1": 1
+        "1": 3
       }
     },
     ".//participating-org/@role": {
       "uoe-activities.xml": {
-        "4": 1
+        "4": 2,
+        "2": 1
       }
     },
     ".//participating-org/@type": {
       "uoe-activities.xml": {
-        "80": 1
+        "80": 3
       }
     },
     ".//recipient-country/@code": {
@@ -35,12 +51,33 @@
         "IN": 1,
         "PK": 1,
         "BD": 1,
-        "MY": 1
+        "MY": 1,
+        "IQ": 1,
+        "SO": 1,
+        "SS": 1,
+        "SY": 1,
+        "YE": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "uoe-activities.xml": {
+        "798": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "uoe-activities.xml": {
+        "1": 1
       }
     },
     ".//reporting-org/@type": {
       "uoe-activities.xml": {
-        "80": 1
+        "80": 3
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "uoe-activities.xml": {
+        "15220": 1,
+        "12182": 1
       }
     },
     ".//sector[@vocabulary = '7']/@code": {
@@ -50,35 +87,87 @@
     },
     ".//sector/@vocabulary": {
       "uoe-activities.xml": {
-        "7": 1
+        "7": 1,
+        "1": 2
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "uoe-activities.xml": {
+        "D02": 1
+      }
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "uoe-activities.xml": {
+        "1": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "uoe-activities.xml": {
+        "2": 1
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "uoe-activities.xml": {
+        "110": 1
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "uoe-activities.xml": {
+        "10": 1
+      }
+    },
+    ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "uoe-activities.xml": {
+        "798": 1
+      }
+    },
+    ".//transaction/recipient-region/@vocabulary": {
+      "uoe-activities.xml": {
+        "1": 1
       }
     },
     ".//transaction/provider-org/@type": {
       "uoe-activities.xml": {
         "80": 204,
-        "10": 11
+        "10": 12
       }
     },
     ".//transaction/receiver-org/@type": {
       "uoe-activities.xml": {
-        "80": 11
+        "80": 12
+      }
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "uoe-activities.xml": {
+        "12182": 1
+      }
+    },
+    ".//transaction/sector/@vocabulary": {
+      "uoe-activities.xml": {
+        "1": 1
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "uoe-activities.xml": {
+        "5": 1
       }
     },
     ".//transaction/transaction-type/@code": {
       "uoe-activities.xml": {
-        "3": 99,
-        "4": 108,
-        "1": 11
+        "4": 111,
+        "3": 112,
+        "1": 14,
+        "11": 1
       }
     },
     ".//transaction/value/@currency": {
       "uoe-activities.xml": {
-        "GBP": 1
+        "GBP": 21
       }
     },
     ".//@xml:lang": {
       "uoe-activities.xml": {
-        "en": 2
+        "en": 10
       }
     }
   }

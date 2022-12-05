@@ -13,6 +13,12 @@
       "3": 8,
       "2": 2
     },
+    ".//budget/@status": {
+      "2": 10
+    },
+    ".//budget/@type": {
+      "2": 10
+    },
     ".//conditions/condition/@type": {
       "1": 10
     },
@@ -58,12 +64,31 @@
       "A1": 10
     },
     ".//participating-org/@role": {
+      "1": 10,
       "2": 10,
-      "3": 10,
-      "1": 10
+      "3": 10
     },
     ".//participating-org/@type": {
       "10": 10
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "1": 10,
+      "2": 10,
+      "3": 10,
+      "4": 4,
+      "5": 10,
+      "6": 10,
+      "7": 10,
+      "8": 10,
+      "9": 10
+    },
+    ".//policy-marker/@significance": {
+      "1": 22,
+      "2": 6,
+      "0": 56
+    },
+    ".//policy-marker/@vocabulary": {
+      "1": 84
     },
     ".//recipient-country/@code": {
       "SB": 10

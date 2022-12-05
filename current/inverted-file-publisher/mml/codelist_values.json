@@ -9,7 +9,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "mml-activities.xml": 123
+      "mml-activities.xml": 159
     }
   },
   ".//activity-date/@type": {
@@ -41,23 +41,23 @@
   },
   ".//budget/@status": {
     "1": {
-      "mml-activities.xml": 6
+      "mml-activities.xml": 7
     },
     "2": {
-      "mml-activities.xml": 132
+      "mml-activities.xml": 133
     }
   },
   ".//budget/@type": {
     "1": {
-      "mml-activities.xml": 129
+      "mml-activities.xml": 130
     },
     "2": {
-      "mml-activities.xml": 9
+      "mml-activities.xml": 10
     }
   },
   ".//budget/value/@currency": {
     "EUR": {
-      "mml-activities.xml": 11
+      "mml-activities.xml": 13
     },
     "GBP": {
       "mml-activities.xml": 123
@@ -66,29 +66,37 @@
       "mml-activities.xml": 4
     }
   },
+  ".//contact-info/@type": {
+    "2": {
+      "mml-activities.xml": 1
+    },
+    "1": {
+      "mml-activities.xml": 1
+    }
+  },
   ".//default-aid-type/@vocabulary": {
     "1": {
-      "mml-activities.xml": 30
+      "mml-activities.xml": 31
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": {
-      "mml-activities.xml": 30
+      "mml-activities.xml": 31
     }
   },
   ".//default-finance-type/@code": {
     "110": {
-      "mml-activities.xml": 30
+      "mml-activities.xml": 31
     }
   },
   ".//default-flow-type/@code": {
     "10": {
-      "mml-activities.xml": 30
+      "mml-activities.xml": 31
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "mml-activities.xml": 30
+      "mml-activities.xml": 31
     }
   },
   ".//description/@type": {
@@ -101,7 +109,7 @@
   },
   ".//document-link/@format": {
     "application/pdf": {
-      "mml-activities.xml": 4
+      "mml-activities.xml": 5
     },
     "application/vnd.sealed.xls": {
       "mml-activities.xml": 1
@@ -112,7 +120,7 @@
       "mml-activities.xml": 2
     },
     "A08": {
-      "mml-activities.xml": 2
+      "mml-activities.xml": 3
     },
     "A07": {
       "mml-activities.xml": 1
@@ -120,7 +128,7 @@
   },
   ".//document-link/language/@code": {
     "en": {
-      "mml-activities.xml": 5
+      "mml-activities.xml": 6
     }
   },
   ".//location/location-id/@vocabulary": {
@@ -135,7 +143,7 @@
   },
   ".//participating-org/@crs-channel-code": {
     "11000": {
-      "mml-activities.xml": 1
+      "mml-activities.xml": 2
     }
   },
   ".//participating-org/@role": {
@@ -145,22 +153,40 @@
     "4": {
       "mml-activities.xml": 28
     },
+    "2": {
+      "mml-activities.xml": 27
+    },
     "3": {
       "mml-activities.xml": 3
-    },
-    "2": {
-      "mml-activities.xml": 26
     }
   },
   ".//participating-org/@type": {
     "10": {
-      "mml-activities.xml": 29
+      "mml-activities.xml": 30
     },
     "70": {
       "mml-activities.xml": 58
     },
     "21": {
       "mml-activities.xml": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "4": {
+      "mml-activities.xml": 1
+    },
+    "0": {
+      "mml-activities.xml": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "mml-activities.xml": 2
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "3": {
+      "mml-activities.xml": 2
     }
   },
   ".//recipient-country/@code": {
@@ -232,8 +258,14 @@
     }
   },
   ".//result/@type": {
+    "9": {
+      "mml-activities.xml": 2
+    },
     "1": {
-      "mml-activities.xml": 5
+      "mml-activities.xml": 7
+    },
+    "2": {
+      "mml-activities.xml": 2
     }
   },
   ".//result/indicator/@measure": {
@@ -241,7 +273,10 @@
       "mml-activities.xml": 2
     },
     "1": {
-      "mml-activities.xml": 2
+      "mml-activities.xml": 7
+    },
+    "3": {
+      "mml-activities.xml": 5
     },
     "4": {
       "mml-activities.xml": 1
@@ -367,15 +402,15 @@
   },
   ".//transaction/aid-type/@vocabulary": {
     "1": {
-      "mml-activities.xml": 485
+      "mml-activities.xml": 491
     }
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": {
-      "mml-activities.xml": 471
-    },
     "B03": {
       "mml-activities.xml": 6
+    },
+    "C01": {
+      "mml-activities.xml": 477
     },
     "C01 - Project-type interventions": {
       "mml-activities.xml": 8
@@ -383,22 +418,22 @@
   },
   ".//transaction/disbursement-channel/@code": {
     "2": {
-      "mml-activities.xml": 472
+      "mml-activities.xml": 473
     }
   },
   ".//transaction/finance-type/@code": {
     "110": {
-      "mml-activities.xml": 485
+      "mml-activities.xml": 491
     }
   },
   ".//transaction/flow-type/@code": {
     "10": {
-      "mml-activities.xml": 484
+      "mml-activities.xml": 490
     }
   },
   ".//transaction/provider-org/@type": {
     "10": {
-      "mml-activities.xml": 1029
+      "mml-activities.xml": 1032
     },
     "70": {
       "mml-activities.xml": 136
@@ -406,7 +441,7 @@
   },
   ".//transaction/receiver-org/@type": {
     "70": {
-      "mml-activities.xml": 1065
+      "mml-activities.xml": 1067
     },
     "90": {
       "mml-activities.xml": 56
@@ -426,32 +461,35 @@
   },
   ".//transaction/tied-status/@code": {
     "5": {
-      "mml-activities.xml": 485
+      "mml-activities.xml": 491
     }
   },
   ".//transaction/transaction-type/@code": {
     "1": {
-      "mml-activities.xml": 1028
+      "mml-activities.xml": 1030
     },
     "3": {
-      "mml-activities.xml": 108
+      "mml-activities.xml": 109
     },
     "11": {
-      "mml-activities.xml": 28
+      "mml-activities.xml": 29
     },
     "2": {
-      "mml-activities.xml": 2
+      "mml-activities.xml": 3
+    },
+    "4": {
+      "mml-activities.xml": 1
     }
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "mml-activities.xml": 12
+      "mml-activities.xml": 13
     },
     "GBP": {
       "mml-activities.xml": 465
     },
     "USD": {
-      "mml-activities.xml": 12
+      "mml-activities.xml": 17
     }
   }
 }

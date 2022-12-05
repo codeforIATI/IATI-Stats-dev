@@ -1,16 +1,16 @@
 {
   ".//@default-currency": {
-    "EUR": {
-      "fawe-rs-makeway.xml": 7
-    },
     "USD": {
       "fawe-rs-activities.xml": 9
+    },
+    "EUR": {
+      "fawe-rs-makeway.xml": 7
     }
   },
   ".//@xml:lang": {
     "en": {
-      "fawe-rs-makeway.xml": 7,
-      "fawe-rs-activities.xml": 93
+      "fawe-rs-activities.xml": 134,
+      "fawe-rs-makeway.xml": 7
     },
     "fr": {
       "fawe-rs-activities.xml": 9
@@ -21,18 +21,18 @@
   },
   ".//activity-date/@type": {
     "1": {
-      "fawe-rs-makeway.xml": 7,
-      "fawe-rs-activities.xml": 9
+      "fawe-rs-activities.xml": 9,
+      "fawe-rs-makeway.xml": 7
     },
     "3": {
-      "fawe-rs-makeway.xml": 7,
-      "fawe-rs-activities.xml": 5
+      "fawe-rs-activities.xml": 5,
+      "fawe-rs-makeway.xml": 7
     }
   },
   ".//activity-status/@code": {
     "2": {
-      "fawe-rs-makeway.xml": 7,
-      "fawe-rs-activities.xml": 9
+      "fawe-rs-activities.xml": 9,
+      "fawe-rs-makeway.xml": 7
     }
   },
   ".//budget/@status": {
@@ -51,11 +51,11 @@
     }
   },
   ".//contact-info/@type": {
-    "2": {
-      "fawe-rs-makeway.xml": 7
-    },
     "1": {
       "fawe-rs-activities.xml": 7
+    },
+    "2": {
+      "fawe-rs-makeway.xml": 7
     }
   },
   ".//default-aid-type/@vocabulary": {
@@ -85,8 +85,8 @@
   },
   ".//description/@type": {
     "1": {
-      "fawe-rs-makeway.xml": 14,
-      "fawe-rs-activities.xml": 9
+      "fawe-rs-activities.xml": 9,
+      "fawe-rs-makeway.xml": 14
     },
     "2": {
       "fawe-rs-activities.xml": 1
@@ -116,30 +116,30 @@
     }
   },
   ".//participating-org/@role": {
-    "1": {
-      "fawe-rs-makeway.xml": 7,
-      "fawe-rs-activities.xml": 6
-    },
     "2": {
-      "fawe-rs-makeway.xml": 7,
-      "fawe-rs-activities.xml": 7
+      "fawe-rs-activities.xml": 7,
+      "fawe-rs-makeway.xml": 7
     },
     "4": {
-      "fawe-rs-makeway.xml": 7,
-      "fawe-rs-activities.xml": 15
+      "fawe-rs-activities.xml": 15,
+      "fawe-rs-makeway.xml": 7
     },
     "3": {
       "fawe-rs-activities.xml": 1
+    },
+    "1": {
+      "fawe-rs-activities.xml": 6,
+      "fawe-rs-makeway.xml": 7
     }
   },
   ".//participating-org/@type": {
     "22": {
-      "fawe-rs-makeway.xml": 20,
-      "fawe-rs-activities.xml": 17
+      "fawe-rs-activities.xml": 17,
+      "fawe-rs-makeway.xml": 20
     },
     "21": {
-      "fawe-rs-makeway.xml": 1,
-      "fawe-rs-activities.xml": 1
+      "fawe-rs-activities.xml": 1,
+      "fawe-rs-makeway.xml": 1
     },
     "23": {
       "fawe-rs-activities.xml": 11
@@ -147,8 +147,8 @@
   },
   ".//policy-marker/@significance": {
     "2": {
-      "fawe-rs-makeway.xml": 21,
-      "fawe-rs-activities.xml": 9
+      "fawe-rs-activities.xml": 9,
+      "fawe-rs-makeway.xml": 21
     },
     "1": {
       "fawe-rs-activities.xml": 17
@@ -159,42 +159,36 @@
   },
   ".//policy-marker/@vocabulary": {
     "1": {
-      "fawe-rs-makeway.xml": 21,
-      "fawe-rs-activities.xml": 27
+      "fawe-rs-activities.xml": 27,
+      "fawe-rs-makeway.xml": 21
     }
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "9": {
+      "fawe-rs-activities.xml": 9,
+      "fawe-rs-makeway.xml": 7
+    },
     "1": {
-      "fawe-rs-makeway.xml": 7,
-      "fawe-rs-activities.xml": 10
+      "fawe-rs-activities.xml": 10,
+      "fawe-rs-makeway.xml": 7
     },
     "3": {
-      "fawe-rs-makeway.xml": 7,
-      "fawe-rs-activities.xml": 8
-    },
-    "9": {
-      "fawe-rs-makeway.xml": 7,
-      "fawe-rs-activities.xml": 9
+      "fawe-rs-activities.xml": 8,
+      "fawe-rs-makeway.xml": 7
     }
   },
   ".//recipient-country/@code": {
-    "RW": {
-      "fawe-rs-makeway.xml": 2
-    },
-    "ET": {
-      "fawe-rs-makeway.xml": 2,
-      "fawe-rs-activities.xml": 1
-    },
     "KE": {
-      "fawe-rs-makeway.xml": 2,
-      "fawe-rs-activities.xml": 3
-    },
-    "UG": {
+      "fawe-rs-activities.xml": 3,
       "fawe-rs-makeway.xml": 2
     },
     "ZM": {
-      "fawe-rs-makeway.xml": 2,
-      "fawe-rs-activities.xml": 1
+      "fawe-rs-activities.xml": 1,
+      "fawe-rs-makeway.xml": 2
+    },
+    "ET": {
+      "fawe-rs-activities.xml": 1,
+      "fawe-rs-makeway.xml": 2
     },
     "MW": {
       "fawe-rs-activities.xml": 1
@@ -207,6 +201,12 @@
     },
     "MZ": {
       "fawe-rs-activities.xml": 1
+    },
+    "RW": {
+      "fawe-rs-makeway.xml": 2
+    },
+    "UG": {
+      "fawe-rs-makeway.xml": 2
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -215,51 +215,54 @@
     }
   },
   ".//related-activity/@type": {
-    "1": {
-      "fawe-rs-makeway.xml": 7,
-      "fawe-rs-activities.xml": 9
-    },
     "2": {
       "fawe-rs-activities.xml": 8
+    },
+    "1": {
+      "fawe-rs-activities.xml": 9,
+      "fawe-rs-makeway.xml": 7
     }
   },
   ".//reporting-org/@type": {
     "22": {
-      "fawe-rs-makeway.xml": 7,
-      "fawe-rs-activities.xml": 9
+      "fawe-rs-activities.xml": 9,
+      "fawe-rs-makeway.xml": 7
     }
   },
   ".//result/@type": {
     "2": {
-      "fawe-rs-makeway.xml": 45,
-      "fawe-rs-activities.xml": 8
+      "fawe-rs-activities.xml": 8,
+      "fawe-rs-makeway.xml": 45
     },
     "1": {
-      "fawe-rs-activities.xml": 7
+      "fawe-rs-activities.xml": 8
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "fawe-rs-makeway.xml": 91,
-      "fawe-rs-activities.xml": 31
+      "fawe-rs-activities.xml": 49,
+      "fawe-rs-makeway.xml": 91
     }
   },
   ".//result/indicator/reference/@vocabulary": {
     "99": {
-      "fawe-rs-makeway.xml": 91,
-      "fawe-rs-activities.xml": 30
+      "fawe-rs-activities.xml": 47,
+      "fawe-rs-makeway.xml": 91
+    },
+    "4": {
+      "fawe-rs-activities.xml": 1
     }
   },
   ".//sector/@vocabulary": {
     "1": {
-      "fawe-rs-makeway.xml": 7,
-      "fawe-rs-activities.xml": 45
+      "fawe-rs-activities.xml": 45,
+      "fawe-rs-makeway.xml": 7
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "13020": {
-      "fawe-rs-makeway.xml": 7,
-      "fawe-rs-activities.xml": 9
+      "fawe-rs-activities.xml": 9,
+      "fawe-rs-makeway.xml": 7
     },
     "15160": {
       "fawe-rs-activities.xml": 9
@@ -286,43 +289,44 @@
     }
   },
   ".//transaction/provider-org/@type": {
-    "22": {
-      "fawe-rs-makeway.xml": 12,
-      "fawe-rs-activities.xml": 3
-    },
-    "21": {
-      "fawe-rs-makeway.xml": 2
-    },
     "23": {
       "fawe-rs-activities.xml": 7
+    },
+    "21": {
+      "fawe-rs-activities.xml": 1,
+      "fawe-rs-makeway.xml": 2
+    },
+    "22": {
+      "fawe-rs-activities.xml": 3,
+      "fawe-rs-makeway.xml": 12
     }
   },
   ".//transaction/receiver-org/@type": {
     "22": {
-      "fawe-rs-makeway.xml": 14,
-      "fawe-rs-activities.xml": 7
+      "fawe-rs-activities.xml": 7,
+      "fawe-rs-makeway.xml": 14
     },
     "23": {
       "fawe-rs-activities.xml": 1
     }
   },
   ".//transaction/transaction-type/@code": {
+    "2": {
+      "fawe-rs-activities.xml": 14,
+      "fawe-rs-makeway.xml": 6
+    },
+    "1": {
+      "fawe-rs-activities.xml": 1,
+      "fawe-rs-makeway.xml": 1
+    },
+    "3": {
+      "fawe-rs-activities.xml": 1
+    },
     "11": {
       "fawe-rs-makeway.xml": 7
     },
     "4": {
       "fawe-rs-makeway.xml": 6
-    },
-    "1": {
-      "fawe-rs-makeway.xml": 1,
-      "fawe-rs-activities.xml": 1
-    },
-    "2": {
-      "fawe-rs-makeway.xml": 6,
-      "fawe-rs-activities.xml": 14
-    },
-    "3": {
-      "fawe-rs-activities.xml": 1
     }
   },
   ".//transaction/value/@currency": {

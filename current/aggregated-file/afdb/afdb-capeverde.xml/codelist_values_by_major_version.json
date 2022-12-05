@@ -1,107 +1,110 @@
 {
   "2": {
     ".//@default-currency": {
-      "XDR": 67
+      "XDR": 69
     },
     ".//activity-date/@type": {
-      "1": 67,
+      "1": 69,
       "2": 66,
-      "3": 67,
+      "3": 69,
       "4": 60
     },
     ".//activity-status/@code": {
       "2": 4,
       "3": 60,
-      "5": 3
+      "5": 3,
+      "1": 2
     },
     ".//activity-scope/@code": {
-      "4": 67
+      "4": 69
     },
     ".//budget/@type": {
-      "1": 1492
+      "1": 1510
     },
     ".//budget/value/@currency": {
-      "XDR": 1492
+      "XDR": 1510
     },
     ".//collaboration-type/@code": {
-      "2": 67
+      "2": 69
     },
     ".//conditions/condition/@type": {
-      "1": 67,
-      "2": 67
+      "1": 69,
+      "2": 69
     },
     ".//country-budget-items/@vocabulary": {
-      "1": 67
+      "1": 69
     },
     ".//description/@type": {
-      "1": 52,
-      "2": 55,
-      "3": 39
+      "1": 54,
+      "2": 57,
+      "3": 41
     },
     ".//document-link/@format": {
-      "application/pdf": 161,
-      "text/html": 84,
+      "application/pdf": 170,
+      "text/html": 149,
       "application/vnd.ms-excel": 109
     },
     ".//document-link/category/@code": {
-      "A01": 55,
-      "A02": 100,
-      "A03": 138,
-      "A04": 45,
-      "A05": 45,
-      "A08": 128,
+      "A01": 63,
+      "A02": 112,
+      "A03": 146,
+      "A04": 49,
+      "A05": 49,
+      "A08": 132,
       "A07": 83,
-      "A12": 72,
+      "A12": 138,
       "A06": 112,
       "A11": 112,
       "A10": 18,
       "A09": 14
     },
     ".//document-link/language/@code": {
-      "fr": 186,
-      "en": 168
+      "fr": 256,
+      "en": 170,
+      "pt": 2
     },
     ".//location/administrative/@vocabulary": {
-      "G1": 150,
+      "G1": 154,
       "A1": 2
     },
     ".//location/feature-designation/@code": {
-      "PPL": 20,
+      "PPL": 22,
       "ADM1": 18,
       "ISL": 13,
       "PCLI": 20,
       "LCTY": 5
     },
     ".//location/location-class/@code": {
-      "2": 20,
+      "2": 22,
       "1": 38,
       "4": 18
     },
     ".//location/location-id/@vocabulary": {
-      "G1": 75,
+      "G1": 77,
       "A1": 1
     },
     ".//location/exactness/@code": {
-      "2": 71,
+      "2": 73,
       "1": 5
     },
     ".//other-identifier/@type": {
-      "B1": 67
+      "B1": 69
     },
     ".//participating-org/@role": {
-      "1": 72,
-      "4": 85,
+      "1": 74,
+      "4": 87,
       "3": 33
     },
     ".//participating-org/@type": {
-      "40": 72,
-      "10": 118
+      "40": 74,
+      "10": 119,
+      "11": 1
     },
     ".//recipient-country/@code": {
-      "CV": 67
+      "CV": 69
     },
     ".//reporting-org/@type": {
-      "40": 67
+      "40": 69
     },
     ".//result/@type": {
       "1": 226
@@ -111,7 +114,7 @@
       "2": 24
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15142": 12,
+      "15142": 13,
       "31110": 7,
       "31320": 5,
       "43042": 1,
@@ -122,7 +125,7 @@
       "14022": 1,
       "23630": 2,
       "22011": 2,
-      "22020": 2,
+      "22020": 3,
       "11110": 5,
       "12110": 3,
       "16011": 2,
@@ -130,32 +133,32 @@
       "32130": 1
     },
     ".//sector/@vocabulary": {
-      "1": 67
+      "1": 69
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "A01": 508,
-      "C01": 1516,
-      "D02": 65
+      "A01": 528,
+      "C01": 1554,
+      "D02": 66
     },
     ".//transaction/finance-type/@code": {
-      "421": 2014,
-      "110": 75
+      "421": 2072,
+      "110": 76
     },
     ".//transaction/flow-type/@code": {
-      "10": 2122
+      "10": 2181
     },
     ".//transaction/tied-status/@code": {
-      "5": 2122
+      "5": 2181
     },
     ".//transaction/transaction-type/@code": {
-      "2": 108,
-      "3": 291,
-      "5": 982,
-      "6": 741
+      "2": 110,
+      "3": 298,
+      "5": 1007,
+      "6": 766
     },
     ".//@xml:lang": {
-      "en": 309,
-      "fr": 204
+      "en": 321,
+      "fr": 212
     }
   }
 }

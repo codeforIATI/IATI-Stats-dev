@@ -31,8 +31,8 @@
       "1": 4
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "D02": 1,
-      "C01": 3
+      "C01": 3,
+      "D02": 1
     },
     ".//default-finance-type/@code": {
       "110": 4
@@ -74,9 +74,9 @@
       "12": 4
     },
     ".//policy-marker/@significance": {
-      "1": 2,
       "0": 42,
-      "2": 4
+      "2": 4,
+      "1": 2
     },
     ".//policy-marker/@vocabulary": {
       "1": 48
@@ -104,8 +104,8 @@
       "2": 1
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "D02": 2,
-      "C01": 4
+      "C01": 4,
+      "D02": 2
     },
     ".//transaction/disbursement-channel/@code": {
       "2": 8

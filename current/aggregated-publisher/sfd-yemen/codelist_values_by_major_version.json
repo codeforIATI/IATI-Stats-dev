@@ -7,8 +7,8 @@
     },
     ".//budget/value/@currency": {
       "GBP": 119,
-      "USD": 40,
-      " USD ": 8
+      " USD ": 8,
+      "USD": 40
     },
     ".//description/@type": {
       "1": 169,
@@ -39,10 +39,19 @@
     ".//@xml:lang": {
       "en": 184
     },
+    ".//participating-org/@type": {
+      "10": 3
+    },
+    ".//result/@type": {
+      "1": 1
+    },
+    ".//result/indicator/@measure": {
+      "3": 4
+    },
     ".//activity-status/@code": {
+      "2": 9,
       "4": 39,
-      "5": 1,
-      "2": 9
+      "5": 1
     },
     ".//transaction/transaction-type/@code": {
       "D": 4,
@@ -89,9 +98,6 @@
       "11000": 1,
       "12004": 1
     },
-    ".//participating-org/@type": {
-      "10": 3
-    },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "14021": 1,
       "14010": 1
@@ -104,12 +110,6 @@
     },
     ".//transaction/receiver-org/@type": {
       "15": 3
-    },
-    ".//result/@type": {
-      "1": 1
-    },
-    ".//result/indicator/@measure": {
-      "3": 4
     }
   }
 }

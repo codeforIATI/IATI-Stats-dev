@@ -1,77 +1,85 @@
 {
   ".//@default-currency": {
-    "USD": 49
+    "USD": 42
   },
   ".//@xml:lang": {
-    "EN": 49,
-    "en": 22
+    "EN": 42,
+    "en": 28
   },
   ".//activity-date/@type": {
-    "1": 30,
-    "2": 42,
-    "3": 38,
-    "4": 34
+    "1": 31,
+    "2": 35,
+    "3": 33,
+    "4": 29
   },
   ".//activity-scope/@code": {
-    "4": 49
+    "4": 42
   },
   ".//activity-status/@code": {
     "3": 29,
-    "4": 5,
-    "1": 7,
-    "2": 8
+    "2": 6,
+    "1": 7
   },
   ".//budget/@type": {
-    "1": 49
+    "1": 42
   },
   ".//budget/value/@currency": {
-    "USD": 49
+    "USD": 42
   },
   ".//collaboration-type/@code": {
-    "2": 49
+    "2": 42
   },
   ".//contact-info/@type": {
-    "1": 49
+    "1": 42
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 49
+    "C01": 42
   },
   ".//default-tied-status/@code": {
-    "5": 49
+    "5": 42
   },
   ".//description/@type": {
-    "2": 49
+    "2": 42
   },
   ".//document-link/@format": {
-    "application/pdf": 22
+    "application/pdf": 28
   },
   ".//document-link/category/@code": {
-    "A01": 6,
-    "A07": 16
+    "A07": 19,
+    "A01": 9
   },
   ".//participating-org/@role": {
-    "1": 50,
-    "3": 50,
-    "4": 49
+    "1": 43,
+    "3": 43,
+    "4": 42
   },
   ".//participating-org/@type": {
-    "40": 143,
+    "40": 122,
     "22": 6
   },
+  ".//recipient-country/@code": {
+    "EC": 41
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": 1
+  },
+  ".//related-activity/@type": {
+    "1": 5
+  },
   ".//reporting-org/@type": {
-    "40": 49
+    "40": 42
   },
   ".//sector/@vocabulary": {
-    "99": 50
+    "99": 41
   },
   ".//transaction/finance-type/@code": {
-    "110": 225
+    "110": 215
   },
   ".//transaction/transaction-type/@code": {
-    "3": 175,
-    "2": 50
+    "3": 172,
+    "2": 43
   },
   ".//transaction/value/@currency": {
-    "USD": 225
+    "USD": 215
   }
 }

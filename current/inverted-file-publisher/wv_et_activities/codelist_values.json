@@ -1,125 +1,131 @@
 {
   ".//@default-currency": {
     "USD": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     }
   },
   ".//activity-date/@type": {
     "1": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     },
     "2": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     },
     "3": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
+    },
+    "4": {
+      "wv_et_activities-activity.xml": 2
     }
   },
   ".//activity-scope/@code": {
     "4": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     }
   },
   ".//activity-status/@code": {
+    "4": {
+      "wv_et_activities-activity.xml": 2
+    },
     "2": {
       "wv_et_activities-activity.xml": 3
     }
   },
   ".//contact-info/@type": {
     "1": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     }
   },
   ".//default-finance-type/@code": {
     "110": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     }
   },
   ".//default-flow-type/@code": {
     "10": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     }
   },
   ".//description/@type": {
     "1": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     },
     "4": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     }
   },
   ".//participating-org/@role": {
     "1": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     },
     "4": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     }
   },
   ".//participating-org/@type": {
     "21": {
-      "wv_et_activities-activity.xml": 6
+      "wv_et_activities-activity.xml": 10
     }
   },
   ".//recipient-country/@code": {
     "ET": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     }
   },
   ".//related-activity/@type": {
     "5": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     }
   },
   ".//reporting-org/@type": {
     "21": {
-      "wv_et_activities-activity.xml": 3
+      "wv_et_activities-activity.xml": 5
     }
   },
   ".//sector/@vocabulary": {
-    "2": {
-      "wv_et_activities-activity.xml": 3
+    "1": {
+      "wv_et_activities-activity.xml": 5
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "72010": {
       "wv_et_activities-activity.xml": 2
     },
-    "15180": {
+    "15160": {
       "wv_et_activities-activity.xml": 1
-    }
-  },
-  ".//sector[@vocabulary = '2']/@code": {
-    "720": {
-      "wv_et_activities-activity.xml": 2
     },
-    "160": {
-      "wv_et_activities-activity.xml": 1
+    "52010": {
+      "wv_et_activities-activity.xml": 2
     }
   },
   ".//transaction/provider-org/@type": {
     "21": {
-      "wv_et_activities-activity.xml": 27
+      "wv_et_activities-activity.xml": 35
     }
   },
   ".//transaction/receiver-org/@type": {
     "21": {
-      "wv_et_activities-activity.xml": 27
+      "wv_et_activities-activity.xml": 35
     }
   },
   ".//transaction/transaction-type/@code": {
     "1": {
-      "wv_et_activities-activity.xml": 27
+      "wv_et_activities-activity.xml": 35
+    }
+  },
+  ".//transaction/value/@currency": {
+    "USD": {
+      "wv_et_activities-activity.xml": 35
     }
   }
 }

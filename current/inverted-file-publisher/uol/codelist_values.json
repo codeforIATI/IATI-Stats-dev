@@ -1,35 +1,38 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "uol-activities.xml": 2
+      "uol-activities.xml": 3
     }
   },
   ".//@xml:lang": {
     "en": {
-      "uol-activities.xml": 21
+      "uol-activities.xml": 26
     }
   },
   ".//activity-date/@type": {
     "2": {
-      "uol-activities.xml": 2
+      "uol-activities.xml": 3
+    },
+    "3": {
+      "uol-activities.xml": 1
     }
   },
   ".//activity-status/@code": {
     "2": {
-      "uol-activities.xml": 2
+      "uol-activities.xml": 3
     }
   },
   ".//budget/@status": {
     "2": {
-      "uol-activities.xml": 5
+      "uol-activities.xml": 6
     },
     "1": {
-      "uol-activities.xml": 1
+      "uol-activities.xml": 7
     }
   },
   ".//budget/@type": {
     "1": {
-      "uol-activities.xml": 2
+      "uol-activities.xml": 9
     },
     "2": {
       "uol-activities.xml": 4
@@ -37,12 +40,12 @@
   },
   ".//budget/value/@currency": {
     "GBP": {
-      "uol-activities.xml": 6
+      "uol-activities.xml": 13
     }
   },
   ".//description/@type": {
     "1": {
-      "uol-activities.xml": 2
+      "uol-activities.xml": 3
     },
     "2": {
       "uol-activities.xml": 1
@@ -53,18 +56,24 @@
   },
   ".//participating-org/@role": {
     "1": {
-      "uol-activities.xml": 2
+      "uol-activities.xml": 3
     },
     "4": {
-      "uol-activities.xml": 6
+      "uol-activities.xml": 12
+    },
+    "2": {
+      "uol-activities.xml": 1
     }
   },
   ".//participating-org/@type": {
     "10": {
-      "uol-activities.xml": 2
+      "uol-activities.xml": 3
     },
     "80": {
-      "uol-activities.xml": 6
+      "uol-activities.xml": 9
+    },
+    "15": {
+      "uol-activities.xml": 4
     }
   },
   ".//recipient-country/@code": {
@@ -72,10 +81,10 @@
       "uol-activities.xml": 1
     },
     "UG": {
-      "uol-activities.xml": 1
+      "uol-activities.xml": 2
     },
     "GB": {
-      "uol-activities.xml": 1
+      "uol-activities.xml": 2
     },
     "PK": {
       "uol-activities.xml": 1
@@ -88,21 +97,33 @@
     },
     "LK": {
       "uol-activities.xml": 1
+    },
+    "KE": {
+      "uol-activities.xml": 1
+    },
+    "RW": {
+      "uol-activities.xml": 1
+    },
+    "TZ": {
+      "uol-activities.xml": 1
+    },
+    "CM": {
+      "uol-activities.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "80": {
-      "uol-activities.xml": 2
+      "uol-activities.xml": 3
     }
   },
   ".//sector/@vocabulary": {
     "1": {
-      "uol-activities.xml": 51
+      "uol-activities.xml": 52
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "12182": {
-      "uol-activities.xml": 50
+      "uol-activities.xml": 51
     },
     "12340": {
       "uol-activities.xml": 1

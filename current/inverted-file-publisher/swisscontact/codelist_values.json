@@ -1,20 +1,20 @@
 {
   ".//@default-currency": {
     "CHF": {
-      "swisscontact-activities.xml": 2
+      "swisscontact-activities.xml": 1
     }
   },
   ".//@xml:lang": {
     "en": {
-      "swisscontact-activities.xml": 8
+      "swisscontact-activities.xml": 5
     },
     "fr": {
-      "swisscontact-activities.xml": 5
+      "swisscontact-activities.xml": 39
     }
   },
   ".//activity-date/@type": {
     "2": {
-      "swisscontact-activities.xml": 2
+      "swisscontact-activities.xml": 1
     },
     "3": {
       "swisscontact-activities.xml": 1
@@ -22,14 +22,14 @@
   },
   ".//activity-status/@code": {
     "2": {
-      "swisscontact-activities.xml": 2
+      "swisscontact-activities.xml": 1
     }
   },
   ".//budget/@status": {
-    "1": {
-      "swisscontact-activities.xml": 3
-    },
     "2": {
+      "swisscontact-activities.xml": 2
+    },
+    "1": {
       "swisscontact-activities.xml": 2
     }
   },
@@ -39,21 +39,75 @@
     }
   },
   ".//budget/value/@currency": {
-    "CHF": {
-      "swisscontact-activities.xml": 1
-    },
     "EUR": {
       "swisscontact-activities.xml": 4
     }
   },
+  ".//contact-info/@type": {
+    "1": {
+      "swisscontact-activities.xml": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "swisscontact-activities.xml": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "swisscontact-activities.xml": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "swisscontact-activities.xml": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "swisscontact-activities.xml": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "swisscontact-activities.xml": 1
+    }
+  },
   ".//description/@type": {
     "1": {
-      "swisscontact-activities.xml": 2
+      "swisscontact-activities.xml": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "swisscontact-activities.xml": 3
+    },
+    "application/http": {
+      "swisscontact-activities.xml": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A08": {
+      "swisscontact-activities.xml": 1
+    },
+    "A12": {
+      "swisscontact-activities.xml": 1
+    },
+    "B03": {
+      "swisscontact-activities.xml": 1
+    },
+    "A02": {
+      "swisscontact-activities.xml": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "fr": {
+      "swisscontact-activities.xml": 4
     }
   },
   ".//participating-org/@role": {
     "1": {
-      "swisscontact-activities.xml": 2
+      "swisscontact-activities.xml": 1
     },
     "2": {
       "swisscontact-activities.xml": 1
@@ -63,35 +117,86 @@
     }
   },
   ".//participating-org/@type": {
-    "21": {
-      "swisscontact-activities.xml": 3
-    },
     "10": {
+      "swisscontact-activities.xml": 1
+    },
+    "21": {
+      "swisscontact-activities.xml": 2
+    }
+  },
+  ".//planned-disbursement/@type": {
+    "1": {
+      "swisscontact-activities.xml": 5
+    }
+  },
+  ".//planned-disbursement/value/@currency": {
+    "EUR": {
+      "swisscontact-activities.xml": 5
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "swisscontact-activities.xml": 2
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "swisscontact-activities.xml": 2
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "swisscontact-activities.xml": 1
+    },
+    "3": {
       "swisscontact-activities.xml": 1
     }
   },
   ".//recipient-country/@code": {
-    "AF": {
-      "swisscontact-activities.xml": 1
-    },
     "NE": {
+      "swisscontact-activities.xml": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "swisscontact-activities.xml": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1030": {
       "swisscontact-activities.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "21": {
+      "swisscontact-activities.xml": 1
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "swisscontact-activities.xml": 5
+    },
+    "3": {
+      "swisscontact-activities.xml": 1
+    },
+    "2": {
       "swisscontact-activities.xml": 2
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "swisscontact-activities.xml": 15
+    },
+    "5": {
+      "swisscontact-activities.xml": 1
     }
   },
   ".//sector/@vocabulary": {
     "1": {
-      "swisscontact-activities.xml": 2
+      "swisscontact-activities.xml": 1
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "11110": {
-      "swisscontact-activities.xml": 1
-    },
     "11330": {
       "swisscontact-activities.xml": 1
     }

@@ -381,13 +381,10 @@
     "nj_1-activities.xml": 8
   },
   "iati-activity/result/description": {
-    "nj_1-activities.xml": 1
+    "nj_1-activities.xml": 3
   },
   "iati-activity/result/description/narrative": {
-    "nj_1-activities.xml": 1
-  },
-  "iati-activity/result/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "nj_1-activities.xml": 1
+    "nj_1-activities.xml": 3
   },
   "iati-activity/result/document-link": {
     "nj_1-activities.xml": 1
@@ -437,14 +434,17 @@
   "iati-activity/result/indicator/baseline/@year": {
     "nj_1-activities.xml": 8
   },
+  "iati-activity/result/indicator/baseline/location": {
+    "nj_1-activities.xml": 1
+  },
+  "iati-activity/result/indicator/baseline/location/@ref": {
+    "nj_1-activities.xml": 1
+  },
   "iati-activity/result/indicator/description": {
     "nj_1-activities.xml": 3
   },
   "iati-activity/result/indicator/description/narrative": {
     "nj_1-activities.xml": 3
-  },
-  "iati-activity/result/indicator/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "nj_1-activities.xml": 1
   },
   "iati-activity/result/indicator/period": {
     "nj_1-activities.xml": 8
@@ -468,18 +468,15 @@
     "nj_1-activities.xml": 8
   },
   "iati-activity/result/indicator/period/target": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 7
   },
   "iati-activity/result/indicator/period/target/@value": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 7
   },
   "iati-activity/result/indicator/period/target/comment": {
     "nj_1-activities.xml": 1
   },
   "iati-activity/result/indicator/period/target/comment/narrative": {
-    "nj_1-activities.xml": 1
-  },
-  "iati-activity/result/indicator/period/target/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
     "nj_1-activities.xml": 1
   },
   "iati-activity/result/indicator/reference": {
@@ -543,7 +540,13 @@
     "nj_1-activities.xml": 9
   },
   "iati-activity/transaction": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 9
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "nj_1-activities.xml": 1
+  },
+  "iati-activity/transaction/@ref": {
+    "nj_1-activities.xml": 1
   },
   "iati-activity/transaction/aid-type": {
     "nj_1-activities.xml": 8
@@ -555,10 +558,10 @@
     "nj_1-activities.xml": 8
   },
   "iati-activity/transaction/disbursement-channel": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 9
   },
   "iati-activity/transaction/disbursement-channel/@code": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 9
   },
   "iati-activity/transaction/finance-type": {
     "nj_1-activities.xml": 8
@@ -573,28 +576,28 @@
     "nj_1-activities.xml": 8
   },
   "iati-activity/transaction/provider-org": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 9
   },
   "iati-activity/transaction/provider-org/@provider-activity-id": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 9
   },
   "iati-activity/transaction/provider-org/@ref": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 9
   },
   "iati-activity/transaction/provider-org/@type": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 9
   },
   "iati-activity/transaction/provider-org/narrative": {
     "nj_1-activities.xml": 1
   },
   "iati-activity/transaction/receiver-org": {
-    "nj_1-activities.xml": 7
+    "nj_1-activities.xml": 8
   },
   "iati-activity/transaction/receiver-org/@receiver-activity-id": {
-    "nj_1-activities.xml": 7
+    "nj_1-activities.xml": 8
   },
   "iati-activity/transaction/receiver-org/@ref": {
-    "nj_1-activities.xml": 7
+    "nj_1-activities.xml": 8
   },
   "iati-activity/transaction/receiver-org/@type": {
     "nj_1-activities.xml": 7
@@ -606,24 +609,24 @@
     "nj_1-activities.xml": 8
   },
   "iati-activity/transaction/transaction-date": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 9
   },
   "iati-activity/transaction/transaction-date/@iso-date": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 9
   },
   "iati-activity/transaction/transaction-type": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 9
   },
   "iati-activity/transaction/transaction-type/@code": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 9
   },
   "iati-activity/transaction/value": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 9
   },
   "iati-activity/transaction/value/@currency": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 9
   },
   "iati-activity/transaction/value/@value-date": {
-    "nj_1-activities.xml": 8
+    "nj_1-activities.xml": 9
   }
 }

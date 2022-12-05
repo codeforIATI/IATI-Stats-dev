@@ -226,7 +226,7 @@
     "nimd-hq-activities.xml": 165
   },
   "iati-activity/participating-org/@ref": {
-    "nimd-hq-activity.xml": 66,
+    "nimd-hq-activity.xml": 67,
     "nimd-hq-activities.xml": 136
   },
   "iati-activity/participating-org/@role": {
@@ -261,27 +261,27 @@
     "nimd-hq-activities.xml": 135
   },
   "iati-activity/recipient-country": {
-    "nimd-hq-activity.xml": 31,
+    "nimd-hq-activity.xml": 32,
     "nimd-hq-activities.xml": 264
   },
   "iati-activity/recipient-country/@code": {
-    "nimd-hq-activity.xml": 31,
+    "nimd-hq-activity.xml": 32,
     "nimd-hq-activities.xml": 264
   },
   "iati-activity/recipient-country/@percentage": {
-    "nimd-hq-activity.xml": 31,
+    "nimd-hq-activity.xml": 32,
     "nimd-hq-activities.xml": 264
   },
   "iati-activity/recipient-region": {
-    "nimd-hq-activity.xml": 13,
+    "nimd-hq-activity.xml": 12,
     "nimd-hq-activities.xml": 6
   },
   "iati-activity/recipient-region/@code": {
-    "nimd-hq-activity.xml": 13,
+    "nimd-hq-activity.xml": 12,
     "nimd-hq-activities.xml": 6
   },
   "iati-activity/recipient-region/@percentage": {
-    "nimd-hq-activity.xml": 13,
+    "nimd-hq-activity.xml": 12,
     "nimd-hq-activities.xml": 6
   },
   "iati-activity/related-activity": {
@@ -319,9 +319,6 @@
     "nimd-hq-activity.xml": 143,
     "nimd-hq-activities.xml": 1545
   },
-  "iati-activity/result/@aggregation-status": {
-    "nimd-hq-activity.xml": 143
-  },
   "iati-activity/result/@type": {
     "nimd-hq-activity.xml": 143,
     "nimd-hq-activities.xml": 1545
@@ -340,6 +337,9 @@
   "iati-activity/result/indicator": {
     "nimd-hq-activity.xml": 204,
     "nimd-hq-activities.xml": 1561
+  },
+  "iati-activity/result/indicator/@aggregation-status": {
+    "nimd-hq-activity.xml": 204
   },
   "iati-activity/result/indicator/@ascending": {
     "nimd-hq-activity.xml": 204,
@@ -362,15 +362,15 @@
     "nimd-hq-activities.xml": 1561
   },
   "iati-activity/result/indicator/baseline/comment": {
-    "nimd-hq-activity.xml": 164,
+    "nimd-hq-activity.xml": 167,
     "nimd-hq-activities.xml": 82
   },
   "iati-activity/result/indicator/baseline/comment/narrative": {
-    "nimd-hq-activity.xml": 164,
+    "nimd-hq-activity.xml": 167,
     "nimd-hq-activities.xml": 82
   },
   "iati-activity/result/indicator/baseline/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "nimd-hq-activity.xml": 164
+    "nimd-hq-activity.xml": 167
   },
   "iati-activity/result/indicator/description": {
     "nimd-hq-activity.xml": 204,
@@ -384,7 +384,7 @@
     "nimd-hq-activity.xml": 221
   },
   "iati-activity/result/indicator/period": {
-    "nimd-hq-activity.xml": 8293,
+    "nimd-hq-activity.xml": 7945,
     "nimd-hq-activities.xml": 1982
   },
   "iati-activity/result/indicator/period/actual": {
@@ -407,37 +407,37 @@
     "nimd-hq-activity.xml": 84
   },
   "iati-activity/result/indicator/period/period-end": {
-    "nimd-hq-activity.xml": 8293,
+    "nimd-hq-activity.xml": 7945,
     "nimd-hq-activities.xml": 1982
   },
   "iati-activity/result/indicator/period/period-end/@iso-date": {
-    "nimd-hq-activity.xml": 8293,
+    "nimd-hq-activity.xml": 7945,
     "nimd-hq-activities.xml": 1982
   },
   "iati-activity/result/indicator/period/period-start": {
-    "nimd-hq-activity.xml": 8293,
+    "nimd-hq-activity.xml": 7945,
     "nimd-hq-activities.xml": 1982
   },
   "iati-activity/result/indicator/period/period-start/@iso-date": {
-    "nimd-hq-activity.xml": 8293,
+    "nimd-hq-activity.xml": 7945,
     "nimd-hq-activities.xml": 1982
   },
   "iati-activity/result/indicator/period/target": {
-    "nimd-hq-activity.xml": 8089,
+    "nimd-hq-activity.xml": 7741,
     "nimd-hq-activities.xml": 1982
   },
   "iati-activity/result/indicator/period/target/@value": {
-    "nimd-hq-activity.xml": 8089,
+    "nimd-hq-activity.xml": 7741,
     "nimd-hq-activities.xml": 1982
   },
   "iati-activity/result/indicator/period/target/comment": {
-    "nimd-hq-activity.xml": 6443
+    "nimd-hq-activity.xml": 6184
   },
   "iati-activity/result/indicator/period/target/comment/narrative": {
-    "nimd-hq-activity.xml": 6443
+    "nimd-hq-activity.xml": 6184
   },
   "iati-activity/result/indicator/period/target/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "nimd-hq-activity.xml": 6443
+    "nimd-hq-activity.xml": 6184
   },
   "iati-activity/result/indicator/reference": {
     "nimd-hq-activity.xml": 128,
@@ -506,7 +506,7 @@
     "nimd-hq-activity.xml": 30
   },
   "iati-activity/transaction": {
-    "nimd-hq-activity.xml": 145,
+    "nimd-hq-activity.xml": 155,
     "nimd-hq-activities.xml": 642
   },
   "iati-activity/transaction/description": {
@@ -521,70 +521,70 @@
     "nimd-hq-activity.xml": 40
   },
   "iati-activity/transaction/provider-org": {
-    "nimd-hq-activity.xml": 2,
+    "nimd-hq-activity.xml": 8,
     "nimd-hq-activities.xml": 642
   },
   "iati-activity/transaction/provider-org/@provider-activity-id": {
-    "nimd-hq-activity.xml": 2,
+    "nimd-hq-activity.xml": 8,
     "nimd-hq-activities.xml": 642
   },
   "iati-activity/transaction/provider-org/@ref": {
-    "nimd-hq-activity.xml": 2,
+    "nimd-hq-activity.xml": 8,
     "nimd-hq-activities.xml": 642
   },
   "iati-activity/transaction/provider-org/@type": {
-    "nimd-hq-activity.xml": 2
+    "nimd-hq-activity.xml": 8
   },
   "iati-activity/transaction/provider-org/narrative": {
-    "nimd-hq-activity.xml": 2
+    "nimd-hq-activity.xml": 8
   },
   "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "nimd-hq-activity.xml": 2
+    "nimd-hq-activity.xml": 8
   },
   "iati-activity/transaction/receiver-org": {
-    "nimd-hq-activity.xml": 143,
+    "nimd-hq-activity.xml": 147,
     "nimd-hq-activities.xml": 298
   },
   "iati-activity/transaction/receiver-org/@receiver-activity-id": {
     "nimd-hq-activities.xml": 22
   },
   "iati-activity/transaction/receiver-org/@ref": {
-    "nimd-hq-activity.xml": 25,
+    "nimd-hq-activity.xml": 31,
     "nimd-hq-activities.xml": 22
   },
   "iati-activity/transaction/receiver-org/narrative": {
-    "nimd-hq-activity.xml": 143,
+    "nimd-hq-activity.xml": 147,
     "nimd-hq-activities.xml": 298
   },
   "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
-    "nimd-hq-activity.xml": 143
+    "nimd-hq-activity.xml": 147
   },
   "iati-activity/transaction/transaction-date": {
-    "nimd-hq-activity.xml": 145,
+    "nimd-hq-activity.xml": 155,
     "nimd-hq-activities.xml": 642
   },
   "iati-activity/transaction/transaction-date/@iso-date": {
-    "nimd-hq-activity.xml": 145,
+    "nimd-hq-activity.xml": 155,
     "nimd-hq-activities.xml": 642
   },
   "iati-activity/transaction/transaction-type": {
-    "nimd-hq-activity.xml": 145,
+    "nimd-hq-activity.xml": 155,
     "nimd-hq-activities.xml": 642
   },
   "iati-activity/transaction/transaction-type/@code": {
-    "nimd-hq-activity.xml": 145,
+    "nimd-hq-activity.xml": 155,
     "nimd-hq-activities.xml": 642
   },
   "iati-activity/transaction/value": {
-    "nimd-hq-activity.xml": 145,
+    "nimd-hq-activity.xml": 155,
     "nimd-hq-activities.xml": 642
   },
   "iati-activity/transaction/value/@currency": {
-    "nimd-hq-activity.xml": 145,
+    "nimd-hq-activity.xml": 155,
     "nimd-hq-activities.xml": 642
   },
   "iati-activity/transaction/value/@value-date": {
-    "nimd-hq-activity.xml": 145,
+    "nimd-hq-activity.xml": 155,
     "nimd-hq-activities.xml": 642
   },
   "iati-organisation": {

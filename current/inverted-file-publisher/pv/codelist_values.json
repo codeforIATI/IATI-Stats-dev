@@ -1,102 +1,129 @@
 {
   ".//@default-currency": {
     "EUR": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//@xml:lang": {
     "en": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//activity-date/@type": {
     "2": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     },
     "3": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//activity-status/@code": {
     "2": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//budget/value/@currency": {
     "EUR": {
-      "pv-pv-welead-iati.xml": 14
+      "pv-pv-welead-iati.xml": 50,
+      "pv-pv-f2bm.xml": 30
     }
   },
   ".//collaboration-type/@code": {
     "1": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//contact-info/@type": {
     "1": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//default-finance-type/@code": {
     "110": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//default-flow-type/@code": {
     "30": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//description/@type": {
     "1": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     },
     "2": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     },
     "3": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
+    },
+    "4": {
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//participating-org/@role": {
     "1": {
-      "pv-pv-welead-iati.xml": 1
+      "pv-pv-welead-iati.xml": 1,
+      "pv-pv-f2bm.xml": 1
     },
     "2": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     },
     "4": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//participating-org/@type": {
     "21": {
-      "pv-pv-welead-iati.xml": 21
+      "pv-pv-welead-iati.xml": 21,
+      "pv-pv-f2bm.xml": 13
     }
   },
   ".//policy-marker/@significance": {
     "1": {
       "pv-pv-welead-iati.xml": 10
+    },
+    "2": {
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//policy-marker/@vocabulary": {
     "1": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "1": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//recipient-country/@code": {
@@ -128,50 +155,79 @@
       "pv-pv-welead-iati.xml": 2
     }
   },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "589": {
+      "pv-pv-f2bm.xml": 2
+    },
+    "1030": {
+      "pv-pv-f2bm.xml": 2
+    },
+    "1027": {
+      "pv-pv-f2bm.xml": 2
+    },
+    "1029": {
+      "pv-pv-f2bm.xml": 2
+    },
+    "679": {
+      "pv-pv-f2bm.xml": 2
+    }
+  },
   ".//related-activity/@type": {
     "1": {
-      "pv-pv-welead-iati.xml": 9
+      "pv-pv-welead-iati.xml": 9,
+      "pv-pv-f2bm.xml": 5
     }
   },
   ".//reporting-org/@type": {
     "21": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//sector/@vocabulary": {
     "1": {
-      "pv-pv-welead-iati.xml": 10
+      "pv-pv-welead-iati.xml": 10,
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "13020": {
       "pv-pv-welead-iati.xml": 10
+    },
+    "15160": {
+      "pv-pv-f2bm.xml": 6
     }
   },
   ".//transaction/provider-org/@type": {
     "21": {
-      "pv-pv-welead-iati.xml": 30
+      "pv-pv-welead-iati.xml": 30,
+      "pv-pv-f2bm.xml": 18
     }
   },
   ".//transaction/receiver-org/@type": {
     "21": {
-      "pv-pv-welead-iati.xml": 30
+      "pv-pv-welead-iati.xml": 30,
+      "pv-pv-f2bm.xml": 18
     }
   },
   ".//transaction/transaction-type/@code": {
     "11": {
-      "pv-pv-welead-iati.xml": 1
+      "pv-pv-welead-iati.xml": 1,
+      "pv-pv-f2bm.xml": 1
     },
     "1": {
-      "pv-pv-welead-iati.xml": 2
+      "pv-pv-welead-iati.xml": 2,
+      "pv-pv-f2bm.xml": 2
     },
     "4": {
-      "pv-pv-welead-iati.xml": 27
+      "pv-pv-welead-iati.xml": 27,
+      "pv-pv-f2bm.xml": 15
     }
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "pv-pv-welead-iati.xml": 30
+      "pv-pv-welead-iati.xml": 30,
+      "pv-pv-f2bm.xml": 18
     }
   }
 }

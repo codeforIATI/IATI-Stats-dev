@@ -6,7 +6,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "nwo-activities.xml": 46
+      "nwo-activities.xml": 47
     }
   },
   ".//activity-date/@type": {
@@ -119,6 +119,9 @@
     }
   },
   ".//recipient-country/@code": {
+    "NL": {
+      "nwo-activities.xml": 2
+    },
     "BD": {
       "nwo-activities.xml": 1
     },
@@ -148,6 +151,19 @@
     },
     "RW": {
       "nwo-activities.xml": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "nwo-activities.xml": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "nwo-activities.xml": 1
+    },
+    "89": {
+      "nwo-activities.xml": 2
     }
   },
   ".//reporting-org/@type": {
@@ -193,14 +209,32 @@
       "nwo-activities.xml": 1
     }
   },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "nwo-activities.xml": 6
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "NL": {
+      "nwo-activities.xml": 2
+    }
+  },
+  ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "89": {
+      "nwo-activities.xml": 2
+    }
+  },
   ".//transaction/transaction-type/@code": {
     "11": {
-      "nwo-activities.xml": 1
+      "nwo-activities.xml": 4
+    },
+    "1": {
+      "nwo-activities.xml": 3
     }
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "nwo-activities.xml": 1
+      "nwo-activities.xml": 7
     }
   }
 }

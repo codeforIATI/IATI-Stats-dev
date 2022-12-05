@@ -7,11 +7,11 @@
       "1": 9,
       "2": 18,
       "3": 18,
-      "4": 5
+      "4": 7
     },
     ".//activity-status/@code": {
-      "2": 16,
-      "4": 2
+      "4": 8,
+      "2": 10
     },
     ".//collaboration-type/@code": {
       "1": 18
@@ -23,6 +23,117 @@
       "1": 18,
       "2": 6,
       "3": 5
+    },
+    ".//participating-org/@role": {
+      "1": 20,
+      "2": 20,
+      "4": 54
+    },
+    ".//participating-org/@type": {
+      "80": 6,
+      "21": 46,
+      "10": 11,
+      "22": 18,
+      "72": 2,
+      "11": 1,
+      "24": 10
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "3": 15,
+      "10": 4,
+      "7": 2
+    },
+    ".//policy-marker/@significance": {
+      "2": 7,
+      "1": 14
+    },
+    ".//policy-marker/@vocabulary": {
+      "1": 21
+    },
+    ".//recipient-country/@code": {
+      "GH": 1,
+      "TZ": 1,
+      "UG": 2,
+      "NG": 1,
+      "ZW": 3,
+      "SL": 2,
+      "MW": 3,
+      "SO": 1,
+      "KE": 4,
+      "SD": 1,
+      "ET": 4,
+      "CD": 2,
+      "GB": 18,
+      "IN": 2,
+      "BF": 1,
+      "GM": 1,
+      "BT": 1,
+      "ZA": 2,
+      "US": 2,
+      "BD": 1,
+      "SN": 1,
+      "NP": 3,
+      "CM": 1,
+      "TH": 1
+    },
+    ".//related-activity/@type": {
+      "1": 4
+    },
+    ".//reporting-org/@type": {
+      "80": 18
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "43030": 2,
+      "12264": 4,
+      "23111": 1,
+      "41010": 5,
+      "41082": 2,
+      "15130": 1,
+      "15110": 1,
+      "15150": 1,
+      "25040": 2,
+      "43041": 1,
+      "31220": 1,
+      "32210": 1,
+      "43082": 2,
+      "41030": 1,
+      "15170": 1,
+      "31110": 2,
+      "31191": 1
+    },
+    ".//sector/@vocabulary": {
+      "1": 29
+    },
+    ".//transaction/provider-org/@type": {
+      "80": 9,
+      "21": 132,
+      "10": 60,
+      "22": 33
+    },
+    ".//transaction/receiver-org/@type": {
+      "21": 113,
+      "22": 61,
+      "80": 5,
+      "24": 34,
+      "90": 7,
+      "72": 1
+    },
+    ".//transaction/transaction-type/@code": {
+      "11": 18,
+      "1": 85,
+      "3": 131,
+      "4": 50,
+      "2": 42
+    },
+    ".//transaction/value/@currency": {
+      "GBP": 325,
+      "XOF": 1
+    },
+    ".//@xml:lang": {
+      "en": 18
+    },
+    ".//budget/value/@currency": {
+      "GBP": 1
     },
     ".//document-link/@format": {
       "application/pdf": 8,
@@ -38,118 +149,8 @@
     ".//document-link/language/@code": {
       "en": 13
     },
-    ".//participating-org/@role": {
-      "1": 20,
-      "2": 20,
-      "4": 49
-    },
-    ".//participating-org/@type": {
-      "10": 11,
-      "21": 46,
-      "22": 16,
-      "24": 8,
-      "72": 2,
-      "80": 5,
-      "11": 1
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "3": 15,
-      "7": 2,
-      "10": 4
-    },
-    ".//policy-marker/@significance": {
-      "1": 14,
-      "2": 7
-    },
-    ".//policy-marker/@vocabulary": {
-      "1": 21
-    },
-    ".//recipient-country/@code": {
-      "GB": 18,
-      "US": 2,
-      "SL": 2,
-      "CM": 1,
-      "ET": 4,
-      "CD": 2,
-      "MW": 3,
-      "NP": 2,
-      "KE": 4,
-      "UG": 2,
-      "BF": 1,
-      "GM": 1,
-      "BT": 1,
-      "IN": 2,
-      "ZA": 2,
-      "BD": 1,
-      "SN": 1,
-      "GH": 1,
-      "TZ": 1,
-      "NG": 1,
-      "ZW": 3,
-      "SO": 1,
-      "SD": 1
-    },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "998": 3
-    },
-    ".//related-activity/@type": {
-      "1": 4
-    },
-    ".//reporting-org/@type": {
-      "80": 18
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15130": 1,
-      "15110": 1,
-      "15150": 1,
-      "25040": 2,
-      "43041": 1,
-      "31220": 1,
-      "32210": 1,
-      "43082": 2,
-      "41010": 5,
-      "41030": 1,
-      "41082": 2,
-      "15170": 1,
-      "31110": 2,
-      "31191": 1,
-      "23111": 1,
-      "43030": 2,
-      "12264": 4
-    },
-    ".//sector/@vocabulary": {
-      "1": 29
-    },
-    ".//transaction/provider-org/@type": {
-      "21": 127,
-      "10": 53,
-      "22": 17,
-      "80": 8
-    },
-    ".//transaction/receiver-org/@type": {
-      "21": 93,
-      "24": 31,
-      "90": 7,
-      "22": 55,
-      "72": 1,
-      "80": 4
-    },
-    ".//transaction/transaction-type/@code": {
-      "11": 17,
-      "1": 76,
-      "3": 114,
-      "4": 43,
-      "2": 33
-    },
-    ".//transaction/value/@currency": {
-      "GBP": 282,
-      "XOF": 1
-    },
-    ".//@xml:lang": {
-      "en": 18
-    },
-    ".//budget/value/@currency": {
-      "GBP": 1
     }
   }
 }

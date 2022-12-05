@@ -15,6 +15,12 @@
   ".//activity-status/@code": {
     "3": 2
   },
+  ".//budget/@status": {
+    "2": 2
+  },
+  ".//budget/@type": {
+    "2": 2
+  },
   ".//conditions/condition/@type": {
     "1": 2
   },
@@ -60,12 +66,30 @@
     "A1": 2
   },
   ".//participating-org/@role": {
+    "1": 2,
     "2": 2,
-    "3": 2,
-    "1": 2
+    "3": 2
   },
   ".//participating-org/@type": {
     "10": 2
+  },
+  ".//policy-marker/@significance": {
+    "1": 1,
+    "0": 12,
+    "2": 3
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": 16
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2,
+    "8": 2,
+    "9": 2
   },
   ".//recipient-country/@code": {
     "VU": 2

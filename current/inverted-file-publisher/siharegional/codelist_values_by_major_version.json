@@ -88,15 +88,14 @@
     ".//document-link/@format": {
       "siharegional-activities.xml": {
         "application/pdf": 3,
-        "application/3gpdash-qoe-report+xml": 1,
-        "application/3gpp-ims+xml": 2
+        "application/3gpp-ims+xml": 1
       }
     },
     ".//document-link/category/@code": {
       "siharegional-activities.xml": {
         "A01": 1,
         "B01": 2,
-        "A08": 3
+        "A08": 1
       }
     },
     ".//document-link/language/@code": {
@@ -195,13 +194,12 @@
     },
     ".//result/document-link/@format": {
       "siharegional-activities.xml": {
-        "application/3gpdash-qoe-report+xml": 1,
-        "application/3gpp-ims+xml": 2
+        "application/3gpp-ims+xml": 1
       }
     },
     ".//result/document-link/category/@code": {
       "siharegional-activities.xml": {
-        "A08": 3
+        "A08": 1
       }
     },
     ".//result/indicator/@measure": {
@@ -246,24 +244,24 @@
     },
     ".//transaction/provider-org/@type": {
       "siharegional-activities.xml": {
-        "23": 18,
-        "10": 3
+        "10": 3,
+        "23": 18
       }
     },
     ".//transaction/receiver-org/@type": {
       "siharegional-activities.xml": {
-        "23": 6,
         "22": 19,
-        "21": 3
+        "21": 3,
+        "23": 6
       }
     },
     ".//transaction/transaction-type/@code": {
       "siharegional-activities.xml": {
-        "11": 3,
         "3": 12,
-        "2": 7,
         "1": 4,
-        "4": 3
+        "4": 3,
+        "11": 3,
+        "2": 7
       }
     },
     ".//transaction/value/@currency": {
@@ -273,7 +271,7 @@
     },
     ".//@xml:lang": {
       "siharegional-activities.xml": {
-        "en": 131
+        "en": 129
       }
     }
   }

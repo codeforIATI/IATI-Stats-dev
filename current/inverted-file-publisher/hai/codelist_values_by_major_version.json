@@ -125,14 +125,14 @@
     ".//participating-org/@role": {
       "hai-activities.xml": {
         "1": 10,
-        "2": 8,
+        "2": 9,
         "4": 17,
         "3": 2
       }
     },
     ".//participating-org/@type": {
       "hai-activities.xml": {
-        "21": 18,
+        "21": 19,
         "22": 10,
         "30": 1,
         "60": 6,
@@ -206,7 +206,7 @@
       "hai-activities.xml": {
         "1": 4,
         "3": 16,
-        "2": 5,
+        "2": 6,
         "4": 1,
         "5": 2
       }
@@ -218,19 +218,20 @@
     },
     ".//result/@type": {
       "hai-activities.xml": {
-        "1": 33,
+        "1": 34,
         "2": 13
       }
     },
     ".//result/indicator/@measure": {
       "hai-activities.xml": {
-        "1": 110,
+        "1": 120,
         "2": 3
       }
     },
     ".//result/indicator/reference/@vocabulary": {
       "hai-activities.xml": {
-        "99": 95
+        "99": 95,
+        "9": 14
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -238,19 +239,20 @@
         "15150": 7,
         "12110": 2,
         "12220": 2,
-        "12261": 2
+        "12261": 2,
+        "11120": 3
       }
     },
     ".//sector[@vocabulary = '7']/@code": {
       "hai-activities.xml": {
-        "3": 2,
-        "5": 2
+        "3": 1,
+        "5": 1
       }
     },
     ".//sector/@vocabulary": {
       "hai-activities.xml": {
-        "1": 13,
-        "7": 4
+        "1": 16,
+        "7": 2
       }
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -265,31 +267,41 @@
     },
     ".//transaction/disbursement-channel/@code": {
       "hai-activities.xml": {
-        "2": 7
+        "2": 7,
+        "1": 1
       }
     },
     ".//transaction/finance-type/@code": {
       "hai-activities.xml": {
-        "110": 19
+        "110": 20
       }
     },
     ".//transaction/flow-type/@code": {
       "hai-activities.xml": {
         "30": 6,
-        "10": 12
+        "10": 13
       }
     },
     ".//transaction/provider-org/@type": {
       "hai-activities.xml": {
         "21": 4,
         "22": 4,
-        "10": 1
+        "10": 2
       }
     },
     ".//transaction/receiver-org/@type": {
       "hai-activities.xml": {
-        "21": 4,
-        "22": 1
+        "21": 6
+      }
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "hai-activities.xml": {
+        "11120": 3
+      }
+    },
+    ".//transaction/sector/@vocabulary": {
+      "hai-activities.xml": {
+        "1": 3
       }
     },
     ".//transaction/tied-status/@code": {
@@ -301,20 +313,38 @@
       "hai-activities.xml": {
         "2": 28,
         "3": 28,
-        "11": 6,
+        "11": 7,
         "1": 17,
         "4": 9
       }
     },
     ".//transaction/value/@currency": {
       "hai-activities.xml": {
-        "EUR": 88
+        "EUR": 89
       }
     },
     ".//@xml:lang": {
       "hai-activities.xml": {
-        "en": 255,
-        "nl": 9
+        "en": 268,
+        "nl": 10
+      }
+    },
+    ".//result/indicator/reference[@vocabulary = '9']/@code": {
+      "hai-activities.xml": {
+        "SRH001o": 1,
+        "SRH002o": 1,
+        "SRH003o": 1,
+        "SRH004": 1,
+        "SRH005": 1,
+        "SRH006": 1,
+        "SRH007": 1,
+        "SRH008": 1,
+        "SRH009": 1,
+        "SRH010": 1,
+        "SRH011": 1,
+        "SRH012": 1,
+        "SRH013": 1,
+        "SRH014": 1
       }
     }
   }

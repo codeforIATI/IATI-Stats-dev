@@ -1,140 +1,152 @@
 {
   ".//@default-currency": {
     "USD": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     }
   },
   ".//activity-date/@type": {
     "1": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     },
     "2": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     },
     "3": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
+    },
+    "4": {
+      "wv_cd-activity.xml": 6
     }
   },
   ".//activity-scope/@code": {
     "4": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     }
   },
   ".//activity-status/@code": {
+    "3": {
+      "wv_cd-activity.xml": 6
+    },
+    "4": {
+      "wv_cd-activity.xml": 6
+    },
     "2": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "wv_cd-activity.xml": 15
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "wv_cd-activity.xml": 15
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "wv_cd-activity.xml": 15
     }
   },
   ".//contact-info/@type": {
     "1": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     }
   },
   ".//default-finance-type/@code": {
     "110": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     }
   },
   ".//default-flow-type/@code": {
     "10": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     }
   },
   ".//description/@type": {
     "1": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     },
     "4": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     }
   },
   ".//participating-org/@role": {
     "1": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     },
     "4": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     }
   },
   ".//participating-org/@type": {
     "21": {
-      "wv_cd-activity.xml": 22
+      "wv_cd-activity.xml": 26
     }
   },
   ".//recipient-country/@code": {
     "CD": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     }
   },
   ".//related-activity/@type": {
     "5": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     }
   },
   ".//reporting-org/@type": {
     "21": {
-      "wv_cd-activity.xml": 11
+      "wv_cd-activity.xml": 13
     }
   },
   ".//sector/@vocabulary": {
-    "2": {
-      "wv_cd-activity.xml": 11
+    "1": {
+      "wv_cd-activity.xml": 13
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "11120": {
-      "wv_cd-activity.xml": 1
-    },
-    "52010": {
-      "wv_cd-activity.xml": 5
+      "wv_cd-activity.xml": 2
     },
     "15160": {
       "wv_cd-activity.xml": 1
     },
     "14030": {
       "wv_cd-activity.xml": 1
-    }
-  },
-  ".//sector[@vocabulary = '2']/@code": {
-    "112": {
-      "wv_cd-activity.xml": 1
     },
-    "720": {
-      "wv_cd-activity.xml": 7
-    },
-    "160": {
-      "wv_cd-activity.xml": 1
-    },
-    "140": {
-      "wv_cd-activity.xml": 1
-    },
-    "430": {
-      "wv_cd-activity.xml": 1
+    "52010": {
+      "wv_cd-activity.xml": 9
     }
   },
   ".//transaction/provider-org/@type": {
     "21": {
-      "wv_cd-activity.xml": 93
+      "wv_cd-activity.xml": 121
     }
   },
   ".//transaction/receiver-org/@type": {
     "21": {
-      "wv_cd-activity.xml": 93
+      "wv_cd-activity.xml": 121
     }
   },
   ".//transaction/transaction-type/@code": {
     "1": {
-      "wv_cd-activity.xml": 93
+      "wv_cd-activity.xml": 121
+    }
+  },
+  ".//transaction/value/@currency": {
+    "USD": {
+      "wv_cd-activity.xml": 121
     }
   }
 }

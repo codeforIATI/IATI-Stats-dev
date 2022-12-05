@@ -44,18 +44,19 @@
       "1": 2
     },
     ".//document-link/@format": {
-      "application/msword": 1,
-      "application/vnd.ms-excel": 1,
+      "application/vnd.ms-excel": 2,
+      "application/msword": 2,
       "text/html": 2
     },
     ".//document-link/category/@code": {
+      "A08": 2,
       "A02": 1,
-      "A08": 1,
+      "A07": 1,
       "B02": 1,
       "B16": 1
     },
     ".//document-link/language/@code": {
-      "en": 4
+      "en": 6
     },
     ".//location/location-class/@code": {
       "1": 7
@@ -120,20 +121,20 @@
       "2": 2
     },
     ".//transaction/provider-org/@type": {
-      "10": 42
+      "10": 62
     },
     ".//transaction/receiver-org/@type": {
       "10": 1
     },
     ".//transaction/transaction-type/@code": {
       "1": 1,
-      "4": 41
+      "4": 61
     },
     ".//transaction/value/@currency": {
-      "GBP": 42
+      "GBP": 62
     },
     ".//@xml:lang": {
-      "en": 77
+      "en": 101
     }
   }
 }

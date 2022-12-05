@@ -6,7 +6,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "world_ywca-activities.xml": 97
+      "world_ywca-activities.xml": 99
     }
   },
   ".//activity-date/@type": {
@@ -32,20 +32,20 @@
   },
   ".//budget/@status": {
     "2": {
-      "world_ywca-activities.xml": 5
+      "world_ywca-activities.xml": 9
     },
     "1": {
-      "world_ywca-activities.xml": 4
+      "world_ywca-activities.xml": 16
     }
   },
   ".//budget/@type": {
     "1": {
-      "world_ywca-activities.xml": 9
+      "world_ywca-activities.xml": 25
     }
   },
   ".//budget/value/@currency": {
     "EUR": {
-      "world_ywca-activities.xml": 8
+      "world_ywca-activities.xml": 22
     }
   },
   ".//collaboration-type/@code": {
@@ -94,48 +94,40 @@
     }
   },
   ".//participating-org/@role": {
+    "4": {
+      "world_ywca-activities.xml": 12
+    },
     "1": {
-      "world_ywca-activities.xml": 5
+      "world_ywca-activities.xml": 1
     },
     "2": {
       "world_ywca-activities.xml": 5
-    },
-    "4": {
-      "world_ywca-activities.xml": 12
     }
   },
   ".//participating-org/@type": {
-    "10": {
-      "world_ywca-activities.xml": 1
-    },
     "21": {
       "world_ywca-activities.xml": 13
     },
-    "22": {
-      "world_ywca-activities.xml": 8
-    }
-  },
-  ".//planned-disbursement/@type": {
-    "1": {
-      "world_ywca-activities.xml": 7
-    }
-  },
-  ".//planned-disbursement/provider-org/@type": {
-    "21": {
-      "world_ywca-activities.xml": 7
-    }
-  },
-  ".//planned-disbursement/receiver-org/@type": {
+    "10": {
+      "world_ywca-activities.xml": 1
+    },
     "22": {
       "world_ywca-activities.xml": 4
-    },
-    "21": {
-      "world_ywca-activities.xml": 2
     }
   },
-  ".//planned-disbursement/value/@currency": {
-    "EUR": {
-      "world_ywca-activities.xml": 7
+  ".//policy-marker/@significance": {
+    "1": {
+      "world_ywca-activities.xml": 5
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "world_ywca-activities.xml": 5
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "world_ywca-activities.xml": 5
     }
   },
   ".//recipient-country/@code": {
@@ -153,6 +145,9 @@
     }
   },
   ".//related-activity/@type": {
+    "2": {
+      "world_ywca-activities.xml": 4
+    },
     "1": {
       "world_ywca-activities.xml": 4
     }
@@ -164,10 +159,7 @@
   },
   ".//result/@type": {
     "2": {
-      "world_ywca-activities.xml": 3
-    },
-    "1": {
-      "world_ywca-activities.xml": 1
+      "world_ywca-activities.xml": 4
     }
   },
   ".//result/document-link/@format": {
@@ -187,10 +179,7 @@
   },
   ".//result/indicator/@measure": {
     "1": {
-      "world_ywca-activities.xml": 11
-    },
-    "4": {
-      "world_ywca-activities.xml": 1
+      "world_ywca-activities.xml": 12
     }
   },
   ".//result/indicator/reference/@vocabulary": {
@@ -209,44 +198,44 @@
     }
   },
   ".//transaction/provider-org/@type": {
-    "10": {
-      "world_ywca-activities.xml": 5
-    },
     "21": {
-      "world_ywca-activities.xml": 49
+      "world_ywca-activities.xml": 36
+    },
+    "10": {
+      "world_ywca-activities.xml": 3
     }
   },
   ".//transaction/receiver-org/@type": {
-    "21": {
-      "world_ywca-activities.xml": 23
-    },
     "22": {
-      "world_ywca-activities.xml": 24
+      "world_ywca-activities.xml": 16
+    },
+    "21": {
+      "world_ywca-activities.xml": 20
     }
   },
   ".//transaction/transaction-type/@code": {
+    "3": {
+      "world_ywca-activities.xml": 23
+    },
+    "4": {
+      "world_ywca-activities.xml": 5
+    },
     "1": {
       "world_ywca-activities.xml": 2
     },
-    "3": {
-      "world_ywca-activities.xml": 20
-    },
-    "4": {
-      "world_ywca-activities.xml": 6
+    "2": {
+      "world_ywca-activities.xml": 7
     },
     "11": {
-      "world_ywca-activities.xml": 3
-    },
-    "2": {
-      "world_ywca-activities.xml": 21
+      "world_ywca-activities.xml": 1
     },
     "7": {
-      "world_ywca-activities.xml": 4
+      "world_ywca-activities.xml": 1
     }
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "world_ywca-activities.xml": 56
+      "world_ywca-activities.xml": 39
     }
   }
 }

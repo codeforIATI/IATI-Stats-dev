@@ -107,10 +107,6 @@
       "iati-activity/related-activity/@type": 6,
       "iati-activity/conditions": 7,
       "iati-activity/conditions/@attached": 7,
-      "iati-activity/crs-add": 1,
-      "iati-activity/crs-add/other-flags": 1,
-      "iati-activity/crs-add/other-flags/@code": 1,
-      "iati-activity/crs-add/other-flags/@significance": 1,
       "iati-activity/@last-updated-datetime": 7,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 7,
       "iati-activity/@default-currency": 7,
@@ -119,7 +115,11 @@
       "iati-activity/tag": 1,
       "iati-activity/tag/@vocabulary": 1,
       "iati-activity/tag/@code": 1,
-      "iati-activity/tag/narrative": 1
+      "iati-activity/tag/narrative": 1,
+      "iati-activity/crs-add": 1,
+      "iati-activity/crs-add/other-flags": 1,
+      "iati-activity/crs-add/other-flags/@code": 1,
+      "iati-activity/crs-add/other-flags/@significance": 1
     },
     "elements_total": {
       "iati-activity": 7,
@@ -227,10 +227,6 @@
       "iati-activity/related-activity/@type": 27,
       "iati-activity/conditions": 7,
       "iati-activity/conditions/@attached": 7,
-      "iati-activity/crs-add": 1,
-      "iati-activity/crs-add/other-flags": 1,
-      "iati-activity/crs-add/other-flags/@code": 1,
-      "iati-activity/crs-add/other-flags/@significance": 1,
       "iati-activity/@last-updated-datetime": 7,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 7,
       "iati-activity/@default-currency": 7,
@@ -239,7 +235,11 @@
       "iati-activity/tag": 2,
       "iati-activity/tag/@vocabulary": 2,
       "iati-activity/tag/@code": 2,
-      "iati-activity/tag/narrative": 1
+      "iati-activity/tag/narrative": 1,
+      "iati-activity/crs-add": 1,
+      "iati-activity/crs-add/other-flags": 1,
+      "iati-activity/crs-add/other-flags/@code": 1,
+      "iati-activity/crs-add/other-flags/@significance": 1
     },
     "forwardlooking_currency_year": {
       "null": {
@@ -453,9 +453,9 @@
       "iati-activity/transaction/tied-status": 15,
       "iati-activity/transaction/tied-status/@code": 15,
       "iati-activity/tag": 11,
+      "iati-activity/tag/narrative": 11,
       "iati-activity/tag/@vocabulary": 11,
-      "iati-activity/tag/@code": 11,
-      "iati-activity/tag/narrative": 11
+      "iati-activity/tag/@code": 11
     },
     "elements_total": {
       "iati-activity": 30,
@@ -579,15 +579,15 @@
       "iati-activity/transaction/tied-status": 42,
       "iati-activity/transaction/tied-status/@code": 42,
       "iati-activity/tag": 16,
+      "iati-activity/tag/narrative": 13,
       "iati-activity/tag/@vocabulary": 16,
-      "iati-activity/tag/@code": 16,
-      "iati-activity/tag/narrative": 13
+      "iati-activity/tag/@code": 16
     },
     "forwardlooking_currency_year": {
-      "2011": {
+      "2010": {
         "EUR": 0.0
       },
-      "2010": {
+      "2011": {
         "EUR": 0.0
       },
       "2012": {
@@ -599,13 +599,13 @@
       "null": {
         "EUR": 0.0
       },
+      "2018": {
+        "EUR": 0.0
+      },
       "2019": {
         "EUR": 0.0
       },
       "2017": {
-        "EUR": 0.0
-      },
-      "2018": {
         "EUR": 0.0
       }
     },

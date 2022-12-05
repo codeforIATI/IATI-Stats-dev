@@ -3,52 +3,83 @@
     ".//@default-currency": {
       "pv-pv-welead-iati.xml": {
         "EUR": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "EUR": 6
       }
     },
     ".//activity-date/@type": {
       "pv-pv-welead-iati.xml": {
         "2": 10,
         "3": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "2": 6,
+        "3": 6
       }
     },
     ".//activity-status/@code": {
       "pv-pv-welead-iati.xml": {
         "2": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "2": 6
       }
     },
     ".//budget/value/@currency": {
       "pv-pv-welead-iati.xml": {
-        "EUR": 14
+        "EUR": 50
+      },
+      "pv-pv-f2bm.xml": {
+        "EUR": 30
       }
     },
     ".//collaboration-type/@code": {
       "pv-pv-welead-iati.xml": {
         "1": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "1": 6
       }
     },
     ".//contact-info/@type": {
       "pv-pv-welead-iati.xml": {
         "1": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "1": 6
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "pv-pv-welead-iati.xml": {
         "C01": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "C01": 6
       }
     },
     ".//default-finance-type/@code": {
       "pv-pv-welead-iati.xml": {
         "110": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "110": 6
       }
     },
     ".//default-flow-type/@code": {
       "pv-pv-welead-iati.xml": {
         "30": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "30": 6
       }
     },
     ".//default-tied-status/@code": {
       "pv-pv-welead-iati.xml": {
         "5": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "5": 6
       }
     },
     ".//description/@type": {
@@ -56,6 +87,12 @@
         "1": 10,
         "2": 10,
         "3": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "1": 6,
+        "2": 6,
+        "3": 6,
+        "4": 6
       }
     },
     ".//participating-org/@role": {
@@ -63,26 +100,43 @@
         "1": 1,
         "2": 10,
         "4": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "1": 1,
+        "2": 6,
+        "4": 6
       }
     },
     ".//participating-org/@type": {
       "pv-pv-welead-iati.xml": {
         "21": 21
+      },
+      "pv-pv-f2bm.xml": {
+        "21": 13
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "pv-pv-welead-iati.xml": {
         "1": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "1": 6
       }
     },
     ".//policy-marker/@significance": {
       "pv-pv-welead-iati.xml": {
         "1": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "2": 6
       }
     },
     ".//policy-marker/@vocabulary": {
       "pv-pv-welead-iati.xml": {
         "1": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "1": 6
       }
     },
     ".//recipient-country/@code": {
@@ -101,31 +155,49 @@
     ".//related-activity/@type": {
       "pv-pv-welead-iati.xml": {
         "1": 9
+      },
+      "pv-pv-f2bm.xml": {
+        "1": 5
       }
     },
     ".//reporting-org/@type": {
       "pv-pv-welead-iati.xml": {
         "21": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "21": 6
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "pv-pv-welead-iati.xml": {
         "13020": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "15160": 6
       }
     },
     ".//sector/@vocabulary": {
       "pv-pv-welead-iati.xml": {
         "1": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "1": 6
       }
     },
     ".//transaction/provider-org/@type": {
       "pv-pv-welead-iati.xml": {
         "21": 30
+      },
+      "pv-pv-f2bm.xml": {
+        "21": 18
       }
     },
     ".//transaction/receiver-org/@type": {
       "pv-pv-welead-iati.xml": {
         "21": 30
+      },
+      "pv-pv-f2bm.xml": {
+        "21": 18
       }
     },
     ".//transaction/transaction-type/@code": {
@@ -133,16 +205,36 @@
         "11": 1,
         "1": 2,
         "4": 27
+      },
+      "pv-pv-f2bm.xml": {
+        "11": 1,
+        "1": 2,
+        "4": 15
       }
     },
     ".//transaction/value/@currency": {
       "pv-pv-welead-iati.xml": {
         "EUR": 30
+      },
+      "pv-pv-f2bm.xml": {
+        "EUR": 18
       }
     },
     ".//@xml:lang": {
       "pv-pv-welead-iati.xml": {
         "en": 10
+      },
+      "pv-pv-f2bm.xml": {
+        "en": 6
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pv-pv-f2bm.xml": {
+        "589": 2,
+        "1030": 2,
+        "1027": 2,
+        "1029": 2,
+        "679": 2
       }
     }
   }

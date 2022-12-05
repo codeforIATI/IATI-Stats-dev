@@ -16,16 +16,16 @@
     "2": 10
   },
   ".//budget/@status": {
-    "2": 31,
-    "1": 7
+    "1": 7,
+    "2": 31
   },
   ".//budget/@type": {
     "1": 25,
     "2": 6
   },
   ".//budget/value/@currency": {
-    "USD": 18,
-    "GBP": 19
+    "GBP": 19,
+    "USD": 18
   },
   ".//contact-info/@type": {
     "1": 5,
@@ -35,8 +35,8 @@
     "1": 8
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "B01": 3,
     "C01": 2,
+    "B01": 3,
     "D02": 2,
     "B03": 1
   },
@@ -51,17 +51,17 @@
   },
   ".//description/@type": {
     "1": 10,
-    "3": 2,
     "4": 2,
-    "2": 1
+    "2": 1,
+    "3": 2
   },
   ".//document-link/@format": {
     "application/pdf": 15
   },
   ".//document-link/category/@code": {
+    "A02": 2,
     "B02": 3,
     "A08": 7,
-    "A02": 2,
     "B01": 3
   },
   ".//document-link/language/@code": {
@@ -80,14 +80,14 @@
   },
   ".//participating-org/@role": {
     "1": 10,
-    "2": 6,
     "4": 31,
+    "2": 6,
     "3": 1
   },
   ".//participating-org/@type": {
     "10": 10,
-    "21": 29,
     "80": 5,
+    "21": 29,
     "40": 1,
     "70": 1,
     "22": 1,
@@ -107,8 +107,8 @@
     "GBP": 9
   },
   ".//policy-marker/@significance": {
-    "1": 14,
     "0": 1,
+    "1": 14,
     "2": 4
   },
   ".//policy-marker/@vocabulary": {
@@ -122,12 +122,12 @@
     "2": 8
   },
   ".//recipient-country/@code": {
-    "CN": 3,
+    "ID": 5,
     "MX": 4,
     "BR": 3,
     "ET": 4,
     "IN": 4,
-    "ID": 5,
+    "CN": 3,
     "UG": 1,
     "BZ": 1,
     "JM": 1,
@@ -192,8 +192,8 @@
     "99": 13
   },
   ".//sector/@vocabulary": {
-    "7": 30,
-    "1": 8
+    "1": 8,
+    "7": 30
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "43032": 1,
@@ -202,16 +202,6 @@
     "31210": 1
   },
   ".//sector[@vocabulary = '7']/@code": {
-    "7": 2,
-    "6": 2,
-    "13": 2,
-    "8": 2,
-    "16": 2,
-    "15": 2,
-    "10": 2,
-    "12": 2,
-    "11": 2,
-    "2": 2,
     "Goal 13: Climate Action": 1,
     "Goal 2: Zero Hunger": 1,
     "Goal 15: Life on Land": 1,
@@ -221,7 +211,17 @@
     "Goal 16: Peace, Justice and Strong Institutions": 1,
     "Goal 8: Decent Work and Economic Growth": 1,
     "Goal 12: Responsible Consumption and Production": 1,
-    "Goal 10: Reduced Inequalities": 1
+    "Goal 10: Reduced Inequalities": 1,
+    "7": 2,
+    "6": 2,
+    "13": 2,
+    "8": 2,
+    "16": 2,
+    "15": 2,
+    "10": 2,
+    "12": 2,
+    "11": 2,
+    "2": 2
   },
   ".//transaction/aid-type/@vocabulary": {
     "1": 16

@@ -1,58 +1,58 @@
 {
   "2": {
     ".//@default-currency": {
-      "EUR": 14
+      "EUR": 29
     },
     ".//activity-date/@type": {
-      "1": 14,
-      "2": 13,
-      "3": 14,
-      "4": 11
+      "1": 29,
+      "2": 29,
+      "3": 29,
+      "4": 26
     },
     ".//activity-status/@code": {
-      "4": 11,
+      "4": 26,
       "3": 2,
       "2": 1
     },
     ".//collaboration-type/@code": {
-      "1": 14
+      "1": 29
     },
     ".//contact-info/@type": {
-      "1": 14
+      "1": 29
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 7
     },
     ".//default-finance-type/@code": {
-      "110": 14
+      "110": 29
     },
     ".//default-flow-type/@code": {
-      "10": 14
+      "10": 29
     },
     ".//default-tied-status/@code": {
       "5": 5,
       "4": 1
     },
     ".//location/location-reach/@code": {
-      "1": 14
+      "1": 29
     },
     ".//other-identifier/@type": {
-      "A1": 14,
-      "A2": 6
+      "A1": 29,
+      "A2": 8
     },
     ".//participating-org/@crs-channel-code": {
       "41140": 3,
-      "22000": 18
+      "22000": 42
     },
     ".//participating-org/@role": {
-      "1": 14,
-      "2": 14,
-      "4": 7
+      "1": 29,
+      "2": 29,
+      "4": 15
     },
     ".//participating-org/@type": {
-      "10": 28,
+      "10": 58,
       "40": 1,
-      "22": 6
+      "22": 14
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "1": 7,
@@ -77,47 +77,49 @@
       "1": 73
     },
     ".//recipient-country/@code": {
-      "GW": 14
+      "GW": 29
     },
     ".//related-activity/@type": {
-      "3": 253
+      "3": 307
     },
     ".//reporting-org/@type": {
-      "10": 14
+      "10": 29
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "12220": 3,
+      "12220": 8,
       "72050": 1,
-      "15180": 3,
-      "24040": 2,
-      "31161": 2,
-      "11330": 1,
-      "16080": 1,
-      "32130": 1,
-      "31110": 1,
+      "31120": 3,
+      "31161": 7,
       "72010": 3,
       "15150": 1,
       "15170": 1,
-      "31120": 2
+      "15180": 3,
+      "25010": 1,
+      "31110": 3,
+      "24040": 2,
+      "11330": 1,
+      "16080": 1,
+      "32130": 1,
+      "11110": 1
     },
     ".//tag[@vocabulary = '2']/@code": {
       "2": 1,
-      "10": 2,
-      "5": 2,
-      "8": 4,
+      "1": 1,
       "4": 2,
-      "1": 1
+      "8": 4,
+      "10": 2,
+      "5": 2
     },
     ".//tag[@vocabulary = '3']/@code": {
       "2.1": 1,
+      "1.2": 1,
+      "4.5": 2,
+      "8.5": 4,
       "10.2": 2,
       "5.2": 2,
       "5.3": 2,
-      "8.5": 4,
       "4.3": 1,
-      "4.5": 2,
-      "8.6": 1,
-      "1.2": 1
+      "8.6": 1
     },
     ".//tag/@vocabulary": {
       "2": 12,
@@ -125,18 +127,18 @@
     },
     ".//transaction/receiver-org/@type": {
       "40": 2,
-      "22": 24
+      "22": 46
     },
     ".//transaction/transaction-type/@code": {
-      "2": 31,
-      "3": 39
+      "3": 80,
+      "2": 11
     },
     ".//transaction/value/@currency": {
-      "EUR": 70
+      "EUR": 91
     },
     ".//@xml:lang": {
-      "en": 25,
-      "it": 24
+      "en": 40,
+      "it": 54
     }
   }
 }

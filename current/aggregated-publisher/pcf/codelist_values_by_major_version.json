@@ -5,15 +5,31 @@
       "GBP": 1
     },
     ".//activity-date/@type": {
-      "1": 92,
-      "3": 95,
       "2": 68,
-      "4": 26
+      "3": 95,
+      "4": 26,
+      "1": 92
     },
     ".//activity-status/@code": {
       "2": 91,
-      "3": 9,
-      "4": 16
+      "4": 16,
+      "3": 9
+    },
+    ".//budget/@status": {
+      "2": 20
+    },
+    ".//budget/@type": {
+      "1": 18,
+      "2": 2
+    },
+    ".//budget/value/@currency": {
+      "EUR": 9
+    },
+    ".//conditions/condition/@type": {
+      "2": 9
+    },
+    ".//contact-info/@type": {
+      "1": 23
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 94,
@@ -37,199 +53,13 @@
       "3": 46
     },
     ".//document-link/@format": {
-      "image/jpeg": 92,
       "application/http": 140,
-      "message/http": 1
+      "message/http": 1,
+      "image/jpeg": 92
     },
     ".//document-link/category/@code": {
-      "A12": 229,
-      "A08": 4
-    },
-    ".//document-link/language/@code": {
-      "en": 101
-    },
-    ".//other-identifier/@type": {
-      "B9": 92
-    },
-    ".//participating-org/@role": {
-      "1": 148,
-      "2": 35,
-      "4": 36
-    },
-    ".//participating-org/@type": {
-      "22": 106,
-      "10": 29,
-      "70": 3,
-      "21": 81
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "1": 111,
-      "3": 112,
-      "4": 1,
-      "2": 5
-    },
-    ".//policy-marker/@significance": {
-      "1": 228,
-      "2": 1
-    },
-    ".//policy-marker/@vocabulary": {
-      "1": 229
-    },
-    ".//recipient-country/@code": {
-      "NE": 1,
-      "IQ": 3,
-      "CI": 4,
-      "TZ": 2,
-      "YE": 4,
-      "BR": 9,
-      "NG": 5,
-      "AF": 3,
-      "MH": 1,
-      "HT": 2,
-      "IN": 12,
-      "BT": 3,
-      "ZW": 5,
-      "KE": 8,
-      "SR": 1,
-      "JM": 5,
-      "PE": 5,
-      "GE": 2,
-      "JO": 5,
-      "UG": 3,
-      "ZA": 6,
-      "MA": 6,
-      "AR": 7,
-      "UA": 4,
-      "BA": 1,
-      "KZ": 3,
-      "MR": 1,
-      "LB": 6,
-      "XK": 2,
-      "VN": 3,
-      "CO": 9,
-      "TR": 5,
-      "EG": 6,
-      "ET": 5,
-      "MX": 6,
-      "MK": 4,
-      "SN": 2,
-      "ID": 7,
-      "KG": 1,
-      "NI": 2,
-      "PY": 3,
-      "GT": 3,
-      "SV": 2,
-      "CU": 4,
-      "CR": 1,
-      "BO": 1,
-      "AM": 2,
-      "CN": 6,
-      "ME": 2,
-      "NP": 2,
-      "PH": 5,
-      "RS": 3,
-      "TH": 3,
-      "UZ": 2,
-      "IR": 6,
-      "MY": 2,
-      "MV": 2,
-      "PS": 5,
-      "VC": 2,
-      "GH": 4,
-      "TO": 2,
-      "PK": 3,
-      "EC": 4,
-      "MZ": 3,
-      "CM": 3,
-      "CL": 3,
-      "MN": 3,
-      "MM": 1,
-      "TL": 1,
-      "ZM": 2,
-      "DZ": 3,
-      "RW": 2,
-      "LY": 1,
-      "SY": 2,
-      "BH": 1,
-      "AO": 1,
-      "AZ": 1,
-      "BD": 1,
-      "BY": 1,
-      "BW": 1,
-      "BF": 1,
-      "CG": 1,
-      "CD": 1,
-      "HN": 1,
-      "LS": 1,
-      "MW": 1,
-      "SL": 1,
-      "SZ": 1,
-      "TN": 1,
-      "VE": 1
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "298": 1,
-      "998": 22,
-      "798": 1,
-      "88": 1
-    },
-    ".//related-activity/@type": {
-      "1": 99,
-      "2": 97
-    },
-    ".//reporting-org/@type": {
-      "22": 92,
-      "21": 24
-    },
-    ".//result/@type": {
-      "2": 202,
-      "1": 40
-    },
-    ".//result/indicator/@measure": {
-      "1": 133,
-      "5": 97,
-      "2": 14,
-      "3": 2
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "16066": 115,
-      "16061": 1
-    },
-    ".//sector/@vocabulary": {
-      "1": 116
-    },
-    ".//transaction/provider-org/@type": {
-      "22": 87,
-      "10": 8,
-      "70": 2,
-      "21": 10
-    },
-    ".//transaction/receiver-org/@type": {
-      "22": 2,
-      "21": 2
-    },
-    ".//transaction/transaction-type/@code": {
-      "2": 96,
-      "1": 19
-    },
-    ".//@xml:lang": {
-      "en": 222
-    },
-    ".//budget/@status": {
-      "2": 20
-    },
-    ".//budget/@type": {
-      "1": 18,
-      "2": 2
-    },
-    ".//budget/value/@currency": {
-      "EUR": 9
-    },
-    ".//conditions/condition/@type": {
-      "2": 9
-    },
-    ".//contact-info/@type": {
-      "1": 23
+      "A08": 4,
+      "A12": 229
     },
     ".//location/location-reach/@code": {
       "1": 2
@@ -239,20 +69,167 @@
       "21000": 6,
       "10000": 2
     },
+    ".//participating-org/@role": {
+      "1": 148,
+      "2": 35,
+      "4": 36
+    },
+    ".//participating-org/@type": {
+      "10": 29,
+      "21": 81,
+      "22": 106,
+      "70": 3
+    },
     ".//planned-disbursement/@type": {
       "1": 14
     },
     ".//planned-disbursement/value/@currency": {
       "EUR": 9
     },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "1": 111,
+      "3": 112,
+      "2": 5,
+      "4": 1
+    },
+    ".//policy-marker/@significance": {
+      "1": 228,
+      "2": 1
+    },
+    ".//policy-marker/@vocabulary": {
+      "1": 229
+    },
+    ".//recipient-country/@code": {
+      "AM": 2,
+      "BT": 3,
+      "CN": 6,
+      "IN": 12,
+      "ID": 7,
+      "KZ": 3,
+      "ME": 2,
+      "NP": 2,
+      "PH": 5,
+      "RS": 3,
+      "TH": 3,
+      "UA": 4,
+      "UZ": 2,
+      "CO": 9,
+      "CI": 4,
+      "CU": 4,
+      "GT": 3,
+      "IR": 6,
+      "KE": 8,
+      "MY": 2,
+      "MV": 2,
+      "MA": 6,
+      "NG": 5,
+      "PS": 5,
+      "PE": 5,
+      "ZA": 6,
+      "VC": 2,
+      "ZW": 5,
+      "GH": 4,
+      "TR": 5,
+      "ET": 5,
+      "TO": 2,
+      "AR": 7,
+      "PK": 3,
+      "MK": 4,
+      "EC": 4,
+      "MZ": 3,
+      "CM": 3,
+      "CL": 3,
+      "MN": 3,
+      "EG": 6,
+      "JO": 5,
+      "LB": 6,
+      "LY": 1,
+      "SY": 2,
+      "YE": 4,
+      "DZ": 3,
+      "BH": 1,
+      "IQ": 3,
+      "AF": 3,
+      "AO": 1,
+      "AZ": 1,
+      "BD": 1,
+      "BY": 1,
+      "BW": 1,
+      "BR": 9,
+      "BF": 1,
+      "CG": 1,
+      "CD": 1,
+      "SV": 2,
+      "GE": 2,
+      "HT": 2,
+      "HN": 1,
+      "JM": 5,
+      "LS": 1,
+      "MW": 1,
+      "MX": 6,
+      "NI": 2,
+      "PY": 3,
+      "RW": 2,
+      "SN": 2,
+      "SL": 1,
+      "SZ": 1,
+      "TZ": 2,
+      "TN": 1,
+      "UG": 3,
+      "VE": 1,
+      "VN": 3,
+      "ZM": 2,
+      "NE": 1,
+      "MH": 1,
+      "SR": 1,
+      "BA": 1,
+      "MR": 1,
+      "XK": 2,
+      "KG": 1,
+      "CR": 1,
+      "BO": 1,
+      "MM": 1,
+      "TL": 1
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "998": 22,
+      "298": 1,
+      "798": 1,
+      "88": 1
+    },
     ".//recipient-region/@vocabulary": {
       "1": 19
+    },
+    ".//related-activity/@type": {
+      "1": 99,
+      "2": 97
+    },
+    ".//reporting-org/@type": {
+      "21": 24,
+      "22": 92
+    },
+    ".//result/@type": {
+      "1": 40,
+      "2": 202
     },
     ".//result/document-link/@format": {
       "application/http": 2
     },
     ".//result/document-link/category/@code": {
       "A08": 2
+    },
+    ".//result/indicator/@measure": {
+      "1": 133,
+      "5": 97,
+      "3": 2,
+      "2": 14
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "16066": 115,
+      "16061": 1
+    },
+    ".//sector/@vocabulary": {
+      "1": 116
     },
     ".//tag[@vocabulary = '2']/@code": {
       "16": 19,
@@ -279,11 +256,34 @@
     ".//transaction/flow-type/@code": {
       "10": 4
     },
+    ".//transaction/provider-org/@type": {
+      "10": 8,
+      "21": 10,
+      "22": 87,
+      "70": 2
+    },
+    ".//transaction/receiver-org/@type": {
+      "21": 2,
+      "22": 2
+    },
     ".//transaction/tied-status/@code": {
       "5": 4
     },
+    ".//transaction/transaction-type/@code": {
+      "1": 19,
+      "2": 96
+    },
     ".//transaction/value/@currency": {
       "EUR": 6
+    },
+    ".//@xml:lang": {
+      "en": 222
+    },
+    ".//document-link/language/@code": {
+      "en": 101
+    },
+    ".//other-identifier/@type": {
+      "B9": 92
     }
   }
 }

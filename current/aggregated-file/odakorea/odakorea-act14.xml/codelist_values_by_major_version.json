@@ -27,21 +27,21 @@
     },
     ".//collaboration-type/@code": {
       "2": 51,
-      "8": 1,
-      "1": 7
+      "1": 7,
+      "8": 1
     },
     ".//contact-info/@type": {
       "1": 59
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 12,
-      "E01": 35,
-      "B03": 1,
-      "B032": 1,
+      "B02": 7,
       "B022": 1,
       "B01": 1,
-      "B02": 7,
-      "D02": 1
+      "B032": 1,
+      "D02": 1,
+      "B03": 1,
+      "E01": 35
     },
     ".//default-finance-type/@code": {
       "110": 59
@@ -51,8 +51,8 @@
     },
     ".//default-tied-status/@code": {
       "5": 17,
-      "4": 35,
-      "": 7
+      "": 7,
+      "4": 35
     },
     ".//description/@type": {
       "1": 59
@@ -99,11 +99,17 @@
       "1": 531
     },
     ".//recipient-country/@code": {
-      "KH": 14,
-      "TJ": 3,
+      "LA": 13,
       "KG": 7,
-      "LK": 7,
+      "KH": 14,
+      "PH": 11,
+      "ID": 10,
+      "BD": 6,
+      "": 18,
+      "UG": 3,
       "MN": 10,
+      "TJ": 3,
+      "LK": 7,
       "TM": 3,
       "UZ": 3,
       "KZ": 3,
@@ -111,13 +117,7 @@
       "IN": 6,
       "VN": 6,
       "TH": 6,
-      "PH": 11,
       "MY": 6,
-      "LA": 13,
-      "ID": 10,
-      "BD": 6,
-      "UG": 3,
-      "": 15,
       "GE": 3,
       "PE": 3,
       "CR": 3,
@@ -129,50 +129,56 @@
       "NP": 3
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "998": 16,
+      "998": 18,
       "689": 3
     },
     ".//recipient-region/@vocabulary": {
-      "1": 19
+      "1": 21
     },
     ".//reporting-org/@type": {
       "10": 59
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "14015": 13,
-      "41081": 110,
-      "74020": 7,
       "14050": 8,
+      "14015": 13,
+      "74020": 7,
+      "99810": 25,
+      "41020": 11,
+      "14010": 6,
       "14032": 6,
-      "99810": 22,
-      "41020": 9,
-      "14010": 6
+      "41081": 110
     },
     ".//sector/@vocabulary": {
-      "1": 181
+      "1": 186
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 28,
-      "E01": 75,
-      "B03": 2,
-      "B032": 2,
+      "B02": 11,
       "B022": 3,
-      "B01": 2,
-      "B02": 8,
-      "D02": 2
+      "B01": 3,
+      "B032": 3,
+      "D02": 2,
+      "B03": 2,
+      "E01": 75
     },
     ".//transaction/finance-type/@code": {
-      "110": 122
+      "110": 127
     },
     ".//transaction/flow-type/@code": {
-      "10": 122
+      "10": 127
     },
     ".//transaction/recipient-country/@code": {
-      "KH": 10,
-      "TJ": 2,
+      "LA": 9,
       "KG": 5,
-      "LK": 5,
+      "KH": 10,
+      "PH": 8,
+      "ID": 7,
+      "BD": 4,
+      "": 11,
+      "UG": 2,
       "MN": 7,
+      "TJ": 2,
+      "LK": 5,
       "TM": 2,
       "UZ": 2,
       "KZ": 2,
@@ -180,13 +186,7 @@
       "IN": 4,
       "VN": 4,
       "TH": 4,
-      "PH": 8,
       "MY": 4,
-      "LA": 9,
-      "ID": 7,
-      "BD": 4,
-      "UG": 2,
-      "": 8,
       "GE": 2,
       "PE": 2,
       "CR": 2,
@@ -198,40 +198,40 @@
       "NP": 2
     },
     ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "998": 11,
+      "998": 13,
       "689": 2
     },
     ".//transaction/recipient-region/@vocabulary": {
-      "1": 13
+      "1": 15
     },
     ".//transaction/provider-org/@type": {
-      "10": 122
+      "10": 127
     },
     ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "14015": 9,
-      "41081": 75,
-      "74020": 5,
       "14050": 6,
+      "14015": 9,
+      "74020": 5,
+      "99810": 16,
+      "41020": 8,
+      "14010": 4,
       "14032": 4,
-      "99810": 13,
-      "41020": 6,
-      "14010": 4
+      "41081": 75
     },
     ".//transaction/sector/@vocabulary": {
-      "1": 122
+      "1": 127
     },
     ".//transaction/tied-status/@code": {
-      "5": 39,
-      "4": 75,
-      "": 8
+      "5": 41,
+      "": 11,
+      "4": 75
     },
     ".//transaction/transaction-type/@code": {
       "1": 59,
       "2": 52,
-      "3": 11
+      "3": 16
     },
     ".//transaction/value/@currency": {
-      "KRW": 122
+      "KRW": 127
     },
     ".//@xml:lang": {
       "en": 59

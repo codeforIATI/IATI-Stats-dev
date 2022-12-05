@@ -26,8 +26,8 @@
       "EUR": 33
     },
     ".//collaboration-type/@code": {
-      "3": 2,
-      "1": 31
+      "1": 31,
+      "3": 2
     },
     ".//contact-info/@type": {
       "1": 33
@@ -36,17 +36,17 @@
       "2": 1
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "B01": 2,
       "C01": 28,
-      "B03": 3
+      "B03": 3,
+      "B01": 2
     },
     ".//default-finance-type/@code": {
       "110": 33
     },
     ".//default-flow-type/@code": {
-      "20": 1,
       "10": 28,
-      "50": 4
+      "50": 4,
+      "20": 1
     },
     ".//default-tied-status/@code": {
       "5": 11,
@@ -116,14 +116,14 @@
       "15": 33
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15220": 19,
-      "15210": 8,
       "15160": 2,
+      "15210": 8,
+      "15220": 19,
       "15153": 2,
-      "43060": 1,
-      "15190": 2,
       "99810": 2,
       "15170": 1,
+      "15190": 2,
+      "43060": 1,
       "74010": 1,
       "15130": 1,
       "72010": 1
@@ -134,18 +134,18 @@
     ".//tag[@vocabulary = '2']/@code": {
       "16": 27,
       "3": 2,
+      "17": 1,
       "13": 1,
-      "2": 1,
-      "17": 1
+      "2": 1
     },
     ".//tag/@vocabulary": {
       "2": 32,
       "99": 1
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "B01": 2,
       "C01": 55,
-      "B03": 3
+      "B03": 3,
+      "B01": 2
     },
     ".//transaction/disbursement-channel/@code": {
       "2": 69
@@ -154,9 +154,9 @@
       "110": 60
     },
     ".//transaction/flow-type/@code": {
-      "20": 1,
       "10": 53,
-      "50": 6
+      "50": 6,
+      "20": 1
     },
     ".//transaction/provider-org/@type": {
       "15": 69

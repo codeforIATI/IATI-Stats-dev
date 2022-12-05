@@ -1,63 +1,67 @@
 {
   "2": {
     ".//@default-currency": {
-      "USD": 4
+      "USD": 5
     },
     ".//activity-date/@type": {
+      "1": 1,
+      "3": 1,
       "2": 4,
       "4": 4
     },
     ".//activity-status/@code": {
+      "1": 1,
       "4": 4
     },
     ".//collaboration-type/@code": {
-      "2": 4
+      "2": 5
     },
     ".//contact-info/@type": {
-      "1": 4
+      "1": 5
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 4
+      "C01": 5
     },
     ".//default-tied-status/@code": {
-      "5": 4
+      "5": 5
     },
     ".//document-link/@format": {
-      "text/html": 8
+      "text/html": 10
     },
     ".//document-link/category/@code": {
-      "A12": 8
+      "A12": 10
     },
     ".//document-link/language/@code": {
-      "en": 8
+      "en": 10
     },
     ".//location/location-reach/@code": {
-      "1": 4
+      "1": 5
     },
     ".//location/exactness/@code": {
-      "1": 4
+      "1": 5
     },
     ".//other-identifier/@type": {
-      "A1": 4
+      "A1": 5
     },
     ".//participating-org/@role": {
-      "1": 4
+      "1": 5
     },
     ".//participating-org/@type": {
-      "40": 4
+      "40": 5
     },
     ".//recipient-country/@code": {
-      "SO": 4
+      "SO": 5
     },
     ".//reporting-org/@type": {
-      "40": 4
+      "40": 5
     },
     ".//sector[@vocabulary = '2']/@code": {
+      "998": 1,
       "430": 1,
       "311": 3
     },
     ".//sector/@vocabulary": {
-      "2": 4
+      "2": 5
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 1035
@@ -82,7 +86,7 @@
       "XDR": 1035
     },
     ".//@xml:lang": {
-      "en": 4
+      "en": 5
     }
   }
 }

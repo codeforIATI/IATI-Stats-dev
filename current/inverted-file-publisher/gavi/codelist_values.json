@@ -2,93 +2,101 @@
   ".//@default-currency": {
     "USD": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     }
   },
   ".//@xml:lang": {
     "en": {
       "gavi-tca-activities.xml": 185,
-      "gavi-country-activities.xml": 309,
+      "gavi-covax.xml": 93,
       "gavi-vaccine-activities.xml": 866,
-      "gavi-covax.xml": 93
+      "gavi-country-activities.xml": 309
     },
     "fr": {
       "gavi-tca-activities.xml": 276,
-      "gavi-country-activities.xml": 311,
-      "gavi-vaccine-activities.xml": 2595,
-      "gavi-covax.xml": 276
+      "gavi-covax.xml": 276,
+      "gavi-vaccine-activities.xml": 3460,
+      "gavi-country-activities.xml": 311
     }
   },
   ".//activity-date/@type": {
     "1": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "2": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "3": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "4": {
-      "gavi-country-activities.xml": 6,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 447,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 6
     }
   },
   ".//activity-scope/@code": {
     "4": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     }
   },
   ".//activity-status/@code": {
     "2": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 72,
+      "gavi-covax.xml": 91,
       "gavi-vaccine-activities.xml": 418,
-      "gavi-covax.xml": 91
+      "gavi-country-activities.xml": 72
+    },
+    "3": {
+      "gavi-covax.xml": 1,
+      "gavi-vaccine-activities.xml": 447
     },
     "4": {
       "gavi-country-activities.xml": 6
-    },
-    "3": {
-      "gavi-vaccine-activities.xml": 447,
-      "gavi-covax.xml": 1
     }
   },
   ".//budget/@status": {
     "2": {
-      "gavi-tca-activities.xml": 312,
-      "gavi-vaccine-activities.xml": 5309,
-      "gavi-covax.xml": 183
+      "gavi-tca-activities.xml": 372,
+      "gavi-covax.xml": 183,
+      "gavi-vaccine-activities.xml": 5745
+    },
+    "1": {
+      "gavi-tca-activities.xml": 97,
+      "gavi-vaccine-activities.xml": 49
     }
   },
   ".//budget/@type": {
     "2": {
-      "gavi-tca-activities.xml": 312,
-      "gavi-vaccine-activities.xml": 5309,
-      "gavi-covax.xml": 183
+      "gavi-tca-activities.xml": 372,
+      "gavi-covax.xml": 183,
+      "gavi-vaccine-activities.xml": 5745
+    },
+    "1": {
+      "gavi-tca-activities.xml": 97,
+      "gavi-vaccine-activities.xml": 49
     }
   },
   ".//collaboration-type/@code": {
     "2": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     }
   },
   ".//conditions/condition/@type": {
@@ -103,16 +111,16 @@
   ".//contact-info/@type": {
     "1": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": {
       "gavi-tca-activities.xml": 92,
-      "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-covax.xml": 92,
+      "gavi-vaccine-activities.xml": 865
     },
     "B03": {
       "gavi-country-activities.xml": 78
@@ -121,72 +129,72 @@
   ".//default-finance-type/@code": {
     "110": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     }
   },
   ".//default-flow-type/@code": {
     "10": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     }
   },
   ".//default-tied-status/@code": {
     "5": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     }
   },
   ".//description/@type": {
     "1": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "4": {
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     }
   },
   ".//document-link/@format": {
     "application/pdf": {
       "gavi-tca-activities.xml": 655,
-      "gavi-country-activities.xml": 3481,
+      "gavi-covax.xml": 53,
       "gavi-vaccine-activities.xml": 3909,
-      "gavi-covax.xml": 53
+      "gavi-country-activities.xml": 3481
     },
     "text/html": {
       "gavi-tca-activities.xml": 368,
-      "gavi-country-activities.xml": 386,
-      "gavi-vaccine-activities.xml": 1269,
-      "gavi-covax.xml": 92
-    },
-    "application/msword": {
-      "gavi-country-activities.xml": 487,
-      "gavi-vaccine-activities.xml": 1572
+      "gavi-covax.xml": 92,
+      "gavi-vaccine-activities.xml": 1147,
+      "gavi-country-activities.xml": 386
     },
     "application/vnd.openxmlformats-officedocument.wordprocessingml.document": {
-      "gavi-country-activities.xml": 8,
-      "gavi-vaccine-activities.xml": 785
+      "gavi-vaccine-activities.xml": 785,
+      "gavi-country-activities.xml": 8
+    },
+    "application/msword": {
+      "gavi-vaccine-activities.xml": 1572,
+      "gavi-country-activities.xml": 487
     },
     "application/octet-stream": {
-      "gavi-country-activities.xml": 4,
-      "gavi-vaccine-activities.xml": 95
+      "gavi-vaccine-activities.xml": 95,
+      "gavi-country-activities.xml": 4
     },
     "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 10
+      "gavi-vaccine-activities.xml": 10,
+      "gavi-country-activities.xml": 1
     },
     "application/vnd.ms-excel": {
-      "gavi-country-activities.xml": 2,
-      "gavi-vaccine-activities.xml": 18
+      "gavi-vaccine-activities.xml": 18,
+      "gavi-country-activities.xml": 2
     },
     "application/rtf": {
       "gavi-vaccine-activities.xml": 3
@@ -210,81 +218,81 @@
   ".//document-link/category/@code": {
     "A05": {
       "gavi-tca-activities.xml": 471,
-      "gavi-country-activities.xml": 719,
+      "gavi-covax.xml": 53,
       "gavi-vaccine-activities.xml": 2861,
-      "gavi-covax.xml": 53
+      "gavi-country-activities.xml": 719
     },
     "A02": {
       "gavi-tca-activities.xml": 471,
-      "gavi-country-activities.xml": 719,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 4705,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 719
     },
     "A12": {
       "gavi-tca-activities.xml": 368,
-      "gavi-country-activities.xml": 231,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 1113,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 231
     },
     "A04": {
       "gavi-tca-activities.xml": 184,
-      "gavi-vaccine-activities.xml": 2861,
-      "gavi-covax.xml": 145
-    },
-    "A07": {
-      "gavi-country-activities.xml": 3093
-    },
-    "A08": {
-      "gavi-country-activities.xml": 3329,
-      "gavi-vaccine-activities.xml": 156
+      "gavi-covax.xml": 145,
+      "gavi-vaccine-activities.xml": 2861
     },
     "A03": {
-      "gavi-country-activities.xml": 186,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 4705,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 186
     },
-    "A10": {
-      "gavi-country-activities.xml": 78
+    "A06": {
+      "gavi-covax.xml": 53,
+      "gavi-vaccine-activities.xml": 2861
+    },
+    "A09": {
+      "gavi-covax.xml": 53,
+      "gavi-vaccine-activities.xml": 6453
+    },
+    "A11": {
+      "gavi-covax.xml": 53,
+      "gavi-vaccine-activities.xml": 2861
     },
     "A01": {
       "gavi-vaccine-activities.xml": 3372
     },
-    "A09": {
-      "gavi-vaccine-activities.xml": 6453,
-      "gavi-covax.xml": 53
+    "A08": {
+      "gavi-vaccine-activities.xml": 34,
+      "gavi-country-activities.xml": 3329
     },
-    "A06": {
-      "gavi-vaccine-activities.xml": 2861,
-      "gavi-covax.xml": 53
+    "A07": {
+      "gavi-country-activities.xml": 3093
     },
-    "A11": {
-      "gavi-vaccine-activities.xml": 2861,
-      "gavi-covax.xml": 53
+    "A10": {
+      "gavi-country-activities.xml": 78
     }
   },
   ".//document-link/language/@code": {
     "en": {
       "gavi-tca-activities.xml": 659,
-      "gavi-country-activities.xml": 3448,
+      "gavi-covax.xml": 145,
       "gavi-vaccine-activities.xml": 5482,
-      "gavi-covax.xml": 145
+      "gavi-country-activities.xml": 3448
     },
     "fr": {
       "gavi-tca-activities.xml": 356,
-      "gavi-country-activities.xml": 863,
-      "gavi-vaccine-activities.xml": 1784
+      "gavi-vaccine-activities.xml": 1784,
+      "gavi-country-activities.xml": 863
     },
     "es": {
       "gavi-tca-activities.xml": 8,
-      "gavi-country-activities.xml": 32,
-      "gavi-vaccine-activities.xml": 62
+      "gavi-vaccine-activities.xml": 62,
+      "gavi-country-activities.xml": 32
+    },
+    "ru": {
+      "gavi-vaccine-activities.xml": 18,
+      "gavi-country-activities.xml": 24
     },
     "pt": {
       "gavi-country-activities.xml": 2
-    },
-    "ru": {
-      "gavi-country-activities.xml": 24,
-      "gavi-vaccine-activities.xml": 18
     }
   },
   ".//humanitarian-scope/@type": {
@@ -316,94 +324,94 @@
   ".//location/administrative/@vocabulary": {
     "A4": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 91,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 91
+      "gavi-country-activities.xml": 78
     }
   },
   ".//location/administrative[@vocabulary = 'A4']/@code": {
     "AF": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "AO": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 10,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "BI": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 16
+      "gavi-vaccine-activities.xml": 16,
+      "gavi-country-activities.xml": 1
     },
     "BJ": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "BF": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "BD": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "BO": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 9,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "BT": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 7,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "CF": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "CI": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "CM": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 15,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "CD": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 16,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "CG": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "KM": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 9,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "CV": {
       "gavi-tca-activities.xml": 1,
@@ -411,9 +419,9 @@
     },
     "DJ": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 9,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "DM": {
       "gavi-tca-activities.xml": 1,
@@ -429,14 +437,14 @@
     },
     "ER": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 14
+      "gavi-vaccine-activities.xml": 14,
+      "gavi-country-activities.xml": 1
     },
     "ET": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 15,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "FJ": {
       "gavi-tca-activities.xml": 1,
@@ -448,27 +456,27 @@
     },
     "GH": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 16,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "GN": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "GM": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 17,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "GW": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "GD": {
       "gavi-tca-activities.xml": 1,
@@ -476,72 +484,72 @@
     },
     "GY": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 8,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "HN": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 9,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "HT": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 10,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "ID": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "IN": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 8,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "IL": {
       "gavi-tca-activities.xml": 1
     },
     "KE": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "KG": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 11,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "KH": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "KI": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 4,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "LA": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 15,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "LR": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "LC": {
       "gavi-tca-activities.xml": 1,
@@ -549,15 +557,15 @@
     },
     "LK": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 8,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "LS": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "MA": {
       "gavi-tca-activities.xml": 1,
@@ -565,15 +573,15 @@
     },
     "MD": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 11,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "MG": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "MV": {
       "gavi-tca-activities.xml": 1,
@@ -585,69 +593,69 @@
     },
     "ML": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "MM": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "MN": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 7,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "MZ": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "MR": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "MW": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "NE": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "NG": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "NI": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 8,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "NP": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 16,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "PK": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 16,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "PH": {
       "gavi-tca-activities.xml": 1,
@@ -655,45 +663,45 @@
     },
     "PG": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 11,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "KP": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 10,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "RW": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "SD": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "SN": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 15,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "SB": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 9,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "SL": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "SV": {
       "gavi-tca-activities.xml": 1,
@@ -701,21 +709,21 @@
     },
     "SO": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 8,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "SS": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 10,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "ST": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "SZ": {
       "gavi-tca-activities.xml": 1,
@@ -723,33 +731,33 @@
     },
     "SY": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 5,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "TD": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 10,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "TG": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "TJ": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 9,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "TL": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 5,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "TO": {
       "gavi-tca-activities.xml": 1,
@@ -765,27 +773,27 @@
     },
     "TZ": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "UG": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "UA": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 2,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "UZ": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "VC": {
       "gavi-tca-activities.xml": 1,
@@ -793,9 +801,9 @@
     },
     "VN": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "VU": {
       "gavi-tca-activities.xml": 1,
@@ -811,99 +819,99 @@
     },
     "YE": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 11,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "ZM": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 1
+      "gavi-country-activities.xml": 1
     },
     "ZW": {
       "gavi-tca-activities.xml": 1,
-      "gavi-country-activities.xml": 1,
+      "gavi-covax.xml": 1,
       "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 1
-    },
-    "AL": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 4
-    },
-    "AM": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 11
-    },
-    "AZ": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 8
-    },
-    "BA": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 3
-    },
-    "CN": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 2
-    },
-    "CU": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 5
-    },
-    "GE": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 11
-    },
-    "TM": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 2
+      "gavi-country-activities.xml": 1
     },
     "PS": {
       "gavi-covax.xml": 1
     },
     "IR": {
       "gavi-covax.xml": 1
+    },
+    "AL": {
+      "gavi-vaccine-activities.xml": 4,
+      "gavi-country-activities.xml": 1
+    },
+    "AM": {
+      "gavi-vaccine-activities.xml": 11,
+      "gavi-country-activities.xml": 1
+    },
+    "AZ": {
+      "gavi-vaccine-activities.xml": 8,
+      "gavi-country-activities.xml": 1
+    },
+    "CU": {
+      "gavi-vaccine-activities.xml": 5,
+      "gavi-country-activities.xml": 1
+    },
+    "GE": {
+      "gavi-vaccine-activities.xml": 11,
+      "gavi-country-activities.xml": 1
+    },
+    "BA": {
+      "gavi-vaccine-activities.xml": 3,
+      "gavi-country-activities.xml": 1
+    },
+    "CN": {
+      "gavi-vaccine-activities.xml": 2,
+      "gavi-country-activities.xml": 1
+    },
+    "TM": {
+      "gavi-vaccine-activities.xml": 2,
+      "gavi-country-activities.xml": 1
     }
   },
   ".//location/exactness/@code": {
     "2": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 91,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 91
+      "gavi-country-activities.xml": 78
     }
   },
   ".//location/location-class/@code": {
     "2": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 91,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 91
+      "gavi-country-activities.xml": 78
     }
   },
   ".//location/location-id/@vocabulary": {
     "A4": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 91,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 91
+      "gavi-country-activities.xml": 78
     }
   },
   ".//location/location-reach/@code": {
     "1": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 91,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 91
+      "gavi-country-activities.xml": 78
     }
   },
   ".//other-identifier/@type": {
     "B1": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "A3": {
       "gavi-vaccine-activities.xml": 3340
@@ -912,35 +920,35 @@
   ".//participating-org/@role": {
     "1": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "3": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "4": {
       "gavi-tca-activities.xml": 525,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 204,
       "gavi-vaccine-activities.xml": 2470,
-      "gavi-covax.xml": 204
+      "gavi-country-activities.xml": 78
     }
   },
   ".//participating-org/@type": {
     "40": {
       "gavi-tca-activities.xml": 382,
-      "gavi-country-activities.xml": 156,
+      "gavi-covax.xml": 276,
       "gavi-vaccine-activities.xml": 2820,
-      "gavi-covax.xml": 276
+      "gavi-country-activities.xml": 156
     },
     "10": {
       "gavi-tca-activities.xml": 93,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 112,
       "gavi-vaccine-activities.xml": 1174,
-      "gavi-covax.xml": 112
+      "gavi-country-activities.xml": 78
     },
     "70": {
       "gavi-tca-activities.xml": 48,
@@ -957,121 +965,121 @@
   ".//policy-marker/@significance": {
     "2": {
       "gavi-tca-activities.xml": 184,
-      "gavi-country-activities.xml": 156,
+      "gavi-covax.xml": 184,
       "gavi-vaccine-activities.xml": 1730,
-      "gavi-covax.xml": 184
+      "gavi-country-activities.xml": 156
     }
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "1": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "9": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     }
   },
   ".//recipient-country/@code": {
     "AF": {
-      "gavi-tca-activities.xml": 96,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 42
+      "gavi-tca-activities.xml": 102,
+      "gavi-covax.xml": 45,
+      "gavi-vaccine-activities.xml": 535,
+      "gavi-country-activities.xml": 1
     },
     "AO": {
       "gavi-tca-activities.xml": 15,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 10,
-      "gavi-covax.xml": 85
+      "gavi-covax.xml": 85,
+      "gavi-vaccine-activities.xml": 271,
+      "gavi-country-activities.xml": 1
     },
     "BI": {
-      "gavi-tca-activities.xml": 56,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 16
+      "gavi-tca-activities.xml": 61,
+      "gavi-vaccine-activities.xml": 499,
+      "gavi-country-activities.xml": 1
     },
     "TC": {
       "gavi-tca-activities.xml": 16
     },
     "BJ": {
-      "gavi-tca-activities.xml": 71,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 56
+      "gavi-tca-activities.xml": 77,
+      "gavi-covax.xml": 56,
+      "gavi-vaccine-activities.xml": 597,
+      "gavi-country-activities.xml": 1
     },
     "BF": {
-      "gavi-tca-activities.xml": 84,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 60
+      "gavi-tca-activities.xml": 89,
+      "gavi-covax.xml": 63,
+      "gavi-vaccine-activities.xml": 599,
+      "gavi-country-activities.xml": 1
     },
     "BD": {
-      "gavi-tca-activities.xml": 56,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 100
+      "gavi-tca-activities.xml": 62,
+      "gavi-covax.xml": 106,
+      "gavi-vaccine-activities.xml": 622,
+      "gavi-country-activities.xml": 1
     },
     "BO": {
       "gavi-tca-activities.xml": 5,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 9,
-      "gavi-covax.xml": 56
+      "gavi-covax.xml": 57,
+      "gavi-vaccine-activities.xml": 165,
+      "gavi-country-activities.xml": 1
     },
     "BT": {
       "gavi-tca-activities.xml": 8,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 7,
-      "gavi-covax.xml": 34
+      "gavi-covax.xml": 34,
+      "gavi-vaccine-activities.xml": 175,
+      "gavi-country-activities.xml": 1
     },
     "CF": {
-      "gavi-tca-activities.xml": 145,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 44
+      "gavi-tca-activities.xml": 149,
+      "gavi-covax.xml": 51,
+      "gavi-vaccine-activities.xml": 489,
+      "gavi-country-activities.xml": 1
     },
     "CI": {
-      "gavi-tca-activities.xml": 163,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 69
+      "gavi-tca-activities.xml": 169,
+      "gavi-covax.xml": 73,
+      "gavi-vaccine-activities.xml": 561,
+      "gavi-country-activities.xml": 1
     },
     "CM": {
-      "gavi-tca-activities.xml": 96,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 15,
-      "gavi-covax.xml": 37
+      "gavi-tca-activities.xml": 104,
+      "gavi-covax.xml": 38,
+      "gavi-vaccine-activities.xml": 694,
+      "gavi-country-activities.xml": 1
     },
     "CD": {
-      "gavi-tca-activities.xml": 197,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 16,
-      "gavi-covax.xml": 66
+      "gavi-tca-activities.xml": 204,
+      "gavi-covax.xml": 75,
+      "gavi-vaccine-activities.xml": 829,
+      "gavi-country-activities.xml": 1
     },
     "CG": {
-      "gavi-tca-activities.xml": 37,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 35
+      "gavi-tca-activities.xml": 43,
+      "gavi-covax.xml": 35,
+      "gavi-vaccine-activities.xml": 384,
+      "gavi-country-activities.xml": 1
     },
     "KM": {
-      "gavi-tca-activities.xml": 83,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 9,
-      "gavi-covax.xml": 21
+      "gavi-tca-activities.xml": 91,
+      "gavi-covax.xml": 21,
+      "gavi-vaccine-activities.xml": 272,
+      "gavi-country-activities.xml": 1
     },
     "CV": {
       "gavi-tca-activities.xml": 8,
       "gavi-covax.xml": 43
     },
     "DJ": {
-      "gavi-tca-activities.xml": 60,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 9,
-      "gavi-covax.xml": 34
+      "gavi-tca-activities.xml": 63,
+      "gavi-covax.xml": 34,
+      "gavi-vaccine-activities.xml": 324,
+      "gavi-country-activities.xml": 1
     },
     "DM": {
       "gavi-tca-activities.xml": 5,
@@ -1079,22 +1087,22 @@
     },
     "DZ": {
       "gavi-tca-activities.xml": 8,
-      "gavi-covax.xml": 21
+      "gavi-covax.xml": 23
     },
     "EG": {
       "gavi-tca-activities.xml": 8,
       "gavi-covax.xml": 115
     },
     "ER": {
-      "gavi-tca-activities.xml": 46,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 14
+      "gavi-tca-activities.xml": 50,
+      "gavi-vaccine-activities.xml": 442,
+      "gavi-country-activities.xml": 1
     },
     "ET": {
-      "gavi-tca-activities.xml": 240,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 15,
-      "gavi-covax.xml": 71
+      "gavi-tca-activities.xml": 246,
+      "gavi-covax.xml": 77,
+      "gavi-vaccine-activities.xml": 668,
+      "gavi-country-activities.xml": 1
     },
     "FJ": {
       "gavi-tca-activities.xml": 8,
@@ -1102,104 +1110,104 @@
     },
     "FM": {
       "gavi-tca-activities.xml": 8,
-      "gavi-covax.xml": 8
+      "gavi-covax.xml": 6
     },
     "GH": {
-      "gavi-tca-activities.xml": 105,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 16,
-      "gavi-covax.xml": 77
+      "gavi-tca-activities.xml": 113,
+      "gavi-covax.xml": 78,
+      "gavi-vaccine-activities.xml": 739,
+      "gavi-country-activities.xml": 1
     },
     "GN": {
-      "gavi-tca-activities.xml": 113,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 63
+      "gavi-tca-activities.xml": 117,
+      "gavi-covax.xml": 64,
+      "gavi-vaccine-activities.xml": 451,
+      "gavi-country-activities.xml": 1
     },
     "GM": {
-      "gavi-tca-activities.xml": 76,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 17,
-      "gavi-covax.xml": 42
+      "gavi-tca-activities.xml": 81,
+      "gavi-covax.xml": 43,
+      "gavi-vaccine-activities.xml": 563,
+      "gavi-country-activities.xml": 1
     },
     "GW": {
-      "gavi-tca-activities.xml": 59,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 27
+      "gavi-tca-activities.xml": 64,
+      "gavi-covax.xml": 27,
+      "gavi-vaccine-activities.xml": 464,
+      "gavi-country-activities.xml": 1
     },
     "GD": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 12
+      "gavi-covax.xml": 13
     },
     "GY": {
       "gavi-tca-activities.xml": 5,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 8,
-      "gavi-covax.xml": 25
+      "gavi-covax.xml": 30,
+      "gavi-vaccine-activities.xml": 158,
+      "gavi-country-activities.xml": 1
     },
     "HN": {
       "gavi-tca-activities.xml": 8,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 9,
-      "gavi-covax.xml": 59
+      "gavi-covax.xml": 66,
+      "gavi-vaccine-activities.xml": 177,
+      "gavi-country-activities.xml": 1
     },
     "HT": {
-      "gavi-tca-activities.xml": 142,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 10,
-      "gavi-covax.xml": 23
+      "gavi-tca-activities.xml": 147,
+      "gavi-covax.xml": 23,
+      "gavi-vaccine-activities.xml": 228,
+      "gavi-country-activities.xml": 1
     },
     "ID": {
       "gavi-tca-activities.xml": 14,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 102
+      "gavi-covax.xml": 102,
+      "gavi-vaccine-activities.xml": 167,
+      "gavi-country-activities.xml": 1
     },
     "IN": {
       "gavi-tca-activities.xml": 83,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 8,
-      "gavi-covax.xml": 23
+      "gavi-covax.xml": 24,
+      "gavi-vaccine-activities.xml": 276,
+      "gavi-country-activities.xml": 1
     },
     "IL": {
       "gavi-tca-activities.xml": 8
     },
     "KE": {
-      "gavi-tca-activities.xml": 112,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 83
+      "gavi-tca-activities.xml": 116,
+      "gavi-covax.xml": 86,
+      "gavi-vaccine-activities.xml": 658,
+      "gavi-country-activities.xml": 1
     },
     "KG": {
-      "gavi-tca-activities.xml": 73,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 11,
-      "gavi-covax.xml": 36
+      "gavi-tca-activities.xml": 79,
+      "gavi-covax.xml": 37,
+      "gavi-vaccine-activities.xml": 394,
+      "gavi-country-activities.xml": 1
     },
     "KH": {
-      "gavi-tca-activities.xml": 33,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 38
+      "gavi-tca-activities.xml": 37,
+      "gavi-covax.xml": 38,
+      "gavi-vaccine-activities.xml": 437,
+      "gavi-country-activities.xml": 1
     },
     "KI": {
       "gavi-tca-activities.xml": 4,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 4,
-      "gavi-covax.xml": 16
+      "gavi-covax.xml": 16,
+      "gavi-vaccine-activities.xml": 120,
+      "gavi-country-activities.xml": 1
     },
     "LA": {
-      "gavi-tca-activities.xml": 78,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 15,
-      "gavi-covax.xml": 57
+      "gavi-tca-activities.xml": 82,
+      "gavi-covax.xml": 59,
+      "gavi-vaccine-activities.xml": 462,
+      "gavi-country-activities.xml": 1
     },
     "LR": {
-      "gavi-tca-activities.xml": 85,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 53
+      "gavi-tca-activities.xml": 90,
+      "gavi-covax.xml": 54,
+      "gavi-vaccine-activities.xml": 586,
+      "gavi-country-activities.xml": 1
     },
     "LC": {
       "gavi-tca-activities.xml": 5,
@@ -1207,207 +1215,207 @@
     },
     "LK": {
       "gavi-tca-activities.xml": 8,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 8,
-      "gavi-covax.xml": 36
+      "gavi-covax.xml": 36,
+      "gavi-vaccine-activities.xml": 192,
+      "gavi-country-activities.xml": 1
     },
     "LS": {
-      "gavi-tca-activities.xml": 77,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 37
+      "gavi-tca-activities.xml": 83,
+      "gavi-covax.xml": 38,
+      "gavi-vaccine-activities.xml": 350,
+      "gavi-country-activities.xml": 1
     },
     "MA": {
       "gavi-tca-activities.xml": 8,
-      "gavi-covax.xml": 14
+      "gavi-covax.xml": 15
     },
     "MD": {
       "gavi-tca-activities.xml": 8,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 11,
-      "gavi-covax.xml": 34
+      "gavi-covax.xml": 34,
+      "gavi-vaccine-activities.xml": 210,
+      "gavi-country-activities.xml": 1
     },
     "MG": {
-      "gavi-tca-activities.xml": 120,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 44
+      "gavi-tca-activities.xml": 125,
+      "gavi-covax.xml": 44,
+      "gavi-vaccine-activities.xml": 519,
+      "gavi-country-activities.xml": 1
     },
     "MV": {
       "gavi-tca-activities.xml": 8,
-      "gavi-covax.xml": 37
+      "gavi-covax.xml": 38
     },
     "MH": {
       "gavi-tca-activities.xml": 8,
       "gavi-covax.xml": 3
     },
     "ML": {
-      "gavi-tca-activities.xml": 125,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 54
+      "gavi-tca-activities.xml": 130,
+      "gavi-covax.xml": 54,
+      "gavi-vaccine-activities.xml": 682,
+      "gavi-country-activities.xml": 1
     },
     "MM": {
-      "gavi-tca-activities.xml": 74,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 14
+      "gavi-tca-activities.xml": 80,
+      "gavi-covax.xml": 14,
+      "gavi-vaccine-activities.xml": 448,
+      "gavi-country-activities.xml": 1
     },
     "MN": {
       "gavi-tca-activities.xml": 8,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 7,
-      "gavi-covax.xml": 28
+      "gavi-covax.xml": 28,
+      "gavi-vaccine-activities.xml": 162,
+      "gavi-country-activities.xml": 1
     },
     "MZ": {
-      "gavi-tca-activities.xml": 203,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 64
+      "gavi-tca-activities.xml": 213,
+      "gavi-covax.xml": 68,
+      "gavi-vaccine-activities.xml": 569,
+      "gavi-country-activities.xml": 1
     },
     "MR": {
-      "gavi-tca-activities.xml": 57,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 52
+      "gavi-tca-activities.xml": 63,
+      "gavi-covax.xml": 52,
+      "gavi-vaccine-activities.xml": 444,
+      "gavi-country-activities.xml": 1
     },
     "MW": {
-      "gavi-tca-activities.xml": 109,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 55
+      "gavi-tca-activities.xml": 113,
+      "gavi-covax.xml": 55,
+      "gavi-vaccine-activities.xml": 557,
+      "gavi-country-activities.xml": 1
     },
     "NE": {
-      "gavi-tca-activities.xml": 214,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 42
+      "gavi-tca-activities.xml": 220,
+      "gavi-covax.xml": 45,
+      "gavi-vaccine-activities.xml": 587,
+      "gavi-country-activities.xml": 1
     },
     "NG": {
-      "gavi-tca-activities.xml": 279,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 114
+      "gavi-tca-activities.xml": 284,
+      "gavi-covax.xml": 118,
+      "gavi-vaccine-activities.xml": 675,
+      "gavi-country-activities.xml": 1
     },
     "NI": {
       "gavi-tca-activities.xml": 19,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 8,
-      "gavi-covax.xml": 96
+      "gavi-covax.xml": 97,
+      "gavi-vaccine-activities.xml": 226,
+      "gavi-country-activities.xml": 1
     },
     "NP": {
-      "gavi-tca-activities.xml": 47,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 16,
-      "gavi-covax.xml": 64
+      "gavi-tca-activities.xml": 52,
+      "gavi-covax.xml": 64,
+      "gavi-vaccine-activities.xml": 482,
+      "gavi-country-activities.xml": 1
     },
     "PK": {
-      "gavi-tca-activities.xml": 223,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 16,
-      "gavi-covax.xml": 125
+      "gavi-tca-activities.xml": 230,
+      "gavi-covax.xml": 128,
+      "gavi-vaccine-activities.xml": 696,
+      "gavi-country-activities.xml": 1
     },
     "PH": {
       "gavi-tca-activities.xml": 9,
       "gavi-covax.xml": 67
     },
     "PG": {
-      "gavi-tca-activities.xml": 69,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 11,
-      "gavi-covax.xml": 23
+      "gavi-tca-activities.xml": 72,
+      "gavi-covax.xml": 23,
+      "gavi-vaccine-activities.xml": 321,
+      "gavi-country-activities.xml": 1
     },
     "KP": {
-      "gavi-tca-activities.xml": 27,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 10,
-      "gavi-covax.xml": 6
+      "gavi-tca-activities.xml": 30,
+      "gavi-covax.xml": 6,
+      "gavi-vaccine-activities.xml": 334,
+      "gavi-country-activities.xml": 1
     },
     "RW": {
-      "gavi-tca-activities.xml": 49,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 102
+      "gavi-tca-activities.xml": 57,
+      "gavi-covax.xml": 107,
+      "gavi-vaccine-activities.xml": 593,
+      "gavi-country-activities.xml": 1
     },
     "SD": {
-      "gavi-tca-activities.xml": 56,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 51
+      "gavi-tca-activities.xml": 62,
+      "gavi-covax.xml": 59,
+      "gavi-vaccine-activities.xml": 688,
+      "gavi-country-activities.xml": 1
     },
     "SN": {
-      "gavi-tca-activities.xml": 103,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 15,
-      "gavi-covax.xml": 52
+      "gavi-tca-activities.xml": 108,
+      "gavi-covax.xml": 52,
+      "gavi-vaccine-activities.xml": 551,
+      "gavi-country-activities.xml": 1
     },
     "SB": {
-      "gavi-tca-activities.xml": 72,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 9,
-      "gavi-covax.xml": 36
+      "gavi-tca-activities.xml": 74,
+      "gavi-covax.xml": 36,
+      "gavi-vaccine-activities.xml": 313,
+      "gavi-country-activities.xml": 1
     },
     "SL": {
-      "gavi-tca-activities.xml": 95,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 57
+      "gavi-tca-activities.xml": 99,
+      "gavi-covax.xml": 59,
+      "gavi-vaccine-activities.xml": 604,
+      "gavi-country-activities.xml": 1
     },
     "SV": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 18
+      "gavi-covax.xml": 20
     },
     "SO": {
-      "gavi-tca-activities.xml": 74,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 8,
-      "gavi-covax.xml": 73
+      "gavi-tca-activities.xml": 80,
+      "gavi-covax.xml": 73,
+      "gavi-vaccine-activities.xml": 243,
+      "gavi-country-activities.xml": 1
     },
     "SS": {
-      "gavi-tca-activities.xml": 163,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 10,
-      "gavi-covax.xml": 48
+      "gavi-tca-activities.xml": 173,
+      "gavi-covax.xml": 50,
+      "gavi-vaccine-activities.xml": 267,
+      "gavi-country-activities.xml": 1
     },
     "ST": {
-      "gavi-tca-activities.xml": 47,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 24
+      "gavi-tca-activities.xml": 50,
+      "gavi-covax.xml": 24,
+      "gavi-vaccine-activities.xml": 455,
+      "gavi-country-activities.xml": 1
     },
     "SZ": {
       "gavi-tca-activities.xml": 8,
-      "gavi-covax.xml": 26
+      "gavi-covax.xml": 27
     },
     "SY": {
-      "gavi-tca-activities.xml": 40,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 5,
-      "gavi-covax.xml": 69
+      "gavi-tca-activities.xml": 52,
+      "gavi-covax.xml": 69,
+      "gavi-vaccine-activities.xml": 125,
+      "gavi-country-activities.xml": 1
     },
     "TD": {
-      "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 10,
-      "gavi-covax.xml": 49
+      "gavi-tca-activities.xml": 98,
+      "gavi-covax.xml": 51,
+      "gavi-vaccine-activities.xml": 479,
+      "gavi-country-activities.xml": 1
     },
     "TG": {
-      "gavi-tca-activities.xml": 39,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 48
+      "gavi-tca-activities.xml": 45,
+      "gavi-covax.xml": 48,
+      "gavi-vaccine-activities.xml": 593,
+      "gavi-country-activities.xml": 1
     },
     "TJ": {
-      "gavi-tca-activities.xml": 44,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 9,
-      "gavi-covax.xml": 60
+      "gavi-tca-activities.xml": 48,
+      "gavi-covax.xml": 62,
+      "gavi-vaccine-activities.xml": 357,
+      "gavi-country-activities.xml": 1
     },
     "TL": {
       "gavi-tca-activities.xml": 15,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 5,
-      "gavi-covax.xml": 20
+      "gavi-covax.xml": 22,
+      "gavi-vaccine-activities.xml": 128,
+      "gavi-country-activities.xml": 1
     },
     "TO": {
       "gavi-tca-activities.xml": 8,
@@ -1415,45 +1423,45 @@
     },
     "TN": {
       "gavi-tca-activities.xml": 8,
-      "gavi-covax.xml": 43
+      "gavi-covax.xml": 44
     },
     "TV": {
       "gavi-tca-activities.xml": 8,
-      "gavi-covax.xml": 7
+      "gavi-covax.xml": 10
     },
     "TZ": {
-      "gavi-tca-activities.xml": 140,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 54
+      "gavi-tca-activities.xml": 145,
+      "gavi-covax.xml": 56,
+      "gavi-vaccine-activities.xml": 693,
+      "gavi-country-activities.xml": 1
     },
     "UG": {
-      "gavi-tca-activities.xml": 87,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 92
+      "gavi-tca-activities.xml": 92,
+      "gavi-covax.xml": 93,
+      "gavi-vaccine-activities.xml": 724,
+      "gavi-country-activities.xml": 1
     },
     "UA": {
       "gavi-tca-activities.xml": 8,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 2,
-      "gavi-covax.xml": 46
+      "gavi-covax.xml": 49,
+      "gavi-vaccine-activities.xml": 60,
+      "gavi-country-activities.xml": 1
     },
     "UZ": {
       "gavi-tca-activities.xml": 27,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 12,
-      "gavi-covax.xml": 60
+      "gavi-covax.xml": 61,
+      "gavi-vaccine-activities.xml": 329,
+      "gavi-country-activities.xml": 1
     },
     "VC": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 9
+      "gavi-covax.xml": 10
     },
     "VN": {
       "gavi-tca-activities.xml": 8,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 78
+      "gavi-covax.xml": 81,
+      "gavi-vaccine-activities.xml": 304,
+      "gavi-country-activities.xml": 1
     },
     "VU": {
       "gavi-tca-activities.xml": 8,
@@ -1465,80 +1473,80 @@
     },
     "XK": {
       "gavi-tca-activities.xml": 8,
-      "gavi-covax.xml": 25
+      "gavi-covax.xml": 26
     },
     "YE": {
-      "gavi-tca-activities.xml": 44,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 11,
-      "gavi-covax.xml": 35
+      "gavi-tca-activities.xml": 50,
+      "gavi-covax.xml": 35,
+      "gavi-vaccine-activities.xml": 523,
+      "gavi-country-activities.xml": 1
     },
     "ZM": {
-      "gavi-tca-activities.xml": 97,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 14,
-      "gavi-covax.xml": 82
+      "gavi-tca-activities.xml": 104,
+      "gavi-covax.xml": 84,
+      "gavi-vaccine-activities.xml": 513,
+      "gavi-country-activities.xml": 1
     },
     "ZW": {
-      "gavi-tca-activities.xml": 88,
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 13,
-      "gavi-covax.xml": 21
-    },
-    "AL": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 4
-    },
-    "AM": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 11
-    },
-    "AZ": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 8
-    },
-    "BA": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 3
-    },
-    "CN": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 2
-    },
-    "CU": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 5
-    },
-    "GE": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 11
-    },
-    "TM": {
-      "gavi-country-activities.xml": 1,
-      "gavi-vaccine-activities.xml": 2
+      "gavi-tca-activities.xml": 95,
+      "gavi-covax.xml": 21,
+      "gavi-vaccine-activities.xml": 561,
+      "gavi-country-activities.xml": 1
     },
     "PS": {
-      "gavi-covax.xml": 48
+      "gavi-covax.xml": 49
     },
     "IR": {
       "gavi-covax.xml": 4
+    },
+    "AL": {
+      "gavi-vaccine-activities.xml": 88,
+      "gavi-country-activities.xml": 1
+    },
+    "AM": {
+      "gavi-vaccine-activities.xml": 227,
+      "gavi-country-activities.xml": 1
+    },
+    "AZ": {
+      "gavi-vaccine-activities.xml": 210,
+      "gavi-country-activities.xml": 1
+    },
+    "CU": {
+      "gavi-vaccine-activities.xml": 65,
+      "gavi-country-activities.xml": 1
+    },
+    "GE": {
+      "gavi-vaccine-activities.xml": 195,
+      "gavi-country-activities.xml": 1
+    },
+    "BA": {
+      "gavi-vaccine-activities.xml": 77,
+      "gavi-country-activities.xml": 1
+    },
+    "CN": {
+      "gavi-vaccine-activities.xml": 37,
+      "gavi-country-activities.xml": 1
+    },
+    "TM": {
+      "gavi-vaccine-activities.xml": 47,
+      "gavi-country-activities.xml": 1
     }
   },
   ".//recipient-region/@vocabulary": {
     "1": {
-      "gavi-covax.xml": 116
+      "gavi-covax.xml": 121
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "998": {
-      "gavi-covax.xml": 116
+      "gavi-covax.xml": 121
     }
   },
   ".//related-activity/@type": {
     "1": {
       "gavi-tca-activities.xml": 70,
-      "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-covax.xml": 92,
+      "gavi-vaccine-activities.xml": 865
     },
     "2": {
       "gavi-country-activities.xml": 955
@@ -1547,32 +1555,29 @@
   ".//reporting-org/@type": {
     "40": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     }
   },
   ".//result/@type": {
     "1": {
       "gavi-tca-activities.xml": 1015,
-      "gavi-vaccine-activities.xml": 7915,
-      "gavi-covax.xml": 90
-    },
-    "2": {
-      "gavi-vaccine-activities.xml": 9
+      "gavi-covax.xml": 90,
+      "gavi-vaccine-activities.xml": 592
     },
     "9": {
-      "gavi-vaccine-activities.xml": 6
+      "gavi-vaccine-activities.xml": 1
     }
   },
   ".//result/document-link/@format": {
     "text/html": {
-      "gavi-vaccine-activities.xml": 156
+      "gavi-vaccine-activities.xml": 34
     }
   },
   ".//result/document-link/category/@code": {
     "A08": {
-      "gavi-vaccine-activities.xml": 156
+      "gavi-vaccine-activities.xml": 34
     }
   },
   ".//result/indicator/@measure": {
@@ -1580,214 +1585,226 @@
       "gavi-tca-activities.xml": 3302
     },
     "1": {
-      "gavi-vaccine-activities.xml": 7640,
-      "gavi-covax.xml": 90
+      "gavi-covax.xml": 90,
+      "gavi-vaccine-activities.xml": 623
     },
     "2": {
-      "gavi-vaccine-activities.xml": 290
+      "gavi-vaccine-activities.xml": 95
     }
   },
   ".//sector/@vocabulary": {
     "1": {
-      "gavi-country-activities.xml": 78,
-      "gavi-vaccine-activities.xml": 865
-    },
-    "99": {
-      "gavi-vaccine-activities.xml": 865
+      "gavi-country-activities.xml": 78
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "12250": {
-      "gavi-tca-activities.xml": 5589,
-      "gavi-country-activities.xml": 78,
-      "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 4321
+      "gavi-tca-activities.xml": 5892,
+      "gavi-covax.xml": 4453,
+      "gavi-vaccine-activities.xml": 30646,
+      "gavi-country-activities.xml": 78
     }
   },
   ".//tag/@vocabulary": {
     "2": {
       "gavi-tca-activities.xml": 1196,
-      "gavi-country-activities.xml": 1014,
+      "gavi-covax.xml": 1196,
       "gavi-vaccine-activities.xml": 11245,
-      "gavi-covax.xml": 1196
+      "gavi-country-activities.xml": 1014
     },
     "99": {
-      "gavi-covax.xml": 92
+      "gavi-covax.xml": 92,
+      "gavi-vaccine-activities.xml": 865
     }
   },
   ".//tag[@vocabulary = '2']/@code": {
     "1": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "2": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "3": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "4": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "5": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "7": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "8": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "9": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "10": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "11": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "13": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "16": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     },
     "17": {
       "gavi-tca-activities.xml": 92,
-      "gavi-country-activities.xml": 78,
+      "gavi-covax.xml": 92,
       "gavi-vaccine-activities.xml": 865,
-      "gavi-covax.xml": 92
+      "gavi-country-activities.xml": 78
     }
   },
   ".//transaction/provider-org/@type": {
     "40": {
-      "gavi-tca-activities.xml": 5277,
-      "gavi-vaccine-activities.xml": 24098,
-      "gavi-covax.xml": 4132
+      "gavi-tca-activities.xml": 5423,
+      "gavi-covax.xml": 4264,
+      "gavi-vaccine-activities.xml": 24850
     }
   },
   ".//transaction/receiver-org/@type": {
     "70": {
-      "gavi-tca-activities.xml": 855,
-      "gavi-vaccine-activities.xml": 120
+      "gavi-tca-activities.xml": 943,
+      "gavi-vaccine-activities.xml": 127
     },
     "80": {
-      "gavi-tca-activities.xml": 713
+      "gavi-tca-activities.xml": 661
     },
     "40": {
-      "gavi-tca-activities.xml": 1299,
-      "gavi-vaccine-activities.xml": 16892,
-      "gavi-covax.xml": 3918
+      "gavi-tca-activities.xml": 1324,
+      "gavi-covax.xml": 4049,
+      "gavi-vaccine-activities.xml": 17127
     },
     "21": {
-      "gavi-tca-activities.xml": 426,
+      "gavi-tca-activities.xml": 435,
       "gavi-vaccine-activities.xml": 2
     },
     "10": {
       "gavi-tca-activities.xml": 11,
-      "gavi-vaccine-activities.xml": 6550,
-      "gavi-covax.xml": 214
+      "gavi-covax.xml": 215,
+      "gavi-vaccine-activities.xml": 7051
     }
   },
   ".//transaction/recipient-country/@code": {
     "AF": {
-      "gavi-tca-activities.xml": 91,
-      "gavi-covax.xml": 40
+      "gavi-tca-activities.xml": 94,
+      "gavi-covax.xml": 43,
+      "gavi-vaccine-activities.xml": 439
     },
     "AO": {
       "gavi-tca-activities.xml": 11,
-      "gavi-covax.xml": 83
+      "gavi-covax.xml": 83,
+      "gavi-vaccine-activities.xml": 217
     },
     "BI": {
-      "gavi-tca-activities.xml": 51
+      "gavi-tca-activities.xml": 53,
+      "gavi-vaccine-activities.xml": 383
     },
     "BJ": {
-      "gavi-tca-activities.xml": 66,
-      "gavi-covax.xml": 54
+      "gavi-tca-activities.xml": 69,
+      "gavi-covax.xml": 54,
+      "gavi-vaccine-activities.xml": 473
     },
     "BF": {
-      "gavi-tca-activities.xml": 79,
-      "gavi-covax.xml": 58
+      "gavi-tca-activities.xml": 81,
+      "gavi-covax.xml": 61,
+      "gavi-vaccine-activities.xml": 482
     },
     "BD": {
-      "gavi-tca-activities.xml": 51,
-      "gavi-covax.xml": 98
+      "gavi-tca-activities.xml": 54,
+      "gavi-covax.xml": 104,
+      "gavi-vaccine-activities.xml": 521
     },
     "BO": {
       "gavi-tca-activities.xml": 3,
-      "gavi-covax.xml": 54
+      "gavi-covax.xml": 55,
+      "gavi-vaccine-activities.xml": 116
     },
     "BT": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 32
+      "gavi-covax.xml": 32,
+      "gavi-vaccine-activities.xml": 131
     },
     "CF": {
-      "gavi-tca-activities.xml": 140,
-      "gavi-covax.xml": 42
+      "gavi-tca-activities.xml": 141,
+      "gavi-covax.xml": 49,
+      "gavi-vaccine-activities.xml": 390
     },
     "CI": {
-      "gavi-tca-activities.xml": 158,
-      "gavi-covax.xml": 67
+      "gavi-tca-activities.xml": 161,
+      "gavi-covax.xml": 71,
+      "gavi-vaccine-activities.xml": 439
     },
     "CM": {
-      "gavi-tca-activities.xml": 91,
-      "gavi-covax.xml": 35
+      "gavi-tca-activities.xml": 96,
+      "gavi-covax.xml": 36,
+      "gavi-vaccine-activities.xml": 551
     },
     "CD": {
-      "gavi-tca-activities.xml": 192,
-      "gavi-covax.xml": 64
+      "gavi-tca-activities.xml": 196,
+      "gavi-covax.xml": 73,
+      "gavi-vaccine-activities.xml": 693
     },
     "CG": {
-      "gavi-tca-activities.xml": 32,
-      "gavi-covax.xml": 33
+      "gavi-tca-activities.xml": 35,
+      "gavi-covax.xml": 33,
+      "gavi-vaccine-activities.xml": 299
     },
     "KM": {
-      "gavi-tca-activities.xml": 78,
-      "gavi-covax.xml": 19
+      "gavi-tca-activities.xml": 83,
+      "gavi-covax.xml": 19,
+      "gavi-vaccine-activities.xml": 206
     },
     "CV": {
       "gavi-tca-activities.xml": 5,
       "gavi-covax.xml": 41
     },
     "DJ": {
-      "gavi-tca-activities.xml": 55,
-      "gavi-covax.xml": 32
+      "gavi-tca-activities.xml": 57,
+      "gavi-covax.xml": 32,
+      "gavi-vaccine-activities.xml": 240
     },
     "DM": {
       "gavi-tca-activities.xml": 3,
@@ -1795,18 +1812,20 @@
     },
     "DZ": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 19
+      "gavi-covax.xml": 21
     },
     "EG": {
       "gavi-tca-activities.xml": 5,
       "gavi-covax.xml": 113
     },
     "ER": {
-      "gavi-tca-activities.xml": 41
+      "gavi-tca-activities.xml": 42,
+      "gavi-vaccine-activities.xml": 334
     },
     "ET": {
-      "gavi-tca-activities.xml": 233,
-      "gavi-covax.xml": 69
+      "gavi-tca-activities.xml": 237,
+      "gavi-covax.xml": 75,
+      "gavi-vaccine-activities.xml": 542
     },
     "FJ": {
       "gavi-tca-activities.xml": 5,
@@ -1814,74 +1833,89 @@
     },
     "FM": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 6
+      "gavi-covax.xml": 5
     },
     "GH": {
-      "gavi-tca-activities.xml": 100,
-      "gavi-covax.xml": 75
+      "gavi-tca-activities.xml": 105,
+      "gavi-covax.xml": 76,
+      "gavi-vaccine-activities.xml": 586
     },
     "GN": {
-      "gavi-tca-activities.xml": 108,
-      "gavi-covax.xml": 61
+      "gavi-tca-activities.xml": 110,
+      "gavi-covax.xml": 62,
+      "gavi-vaccine-activities.xml": 351
     },
     "GM": {
-      "gavi-tca-activities.xml": 71,
-      "gavi-covax.xml": 40
+      "gavi-tca-activities.xml": 73,
+      "gavi-covax.xml": 41,
+      "gavi-vaccine-activities.xml": 433
     },
     "GW": {
-      "gavi-tca-activities.xml": 54,
-      "gavi-covax.xml": 25
+      "gavi-tca-activities.xml": 56,
+      "gavi-covax.xml": 25,
+      "gavi-vaccine-activities.xml": 352
     },
     "GD": {
       "gavi-tca-activities.xml": 3,
-      "gavi-covax.xml": 10
+      "gavi-covax.xml": 11
     },
     "GY": {
       "gavi-tca-activities.xml": 3,
-      "gavi-covax.xml": 23
+      "gavi-covax.xml": 28,
+      "gavi-vaccine-activities.xml": 112
     },
     "HN": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 57
+      "gavi-covax.xml": 64,
+      "gavi-vaccine-activities.xml": 126
     },
     "HT": {
-      "gavi-tca-activities.xml": 137,
-      "gavi-covax.xml": 21
+      "gavi-tca-activities.xml": 139,
+      "gavi-covax.xml": 21,
+      "gavi-vaccine-activities.xml": 153
     },
     "ID": {
       "gavi-tca-activities.xml": 10,
-      "gavi-covax.xml": 100
+      "gavi-covax.xml": 100,
+      "gavi-vaccine-activities.xml": 113
     },
     "IN": {
       "gavi-tca-activities.xml": 78,
-      "gavi-covax.xml": 21
+      "gavi-covax.xml": 22,
+      "gavi-vaccine-activities.xml": 232
     },
     "IL": {
       "gavi-tca-activities.xml": 5
     },
     "KE": {
-      "gavi-tca-activities.xml": 107,
-      "gavi-covax.xml": 81
+      "gavi-tca-activities.xml": 108,
+      "gavi-covax.xml": 84,
+      "gavi-vaccine-activities.xml": 525
     },
     "KG": {
-      "gavi-tca-activities.xml": 68,
-      "gavi-covax.xml": 34
+      "gavi-tca-activities.xml": 71,
+      "gavi-covax.xml": 35,
+      "gavi-vaccine-activities.xml": 302
     },
     "KH": {
-      "gavi-tca-activities.xml": 28,
-      "gavi-covax.xml": 36
+      "gavi-tca-activities.xml": 29,
+      "gavi-covax.xml": 36,
+      "gavi-vaccine-activities.xml": 341
     },
     "KI": {
       "gavi-tca-activities.xml": 2,
-      "gavi-covax.xml": 14
+      "gavi-covax.xml": 14,
+      "gavi-vaccine-activities.xml": 91
     },
     "LA": {
-      "gavi-tca-activities.xml": 73,
-      "gavi-covax.xml": 55
+      "gavi-tca-activities.xml": 74,
+      "gavi-covax.xml": 57,
+      "gavi-vaccine-activities.xml": 359
     },
     "LR": {
-      "gavi-tca-activities.xml": 80,
-      "gavi-covax.xml": 51
+      "gavi-tca-activities.xml": 82,
+      "gavi-covax.xml": 52,
+      "gavi-vaccine-activities.xml": 455
     },
     "LC": {
       "gavi-tca-activities.xml": 3,
@@ -1889,147 +1923,177 @@
     },
     "LK": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 35
+      "gavi-covax.xml": 35,
+      "gavi-vaccine-activities.xml": 146
     },
     "LS": {
-      "gavi-tca-activities.xml": 72,
-      "gavi-covax.xml": 35
+      "gavi-tca-activities.xml": 75,
+      "gavi-covax.xml": 36,
+      "gavi-vaccine-activities.xml": 265
     },
     "MA": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 13
+      "gavi-covax.xml": 14
     },
     "MD": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 32
+      "gavi-covax.xml": 32,
+      "gavi-vaccine-activities.xml": 157
     },
     "MG": {
-      "gavi-tca-activities.xml": 115,
-      "gavi-covax.xml": 42
+      "gavi-tca-activities.xml": 117,
+      "gavi-covax.xml": 42,
+      "gavi-vaccine-activities.xml": 413
     },
     "MV": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 35
+      "gavi-covax.xml": 36
     },
     "MH": {
       "gavi-tca-activities.xml": 5,
       "gavi-covax.xml": 2
     },
     "ML": {
-      "gavi-tca-activities.xml": 120,
-      "gavi-covax.xml": 52
+      "gavi-tca-activities.xml": 122,
+      "gavi-covax.xml": 52,
+      "gavi-vaccine-activities.xml": 544
     },
     "MM": {
-      "gavi-tca-activities.xml": 69,
-      "gavi-covax.xml": 12
+      "gavi-tca-activities.xml": 72,
+      "gavi-covax.xml": 12,
+      "gavi-vaccine-activities.xml": 355
     },
     "MN": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 26
+      "gavi-covax.xml": 26,
+      "gavi-vaccine-activities.xml": 121
     },
     "MZ": {
-      "gavi-tca-activities.xml": 198,
-      "gavi-covax.xml": 62
+      "gavi-tca-activities.xml": 205,
+      "gavi-covax.xml": 66,
+      "gavi-vaccine-activities.xml": 460
     },
     "MR": {
-      "gavi-tca-activities.xml": 52,
-      "gavi-covax.xml": 50
+      "gavi-tca-activities.xml": 55,
+      "gavi-covax.xml": 50,
+      "gavi-vaccine-activities.xml": 340
     },
     "MW": {
-      "gavi-tca-activities.xml": 104,
-      "gavi-covax.xml": 53
+      "gavi-tca-activities.xml": 105,
+      "gavi-covax.xml": 53,
+      "gavi-vaccine-activities.xml": 446
     },
     "NE": {
-      "gavi-tca-activities.xml": 209,
-      "gavi-covax.xml": 40
+      "gavi-tca-activities.xml": 212,
+      "gavi-covax.xml": 43,
+      "gavi-vaccine-activities.xml": 465
     },
     "NG": {
-      "gavi-tca-activities.xml": 274,
-      "gavi-covax.xml": 112
+      "gavi-tca-activities.xml": 276,
+      "gavi-covax.xml": 116,
+      "gavi-vaccine-activities.xml": 568
     },
     "NI": {
       "gavi-tca-activities.xml": 15,
-      "gavi-covax.xml": 94
+      "gavi-covax.xml": 95,
+      "gavi-vaccine-activities.xml": 162
     },
     "NP": {
-      "gavi-tca-activities.xml": 42,
-      "gavi-covax.xml": 62
+      "gavi-tca-activities.xml": 44,
+      "gavi-covax.xml": 62,
+      "gavi-vaccine-activities.xml": 374
     },
     "PK": {
-      "gavi-tca-activities.xml": 218,
-      "gavi-covax.xml": 123
+      "gavi-tca-activities.xml": 222,
+      "gavi-covax.xml": 126,
+      "gavi-vaccine-activities.xml": 582
     },
     "PH": {
       "gavi-tca-activities.xml": 6,
       "gavi-covax.xml": 65
     },
     "PG": {
-      "gavi-tca-activities.xml": 62,
-      "gavi-covax.xml": 21
+      "gavi-tca-activities.xml": 63,
+      "gavi-covax.xml": 21,
+      "gavi-vaccine-activities.xml": 253
     },
     "KP": {
       "gavi-tca-activities.xml": 22,
-      "gavi-covax.xml": 5
+      "gavi-covax.xml": 5,
+      "gavi-vaccine-activities.xml": 257
     },
     "RW": {
-      "gavi-tca-activities.xml": 44,
-      "gavi-covax.xml": 100
+      "gavi-tca-activities.xml": 49,
+      "gavi-covax.xml": 105,
+      "gavi-vaccine-activities.xml": 469
     },
     "SD": {
-      "gavi-tca-activities.xml": 51,
-      "gavi-covax.xml": 49
+      "gavi-tca-activities.xml": 54,
+      "gavi-covax.xml": 57,
+      "gavi-vaccine-activities.xml": 564
     },
     "SN": {
-      "gavi-tca-activities.xml": 98,
-      "gavi-covax.xml": 50
+      "gavi-tca-activities.xml": 100,
+      "gavi-covax.xml": 50,
+      "gavi-vaccine-activities.xml": 439
     },
     "SB": {
-      "gavi-tca-activities.xml": 67,
-      "gavi-covax.xml": 34
+      "gavi-tca-activities.xml": 68,
+      "gavi-covax.xml": 34,
+      "gavi-vaccine-activities.xml": 244
     },
     "SL": {
-      "gavi-tca-activities.xml": 90,
-      "gavi-covax.xml": 55
+      "gavi-tca-activities.xml": 91,
+      "gavi-covax.xml": 57,
+      "gavi-vaccine-activities.xml": 475
     },
     "SV": {
       "gavi-tca-activities.xml": 3,
-      "gavi-covax.xml": 16
+      "gavi-covax.xml": 18
     },
     "SO": {
-      "gavi-tca-activities.xml": 69,
-      "gavi-covax.xml": 71
+      "gavi-tca-activities.xml": 72,
+      "gavi-covax.xml": 71,
+      "gavi-vaccine-activities.xml": 189
     },
     "SS": {
-      "gavi-tca-activities.xml": 158,
-      "gavi-covax.xml": 46
+      "gavi-tca-activities.xml": 165,
+      "gavi-covax.xml": 48,
+      "gavi-vaccine-activities.xml": 212
     },
     "ST": {
-      "gavi-tca-activities.xml": 42,
-      "gavi-covax.xml": 22
+      "gavi-tca-activities.xml": 44,
+      "gavi-covax.xml": 22,
+      "gavi-vaccine-activities.xml": 344
     },
     "SZ": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 24
+      "gavi-covax.xml": 25
     },
     "SY": {
-      "gavi-tca-activities.xml": 35,
-      "gavi-covax.xml": 65
+      "gavi-tca-activities.xml": 40,
+      "gavi-covax.xml": 65,
+      "gavi-vaccine-activities.xml": 96
     },
     "TD": {
-      "gavi-tca-activities.xml": 87,
-      "gavi-covax.xml": 47
+      "gavi-tca-activities.xml": 90,
+      "gavi-covax.xml": 49,
+      "gavi-vaccine-activities.xml": 380
     },
     "TG": {
-      "gavi-tca-activities.xml": 34,
-      "gavi-covax.xml": 46
+      "gavi-tca-activities.xml": 37,
+      "gavi-covax.xml": 46,
+      "gavi-vaccine-activities.xml": 463
     },
     "TJ": {
-      "gavi-tca-activities.xml": 39,
-      "gavi-covax.xml": 58
+      "gavi-tca-activities.xml": 40,
+      "gavi-covax.xml": 60,
+      "gavi-vaccine-activities.xml": 278
     },
     "TL": {
       "gavi-tca-activities.xml": 11,
-      "gavi-covax.xml": 18
+      "gavi-covax.xml": 20,
+      "gavi-vaccine-activities.xml": 98
     },
     "TO": {
       "gavi-tca-activities.xml": 5,
@@ -2037,35 +2101,40 @@
     },
     "TN": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 41
+      "gavi-covax.xml": 42
     },
     "TV": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 6
+      "gavi-covax.xml": 8
     },
     "TZ": {
-      "gavi-tca-activities.xml": 135,
-      "gavi-covax.xml": 52
+      "gavi-tca-activities.xml": 137,
+      "gavi-covax.xml": 54,
+      "gavi-vaccine-activities.xml": 574
     },
     "UG": {
-      "gavi-tca-activities.xml": 82,
-      "gavi-covax.xml": 90
+      "gavi-tca-activities.xml": 84,
+      "gavi-covax.xml": 91,
+      "gavi-vaccine-activities.xml": 609
     },
     "UA": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 44
+      "gavi-covax.xml": 47,
+      "gavi-vaccine-activities.xml": 48
     },
     "UZ": {
       "gavi-tca-activities.xml": 22,
-      "gavi-covax.xml": 58
+      "gavi-covax.xml": 59,
+      "gavi-vaccine-activities.xml": 259
     },
     "VC": {
       "gavi-tca-activities.xml": 3,
-      "gavi-covax.xml": 7
+      "gavi-covax.xml": 8
     },
     "VN": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 76
+      "gavi-covax.xml": 79,
+      "gavi-vaccine-activities.xml": 231
     },
     "VU": {
       "gavi-tca-activities.xml": 5,
@@ -2077,53 +2146,84 @@
     },
     "XK": {
       "gavi-tca-activities.xml": 5,
-      "gavi-covax.xml": 23
+      "gavi-covax.xml": 24
     },
     "YE": {
-      "gavi-tca-activities.xml": 39,
-      "gavi-covax.xml": 33
+      "gavi-tca-activities.xml": 42,
+      "gavi-covax.xml": 33,
+      "gavi-vaccine-activities.xml": 420
     },
     "ZM": {
-      "gavi-tca-activities.xml": 92,
-      "gavi-covax.xml": 80
+      "gavi-tca-activities.xml": 96,
+      "gavi-covax.xml": 82,
+      "gavi-vaccine-activities.xml": 412
     },
     "ZW": {
-      "gavi-tca-activities.xml": 83,
-      "gavi-covax.xml": 20
+      "gavi-tca-activities.xml": 87,
+      "gavi-covax.xml": 20,
+      "gavi-vaccine-activities.xml": 450
     },
     "PS": {
-      "gavi-covax.xml": 46
+      "gavi-covax.xml": 47
     },
     "IR": {
       "gavi-covax.xml": 3
+    },
+    "AL": {
+      "gavi-vaccine-activities.xml": 68
+    },
+    "AM": {
+      "gavi-vaccine-activities.xml": 170
+    },
+    "AZ": {
+      "gavi-vaccine-activities.xml": 161
+    },
+    "CU": {
+      "gavi-vaccine-activities.xml": 41
+    },
+    "GE": {
+      "gavi-vaccine-activities.xml": 142
+    },
+    "BA": {
+      "gavi-vaccine-activities.xml": 58
+    },
+    "CN": {
+      "gavi-vaccine-activities.xml": 25
+    },
+    "TM": {
+      "gavi-vaccine-activities.xml": 36
     }
   },
   ".//transaction/recipient-region/@vocabulary": {
     "1": {
-      "gavi-covax.xml": 110
+      "gavi-covax.xml": 115
     }
   },
   ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "998": {
-      "gavi-covax.xml": 110
+      "gavi-covax.xml": 115
     }
   },
   ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "12250": {
-      "gavi-tca-activities.xml": 5277,
-      "gavi-covax.xml": 4138
+      "gavi-tca-activities.xml": 5423,
+      "gavi-covax.xml": 4270,
+      "gavi-vaccine-activities.xml": 24850
     }
   },
   ".//transaction/transaction-type/@code": {
     "2": {
-      "gavi-tca-activities.xml": 1535,
-      "gavi-vaccine-activities.xml": 5309,
-      "gavi-covax.xml": 183
+      "gavi-tca-activities.xml": 1624,
+      "gavi-covax.xml": 183,
+      "gavi-vaccine-activities.xml": 5745
     },
     "3": {
-      "gavi-tca-activities.xml": 3742,
-      "gavi-vaccine-activities.xml": 18789,
-      "gavi-covax.xml": 3955
+      "gavi-tca-activities.xml": 3799,
+      "gavi-covax.xml": 4087,
+      "gavi-vaccine-activities.xml": 19056
+    },
+    "12": {
+      "gavi-vaccine-activities.xml": 49
     }
   }
 }

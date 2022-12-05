@@ -169,7 +169,7 @@
         "BF": 3,
         "MZ": 2,
         "NL": 2,
-        "MM": 2,
+        "MM": 3,
         "ET": 2,
         "GT": 2,
         "JO": 2,
@@ -212,8 +212,7 @@
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "nimd-hq-activity.xml": {
-        "998": 12,
-        "798": 1
+        "998": 12
       },
       "nimd-hq-activities.xml": {
         "998": 2,
@@ -287,14 +286,15 @@
     },
     ".//transaction/provider-org/@type": {
       "nimd-hq-activity.xml": {
-        "10": 2
+        "10": 8
       }
     },
     ".//transaction/transaction-type/@code": {
       "nimd-hq-activity.xml": {
         "2": 38,
-        "3": 105,
-        "11": 2
+        "3": 109,
+        "11": 2,
+        "1": 6
       },
       "nimd-hq-activities.xml": {
         "4": 198,
@@ -306,7 +306,7 @@
     },
     ".//transaction/value/@currency": {
       "nimd-hq-activity.xml": {
-        "EUR": 145
+        "EUR": 155
       },
       "nimd-hq-activities.xml": {
         "EUR": 618,
@@ -315,9 +315,9 @@
     },
     ".//@xml:lang": {
       "nimd-hq-activity.xml": {
-        "EN": 478,
+        "EN": 488,
         "nl": 320,
-        "en": 7385
+        "en": 7129
       },
       "nimd-hq-activities.xml": {
         "en": 241

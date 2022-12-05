@@ -1,14 +1,14 @@
 {
   ".//@default-currency": {
     "USD": {
-      "cda-us.xml": 1,
-      "cda-998.xml": 3
+      "cda-998.xml": 3,
+      "cda-us.xml": 1
     }
   },
   ".//@xml:lang": {
     "en": {
-      "cda-us.xml": 6,
-      "cda-998.xml": 18
+      "cda-998.xml": 18,
+      "cda-us.xml": 6
     }
   },
   ".//activity-date/@type": {
@@ -18,26 +18,26 @@
   },
   ".//activity-status/@code": {
     "2": {
-      "cda-us.xml": 1,
-      "cda-998.xml": 3
+      "cda-998.xml": 3,
+      "cda-us.xml": 1
     }
   },
   ".//budget/@type": {
     "1": {
-      "cda-us.xml": 1,
-      "cda-998.xml": 3
+      "cda-998.xml": 3,
+      "cda-us.xml": 1
     }
   },
   ".//budget/value/@currency": {
     "USD": {
-      "cda-us.xml": 1,
-      "cda-998.xml": 3
+      "cda-998.xml": 3,
+      "cda-us.xml": 1
     }
   },
   ".//description/@type": {
     "1": {
-      "cda-us.xml": 1,
-      "cda-998.xml": 3
+      "cda-998.xml": 3,
+      "cda-us.xml": 1
     }
   },
   ".//document-link/category/@code": {
@@ -52,14 +52,11 @@
   },
   ".//reporting-org/@type": {
     "21": {
-      "cda-us.xml": 1,
-      "cda-998.xml": 3
+      "cda-998.xml": 3,
+      "cda-us.xml": 1
     }
   },
   ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
-    "15220": {
-      "cda-us.xml": 1
-    },
     "32110": {
       "cda-998.xml": 1
     },
@@ -68,6 +65,9 @@
     },
     "72010": {
       "cda-998.xml": 1
+    },
+    "15220": {
+      "cda-us.xml": 1
     }
   },
   ".//transaction/aid-type/@code": {

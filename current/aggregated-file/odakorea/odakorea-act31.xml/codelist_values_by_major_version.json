@@ -5,12 +5,13 @@
     },
     ".//activity-date/@type": {
       "1": 5,
+      "2": 5,
       "3": 5,
-      "2": 1
+      "4": 2
     },
     ".//activity-status/@code": {
-      "1": 4,
-      "2": 1
+      "2": 3,
+      "3": 2
     },
     ".//activity-scope/@code": {
       "4": 4,
@@ -32,9 +33,9 @@
       "1": 5
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "D01": 1,
+      "E01": 3,
       "G01": 1,
-      "E01": 3
+      "D01": 1
     },
     ".//default-finance-type/@code": {
       "110": 5
@@ -43,8 +44,8 @@
       "10": 5
     },
     ".//default-tied-status/@code": {
-      "": 2,
-      "4": 3
+      "4": 4,
+      "": 1
     },
     ".//description/@type": {
       "1": 5
@@ -89,10 +90,10 @@
       "1": 45
     },
     ".//recipient-country/@code": {
-      "KH": 2,
-      "VN": 3,
-      "TH": 3,
-      "MN": 3
+      "VN": 4,
+      "TH": 4,
+      "MN": 4,
+      "KH": 4
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "998": 3
@@ -104,28 +105,28 @@
       "10": 5
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15126": 11,
+      "15126": 16,
       "91010": 3
     },
     ".//sector/@vocabulary": {
-      "1": 14
+      "1": 19
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "D01": 1,
+      "E01": 9,
       "G01": 2,
-      "E01": 6
+      "D01": 3
     },
     ".//transaction/finance-type/@code": {
-      "110": 9
+      "110": 14
     },
     ".//transaction/flow-type/@code": {
-      "10": 9
+      "10": 14
     },
     ".//transaction/recipient-country/@code": {
-      "KH": 1,
-      "VN": 2,
-      "TH": 2,
-      "MN": 2
+      "VN": 3,
+      "TH": 3,
+      "MN": 3,
+      "KH": 3
     },
     ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "998": 2
@@ -134,26 +135,26 @@
       "1": 2
     },
     ".//transaction/provider-org/@type": {
-      "10": 9
+      "10": 14
     },
     ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15126": 7,
+      "15126": 12,
       "91010": 2
     },
     ".//transaction/sector/@vocabulary": {
-      "1": 9
+      "1": 14
     },
     ".//transaction/tied-status/@code": {
-      "": 3,
-      "4": 6
+      "4": 12,
+      "": 2
     },
     ".//transaction/transaction-type/@code": {
       "1": 5,
-      "3": 1,
-      "2": 3
+      "2": 4,
+      "3": 5
     },
     ".//transaction/value/@currency": {
-      "KRW": 9
+      "KRW": 14
     },
     ".//@xml:lang": {
       "en": 5

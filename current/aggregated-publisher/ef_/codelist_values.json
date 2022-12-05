@@ -3,10 +3,10 @@
     "EUR": 15
   },
   ".//@xml:lang": {
-    "fr": 1019,
+    "fr": 1022,
+    "es": 39,
     "ht": 4,
     "en": 71,
-    "es": 39,
     "tl": 5
   },
   ".//activity-date/@type": {
@@ -19,8 +19,8 @@
     "4": 3
   },
   ".//activity-status/@code": {
-    "4": 14,
-    "2": 1
+    "2": 1,
+    "4": 14
   },
   ".//budget/@status": {
     "2": 50
@@ -43,9 +43,9 @@
     "1": 15
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "G01": 1,
     "C01": 11,
-    "H01": 3
+    "H01": 3,
+    "G01": 1
   },
   ".//default-finance-type/@code": {
     "110": 15
@@ -64,8 +64,8 @@
     "application/pdf": 11
   },
   ".//document-link/category/@code": {
-    "A05": 1,
-    "A08": 10
+    "A08": 10,
+    "A05": 1
   },
   ".//document-link/language/@code": {
     "fr": 11
@@ -80,8 +80,8 @@
     "ADMF": 3
   },
   ".//location/location-class/@code": {
-    "1": 18,
-    "4": 1
+    "4": 1,
+    "1": 18
   },
   ".//location/location-id/@vocabulary": {
     "A1": 19
@@ -94,8 +94,8 @@
   },
   ".//participating-org/@role": {
     "4": 204,
-    "2": 14,
-    "1": 24
+    "1": 24,
+    "2": 14
   },
   ".//participating-org/@type": {
     "22": 78,
@@ -122,35 +122,35 @@
     "7": 1
   },
   ".//recipient-country/@code": {
-    "HT": 4,
+    "NI": 4,
+    "PH": 5,
     "BE": 3,
-    "MG": 3,
-    "BI": 5,
-    "BF": 2,
+    "HT": 4,
     "BR": 4,
+    "BI": 5,
     "GT": 4,
     "IN": 4,
-    "PK": 2,
     "PE": 4,
-    "PH": 5,
     "CD": 5,
     "RW": 4,
+    "IL": 2,
+    "MG": 3,
+    "BF": 2,
+    "PK": 2,
     "TG": 2,
     "UY": 2,
-    "ZW": 1,
-    "NI": 4,
-    "IL": 2
+    "ZW": 1
   },
   ".//recipient-region/@vocabulary": {
     "1": 2
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "89": 1,
-    "998": 1
+    "998": 1,
+    "89": 1
   },
   ".//related-activity/@type": {
-    "2": 2,
-    "1": 8
+    "1": 8,
+    "2": 2
   },
   ".//reporting-org/@type": {
     "22": 15
@@ -167,10 +167,10 @@
     "1": 32
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "91010": 1,
     "31120": 11,
     "99820": 9,
     "43042": 6,
+    "91010": 1,
     "15160": 4,
     "11231": 1
   },
@@ -183,16 +183,16 @@
     "10": 11
   },
   ".//transaction/receiver-org/@type": {
+    "22": 27,
     "24": 181,
-    "70": 2,
-    "22": 27
+    "70": 2
   },
   ".//transaction/transaction-type/@code": {
+    "1": 15,
+    "11": 10,
     "4": 51,
     "3": 210,
-    "2": 25,
-    "1": 15,
-    "11": 10
+    "2": 25
   },
   ".//transaction/value/@currency": {
     "EUR": 305

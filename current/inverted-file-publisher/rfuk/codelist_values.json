@@ -2,15 +2,15 @@
   ".//@default-currency": {
     "GBP": {
       "rfuk-cd.xml": 1,
-      "rfuk-998.xml": 2,
-      "rfuk-ga.xml": 1
+      "rfuk-ga.xml": 1,
+      "rfuk-998.xml": 2
     }
   },
   ".//@xml:lang": {
     "en": {
       "rfuk-cd.xml": 7,
-      "rfuk-998.xml": 12,
-      "rfuk-ga.xml": 87
+      "rfuk-ga.xml": 87,
+      "rfuk-998.xml": 12
     },
     "fr": {
       "rfuk-ga.xml": 3
@@ -19,8 +19,8 @@
   ".//activity-date/@type": {
     "2": {
       "rfuk-cd.xml": 1,
-      "rfuk-998.xml": 2,
-      "rfuk-ga.xml": 1
+      "rfuk-ga.xml": 1,
+      "rfuk-998.xml": 2
     },
     "3": {
       "rfuk-cd.xml": 1,
@@ -51,8 +51,8 @@
   ".//budget/@type": {
     "1": {
       "rfuk-cd.xml": 1,
-      "rfuk-998.xml": 2,
-      "rfuk-ga.xml": 1
+      "rfuk-ga.xml": 1,
+      "rfuk-998.xml": 2
     },
     "2": {
       "rfuk-998.xml": 3
@@ -61,8 +61,8 @@
   ".//budget/value/@currency": {
     "GBP": {
       "rfuk-cd.xml": 1,
-      "rfuk-998.xml": 5,
-      "rfuk-ga.xml": 1
+      "rfuk-ga.xml": 1,
+      "rfuk-998.xml": 5
     }
   },
   ".//contact-info/@type": {
@@ -80,15 +80,15 @@
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": {
       "rfuk-cd.xml": 1,
-      "rfuk-998.xml": 2,
-      "rfuk-ga.xml": 1
+      "rfuk-ga.xml": 1,
+      "rfuk-998.xml": 2
     }
   },
   ".//default-finance-type/@code": {
     "110": {
       "rfuk-cd.xml": 1,
-      "rfuk-998.xml": 2,
-      "rfuk-ga.xml": 1
+      "rfuk-ga.xml": 1,
+      "rfuk-998.xml": 2
     }
   },
   ".//default-flow-type/@code": {
@@ -133,13 +133,13 @@
   ".//participating-org/@role": {
     "1": {
       "rfuk-cd.xml": 1,
-      "rfuk-998.xml": 2,
-      "rfuk-ga.xml": 1
+      "rfuk-ga.xml": 1,
+      "rfuk-998.xml": 2
     },
     "4": {
       "rfuk-cd.xml": 2,
-      "rfuk-998.xml": 10,
-      "rfuk-ga.xml": 2
+      "rfuk-ga.xml": 2,
+      "rfuk-998.xml": 10
     },
     "2": {
       "rfuk-998.xml": 2
@@ -163,6 +163,12 @@
       "rfuk-cd.xml": 1,
       "rfuk-998.xml": 24
     },
+    "GA": {
+      "rfuk-ga.xml": 1
+    },
+    "CF": {
+      "rfuk-ga.xml": 1
+    },
     "GH": {
       "rfuk-998.xml": 14
     },
@@ -174,33 +180,27 @@
     },
     "CG": {
       "rfuk-998.xml": 11
-    },
-    "GA": {
-      "rfuk-ga.xml": 1
-    },
-    "CF": {
-      "rfuk-ga.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "21": {
       "rfuk-cd.xml": 1,
-      "rfuk-998.xml": 2,
-      "rfuk-ga.xml": 1
+      "rfuk-ga.xml": 1,
+      "rfuk-998.xml": 2
     }
   },
   ".//sector/@vocabulary": {
     "1": {
       "rfuk-cd.xml": 1,
-      "rfuk-998.xml": 2,
-      "rfuk-ga.xml": 8
+      "rfuk-ga.xml": 8,
+      "rfuk-998.xml": 2
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "31210": {
       "rfuk-cd.xml": 1,
-      "rfuk-998.xml": 2,
-      "rfuk-ga.xml": 1
+      "rfuk-ga.xml": 1,
+      "rfuk-998.xml": 2
     },
     "11430": {
       "rfuk-ga.xml": 1
@@ -289,25 +289,25 @@
   ".//transaction/transaction-type/@code": {
     "4": {
       "rfuk-cd.xml": 68,
-      "rfuk-998.xml": 17,
-      "rfuk-ga.xml": 11
+      "rfuk-ga.xml": 11,
+      "rfuk-998.xml": 17
     },
     "1": {
       "rfuk-cd.xml": 13,
-      "rfuk-998.xml": 16,
-      "rfuk-ga.xml": 13
+      "rfuk-ga.xml": 13,
+      "rfuk-998.xml": 16
     },
     "3": {
       "rfuk-cd.xml": 39,
-      "rfuk-998.xml": 63,
-      "rfuk-ga.xml": 68
+      "rfuk-ga.xml": 68,
+      "rfuk-998.xml": 63
     }
   },
   ".//transaction/value/@currency": {
     "GBP": {
       "rfuk-cd.xml": 120,
-      "rfuk-998.xml": 96,
-      "rfuk-ga.xml": 83
+      "rfuk-ga.xml": 83,
+      "rfuk-998.xml": 96
     }
   }
 }

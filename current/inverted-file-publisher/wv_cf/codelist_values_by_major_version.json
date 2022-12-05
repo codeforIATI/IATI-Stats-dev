@@ -2,113 +2,111 @@
   "2": {
     ".//@default-currency": {
       "wv_cf-activity.xml": {
-        "USD": 2
+        "USD": 1
       }
     },
     ".//activity-date/@type": {
       "wv_cf-activity.xml": {
-        "1": 2,
-        "2": 2,
-        "3": 2
+        "1": 1,
+        "2": 1,
+        "3": 1
       }
     },
     ".//activity-status/@code": {
       "wv_cf-activity.xml": {
-        "2": 2
+        "3": 1
       }
     },
     ".//activity-scope/@code": {
       "wv_cf-activity.xml": {
-        "4": 2
+        "4": 1
       }
     },
     ".//contact-info/@type": {
       "wv_cf-activity.xml": {
-        "1": 2
+        "1": 1
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "wv_cf-activity.xml": {
-        "C01": 2
+        "C01": 1
       }
     },
     ".//default-finance-type/@code": {
       "wv_cf-activity.xml": {
-        "110": 2
+        "110": 1
       }
     },
     ".//default-flow-type/@code": {
       "wv_cf-activity.xml": {
-        "10": 2
+        "10": 1
       }
     },
     ".//default-tied-status/@code": {
       "wv_cf-activity.xml": {
-        "5": 2
+        "5": 1
       }
     },
     ".//description/@type": {
       "wv_cf-activity.xml": {
-        "1": 2,
-        "4": 2
+        "1": 1,
+        "4": 1
       }
     },
     ".//participating-org/@role": {
       "wv_cf-activity.xml": {
-        "1": 2,
-        "4": 2
+        "1": 1,
+        "4": 1
       }
     },
     ".//participating-org/@type": {
       "wv_cf-activity.xml": {
-        "21": 4
+        "21": 2
       }
     },
     ".//recipient-country/@code": {
       "wv_cf-activity.xml": {
-        "CF": 2
+        "CF": 1
       }
     },
     ".//related-activity/@type": {
       "wv_cf-activity.xml": {
-        "5": 2
+        "5": 1
       }
     },
     ".//reporting-org/@type": {
       "wv_cf-activity.xml": {
-        "21": 2
+        "21": 1
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "wv_cf-activity.xml": {
-        "52010": 1,
-        "15180": 1
-      }
-    },
-    ".//sector[@vocabulary = '2']/@code": {
-      "wv_cf-activity.xml": {
-        "720": 1,
-        "160": 1
+        "15160": 1
       }
     },
     ".//sector/@vocabulary": {
       "wv_cf-activity.xml": {
-        "2": 2
+        "1": 1
       }
     },
     ".//transaction/provider-org/@type": {
       "wv_cf-activity.xml": {
-        "21": 25
+        "21": 20
       }
     },
     ".//transaction/receiver-org/@type": {
       "wv_cf-activity.xml": {
-        "21": 25
+        "21": 20
       }
     },
     ".//transaction/transaction-type/@code": {
       "wv_cf-activity.xml": {
-        "1": 25
+        "1": 20
+      }
+    },
+    ".//transaction/value/@currency": {
+      "wv_cf-activity.xml": {
+        "USD": 20
       }
     }
   }

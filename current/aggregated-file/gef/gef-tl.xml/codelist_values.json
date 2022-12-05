@@ -1,80 +1,239 @@
 {
   ".//@default-currency": {
-    "USD": 388
+    "USD": 411
   },
   ".//@xml:lang": {
-    "EN": 388,
-    "en": 119
+    "EN": 411,
+    "en": 181
   },
   ".//activity-date/@type": {
-    "1": 229,
-    "2": 314,
-    "3": 286,
-    "4": 240
+    "1": 243,
+    "2": 341,
+    "3": 291,
+    "4": 264
   },
   ".//activity-scope/@code": {
-    "1": 388
+    "1": 411
   },
   ".//activity-status/@code": {
-    "3": 208,
-    "4": 35,
-    "2": 89,
-    "5": 10,
-    "1": 46
+    "3": 231,
+    "4": 33,
+    "2": 76,
+    "1": 61,
+    "5": 10
   },
   ".//budget/@type": {
-    "1": 385
+    "1": 408
   },
   ".//budget/value/@currency": {
-    "USD": 385
+    "USD": 408
   },
   ".//collaboration-type/@code": {
-    "2": 388
+    "2": 411
   },
   ".//contact-info/@type": {
-    "1": 388
+    "1": 411
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 388
+    "C01": 411
   },
   ".//default-tied-status/@code": {
-    "5": 388
+    "5": 411
   },
   ".//description/@type": {
-    "2": 388
+    "2": 411
   },
   ".//document-link/@format": {
-    "application/pdf": 119
+    "application/pdf": 181
   },
   ".//document-link/category/@code": {
-    "A07": 85,
-    "A01": 34
+    "A07": 121,
+    "A01": 60
   },
   ".//participating-org/@role": {
-    "1": 521,
-    "3": 521,
-    "4": 402
+    "1": 544,
+    "3": 544,
+    "4": 425
   },
   ".//participating-org/@type": {
-    "40": 1356,
+    "40": 1413,
     "00": 16,
-    "22": 64,
+    "22": 76,
     "10": 8
   },
+  ".//recipient-country/@code": {
+    "TD": 3,
+    "AR": 8,
+    "BG": 2,
+    "BO": 3,
+    "BR": 10,
+    "BY": 4,
+    "CI": 13,
+    "CL": 9,
+    "CR": 6,
+    "CU": 7,
+    "DO": 8,
+    "EC": 8,
+    "EG": 4,
+    "ET": 8,
+    "FJ": 6,
+    "HN": 5,
+    "HT": 3,
+    "ID": 15,
+    "JM": 9,
+    "KE": 12,
+    "KH": 4,
+    "KZ": 9,
+    "LK": 11,
+    "MA": 9,
+    "MG": 15,
+    "MU": 7,
+    "MY": 8,
+    "MZ": 9,
+    "NA": 6,
+    "PA": 7,
+    "PE": 11,
+    "PK": 6,
+    "RO": 2,
+    "SY": 4,
+    "TH": 9,
+    "TR": 9,
+    "TZ": 10,
+    "UG": 10,
+    "VN": 10,
+    "CM": 8,
+    "IN": 11,
+    "IR": 3,
+    "MX": 6,
+    "PH": 11,
+    "ZA": 14,
+    "RU": 1,
+    "AF": 5,
+    "CD": 8,
+    "CN": 12,
+    "CV": 7,
+    "GT": 3,
+    "LA": 5,
+    "MN": 10,
+    "NG": 11,
+    "NI": 8,
+    "PG": 8,
+    "SC": 8,
+    "SK": 1,
+    "SR": 6,
+    "UA": 9,
+    "UZ": 10,
+    "VE": 5,
+    "NP": 7,
+    "AM": 7,
+    "BI": 7,
+    "GH": 6,
+    "KG": 4,
+    "MV": 6,
+    "TL": 4,
+    "BF": 7,
+    "CO": 7,
+    "GY": 3,
+    "BT": 5,
+    "ER": 4,
+    "GM": 4,
+    "ML": 8,
+    "AL": 6,
+    "BS": 4,
+    "GE": 3,
+    "JO": 6,
+    "KN": 4,
+    "LC": 6,
+    "MH": 5,
+    "NE": 5,
+    "PW": 5,
+    "SL": 8,
+    "TV": 3,
+    "SN": 6,
+    "UY": 6,
+    "AO": 3,
+    "GQ": 2,
+    "GW": 6,
+    "ST": 5,
+    "AZ": 2,
+    "DJ": 2,
+    "KM": 3,
+    "MK": 3,
+    "BD": 4,
+    "CG": 4,
+    "CK": 2,
+    "GA": 5,
+    "LR": 4,
+    "NR": 4,
+    "NU": 2,
+    "RS": 1,
+    "SO": 3,
+    "SS": 1,
+    "CF": 3,
+    "GN": 6,
+    "KI": 3,
+    "LB": 3,
+    "LS": 4,
+    "SB": 4,
+    "TM": 3,
+    "TN": 9,
+    "WS": 3,
+    "ZM": 5,
+    "BW": 5,
+    "DM": 3,
+    "DZ": 3,
+    "FM": 4,
+    "ME": 3,
+    "MW": 3,
+    "RW": 3,
+    "SD": 2,
+    "ZW": 6,
+    "BA": 2,
+    "MD": 4,
+    "PY": 5,
+    "SV": 2,
+    "SZ": 3,
+    "TG": 4,
+    "VC": 2,
+    "AG": 4,
+    "BB": 3,
+    "BZ": 3,
+    "GD": 5,
+    "LY": 1,
+    "TT": 4,
+    "BH": 1,
+    "IQ": 2,
+    "YE": 3,
+    "MR": 4,
+    "TJ": 2,
+    "TO": 3,
+    "VU": 4,
+    "MM": 3,
+    "BJ": 2,
+    "6L": 1
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": 386
+  },
+  ".//related-activity/@type": {
+    "1": 46,
+    "2": 434
+  },
   ".//reporting-org/@type": {
-    "40": 388
+    "40": 411
   },
   ".//sector/@vocabulary": {
-    "99": 411
+    "99": 429
   },
   ".//transaction/finance-type/@code": {
-    "110": 1814
+    "110": 1919,
+    "520": 1
   },
   ".//transaction/transaction-type/@code": {
-    "3": 1404,
-    "2": 410
+    "3": 1487,
+    "2": 433
   },
   ".//transaction/value/@currency": {
-    "USD": 1814
+    "USD": 1920
   }
 }

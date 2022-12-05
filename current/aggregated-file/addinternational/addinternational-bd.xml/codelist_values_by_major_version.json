@@ -1,51 +1,51 @@
 {
   "2": {
     ".//@default-currency": {
-      "GBP": 5
+      "GBP": 6
     },
     ".//activity-date/@type": {
-      "2": 2,
+      "2": 3,
       "4": 2,
       "1": 3,
-      "3": 3
+      "3": 4
     },
     ".//activity-status/@code": {
       "2": 4,
-      "4": 1
+      "4": 2
     },
     ".//budget/@status": {
       "1": 7,
-      "2": 3
-    },
-    ".//budget/@type": {
-      "1": 5,
       "2": 5
     },
+    ".//budget/@type": {
+      "1": 6,
+      "2": 6
+    },
     ".//budget/value/@currency": {
-      "GBP": 8
+      "GBP": 10
     },
     ".//collaboration-type/@code": {
-      "1": 4
+      "1": 5
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 4,
+      "C01": 5,
       "B03": 1
     },
     ".//default-aid-type/@vocabulary": {
-      "1": 5
+      "1": 6
     },
     ".//default-finance-type/@code": {
-      "110": 4
+      "110": 5
     },
     ".//default-flow-type/@code": {
-      "10": 4,
+      "10": 5,
       "30": 1
     },
     ".//default-tied-status/@code": {
-      "5": 4
+      "5": 5
     },
     ".//description/@type": {
-      "1": 4,
+      "1": 5,
       "3": 1
     },
     ".//document-link/@format": {
@@ -58,32 +58,32 @@
       "en": 1
     },
     ".//participating-org/@role": {
-      "1": 12,
+      "1": 13,
       "3": 1,
-      "2": 3,
-      "4": 3
+      "2": 4,
+      "4": 4
     },
     ".//participating-org/@type": {
-      "10": 6,
-      "21": 9,
+      "10": 7,
+      "21": 11,
       "22": 1,
       "60": 2
     },
     ".//recipient-country/@code": {
-      "BD": 5,
+      "BD": 6,
       "TZ": 1,
       "19": 9
     },
     ".//reporting-org/@type": {
-      "21": 5
+      "21": 6
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "43010": 7,
-      "11220": 1,
-      "11231": 1
+      "11231": 1,
+      "11220": 2
     },
     ".//sector/@vocabulary": {
-      "1": 9
+      "1": 10
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "B03": 55
@@ -107,10 +107,10 @@
       "19": 9
     },
     ".//transaction/provider-org/@type": {
-      "21": 5
+      "21": 19
     },
     ".//transaction/receiver-org/@type": {
-      "21": 4
+      "21": 18
     },
     ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "43010": 6
@@ -123,17 +123,17 @@
       "4": 8
     },
     ".//transaction/transaction-type/@code": {
-      "1": 74,
+      "1": 86,
       "3": 26,
-      "4": 37,
-      "11": 3
+      "4": 53,
+      "11": 4
     },
     ".//transaction/value/@currency": {
-      "GBP": 89,
+      "GBP": 118,
       "BDT": 40
     },
     ".//@xml:lang": {
-      "en": 39
+      "en": 44
     }
   }
 }

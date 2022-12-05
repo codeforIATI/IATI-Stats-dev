@@ -66,8 +66,8 @@
   },
   ".//recipient-country/@code": {
     "NP": 1,
-    "ET": 1,
-    "ZM": 1
+    "ZM": 1,
+    "ET": 1
   },
   ".//recipient-region/@vocabulary": {
     "1": 1
@@ -84,26 +84,26 @@
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "12261": 3,
     "12220": 3,
-    "12250": 1,
-    "12281": 1
+    "12281": 1,
+    "12250": 1
   },
   ".//transaction/disbursement-channel/@code": {
-    "2": 52
+    "2": 54
   },
   ".//transaction/provider-org/@type": {
-    "21": 80
+    "21": 83
   },
   ".//transaction/receiver-org/@type": {
-    "21": 29,
-    "22": 24
+    "21": 30,
+    "22": 25
   },
   ".//transaction/transaction-type/@code": {
-    "1": 25,
-    "4": 23,
     "2": 3,
-    "3": 30
+    "1": 26,
+    "3": 31,
+    "4": 24
   },
   ".//transaction/value/@currency": {
-    "GBP": 79
+    "GBP": 82
   }
 }

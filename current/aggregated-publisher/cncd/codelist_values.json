@@ -34,8 +34,8 @@
     "1": 10
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "G01": 1,
     "C01": 3,
+    "G01": 1,
     "H01": 6
   },
   ".//default-finance-type/@code": {
@@ -130,11 +130,11 @@
     "1": 10
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "91010": 1,
     "15150": 1,
     "41010": 1,
-    "99810": 2,
-    "99820": 5
+    "91010": 1,
+    "99820": 5,
+    "99810": 2
   },
   ".//transaction/provider-org/@type": {
     "22": 47,
@@ -145,9 +145,9 @@
     "23": 7
   },
   ".//transaction/transaction-type/@code": {
-    "4": 40,
     "2": 6,
     "3": 14,
+    "4": 40,
     "1": 24,
     "11": 23
   },

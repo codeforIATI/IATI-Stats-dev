@@ -1,85 +1,90 @@
 {
   "2": {
     ".//activity-date/@type": {
-      "1": 6,
-      "3": 6
+      "1": 7,
+      "3": 7
     },
     ".//activity-status/@code": {
-      "3": 6
+      "3": 6,
+      "2": 1
     },
     ".//budget/value/@currency": {
-      "EUR": 6
+      "EUR": 7
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 5,
+      "C01": 6,
       "B03": 1
     },
     ".//default-finance-type/@code": {
-      "110": 6
+      "110": 7
     },
     ".//default-flow-type/@code": {
-      "10": 6
+      "10": 7
     },
     ".//default-tied-status/@code": {
-      "5": 6
+      "5": 7
     },
     ".//other-identifier/@type": {
-      "A1": 18
+      "A1": 21
     },
     ".//participating-org/@role": {
-      "1": 6,
-      "3": 6,
-      "4": 6,
-      "2": 6
+      "1": 7,
+      "3": 7,
+      "4": 7,
+      "2": 7
     },
     ".//participating-org/@type": {
-      "10": 6
+      "10": 7
     },
     ".//planned-disbursement/value/@currency": {
-      "EUR": 6
+      "EUR": 7
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "1": 6,
-      "2": 6,
-      "3": 6,
-      "4": 6,
-      "5": 6,
-      "6": 6,
-      "7": 6,
-      "8": 6,
-      "9": 6
+      "1": 7,
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 1,
+      "11": 1,
+      "12": 1
     },
     ".//policy-marker/@significance": {
-      "0": 52,
+      "0": 64,
       "1": 1,
       "2": 1
     },
     ".//policy-marker/@vocabulary": {
-      "1": 54
+      "1": 66
     },
     ".//recipient-country/@code": {
-      "SS": 6
+      "SS": 7
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "289": 6
+      "289": 7
     },
     ".//recipient-region/@vocabulary": {
-      "1": 6
+      "1": 7
     },
     ".//related-activity/@type": {
       "3": 14
     },
     ".//reporting-org/@type": {
-      "10": 6
+      "10": 7
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "72010": 3,
       "72050": 9,
       "72011": 3,
-      "16061": 3
+      "16061": 3,
+      "72040": 3
     },
     ".//sector/@vocabulary": {
-      "1": 18
+      "1": 21
     },
     ".//tag[@vocabulary = '3']/@code": {
       "4.7": 1
@@ -91,21 +96,22 @@
       "72010": 2,
       "72050": 6,
       "72011": 2,
-      "16061": 2
+      "16061": 2,
+      "72040": 2
     },
     ".//transaction/sector/@vocabulary": {
-      "1": 12
+      "1": 14
     },
     ".//transaction/transaction-type/@code": {
-      "2": 6,
-      "3": 6
+      "2": 7,
+      "3": 7
     },
     ".//transaction/value/@currency": {
-      "EUR": 12
+      "EUR": 14
     },
     ".//@xml:lang": {
-      "en": 12,
-      "es": 78
+      "en": 14,
+      "es": 91
     }
   }
 }

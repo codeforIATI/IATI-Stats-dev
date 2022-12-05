@@ -8,15 +8,15 @@
     "fr": 1
   },
   ".//activity-date/@type": {
-    "2": 18,
-    "3": 21,
     "1": 5,
+    "3": 21,
+    "2": 18,
     "4": 2
   },
   ".//activity-status/@code": {
     "3": 5,
-    "2": 17,
-    "4": 1
+    "4": 1,
+    "2": 17
   },
   ".//budget/@status": {
     "2": 48
@@ -48,24 +48,24 @@
     "HCOVD20": 3
   },
   ".//participating-org/@crs-channel-code": {
+    "11000": 7,
+    "41130": 1,
     "21027": 4,
+    "22000": 4,
+    "41143": 1,
     "41140": 1,
     "41122": 1,
-    "22000": 4,
-    "11000": 7,
     "11001": 1,
-    "21016": 1,
-    "41143": 1,
-    "41130": 1
+    "21016": 1
   },
   ".//participating-org/@role": {
     "4": 22,
     "1": 6
   },
   ".//participating-org/@type": {
-    "22": 10,
+    "10": 10,
     "40": 8,
-    "10": 10
+    "22": 10
   },
   ".//policy-marker/@significance": {
     "2": 1,
@@ -79,21 +79,21 @@
     "10": 1
   },
   ".//recipient-country/@code": {
-    "SY": 1,
-    "YE": 3,
-    "UA": 1,
-    "LB": 2,
-    "BA": 2,
     "MK": 1,
-    "CN": 1,
-    "JO": 1,
-    "UG": 1,
     "RS": 1,
-    "IQ": 1,
-    "BR": 1,
+    "PS": 3,
     "ME": 1,
+    "UA": 1,
+    "UG": 1,
+    "YE": 3,
+    "BA": 2,
     "CD": 1,
-    "PS": 3
+    "LB": 2,
+    "SY": 1,
+    "JO": 1,
+    "BR": 1,
+    "CN": 1,
+    "IQ": 1
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "998": 1,
@@ -106,15 +106,15 @@
     "1": 23
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "15250": 3,
-    "72040": 1,
     "72010": 9,
     "73010": 3,
-    "15180": 2,
-    "43072": 1,
-    "74010": 2,
+    "12181": 1,
     "74020": 1,
-    "12181": 1
+    "74010": 2,
+    "43072": 1,
+    "72040": 1,
+    "15250": 3,
+    "15180": 2
   },
   ".//transaction/aid-type/@vocabulary": {
     "1": 29,
@@ -122,18 +122,18 @@
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": 24,
-    "B01": 2,
+    "B03": 2,
     "D01": 1,
-    "B03": 2
+    "B01": 2
   },
   ".//transaction/aid-type[@vocabulary = '2']/@code": {
-    "2": 11,
     "1": 2,
-    "3": 1
+    "3": 1,
+    "2": 11
   },
   ".//transaction/disbursement-channel/@code": {
-    "2": 35,
-    "4": 4
+    "4": 4,
+    "2": 35
   },
   ".//transaction/finance-type/@code": {
     "110": 43
@@ -156,8 +156,8 @@
     "4": 2
   },
   ".//transaction/transaction-type/@code": {
-    "3": 39,
-    "4": 4
+    "4": 4,
+    "3": 39
   },
   ".//transaction/value/@currency": {
     "EUR": 42

@@ -5,16 +5,16 @@
     },
     ".//activity-date/@type": {
       "2": 83,
-      "4": 20,
-      "3": 2
+      "3": 2,
+      "4": 20
     },
     ".//activity-status/@code": {
-      "4": 21,
-      "2": 62
+      "2": 62,
+      "4": 21
     },
     ".//budget/@status": {
-      "1": 215,
-      "2": 1
+      "2": 1,
+      "1": 215
     },
     ".//budget/@type": {
       "1": 216
@@ -22,36 +22,9 @@
     ".//budget/value/@currency": {
       "EUR": 183
     },
-    ".//contact-info/@type": {
-      "1": 74
-    },
-    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "A01": 74
-    },
-    ".//default-aid-type/@vocabulary": {
-      "1": 74
-    },
-    ".//default-finance-type/@code": {
-      "110": 74
-    },
-    ".//default-flow-type/@code": {
-      "30": 74
-    },
-    ".//default-tied-status/@code": {
-      "5": 74
-    },
     ".//description/@type": {
       "1": 83,
       "2": 1
-    },
-    ".//document-link/@format": {
-      "application/javascript": 60
-    },
-    ".//document-link/category/@code": {
-      "A12": 60
-    },
-    ".//document-link/language/@code": {
-      "en": 60
     },
     ".//participating-org/@role": {
       "1": 698,
@@ -60,17 +33,18 @@
       "3": 1
     },
     ".//participating-org/@type": {
-      "15": 58,
+      "10": 194,
       "21": 434,
+      "15": 58,
       "70": 108,
       "22": 538,
-      "10": 194,
       "80": 5,
       "40": 25,
       "11": 8,
       "60": 1
     },
     ".//recipient-country/@code": {
+      "BF": 4,
       "VN": 1,
       "HT": 9,
       "ES": 17,
@@ -82,7 +56,6 @@
       "PY": 2,
       "CF": 2,
       "GT": 5,
-      "BF": 4,
       "MA": 3,
       "CU": 2,
       "BR": 1,
@@ -105,15 +78,11 @@
       "21": 83
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "99810": 82,
-      "11231": 1
+      "11231": 1,
+      "99810": 82
     },
     ".//sector/@vocabulary": {
       "1": 83
-    },
-    ".//@xml:lang": {
-      "en": 544,
-      "fr": 3
     },
     ".//transaction/provider-org/@type": {
       "10": 5
@@ -129,6 +98,37 @@
     },
     ".//transaction/value/@currency": {
       "EUR": 5
+    },
+    ".//@xml:lang": {
+      "en": 544,
+      "fr": 3
+    },
+    ".//contact-info/@type": {
+      "1": 74
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "A01": 74
+    },
+    ".//default-aid-type/@vocabulary": {
+      "1": 74
+    },
+    ".//default-finance-type/@code": {
+      "110": 74
+    },
+    ".//default-flow-type/@code": {
+      "30": 74
+    },
+    ".//default-tied-status/@code": {
+      "5": 74
+    },
+    ".//document-link/@format": {
+      "application/javascript": 60
+    },
+    ".//document-link/category/@code": {
+      "A12": 60
+    },
+    ".//document-link/language/@code": {
+      "en": 60
     }
   }
 }

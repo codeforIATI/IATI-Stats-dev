@@ -102,9 +102,6 @@
       "iati-activity/transaction/tied-status/@code": 14,
       "iati-activity/transaction/@ref": 14,
       "iati-activity/transaction/@humanitarian": 14,
-      "iati-activity/related-activity": 13,
-      "iati-activity/related-activity/@ref": 13,
-      "iati-activity/related-activity/@type": 13,
       "iati-activity/conditions": 14,
       "iati-activity/conditions/@attached": 14,
       "iati-activity/@last-updated-datetime": 14,
@@ -112,6 +109,9 @@
       "iati-activity/@default-currency": 14,
       "iati-activity/@humanitarian": 14,
       "iati-activity/@hierarchy": 14,
+      "iati-activity/related-activity": 13,
+      "iati-activity/related-activity/@ref": 13,
+      "iati-activity/related-activity/@type": 13,
       "iati-activity/tag": 5,
       "iati-activity/tag/narrative": 5,
       "iati-activity/tag/@vocabulary": 5,
@@ -218,9 +218,6 @@
       "iati-activity/transaction/tied-status/@code": 28,
       "iati-activity/transaction/@ref": 28,
       "iati-activity/transaction/@humanitarian": 28,
-      "iati-activity/related-activity": 22,
-      "iati-activity/related-activity/@ref": 22,
-      "iati-activity/related-activity/@type": 22,
       "iati-activity/conditions": 14,
       "iati-activity/conditions/@attached": 14,
       "iati-activity/@last-updated-datetime": 14,
@@ -228,19 +225,22 @@
       "iati-activity/@default-currency": 14,
       "iati-activity/@humanitarian": 14,
       "iati-activity/@hierarchy": 14,
+      "iati-activity/related-activity": 22,
+      "iati-activity/related-activity/@ref": 22,
+      "iati-activity/related-activity/@type": 22,
       "iati-activity/tag": 12,
       "iati-activity/tag/narrative": 10,
       "iati-activity/tag/@vocabulary": 12,
       "iati-activity/tag/@code": 12
     },
     "forwardlooking_currency_year": {
-      "null": {
-        "EUR": 0.0
-      },
       "2050": {
         "EUR": 0.0
       },
       "2015": {
+        "EUR": 0.0
+      },
+      "null": {
         "EUR": 0.0
       },
       "2020": {
@@ -583,10 +583,10 @@
       "2010": {
         "EUR": 0.0
       },
-      "2015": {
+      "2016": {
         "EUR": 0.0
       },
-      "2016": {
+      "2015": {
         "EUR": 0.0
       },
       "2017": {

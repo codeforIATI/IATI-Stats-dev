@@ -1,72 +1,72 @@
 {
   "2": {
     ".//@default-currency": {
-      "XDR": 32
+      "XDR": 35
     },
     ".//activity-date/@type": {
-      "1": 32,
-      "2": 32,
-      "3": 32,
+      "1": 35,
+      "2": 35,
+      "3": 35,
       "4": 24
     },
     ".//activity-status/@code": {
       "3": 24,
-      "2": 7,
+      "2": 10,
       "5": 1
     },
     ".//activity-scope/@code": {
-      "4": 32
+      "4": 35
     },
     ".//budget/@type": {
-      "1": 568
+      "1": 648
     },
     ".//budget/value/@currency": {
-      "XDR": 568
+      "XDR": 648
     },
     ".//collaboration-type/@code": {
-      "2": 32
+      "2": 35
     },
     ".//conditions/condition/@type": {
-      "1": 32,
-      "2": 32
+      "1": 35,
+      "2": 35
     },
     ".//country-budget-items/@vocabulary": {
-      "1": 32
+      "1": 35
     },
     ".//description/@type": {
-      "1": 24,
-      "2": 32,
-      "3": 24
+      "1": 27,
+      "2": 35,
+      "3": 27
     },
     ".//document-link/@format": {
-      "text/html": 39,
-      "application/pdf": 190,
-      "application/vnd.ms-excel": 71
+      "application/pdf": 200,
+      "text/html": 78,
+      "application/vnd.ms-excel": 72
     },
     ".//document-link/category/@code": {
-      "A12": 32,
-      "A01": 37,
-      "A02": 64,
-      "A03": 104,
-      "A04": 27,
-      "A05": 27,
-      "A08": 94,
-      "A07": 67,
+      "A01": 40,
+      "A02": 70,
+      "A03": 112,
+      "A04": 30,
+      "A05": 30,
+      "A08": 102,
+      "A07": 72,
+      "A12": 70,
       "A06": 87,
       "A11": 87,
-      "A10": 75,
+      "A10": 79,
       "A09": 2
     },
     ".//document-link/language/@code": {
-      "fr": 65,
-      "en": 235
+      "fr": 104,
+      "en": 246
     },
     ".//location/administrative/@vocabulary": {
-      "G1": 78,
+      "G1": 84,
       "A1": 22
     },
     ".//location/feature-designation/@code": {
-      "PPLC": 11,
+      "PPLC": 14,
       "ADM1": 13,
       "PCLI": 7,
       "PPL": 16,
@@ -75,50 +75,51 @@
       "PPLA": 1
     },
     ".//location/location-class/@code": {
-      "2": 29,
+      "2": 32,
       "1": 21
     },
     ".//location/location-id/@vocabulary": {
-      "G1": 39,
+      "G1": 42,
       "A1": 11
     },
     ".//location/exactness/@code": {
-      "1": 21,
+      "1": 24,
       "2": 29
     },
     ".//other-identifier/@type": {
-      "B1": 32
+      "B1": 35
     },
     ".//participating-org/@role": {
-      "4": 44,
-      "1": 33,
-      "3": 34
+      "4": 47,
+      "1": 36,
+      "3": 35
     },
     ".//participating-org/@type": {
-      "10": 78,
-      "40": 33
+      "10": 82,
+      "40": 36
     },
     ".//recipient-country/@code": {
-      "NA": 32
+      "NA": 35
     },
     ".//reporting-org/@type": {
-      "40": 32
+      "40": 35
     },
     ".//result/@type": {
-      "1": 227
+      "1": 266
     },
     ".//result/indicator/@measure": {
-      "1": 206,
-      "2": 21
+      "1": 243,
+      "2": 23
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "15124": 3,
       "14010": 3,
+      "24030": 3,
       "16011": 1,
-      "31110": 1,
+      "31110": 2,
       "21012": 1,
       "11420": 2,
-      "15142": 3,
+      "15142": 4,
       "31320": 1,
       "43042": 1,
       "33210": 1,
@@ -129,38 +130,38 @@
       "21040": 2,
       "14021": 1,
       "23220": 1,
-      "24030": 2,
       "11110": 1,
       "11220": 1,
       "16050": 1
     },
     ".//sector/@vocabulary": {
-      "1": 32
+      "1": 35
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "A01": 76,
-      "D02": 59,
-      "C01": 688
+      "A01": 88,
+      "D02": 67,
+      "C01": 730
     },
     ".//transaction/finance-type/@code": {
-      "421": 752,
-      "110": 71
+      "421": 806,
+      "110": 79
     },
     ".//transaction/flow-type/@code": {
-      "10": 841
+      "10": 903,
+      "21": 1
     },
     ".//transaction/tied-status/@code": {
-      "5": 841
+      "5": 904
     },
     ".//transaction/transaction-type/@code": {
-      "2": 51,
-      "3": 249,
-      "5": 339,
-      "6": 202
+      "2": 56,
+      "3": 268,
+      "5": 362,
+      "6": 218
     },
     ".//@xml:lang": {
-      "en": 176,
-      "fr": 89
+      "en": 194,
+      "fr": 100
     }
   }
 }

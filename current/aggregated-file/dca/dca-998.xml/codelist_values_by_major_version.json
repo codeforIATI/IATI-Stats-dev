@@ -37,9 +37,9 @@
       "application/pdf": 19
     },
     ".//document-link/category/@code": {
-      "B02": 6,
       "A11": 2,
       "B01": 9,
+      "B02": 6,
       "A08": 2
     },
     ".//document-link/language/@code": {
@@ -57,6 +57,9 @@
     ".//recipient-region/@vocabulary": {
       "1": 4
     },
+    ".//related-activity/@type": {
+      "2": 813
+    },
     ".//reporting-org/@type": {
       "21": 4
     },
@@ -73,31 +76,31 @@
       "2": 2
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "B03": 10
+      "B03": 11
     },
     ".//transaction/aid-type/@vocabulary": {
       "3": 31,
-      "1": 10
+      "1": 11
     },
     ".//transaction/finance-type/@code": {
       "110": 2
     },
     ".//transaction/flow-type/@code": {
-      "10": 31
+      "10": 32
     },
     ".//transaction/provider-org/@type": {
-      "10": 38
+      "10": 40
     },
     ".//transaction/transaction-type/@code": {
-      "1": 28,
+      "1": 29,
       "11": 11,
       "13": 2
     },
     ".//transaction/value/@currency": {
-      "DKK": 40
+      "DKK": 41
     },
     ".//@xml:lang": {
-      "en": 51,
+      "en": 38,
       "da": 8
     },
     ".//transaction/aid-type[@vocabulary = '3']/@code": {

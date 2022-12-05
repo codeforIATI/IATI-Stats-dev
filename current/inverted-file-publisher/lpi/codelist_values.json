@@ -6,7 +6,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "lpi-activities.xml": 271
+      "lpi-activities.xml": 345
     },
     "fr": {
       "lpi-activities.xml": 1
@@ -40,10 +40,10 @@
   },
   ".//budget/@type": {
     "1": {
-      "lpi-activities.xml": 3
+      "lpi-activities.xml": 5
     },
     "2": {
-      "lpi-activities.xml": 3
+      "lpi-activities.xml": 1
     }
   },
   ".//budget/value/@currency": {
@@ -56,6 +56,31 @@
       "lpi-activities.xml": 1
     },
     "2": {
+      "lpi-activities.xml": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "lpi-activities.xml": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "lpi-activities.xml": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "lpi-activities.xml": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "lpi-activities.xml": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
       "lpi-activities.xml": 1
     }
   },
@@ -114,9 +139,14 @@
       "lpi-activities.xml": 2
     }
   },
+  ".//policy-marker/@significance": {
+    "2": {
+      "lpi-activities.xml": 1
+    }
+  },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "1": {
-      "lpi-activities.xml": 1
+      "lpi-activities.xml": 2
     }
   },
   ".//recipient-country/@code": {
@@ -171,14 +201,14 @@
   },
   ".//sector/@vocabulary": {
     "1": {
-      "lpi-activities.xml": 1
-    },
-    "99": {
-      "lpi-activities.xml": 4
+      "lpi-activities.xml": 2
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "15170": {
+      "lpi-activities.xml": 1
+    },
+    "15180": {
       "lpi-activities.xml": 1
     }
   },
@@ -200,19 +230,26 @@
       "lpi-activities.xml": 9
     }
   },
-  ".//transaction/sector/@vocabulary": {
-    "99": {
-      "lpi-activities.xml": 4
-    }
-  },
   ".//transaction/transaction-type/@code": {
     "1": {
       "lpi-activities.xml": 10
+    },
+    "4": {
+      "lpi-activities.xml": 39
+    },
+    "3": {
+      "lpi-activities.xml": 24
+    },
+    "2": {
+      "lpi-activities.xml": 12
+    },
+    "11": {
+      "lpi-activities.xml": 1
     }
   },
   ".//transaction/value/@currency": {
     "USD": {
-      "lpi-activities.xml": 9
+      "lpi-activities.xml": 78
     }
   }
 }

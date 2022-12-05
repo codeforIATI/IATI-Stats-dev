@@ -1,66 +1,66 @@
 {
   "2": {
     ".//@default-currency": {
-      "GBP": 29
+      "GBP": 35
     },
     ".//activity-date/@type": {
-      "1": 1,
-      "2": 28,
-      "4": 14,
-      "3": 11
+      "2": 34,
+      "4": 15,
+      "3": 17,
+      "1": 1
     },
     ".//activity-status/@code": {
-      "1": 1,
-      "4": 12,
-      "2": 14,
-      "3": 2
+      "3": 2,
+      "2": 18,
+      "4": 14,
+      "1": 1
     },
     ".//activity-scope/@code": {
-      "6": 2,
-      "4": 4,
+      "4": 6,
       "5": 4,
-      "7": 2
+      "7": 1,
+      "6": 4
     },
     ".//budget/@status": {
       "2": 35,
-      "1": 15
+      "1": 18
     },
     ".//budget/@type": {
-      "1": 49,
+      "1": 52,
       "2": 1
     },
     ".//budget/value/@currency": {
-      "GBP": 48
+      "GBP": 51
     },
     ".//collaboration-type/@code": {
-      "1": 28,
+      "1": 34,
       "3": 1
     },
     ".//conditions/condition/@type": {
-      "1": 33,
-      "2": 21
+      "1": 31,
+      "2": 20
     },
     ".//contact-info/@type": {
-      "2": 14,
-      "1": 7
+      "1": 9,
+      "2": 14
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 29
+      "C01": 35
     },
     ".//default-aid-type/@vocabulary": {
-      "1": 25
+      "1": 31
     },
     ".//default-finance-type/@code": {
-      "110": 29
+      "110": 35
     },
     ".//default-flow-type/@code": {
-      "30": 29
+      "30": 35
     },
     ".//default-tied-status/@code": {
-      "5": 29
+      "5": 35
     },
     ".//description/@type": {
-      "1": 29
+      "1": 35
     },
     ".//document-link/@format": {
       "application/pdf": 13,
@@ -84,91 +84,37 @@
       "2-1": 3
     },
     ".//location/feature-designation/@code": {
-      "HSP": 20,
-      "PPLL": 1,
-      "PPL": 2,
       "AREA": 1,
+      "HSP": 20,
       "BLDO": 1,
-      "BLDG": 1
+      "BLDG": 1,
+      "PPL": 2,
+      "PPLL": 1
     },
     ".//location/location-class/@code": {
+      "2": 5,
       "3": 19,
-      "1": 2,
-      "2": 5
+      "1": 2
     },
     ".//location/location-reach/@code": {
-      "1": 21,
-      "2": 4
+      "2": 4,
+      "1": 21
     },
     ".//location/exactness/@code": {
       "1": 24,
       "2": 2
     },
     ".//participating-org/@role": {
-      "4": 68,
-      "1": 33,
-      "2": 26,
-      "3": 26
+      "4": 71,
+      "2": 30,
+      "3": 31,
+      "1": 41
     },
     ".//participating-org/@type": {
-      "22": 46,
-      "21": 100,
-      "10": 6,
-      "70": 1
-    },
-    ".//recipient-country/@code": {
-      "NP": 5,
-      "MW": 15,
-      "IN": 8,
-      "GB": 1
-    },
-    ".//reporting-org/@type": {
-      "21": 29
-    },
-    ".//result/@type": {
-      "2": 8,
-      "1": 7,
-      "3": 3
-    },
-    ".//result/indicator/@measure": {
-      "1": 18
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "12220": 12,
-      "72040": 3,
-      "72010": 3,
-      "13040": 1,
-      "73010": 1,
-      "23030": 1,
-      "12230": 1,
-      "13020": 3,
-      "12191": 1
-    },
-    ".//sector[@vocabulary = '7']/@code": {
-      "3": 9,
-      "5": 1
-    },
-    ".//sector/@vocabulary": {
-      "7": 10,
-      "1": 26
-    },
-    ".//transaction/transaction-type/@code": {
-      "3": 266,
-      "4": 226,
-      "1": 140,
-      "7": 3
-    },
-    ".//transaction/value/@currency": {
-      "GBP": 285
-    },
-    ".//@xml:lang": {
-      "en": 162
-    },
-    ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
-      "EP-2020-000012-001": 3
-    },
-    ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
-      "HCOVD20": 3
+      "22": 49,
+      "21": 115,
+      "10": 7,
+      "70": 2
     },
     ".//planned-disbursement/@type": {
       "1": 53
@@ -176,38 +122,79 @@
     ".//planned-disbursement/value/@currency": {
       "GBP": 1
     },
+    ".//recipient-country/@code": {
+      "MW": 17,
+      "GB": 1,
+      "IN": 9,
+      "NP": 8
+    },
     ".//related-activity/@type": {
       "2": 1,
       "1": 2,
-      "3": 1
+      "3": 2
+    },
+    ".//reporting-org/@type": {
+      "21": 35
+    },
+    ".//result/@type": {
+      "2": 8,
+      "1": 5,
+      "3": 3
+    },
+    ".//result/indicator/@measure": {
+      "1": 16
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "12220": 13,
+      "72010": 3,
+      "72040": 3,
+      "13040": 1,
+      "73010": 1,
+      "23030": 1,
+      "13030": 1,
+      "13020": 4,
+      "11231": 1,
+      "12181": 4,
+      "12191": 1,
+      "12230": 1
+    },
+    ".//sector[@vocabulary = '7']/@code": {
+      "3": 10
+    },
+    ".//sector/@vocabulary": {
+      "7": 10,
+      "1": 34
     },
     ".//transaction/disbursement-channel/@code": {
-      "2": 3
+      "2": 5
     },
     ".//transaction/provider-org/@type": {
       "15": 1,
       "10": 13,
-      "70": 11
+      "70": 13
     },
     ".//transaction/receiver-org/@type": {
       "21": 13,
-      "22": 82,
-      "24": 22
+      "22": 84,
+      "24": 23
     },
-    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 2
+    ".//transaction/transaction-type/@code": {
+      "1": 142,
+      "3": 274,
+      "4": 234,
+      "7": 3
     },
-    ".//transaction/aid-type/@vocabulary": {
-      "1": 2
+    ".//transaction/value/@currency": {
+      "GBP": 294
     },
-    ".//transaction/finance-type/@code": {
-      "110": 2
+    ".//@xml:lang": {
+      "en": 188
     },
-    ".//transaction/flow-type/@code": {
-      "30": 2
+    ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
+      "EP-2020-000012-001": 3
     },
-    ".//transaction/tied-status/@code": {
-      "5": 2
+    ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
+      "HCOVD20": 3
     }
   }
 }

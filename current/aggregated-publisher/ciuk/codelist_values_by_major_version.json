@@ -1,50 +1,153 @@
 {
   "2": {
     ".//@default-currency": {
-      "GBP": 249,
+      "GBP": 258,
       "EUR": 17,
       "USD": 4,
       "CHF": 8
     },
     ".//activity-date/@type": {
-      "2": 282,
-      "4": 241,
-      "3": 35
+      "2": 296,
+      "4": 249,
+      "3": 29
     },
     ".//activity-status/@code": {
-      "4": 239,
-      "3": 2,
-      "2": 37
+      "4": 248,
+      "2": 37,
+      "3": 2
     },
     ".//budget/@status": {
-      "2": 279
+      "2": 288
     },
     ".//budget/@type": {
-      "1": 279
+      "1": 288
     },
     ".//budget/value/@currency": {
-      "GBP": 251,
+      "GBP": 259,
       "EUR": 18,
-      "USD": 8,
+      "USD": 9,
       "CHF": 2
     },
     ".//collaboration-type/@code": {
-      "4": 278
+      "4": 287
     },
     ".//contact-info/@type": {
-      "1": 278
+      "1": 287
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "B03": 278
+      "B03": 287
     },
     ".//default-finance-type/@code": {
-      "110": 278
+      "110": 287
     },
     ".//default-flow-type/@code": {
-      "10": 278
+      "10": 287
     },
     ".//default-tied-status/@code": {
-      "4": 278
+      "4": 287
+    },
+    ".//participating-org/@role": {
+      "1": 289,
+      "2": 219,
+      "4": 634,
+      "3": 77
+    },
+    ".//participating-org/@type": {
+      "15": 53,
+      "21": 627,
+      "22": 306,
+      "10": 200,
+      "70": 20,
+      "60": 10,
+      "40": 2,
+      "80": 1
+    },
+    ".//recipient-country/@code": {
+      "HT": 3,
+      "PK": 8,
+      "JO": 7,
+      "PH": 7,
+      "PS": 5,
+      "SL": 7,
+      "NP": 19,
+      "SO": 8,
+      "YE": 16,
+      "SS": 6,
+      "BD": 19,
+      "ID": 4,
+      "MZ": 7,
+      "SY": 7,
+      "IN": 13,
+      "AF": 9,
+      "ZW": 4,
+      "ET": 7,
+      "LK": 2,
+      "CM": 2,
+      "BI": 2,
+      "ML": 4,
+      "MM": 1,
+      "HR": 1,
+      "MW": 4,
+      "EC": 2,
+      "NE": 3,
+      "TD": 5,
+      "GB": 36,
+      "RS": 3,
+      "PE": 3,
+      "TL": 3,
+      "VN": 1,
+      "TO": 3,
+      "SD": 4,
+      "UG": 5,
+      "HN": 2,
+      "NG": 1,
+      "IQ": 1,
+      "VU": 2,
+      "LA": 1,
+      "CD": 4,
+      "TG": 2,
+      "GT": 5,
+      "FJ": 1,
+      "TV": 1,
+      "ZM": 6,
+      "GH": 1,
+      "RW": 3,
+      "CI": 2,
+      "CO": 1,
+      "MG": 1,
+      "TZ": 2,
+      "KE": 7,
+      "BJ": 1,
+      "TR": 2,
+      "PG": 1
+    },
+    ".//reporting-org/@type": {
+      "21": 287
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "72050": 176,
+      "11120": 10,
+      "15150": 24,
+      "12220": 3,
+      "15170": 16,
+      "72010": 6,
+      "14020": 9,
+      "13020": 10,
+      "15180": 4,
+      "43010": 1,
+      "52010": 23,
+      "41010": 1,
+      "74010": 4
+    },
+    ".//transaction/transaction-type/@code": {
+      "1": 795,
+      "3": 1212,
+      "2": 1
+    },
+    ".//transaction/value/@currency": {
+      "GBP": 1799,
+      "USD": 42,
+      "EUR": 167
     },
     ".//document-link/@format": {
       "application/http": 22
@@ -54,108 +157,6 @@
     },
     ".//document-link/language/@code": {
       "en": 22
-    },
-    ".//participating-org/@role": {
-      "1": 280,
-      "2": 215,
-      "4": 617,
-      "3": 71
-    },
-    ".//participating-org/@type": {
-      "10": 193,
-      "21": 608,
-      "22": 298,
-      "70": 20,
-      "15": 52,
-      "60": 9,
-      "40": 2,
-      "80": 1
-    },
-    ".//recipient-country/@code": {
-      "IN": 12,
-      "GB": 34,
-      "KE": 7,
-      "YE": 15,
-      "ZM": 6,
-      "UG": 5,
-      "SL": 6,
-      "RW": 3,
-      "BD": 19,
-      "ML": 4,
-      "SY": 7,
-      "JO": 7,
-      "PH": 7,
-      "PS": 5,
-      "HT": 3,
-      "NE": 3,
-      "NP": 19,
-      "VU": 2,
-      "ZW": 4,
-      "CD": 4,
-      "MZ": 7,
-      "MW": 4,
-      "ET": 7,
-      "SO": 8,
-      "RS": 3,
-      "TZ": 2,
-      "BJ": 1,
-      "TR": 2,
-      "AF": 8,
-      "PK": 8,
-      "SD": 4,
-      "SS": 6,
-      "TO": 3,
-      "PG": 1,
-      "LK": 2,
-      "GT": 4,
-      "ID": 4,
-      "GH": 1,
-      "CI": 2,
-      "CO": 1,
-      "MG": 1,
-      "CM": 2,
-      "BI": 2,
-      "MM": 1,
-      "HR": 1,
-      "EC": 2,
-      "TD": 4,
-      "PE": 3,
-      "TL": 3,
-      "VN": 1,
-      "HN": 2,
-      "NG": 1,
-      "IQ": 1,
-      "LA": 1,
-      "TG": 2,
-      "FJ": 1
-    },
-    ".//reporting-org/@type": {
-      "21": 278
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "13020": 10,
-      "52010": 23,
-      "72010": 6,
-      "15170": 16,
-      "72050": 169,
-      "15150": 22,
-      "11120": 10,
-      "74010": 4,
-      "15180": 4,
-      "14020": 9,
-      "12220": 3,
-      "43010": 1,
-      "41010": 1
-    },
-    ".//transaction/transaction-type/@code": {
-      "1": 775,
-      "3": 1189,
-      "2": 1
-    },
-    ".//transaction/value/@currency": {
-      "GBP": 1759,
-      "EUR": 165,
-      "USD": 41
     },
     ".//@xml:lang": {
       "en": 22

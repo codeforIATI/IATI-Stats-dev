@@ -1,316 +1,256 @@
 {
   "2": {
     ".//@default-currency": {
-      "tear-activities.xml": {
-        "EUR": 6
-      },
-      "tear-q12022.xml": {
-        "EUR": 43
-      },
       "tear-q22022.xml": {
         "EUR": 46
+      },
+      "tear-activities.xml": {
+        "EUR": 5
+      },
+      "tear-orgq3.xml": {
+        "EUR": 48
       }
     },
     ".//activity-date/@type": {
-      "tear-activities.xml": {
-        "2": 6,
-        "3": 6
-      },
-      "tear-q12022.xml": {
-        "1": 43,
-        "2": 43,
-        "3": 43,
-        "4": 36
-      },
       "tear-q22022.xml": {
         "1": 46,
         "2": 45,
         "3": 46,
         "4": 36
+      },
+      "tear-activities.xml": {
+        "2": 5,
+        "3": 5
+      },
+      "tear-orgq3.xml": {
+        "1": 48,
+        "2": 48,
+        "3": 48,
+        "4": 39
       }
     },
     ".//activity-status/@code": {
-      "tear-activities.xml": {
-        "2": 6
-      },
-      "tear-q12022.xml": {
-        "4": 27,
-        "3": 9,
-        "2": 7
-      },
       "tear-q22022.xml": {
         "4": 27,
         "3": 9,
         "2": 10
+      },
+      "tear-activities.xml": {
+        "2": 5
+      },
+      "tear-orgq3.xml": {
+        "4": 27,
+        "3": 9,
+        "2": 12
       }
     },
     ".//activity-scope/@code": {
-      "tear-activities.xml": {
-        "2": 1
-      },
-      "tear-q12022.xml": {
-        "4": 43
-      },
       "tear-q22022.xml": {
         "4": 46
+      },
+      "tear-orgq3.xml": {
+        "4": 48
       }
     },
     ".//budget/@status": {
-      "tear-activities.xml": {
-        "1": 1,
-        "2": 25
-      },
-      "tear-q12022.xml": {
-        "2": 43,
-        "1": 3
-      },
       "tear-q22022.xml": {
         "2": 46,
+        "1": 3
+      },
+      "tear-activities.xml": {
+        "2": 25
+      },
+      "tear-orgq3.xml": {
+        "2": 45,
         "1": 3
       }
     },
     ".//budget/@type": {
-      "tear-activities.xml": {
-        "1": 26
-      },
-      "tear-q12022.xml": {
-        "1": 46
-      },
       "tear-q22022.xml": {
         "1": 49
+      },
+      "tear-activities.xml": {
+        "1": 25
+      },
+      "tear-orgq3.xml": {
+        "1": 48
       }
     },
     ".//budget/value/@currency": {
+      "tear-q22022.xml": {
+        "EUR": 49
+      },
       "tear-activities.xml": {
         "EUR": 25
       },
-      "tear-q12022.xml": {
-        "EUR": 46
-      },
-      "tear-q22022.xml": {
-        "EUR": 49
+      "tear-orgq3.xml": {
+        "EUR": 48
       }
     },
     ".//collaboration-type/@code": {
-      "tear-activities.xml": {
-        "1": 6
-      },
-      "tear-q12022.xml": {
-        "3": 43
-      },
       "tear-q22022.xml": {
         "3": 46
+      },
+      "tear-activities.xml": {
+        "1": 5
+      },
+      "tear-orgq3.xml": {
+        "3": 48
       }
     },
     ".//contact-info/@type": {
-      "tear-activities.xml": {
-        "1": 6
-      },
-      "tear-q12022.xml": {
-        "1": 43
-      },
       "tear-q22022.xml": {
         "1": 46
+      },
+      "tear-activities.xml": {
+        "1": 5
+      },
+      "tear-orgq3.xml": {
+        "1": 48
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "tear-activities.xml": {
-        "C01": 6
-      },
-      "tear-q12022.xml": {
-        "C01": 43
-      },
       "tear-q22022.xml": {
         "C01": 46
-      }
-    },
-    ".//default-aid-type/@vocabulary": {
+      },
       "tear-activities.xml": {
-        "1": 6
+        "C01": 5
+      },
+      "tear-orgq3.xml": {
+        "C01": 48
       }
     },
     ".//default-finance-type/@code": {
-      "tear-activities.xml": {
-        "110": 6
-      },
-      "tear-q12022.xml": {
-        "110": 43
-      },
       "tear-q22022.xml": {
         "110": 46
+      },
+      "tear-activities.xml": {
+        "110": 5
+      },
+      "tear-orgq3.xml": {
+        "110": 48
       }
     },
     ".//default-flow-type/@code": {
-      "tear-activities.xml": {
-        "30": 6
-      },
-      "tear-q12022.xml": {
-        "30": 43
-      },
       "tear-q22022.xml": {
         "30": 46
+      },
+      "tear-activities.xml": {
+        "30": 5
+      },
+      "tear-orgq3.xml": {
+        "30": 48
       }
     },
     ".//default-tied-status/@code": {
-      "tear-activities.xml": {
-        "5": 6
-      },
-      "tear-q12022.xml": {
-        "5": 43
-      },
       "tear-q22022.xml": {
         "5": 46
+      },
+      "tear-activities.xml": {
+        "5": 5
+      },
+      "tear-orgq3.xml": {
+        "5": 48
       }
     },
     ".//description/@type": {
-      "tear-activities.xml": {
-        "2": 1,
-        "1": 6,
-        "3": 1
-      },
-      "tear-q12022.xml": {
-        "1": 43
-      },
       "tear-q22022.xml": {
         "1": 46
-      }
-    },
-    ".//document-link/@format": {
+      },
       "tear-activities.xml": {
-        "text/html": 1
-      }
-    },
-    ".//document-link/category/@code": {
-      "tear-activities.xml": {
-        "A12": 1
-      }
-    },
-    ".//document-link/language/@code": {
-      "tear-activities.xml": {
-        "nl": 1
-      }
-    },
-    ".//location/feature-designation/@code": {
-      "tear-activities.xml": {
-        "ADM3": 1
-      }
-    },
-    ".//location/location-class/@code": {
-      "tear-activities.xml": {
-        "2": 1
-      }
-    },
-    ".//location/location-id/@vocabulary": {
-      "tear-activities.xml": {
-        "G1": 1
-      }
-    },
-    ".//location/location-reach/@code": {
-      "tear-activities.xml": {
-        "1": 1
-      }
-    },
-    ".//location/exactness/@code": {
-      "tear-activities.xml": {
-        "1": 1
+        "1": 5
+      },
+      "tear-orgq3.xml": {
+        "1": 48
       }
     },
     ".//participating-org/@role": {
-      "tear-activities.xml": {
-        "2": 2,
-        "1": 6,
-        "4": 18
-      },
-      "tear-q12022.xml": {
-        "4": 52,
-        "1": 43,
-        "2": 43
-      },
       "tear-q22022.xml": {
         "4": 60,
         "1": 46,
         "2": 45
+      },
+      "tear-activities.xml": {
+        "1": 5,
+        "4": 13,
+        "2": 1
+      },
+      "tear-orgq3.xml": {
+        "4": 62,
+        "1": 48,
+        "2": 47
       }
     },
     ".//participating-org/@type": {
-      "tear-activities.xml": {
-        "22": 14,
-        "10": 1,
-        "21": 11
-      },
-      "tear-q12022.xml": {
-        "21": 133,
-        "22": 3,
-        "80": 1,
-        "15": 1
-      },
       "tear-q22022.xml": {
         "21": 146,
         "22": 3,
         "80": 1,
         "15": 1
+      },
+      "tear-activities.xml": {
+        "21": 10,
+        "22": 9
+      },
+      "tear-orgq3.xml": {
+        "21": 152,
+        "22": 3,
+        "80": 1,
+        "15": 1
+      }
+    },
+    ".//planned-disbursement/@type": {
+      "tear-q22022.xml": {
+        "1": 5
+      },
+      "tear-orgq3.xml": {
+        "1": 6
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "tear-q22022.xml": {
+        "EUR": 5
+      },
+      "tear-orgq3.xml": {
+        "EUR": 6
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "tear-activities.xml": {
-        "1": 1,
-        "3": 6
-      },
-      "tear-q12022.xml": {
-        "1": 42,
-        "3": 1
-      },
       "tear-q22022.xml": {
         "1": 45,
+        "3": 1
+      },
+      "tear-activities.xml": {
+        "3": 5
+      },
+      "tear-orgq3.xml": {
+        "1": 47,
         "3": 1
       }
     },
     ".//policy-marker/@significance": {
-      "tear-activities.xml": {
-        "1": 7
-      },
-      "tear-q12022.xml": {
-        "1": 43
-      },
       "tear-q22022.xml": {
         "1": 46
-      }
-    },
-    ".//policy-marker/@vocabulary": {
+      },
       "tear-activities.xml": {
         "1": 5
       },
-      "tear-q12022.xml": {
-        "1": 43
-      },
+      "tear-orgq3.xml": {
+        "1": 48
+      }
+    },
+    ".//policy-marker/@vocabulary": {
       "tear-q22022.xml": {
         "1": 46
+      },
+      "tear-activities.xml": {
+        "1": 5
+      },
+      "tear-orgq3.xml": {
+        "1": 48
       }
     },
     ".//recipient-country/@code": {
-      "tear-activities.xml": {
-        "ET": 3,
-        "KE": 1,
-        "SO": 1,
-        "IQ": 2,
-        "ML": 2,
-        "NG": 2
-      },
-      "tear-q12022.xml": {
-        "CF": 2,
-        "NG": 6,
-        "ET": 4,
-        "SS": 11,
-        "SY": 2,
-        "SO": 4,
-        "IQ": 2,
-        "CD": 6,
-        "BD": 1,
-        "ID": 1,
-        "MW": 1,
-        "MZ": 2,
-        "MG": 1
-      },
       "tear-q22022.xml": {
         "CF": 2,
         "NG": 6,
@@ -327,6 +267,167 @@
         "UA": 1,
         "MG": 1,
         "KE": 1
+      },
+      "tear-activities.xml": {
+        "IQ": 2,
+        "ET": 2,
+        "ML": 2,
+        "NG": 2
+      },
+      "tear-orgq3.xml": {
+        "CF": 2,
+        "NG": 6,
+        "ET": 5,
+        "SS": 11,
+        "SY": 2,
+        "SO": 5,
+        "IQ": 2,
+        "CD": 6,
+        "BD": 1,
+        "ID": 1,
+        "MW": 1,
+        "MZ": 2,
+        "UA": 1,
+        "MG": 1,
+        "KE": 1,
+        "PK": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "tear-q22022.xml": {
+        "21": 46
+      },
+      "tear-activities.xml": {
+        "21": 5
+      },
+      "tear-orgq3.xml": {
+        "21": 48
+      }
+    },
+    ".//result/@type": {
+      "tear-q22022.xml": {
+        "1": 338,
+        "2": 9
+      },
+      "tear-activities.xml": {
+        "2": 13,
+        "1": 8
+      },
+      "tear-orgq3.xml": {
+        "1": 355,
+        "2": 9
+      }
+    },
+    ".//result/indicator/@measure": {
+      "tear-q22022.xml": {
+        "1": 370,
+        "2": 51
+      },
+      "tear-activities.xml": {
+        "1": 21
+      },
+      "tear-orgq3.xml": {
+        "1": 383,
+        "2": 55
+      }
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "tear-q22022.xml": {
+        "": 421
+      },
+      "tear-activities.xml": {
+        "99": 21
+      },
+      "tear-orgq3.xml": {
+        "": 438
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "tear-q22022.xml": {
+        "72010": 46
+      },
+      "tear-activities.xml": {
+        "15160": 5
+      },
+      "tear-orgq3.xml": {
+        "72010": 48
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "tear-q22022.xml": {
+        "21": 143
+      },
+      "tear-activities.xml": {
+        "21": 23
+      },
+      "tear-orgq3.xml": {
+        "21": 148
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "tear-q22022.xml": {
+        "21": 127,
+        "22": 9,
+        "80": 6,
+        "15": 2
+      },
+      "tear-activities.xml": {
+        "22": 19,
+        "21": 4
+      },
+      "tear-orgq3.xml": {
+        "21": 130,
+        "22": 9,
+        "80": 6,
+        "15": 2
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "tear-q22022.xml": {
+        "1": 112,
+        "3": 144,
+        "4": 48,
+        "11": 31
+      },
+      "tear-activities.xml": {
+        "4": 4,
+        "2": 9,
+        "3": 10,
+        "11": 1,
+        "1": 3
+      },
+      "tear-orgq3.xml": {
+        "1": 117,
+        "3": 147,
+        "4": 50,
+        "11": 31
+      }
+    },
+    ".//transaction/value/@currency": {
+      "tear-q22022.xml": {
+        "EUR": 335
+      },
+      "tear-activities.xml": {
+        "EUR": 27
+      },
+      "tear-orgq3.xml": {
+        "EUR": 345
+      }
+    },
+    ".//@xml:lang": {
+      "tear-q22022.xml": {
+        "EN": 2393
+      },
+      "tear-activities.xml": {
+        "en": 137
+      },
+      "tear-orgq3.xml": {
+        "EN": 2488
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "tear-activities.xml": {
+        "1": 5
       }
     },
     ".//related-activity/@type": {
@@ -334,153 +435,9 @@
         "1": 4
       }
     },
-    ".//reporting-org/@type": {
-      "tear-activities.xml": {
-        "21": 6
-      },
-      "tear-q12022.xml": {
-        "21": 43
-      },
-      "tear-q22022.xml": {
-        "21": 46
-      }
-    },
-    ".//result/@type": {
-      "tear-activities.xml": {
-        "2": 16,
-        "1": 8
-      },
-      "tear-q12022.xml": {
-        "1": 323,
-        "2": 9
-      },
-      "tear-q22022.xml": {
-        "1": 338,
-        "2": 9
-      }
-    },
-    ".//result/indicator/@measure": {
-      "tear-activities.xml": {
-        "1": 26,
-        "2": 3
-      },
-      "tear-q12022.xml": {
-        "1": 359,
-        "2": 47
-      },
-      "tear-q22022.xml": {
-        "1": 370,
-        "2": 51
-      }
-    },
-    ".//result/indicator/reference/@vocabulary": {
-      "tear-activities.xml": {
-        "99": 21
-      },
-      "tear-q12022.xml": {
-        "": 406
-      },
-      "tear-q22022.xml": {
-        "": 421
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "tear-activities.xml": {
-        "73010": 1,
-        "15160": 5
-      },
-      "tear-q12022.xml": {
-        "72010": 43
-      },
-      "tear-q22022.xml": {
-        "72010": 46
-      }
-    },
     ".//sector/@vocabulary": {
       "tear-activities.xml": {
-        "1": 6
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "tear-activities.xml": {
-        "21": 25
-      },
-      "tear-q12022.xml": {
-        "21": 130
-      },
-      "tear-q22022.xml": {
-        "21": 143
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "tear-activities.xml": {
-        "21": 5,
-        "22": 19
-      },
-      "tear-q12022.xml": {
-        "21": 111,
-        "22": 9,
-        "80": 6,
-        "15": 2
-      },
-      "tear-q22022.xml": {
-        "21": 127,
-        "22": 9,
-        "80": 6,
-        "15": 2
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "tear-activities.xml": {
-        "3": 51,
-        "4": 48,
-        "1": 7,
-        "2": 10,
-        "11": 1
-      },
-      "tear-q12022.xml": {
-        "1": 99,
-        "3": 128,
-        "4": 44,
-        "11": 31
-      },
-      "tear-q22022.xml": {
-        "1": 112,
-        "3": 144,
-        "4": 48,
-        "11": 31
-      }
-    },
-    ".//transaction/value/@currency": {
-      "tear-activities.xml": {
-        "EUR": 101
-      },
-      "tear-q12022.xml": {
-        "EUR": 302
-      },
-      "tear-q22022.xml": {
-        "EUR": 335
-      }
-    },
-    ".//@xml:lang": {
-      "tear-activities.xml": {
-        "en": 155
-      },
-      "tear-q12022.xml": {
-        "EN": 2249
-      },
-      "tear-q22022.xml": {
-        "EN": 2393
-      }
-    },
-    ".//planned-disbursement/@type": {
-      "tear-q22022.xml": {
         "1": 5
-      }
-    },
-    ".//planned-disbursement/value/@currency": {
-      "tear-q22022.xml": {
-        "EUR": 5
       }
     }
   }

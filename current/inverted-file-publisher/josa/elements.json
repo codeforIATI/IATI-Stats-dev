@@ -611,6 +611,9 @@
   "iati-organisation/name/narrative": {
     "josa-org.xml": 1
   },
+  "iati-organisation/name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "josa-org.xml": 1
+  },
   "iati-organisation/organisation-identifier": {
     "josa-org.xml": 1
   },
@@ -620,16 +623,43 @@
   "iati-organisation/reporting-org/@ref": {
     "josa-org.xml": 1
   },
+  "iati-organisation/reporting-org/@secondary-reporter": {
+    "josa-org.xml": 1
+  },
   "iati-organisation/reporting-org/@type": {
     "josa-org.xml": 1
   },
   "iati-organisation/reporting-org/narrative": {
     "josa-org.xml": 1
   },
+  "iati-organisation/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "josa-org.xml": 1
+  },
   "iati-organisation/total-budget": {
     "josa-org.xml": 1
   },
   "iati-organisation/total-budget/@status": {
+    "josa-org.xml": 1
+  },
+  "iati-organisation/total-budget/budget-line": {
+    "josa-org.xml": 1
+  },
+  "iati-organisation/total-budget/budget-line/@ref": {
+    "josa-org.xml": 1
+  },
+  "iati-organisation/total-budget/budget-line/narrative": {
+    "josa-org.xml": 1
+  },
+  "iati-organisation/total-budget/budget-line/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "josa-org.xml": 1
+  },
+  "iati-organisation/total-budget/budget-line/value": {
+    "josa-org.xml": 1
+  },
+  "iati-organisation/total-budget/budget-line/value/@currency": {
+    "josa-org.xml": 1
+  },
+  "iati-organisation/total-budget/budget-line/value/@value-date": {
     "josa-org.xml": 1
   },
   "iati-organisation/total-budget/period-end": {

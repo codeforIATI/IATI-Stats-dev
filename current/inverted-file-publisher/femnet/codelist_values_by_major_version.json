@@ -49,28 +49,28 @@
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "femnet-activities.xml": {
         "A01": 1,
-        "C01": 1
+        "C01": 2
       }
     },
     ".//default-aid-type/@vocabulary": {
       "femnet-activities.xml": {
-        "1": 2
+        "1": 3
       }
     },
     ".//default-finance-type/@code": {
       "femnet-activities.xml": {
-        "110": 2
+        "110": 3
       }
     },
     ".//default-flow-type/@code": {
       "femnet-activities.xml": {
-        "10": 2
+        "10": 3
       }
     },
     ".//default-tied-status/@code": {
       "femnet-activities.xml": {
         "4": 1,
-        "5": 1
+        "5": 2
       }
     },
     ".//description/@type": {
@@ -88,20 +88,20 @@
     ".//participating-org/@role": {
       "femnet-activities.xml": {
         "1": 22,
-        "4": 22,
-        "2": 19,
-        "3": 1
+        "4": 21,
+        "2": 20,
+        "3": 2
       }
     },
     ".//participating-org/@type": {
       "femnet-activities.xml": {
-        "23": 38,
+        "23": 44,
         "22": 5,
         "90": 2,
-        "21": 3,
+        "21": 4,
         "10": 1,
         "70": 1,
-        "24": 14
+        "24": 8
       }
     },
     ".//planned-disbursement/@type": {
@@ -198,7 +198,7 @@
     },
     ".//result/indicator/@measure": {
       "femnet-activities.xml": {
-        "1": 176
+        "1": 177
       }
     },
     ".//result/indicator/reference/@vocabulary": {
@@ -237,8 +237,8 @@
     },
     ".//transaction/transaction-type/@code": {
       "femnet-activities.xml": {
-        "4": 37,
         "11": 14,
+        "4": 37,
         "1": 20,
         "2": 1,
         "3": 23
@@ -252,9 +252,9 @@
     },
     ".//@xml:lang": {
       "femnet-activities.xml": {
-        "en": 1092,
-        "fr": 4,
-        "pt": 3
+        "en": 1110,
+        "fr": 3,
+        "pt": 2
       }
     }
   }

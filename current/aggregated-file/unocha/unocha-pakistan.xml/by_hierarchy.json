@@ -155,9 +155,9 @@
       "iati-activity/participating-org/@type": 6,
       "iati-activity/activity-status": 1,
       "iati-activity/activity-status/@code": 1,
-      "iati-activity/activity-date": 4,
-      "iati-activity/activity-date/@iso-date": 4,
-      "iati-activity/activity-date/@type": 4,
+      "iati-activity/activity-date": 3,
+      "iati-activity/activity-date/@iso-date": 3,
+      "iati-activity/activity-date/@type": 3,
       "iati-activity/contact-info": 1,
       "iati-activity/contact-info/organisation": 1,
       "iati-activity/contact-info/organisation/narrative": 1,
@@ -215,36 +215,36 @@
       "iati-activity/default-aid-type/@code": 1,
       "iati-activity/default-tied-status": 1,
       "iati-activity/default-tied-status/@code": 1,
-      "iati-activity/budget": 6,
-      "iati-activity/budget/period-start": 6,
-      "iati-activity/budget/period-start/@iso-date": 6,
-      "iati-activity/budget/period-end": 6,
-      "iati-activity/budget/period-end/@iso-date": 6,
-      "iati-activity/budget/value": 6,
-      "iati-activity/budget/value/@currency": 6,
-      "iati-activity/budget/value/@value-date": 6,
-      "iati-activity/budget/@type": 6,
-      "iati-activity/budget/@status": 6,
+      "iati-activity/budget": 26,
+      "iati-activity/budget/period-start": 26,
+      "iati-activity/budget/period-start/@iso-date": 26,
+      "iati-activity/budget/period-end": 26,
+      "iati-activity/budget/period-end/@iso-date": 26,
+      "iati-activity/budget/value": 26,
+      "iati-activity/budget/value/@currency": 26,
+      "iati-activity/budget/value/@value-date": 26,
+      "iati-activity/budget/@type": 26,
+      "iati-activity/budget/@status": 26,
       "iati-activity/capital-spend": 1,
       "iati-activity/capital-spend/@percentage": 1,
-      "iati-activity/transaction": 66,
-      "iati-activity/transaction/transaction-type": 66,
-      "iati-activity/transaction/transaction-type/@code": 66,
-      "iati-activity/transaction/transaction-date": 66,
-      "iati-activity/transaction/transaction-date/@iso-date": 66,
-      "iati-activity/transaction/value": 66,
-      "iati-activity/transaction/value/@currency": 66,
-      "iati-activity/transaction/value/@value-date": 66,
-      "iati-activity/transaction/description": 66,
-      "iati-activity/transaction/description/narrative": 66,
-      "iati-activity/transaction/provider-org": 66,
-      "iati-activity/transaction/provider-org/narrative": 66,
-      "iati-activity/transaction/provider-org/@ref": 66,
-      "iati-activity/transaction/provider-org/@type": 66,
-      "iati-activity/transaction/finance-type": 62,
-      "iati-activity/transaction/finance-type/@code": 62,
-      "iati-activity/transaction/tied-status": 62,
-      "iati-activity/transaction/tied-status/@code": 62,
+      "iati-activity/transaction": 67,
+      "iati-activity/transaction/transaction-type": 67,
+      "iati-activity/transaction/transaction-type/@code": 67,
+      "iati-activity/transaction/transaction-date": 67,
+      "iati-activity/transaction/transaction-date/@iso-date": 67,
+      "iati-activity/transaction/value": 67,
+      "iati-activity/transaction/value/@currency": 67,
+      "iati-activity/transaction/value/@value-date": 67,
+      "iati-activity/transaction/description": 67,
+      "iati-activity/transaction/description/narrative": 67,
+      "iati-activity/transaction/provider-org": 67,
+      "iati-activity/transaction/provider-org/narrative": 67,
+      "iati-activity/transaction/provider-org/@ref": 67,
+      "iati-activity/transaction/provider-org/@type": 67,
+      "iati-activity/transaction/finance-type": 63,
+      "iati-activity/transaction/finance-type/@code": 63,
+      "iati-activity/transaction/tied-status": 63,
+      "iati-activity/transaction/tied-status/@code": 63,
       "iati-activity/transaction/provider-org/@provider-activity-id": 4,
       "iati-activity/transaction/receiver-org": 56,
       "iati-activity/transaction/receiver-org/narrative": 56,
@@ -270,6 +270,24 @@
       "iati-activity/@humanitarian": 1
     },
     "forwardlooking_currency_year": {
+      "2026": {
+        "USD": 256442.0
+      },
+      "2025": {
+        "USD": 512884.0
+      },
+      "2024": {
+        "USD": 512884.0
+      },
+      "2023": {
+        "USD": 512884.0
+      },
+      "2022": {
+        "USD": 512884.0
+      },
+      "2021": {
+        "USD": 256442.0
+      },
       "2020": {
         "USD": 1118080.0
       },
@@ -290,27 +308,83 @@
       }
     },
     "forwardlooking_activities_current": {
-      "2022": 0,
-      "2023": 0,
-      "2024": 0
+      "2022": 1,
+      "2023": 1,
+      "2024": 1
     },
     "forwardlooking_activities_with_budgets": {
-      "2022": 0,
-      "2023": 0,
-      "2024": 0
+      "2022": 1,
+      "2023": 1,
+      "2024": 1
     },
     "forwardlooking_activities_with_budget_not_provided": {
       "2022": 0,
       "2023": 0,
       "2024": 0
     },
-    "comprehensiveness": {},
-    "comprehensiveness_with_validation": {},
-    "comprehensiveness_denominators": {
-      "recipient_language": 0,
-      "transaction_spend": 0,
-      "transaction_traceability": 0
+    "comprehensiveness": {
+      "version": 1,
+      "reporting-org": 1,
+      "iati-identifier": 1,
+      "participating-org": 1,
+      "title": 1,
+      "description": 1,
+      "activity-status": 1,
+      "activity-date": 1,
+      "sector": 1,
+      "country_or_region": 1,
+      "transaction_commitment": 1,
+      "transaction_spend": 1,
+      "transaction_currency": 1,
+      "transaction_traceability": 1,
+      "budget": 1,
+      "budget_not_provided": 0,
+      "contact-info": 1,
+      "location": 1,
+      "location_point_pos": 1,
+      "sector_dac": 1,
+      "capital-spend": 1,
+      "document-link": 1,
+      "activity-website": 1,
+      "recipient_language": 1,
+      "conditions_attached": 1,
+      "result_indicator": 0,
+      "aid_type": 1
     },
-    "comprehensiveness_denominator_default": 0
+    "comprehensiveness_with_validation": {
+      "version": 1,
+      "reporting-org": 1,
+      "iati-identifier": 1,
+      "participating-org": 1,
+      "title": 1,
+      "description": 1,
+      "activity-status": 1,
+      "activity-date": 1,
+      "sector": 1,
+      "country_or_region": 1,
+      "transaction_commitment": 1,
+      "transaction_spend": 1,
+      "transaction_currency": 1,
+      "transaction_traceability": 1,
+      "budget": 1,
+      "budget_not_provided": 0,
+      "contact-info": 1,
+      "location": 1,
+      "location_point_pos": 1,
+      "sector_dac": 1,
+      "capital-spend": 1,
+      "document-link": 1,
+      "activity-website": 1,
+      "recipient_language": 1,
+      "conditions_attached": 1,
+      "result_indicator": 0,
+      "aid_type": 1
+    },
+    "comprehensiveness_denominators": {
+      "recipient_language": 1,
+      "transaction_spend": 1,
+      "transaction_traceability": 1
+    },
+    "comprehensiveness_denominator_default": 1
   }
 }

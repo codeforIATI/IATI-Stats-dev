@@ -86,42 +86,42 @@
       "1": 5
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 8
+      "C01": 10
     },
     ".//transaction/aid-type/@vocabulary": {
-      "1": 8
+      "1": 10
     },
     ".//transaction/disbursement-channel/@code": {
-      "1": 5,
+      "1": 7,
       "2": 3
     },
     ".//transaction/finance-type/@code": {
-      "110": 8
+      "110": 10
     },
     ".//transaction/flow-type/@code": {
-      "10": 8
+      "10": 10
     },
     ".//transaction/provider-org/@type": {
-      "10": 4,
-      "21": 4
+      "10": 5,
+      "21": 5
     },
     ".//transaction/receiver-org/@type": {
-      "21": 3,
+      "21": 5,
       "24": 5
     },
     ".//transaction/tied-status/@code": {
-      "4": 8
+      "4": 10
     },
     ".//transaction/transaction-type/@code": {
       "1": 1,
-      "4": 2,
+      "4": 4,
       "3": 5
     },
     ".//transaction/value/@currency": {
-      "GBP": 8
+      "GBP": 10
     },
     ".//@xml:lang": {
-      "en": 41
+      "en": 47
     }
   }
 }

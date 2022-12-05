@@ -46,9 +46,6 @@
       "iati-activity/location": 6,
       "iati-activity/location/description": 6,
       "iati-activity/location/description/narrative": 6,
-      "iati-activity/location/point": 4,
-      "iati-activity/location/point/pos": 4,
-      "iati-activity/location/point/@srsName": 4,
       "iati-activity/sector": 6,
       "iati-activity/sector/narrative": 6,
       "iati-activity/sector/@vocabulary": 6,
@@ -111,6 +108,9 @@
       "iati-activity/@default-currency": 6,
       "iati-activity/@humanitarian": 6,
       "iati-activity/@hierarchy": 6,
+      "iati-activity/location/point": 4,
+      "iati-activity/location/point/pos": 4,
+      "iati-activity/location/point/@srsName": 4,
       "iati-activity/document-link": 1,
       "iati-activity/document-link/title": 1,
       "iati-activity/document-link/title/narrative": 1,
@@ -172,9 +172,6 @@
       "iati-activity/location": 6,
       "iati-activity/location/description": 6,
       "iati-activity/location/description/narrative": 6,
-      "iati-activity/location/point": 4,
-      "iati-activity/location/point/pos": 4,
-      "iati-activity/location/point/@srsName": 4,
       "iati-activity/sector": 6,
       "iati-activity/sector/narrative": 6,
       "iati-activity/sector/@vocabulary": 6,
@@ -237,6 +234,9 @@
       "iati-activity/@default-currency": 6,
       "iati-activity/@humanitarian": 6,
       "iati-activity/@hierarchy": 6,
+      "iati-activity/location/point": 4,
+      "iati-activity/location/point/pos": 4,
+      "iati-activity/location/point/@srsName": 4,
       "iati-activity/document-link": 5,
       "iati-activity/document-link/title": 5,
       "iati-activity/document-link/title/narrative": 5,
@@ -254,10 +254,10 @@
       "iati-activity/conditions/condition/@type": 1
     },
     "forwardlooking_currency_year": {
-      "2017": {
+      "null": {
         "EUR": 0.0
       },
-      "null": {
+      "2017": {
         "EUR": 0.0
       },
       "2022": {

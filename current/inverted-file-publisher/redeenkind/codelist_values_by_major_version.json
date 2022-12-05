@@ -36,7 +36,8 @@
         "1": 2
       },
       "redeenkind-3.xml": {
-        "1": 5
+        "2": 3,
+        "1": 2
       }
     },
     ".//budget/value/@currency": {
@@ -88,7 +89,7 @@
       "redeenkind-3.xml": {
         "2": 4,
         "1": 4,
-        "4": 5
+        "4": 9
       }
     },
     ".//participating-org/@type": {
@@ -98,7 +99,7 @@
         "22": 10
       },
       "redeenkind-3.xml": {
-        "21": 4,
+        "21": 8,
         "24": 9
       }
     },
@@ -157,12 +158,19 @@
       "redeenkind-2.xml": {
         "2": 4,
         "1": 9
+      },
+      "redeenkind-3.xml": {
+        "1": 15
       }
     },
     ".//result/indicator/@measure": {
       "redeenkind-2.xml": {
         "2": 8,
         "1": 5
+      },
+      "redeenkind-3.xml": {
+        "1": 62,
+        "2": 6
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -210,10 +218,10 @@
         "4": 119
       },
       "redeenkind-3.xml": {
-        "4": 20,
+        "2": 3,
+        "4": 23,
         "11": 2,
-        "1": 1,
-        "2": 2
+        "1": 1
       }
     },
     ".//transaction/value/@currency": {
@@ -224,7 +232,7 @@
         "USD": 1
       },
       "redeenkind-3.xml": {
-        "EUR": 25
+        "EUR": 29
       }
     },
     ".//@xml:lang": {
@@ -234,8 +242,10 @@
         "en": 52
       },
       "redeenkind-3.xml": {
-        "NL": 17,
-        "EN": 54
+        "NL": 20,
+        "en": 164,
+        "nl": 5,
+        "EN": 60
       }
     }
   }

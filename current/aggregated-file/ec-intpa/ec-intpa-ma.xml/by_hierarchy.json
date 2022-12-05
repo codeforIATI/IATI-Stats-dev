@@ -111,22 +111,22 @@
       "iati-activity/transaction/finance-type/@code": 1,
       "iati-activity/transaction/aid-type": 1,
       "iati-activity/transaction/aid-type/@code": 1,
-      "iati-activity/recipient-region": 5,
-      "iati-activity/recipient-region/narrative": 5,
-      "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 5,
-      "iati-activity/recipient-region/@code": 5,
-      "iati-activity/recipient-region/@vocabulary": 5,
       "iati-activity/default-tied-status": 27,
       "iati-activity/default-tied-status/@code": 27,
-      "iati-activity/crs-add": 8,
-      "iati-activity/crs-add/other-flags": 8,
-      "iati-activity/crs-add/other-flags/@code": 8,
-      "iati-activity/crs-add/other-flags/@significance": 8,
       "iati-activity/transaction/tied-status": 22,
       "iati-activity/transaction/tied-status/@code": 22,
       "iati-activity/related-activity": 24,
       "iati-activity/related-activity/@ref": 24,
-      "iati-activity/related-activity/@type": 24
+      "iati-activity/related-activity/@type": 24,
+      "iati-activity/crs-add": 8,
+      "iati-activity/crs-add/other-flags": 8,
+      "iati-activity/crs-add/other-flags/@code": 8,
+      "iati-activity/crs-add/other-flags/@significance": 8,
+      "iati-activity/recipient-region": 5,
+      "iati-activity/recipient-region/narrative": 5,
+      "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 5,
+      "iati-activity/recipient-region/@code": 5,
+      "iati-activity/recipient-region/@vocabulary": 5
     },
     "elements_total": {
       "iati-activity": 31,
@@ -238,25 +238,28 @@
       "iati-activity/transaction/finance-type/@code": 1,
       "iati-activity/transaction/aid-type": 1,
       "iati-activity/transaction/aid-type/@code": 1,
-      "iati-activity/recipient-region": 5,
-      "iati-activity/recipient-region/narrative": 5,
-      "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 5,
-      "iati-activity/recipient-region/@code": 5,
-      "iati-activity/recipient-region/@vocabulary": 5,
       "iati-activity/default-tied-status": 27,
       "iati-activity/default-tied-status/@code": 27,
-      "iati-activity/crs-add": 8,
-      "iati-activity/crs-add/other-flags": 8,
-      "iati-activity/crs-add/other-flags/@code": 8,
-      "iati-activity/crs-add/other-flags/@significance": 8,
       "iati-activity/transaction/tied-status": 55,
       "iati-activity/transaction/tied-status/@code": 55,
       "iati-activity/related-activity": 253,
       "iati-activity/related-activity/@ref": 253,
-      "iati-activity/related-activity/@type": 253
+      "iati-activity/related-activity/@type": 253,
+      "iati-activity/crs-add": 8,
+      "iati-activity/crs-add/other-flags": 8,
+      "iati-activity/crs-add/other-flags/@code": 8,
+      "iati-activity/crs-add/other-flags/@significance": 8,
+      "iati-activity/recipient-region": 5,
+      "iati-activity/recipient-region/narrative": 5,
+      "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 5,
+      "iati-activity/recipient-region/@code": 5,
+      "iati-activity/recipient-region/@vocabulary": 5
     },
     "forwardlooking_currency_year": {
       "null": {
+        "EUR": 0.0
+      },
+      "2010": {
         "EUR": 0.0
       },
       "2050": {
@@ -267,14 +270,11 @@
       },
       "2023": {
         "EUR": 0.0
-      },
-      "2010": {
-        "EUR": 0.0
       }
     },
     "forwardlooking_activities_current": {
-      "2022": 2,
-      "2023": 2,
+      "2022": 1,
+      "2023": 1,
       "2024": 1
     },
     "forwardlooking_activities_with_budgets": {
@@ -697,8 +697,8 @@
       }
     },
     "forwardlooking_activities_current": {
-      "2022": 2,
-      "2023": 2,
+      "2022": 1,
+      "2023": 1,
       "2024": 1
     },
     "forwardlooking_activities_with_budgets": {

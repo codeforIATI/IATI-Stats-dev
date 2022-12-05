@@ -6,7 +6,7 @@
   },
   ".//@xml:lang": {
     "en": {
-      "vei_nl-activities.xml": 149
+      "vei_nl-activities.xml": 158
     }
   },
   ".//activity-date/@type": {
@@ -60,6 +60,11 @@
       "vei_nl-activities.xml": 24
     }
   },
+  ".//contact-info/@type": {
+    "1": {
+      "vei_nl-activities.xml": 1
+    }
+  },
   ".//default-aid-type/@vocabulary": {
     "1": {
       "vei_nl-activities.xml": 29
@@ -101,17 +106,17 @@
   },
   ".//document-link/@format": {
     "application/pdf": {
-      "vei_nl-activities.xml": 1
+      "vei_nl-activities.xml": 9
     }
   },
   ".//document-link/category/@code": {
     "A08": {
-      "vei_nl-activities.xml": 1
+      "vei_nl-activities.xml": 9
     }
   },
   ".//document-link/language/@code": {
     "en": {
-      "vei_nl-activities.xml": 1
+      "vei_nl-activities.xml": 9
     }
   },
   ".//participating-org/@role": {
@@ -144,12 +149,15 @@
       "vei_nl-activities.xml": 99
     },
     "0": {
-      "vei_nl-activities.xml": 6
+      "vei_nl-activities.xml": 7
     }
   },
   ".//policy-marker/@vocabulary": {
     "1": {
       "vei_nl-activities.xml": 33
+    },
+    "99": {
+      "vei_nl-activities.xml": 1
     }
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -248,15 +256,15 @@
   },
   ".//result/@type": {
     "2": {
-      "vei_nl-activities.xml": 33
+      "vei_nl-activities.xml": 34
     },
     "1": {
-      "vei_nl-activities.xml": 10
+      "vei_nl-activities.xml": 11
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "vei_nl-activities.xml": 37
+      "vei_nl-activities.xml": 40
     },
     "2": {
       "vei_nl-activities.xml": 6
@@ -280,12 +288,17 @@
       "vei_nl-activities.xml": 1
     }
   },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "vei_nl-activities.xml": 2
+    }
+  },
   ".//transaction/provider-org/@type": {
     "11": {
       "vei_nl-activities.xml": 1
     },
     "10": {
-      "vei_nl-activities.xml": 6
+      "vei_nl-activities.xml": 7
     },
     "15": {
       "vei_nl-activities.xml": 1
@@ -295,6 +308,9 @@
     }
   },
   ".//transaction/receiver-org/@type": {
+    "71": {
+      "vei_nl-activities.xml": 3
+    },
     "70": {
       "vei_nl-activities.xml": 1
     },
@@ -304,16 +320,19 @@
   },
   ".//transaction/transaction-type/@code": {
     "1": {
-      "vei_nl-activities.xml": 13
+      "vei_nl-activities.xml": 12
     },
     "11": {
-      "vei_nl-activities.xml": 58
+      "vei_nl-activities.xml": 59
     },
     "4": {
-      "vei_nl-activities.xml": 393
+      "vei_nl-activities.xml": 391
+    },
+    "3": {
+      "vei_nl-activities.xml": 1
     },
     "2": {
-      "vei_nl-activities.xml": 5
+      "vei_nl-activities.xml": 6
     }
   },
   ".//transaction/value/@currency": {

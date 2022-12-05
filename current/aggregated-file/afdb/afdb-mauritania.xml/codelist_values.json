@@ -1,81 +1,82 @@
 {
   ".//@default-currency": {
-    "XDR": 74
+    "XDR": 75
   },
   ".//@xml:lang": {
-    "fr": 219,
-    "en": 326
+    "fr": 223,
+    "en": 332
   },
   ".//activity-date/@type": {
-    "1": 74,
+    "1": 75,
     "2": 74,
-    "3": 74,
+    "3": 75,
     "4": 61
   },
   ".//activity-scope/@code": {
-    "4": 74
+    "4": 75
   },
   ".//activity-status/@code": {
     "2": 10,
     "3": 61,
-    "5": 3
+    "5": 3,
+    "1": 1
   },
   ".//budget/@type": {
-    "1": 1830
+    "1": 1847
   },
   ".//budget/value/@currency": {
-    "XDR": 1830
+    "XDR": 1847
   },
   ".//collaboration-type/@code": {
-    "2": 74
+    "2": 75
   },
   ".//conditions/condition/@type": {
-    "1": 74,
-    "2": 74
+    "1": 75,
+    "2": 75
   },
   ".//country-budget-items/@vocabulary": {
-    "1": 74
+    "1": 75
   },
   ".//description/@type": {
-    "1": 62,
-    "2": 48,
-    "3": 36
+    "1": 63,
+    "2": 49,
+    "3": 37
   },
   ".//document-link/@format": {
-    "application/pdf": 210,
-    "application/vnd.ms-excel": 171,
-    "text/html": 87
+    "application/pdf": 216,
+    "application/vnd.ms-excel": 177,
+    "text/html": 162
   },
   ".//document-link/category/@code": {
-    "A01": 59,
-    "A02": 102,
-    "A03": 158,
-    "A04": 43,
-    "A05": 43,
-    "A08": 142,
+    "A01": 60,
+    "A02": 104,
+    "A03": 164,
+    "A04": 44,
+    "A05": 44,
+    "A08": 148,
+    "A06": 173,
+    "A11": 173,
     "A10": 66,
-    "A06": 167,
-    "A11": 167,
-    "A12": 75,
-    "A07": 99,
+    "A12": 150,
+    "A07": 104,
     "A09": 2
   },
   ".//document-link/language/@code": {
-    "fr": 266,
+    "fr": 353,
     "en": 202
   },
   ".//location/administrative/@vocabulary": {
-    "G1": 130,
+    "G1": 132,
     "A1": 60
   },
   ".//location/exactness/@code": {
     "1": 30,
-    "2": 65
+    "2": 66
   },
   ".//location/feature-designation/@code": {
     "PPLC": 17,
     "PCLI": 7,
-    "ADM1": 52,
+    "ADM1": 53,
     "PPL": 8,
     "PPLA": 7,
     "ADM2": 2,
@@ -84,30 +85,30 @@
   },
   ".//location/location-class/@code": {
     "2": 32,
-    "1": 61,
+    "1": 62,
     "4": 2
   },
   ".//location/location-id/@vocabulary": {
-    "G1": 65,
+    "G1": 66,
     "A1": 30
   },
   ".//other-identifier/@type": {
-    "B1": 74
+    "B1": 75
   },
   ".//participating-org/@role": {
-    "4": 96,
-    "1": 81,
+    "1": 82,
+    "4": 97,
     "3": 76
   },
   ".//participating-org/@type": {
-    "10": 175,
-    "40": 78
+    "40": 79,
+    "10": 176
   },
   ".//recipient-country/@code": {
-    "MR": 74
+    "MR": 75
   },
   ".//reporting-org/@type": {
-    "40": 74
+    "40": 75
   },
   ".//result/@type": {
     "1": 393
@@ -117,10 +118,10 @@
     "2": 59
   },
   ".//sector/@vocabulary": {
-    "1": 74
+    "1": 75
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "31110": 7,
+    "31110": 8,
     "15142": 8,
     "31140": 5,
     "24030": 6,
@@ -144,24 +145,24 @@
     "15124": 3
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 1224,
-    "A01": 48,
-    "D02": 74
+    "C01": 1267,
+    "A01": 51,
+    "D02": 78
   },
   ".//transaction/finance-type/@code": {
-    "110": 268,
-    "421": 1078
+    "110": 273,
+    "421": 1123
   },
   ".//transaction/flow-type/@code": {
-    "10": 1386
+    "10": 1436
   },
   ".//transaction/tied-status/@code": {
-    "5": 1386
+    "5": 1436
   },
   ".//transaction/transaction-type/@code": {
-    "2": 125,
-    "3": 457,
-    "5": 505,
-    "6": 299
+    "2": 126,
+    "3": 468,
+    "5": 528,
+    "6": 314
   }
 }

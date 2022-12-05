@@ -57,36 +57,36 @@
   },
   ".//document-link/@format": {
     "text/html": 174,
-    "application/pdf": 102,
+    "application/pdf": 104,
     "application/msword": 15,
     "image/jpeg": 1,
     "image/png": 1,
     "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": 1
   },
   ".//document-link/category/@code": {
-    "A01": 40,
+    "A01": 41,
     "A05": 65,
     "A06": 12,
-    "A08": 51,
+    "A08": 50,
     "A10": 62,
     "A12": 68,
     "A02": 31,
     "A03": 27,
-    "A07": 11,
+    "A07": 13,
     "A04": 10,
     "A09": 1
   },
   ".//document-link/language/@code": {
-    "en": 251
+    "en": 253
   },
   ".//humanitarian-scope/@type": {
-    "1": 8
+    "1": 9
   },
   ".//humanitarian-scope/@vocabulary": {
-    "1-2": 8
+    "1-2": 9
   },
   ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
-    "EP-2020-000012-001": 8
+    "EP-2020-000012-001": 9
   },
   ".//location/administrative/@vocabulary": {
     "G1": 75
@@ -144,15 +144,15 @@
     "40": 68
   },
   ".//result/@type": {
-    "1": 36
+    "1": 40
   },
   ".//result/indicator/@measure": {
-    "3": 11,
+    "3": 15,
     "1": 30
   },
   ".//sector/@vocabulary": {
-    "1": 70,
-    "8": 82,
+    "1": 62,
+    "8": 105,
     "99": 20
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -161,66 +161,70 @@
     "74020": 15,
     "23111": 4,
     "15144": 2,
-    "51010": 18
+    "51010": 10
   },
   ".//sector[@vocabulary = '8']/@code": {
-    "1.5": 15,
-    "13.1": 17,
-    "13.2": 7,
+    "1.5": 19,
+    "13.1": 22,
+    "13.2": 9,
     "7.1": 11,
     "1.1": 2,
     "15.1": 4,
     "9.4": 2,
     "13.3": 4,
     "7.2": 4,
-    "7.b": 4,
+    "7.b": 6,
     "9.1": 2,
-    "1.4": 2,
+    "17.18": 4,
     "1.3": 2,
-    "17.18": 2,
-    "14.2": 2,
-    "14.a": 2
+    "14.2": 4,
+    "14.a": 2,
+    "13.b": 4,
+    "14.7": 2,
+    "7.a": 2
   },
   ".//tag/@vocabulary": {
-    "3": 82
+    "3": 105
   },
   ".//tag[@vocabulary = '3']/@code": {
-    "1.5": 15,
-    "13.1": 17,
-    "13.2": 7,
+    "1.5": 19,
+    "13.1": 22,
+    "13.2": 9,
     "7.1": 11,
     "1.1": 2,
     "15.1": 4,
     "9.4": 2,
     "13.3": 4,
     "7.2": 4,
-    "7.b": 4,
+    "7.b": 6,
     "9.1": 2,
-    "1.4": 2,
+    "17.18": 4,
     "1.3": 2,
-    "17.18": 2,
-    "14.2": 2,
-    "14.a": 2
+    "14.2": 4,
+    "14.a": 2,
+    "13.b": 4,
+    "14.7": 2,
+    "7.a": 2
   },
   ".//transaction/disbursement-channel/@code": {
-    "2": 606
+    "2": 618
   },
   ".//transaction/provider-org/@type": {
-    "40": 413,
+    "40": 425,
     "10": 107
   },
   ".//transaction/receiver-org/@type": {
-    "40": 212,
+    "40": 213,
     "10": 14
   },
   ".//transaction/transaction-type/@code": {
-    "4": 337,
+    "4": 348,
     "11": 162,
     "1": 44,
     "2": 43,
-    "3": 20
+    "3": 21
   },
   ".//transaction/value/@currency": {
-    "USD": 606
+    "USD": 618
   }
 }

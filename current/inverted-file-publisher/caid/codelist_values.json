@@ -1,37 +1,37 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "caid-other.xml": 2,
-      "caid-activity.xml": 1493
+      "caid-activity.xml": 1493,
+      "caid-other.xml": 2
     }
   },
   ".//@xml:lang": {
     "en": {
-      "caid-other.xml": 1020,
-      "caid-activity.xml": 62807
+      "caid-activity.xml": 62807,
+      "caid-other.xml": 1020
     }
   },
   ".//activity-date/@type": {
     "2": {
-      "caid-other.xml": 2,
-      "caid-activity.xml": 1493
+      "caid-activity.xml": 1493,
+      "caid-other.xml": 2
     },
     "3": {
-      "caid-other.xml": 1,
-      "caid-activity.xml": 181
+      "caid-activity.xml": 181,
+      "caid-other.xml": 1
     },
     "4": {
-      "caid-other.xml": 1,
-      "caid-activity.xml": 1312
+      "caid-activity.xml": 1312,
+      "caid-other.xml": 1
     }
   },
   ".//activity-status/@code": {
-    "2": {
-      "caid-other.xml": 2,
-      "caid-activity.xml": 218
-    },
     "0": {
       "caid-activity.xml": 13
+    },
+    "2": {
+      "caid-activity.xml": 218,
+      "caid-other.xml": 2
     },
     "3": {
       "caid-activity.xml": 1262
@@ -39,32 +39,32 @@
   },
   ".//budget/@status": {
     "1": {
-      "caid-other.xml": 8,
-      "caid-activity.xml": 4014
+      "caid-activity.xml": 4014,
+      "caid-other.xml": 8
     }
   },
   ".//budget/@type": {
     "2": {
-      "caid-other.xml": 8,
-      "caid-activity.xml": 4014
+      "caid-activity.xml": 4014,
+      "caid-other.xml": 8
     }
   },
   ".//budget/value/@currency": {
     "GBP": {
-      "caid-other.xml": 8,
-      "caid-activity.xml": 4014
+      "caid-activity.xml": 4014,
+      "caid-other.xml": 8
     }
   },
   ".//contact-info/@type": {
     "1": {
-      "caid-other.xml": 2,
-      "caid-activity.xml": 1493
+      "caid-activity.xml": 1493,
+      "caid-other.xml": 2
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "B03": {
-      "caid-other.xml": 2,
-      "caid-activity.xml": 357
+      "caid-activity.xml": 357,
+      "caid-other.xml": 2
     },
     "C01": {
       "caid-activity.xml": 1136
@@ -72,26 +72,26 @@
   },
   ".//default-finance-type/@code": {
     "110": {
-      "caid-other.xml": 2,
-      "caid-activity.xml": 1493
+      "caid-activity.xml": 1493,
+      "caid-other.xml": 2
     }
   },
   ".//default-flow-type/@code": {
     "30": {
-      "caid-other.xml": 2,
-      "caid-activity.xml": 1493
+      "caid-activity.xml": 1493,
+      "caid-other.xml": 2
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "caid-other.xml": 2,
-      "caid-activity.xml": 1493
+      "caid-activity.xml": 1493,
+      "caid-other.xml": 2
     }
   },
   ".//description/@type": {
     "1": {
-      "caid-other.xml": 2,
-      "caid-activity.xml": 1493
+      "caid-activity.xml": 1493,
+      "caid-other.xml": 2
     },
     "2": {
       "caid-activity.xml": 1136
@@ -99,12 +99,12 @@
   },
   ".//participating-org/@role": {
     "2": {
-      "caid-other.xml": 2,
-      "caid-activity.xml": 1493
+      "caid-activity.xml": 1493,
+      "caid-other.xml": 2
     },
     "1": {
-      "caid-other.xml": 2,
-      "caid-activity.xml": 1742
+      "caid-activity.xml": 1742,
+      "caid-other.xml": 2
     },
     "4": {
       "caid-activity.xml": 1136
@@ -112,12 +112,12 @@
   },
   ".//participating-org/@type": {
     "21": {
-      "caid-other.xml": 2,
-      "caid-activity.xml": 363
+      "caid-activity.xml": 363,
+      "caid-other.xml": 2
     },
     "10": {
-      "caid-other.xml": 1,
-      "caid-activity.xml": 3
+      "caid-activity.xml": 3,
+      "caid-other.xml": 1
     }
   },
   ".//policy-marker/@significance": {
@@ -178,19 +178,15 @@
     }
   },
   ".//recipient-country/@code": {
-    "SL": {
-      "caid-other.xml": 39,
-      "caid-activity.xml": 342
-    },
-    "GH": {
-      "caid-other.xml": 192,
-      "caid-activity.xml": 273
-    },
     "MM": {
       "caid-activity.xml": 227
     },
     "NI": {
       "caid-activity.xml": 14
+    },
+    "SL": {
+      "caid-activity.xml": 342,
+      "caid-other.xml": 39
     },
     "ET": {
       "caid-activity.xml": 223
@@ -267,6 +263,10 @@
     "KH": {
       "caid-activity.xml": 10
     },
+    "GH": {
+      "caid-activity.xml": 273,
+      "caid-other.xml": 192
+    },
     "GB": {
       "caid-activity.xml": 12
     },
@@ -288,8 +288,8 @@
   },
   ".//related-activity/@type": {
     "2": {
-      "caid-other.xml": 78,
-      "caid-activity.xml": 1136
+      "caid-activity.xml": 1136,
+      "caid-other.xml": 78
     },
     "1": {
       "caid-activity.xml": 1136
@@ -297,14 +297,14 @@
   },
   ".//reporting-org/@type": {
     "21": {
-      "caid-other.xml": 2,
-      "caid-activity.xml": 1493
+      "caid-activity.xml": 1493,
+      "caid-other.xml": 2
     }
   },
   ".//sector/@vocabulary": {
     "99": {
-      "caid-other.xml": 32,
-      "caid-activity.xml": 3125
+      "caid-activity.xml": 3125,
+      "caid-other.xml": 32
     },
     "1": {
       "caid-other.xml": 8
@@ -338,39 +338,35 @@
   },
   ".//transaction/disbursement-channel/@code": {
     "2": {
-      "caid-other.xml": 271,
-      "caid-activity.xml": 6481
+      "caid-activity.xml": 6481,
+      "caid-other.xml": 271
     }
   },
   ".//transaction/provider-org/@type": {
     "21": {
-      "caid-other.xml": 231,
-      "caid-activity.xml": 13580
+      "caid-activity.xml": 13580,
+      "caid-other.xml": 231
     }
   },
   ".//transaction/receiver-org/@type": {
     "21": {
-      "caid-other.xml": 231,
-      "caid-activity.xml": 6463
+      "caid-activity.xml": 6463,
+      "caid-other.xml": 231
     },
     "22": {
       "caid-activity.xml": 7117
     }
   },
   ".//transaction/recipient-country/@code": {
-    "SL": {
-      "caid-other.xml": 39,
-      "caid-activity.xml": 260
-    },
-    "GH": {
-      "caid-other.xml": 192,
-      "caid-activity.xml": 198
-    },
     "MM": {
       "caid-activity.xml": 162
     },
     "NI": {
       "caid-activity.xml": 10
+    },
+    "SL": {
+      "caid-activity.xml": 260,
+      "caid-other.xml": 39
     },
     "ET": {
       "caid-activity.xml": 165
@@ -447,6 +443,10 @@
     "KH": {
       "caid-activity.xml": 8
     },
+    "GH": {
+      "caid-activity.xml": 198,
+      "caid-other.xml": 192
+    },
     "GB": {
       "caid-activity.xml": 8
     },
@@ -468,16 +468,16 @@
   },
   ".//transaction/transaction-type/@code": {
     "1": {
-      "caid-other.xml": 40,
-      "caid-activity.xml": 6694
+      "caid-activity.xml": 6694,
+      "caid-other.xml": 40
     },
     "4": {
-      "caid-other.xml": 40,
-      "caid-activity.xml": 3863
+      "caid-activity.xml": 3863,
+      "caid-other.xml": 40
     },
     "3": {
-      "caid-other.xml": 231,
-      "caid-activity.xml": 6904
+      "caid-activity.xml": 6904,
+      "caid-other.xml": 231
     },
     "2": {
       "caid-activity.xml": 3338
@@ -485,8 +485,8 @@
   },
   ".//transaction/value/@currency": {
     "GBP": {
-      "caid-other.xml": 311,
-      "caid-activity.xml": 20799
+      "caid-activity.xml": 20799,
+      "caid-other.xml": 311
     }
   }
 }

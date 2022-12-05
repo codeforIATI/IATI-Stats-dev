@@ -1,122 +1,140 @@
 {
   "2": {
     ".//@default-currency": {
-      "pidg-projectinformationpidg.xml": {
-        "USD": 129,
-        "EUR": 3
-      },
       "pidg-pidgactivities.xml": {
         "USD": 9
+      },
+      "pidg-projectinformationpidg.xml": {
+        "USD": 122,
+        "EUR": 3
       }
     },
     ".//activity-date/@type": {
-      "pidg-projectinformationpidg.xml": {
-        "2": 132,
-        "3": 127,
-        "4": 5
-      },
       "pidg-pidgactivities.xml": {
         "2": 9,
         "3": 9
+      },
+      "pidg-projectinformationpidg.xml": {
+        "2": 125,
+        "3": 125,
+        "4": 7
       }
     },
     ".//activity-status/@code": {
-      "pidg-projectinformationpidg.xml": {
-        "2": 125,
-        "4": 7
-      },
       "pidg-pidgactivities.xml": {
         "2": 9
+      },
+      "pidg-projectinformationpidg.xml": {
+        "2": 118,
+        "4": 7
       }
     },
     ".//budget/value/@currency": {
-      "pidg-projectinformationpidg.xml": {
-        "USD": 129,
-        "EUR": 3
-      },
       "pidg-pidgactivities.xml": {
-        "USD": 109
+        "USD": 114
+      },
+      "pidg-projectinformationpidg.xml": {
+        "USD": 122,
+        "EUR": 3
       }
     },
     ".//collaboration-type/@code": {
-      "pidg-projectinformationpidg.xml": {
-        "1": 132
-      },
       "pidg-pidgactivities.xml": {
         "1": 9
+      },
+      "pidg-projectinformationpidg.xml": {
+        "1": 125
       }
     },
     ".//contact-info/@type": {
-      "pidg-projectinformationpidg.xml": {
-        "1": 132
-      },
       "pidg-pidgactivities.xml": {
         "1": 9
+      },
+      "pidg-projectinformationpidg.xml": {
+        "1": 125
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "pidg-projectinformationpidg.xml": {
-        "C01": 132
-      },
       "pidg-pidgactivities.xml": {
         "C01": 9
+      },
+      "pidg-projectinformationpidg.xml": {
+        "C01": 125
       }
     },
     ".//default-finance-type/@code": {
-      "pidg-projectinformationpidg.xml": {
-        "110": 132
-      },
       "pidg-pidgactivities.xml": {
         "510": 8,
         "110": 1
+      },
+      "pidg-projectinformationpidg.xml": {
+        "110": 125
       }
     },
     ".//default-flow-type/@code": {
-      "pidg-projectinformationpidg.xml": {
-        "36": 132
-      },
       "pidg-pidgactivities.xml": {
         "36": 9
+      },
+      "pidg-projectinformationpidg.xml": {
+        "36": 125
       }
     },
     ".//default-tied-status/@code": {
-      "pidg-projectinformationpidg.xml": {
-        "4": 132
-      },
       "pidg-pidgactivities.xml": {
         "4": 9
+      },
+      "pidg-projectinformationpidg.xml": {
+        "4": 125
       }
     },
     ".//description/@type": {
-      "pidg-projectinformationpidg.xml": {
-        "1": 132
-      },
       "pidg-pidgactivities.xml": {
         "1": 9,
         "2": 9
+      },
+      "pidg-projectinformationpidg.xml": {
+        "1": 125
       }
     },
     ".//participating-org/@role": {
-      "pidg-projectinformationpidg.xml": {
-        "2": 132
-      },
       "pidg-pidgactivities.xml": {
         "1": 38,
         "2": 9,
         "4": 8
+      },
+      "pidg-projectinformationpidg.xml": {
+        "2": 125
       }
     },
     ".//participating-org/@type": {
-      "pidg-projectinformationpidg.xml": {
-        "70": 132
-      },
       "pidg-pidgactivities.xml": {
         "10": 33,
         "70": 18,
         "40": 4
+      },
+      "pidg-projectinformationpidg.xml": {
+        "70": 125
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pidg-pidgactivities.xml": {
+        "4": 9
+      }
+    },
+    ".//policy-marker/@significance": {
+      "pidg-pidgactivities.xml": {
+        "1": 9
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "pidg-pidgactivities.xml": {
+        "1": 9
       }
     },
     ".//recipient-country/@code": {
+      "pidg-pidgactivities.xml": {
+        "GB": 1
+      },
       "pidg-projectinformationpidg.xml": {
         "GA": 3,
         "UG": 11,
@@ -126,7 +144,7 @@
         "TH": 1,
         "RW": 3,
         "TZ": 2,
-        "ID": 3,
+        "ID": 2,
         "PK": 7,
         "ZM": 4,
         "NP": 2,
@@ -134,12 +152,10 @@
         "MZ": 6,
         "CM": 2,
         "NG": 8,
-        "MM": 3,
-        "VN": 4,
-        "IN": 6,
+        "VN": 3,
+        "IN": 5,
         "TG": 1,
         "ET": 2,
-        "PH": 2,
         "CI": 4,
         "GN": 1,
         "CD": 1,
@@ -149,91 +165,44 @@
         "DZ": 1,
         "GH": 7,
         "LR": 1,
+        "PH": 1,
         "TD": 2,
-        "KH": 1,
         "MG": 2,
         "JO": 1,
         "ZW": 1,
-        "MW": 2
-      },
-      "pidg-pidgactivities.xml": {
-        "GB": 1
+        "MW": 2,
+        "KH": 1
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "pidg-projectinformationpidg.xml": {
-        "298": 8,
-        "798": 1
-      },
       "pidg-pidgactivities.xml": {
         "298": 6,
         "689": 1,
         "798": 4
+      },
+      "pidg-projectinformationpidg.xml": {
+        "298": 8,
+        "798": 1
       }
     },
     ".//related-activity/@type": {
-      "pidg-projectinformationpidg.xml": {
-        "1": 132
-      },
       "pidg-pidgactivities.xml": {
         "1": 15,
         "2": 141
+      },
+      "pidg-projectinformationpidg.xml": {
+        "1": 125
       }
     },
     ".//reporting-org/@type": {
-      "pidg-projectinformationpidg.xml": {
-        "40": 132
-      },
       "pidg-pidgactivities.xml": {
         "40": 9
-      }
-    },
-    ".//result/@type": {
+      },
       "pidg-projectinformationpidg.xml": {
-        "1": 458
-      }
-    },
-    ".//result/indicator/@measure": {
-      "pidg-projectinformationpidg.xml": {
-        "1": 458
+        "40": 125
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "pidg-projectinformationpidg.xml": {
-        "23220": 2,
-        "23065": 10,
-        "23230": 15,
-        "23210": 15,
-        "21020": 2,
-        "31140": 2,
-        "14021": 3,
-        "43010": 10,
-        "22040": 7,
-        "23340": 4,
-        "23231": 9,
-        "43032": 4,
-        "23061": 4,
-        "32120": 5,
-        "23062": 6,
-        "23631": 1,
-        "21012": 3,
-        "21050": 1,
-        "23270": 1,
-        "32166": 1,
-        "32220": 2,
-        "23641": 1,
-        "16030": 4,
-        "21061": 4,
-        "31191": 2,
-        "21040": 2,
-        "23640": 4,
-        "31161": 1,
-        "23310": 3,
-        "23040": 1,
-        "23630": 1,
-        "23066": 1,
-        "32173": 1
-      },
       "pidg-pidgactivities.xml": {
         "21061": 3,
         "22040": 3,
@@ -258,90 +227,116 @@
         "23630": 1,
         "31191": 1,
         "25030": 1
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "pidg-projectinformationpidg.xml": {
-        "70": 419,
-        "72": 11
       },
-      "pidg-pidgactivities.xml": {
-        "70": 1821,
-        "10": 810,
-        "40": 48,
-        "0": 14
-      }
-    },
-    ".//transaction/receiver-org/@type": {
       "pidg-projectinformationpidg.xml": {
-        "72": 204,
-        "70": 226
-      },
-      "pidg-pidgactivities.xml": {
-        "70": 2295
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "pidg-projectinformationpidg.xml": {
-        "2": 114,
-        "11": 146,
-        "10": 32,
-        "3": 69,
-        "1": 69
-      },
-      "pidg-pidgactivities.xml": {
-        "1": 658,
-        "9": 130,
-        "2": 657,
-        "3": 364,
-        "4": 97,
-        "6": 15,
-        "11": 637,
-        "13": 6,
-        "10": 32,
-        "8": 191
-      }
-    },
-    ".//transaction/value/@currency": {
-      "pidg-projectinformationpidg.xml": {
-        "USD": 412,
-        "XOF": 4,
-        "EUR": 12,
-        "GBP": 2
-      },
-      "pidg-pidgactivities.xml": {
-        "USD": 2678,
-        "XOF": 2,
-        "EUR": 7,
-        "GBP": 100
-      }
-    },
-    ".//@xml:lang": {
-      "pidg-projectinformationpidg.xml": {
-        "en": 132
-      },
-      "pidg-pidgactivities.xml": {
-        "en": 9
-      }
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "pidg-pidgactivities.xml": {
-        "4": 9
-      }
-    },
-    ".//policy-marker/@significance": {
-      "pidg-pidgactivities.xml": {
-        "1": 9
-      }
-    },
-    ".//policy-marker/@vocabulary": {
-      "pidg-pidgactivities.xml": {
-        "1": 9
+        "23220": 2,
+        "23065": 10,
+        "23230": 15,
+        "23210": 13,
+        "21020": 2,
+        "31140": 2,
+        "14021": 2,
+        "43010": 10,
+        "22040": 6,
+        "23340": 4,
+        "23231": 9,
+        "43032": 4,
+        "23061": 4,
+        "32120": 5,
+        "23062": 6,
+        "21012": 3,
+        "21050": 1,
+        "23270": 1,
+        "32166": 1,
+        "32220": 2,
+        "23641": 1,
+        "16030": 4,
+        "21061": 5,
+        "21040": 2,
+        "23640": 4,
+        "31161": 1,
+        "23310": 3,
+        "23040": 1,
+        "23630": 1,
+        "23066": 1
       }
     },
     ".//sector/@vocabulary": {
       "pidg-pidgactivities.xml": {
         "1": 44
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "pidg-pidgactivities.xml": {
+        "70": 1822,
+        "10": 810,
+        "40": 48
+      },
+      "pidg-projectinformationpidg.xml": {
+        "70": 405,
+        "72": 11
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "pidg-pidgactivities.xml": {
+        "70": 2296
+      },
+      "pidg-projectinformationpidg.xml": {
+        "72": 197,
+        "70": 219
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "pidg-pidgactivities.xml": {
+        "1": 662,
+        "9": 132,
+        "2": 649,
+        "3": 367,
+        "4": 99,
+        "6": 15,
+        "11": 639,
+        "13": 6,
+        "10": 32,
+        "8": 191
+      },
+      "pidg-projectinformationpidg.xml": {
+        "2": 106,
+        "11": 138,
+        "10": 32,
+        "3": 70,
+        "1": 70
+      }
+    },
+    ".//transaction/value/@currency": {
+      "pidg-pidgactivities.xml": {
+        "USD": 2685,
+        "XOF": 2,
+        "EUR": 7,
+        "GBP": 98
+      },
+      "pidg-projectinformationpidg.xml": {
+        "USD": 398,
+        "XOF": 4,
+        "EUR": 12,
+        "GBP": 2
+      }
+    },
+    ".//@xml:lang": {
+      "pidg-pidgactivities.xml": {
+        "en": 9
+      },
+      "pidg-projectinformationpidg.xml": {
+        "en": 125
+      }
+    },
+    ".//result/@type": {
+      "pidg-projectinformationpidg.xml": {
+        "1": 446
+      }
+    },
+    ".//result/indicator/@measure": {
+      "pidg-projectinformationpidg.xml": {
+        "1": 446
       }
     }
   }

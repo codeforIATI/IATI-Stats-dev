@@ -26,13 +26,6 @@
     ".//description/@type": {
       "2": 1
     },
-    ".//document-link/@format": {
-      "application/1d-interleaved-parityfec": 1,
-      "application/3gpp-ims+xml": 2
-    },
-    ".//document-link/category/@code": {
-      "A08": 3
-    },
     ".//participating-org/@role": {
       "4": 1
     },
@@ -58,23 +51,6 @@
     ".//reporting-org/@type": {
       "21": 1
     },
-    ".//result/@type": {
-      "2": 1,
-      "1": 2
-    },
-    ".//result/document-link/@format": {
-      "application/1d-interleaved-parityfec": 1,
-      "application/3gpp-ims+xml": 2
-    },
-    ".//result/document-link/category/@code": {
-      "A08": 3
-    },
-    ".//result/indicator/@measure": {
-      "1": 28
-    },
-    ".//result/indicator/reference/@vocabulary": {
-      "99": 28
-    },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "15170": 1
     },
@@ -86,21 +62,21 @@
       "8": 1
     },
     ".//transaction/provider-org/@type": {
-      "23": 3
+      "23": 4
     },
     ".//transaction/receiver-org/@type": {
-      "21": 3
+      "21": 4
     },
     ".//transaction/transaction-type/@code": {
       "4": 1,
-      "1": 1,
+      "1": 2,
       "11": 1
     },
     ".//transaction/value/@currency": {
-      "EUR": 3
+      "EUR": 4
     },
     ".//@xml:lang": {
-      "en": 71
+      "en": 8
     }
   }
 }

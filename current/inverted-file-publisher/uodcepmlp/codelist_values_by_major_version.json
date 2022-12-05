@@ -2,39 +2,41 @@
   "2": {
     ".//@default-currency": {
       "uodcepmlp-activities.xml": {
-        "GBP": 2
+        "GBP": 4
       }
     },
     ".//activity-date/@type": {
       "uodcepmlp-activities.xml": {
-        "2": 1,
+        "2": 3,
         "1": 1
       }
     },
     ".//activity-status/@code": {
       "uodcepmlp-activities.xml": {
-        "2": 2
+        "2": 3,
+        "3": 1
       }
     },
     ".//budget/@status": {
       "uodcepmlp-activities.xml": {
-        "2": 1,
+        "2": 3,
         "1": 1
       }
     },
     ".//budget/@type": {
       "uodcepmlp-activities.xml": {
-        "2": 2
+        "2": 2,
+        "1": 2
       }
     },
     ".//budget/value/@currency": {
       "uodcepmlp-activities.xml": {
-        "GBP": 2
+        "GBP": 4
       }
     },
     ".//description/@type": {
       "uodcepmlp-activities.xml": {
-        "1": 2
+        "1": 4
       }
     },
     ".//document-link/@format": {
@@ -59,19 +61,23 @@
     },
     ".//participating-org/@crs-channel-code": {
       "uodcepmlp-activities.xml": {
-        "51000": 1,
-        "10000": 1
+        "51000": 4,
+        "10000": 2,
+        "11001": 1
       }
     },
     ".//participating-org/@role": {
       "uodcepmlp-activities.xml": {
         "4": 1,
-        "2": 1
+        "2": 5,
+        "1": 1
       }
     },
     ".//participating-org/@type": {
       "uodcepmlp-activities.xml": {
-        "80": 2
+        "80": 5,
+        "10": 1,
+        "15": 1
       }
     },
     ".//recipient-country/@code": {
@@ -88,13 +94,21 @@
         "KE": 2,
         "UG": 2,
         "SR": 1,
-        "ET": 1,
-        "ID": 1
+        "ET": 2,
+        "ID": 1,
+        "BD": 1,
+        "IN": 1,
+        "PK": 1
       }
     },
     ".//reporting-org/@type": {
       "uodcepmlp-activities.xml": {
-        "80": 2
+        "80": 4
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "uodcepmlp-activities.xml": {
+        "12182": 2
       }
     },
     ".//sector[@vocabulary = '7']/@code": {
@@ -108,12 +122,13 @@
     },
     ".//sector/@vocabulary": {
       "uodcepmlp-activities.xml": {
-        "7": 10
+        "7": 10,
+        "1": 2
       }
     },
     ".//@xml:lang": {
       "uodcepmlp-activities.xml": {
-        "en": 37
+        "en": 51
       }
     }
   }

@@ -1,52 +1,52 @@
 {
   "2": {
     ".//@default-currency": {
-      "pib-89.xml": {
-        "EUR": 2
-      },
-      "pib-be.xml": {
-        "EUR": 3
-      },
       "pib-ne.xml": {
         "EUR": 3
       },
-      "pib-bo.xml": {
+      "pib-89.xml": {
         "EUR": 2
       },
       "pib-bj.xml": {
         "EUR": 2
+      },
+      "pib-bo.xml": {
+        "EUR": 2
+      },
+      "pib-be.xml": {
+        "EUR": 3
       },
       "pib-vn.xml": {
         "EUR": 2
       }
     },
     ".//activity-date/@type": {
+      "pib-ne.xml": {
+        "2": 3,
+        "3": 3,
+        "4": 3
+      },
       "pib-89.xml": {
         "2": 2,
         "3": 2,
         "4": 2,
         "1": 1
       },
-      "pib-be.xml": {
-        "2": 3,
-        "3": 3,
-        "4": 3
-      },
-      "pib-ne.xml": {
-        "2": 3,
-        "3": 3,
-        "4": 3
+      "pib-bj.xml": {
+        "1": 1,
+        "3": 2,
+        "4": 2,
+        "2": 1
       },
       "pib-bo.xml": {
         "2": 2,
         "3": 2,
         "4": 2
       },
-      "pib-bj.xml": {
-        "1": 1,
-        "3": 2,
-        "4": 2,
-        "2": 1
+      "pib-be.xml": {
+        "2": 3,
+        "3": 3,
+        "4": 3
       },
       "pib-vn.xml": {
         "2": 2,
@@ -55,65 +55,65 @@
       }
     },
     ".//activity-status/@code": {
-      "pib-89.xml": {
-        "4": 2
-      },
-      "pib-be.xml": {
-        "4": 3
-      },
       "pib-ne.xml": {
         "4": 3
       },
-      "pib-bo.xml": {
+      "pib-89.xml": {
         "4": 2
       },
       "pib-bj.xml": {
         "4": 2
+      },
+      "pib-bo.xml": {
+        "4": 2
+      },
+      "pib-be.xml": {
+        "4": 3
       },
       "pib-vn.xml": {
         "4": 2
       }
     },
     ".//budget/@status": {
+      "pib-ne.xml": {
+        "2": 15
+      },
       "pib-89.xml": {
         "2": 5
       },
-      "pib-be.xml": {
-        "2": 15
-      },
-      "pib-ne.xml": {
-        "2": 15
+      "pib-bj.xml": {
+        "2": 10
       },
       "pib-bo.xml": {
         "2": 10
       },
-      "pib-bj.xml": {
-        "2": 10
+      "pib-be.xml": {
+        "2": 15
       },
       "pib-vn.xml": {
         "2": 10
       }
     },
     ".//budget/@type": {
+      "pib-ne.xml": {
+        "1": 3,
+        "2": 12
+      },
       "pib-89.xml": {
         "1": 1,
         "2": 4
       },
-      "pib-be.xml": {
-        "1": 3,
-        "2": 12
-      },
-      "pib-ne.xml": {
-        "1": 3,
-        "2": 12
+      "pib-bj.xml": {
+        "1": 2,
+        "2": 8
       },
       "pib-bo.xml": {
         "1": 2,
         "2": 8
       },
-      "pib-bj.xml": {
-        "1": 2,
-        "2": 8
+      "pib-be.xml": {
+        "1": 3,
+        "2": 12
       },
       "pib-vn.xml": {
         "1": 2,
@@ -121,263 +121,270 @@
       }
     },
     ".//budget/value/@currency": {
+      "pib-ne.xml": {
+        "EUR": 15
+      },
       "pib-89.xml": {
         "EUR": 5
       },
-      "pib-be.xml": {
-        "EUR": 15
-      },
-      "pib-ne.xml": {
-        "EUR": 15
+      "pib-bj.xml": {
+        "EUR": 10
       },
       "pib-bo.xml": {
         "EUR": 10
       },
-      "pib-bj.xml": {
-        "EUR": 10
+      "pib-be.xml": {
+        "EUR": 15
       },
       "pib-vn.xml": {
         "EUR": 10
       }
     },
     ".//collaboration-type/@code": {
-      "pib-89.xml": {
-        "1": 2
-      },
-      "pib-be.xml": {
-        "1": 3
-      },
       "pib-ne.xml": {
         "1": 3
       },
-      "pib-bo.xml": {
+      "pib-89.xml": {
         "1": 2
       },
       "pib-bj.xml": {
         "1": 2
+      },
+      "pib-bo.xml": {
+        "1": 2
+      },
+      "pib-be.xml": {
+        "1": 3
       },
       "pib-vn.xml": {
         "1": 2
       }
     },
     ".//contact-info/@type": {
+      "pib-ne.xml": {
+        "2": 3
+      },
       "pib-89.xml": {
         "3": 1,
         "2": 1
       },
-      "pib-be.xml": {
-        "2": 2,
-        "1": 1
-      },
-      "pib-ne.xml": {
-        "2": 3
+      "pib-bj.xml": {
+        "2": 2
       },
       "pib-bo.xml": {
         "2": 2
       },
-      "pib-bj.xml": {
-        "2": 2
+      "pib-be.xml": {
+        "2": 2,
+        "1": 1
       },
       "pib-vn.xml": {
         "2": 2
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pib-ne.xml": {
+        "C01": 3
+      },
       "pib-89.xml": {
         "G01": 1,
         "C01": 1
       },
-      "pib-be.xml": {
-        "H01": 3
-      },
-      "pib-ne.xml": {
-        "C01": 3
+      "pib-bj.xml": {
+        "C01": 2
       },
       "pib-bo.xml": {
         "C01": 2
       },
-      "pib-bj.xml": {
-        "C01": 2
+      "pib-be.xml": {
+        "H01": 3
       },
       "pib-vn.xml": {
         "C01": 2
       }
     },
     ".//default-aid-type/@vocabulary": {
-      "pib-89.xml": {
-        "1": 2
-      },
-      "pib-be.xml": {
-        "1": 3
-      },
       "pib-ne.xml": {
         "1": 3
       },
-      "pib-bo.xml": {
+      "pib-89.xml": {
         "1": 2
       },
       "pib-bj.xml": {
         "1": 2
+      },
+      "pib-bo.xml": {
+        "1": 2
+      },
+      "pib-be.xml": {
+        "1": 3
       },
       "pib-vn.xml": {
         "1": 2
       }
     },
     ".//default-finance-type/@code": {
-      "pib-89.xml": {
-        "110": 2
-      },
-      "pib-be.xml": {
-        "110": 3
-      },
       "pib-ne.xml": {
         "110": 3
       },
-      "pib-bo.xml": {
+      "pib-89.xml": {
         "110": 2
       },
       "pib-bj.xml": {
         "110": 2
+      },
+      "pib-bo.xml": {
+        "110": 2
+      },
+      "pib-be.xml": {
+        "110": 3
       },
       "pib-vn.xml": {
         "110": 2
       }
     },
     ".//default-flow-type/@code": {
-      "pib-89.xml": {
-        "30": 2
-      },
-      "pib-be.xml": {
-        "30": 3
-      },
       "pib-ne.xml": {
         "30": 3
       },
-      "pib-bo.xml": {
+      "pib-89.xml": {
         "30": 2
       },
       "pib-bj.xml": {
         "30": 2
+      },
+      "pib-bo.xml": {
+        "30": 2
+      },
+      "pib-be.xml": {
+        "30": 3
       },
       "pib-vn.xml": {
         "30": 2
       }
     },
     ".//default-tied-status/@code": {
-      "pib-89.xml": {
-        "5": 2
-      },
-      "pib-be.xml": {
-        "5": 3
-      },
       "pib-ne.xml": {
         "5": 3
       },
-      "pib-bo.xml": {
+      "pib-89.xml": {
         "5": 2
       },
       "pib-bj.xml": {
         "5": 2
+      },
+      "pib-bo.xml": {
+        "5": 2
+      },
+      "pib-be.xml": {
+        "5": 3
       },
       "pib-vn.xml": {
         "5": 2
       }
     },
     ".//description/@type": {
-      "pib-89.xml": {
-        "1": 2
-      },
-      "pib-be.xml": {
-        "3": 3,
-        "1": 3,
-        "2": 3
-      },
       "pib-ne.xml": {
         "1": 3,
         "2": 3,
         "3": 3
       },
-      "pib-bo.xml": {
-        "1": 2,
-        "2": 2,
-        "3": 2
+      "pib-89.xml": {
+        "1": 2
       },
       "pib-bj.xml": {
         "2": 2,
         "3": 2,
         "1": 2
       },
+      "pib-bo.xml": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      },
+      "pib-be.xml": {
+        "3": 3,
+        "1": 3,
+        "2": 3
+      },
       "pib-vn.xml": {
         "2": 2,
         "3": 2
       }
     },
-    ".//document-link/@format": {
-      "pib-89.xml": {
-        "application/pdf": 1
-      },
-      "pib-bo.xml": {
-        "application/pdf": 1
+    ".//location/location-class/@code": {
+      "pib-ne.xml": {
+        "1": 4
       },
       "pib-bj.xml": {
-        "application/pdf": 1
-      }
-    },
-    ".//document-link/category/@code": {
-      "pib-89.xml": {
-        "A08": 1,
-        "A02": 1,
-        "A03": 1,
-        "A04": 1,
-        "A05": 1
+        "1": 5
       },
       "pib-bo.xml": {
-        "A08": 1
+        "1": 2
       },
-      "pib-bj.xml": {
-        "A08": 1
+      "pib-be.xml": {
+        "1": 3
+      },
+      "pib-vn.xml": {
+        "1": 2
       }
     },
-    ".//document-link/language/@code": {
-      "pib-89.xml": {
-        "fr": 1
+    ".//location/location-reach/@code": {
+      "pib-ne.xml": {
+        "1": 1
+      },
+      "pib-bj.xml": {
+        "1": 4
+      },
+      "pib-be.xml": {
+        "1": 1
+      },
+      "pib-vn.xml": {
+        "1": 2
+      }
+    },
+    ".//location/exactness/@code": {
+      "pib-ne.xml": {
+        "1": 4
+      },
+      "pib-bj.xml": {
+        "1": 5
       },
       "pib-bo.xml": {
-        "fr": 1
+        "2": 1,
+        "1": 1
       },
-      "pib-bj.xml": {
-        "fr": 1
-      }
-    },
-    ".//other-identifier/@type": {
-      "pib-89.xml": {
-        "A9": 1
+      "pib-be.xml": {
+        "1": 3
+      },
+      "pib-vn.xml": {
+        "1": 2
       }
     },
     ".//participating-org/@role": {
-      "pib-89.xml": {
-        "1": 3,
-        "2": 1
-      },
-      "pib-be.xml": {
-        "2": 3,
-        "1": 6,
-        "4": 3
-      },
       "pib-ne.xml": {
         "1": 6,
         "2": 3,
         "4": 3
       },
-      "pib-bo.xml": {
-        "1": 4,
-        "2": 2,
-        "4": 2
+      "pib-89.xml": {
+        "1": 3,
+        "2": 1
       },
       "pib-bj.xml": {
         "1": 4,
         "2": 2,
         "4": 2
+      },
+      "pib-bo.xml": {
+        "1": 4,
+        "2": 2,
+        "4": 2
+      },
+      "pib-be.xml": {
+        "2": 3,
+        "1": 6,
+        "4": 3
       },
       "pib-vn.xml": {
         "1": 4,
@@ -386,318 +393,36 @@
       }
     },
     ".//participating-org/@type": {
-      "pib-89.xml": {
-        "10": 2,
-        "22": 2
-      },
-      "pib-be.xml": {
-        "22": 9,
-        "10": 3
-      },
       "pib-ne.xml": {
         "10": 3,
         "22": 6,
         "24": 3
       },
+      "pib-89.xml": {
+        "10": 2,
+        "22": 2
+      },
+      "pib-bj.xml": {
+        "22": 4,
+        "10": 2,
+        "24": 2
+      },
       "pib-bo.xml": {
         "10": 2,
         "22": 4,
         "24": 2
       },
-      "pib-bj.xml": {
-        "22": 4,
+      "pib-be.xml": {
+        "22": 9,
+        "10": 3
+      },
+      "pib-vn.xml": {
         "10": 2,
-        "24": 2
-      },
-      "pib-vn.xml": {
-        "10": 2,
         "22": 4,
         "24": 2
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "pib-89.xml": {
-        "89": 2
-      }
-    },
-    ".//recipient-region/@vocabulary": {
-      "pib-89.xml": {
-        "1": 2
-      }
-    },
-    ".//related-activity/@type": {
-      "pib-89.xml": {
-        "1": 1,
-        "2": 13
-      },
-      "pib-be.xml": {
-        "1": 3
-      },
-      "pib-ne.xml": {
-        "1": 3
-      },
-      "pib-bo.xml": {
-        "1": 2
-      },
-      "pib-bj.xml": {
-        "1": 2
-      },
-      "pib-vn.xml": {
-        "1": 2
-      }
-    },
-    ".//reporting-org/@type": {
-      "pib-89.xml": {
-        "22": 2
-      },
-      "pib-be.xml": {
-        "22": 3
-      },
-      "pib-ne.xml": {
-        "22": 3
-      },
-      "pib-bo.xml": {
-        "22": 2
-      },
-      "pib-bj.xml": {
-        "22": 2
-      },
-      "pib-vn.xml": {
-        "22": 2
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "pib-89.xml": {
-        "91010": 1,
-        "99810": 1
-      },
-      "pib-be.xml": {
-        "99820": 3
-      },
-      "pib-ne.xml": {
-        "11240": 1,
-        "15180": 1,
-        "11110": 1
-      },
-      "pib-bo.xml": {
-        "11240": 1,
-        "12220": 1,
-        "12240": 1,
-        "15150": 2,
-        "15160": 2,
-        "11320": 1,
-        "11330": 1
-      },
-      "pib-bj.xml": {
-        "11110": 1,
-        "15180": 1
-      },
-      "pib-vn.xml": {
-        "11240": 1,
-        "12261": 1,
-        "14081": 1,
-        "12240": 1,
-        "11220": 1,
-        "41081": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "pib-89.xml": {
-        "1": 2
-      },
-      "pib-be.xml": {
-        "1": 3
-      },
-      "pib-ne.xml": {
-        "1": 3
-      },
-      "pib-bo.xml": {
-        "1": 9
-      },
-      "pib-bj.xml": {
-        "1": 2
-      },
-      "pib-vn.xml": {
-        "1": 6
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "pib-89.xml": {
-        "22": 19,
-        "10": 14
-      },
-      "pib-be.xml": {
-        "22": 15
-      },
-      "pib-ne.xml": {
-        "22": 33
-      },
-      "pib-bo.xml": {
-        "22": 22
-      },
-      "pib-bj.xml": {
-        "22": 22
-      },
-      "pib-vn.xml": {
-        "22": 22
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "pib-89.xml": {
-        "22": 28
-      },
-      "pib-ne.xml": {
-        "24": 18
-      },
-      "pib-bo.xml": {
-        "24": 14
-      },
-      "pib-bj.xml": {
-        "24": 12
-      },
-      "pib-vn.xml": {
-        "24": 12
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "pib-89.xml": {
-        "4": 5,
-        "11": 18,
-        "1": 10
-      },
-      "pib-be.xml": {
-        "4": 15
-      },
-      "pib-ne.xml": {
-        "3": 15,
-        "2": 3,
-        "4": 15
-      },
-      "pib-bo.xml": {
-        "3": 10,
-        "4": 10,
-        "2": 2
-      },
-      "pib-bj.xml": {
-        "3": 10,
-        "4": 10,
-        "2": 2
-      },
-      "pib-vn.xml": {
-        "4": 10,
-        "3": 10,
-        "2": 2
-      }
-    },
-    ".//transaction/value/@currency": {
-      "pib-89.xml": {
-        "EUR": 23
-      },
-      "pib-be.xml": {
-        "EUR": 15
-      },
-      "pib-ne.xml": {
-        "EUR": 29
-      },
-      "pib-bo.xml": {
-        "EUR": 19
-      },
-      "pib-bj.xml": {
-        "EUR": 18
-      },
-      "pib-vn.xml": {
-        "EUR": 20
-      }
-    },
-    ".//@xml:lang": {
-      "pib-89.xml": {
-        "fr": 15,
-        "en": 9,
-        "nl": 5
-      },
-      "pib-be.xml": {
-        "fr": 31,
-        "en": 22,
-        "nl": 12
-      },
-      "pib-ne.xml": {
-        "fr": 49,
-        "en": 12,
-        "nl": 9,
-        "es": 1
-      },
-      "pib-bo.xml": {
-        "fr": 12,
-        "en": 11,
-        "nl": 6,
-        "es": 19
-      },
-      "pib-bj.xml": {
-        "nl": 7,
-        "en": 9,
-        "fr": 59
-      },
-      "pib-vn.xml": {
-        "fr": 8,
-        "en": 25,
-        "nl": 6
-      }
-    },
-    ".//location/location-class/@code": {
-      "pib-be.xml": {
-        "1": 3
-      },
-      "pib-ne.xml": {
-        "1": 4
-      },
-      "pib-bo.xml": {
-        "1": 2
-      },
-      "pib-bj.xml": {
-        "1": 5
-      },
-      "pib-vn.xml": {
-        "1": 2
-      }
-    },
-    ".//location/location-reach/@code": {
-      "pib-be.xml": {
-        "1": 1
-      },
-      "pib-ne.xml": {
-        "1": 1
-      },
-      "pib-bj.xml": {
-        "1": 4
-      },
-      "pib-vn.xml": {
-        "1": 2
-      }
-    },
-    ".//location/exactness/@code": {
-      "pib-be.xml": {
-        "1": 3
-      },
-      "pib-ne.xml": {
-        "1": 4
-      },
-      "pib-bo.xml": {
-        "2": 1,
-        "1": 1
-      },
-      "pib-bj.xml": {
-        "1": 5
-      },
-      "pib-vn.xml": {
-        "1": 2
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "pib-be.xml": {
-        "1": 3,
-        "3": 1,
-        "2": 2
-      },
       "pib-ne.xml": {
         "2": 3,
         "7": 3,
@@ -707,14 +432,6 @@
         "9": 3,
         "8": 1,
         "5": 1
-      },
-      "pib-bo.xml": {
-        "2": 2,
-        "7": 2,
-        "6": 2,
-        "1": 2,
-        "9": 1,
-        "3": 2
       },
       "pib-bj.xml": {
         "2": 2,
@@ -727,6 +444,19 @@
         "6": 2,
         "4": 1
       },
+      "pib-bo.xml": {
+        "2": 2,
+        "7": 2,
+        "6": 2,
+        "1": 2,
+        "9": 1,
+        "3": 2
+      },
+      "pib-be.xml": {
+        "1": 3,
+        "3": 1,
+        "2": 2
+      },
       "pib-vn.xml": {
         "2": 2,
         "7": 2,
@@ -736,22 +466,22 @@
       }
     },
     ".//policy-marker/@significance": {
-      "pib-be.xml": {
-        "2": 3,
-        "1": 3
-      },
       "pib-ne.xml": {
         "1": 11,
         "2": 9
-      },
-      "pib-bo.xml": {
-        "1": 7,
-        "2": 4
       },
       "pib-bj.xml": {
         "1": 6,
         "2": 5,
         "0": 4
+      },
+      "pib-bo.xml": {
+        "1": 7,
+        "2": 4
+      },
+      "pib-be.xml": {
+        "2": 3,
+        "1": 3
       },
       "pib-vn.xml": {
         "1": 4,
@@ -759,73 +489,343 @@
       }
     },
     ".//policy-marker/@vocabulary": {
-      "pib-be.xml": {
-        "1": 6
-      },
       "pib-ne.xml": {
         "1": 20
+      },
+      "pib-bj.xml": {
+        "1": 15
       },
       "pib-bo.xml": {
         "1": 11
       },
-      "pib-bj.xml": {
-        "1": 15
+      "pib-be.xml": {
+        "1": 6
       },
       "pib-vn.xml": {
         "1": 9
       }
     },
     ".//recipient-country/@code": {
-      "pib-be.xml": {
-        "BE": 3
-      },
       "pib-ne.xml": {
         "NE": 3
+      },
+      "pib-bj.xml": {
+        "BJ": 2
       },
       "pib-bo.xml": {
         "BO": 2
       },
-      "pib-bj.xml": {
-        "BJ": 2
+      "pib-be.xml": {
+        "BE": 3
       },
       "pib-vn.xml": {
         "VN": 2
       }
     },
-    ".//result/@type": {
-      "pib-be.xml": {
-        "2": 3
+    ".//related-activity/@type": {
+      "pib-ne.xml": {
+        "1": 3
       },
+      "pib-89.xml": {
+        "1": 1,
+        "2": 13
+      },
+      "pib-bj.xml": {
+        "1": 2
+      },
+      "pib-bo.xml": {
+        "1": 2
+      },
+      "pib-be.xml": {
+        "1": 3
+      },
+      "pib-vn.xml": {
+        "1": 2
+      }
+    },
+    ".//reporting-org/@type": {
+      "pib-ne.xml": {
+        "22": 3
+      },
+      "pib-89.xml": {
+        "22": 2
+      },
+      "pib-bj.xml": {
+        "22": 2
+      },
+      "pib-bo.xml": {
+        "22": 2
+      },
+      "pib-be.xml": {
+        "22": 3
+      },
+      "pib-vn.xml": {
+        "22": 2
+      }
+    },
+    ".//result/@type": {
       "pib-ne.xml": {
         "2": 3
+      },
+      "pib-bj.xml": {
+        "2": 2
       },
       "pib-bo.xml": {
         "2": 2
       },
-      "pib-bj.xml": {
-        "2": 2
+      "pib-be.xml": {
+        "2": 3
       },
       "pib-vn.xml": {
         "2": 2
       }
     },
     ".//result/indicator/@measure": {
-      "pib-be.xml": {
-        "1": 4
-      },
       "pib-ne.xml": {
         "2": 6,
         "1": 4
+      },
+      "pib-bj.xml": {
+        "2": 12
       },
       "pib-bo.xml": {
         "2": 8,
         "1": 2
       },
-      "pib-bj.xml": {
-        "2": 12
+      "pib-be.xml": {
+        "1": 4
       },
       "pib-vn.xml": {
         "2": 9
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pib-ne.xml": {
+        "11240": 1,
+        "15180": 1,
+        "11110": 1
+      },
+      "pib-89.xml": {
+        "91010": 1,
+        "99810": 1
+      },
+      "pib-bj.xml": {
+        "11110": 1,
+        "15180": 1
+      },
+      "pib-bo.xml": {
+        "11240": 1,
+        "12220": 1,
+        "12240": 1,
+        "15150": 2,
+        "15160": 2,
+        "11320": 1,
+        "11330": 1
+      },
+      "pib-be.xml": {
+        "99820": 3
+      },
+      "pib-vn.xml": {
+        "11240": 1,
+        "12261": 1,
+        "14081": 1,
+        "12240": 1,
+        "11220": 1,
+        "41081": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "pib-ne.xml": {
+        "1": 3
+      },
+      "pib-89.xml": {
+        "1": 2
+      },
+      "pib-bj.xml": {
+        "1": 2
+      },
+      "pib-bo.xml": {
+        "1": 9
+      },
+      "pib-be.xml": {
+        "1": 3
+      },
+      "pib-vn.xml": {
+        "1": 6
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "pib-ne.xml": {
+        "22": 33
+      },
+      "pib-89.xml": {
+        "22": 19,
+        "10": 14
+      },
+      "pib-bj.xml": {
+        "22": 22
+      },
+      "pib-bo.xml": {
+        "22": 22
+      },
+      "pib-be.xml": {
+        "22": 15
+      },
+      "pib-vn.xml": {
+        "22": 22
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "pib-ne.xml": {
+        "24": 18
+      },
+      "pib-89.xml": {
+        "22": 28
+      },
+      "pib-bj.xml": {
+        "24": 12
+      },
+      "pib-bo.xml": {
+        "24": 14
+      },
+      "pib-vn.xml": {
+        "24": 12
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "pib-ne.xml": {
+        "3": 15,
+        "2": 3,
+        "4": 15
+      },
+      "pib-89.xml": {
+        "4": 5,
+        "11": 18,
+        "1": 10
+      },
+      "pib-bj.xml": {
+        "3": 10,
+        "4": 10,
+        "2": 2
+      },
+      "pib-bo.xml": {
+        "3": 10,
+        "4": 10,
+        "2": 2
+      },
+      "pib-be.xml": {
+        "4": 15
+      },
+      "pib-vn.xml": {
+        "4": 10,
+        "3": 10,
+        "2": 2
+      }
+    },
+    ".//transaction/value/@currency": {
+      "pib-ne.xml": {
+        "EUR": 29
+      },
+      "pib-89.xml": {
+        "EUR": 23
+      },
+      "pib-bj.xml": {
+        "EUR": 18
+      },
+      "pib-bo.xml": {
+        "EUR": 19
+      },
+      "pib-be.xml": {
+        "EUR": 15
+      },
+      "pib-vn.xml": {
+        "EUR": 20
+      }
+    },
+    ".//@xml:lang": {
+      "pib-ne.xml": {
+        "fr": 49,
+        "en": 12,
+        "nl": 9,
+        "es": 1
+      },
+      "pib-89.xml": {
+        "fr": 15,
+        "en": 9,
+        "nl": 5
+      },
+      "pib-bj.xml": {
+        "nl": 7,
+        "en": 9,
+        "fr": 59
+      },
+      "pib-bo.xml": {
+        "fr": 12,
+        "en": 11,
+        "nl": 6,
+        "es": 19
+      },
+      "pib-be.xml": {
+        "fr": 31,
+        "en": 22,
+        "nl": 12
+      },
+      "pib-vn.xml": {
+        "fr": 8,
+        "en": 25,
+        "nl": 6
+      }
+    },
+    ".//document-link/@format": {
+      "pib-89.xml": {
+        "application/pdf": 1
+      },
+      "pib-bj.xml": {
+        "application/pdf": 1
+      },
+      "pib-bo.xml": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "pib-89.xml": {
+        "A08": 1,
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 1
+      },
+      "pib-bj.xml": {
+        "A08": 1
+      },
+      "pib-bo.xml": {
+        "A08": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "pib-89.xml": {
+        "fr": 1
+      },
+      "pib-bj.xml": {
+        "fr": 1
+      },
+      "pib-bo.xml": {
+        "fr": 1
+      }
+    },
+    ".//other-identifier/@type": {
+      "pib-89.xml": {
+        "A9": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pib-89.xml": {
+        "89": 2
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "pib-89.xml": {
+        "1": 2
       }
     }
   }

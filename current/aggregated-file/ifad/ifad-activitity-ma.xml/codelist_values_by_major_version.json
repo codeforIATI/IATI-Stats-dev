@@ -1,98 +1,101 @@
 {
   "2": {
     ".//@default-currency": {
-      "USD": 15
+      "USD": 16
     },
     ".//activity-date/@type": {
       "2": 15,
       "4": 12,
-      "3": 3
+      "1": 1,
+      "3": 4
     },
     ".//activity-status/@code": {
       "4": 12,
+      "1": 1,
       "2": 2,
       "3": 1
     },
     ".//collaboration-type/@code": {
-      "2": 15
+      "2": 16
     },
     ".//contact-info/@type": {
-      "1": 15
+      "1": 16
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 15
+      "C01": 16
     },
     ".//default-tied-status/@code": {
-      "5": 15
+      "5": 16
     },
     ".//document-link/@format": {
-      "text/html": 30,
+      "text/html": 32,
       "application/pdf": 2
     },
     ".//document-link/category/@code": {
-      "A12": 30,
+      "A12": 32,
       "A02": 2,
       "A07": 2,
       "A08": 2
     },
     ".//document-link/language/@code": {
-      "en": 32
+      "en": 34
     },
     ".//location/location-reach/@code": {
-      "1": 15
+      "1": 16
     },
     ".//location/exactness/@code": {
-      "1": 15
+      "1": 16
     },
     ".//other-identifier/@type": {
-      "A1": 15
+      "A1": 16
     },
     ".//participating-org/@role": {
-      "1": 15
+      "1": 16
     },
     ".//participating-org/@type": {
-      "40": 15
+      "40": 16
     },
     ".//recipient-country/@code": {
-      "MA": 15
+      "MA": 16
     },
     ".//reporting-org/@type": {
-      "40": 15
+      "40": 16
     },
     ".//sector[@vocabulary = '2']/@code": {
       "430": 3,
-      "311": 12
+      "311": 12,
+      "998": 1
     },
     ".//sector/@vocabulary": {
-      "2": 15
+      "2": 16
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 525
+      "C01": 528
     },
     ".//transaction/disbursement-channel/@code": {
-      "1": 525
+      "1": 528
     },
     ".//transaction/finance-type/@code": {
-      "421": 468,
+      "421": 471,
       "110": 57
     },
     ".//transaction/flow-type/@code": {
-      "20": 525
+      "20": 528
     },
     ".//transaction/provider-org/@type": {
-      "40": 525
+      "40": 528
     },
     ".//transaction/transaction-type/@code": {
       "2": 23,
-      "3": 502
+      "3": 505
     },
     ".//transaction/value/@currency": {
       "XDR": 486,
-      "EUR": 15,
+      "EUR": 18,
       "USD": 24
     },
     ".//@xml:lang": {
-      "en": 15
+      "en": 16
     }
   }
 }

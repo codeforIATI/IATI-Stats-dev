@@ -2,20 +2,20 @@
   "2": {
     ".//@default-currency": {
       "dai-activities.xml": {
-        "EUR": 35
+        "EUR": 37
       }
     },
     ".//activity-date/@type": {
       "dai-activities.xml": {
-        "2": 23,
+        "2": 25,
         "4": 12,
         "1": 16,
-        "3": 20
+        "3": 21
       }
     },
     ".//activity-status/@code": {
       "dai-activities.xml": {
-        "4": 11,
+        "4": 13,
         "2": 21,
         "3": 3
       }
@@ -23,92 +23,99 @@
     ".//activity-scope/@code": {
       "dai-activities.xml": {
         "4": 15,
-        "1": 9,
+        "1": 10,
         "2": 1,
-        "5": 2
+        "5": 2,
+        "8": 1
       }
     },
     ".//budget/@status": {
       "dai-activities.xml": {
         "1": 1,
-        "2": 44
+        "2": 46
       }
     },
     ".//budget/@type": {
       "dai-activities.xml": {
         "2": 15,
-        "1": 30
+        "1": 32
       }
     },
     ".//budget/value/@currency": {
       "dai-activities.xml": {
-        "EUR": 43
+        "EUR": 45
       }
     },
     ".//collaboration-type/@code": {
       "dai-activities.xml": {
-        "1": 35
+        "1": 37
       }
     },
     ".//contact-info/@type": {
       "dai-activities.xml": {
         "2": 6,
-        "1": 23
+        "1": 24
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "dai-activities.xml": {
-        "C01": 35
+        "C01": 37
       }
     },
     ".//default-aid-type/@vocabulary": {
       "dai-activities.xml": {
-        "1": 23
+        "1": 25
       }
     },
     ".//default-finance-type/@code": {
       "dai-activities.xml": {
-        "110": 35
+        "110": 37
       }
     },
     ".//default-flow-type/@code": {
       "dai-activities.xml": {
         "10": 9,
-        "30": 26
+        "30": 27,
+        "36": 1
       }
     },
     ".//default-tied-status/@code": {
       "dai-activities.xml": {
-        "5": 33,
+        "5": 35,
         "3": 2
       }
     },
     ".//description/@type": {
       "dai-activities.xml": {
-        "1": 30,
-        "2": 16,
-        "3": 9
+        "1": 31,
+        "2": 17,
+        "3": 10
       }
     },
     ".//document-link/@format": {
       "dai-activities.xml": {
-        "application/pdf": 9,
+        "application/pdf": 42,
         "application/http": 2,
-        "text/html": 1
+        "text/html": 1,
+        "application/A2L": 1
       }
     },
     ".//document-link/category/@code": {
       "dai-activities.xml": {
         "B01": 2,
-        "A08": 6,
-        "A07": 2,
-        "A05": 1,
+        "A08": 18,
+        "A07": 7,
+        "A05": 2,
+        "A02": 3,
+        "B09": 10,
+        "B06": 1,
+        "B02": 2,
         "B16": 1
       }
     },
     ".//document-link/language/@code": {
       "dai-activities.xml": {
-        "en": 9
+        "en": 34
       }
     },
     ".//location/administrative/@vocabulary": {
@@ -148,7 +155,7 @@
     },
     ".//other-identifier/@type": {
       "dai-activities.xml": {
-        "A1": 9,
+        "A1": 10,
         "A9": 1
       }
     },
@@ -161,16 +168,16 @@
     },
     ".//participating-org/@role": {
       "dai-activities.xml": {
-        "1": 32,
-        "2": 26,
-        "4": 50
+        "1": 33,
+        "2": 27,
+        "4": 55
       }
     },
     ".//participating-org/@type": {
       "dai-activities.xml": {
-        "21": 95,
+        "21": 101,
         "10": 4,
-        "22": 7,
+        "22": 8,
         "60": 1,
         "90": 1
       }
@@ -179,7 +186,8 @@
       "dai-activities.xml": {
         "1": 21,
         "9": 1,
-        "5": 1
+        "5": 1,
+        "10": 1
       }
     },
     ".//policy-marker/@significance": {
@@ -187,7 +195,7 @@
         "0": 6,
         "1": 12,
         "3": 3,
-        "2": 2
+        "2": 3
       }
     },
     ".//policy-marker/@vocabulary": {
@@ -205,7 +213,9 @@
         "SS": 6,
         "SO": 2,
         "MW": 1,
-        "LB": 2
+        "LB": 2,
+        "KE": 1,
+        "NL": 15
       }
     },
     ".//related-activity/@type": {
@@ -216,28 +226,32 @@
     },
     ".//reporting-org/@type": {
       "dai-activities.xml": {
-        "21": 35
+        "21": 37
       }
     },
     ".//result/@type": {
       "dai-activities.xml": {
-        "1": 85
+        "1": 94,
+        "2": 9
       }
     },
     ".//result/document-link/@format": {
       "dai-activities.xml": {
-        "text/html": 1
+        "text/html": 1,
+        "application/pdf": 9
       }
     },
     ".//result/document-link/category/@code": {
       "dai-activities.xml": {
-        "B16": 1
+        "B16": 1,
+        "A08": 9
       }
     },
     ".//result/indicator/@measure": {
       "dai-activities.xml": {
-        "1": 128,
-        "2": 4
+        "1": 140,
+        "5": 14,
+        "2": 5
       }
     },
     ".//result/indicator/reference/@vocabulary": {
@@ -252,8 +266,8 @@
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "dai-activities.xml": {
-        "72010": 33,
-        "72040": 11,
+        "72010": 26,
+        "72040": 12,
         "72050": 12,
         "73010": 2,
         "52010": 2,
@@ -262,7 +276,7 @@
         "12240": 1,
         "99810": 1,
         "43072": 1,
-        "14020": 1
+        "14020": 2
       }
     },
     ".//sector[@vocabulary = '7']/@code": {
@@ -272,8 +286,8 @@
     },
     ".//sector/@vocabulary": {
       "dai-activities.xml": {
-        "1": 67,
-        "99": 11,
+        "1": 62,
+        "99": 12,
         "3": 1,
         "7": 1
       }
@@ -283,29 +297,34 @@
         "2": 3
       }
     },
+    ".//transaction/recipient-country/@code": {
+      "dai-activities.xml": {
+        "NL": 15
+      }
+    },
     ".//transaction/provider-org/@type": {
       "dai-activities.xml": {
-        "21": 140,
-        "10": 7,
+        "21": 150,
+        "10": 9,
         "22": 1,
         "60": 1
       }
     },
     ".//transaction/receiver-org/@type": {
       "dai-activities.xml": {
-        "21": 125,
-        "22": 12
+        "21": 132,
+        "22": 12,
+        "10": 1
       }
     },
     ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "dai-activities.xml": {
-        "72010": 8,
         "72050": 5
       }
     },
     ".//transaction/sector/@vocabulary": {
       "dai-activities.xml": {
-        "1": 13
+        "1": 5
       }
     },
     ".//transaction/tied-status/@code": {
@@ -317,20 +336,20 @@
       "dai-activities.xml": {
         "2": 15,
         "11": 10,
-        "3": 67,
-        "1": 47,
-        "7": 4,
-        "4": 57
+        "3": 78,
+        "1": 49,
+        "7": 6,
+        "4": 66
       }
     },
     ".//transaction/value/@currency": {
       "dai-activities.xml": {
-        "EUR": 192
+        "EUR": 215
       }
     },
     ".//@xml:lang": {
       "dai-activities.xml": {
-        "en": 580,
+        "en": 616,
         "nl": 7,
         "aa": 1
       }

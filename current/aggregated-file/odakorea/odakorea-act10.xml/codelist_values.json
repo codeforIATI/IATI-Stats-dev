@@ -12,14 +12,14 @@
     "4": 10
   },
   ".//activity-scope/@code": {
-    "4": 37,
-    "3": 6
+    "3": 6,
+    "4": 37
   },
   ".//activity-status/@code": {
     "2": 30,
+    "3": 2,
     "1": 3,
-    "4": 8,
-    "3": 2
+    "4": 8
   },
   ".//budget/@status": {
     "1": 43
@@ -37,10 +37,10 @@
     "1": 43
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "B033": 2,
-    "C01": 11,
     "E01": 20,
+    "C01": 11,
     "D02": 9,
+    "B033": 2,
     "B03": 1
   },
   ".//default-finance-type/@code": {
@@ -50,8 +50,8 @@
     "10": 43
   },
   ".//default-tied-status/@code": {
-    "5": 4,
     "4": 29,
+    "5": 4,
     "3": 10
   },
   ".//description/@type": {
@@ -100,134 +100,134 @@
   },
   ".//recipient-country/@code": {
     "PH": 4,
-    "TJ": 7,
-    "AF": 3,
-    "ZM": 3,
-    "UG": 8,
-    "FJ": 7,
     "IN": 4,
     "MN": 11,
     "": 3,
-    "HN": 4,
-    "TL": 4,
-    "LA": 4,
-    "PG": 4,
-    "DO": 4,
-    "KG": 8,
-    "KH": 11,
-    "BI": 4,
-    "VN": 4,
     "GE": 4,
     "AZ": 4,
     "AM": 4,
     "UZ": 7,
+    "TJ": 7,
+    "KG": 8,
     "KZ": 4,
-    "PE": 3,
-    "PY": 3,
-    "RS": 3,
     "ID": 3,
-    "TN": 3
+    "PY": 3,
+    "KH": 11,
+    "PE": 3,
+    "TN": 3,
+    "RS": 3,
+    "UG": 8,
+    "FJ": 7,
+    "HN": 4,
+    "BI": 4,
+    "LA": 4,
+    "PG": 4,
+    "TL": 4,
+    "DO": 4,
+    "ZM": 4,
+    "AF": 3,
+    "VN": 4
   },
   ".//recipient-region/@vocabulary": {
-    "1": 20
+    "1": 21
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "998": 20
+    "998": 21
   },
   ".//reporting-org/@type": {
     "10": 43
   },
   ".//sector/@vocabulary": {
-    "1": 155
+    "1": 157
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "15154": 4,
+    "15126": 61,
     "43060": 4,
-    "11120": 18,
-    "24040": 7,
-    "99810": 4,
-    "15126": 60,
     "15140": 14,
+    "24040": 7,
+    "15154": 4,
     "31181": 40,
+    "11120": 19,
+    "99810": 4,
     "33120": 4
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "B033": 6,
+    "E01": 53,
     "C01": 33,
-    "E01": 51,
     "D02": 19,
+    "B033": 6,
     "B03": 3
   },
   ".//transaction/finance-type/@code": {
-    "110": 112
+    "110": 114
   },
   ".//transaction/flow-type/@code": {
-    "10": 112
+    "10": 114
   },
   ".//transaction/provider-org/@type": {
-    "10": 112
+    "10": 114
   },
   ".//transaction/recipient-country/@code": {
     "PH": 3,
-    "TJ": 5,
-    "AF": 2,
-    "ZM": 2,
-    "UG": 6,
-    "FJ": 5,
     "IN": 3,
     "MN": 8,
     "": 2,
-    "HN": 3,
-    "TL": 3,
-    "LA": 3,
-    "PG": 3,
-    "DO": 3,
-    "KG": 6,
-    "KH": 8,
-    "BI": 3,
-    "VN": 3,
     "GE": 3,
     "AZ": 3,
     "AM": 3,
     "UZ": 5,
+    "TJ": 5,
+    "KG": 6,
     "KZ": 3,
-    "PE": 2,
-    "PY": 2,
-    "RS": 2,
     "ID": 2,
-    "TN": 2
+    "PY": 2,
+    "KH": 8,
+    "PE": 2,
+    "TN": 2,
+    "RS": 2,
+    "UG": 6,
+    "FJ": 5,
+    "HN": 3,
+    "BI": 3,
+    "LA": 3,
+    "PG": 3,
+    "TL": 3,
+    "DO": 3,
+    "ZM": 3,
+    "AF": 2,
+    "VN": 3
   },
   ".//transaction/recipient-region/@vocabulary": {
-    "1": 14
+    "1": 15
   },
   ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "998": 14
+    "998": 15
   },
   ".//transaction/sector/@vocabulary": {
-    "1": 112
+    "1": 114
   },
   ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "15154": 3,
+    "15126": 44,
     "43060": 3,
-    "11120": 12,
-    "24040": 5,
-    "99810": 3,
-    "15126": 43,
     "15140": 10,
+    "24040": 5,
+    "15154": 3,
     "31181": 30,
+    "11120": 13,
+    "99810": 3,
     "33120": 3
   },
   ".//transaction/tied-status/@code": {
+    "4": 73,
     "5": 11,
-    "4": 71,
     "3": 30
   },
   ".//transaction/transaction-type/@code": {
     "1": 43,
     "2": 43,
-    "3": 26
+    "3": 28
   },
   ".//transaction/value/@currency": {
-    "KRW": 112
+    "KRW": 114
   }
 }

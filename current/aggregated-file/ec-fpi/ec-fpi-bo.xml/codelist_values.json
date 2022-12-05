@@ -3,20 +3,20 @@
     "EUR": 34
   },
   ".//@xml:lang": {
-    "en": 166
+    "en": 167
   },
   ".//activity-date/@type": {
     "1": 34,
     "2": 34,
     "3": 34,
-    "4": 30
+    "4": 31
   },
   ".//activity-scope/@code": {
     "1": 34
   },
   ".//activity-status/@code": {
-    "3": 31,
-    "2": 3
+    "3": 32,
+    "2": 2
   },
   ".//budget/@status": {
     "2": 34
@@ -35,9 +35,9 @@
     "1": 34
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "D01": 1,
     "D02": 23,
     "C01": 9,
-    "D01": 1,
     "B01": 1
   },
   ".//default-finance-type/@code": {
@@ -48,9 +48,9 @@
     "20": 1
   },
   ".//default-tied-status/@code": {
-    "3": 10,
+    "5": 5,
     "4": 1,
-    "5": 5
+    "3": 10
   },
   ".//description/@type": {
     "1": 34
@@ -72,9 +72,9 @@
     "90": 1
   },
   ".//policy-marker/@significance": {
+    "1": 13,
     "0": 357,
-    "2": 38,
-    "1": 13
+    "2": 38
   },
   ".//policy-marker/@vocabulary": {
     "1": 408
@@ -98,7 +98,7 @@
   },
   ".//related-activity/@type": {
     "1": 29,
-    "2": 18
+    "2": 19
   },
   ".//reporting-org/@type": {
     "15": 34
@@ -107,10 +107,10 @@
     "1": 37
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "31165": 3,
     "15151": 13,
-    "15220": 10,
+    "31165": 3,
     "15150": 8,
+    "15220": 10,
     "16063": 1,
     "15130": 1,
     "15160": 1
@@ -119,14 +119,14 @@
     "2": 12
   },
   ".//tag[@vocabulary = '2']/@code": {
+    "10": 1,
     "16": 9,
-    "5": 2,
-    "10": 1
+    "5": 2
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "D01": 2,
     "D02": 39,
     "C01": 14,
-    "D01": 2,
     "B01": 3
   },
   ".//transaction/disbursement-channel/@code": {
@@ -143,9 +143,9 @@
     "15": 68
   },
   ".//transaction/tied-status/@code": {
-    "3": 24,
+    "5": 11,
     "4": 3,
-    "5": 11
+    "3": 24
   },
   ".//transaction/transaction-type/@code": {
     "3": 45,

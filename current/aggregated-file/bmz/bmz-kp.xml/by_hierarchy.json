@@ -84,6 +84,15 @@
       "iati-activity/default-aid-type/@code": 8,
       "iati-activity/default-tied-status": 8,
       "iati-activity/default-tied-status/@code": 8,
+      "iati-activity/budget": 8,
+      "iati-activity/budget/period-start": 8,
+      "iati-activity/budget/period-start/@iso-date": 8,
+      "iati-activity/budget/period-end": 8,
+      "iati-activity/budget/period-end/@iso-date": 8,
+      "iati-activity/budget/value": 8,
+      "iati-activity/budget/value/@value-date": 8,
+      "iati-activity/budget/@status": 8,
+      "iati-activity/budget/@type": 8,
       "iati-activity/transaction": 8,
       "iati-activity/transaction/transaction-type": 8,
       "iati-activity/transaction/transaction-type/@code": 8,
@@ -99,7 +108,11 @@
       "iati-activity/@default-currency": 8,
       "iati-activity/@hierarchy": 8,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 8,
-      "iati-activity/@last-updated-datetime": 8
+      "iati-activity/@last-updated-datetime": 8,
+      "iati-activity/policy-marker": 5,
+      "iati-activity/policy-marker/@code": 5,
+      "iati-activity/policy-marker/@significance": 5,
+      "iati-activity/policy-marker/@vocabulary": 5
     },
     "elements_total": {
       "iati-activity": 8,
@@ -184,6 +197,15 @@
       "iati-activity/default-aid-type/@code": 8,
       "iati-activity/default-tied-status": 8,
       "iati-activity/default-tied-status/@code": 8,
+      "iati-activity/budget": 12,
+      "iati-activity/budget/period-start": 12,
+      "iati-activity/budget/period-start/@iso-date": 12,
+      "iati-activity/budget/period-end": 12,
+      "iati-activity/budget/period-end/@iso-date": 12,
+      "iati-activity/budget/value": 12,
+      "iati-activity/budget/value/@value-date": 12,
+      "iati-activity/budget/@status": 12,
+      "iati-activity/budget/@type": 12,
       "iati-activity/transaction": 16,
       "iati-activity/transaction/transaction-type": 16,
       "iati-activity/transaction/transaction-type/@code": 16,
@@ -199,9 +221,35 @@
       "iati-activity/@default-currency": 8,
       "iati-activity/@hierarchy": 8,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 8,
-      "iati-activity/@last-updated-datetime": 8
+      "iati-activity/@last-updated-datetime": 8,
+      "iati-activity/policy-marker": 44,
+      "iati-activity/policy-marker/@code": 44,
+      "iati-activity/policy-marker/@significance": 44,
+      "iati-activity/policy-marker/@vocabulary": 44
     },
-    "forwardlooking_currency_year": {},
+    "forwardlooking_currency_year": {
+      "2011": {
+        "EUR": 753300.0
+      },
+      "2012": {
+        "EUR": 1500000.0
+      },
+      "2013": {
+        "EUR": 208000.0
+      },
+      "2014": {
+        "EUR": 914827.7
+      },
+      "2016": {
+        "EUR": 1500000.0
+      },
+      "2019": {
+        "EUR": 748000.0
+      },
+      "2017": {
+        "EUR": 550000.0
+      }
+    },
     "forwardlooking_activities_current": {
       "2022": 0,
       "2023": 0,

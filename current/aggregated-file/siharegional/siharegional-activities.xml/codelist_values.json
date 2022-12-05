@@ -3,7 +3,7 @@
     "EUR": 2
   },
   ".//@xml:lang": {
-    "en": 131
+    "en": 129
   },
   ".//activity-date/@type": {
     "1": 2,
@@ -57,13 +57,12 @@
   },
   ".//document-link/@format": {
     "application/pdf": 3,
-    "application/3gpdash-qoe-report+xml": 1,
-    "application/3gpp-ims+xml": 2
+    "application/3gpp-ims+xml": 1
   },
   ".//document-link/category/@code": {
     "A01": 1,
     "B01": 2,
-    "A08": 3
+    "A08": 1
   },
   ".//document-link/language/@code": {
     "en": 3
@@ -128,11 +127,10 @@
     "2": 1
   },
   ".//result/document-link/@format": {
-    "application/3gpdash-qoe-report+xml": 1,
-    "application/3gpp-ims+xml": 2
+    "application/3gpp-ims+xml": 1
   },
   ".//result/document-link/category/@code": {
-    "A08": 3
+    "A08": 1
   },
   ".//result/indicator/@measure": {
     "1": 28
@@ -159,20 +157,20 @@
     "110": 8
   },
   ".//transaction/provider-org/@type": {
-    "23": 18,
-    "10": 3
+    "10": 3,
+    "23": 18
   },
   ".//transaction/receiver-org/@type": {
-    "23": 6,
     "22": 19,
-    "21": 3
+    "21": 3,
+    "23": 6
   },
   ".//transaction/transaction-type/@code": {
-    "11": 3,
     "3": 12,
-    "2": 7,
     "1": 4,
-    "4": 3
+    "4": 3,
+    "11": 3,
+    "2": 7
   },
   ".//transaction/value/@currency": {
     "EUR": 29

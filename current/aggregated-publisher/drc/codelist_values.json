@@ -6,7 +6,7 @@
     "USD": 1
   },
   ".//@xml:lang": {
-    "en": 983,
+    "en": 986,
     "da": 129,
     "": 11,
     "fr": 1
@@ -78,19 +78,19 @@
   },
   ".//document-link/@format": {
     "multipart/report": 1,
-    "application/pdf": 60,
+    "application/pdf": 66,
     "application/http": 2,
     "application/vnd.oma.poc.detailed-progress-report+xml": 1,
     "application/vnd.ms-excel": 2
   },
   ".//document-link/category/@code": {
-    "B01": 52,
+    "B01": 58,
     "B08": 4,
     "A08": 9,
     "A12": 2
   },
   ".//document-link/language/@code": {
-    "en": 61
+    "en": 62
   },
   ".//humanitarian-scope/@type": {
     "1": 1,
@@ -220,10 +220,10 @@
     "3": 3
   },
   ".//result/document-link/@format": {
-    "application/pdf": 4
+    "application/pdf": 9
   },
   ".//result/document-link/category/@code": {
-    "B01": 4
+    "B01": 9
   },
   ".//result/indicator/@measure": {
     "1": 181,
@@ -255,9 +255,12 @@
     "14020": 5,
     "16010": 1
   },
+  ".//transaction/disbursement-channel/@code": {
+    "2": 1
+  },
   ".//transaction/provider-org/@type": {
     "21": 141,
-    "10": 266,
+    "10": 268,
     "11": 163,
     "60": 18,
     "40": 56,
@@ -267,23 +270,23 @@
     "90": 1
   },
   ".//transaction/receiver-org/@type": {
-    "21": 609,
+    "21": 610,
     "10": 1,
     "70": 1,
     "15": 1
   },
   ".//transaction/transaction-type/@code": {
     "3": 109,
-    "4": 633,
-    "1": 249,
+    "4": 635,
+    "1": 251,
     "11": 266,
     "13": 8,
     "7": 1,
     "2": 6
   },
   ".//transaction/value/@currency": {
-    "GBP": 216,
-    "DKK": 200,
-    "EUR": 64
+    "GBP": 217,
+    "DKK": 202,
+    "EUR": 65
   }
 }

@@ -358,10 +358,6 @@
       "iati-activity/sector/@code": 855,
       "iati-activity/sector/@vocabulary": 855,
       "iati-activity/sector/@percentage": 855,
-      "iati-activity/humanitarian-scope": 83,
-      "iati-activity/humanitarian-scope/@type": 83,
-      "iati-activity/humanitarian-scope/@vocabulary": 83,
-      "iati-activity/humanitarian-scope/@code": 83,
       "iati-activity/collaboration-type": 855,
       "iati-activity/collaboration-type/@code": 855,
       "iati-activity/default-flow-type": 855,
@@ -397,10 +393,10 @@
       "iati-activity/transaction/provider-org/@provider-activity-id": 855,
       "iati-activity/transaction/provider-org/@type": 855,
       "iati-activity/transaction/receiver-org": 855,
-      "iati-activity/transaction/receiver-org/@ref": 855,
-      "iati-activity/transaction/receiver-org/@receiver-activity-id": 855,
       "iati-activity/transaction/receiver-org/narrative": 855,
       "iati-activity/transaction/@ref": 739,
+      "iati-activity/transaction/receiver-org/@ref": 855,
+      "iati-activity/transaction/receiver-org/@receiver-activity-id": 855,
       "iati-activity/document-link": 855,
       "iati-activity/document-link/title": 855,
       "iati-activity/document-link/title/narrative": 855,
@@ -427,7 +423,11 @@
       "iati-activity/recipient-region": 20,
       "iati-activity/recipient-region/@code": 20,
       "iati-activity/recipient-region/@vocabulary": 20,
-      "iati-activity/recipient-region/@percentage": 20
+      "iati-activity/recipient-region/@percentage": 20,
+      "iati-activity/humanitarian-scope": 83,
+      "iati-activity/humanitarian-scope/@type": 83,
+      "iati-activity/humanitarian-scope/@vocabulary": 83,
+      "iati-activity/humanitarian-scope/@code": 83
     },
     "elements_total": {
       "iati-activity": 855,
@@ -483,10 +483,6 @@
       "iati-activity/sector/@code": 4253,
       "iati-activity/sector/@vocabulary": 4253,
       "iati-activity/sector/@percentage": 4253,
-      "iati-activity/humanitarian-scope": 83,
-      "iati-activity/humanitarian-scope/@type": 83,
-      "iati-activity/humanitarian-scope/@vocabulary": 83,
-      "iati-activity/humanitarian-scope/@code": 83,
       "iati-activity/collaboration-type": 855,
       "iati-activity/collaboration-type/@code": 855,
       "iati-activity/default-flow-type": 855,
@@ -522,10 +518,10 @@
       "iati-activity/transaction/provider-org/@provider-activity-id": 4048,
       "iati-activity/transaction/provider-org/@type": 4048,
       "iati-activity/transaction/receiver-org": 4048,
-      "iati-activity/transaction/receiver-org/@ref": 855,
-      "iati-activity/transaction/receiver-org/@receiver-activity-id": 855,
       "iati-activity/transaction/receiver-org/narrative": 3193,
       "iati-activity/transaction/@ref": 2338,
+      "iati-activity/transaction/receiver-org/@ref": 855,
+      "iati-activity/transaction/receiver-org/@receiver-activity-id": 855,
       "iati-activity/document-link": 855,
       "iati-activity/document-link/title": 855,
       "iati-activity/document-link/title/narrative": 855,
@@ -552,17 +548,21 @@
       "iati-activity/recipient-region": 20,
       "iati-activity/recipient-region/@code": 20,
       "iati-activity/recipient-region/@vocabulary": 20,
-      "iati-activity/recipient-region/@percentage": 20
+      "iati-activity/recipient-region/@percentage": 20,
+      "iati-activity/humanitarian-scope": 83,
+      "iati-activity/humanitarian-scope/@type": 83,
+      "iati-activity/humanitarian-scope/@vocabulary": 83,
+      "iati-activity/humanitarian-scope/@code": 83
     },
     "forwardlooking_currency_year": {
-      "2015": {
-        "EUR": 709612170.03
-      },
       "2014": {
         "EUR": 780161575.23
       },
       "2016": {
         "EUR": 160176936.91
+      },
+      "2015": {
+        "EUR": 709612170.03
       },
       "2017": {
         "EUR": 48244090.58

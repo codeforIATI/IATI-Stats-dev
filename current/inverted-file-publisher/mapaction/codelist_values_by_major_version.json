@@ -118,60 +118,60 @@
   },
   "2": {
     ".//@default-currency": {
+      "mapaction-mw.xml": {
+        "GBP": 1
+      },
       "mapaction-gb.xml": {
         "GBP": 1
       },
-      "mapaction-mw.xml": {
+      "mapaction-mg.xml": {
         "GBP": 1
       },
       "mapaction-998.xml": {
         "GBP": 7
-      },
-      "mapaction-mg.xml": {
-        "GBP": 1
       }
     },
     ".//activity-date/@type": {
+      "mapaction-mw.xml": {
+        "2": 1,
+        "4": 1
+      },
       "mapaction-gb.xml": {
         "2": 1,
         "4": 1
       },
-      "mapaction-mw.xml": {
-        "2": 1,
-        "4": 1
+      "mapaction-mg.xml": {
+        "2": 1
       },
       "mapaction-998.xml": {
         "2": 7,
         "1": 1,
         "3": 7,
         "4": 1
-      },
-      "mapaction-mg.xml": {
-        "2": 1
       }
     },
     ".//activity-status/@code": {
+      "mapaction-mw.xml": {
+        "4": 1
+      },
       "mapaction-gb.xml": {
         "4": 1
       },
-      "mapaction-mw.xml": {
+      "mapaction-mg.xml": {
         "4": 1
       },
       "mapaction-998.xml": {
         "4": 4,
         "2": 2,
         "3": 1
-      },
-      "mapaction-mg.xml": {
-        "4": 1
       }
     },
     ".//budget/@status": {
-      "mapaction-gb.xml": {
-        "2": 1
-      },
       "mapaction-mw.xml": {
         "1": 1
+      },
+      "mapaction-gb.xml": {
+        "2": 1
       },
       "mapaction-998.xml": {
         "2": 19,
@@ -179,11 +179,11 @@
       }
     },
     ".//budget/@type": {
-      "mapaction-gb.xml": {
-        "1": 1
-      },
       "mapaction-mw.xml": {
         "2": 1
+      },
+      "mapaction-gb.xml": {
+        "1": 1
       },
       "mapaction-998.xml": {
         "1": 11,
@@ -191,10 +191,10 @@
       }
     },
     ".//budget/value/@currency": {
-      "mapaction-gb.xml": {
+      "mapaction-mw.xml": {
         "GBP": 1
       },
-      "mapaction-mw.xml": {
+      "mapaction-gb.xml": {
         "GBP": 1
       },
       "mapaction-998.xml": {
@@ -204,112 +204,112 @@
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "mapaction-gb.xml": {
-        "B01": 1
-      },
       "mapaction-mw.xml": {
         "B01": 1
       },
-      "mapaction-998.xml": {
-        "C01": 7
+      "mapaction-gb.xml": {
+        "B01": 1
       },
       "mapaction-mg.xml": {
         "D02": 1
+      },
+      "mapaction-998.xml": {
+        "C01": 7
       }
     },
     ".//default-flow-type/@code": {
+      "mapaction-mw.xml": {
+        "10": 1
+      },
       "mapaction-gb.xml": {
         "10": 1
       },
-      "mapaction-mw.xml": {
-        "10": 1
+      "mapaction-mg.xml": {
+        "30": 1
       },
       "mapaction-998.xml": {
         "10": 5,
         "30": 2
-      },
-      "mapaction-mg.xml": {
-        "30": 1
       }
     },
     ".//description/@type": {
+      "mapaction-mw.xml": {
+        "1": 1
+      },
       "mapaction-gb.xml": {
         "1": 1
       },
-      "mapaction-mw.xml": {
+      "mapaction-mg.xml": {
         "1": 1
       },
       "mapaction-998.xml": {
         "1": 6,
         "2": 6,
         "3": 4
-      },
-      "mapaction-mg.xml": {
-        "1": 1
       }
     },
     ".//participating-org/@role": {
+      "mapaction-mw.xml": {
+        "1": 1
+      },
       "mapaction-gb.xml": {
         "4": 1
       },
-      "mapaction-mw.xml": {
-        "1": 1
+      "mapaction-mg.xml": {
+        "2": 1
       },
       "mapaction-998.xml": {
         "4": 7,
         "1": 7,
         "2": 2
-      },
-      "mapaction-mg.xml": {
-        "2": 1
       }
     },
     ".//participating-org/@type": {
+      "mapaction-mw.xml": {
+        "15": 1
+      },
       "mapaction-gb.xml": {
         "21": 1
       },
-      "mapaction-mw.xml": {
-        "15": 1
+      "mapaction-mg.xml": {
+        "21": 1
       },
       "mapaction-998.xml": {
         "21": 8,
         "10": 6,
         "40": 2
-      },
-      "mapaction-mg.xml": {
-        "21": 1
       }
     },
     ".//recipient-country/@code": {
-      "mapaction-gb.xml": {
-        "GB": 1
-      },
       "mapaction-mw.xml": {
         "MW": 1
+      },
+      "mapaction-gb.xml": {
+        "GB": 1
       },
       "mapaction-mg.xml": {
         "MG": 1
       }
     },
     ".//reporting-org/@type": {
+      "mapaction-mw.xml": {
+        "21": 1
+      },
       "mapaction-gb.xml": {
         "21": 1
       },
-      "mapaction-mw.xml": {
+      "mapaction-mg.xml": {
         "21": 1
       },
       "mapaction-998.xml": {
         "21": 7
-      },
-      "mapaction-mg.xml": {
-        "21": 1
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "mapaction-gb.xml": {
+      "mapaction-mw.xml": {
         "72050": 1
       },
-      "mapaction-mw.xml": {
+      "mapaction-gb.xml": {
         "72050": 1
       },
       "mapaction-998.xml": {
@@ -319,14 +319,63 @@
       }
     },
     ".//sector/@vocabulary": {
-      "mapaction-gb.xml": {
+      "mapaction-mw.xml": {
         "1": 1
       },
-      "mapaction-mw.xml": {
+      "mapaction-gb.xml": {
         "1": 1
       },
       "mapaction-998.xml": {
         "1": 11
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "mapaction-mw.xml": {
+        "1": 1,
+        "4": 3
+      },
+      "mapaction-gb.xml": {
+        "1": 7,
+        "4": 7,
+        "3": 1
+      },
+      "mapaction-mg.xml": {
+        "4": 1
+      },
+      "mapaction-998.xml": {
+        "1": 79,
+        "4": 17,
+        "7": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "mapaction-mw.xml": {
+        "GBP": 4
+      },
+      "mapaction-gb.xml": {
+        "GBP": 15
+      },
+      "mapaction-mg.xml": {
+        "GBP": 1
+      },
+      "mapaction-998.xml": {
+        "GBP": 33,
+        "USD": 47,
+        "EUR": 14
+      }
+    },
+    ".//@xml:lang": {
+      "mapaction-mw.xml": {
+        "en": 8
+      },
+      "mapaction-gb.xml": {
+        "en": 25
+      },
+      "mapaction-mg.xml": {
+        "en": 7
+      },
+      "mapaction-998.xml": {
+        "en": 43
       }
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -382,66 +431,32 @@
         "5": 1
       }
     },
-    ".//transaction/transaction-type/@code": {
-      "mapaction-gb.xml": {
-        "1": 7,
-        "4": 7,
-        "3": 1
-      },
-      "mapaction-mw.xml": {
-        "1": 1,
-        "4": 3
+    ".//default-aid-type/@vocabulary": {
+      "mapaction-mg.xml": {
+        "1": 1
       },
       "mapaction-998.xml": {
-        "1": 79,
-        "4": 17,
-        "7": 1
-      },
+        "1": 7
+      }
+    },
+    ".//default-tied-status/@code": {
+      "mapaction-mg.xml": {
+        "5": 1
+      }
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "mapaction-mg.xml": {
+        "1": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
       "mapaction-mg.xml": {
         "4": 1
-      }
-    },
-    ".//transaction/value/@currency": {
-      "mapaction-gb.xml": {
-        "GBP": 15
-      },
-      "mapaction-mw.xml": {
-        "GBP": 4
-      },
-      "mapaction-998.xml": {
-        "GBP": 33,
-        "USD": 47,
-        "EUR": 14
-      },
-      "mapaction-mg.xml": {
-        "GBP": 1
-      }
-    },
-    ".//@xml:lang": {
-      "mapaction-gb.xml": {
-        "en": 25
-      },
-      "mapaction-mw.xml": {
-        "en": 8
-      },
-      "mapaction-998.xml": {
-        "en": 43
-      },
-      "mapaction-mg.xml": {
-        "en": 7
       }
     },
     ".//activity-scope/@code": {
       "mapaction-998.xml": {
         "1": 4
-      }
-    },
-    ".//default-aid-type/@vocabulary": {
-      "mapaction-998.xml": {
-        "1": 7
-      },
-      "mapaction-mg.xml": {
-        "1": 1
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -460,21 +475,6 @@
     ".//recipient-region/@vocabulary": {
       "mapaction-998.xml": {
         "1": 49
-      }
-    },
-    ".//default-tied-status/@code": {
-      "mapaction-mg.xml": {
-        "5": 1
-      }
-    },
-    ".//transaction/aid-type/@vocabulary": {
-      "mapaction-mg.xml": {
-        "1": 1
-      }
-    },
-    ".//transaction/disbursement-channel/@code": {
-      "mapaction-mg.xml": {
-        "4": 1
       }
     }
   }

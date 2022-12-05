@@ -1,10 +1,7 @@
 {
   "2": {
     ".//@default-currency": {
-      "troc-activities.xml": {
-        "GBP": 5
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "GBP": 1
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -12,15 +9,9 @@
       }
     },
     ".//activity-date/@type": {
-      "troc-activities.xml": {
-        "2": 5,
-        "4": 1,
-        "3": 4
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "2": 1,
-        "3": 1,
-        "4": 1
+        "3": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "2": 5,
@@ -29,10 +20,7 @@
       }
     },
     ".//activity-status/@code": {
-      "troc-activities.xml": {
-        "2": 5
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "2": 1
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -40,12 +28,8 @@
       }
     },
     ".//budget/@status": {
-      "troc-activities.xml": {
-        "1": 7,
+      "troc-trocaire-gb-dataset.xml": {
         "2": 3
-      },
-      "troc-iati-gb-active-projects.xml": {
-        "2": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "1": 7,
@@ -53,12 +37,8 @@
       }
     },
     ".//budget/@type": {
-      "troc-activities.xml": {
-        "2": 5,
-        "1": 5
-      },
-      "troc-iati-gb-active-projects.xml": {
-        "1": 1
+      "troc-trocaire-gb-dataset.xml": {
+        "1": 3
       },
       "troc-iatiactivityarchivegb.xml": {
         "2": 5,
@@ -66,22 +46,15 @@
       }
     },
     ".//budget/value/@currency": {
-      "troc-activities.xml": {
-        "GBP": 11
-      },
-      "troc-iati-gb-active-projects.xml": {
-        "GBP": 1
+      "troc-trocaire-gb-dataset.xml": {
+        "GBP": 3
       },
       "troc-iatiactivityarchivegb.xml": {
         "GBP": 11
       }
     },
     ".//collaboration-type/@code": {
-      "troc-activities.xml": {
-        "1": 4,
-        "3": 1
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "1": 1
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -90,10 +63,7 @@
       }
     },
     ".//contact-info/@type": {
-      "troc-activities.xml": {
-        "1": 3
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "1": 1
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -101,10 +71,7 @@
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "troc-activities.xml": {
-        "C01": 5
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "C01": 1
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -112,10 +79,7 @@
       }
     },
     ".//default-finance-type/@code": {
-      "troc-activities.xml": {
-        "110": 5
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "110": 1
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -123,10 +87,7 @@
       }
     },
     ".//default-flow-type/@code": {
-      "troc-activities.xml": {
-        "10": 5
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "10": 1
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -134,10 +95,7 @@
       }
     },
     ".//default-tied-status/@code": {
-      "troc-activities.xml": {
-        "5": 5
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "5": 1
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -145,11 +103,7 @@
       }
     },
     ".//description/@type": {
-      "troc-activities.xml": {
-        "1": 5,
-        "2": 1
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "1": 1,
         "2": 1
       },
@@ -158,37 +112,8 @@
         "2": 1
       }
     },
-    ".//document-link/@format": {
-      "troc-activities.xml": {
-        "text/html": 6
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "text/html": 6
-      }
-    },
-    ".//document-link/category/@code": {
-      "troc-activities.xml": {
-        "B01": 6
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "B01": 6
-      }
-    },
-    ".//document-link/language/@code": {
-      "troc-activities.xml": {
-        "en": 6
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "en": 6
-      }
-    },
     ".//participating-org/@role": {
-      "troc-activities.xml": {
-        "1": 7,
-        "4": 9,
-        "2": 2
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "1": 1,
         "3": 1,
         "2": 1,
@@ -201,13 +126,7 @@
       }
     },
     ".//participating-org/@type": {
-      "troc-activities.xml": {
-        "10": 5,
-        "21": 4,
-        "70": 2,
-        "22": 7
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "10": 1,
         "70": 1,
         "21": 2
@@ -220,12 +139,7 @@
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "troc-activities.xml": {
-        "1": 1,
-        "2": 3,
-        "7": 1
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "6": 1
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -235,10 +149,7 @@
       }
     },
     ".//policy-marker/@significance": {
-      "troc-activities.xml": {
-        "1": 5
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "1": 1
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -246,10 +157,7 @@
       }
     },
     ".//policy-marker/@vocabulary": {
-      "troc-activities.xml": {
-        "1": 5
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "1": 1
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -257,14 +165,7 @@
       }
     },
     ".//recipient-country/@code": {
-      "troc-activities.xml": {
-        "CD": 1,
-        "MW": 2,
-        "ET": 1,
-        "KE": 1,
-        "ZW": 1
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "SS": 1
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -276,39 +177,15 @@
       }
     },
     ".//reporting-org/@type": {
-      "troc-activities.xml": {
-        "21": 5
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "21": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "21": 5
       }
     },
-    ".//result/@type": {
-      "troc-activities.xml": {
-        "2": 1
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "2": 1
-      }
-    },
-    ".//result/indicator/@measure": {
-      "troc-activities.xml": {
-        "1": 1
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "1": 1
-      }
-    },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "troc-activities.xml": {
-        "15150": 1,
-        "31120": 3,
-        "43040": 1
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "31120": 1,
         "15170": 1,
         "74010": 1
@@ -320,10 +197,7 @@
       }
     },
     ".//sector/@vocabulary": {
-      "troc-activities.xml": {
-        "1": 5
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "1": 3
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -331,12 +205,7 @@
       }
     },
     ".//transaction/provider-org/@type": {
-      "troc-activities.xml": {
-        "10": 3,
-        "70": 11,
-        "21": 49
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "70": 3
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -345,11 +214,7 @@
       }
     },
     ".//transaction/receiver-org/@type": {
-      "troc-activities.xml": {
-        "21": 11,
-        "22": 52
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "21": 3
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -357,14 +222,7 @@
       }
     },
     ".//transaction/transaction-type/@code": {
-      "troc-activities.xml": {
-        "11": 2,
-        "1": 8,
-        "2": 17,
-        "4": 43,
-        "3": 36
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "2": 1,
         "3": 2
       },
@@ -377,10 +235,7 @@
       }
     },
     ".//transaction/value/@currency": {
-      "troc-activities.xml": {
-        "GBP": 106
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "GBP": 3
       },
       "troc-iatiactivityarchivegb.xml": {
@@ -388,14 +243,36 @@
       }
     },
     ".//@xml:lang": {
-      "troc-activities.xml": {
-        "en": 11
-      },
-      "troc-iati-gb-active-projects.xml": {
+      "troc-trocaire-gb-dataset.xml": {
         "en": 1
       },
       "troc-iatiactivityarchivegb.xml": {
         "en": 5
+      }
+    },
+    ".//document-link/@format": {
+      "troc-iatiactivityarchivegb.xml": {
+        "text/html": 6
+      }
+    },
+    ".//document-link/category/@code": {
+      "troc-iatiactivityarchivegb.xml": {
+        "B01": 6
+      }
+    },
+    ".//document-link/language/@code": {
+      "troc-iatiactivityarchivegb.xml": {
+        "en": 6
+      }
+    },
+    ".//result/@type": {
+      "troc-iatiactivityarchivegb.xml": {
+        "2": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "troc-iatiactivityarchivegb.xml": {
+        "1": 1
       }
     }
   }

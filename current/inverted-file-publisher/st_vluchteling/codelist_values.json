@@ -1,26 +1,26 @@
 {
   ".//@default-currency": {
     "EUR": {
-      "st_vluchteling-activities.xml": 70
+      "st_vluchteling-activities.xml": 73
     }
   },
   ".//@xml:lang": {
     "en": {
-      "st_vluchteling-activities.xml": 506
+      "st_vluchteling-activities.xml": 535
     },
     "nl": {
-      "st_vluchteling-activities.xml": 80
+      "st_vluchteling-activities.xml": 83
     }
   },
   ".//activity-date/@type": {
     "2": {
-      "st_vluchteling-activities.xml": 69
+      "st_vluchteling-activities.xml": 72
     },
     "3": {
-      "st_vluchteling-activities.xml": 39
+      "st_vluchteling-activities.xml": 41
     },
     "4": {
-      "st_vluchteling-activities.xml": 36
+      "st_vluchteling-activities.xml": 37
     },
     "1": {
       "st_vluchteling-activities.xml": 2
@@ -31,41 +31,41 @@
       "st_vluchteling-activities.xml": 12
     },
     "3": {
-      "st_vluchteling-activities.xml": 33
+      "st_vluchteling-activities.xml": 34
     },
     "2": {
-      "st_vluchteling-activities.xml": 25
+      "st_vluchteling-activities.xml": 27
     }
   },
   ".//budget/@status": {
     "2": {
-      "st_vluchteling-activities.xml": 86
+      "st_vluchteling-activities.xml": 89
     },
     "1": {
-      "st_vluchteling-activities.xml": 3
+      "st_vluchteling-activities.xml": 7
     }
   },
   ".//budget/@type": {
     "1": {
-      "st_vluchteling-activities.xml": 62
+      "st_vluchteling-activities.xml": 68
     },
     "2": {
-      "st_vluchteling-activities.xml": 20
+      "st_vluchteling-activities.xml": 21
     }
   },
   ".//budget/value/@currency": {
     "EUR": {
-      "st_vluchteling-activities.xml": 75
+      "st_vluchteling-activities.xml": 82
     }
   },
   ".//collaboration-type/@code": {
     "1": {
-      "st_vluchteling-activities.xml": 70
+      "st_vluchteling-activities.xml": 73
     }
   },
   ".//contact-info/@type": {
     "1": {
-      "st_vluchteling-activities.xml": 40
+      "st_vluchteling-activities.xml": 42
     },
     "2": {
       "st_vluchteling-activities.xml": 11
@@ -73,7 +73,7 @@
   },
   ".//default-aid-type/@vocabulary": {
     "1": {
-      "st_vluchteling-activities.xml": 46
+      "st_vluchteling-activities.xml": 49
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -81,12 +81,12 @@
       "st_vluchteling-activities.xml": 10
     },
     "C01": {
-      "st_vluchteling-activities.xml": 60
+      "st_vluchteling-activities.xml": 63
     }
   },
   ".//default-finance-type/@code": {
     "110": {
-      "st_vluchteling-activities.xml": 70
+      "st_vluchteling-activities.xml": 73
     }
   },
   ".//default-flow-type/@code": {
@@ -94,23 +94,23 @@
       "st_vluchteling-activities.xml": 10
     },
     "30": {
-      "st_vluchteling-activities.xml": 60
+      "st_vluchteling-activities.xml": 63
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "st_vluchteling-activities.xml": 70
+      "st_vluchteling-activities.xml": 73
     }
   },
   ".//description/@type": {
     "1": {
-      "st_vluchteling-activities.xml": 59
+      "st_vluchteling-activities.xml": 62
     },
     "2": {
-      "st_vluchteling-activities.xml": 48
+      "st_vluchteling-activities.xml": 49
     },
     "3": {
-      "st_vluchteling-activities.xml": 13
+      "st_vluchteling-activities.xml": 14
     },
     "4": {
       "st_vluchteling-activities.xml": 1
@@ -121,6 +121,9 @@
       "st_vluchteling-activities.xml": 6
     },
     "application/http": {
+      "st_vluchteling-activities.xml": 1
+    },
+    "application/1d-interleaved-parityfec": {
       "st_vluchteling-activities.xml": 1
     }
   },
@@ -133,11 +136,14 @@
     },
     "A08": {
       "st_vluchteling-activities.xml": 1
+    },
+    "A02": {
+      "st_vluchteling-activities.xml": 1
     }
   },
   ".//document-link/language/@code": {
     "en": {
-      "st_vluchteling-activities.xml": 3
+      "st_vluchteling-activities.xml": 4
     }
   },
   ".//humanitarian-scope/@type": {
@@ -210,7 +216,7 @@
   },
   ".//location/administrative/@vocabulary": {
     "G1": {
-      "st_vluchteling-activities.xml": 12
+      "st_vluchteling-activities.xml": 13
     },
     "A1": {
       "st_vluchteling-activities.xml": 5
@@ -218,7 +224,7 @@
   },
   ".//location/exactness/@code": {
     "2": {
-      "st_vluchteling-activities.xml": 29
+      "st_vluchteling-activities.xml": 30
     }
   },
   ".//location/feature-designation/@code": {
@@ -242,7 +248,7 @@
       "st_vluchteling-activities.xml": 8
     },
     "G1": {
-      "st_vluchteling-activities.xml": 17
+      "st_vluchteling-activities.xml": 18
     }
   },
   ".//location/location-reach/@code": {
@@ -255,26 +261,29 @@
   },
   ".//participating-org/@crs-channel-code": {
     "21000": {
+      "st_vluchteling-activities.xml": 4
+    },
+    "11000": {
       "st_vluchteling-activities.xml": 1
     }
   },
   ".//participating-org/@role": {
     "1": {
-      "st_vluchteling-activities.xml": 72
+      "st_vluchteling-activities.xml": 76
     },
     "4": {
-      "st_vluchteling-activities.xml": 71
+      "st_vluchteling-activities.xml": 75
     },
     "2": {
-      "st_vluchteling-activities.xml": 70
+      "st_vluchteling-activities.xml": 73
     }
   },
   ".//participating-org/@type": {
     "21": {
-      "st_vluchteling-activities.xml": 189
+      "st_vluchteling-activities.xml": 199
     },
     "10": {
-      "st_vluchteling-activities.xml": 2
+      "st_vluchteling-activities.xml": 3
     },
     "22": {
       "st_vluchteling-activities.xml": 14
@@ -305,6 +314,9 @@
     },
     "9": {
       "st_vluchteling-activities.xml": 5
+    },
+    "3": {
+      "st_vluchteling-activities.xml": 1
     }
   },
   ".//recipient-country/@code": {
@@ -324,7 +336,7 @@
       "st_vluchteling-activities.xml": 6
     },
     "NG": {
-      "st_vluchteling-activities.xml": 4
+      "st_vluchteling-activities.xml": 5
     },
     "YE": {
       "st_vluchteling-activities.xml": 10
@@ -342,7 +354,7 @@
       "st_vluchteling-activities.xml": 1
     },
     "NL": {
-      "st_vluchteling-activities.xml": 1
+      "st_vluchteling-activities.xml": 2
     },
     "CD": {
       "st_vluchteling-activities.xml": 3
@@ -367,6 +379,9 @@
     },
     "PL": {
       "st_vluchteling-activities.xml": 1
+    },
+    "PK": {
+      "st_vluchteling-activities.xml": 1
     }
   },
   ".//recipient-region/@vocabulary": {
@@ -390,7 +405,7 @@
   },
   ".//related-activity/@type": {
     "1": {
-      "st_vluchteling-activities.xml": 12
+      "st_vluchteling-activities.xml": 13
     },
     "2": {
       "st_vluchteling-activities.xml": 3
@@ -398,15 +413,15 @@
   },
   ".//reporting-org/@type": {
     "21": {
-      "st_vluchteling-activities.xml": 70
+      "st_vluchteling-activities.xml": 73
     }
   },
   ".//result/@type": {
     "1": {
-      "st_vluchteling-activities.xml": 282
+      "st_vluchteling-activities.xml": 287
     },
     "2": {
-      "st_vluchteling-activities.xml": 7
+      "st_vluchteling-activities.xml": 11
     }
   },
   ".//result/document-link/@format": {
@@ -427,10 +442,10 @@
   },
   ".//result/indicator/@measure": {
     "1": {
-      "st_vluchteling-activities.xml": 463
+      "st_vluchteling-activities.xml": 472
     },
     "2": {
-      "st_vluchteling-activities.xml": 46
+      "st_vluchteling-activities.xml": 50
     }
   },
   ".//result/indicator/reference/@vocabulary": {
@@ -448,7 +463,7 @@
       "st_vluchteling-activities.xml": 64
     },
     "1": {
-      "st_vluchteling-activities.xml": 101
+      "st_vluchteling-activities.xml": 105
     },
     "2": {
       "st_vluchteling-activities.xml": 4
@@ -456,10 +471,10 @@
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "72010": {
-      "st_vluchteling-activities.xml": 54
+      "st_vluchteling-activities.xml": 55
     },
     "72050": {
-      "st_vluchteling-activities.xml": 19
+      "st_vluchteling-activities.xml": 20
     },
     "72040": {
       "st_vluchteling-activities.xml": 8
@@ -471,7 +486,7 @@
       "st_vluchteling-activities.xml": 1
     },
     "99820": {
-      "st_vluchteling-activities.xml": 1
+      "st_vluchteling-activities.xml": 2
     },
     "73010": {
       "st_vluchteling-activities.xml": 1
@@ -480,7 +495,7 @@
       "st_vluchteling-activities.xml": 2
     },
     "72011": {
-      "st_vluchteling-activities.xml": 6
+      "st_vluchteling-activities.xml": 7
     },
     "13020": {
       "st_vluchteling-activities.xml": 2
@@ -590,16 +605,16 @@
   },
   ".//transaction/provider-org/@type": {
     "21": {
-      "st_vluchteling-activities.xml": 418
+      "st_vluchteling-activities.xml": 434
     },
     "10": {
-      "st_vluchteling-activities.xml": 5
+      "st_vluchteling-activities.xml": 7
     },
     "22": {
       "st_vluchteling-activities.xml": 36
     },
     "11": {
-      "st_vluchteling-activities.xml": 1
+      "st_vluchteling-activities.xml": 2
     },
     "15": {
       "st_vluchteling-activities.xml": 2
@@ -610,24 +625,24 @@
   },
   ".//transaction/receiver-org/@type": {
     "21": {
-      "st_vluchteling-activities.xml": 459
+      "st_vluchteling-activities.xml": 478
     }
   },
   ".//transaction/transaction-type/@code": {
     "1": {
-      "st_vluchteling-activities.xml": 136
+      "st_vluchteling-activities.xml": 143
     },
     "4": {
-      "st_vluchteling-activities.xml": 25
+      "st_vluchteling-activities.xml": 27
     },
     "3": {
-      "st_vluchteling-activities.xml": 186
+      "st_vluchteling-activities.xml": 191
     },
     "11": {
-      "st_vluchteling-activities.xml": 88
+      "st_vluchteling-activities.xml": 92
     },
     "2": {
-      "st_vluchteling-activities.xml": 93
+      "st_vluchteling-activities.xml": 96
     },
     "7": {
       "st_vluchteling-activities.xml": 6
@@ -635,7 +650,7 @@
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "st_vluchteling-activities.xml": 446
+      "st_vluchteling-activities.xml": 467
     }
   }
 }

@@ -51,21 +51,21 @@
     "PE": 1,
     "VN": 1,
     "GB": 13,
-    "TH": 8,
-    "NG": 4,
+    "MM": 1,
+    "GM": 4,
     "BD": 2,
+    "TH": 8,
     "US": 4,
     "TZ": 2,
     "GN": 1,
-    "RW": 3,
+    "NG": 4,
     "CD": 4,
     "BF": 3,
     "KH": 5,
     "NE": 1,
+    "RW": 3,
     "NL": 3,
-    "GM": 3,
-    "ID": 1,
-    "MM": 1
+    "ID": 1
   },
   ".//reporting-org/@type": {
     "80": 4
@@ -76,64 +76,64 @@
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "15162": 1,
-    "12262": 1,
-    "11420": 1
+    "11420": 1,
+    "12262": 1
   },
   ".//sector[@vocabulary = '7']/@code": {
     "1": 1
   },
   ".//transaction/aid-type/@vocabulary": {
-    "1": 63
+    "1": 64
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "A01": 8,
-    "C01": 55
+    "C01": 56
   },
   ".//transaction/disbursement-channel/@code": {
-    "2": 55
+    "2": 56
   },
   ".//transaction/finance-type/@code": {
-    "110": 63
+    "110": 64
   },
   ".//transaction/flow-type/@code": {
-    "10": 63
+    "10": 64
   },
   ".//transaction/provider-org/@type": {
     "10": 16,
     "80": 26
   },
   ".//transaction/receiver-org/@type": {
-    "80": 68,
+    "80": 69,
     "73": 4,
     "10": 3
   },
   ".//transaction/recipient-country/@code": {
+    "GM": 4,
     "GB": 11,
-    "TH": 8,
-    "NG": 4,
     "BD": 2,
+    "TH": 8,
     "US": 4,
     "TZ": 2,
     "GN": 1,
-    "RW": 3,
+    "NG": 4,
     "CD": 4,
     "BF": 3,
     "KH": 5,
     "NE": 1,
+    "RW": 3,
     "NL": 3,
-    "GM": 3,
     "ID": 1
   },
   ".//transaction/tied-status/@code": {
-    "5": 62,
+    "5": 63,
     "4": 1
   },
   ".//transaction/transaction-type/@code": {
     "4": 20,
-    "3": 67,
+    "3": 68,
     "1": 27
   },
   ".//transaction/value/@currency": {
-    "GBP": 112
+    "GBP": 113
   }
 }

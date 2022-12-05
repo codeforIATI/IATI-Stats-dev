@@ -11,8 +11,8 @@
     },
     ".//activity-status/@code": {
       "1": 4,
-      "4": 2,
       "2": 8,
+      "4": 2,
       "3": 1
     },
     ".//activity-scope/@code": {
@@ -37,10 +37,10 @@
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 6,
-      "E01": 4,
-      "D01": 2,
       "B032": 2,
-      "B021": 1
+      "E01": 4,
+      "B021": 1,
+      "D01": 2
     },
     ".//default-finance-type/@code": {
       "110": 15
@@ -98,91 +98,91 @@
     },
     ".//recipient-country/@code": {
       "VN": 7,
-      "ID": 4,
-      "KG": 4,
+      "LK": 3,
+      "MN": 3,
       "LA": 4,
+      "KG": 4,
       "KH": 4,
       "": 3,
-      "MN": 3,
-      "LK": 3
+      "ID": 4
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "998": 23
+      "998": 24
     },
     ".//recipient-region/@vocabulary": {
-      "1": 23
+      "1": 24
     },
     ".//reporting-org/@type": {
       "10": 15
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "16061": 3,
-      "16066": 20,
-      "15144": 8,
+      "43010": 4,
       "11420": 4,
       "33210": 10,
-      "99810": 7,
-      "43010": 3
+      "15144": 8,
+      "16066": 20,
+      "99810": 7
     },
     ".//sector/@vocabulary": {
-      "1": 55
+      "1": 56
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 15,
+      "B032": 6,
       "E01": 12,
-      "D01": 6,
-      "B032": 5,
-      "B021": 2
+      "B021": 2,
+      "D01": 6
     },
     ".//transaction/finance-type/@code": {
-      "110": 40
+      "110": 41
     },
     ".//transaction/flow-type/@code": {
-      "10": 40
+      "10": 41
     },
     ".//transaction/recipient-country/@code": {
       "VN": 5,
-      "ID": 3,
-      "KG": 3,
+      "LK": 2,
+      "MN": 2,
       "LA": 3,
+      "KG": 3,
       "KH": 3,
       "": 2,
-      "MN": 2,
-      "LK": 2
+      "ID": 3
     },
     ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "998": 17
+      "998": 18
     },
     ".//transaction/recipient-region/@vocabulary": {
-      "1": 17
+      "1": 18
     },
     ".//transaction/provider-org/@type": {
-      "10": 40
+      "10": 41
     },
     ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "16061": 2,
-      "16066": 15,
-      "15144": 6,
+      "43010": 3,
       "11420": 3,
       "33210": 7,
-      "99810": 5,
-      "43010": 2
+      "15144": 6,
+      "16066": 15,
+      "99810": 5
     },
     ".//transaction/sector/@vocabulary": {
-      "1": 40
+      "1": 41
     },
     ".//transaction/tied-status/@code": {
-      "5": 7,
+      "5": 8,
       "4": 31,
       "": 2
     },
     ".//transaction/transaction-type/@code": {
       "1": 15,
       "2": 14,
-      "3": 11
+      "3": 12
     },
     ".//transaction/value/@currency": {
-      "KRW": 40
+      "KRW": 41
     },
     ".//@xml:lang": {
       "en": 15

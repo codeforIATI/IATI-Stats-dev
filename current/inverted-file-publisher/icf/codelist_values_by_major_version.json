@@ -1,16 +1,16 @@
 {
   "2": {
     ".//@default-currency": {
-      "icf-mr.xml": {
+      "icf-in.xml": {
         "GBP": 1
       },
-      "icf-et.xml": {
+      "icf-mr.xml": {
         "GBP": 1
       },
       "icf-ng.xml": {
         "GBP": 3
       },
-      "icf-in.xml": {
+      "icf-et.xml": {
         "GBP": 1
       },
       "icf-np.xml": {
@@ -18,11 +18,11 @@
       }
     },
     ".//activity-date/@type": {
-      "icf-mr.xml": {
+      "icf-in.xml": {
         "2": 1,
-        "3": 1
+        "4": 1
       },
-      "icf-et.xml": {
+      "icf-mr.xml": {
         "2": 1,
         "3": 1
       },
@@ -30,9 +30,9 @@
         "2": 3,
         "3": 3
       },
-      "icf-in.xml": {
+      "icf-et.xml": {
         "2": 1,
-        "4": 1
+        "3": 1
       },
       "icf-np.xml": {
         "2": 2,
@@ -41,16 +41,16 @@
       }
     },
     ".//activity-status/@code": {
-      "icf-mr.xml": {
+      "icf-in.xml": {
         "2": 1
       },
-      "icf-et.xml": {
+      "icf-mr.xml": {
         "2": 1
       },
       "icf-ng.xml": {
         "2": 3
       },
-      "icf-in.xml": {
+      "icf-et.xml": {
         "2": 1
       },
       "icf-np.xml": {
@@ -58,19 +58,19 @@
       }
     },
     ".//budget/@status": {
+      "icf-in.xml": {
+        "2": 3
+      },
       "icf-mr.xml": {
         "2": 4
-      },
-      "icf-et.xml": {
-        "2": 1,
-        "1": 1
       },
       "icf-ng.xml": {
         "2": 7,
         "1": 1
       },
-      "icf-in.xml": {
-        "2": 3
+      "icf-et.xml": {
+        "2": 1,
+        "1": 1
       },
       "icf-np.xml": {
         "2": 4,
@@ -78,51 +78,51 @@
       }
     },
     ".//budget/@type": {
+      "icf-in.xml": {
+        "1": 2,
+        "2": 1
+      },
       "icf-mr.xml": {
         "1": 4
-      },
-      "icf-et.xml": {
-        "1": 2
       },
       "icf-ng.xml": {
         "1": 8
       },
-      "icf-in.xml": {
-        "1": 2,
-        "2": 1
+      "icf-et.xml": {
+        "1": 2
       },
       "icf-np.xml": {
         "1": 9
       }
     },
     ".//budget/value/@currency": {
+      "icf-in.xml": {
+        "GBP": 3
+      },
       "icf-mr.xml": {
         "GBP": 4
-      },
-      "icf-et.xml": {
-        "GBP": 2
       },
       "icf-ng.xml": {
         "GBP": 8
       },
-      "icf-in.xml": {
-        "GBP": 3
+      "icf-et.xml": {
+        "GBP": 2
       },
       "icf-np.xml": {
         "GBP": 9
       }
     },
     ".//description/@type": {
-      "icf-mr.xml": {
+      "icf-in.xml": {
         "1": 1
       },
-      "icf-et.xml": {
+      "icf-mr.xml": {
         "1": 1
       },
       "icf-ng.xml": {
         "1": 3
       },
-      "icf-in.xml": {
+      "icf-et.xml": {
         "1": 1
       },
       "icf-np.xml": {
@@ -130,20 +130,20 @@
       }
     },
     ".//participating-org/@role": {
-      "icf-mr.xml": {
+      "icf-in.xml": {
         "1": 1
       },
-      "icf-et.xml": {
-        "1": 1,
-        "2": 1
+      "icf-mr.xml": {
+        "1": 1
       },
       "icf-ng.xml": {
         "1": 3,
         "4": 19,
         "2": 1
       },
-      "icf-in.xml": {
-        "1": 1
+      "icf-et.xml": {
+        "1": 1,
+        "2": 1
       },
       "icf-np.xml": {
         "2": 2,
@@ -152,12 +152,11 @@
       }
     },
     ".//participating-org/@type": {
-      "icf-mr.xml": {
+      "icf-in.xml": {
         "10": 1
       },
-      "icf-et.xml": {
-        "10": 1,
-        "70": 1
+      "icf-mr.xml": {
+        "10": 1
       },
       "icf-ng.xml": {
         "10": 3,
@@ -168,8 +167,9 @@
         "60": 2,
         "15": 2
       },
-      "icf-in.xml": {
-        "10": 1
+      "icf-et.xml": {
+        "10": 1,
+        "70": 1
       },
       "icf-np.xml": {
         "70": 4,
@@ -180,6 +180,9 @@
       }
     },
     ".//recipient-country/@code": {
+      "icf-in.xml": {
+        "IN": 1
+      },
       "icf-mr.xml": {
         "BF": 1,
         "TD": 1,
@@ -188,6 +191,9 @@
         "MR": 1,
         "NE": 1,
         "SN": 1
+      },
+      "icf-ng.xml": {
+        "NG": 3
       },
       "icf-et.xml": {
         "ET": 1,
@@ -201,28 +207,22 @@
         "VN": 1,
         "TH": 1
       },
-      "icf-ng.xml": {
-        "NG": 3
-      },
-      "icf-in.xml": {
-        "IN": 1
-      },
       "icf-np.xml": {
         "NP": 2,
         "CN": 1
       }
     },
     ".//reporting-org/@type": {
-      "icf-mr.xml": {
+      "icf-in.xml": {
         "70": 1
       },
-      "icf-et.xml": {
+      "icf-mr.xml": {
         "70": 1
       },
       "icf-ng.xml": {
         "70": 3
       },
-      "icf-in.xml": {
+      "icf-et.xml": {
         "70": 1
       },
       "icf-np.xml": {
@@ -230,6 +230,9 @@
       }
     },
     ".//sector[@vocabulary = '2']/@code": {
+      "icf-in.xml": {
+        "111": 1
+      },
       "icf-mr.xml": {
         "520": 1
       },
@@ -239,52 +242,61 @@
         "210": 1,
         "230": 1
       },
-      "icf-in.xml": {
-        "111": 1
-      },
       "icf-np.xml": {
         "730": 1,
         "740": 1
       }
     },
     ".//sector/@vocabulary": {
-      "icf-mr.xml": {
+      "icf-in.xml": {
         "2": 1
       },
-      "icf-et.xml": {
-        "7": 1
+      "icf-mr.xml": {
+        "2": 1
       },
       "icf-ng.xml": {
         "2": 5,
         "1": 2
       },
-      "icf-in.xml": {
-        "2": 1
+      "icf-et.xml": {
+        "7": 1
       },
       "icf-np.xml": {
         "2": 2
       }
     },
+    ".//transaction/provider-org/@type": {
+      "icf-in.xml": {
+        "10": 1
+      },
+      "icf-ng.xml": {
+        "80": 2
+      },
+      "icf-np.xml": {
+        "10": 1,
+        "70": 1
+      }
+    },
     ".//transaction/transaction-type/@code": {
+      "icf-in.xml": {
+        "1": 5,
+        "4": 8,
+        "3": 15
+      },
       "icf-mr.xml": {
         "4": 9,
         "3": 15,
         "1": 3
-      },
-      "icf-et.xml": {
-        "3": 11,
-        "1": 7,
-        "4": 6
       },
       "icf-ng.xml": {
         "1": 45,
         "3": 160,
         "4": 36
       },
-      "icf-in.xml": {
-        "1": 5,
-        "4": 8,
-        "3": 15
+      "icf-et.xml": {
+        "3": 11,
+        "1": 7,
+        "4": 6
       },
       "icf-np.xml": {
         "4": 20,
@@ -293,37 +305,92 @@
       }
     },
     ".//transaction/value/@currency": {
+      "icf-in.xml": {
+        "GBP": 25
+      },
       "icf-mr.xml": {
         "GBP": 27
-      },
-      "icf-et.xml": {
-        "GBP": 24
       },
       "icf-ng.xml": {
         "GBP": 220
       },
-      "icf-in.xml": {
-        "GBP": 25
+      "icf-et.xml": {
+        "GBP": 24
       },
       "icf-np.xml": {
         "GBP": 84
       }
     },
     ".//@xml:lang": {
-      "icf-mr.xml": {
+      "icf-in.xml": {
         "en": 5
       },
-      "icf-et.xml": {
-        "en": 6
+      "icf-mr.xml": {
+        "en": 5
       },
       "icf-ng.xml": {
         "en": 17
       },
-      "icf-in.xml": {
-        "en": 5
+      "icf-et.xml": {
+        "en": 6
       },
       "icf-np.xml": {
         "en": 22
+      }
+    },
+    ".//document-link/@format": {
+      "icf-ng.xml": {
+        "text/html": 1
+      },
+      "icf-np.xml": {
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "icf-ng.xml": {
+        "B18": 1
+      },
+      "icf-np.xml": {
+        "A06": 1
+      }
+    },
+    ".//location/location-class/@code": {
+      "icf-ng.xml": {
+        "1": 2
+      },
+      "icf-np.xml": {
+        "1": 4
+      }
+    },
+    ".//location/location-reach/@code": {
+      "icf-ng.xml": {
+        "2": 7
+      },
+      "icf-np.xml": {
+        "1": 1
+      }
+    },
+    ".//location/exactness/@code": {
+      "icf-ng.xml": {
+        "2": 7
+      },
+      "icf-np.xml": {
+        "2": 4
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "icf-ng.xml": {
+        "43030": 1,
+        "15112": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "icf-ng.xml": {
+        "80": 5
+      },
+      "icf-np.xml": {
+        "21": 3,
+        "70": 1
       }
     },
     ".//contact-info/@type": {
@@ -396,73 +463,6 @@
     ".//sector[@vocabulary = '7']/@code": {
       "icf-et.xml": {
         "7": 1
-      }
-    },
-    ".//document-link/@format": {
-      "icf-ng.xml": {
-        "text/html": 1
-      },
-      "icf-np.xml": {
-        "application/vnd.openxmlformats-officedocument.wordprocessingml.document": 1
-      }
-    },
-    ".//document-link/category/@code": {
-      "icf-ng.xml": {
-        "B18": 1
-      },
-      "icf-np.xml": {
-        "A06": 1
-      }
-    },
-    ".//location/location-class/@code": {
-      "icf-ng.xml": {
-        "1": 2
-      },
-      "icf-np.xml": {
-        "1": 4
-      }
-    },
-    ".//location/location-reach/@code": {
-      "icf-ng.xml": {
-        "2": 7
-      },
-      "icf-np.xml": {
-        "1": 1
-      }
-    },
-    ".//location/exactness/@code": {
-      "icf-ng.xml": {
-        "2": 7
-      },
-      "icf-np.xml": {
-        "2": 4
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "icf-ng.xml": {
-        "43030": 1,
-        "15112": 1
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "icf-ng.xml": {
-        "80": 2
-      },
-      "icf-in.xml": {
-        "10": 1
-      },
-      "icf-np.xml": {
-        "10": 1,
-        "70": 1
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "icf-ng.xml": {
-        "80": 5
-      },
-      "icf-np.xml": {
-        "21": 3,
-        "70": 1
       }
     },
     ".//document-link/language/@code": {

@@ -1,47 +1,47 @@
 {
   ".//@default-currency": {
     "EUR": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 1
+      "hif-289.xml": 1,
+      "hif-89.xml": 1
     }
   },
   ".//@xml:lang": {
     "en": {
-      "hif-89.xml": 3,
-      "hif-289.xml": 4
+      "hif-289.xml": 4,
+      "hif-89.xml": 3
     }
   },
   ".//activity-date/@type": {
     "1": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 1
+      "hif-289.xml": 1,
+      "hif-89.xml": 1
     },
     "3": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 1
+      "hif-289.xml": 1,
+      "hif-89.xml": 1
     }
   },
   ".//activity-status/@code": {
-    "3": {
-      "hif-89.xml": 1
-    },
     "2": {
       "hif-289.xml": 1
+    },
+    "3": {
+      "hif-89.xml": 1
     }
   },
   ".//budget/@status": {
-    "1": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 2
-    },
     "2": {
       "hif-289.xml": 2
+    },
+    "1": {
+      "hif-289.xml": 2,
+      "hif-89.xml": 1
     }
   },
   ".//budget/value/@currency": {
     "EUR": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 4
+      "hif-289.xml": 4,
+      "hif-89.xml": 1
     }
   },
   ".//contact-info/@type": {
@@ -51,8 +51,8 @@
   },
   ".//description/@type": {
     "1": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 1
+      "hif-289.xml": 1,
+      "hif-89.xml": 1
     }
   },
   ".//document-link/@format": {
@@ -72,44 +72,44 @@
   },
   ".//participating-org/@role": {
     "1": {
-      "hif-89.xml": 2,
-      "hif-289.xml": 1
+      "hif-289.xml": 1,
+      "hif-89.xml": 2
     },
     "2": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 1
+      "hif-289.xml": 1,
+      "hif-89.xml": 1
     },
     "4": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 1
+      "hif-289.xml": 1,
+      "hif-89.xml": 1
     }
   },
   ".//participating-org/@type": {
     "10": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 1
+      "hif-289.xml": 1,
+      "hif-89.xml": 1
     },
     "21": {
-      "hif-89.xml": 1,
+      "hif-289.xml": 1,
+      "hif-89.xml": 1
+    },
+    "70": {
       "hif-289.xml": 1
     },
     "60": {
       "hif-89.xml": 2
-    },
-    "70": {
-      "hif-289.xml": 1
     }
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "3": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 1
+      "hif-289.xml": 1,
+      "hif-89.xml": 1
     }
   },
   ".//recipient-country/@code": {
     "NL": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 1
+      "hif-289.xml": 1,
+      "hif-89.xml": 1
     },
     "KE": {
       "hif-289.xml": 1
@@ -126,44 +126,44 @@
   },
   ".//recipient-region/@vocabulary": {
     "1": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 1
+      "hif-289.xml": 1,
+      "hif-89.xml": 1
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "89": {
-      "hif-89.xml": 1
-    },
     "289": {
       "hif-289.xml": 1
+    },
+    "89": {
+      "hif-89.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "21": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 1
+      "hif-289.xml": 1,
+      "hif-89.xml": 1
     }
   },
   ".//result/@type": {
     "1": {
-      "hif-289.xml": 21
+      "hif-289.xml": 7
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "hif-289.xml": 45
+      "hif-289.xml": 15
     }
   },
   ".//sector/@vocabulary": {
     "1": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 1
+      "hif-289.xml": 1,
+      "hif-89.xml": 1
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "12110": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 1
+      "hif-289.xml": 1,
+      "hif-89.xml": 1
     }
   },
   ".//transaction/disbursement-channel/@code": {
@@ -172,37 +172,40 @@
     }
   },
   ".//transaction/provider-org/@type": {
-    "21": {
-      "hif-289.xml": 4
-    },
     "10": {
       "hif-289.xml": 1
+    },
+    "21": {
+      "hif-289.xml": 4
     }
   },
   ".//transaction/receiver-org/@type": {
-    "70": {
-      "hif-289.xml": 4
-    },
     "21": {
       "hif-289.xml": 1
+    },
+    "70": {
+      "hif-289.xml": 4
     }
   },
   ".//transaction/transaction-type/@code": {
     "1": {
-      "hif-89.xml": 1,
-      "hif-289.xml": 2
-    },
-    "4": {
+      "hif-289.xml": 4,
       "hif-89.xml": 1
     },
     "3": {
-      "hif-289.xml": 4
+      "hif-289.xml": 5
+    },
+    "11": {
+      "hif-289.xml": 1
+    },
+    "4": {
+      "hif-89.xml": 1
     }
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "hif-89.xml": 2,
-      "hif-289.xml": 5
+      "hif-289.xml": 9,
+      "hif-89.xml": 2
     }
   }
 }

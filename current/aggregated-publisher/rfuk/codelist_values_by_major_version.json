@@ -54,12 +54,12 @@
     },
     ".//recipient-country/@code": {
       "CD": 25,
+      "GA": 1,
+      "CF": 1,
       "GH": 14,
       "GB": 33,
       "CM": 14,
-      "CG": 11,
-      "GA": 1,
-      "CF": 1
+      "CG": 11
     },
     ".//reporting-org/@type": {
       "21": 4
@@ -101,21 +101,6 @@
       "en": 106,
       "fr": 3
     },
-    ".//transaction/recipient-country/@code": {
-      "GH": 14,
-      "GB": 33,
-      "CD": 24,
-      "CM": 14,
-      "CG": 11
-    },
-    ".//transaction/provider-org/@type": {
-      "21": 63,
-      "70": 16
-    },
-    ".//transaction/receiver-org/@type": {
-      "24": 63,
-      "21": 16
-    },
     ".//document-link/@format": {
       "text/html": 5
     },
@@ -130,6 +115,21 @@
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 92
+    },
+    ".//transaction/recipient-country/@code": {
+      "GH": 14,
+      "GB": 33,
+      "CD": 24,
+      "CM": 14,
+      "CG": 11
+    },
+    ".//transaction/provider-org/@type": {
+      "21": 63,
+      "70": 16
+    },
+    ".//transaction/receiver-org/@type": {
+      "24": 63,
+      "21": 16
     }
   }
 }
