@@ -7,8 +7,8 @@
     "en": 172
   },
   ".//activity-date/@type": {
-    "1": 2,
     "2": 6,
+    "1": 2,
     "3": 3
   },
   ".//activity-status/@code": {
@@ -32,34 +32,35 @@
     "4": 3
   },
   ".//document-link/@format": {
-    "application/vnd.vd-study": 1,
     "application/A2L": 4,
+    "application/vnd.vd-study": 1,
     "application/1d-interleaved-parityfec": 3
   },
   ".//document-link/category/@code": {
+    "B18": 1,
     "A02": 1,
     "A01": 1,
-    "A08": 5,
-    "B18": 1
+    "A08": 5
   },
   ".//document-link/language/@code": {
     "en": 5
   },
   ".//participating-org/@crs-channel-code": {
-    "11000": 3,
-    "20000": 2
+    "20000": 2,
+    "11000": 3
   },
   ".//participating-org/@role": {
-    "1": 4,
     "4": 4,
+    "1": 4,
     "2": 2
   },
   ".//participating-org/@type": {
-    "10": 4,
     "23": 5,
+    "10": 4,
     "60": 1
   },
   ".//recipient-country/@code": {
+    "PE": 2,
     "BD": 1,
     "BF": 1,
     "CM": 1,
@@ -69,7 +70,6 @@
     "KE": 1,
     "MY": 1,
     "PY": 1,
-    "PE": 2,
     "TZ": 1,
     "UG": 1,
     "VU": 1,
@@ -105,8 +105,8 @@
     "798": 1
   },
   ".//related-activity/@type": {
-    "1": 4,
-    "2": 2
+    "2": 2,
+    "1": 4
   },
   ".//reporting-org/@type": {
     "60": 6
@@ -116,12 +116,12 @@
     "1": 1
   },
   ".//result/document-link/@format": {
-    "application/1d-interleaved-parityfec": 3,
-    "application/A2L": 1
+    "application/A2L": 1,
+    "application/1d-interleaved-parityfec": 3
   },
   ".//result/document-link/category/@code": {
-    "A08": 3,
-    "B18": 1
+    "B18": 1,
+    "A08": 3
   },
   ".//result/document-link/language/@code": {
     "en": 1
@@ -148,8 +148,8 @@
     "B01": 26
   },
   ".//transaction/disbursement-channel/@code": {
-    "1": 1,
-    "2": 29
+    "2": 29,
+    "1": 1
   },
   ".//transaction/finance-type/@code": {
     "110": 22
@@ -159,15 +159,15 @@
     "10": 1
   },
   ".//transaction/provider-org/@type": {
+    "60": 19,
     "10": 7,
-    "21": 8,
-    "60": 19
+    "21": 8
   },
   ".//transaction/receiver-org/@type": {
-    "22": 1,
-    "21": 1,
     "60": 12,
-    "90": 6
+    "90": 6,
+    "22": 1,
+    "21": 1
   },
   ".//transaction/recipient-region/@vocabulary": {
     "2": 10
@@ -185,11 +185,11 @@
     "5": 27
   },
   ".//transaction/transaction-type/@code": {
-    "11": 2,
-    "4": 15,
-    "2": 2,
     "3": 14,
-    "1": 6
+    "4": 15,
+    "1": 6,
+    "11": 2,
+    "2": 2
   },
   ".//transaction/value/@currency": {
     "USD": 39

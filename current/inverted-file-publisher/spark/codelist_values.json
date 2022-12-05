@@ -1,8 +1,8 @@
 {
   ".//@default-currency": {
     "EUR": {
-      "spark-activities.xml": 8,
-      "spark-20170501.xml": 114
+      "spark-20170501.xml": 114,
+      "spark-activities.xml": 8
     },
     "USD": {
       "spark-20170501.xml": 1
@@ -10,26 +10,14 @@
   },
   ".//@xml:lang": {
     "en": {
-      "spark-activities.xml": 329,
-      "spark-20170501.xml": 1998
+      "spark-20170501.xml": 1998,
+      "spark-activities.xml": 329
     },
     "nl": {
       "spark-activities.xml": 2
     }
   },
   ".//activity-date/@type": {
-    "2": {
-      "spark-activities.xml": 7
-    },
-    "3": {
-      "spark-activities.xml": 8
-    },
-    "1": {
-      "spark-activities.xml": 7
-    },
-    "4": {
-      "spark-activities.xml": 1
-    },
     "start-planned": {
       "spark-20170501.xml": 113
     },
@@ -41,6 +29,18 @@
     },
     "end-actual": {
       "spark-20170501.xml": 99
+    },
+    "2": {
+      "spark-activities.xml": 7
+    },
+    "3": {
+      "spark-activities.xml": 8
+    },
+    "1": {
+      "spark-activities.xml": 7
+    },
+    "4": {
+      "spark-activities.xml": 1
     }
   },
   ".//activity-scope/@code": {
@@ -53,14 +53,14 @@
   },
   ".//activity-status/@code": {
     "2": {
-      "spark-activities.xml": 5,
-      "spark-20170501.xml": 21
-    },
-    "4": {
-      "spark-activities.xml": 3
+      "spark-20170501.xml": 21,
+      "spark-activities.xml": 5
     },
     "": {
       "spark-20170501.xml": 94
+    },
+    "4": {
+      "spark-activities.xml": 3
     }
   },
   ".//budget/@status": {
@@ -81,19 +81,19 @@
   },
   ".//budget/value/@currency": {
     "EUR": {
-      "spark-activities.xml": 22,
-      "spark-20170501.xml": 114
+      "spark-20170501.xml": 114,
+      "spark-activities.xml": 22
     },
     "USD": {
       "spark-20170501.xml": 1
     }
   },
   ".//collaboration-type/@code": {
-    "2": {
-      "spark-activities.xml": 8
-    },
     "1": {
       "spark-20170501.xml": 112
+    },
+    "2": {
+      "spark-activities.xml": 8
     }
   },
   ".//contact-info/@type": {
@@ -118,8 +118,8 @@
   },
   ".//default-finance-type/@code": {
     "110": {
-      "spark-activities.xml": 8,
-      "spark-20170501.xml": 101
+      "spark-20170501.xml": 101,
+      "spark-activities.xml": 8
     },
     "410": {
       "spark-20170501.xml": 11
@@ -127,31 +127,31 @@
   },
   ".//default-flow-type/@code": {
     "10": {
-      "spark-activities.xml": 8,
-      "spark-20170501.xml": 112
+      "spark-20170501.xml": 112,
+      "spark-activities.xml": 8
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "spark-activities.xml": 8,
-      "spark-20170501.xml": 111
+      "spark-20170501.xml": 111,
+      "spark-activities.xml": 8
     },
     "4": {
       "spark-20170501.xml": 1
     }
   },
   ".//description/@type": {
-    "2": {
-      "spark-activities.xml": 5,
-      "spark-20170501.xml": 114
-    },
     "1": {
-      "spark-activities.xml": 6,
-      "spark-20170501.xml": 105
+      "spark-20170501.xml": 105,
+      "spark-activities.xml": 6
+    },
+    "2": {
+      "spark-20170501.xml": 114,
+      "spark-activities.xml": 5
     },
     "3": {
-      "spark-activities.xml": 3,
-      "spark-20170501.xml": 114
+      "spark-20170501.xml": 114,
+      "spark-activities.xml": 3
     }
   },
   ".//document-link/@format": {
@@ -298,35 +298,6 @@
     }
   },
   ".//recipient-country/@code": {
-    "JO": {
-      "spark-activities.xml": 3
-    },
-    "SS": {
-      "spark-activities.xml": 1,
-      "spark-20170501.xml": 5
-    },
-    "IQ": {
-      "spark-activities.xml": 3
-    },
-    "TN": {
-      "spark-activities.xml": 2,
-      "spark-20170501.xml": 2
-    },
-    "SO": {
-      "spark-activities.xml": 2,
-      "spark-20170501.xml": 2
-    },
-    "LY": {
-      "spark-activities.xml": 1,
-      "spark-20170501.xml": 2
-    },
-    "LB": {
-      "spark-activities.xml": 1
-    },
-    "BI": {
-      "spark-activities.xml": 1,
-      "spark-20170501.xml": 20
-    },
     "XK": {
       "spark-20170501.xml": 32
     },
@@ -339,8 +310,37 @@
     "LR": {
       "spark-20170501.xml": 6
     },
+    "BI": {
+      "spark-20170501.xml": 20,
+      "spark-activities.xml": 1
+    },
+    "SS": {
+      "spark-20170501.xml": 5,
+      "spark-activities.xml": 1
+    },
     "YE": {
       "spark-20170501.xml": 1
+    },
+    "TN": {
+      "spark-20170501.xml": 2,
+      "spark-activities.xml": 2
+    },
+    "SO": {
+      "spark-20170501.xml": 2,
+      "spark-activities.xml": 2
+    },
+    "LY": {
+      "spark-20170501.xml": 2,
+      "spark-activities.xml": 1
+    },
+    "JO": {
+      "spark-activities.xml": 3
+    },
+    "IQ": {
+      "spark-activities.xml": 3
+    },
+    "LB": {
+      "spark-activities.xml": 1
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -366,11 +366,11 @@
     }
   },
   ".//reporting-org/@type": {
-    "21": {
-      "spark-activities.xml": 8
-    },
     "60": {
       "spark-20170501.xml": 115
+    },
+    "21": {
+      "spark-activities.xml": 8
     }
   },
   ".//result/@type": {

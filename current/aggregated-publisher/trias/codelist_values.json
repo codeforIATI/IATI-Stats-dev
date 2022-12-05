@@ -5,10 +5,10 @@
   ".//@xml:lang": {
     "en": 602,
     "nl": 25,
-    "fr": 227,
     "es": 272,
-    "pt": 20,
-    "eo": 1
+    "eo": 1,
+    "fr": 227,
+    "pt": 20
   },
   ".//activity-date/@type": {
     "2": 15,
@@ -38,8 +38,8 @@
     "1": 15
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "H01": 1,
     "C01": 13,
+    "H01": 1,
     "G01": 1
   },
   ".//default-finance-type/@code": {
@@ -68,42 +68,42 @@
     "1": 1
   },
   ".//participating-org/@type": {
-    "22": 31,
     "24": 87,
+    "22": 31,
     "10": 1
   },
   ".//policy-marker/@significance": {
-    "1": 23,
-    "2": 65
+    "2": 65,
+    "1": 23
   },
   ".//policy-marker/@vocabulary": {
     "1": 88
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "1": 14,
     "2": 14,
-    "3": 14,
-    "7": 12,
     "5": 8,
+    "7": 12,
     "6": 12,
-    "4": 13,
-    "9": 1
+    "1": 14,
+    "3": 14,
+    "9": 1,
+    "4": 13
   },
   ".//recipient-country/@code": {
+    "TZ": 1,
+    "ZA": 1,
+    "GT": 1,
+    "EC": 1,
+    "PH": 1,
     "BE": 1,
     "GN": 1,
-    "SV": 1,
-    "CD": 1,
-    "TZ": 1,
-    "PH": 1,
-    "GT": 1,
-    "BR": 1,
     "PE": 1,
-    "EC": 1,
-    "ZA": 1,
-    "UG": 1,
+    "BR": 1,
+    "BF": 1,
     "HN": 1,
-    "BF": 1
+    "UG": 1,
+    "CD": 1,
+    "SV": 1
   },
   ".//recipient-region/@vocabulary": {
     "1": 1
@@ -121,16 +121,16 @@
     "2": 13
   },
   ".//result/indicator/@measure": {
+    "2": 141,
     "1": 7,
-    "3": 1,
-    "2": 141
+    "3": 1
   },
   ".//sector/@vocabulary": {
     "1": 15
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "99820": 1,
     "31120": 13,
+    "99820": 1,
     "91010": 1
   },
   ".//transaction/provider-org/@type": {

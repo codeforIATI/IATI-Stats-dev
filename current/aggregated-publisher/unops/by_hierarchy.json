@@ -79,6 +79,19 @@
       "iati-activity/document-link/language/@code": 12,
       "iati-activity/document-link/@format": 12,
       "iati-activity/document-link/@url": 12,
+      "iati-activity/recipient-region": 2,
+      "iati-activity/recipient-region/narrative": 2,
+      "iati-activity/recipient-region/@code": 2,
+      "iati-activity/location": 2,
+      "iati-activity/location/name": 2,
+      "iati-activity/location/name/narrative": 2,
+      "iati-activity/location/description": 2,
+      "iati-activity/location/description/narrative": 2,
+      "iati-activity/location/point": 2,
+      "iati-activity/location/point/pos": 2,
+      "iati-activity/location/point/@srsName": 2,
+      "iati-activity/location/location-class": 2,
+      "iati-activity/location/location-class/@code": 2,
       "iati-activity/collaboration-type": 5,
       "iati-activity/collaboration-type/@code": 5,
       "iati-activity/default-flow-type": 5,
@@ -95,20 +108,7 @@
       "iati-activity/transaction/disbursement-channel": 5,
       "iati-activity/transaction/disbursement-channel/@code": 5,
       "iati-activity/conditions": 5,
-      "iati-activity/conditions/@attached": 5,
-      "iati-activity/recipient-region": 2,
-      "iati-activity/recipient-region/narrative": 2,
-      "iati-activity/recipient-region/@code": 2,
-      "iati-activity/location": 2,
-      "iati-activity/location/name": 2,
-      "iati-activity/location/name/narrative": 2,
-      "iati-activity/location/description": 2,
-      "iati-activity/location/description/narrative": 2,
-      "iati-activity/location/point": 2,
-      "iati-activity/location/point/pos": 2,
-      "iati-activity/location/point/@srsName": 2,
-      "iati-activity/location/location-class": 2,
-      "iati-activity/location/location-class/@code": 2
+      "iati-activity/conditions/@attached": 5
     },
     "elements_total": {
       "iati-activity": 1879,
@@ -188,6 +188,19 @@
       "iati-activity/document-link/language/@code": 12,
       "iati-activity/document-link/@format": 12,
       "iati-activity/document-link/@url": 12,
+      "iati-activity/recipient-region": 2,
+      "iati-activity/recipient-region/narrative": 2,
+      "iati-activity/recipient-region/@code": 2,
+      "iati-activity/location": 4,
+      "iati-activity/location/name": 4,
+      "iati-activity/location/name/narrative": 4,
+      "iati-activity/location/description": 4,
+      "iati-activity/location/description/narrative": 4,
+      "iati-activity/location/point": 4,
+      "iati-activity/location/point/pos": 4,
+      "iati-activity/location/point/@srsName": 4,
+      "iati-activity/location/location-class": 4,
+      "iati-activity/location/location-class/@code": 4,
       "iati-activity/collaboration-type": 5,
       "iati-activity/collaboration-type/@code": 5,
       "iati-activity/default-flow-type": 5,
@@ -204,20 +217,7 @@
       "iati-activity/transaction/disbursement-channel": 45,
       "iati-activity/transaction/disbursement-channel/@code": 45,
       "iati-activity/conditions": 5,
-      "iati-activity/conditions/@attached": 5,
-      "iati-activity/recipient-region": 2,
-      "iati-activity/recipient-region/narrative": 2,
-      "iati-activity/recipient-region/@code": 2,
-      "iati-activity/location": 4,
-      "iati-activity/location/name": 4,
-      "iati-activity/location/name/narrative": 4,
-      "iati-activity/location/description": 4,
-      "iati-activity/location/description/narrative": 4,
-      "iati-activity/location/point": 4,
-      "iati-activity/location/point/pos": 4,
-      "iati-activity/location/point/@srsName": 4,
-      "iati-activity/location/location-class": 4,
-      "iati-activity/location/location-class/@code": 4
+      "iati-activity/conditions/@attached": 5
     },
     "forwardlooking_currency_year": {
       "null": {
@@ -226,17 +226,17 @@
       "2022": {
         "USD": 701067584.0
       },
-      "2019": {
-        "USD": 838083.0
-      },
-      "2023": {
-        "USD": 24022550.0
-      },
       "2021": {
         "USD": 208031639.0
       },
       "2018": {
         "USD": 8246500.0
+      },
+      "2019": {
+        "USD": 838083.0
+      },
+      "2023": {
+        "USD": 24022550.0
       },
       "2020": {
         "USD": 262010.0

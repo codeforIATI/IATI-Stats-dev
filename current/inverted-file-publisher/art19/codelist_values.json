@@ -2,17 +2,17 @@
   ".//@default-currency": {
     "GBP": {
       "art19-activities.xml": 1,
-      "art19-ke.xml": 1,
       "art19-sn.xml": 1,
-      "art19-gb.xml": 3
+      "art19-gb.xml": 3,
+      "art19-ke.xml": 1
     }
   },
   ".//@xml:lang": {
     "en": {
       "art19-activities.xml": 121,
-      "art19-ke.xml": 27,
       "art19-sn.xml": 121,
-      "art19-gb.xml": 27
+      "art19-gb.xml": 27,
+      "art19-ke.xml": 27
     },
     "fr": {
       "art19-activities.xml": 1,
@@ -48,15 +48,15 @@
   ".//activity-date/@type": {
     "2": {
       "art19-activities.xml": 1,
-      "art19-ke.xml": 1,
       "art19-sn.xml": 1,
-      "art19-gb.xml": 2
+      "art19-gb.xml": 2,
+      "art19-ke.xml": 1
     },
     "3": {
       "art19-activities.xml": 1,
-      "art19-ke.xml": 1,
       "art19-sn.xml": 1,
-      "art19-gb.xml": 1
+      "art19-gb.xml": 1,
+      "art19-ke.xml": 1
     },
     "1": {
       "art19-gb.xml": 1
@@ -66,20 +66,20 @@
     }
   },
   ".//activity-scope/@code": {
-    "3": {
-      "art19-ke.xml": 1,
-      "art19-gb.xml": 1
-    },
     "1": {
       "art19-gb.xml": 1
+    },
+    "3": {
+      "art19-gb.xml": 1,
+      "art19-ke.xml": 1
     }
   },
   ".//activity-status/@code": {
     "2": {
       "art19-activities.xml": 1,
-      "art19-ke.xml": 1,
       "art19-sn.xml": 1,
-      "art19-gb.xml": 1
+      "art19-gb.xml": 1,
+      "art19-ke.xml": 1
     },
     "3": {
       "art19-gb.xml": 2
@@ -88,9 +88,9 @@
   ".//budget/@status": {
     "1": {
       "art19-activities.xml": 5,
-      "art19-ke.xml": 3,
       "art19-sn.xml": 5,
-      "art19-gb.xml": 2
+      "art19-gb.xml": 2,
+      "art19-ke.xml": 3
     },
     "2": {
       "art19-ke.xml": 3
@@ -99,28 +99,28 @@
   ".//budget/@type": {
     "1": {
       "art19-activities.xml": 3,
-      "art19-ke.xml": 3,
       "art19-sn.xml": 3,
-      "art19-gb.xml": 2
+      "art19-gb.xml": 2,
+      "art19-ke.xml": 3
     },
     "2": {
       "art19-activities.xml": 2,
-      "art19-ke.xml": 3,
-      "art19-sn.xml": 2
+      "art19-sn.xml": 2,
+      "art19-ke.xml": 3
     }
   },
   ".//budget/value/@currency": {
     "GBP": {
       "art19-activities.xml": 2,
-      "art19-ke.xml": 6,
       "art19-sn.xml": 2,
-      "art19-gb.xml": 1
+      "art19-gb.xml": 1,
+      "art19-ke.xml": 6
     }
   },
   ".//collaboration-type/@code": {
     "4": {
-      "art19-ke.xml": 1,
-      "art19-gb.xml": 1
+      "art19-gb.xml": 1,
+      "art19-ke.xml": 1
     }
   },
   ".//contact-info/@type": {
@@ -130,23 +130,23 @@
   },
   ".//default-aid-type/@vocabulary": {
     "1": {
-      "art19-ke.xml": 1,
-      "art19-gb.xml": 1
+      "art19-gb.xml": 1,
+      "art19-ke.xml": 1
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": {
-      "art19-ke.xml": 1,
-      "art19-gb.xml": 1
+      "art19-gb.xml": 1,
+      "art19-ke.xml": 1
     }
   },
   ".//default-finance-type/@code": {
-    "110": {
-      "art19-ke.xml": 1,
-      "art19-gb.xml": 2
-    },
     "310": {
       "art19-gb.xml": 1
+    },
+    "110": {
+      "art19-gb.xml": 2,
+      "art19-ke.xml": 1
     }
   },
   ".//default-flow-type/@code": {
@@ -156,20 +156,20 @@
       "art19-gb.xml": 2
     },
     "10": {
-      "art19-ke.xml": 1,
-      "art19-gb.xml": 1
+      "art19-gb.xml": 1,
+      "art19-ke.xml": 1
     }
   },
   ".//description/@type": {
     "2": {
       "art19-activities.xml": 1,
-      "art19-ke.xml": 1,
       "art19-sn.xml": 1,
-      "art19-gb.xml": 2
+      "art19-gb.xml": 2,
+      "art19-ke.xml": 1
     },
     "1": {
-      "art19-ke.xml": 1,
-      "art19-gb.xml": 1
+      "art19-gb.xml": 1,
+      "art19-ke.xml": 1
     },
     "3": {
       "art19-ke.xml": 1
@@ -194,26 +194,26 @@
     }
   },
   ".//participating-org/@crs-channel-code": {
+    "11000": {
+      "art19-gb.xml": 1,
+      "art19-ke.xml": 1
+    },
+    "10000": {
+      "art19-gb.xml": 1
+    },
     "21000": {
       "art19-ke.xml": 1
     },
     "20000": {
       "art19-ke.xml": 4
-    },
-    "11000": {
-      "art19-ke.xml": 1,
-      "art19-gb.xml": 1
-    },
-    "10000": {
-      "art19-gb.xml": 1
     }
   },
   ".//participating-org/@role": {
     "1": {
       "art19-activities.xml": 1,
-      "art19-ke.xml": 1,
       "art19-sn.xml": 1,
-      "art19-gb.xml": 3
+      "art19-gb.xml": 3,
+      "art19-ke.xml": 1
     },
     "3": {
       "art19-activities.xml": 1,
@@ -221,33 +221,33 @@
     },
     "4": {
       "art19-activities.xml": 5,
-      "art19-ke.xml": 4,
       "art19-sn.xml": 5,
-      "art19-gb.xml": 1
+      "art19-gb.xml": 1,
+      "art19-ke.xml": 4
     },
     "2": {
-      "art19-ke.xml": 1,
-      "art19-gb.xml": 1
+      "art19-gb.xml": 1,
+      "art19-ke.xml": 1
     }
   },
   ".//participating-org/@type": {
     "10": {
       "art19-activities.xml": 1,
-      "art19-ke.xml": 1,
       "art19-sn.xml": 1,
-      "art19-gb.xml": 2
+      "art19-gb.xml": 2,
+      "art19-ke.xml": 1
     },
     "21": {
       "art19-activities.xml": 6,
-      "art19-ke.xml": 5,
       "art19-sn.xml": 6,
-      "art19-gb.xml": 3
+      "art19-gb.xml": 3,
+      "art19-ke.xml": 5
     }
   },
   ".//planned-disbursement/@type": {
     "1": {
-      "art19-ke.xml": 2,
-      "art19-gb.xml": 3
+      "art19-gb.xml": 3,
+      "art19-ke.xml": 2
     }
   },
   ".//planned-disbursement/provider-org/@type": {
@@ -263,8 +263,8 @@
   ".//planned-disbursement/value/@currency": {
     "GBP": {
       "art19-activities.xml": 5,
-      "art19-ke.xml": 4,
-      "art19-sn.xml": 5
+      "art19-sn.xml": 5,
+      "art19-ke.xml": 4
     },
     "EUR": {
       "art19-gb.xml": 3
@@ -277,9 +277,9 @@
     },
     "KE": {
       "art19-activities.xml": 1,
-      "art19-ke.xml": 1,
       "art19-sn.xml": 1,
-      "art19-gb.xml": 1
+      "art19-gb.xml": 1,
+      "art19-ke.xml": 1
     },
     "BD": {
       "art19-activities.xml": 1,
@@ -293,10 +293,7 @@
     },
     "MM": {
       "art19-activities.xml": 1,
-      "art19-ke.xml": 1,
-      "art19-sn.xml": 1
-    },
-    "MW": {
+      "art19-sn.xml": 1,
       "art19-ke.xml": 1
     },
     "MX": {
@@ -313,22 +310,25 @@
     },
     "SL": {
       "art19-gb.xml": 1
+    },
+    "MW": {
+      "art19-ke.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "21": {
       "art19-activities.xml": 1,
-      "art19-ke.xml": 1,
       "art19-sn.xml": 1,
-      "art19-gb.xml": 3
+      "art19-gb.xml": 3,
+      "art19-ke.xml": 1
     }
   },
   ".//sector/@vocabulary": {
     "1": {
       "art19-activities.xml": 104,
-      "art19-ke.xml": 1,
       "art19-sn.xml": 104,
-      "art19-gb.xml": 14
+      "art19-gb.xml": 14,
+      "art19-ke.xml": 1
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -346,11 +346,11 @@
       "art19-activities.xml": 23,
       "art19-sn.xml": 23
     },
-    "15153": {
-      "art19-ke.xml": 1
-    },
     "15160": {
       "art19-gb.xml": 1
+    },
+    "15153": {
+      "art19-ke.xml": 1
     }
   },
   ".//transaction/aid-type/@vocabulary": {
@@ -373,9 +373,9 @@
   ".//transaction/disbursement-channel/@code": {
     "2": {
       "art19-activities.xml": 73,
-      "art19-ke.xml": 20,
       "art19-sn.xml": 73,
-      "art19-gb.xml": 3
+      "art19-gb.xml": 3,
+      "art19-ke.xml": 20
     },
     "3": {
       "art19-activities.xml": 3,
@@ -395,9 +395,9 @@
   ".//transaction/flow-type/@code": {
     "30": {
       "art19-activities.xml": 70,
-      "art19-ke.xml": 2,
       "art19-sn.xml": 70,
-      "art19-gb.xml": 9
+      "art19-gb.xml": 9,
+      "art19-ke.xml": 2
     },
     "35": {
       "art19-gb.xml": 1
@@ -406,15 +406,15 @@
   ".//transaction/provider-org/@type": {
     "21": {
       "art19-activities.xml": 3,
-      "art19-ke.xml": 20,
       "art19-sn.xml": 3,
-      "art19-gb.xml": 8
+      "art19-gb.xml": 8,
+      "art19-ke.xml": 20
     },
     "10": {
       "art19-activities.xml": 2,
-      "art19-ke.xml": 10,
       "art19-sn.xml": 2,
-      "art19-gb.xml": 3
+      "art19-gb.xml": 3,
+      "art19-ke.xml": 10
     }
   },
   ".//transaction/receiver-org/@type": {
@@ -424,9 +424,9 @@
     },
     "21": {
       "art19-activities.xml": 1,
-      "art19-ke.xml": 30,
       "art19-sn.xml": 1,
-      "art19-gb.xml": 1
+      "art19-gb.xml": 1,
+      "art19-ke.xml": 30
     }
   },
   ".//transaction/sector/@vocabulary": {
@@ -468,29 +468,29 @@
     },
     "1": {
       "art19-activities.xml": 28,
-      "art19-ke.xml": 13,
       "art19-sn.xml": 28,
-      "art19-gb.xml": 5
+      "art19-gb.xml": 5,
+      "art19-ke.xml": 13
     },
     "3": {
       "art19-activities.xml": 31,
-      "art19-ke.xml": 20,
       "art19-sn.xml": 31,
-      "art19-gb.xml": 8
+      "art19-gb.xml": 8,
+      "art19-ke.xml": 20
     },
     "4": {
       "art19-activities.xml": 19,
-      "art19-ke.xml": 15,
       "art19-sn.xml": 19,
-      "art19-gb.xml": 10
+      "art19-gb.xml": 10,
+      "art19-ke.xml": 15
     }
   },
   ".//transaction/value/@currency": {
     "GBP": {
       "art19-activities.xml": 69,
-      "art19-ke.xml": 48,
       "art19-sn.xml": 69,
-      "art19-gb.xml": 12
+      "art19-gb.xml": 12,
+      "art19-ke.xml": 48
     }
   }
 }

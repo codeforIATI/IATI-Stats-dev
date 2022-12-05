@@ -100,9 +100,9 @@
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "16010": 2,
-      "91010": 1,
       "15162": 1,
-      "15160": 1
+      "15160": 1,
+      "91010": 1
     },
     ".//sector/@vocabulary": {
       "1": 5
@@ -129,17 +129,8 @@
       "fr": 13,
       "en": 4
     },
-    ".//activity-scope/@code": {
-      "4": 1
-    },
     ".//budget/value/@currency": {
       "EUR": 10
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "89": 1
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 1
     },
     ".//document-link/@format": {
       "application/pdf": 1
@@ -156,6 +147,15 @@
     },
     ".//other-identifier/@type": {
       "A9": 1
+    },
+    ".//activity-scope/@code": {
+      "4": 1
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "89": 1
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 1
     }
   }
 }

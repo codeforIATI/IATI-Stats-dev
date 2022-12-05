@@ -41,15 +41,6 @@
       "iati-activity/policy-marker": 11767,
       "iati-activity/policy-marker/@vocabulary": 11767,
       "iati-activity/policy-marker/@code": 11767,
-      "iati-activity/policy-marker/@significance": 2144,
-      "iati-activity/budget": 11125,
-      "iati-activity/budget/period-start": 11125,
-      "iati-activity/budget/period-start/@iso-date": 11125,
-      "iati-activity/budget/period-end": 11125,
-      "iati-activity/budget/period-end/@iso-date": 11125,
-      "iati-activity/budget/value": 11125,
-      "iati-activity/budget/value/@currency": 11125,
-      "iati-activity/budget/value/@value-date": 11125,
       "iati-activity/transaction": 10987,
       "iati-activity/transaction/transaction-type": 10987,
       "iati-activity/transaction/transaction-type/@code": 10987,
@@ -67,10 +58,19 @@
       "iati-activity/@default-currency": 11767,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 11767,
       "iati-activity/@hierarchy": 11767,
+      "iati-activity/budget": 11125,
+      "iati-activity/budget/period-start": 11125,
+      "iati-activity/budget/period-start/@iso-date": 11125,
+      "iati-activity/budget/period-end": 11125,
+      "iati-activity/budget/period-end/@iso-date": 11125,
+      "iati-activity/budget/value": 11125,
+      "iati-activity/budget/value/@currency": 11125,
+      "iati-activity/budget/value/@value-date": 11125,
       "iati-activity/transaction/recipient-region": 2749,
       "iati-activity/transaction/recipient-region/@code": 2749,
       "iati-activity/transaction/recipient-region/@vocabulary": 2749,
-      "iati-activity/transaction/recipient-region/@vocabulary-uri": 2749
+      "iati-activity/transaction/recipient-region/@vocabulary-uri": 2749,
+      "iati-activity/policy-marker/@significance": 2144
     },
     "elements_total": {
       "iati-activity": 11767,
@@ -112,15 +112,6 @@
       "iati-activity/policy-marker": 11767,
       "iati-activity/policy-marker/@vocabulary": 11767,
       "iati-activity/policy-marker/@code": 11767,
-      "iati-activity/policy-marker/@significance": 2144,
-      "iati-activity/budget": 11125,
-      "iati-activity/budget/period-start": 11125,
-      "iati-activity/budget/period-start/@iso-date": 11125,
-      "iati-activity/budget/period-end": 11125,
-      "iati-activity/budget/period-end/@iso-date": 11125,
-      "iati-activity/budget/value": 11125,
-      "iati-activity/budget/value/@currency": 11125,
-      "iati-activity/budget/value/@value-date": 11125,
       "iati-activity/transaction": 390384,
       "iati-activity/transaction/transaction-type": 390384,
       "iati-activity/transaction/transaction-type/@code": 390384,
@@ -138,47 +129,56 @@
       "iati-activity/@default-currency": 11767,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 11767,
       "iati-activity/@hierarchy": 11767,
+      "iati-activity/budget": 11125,
+      "iati-activity/budget/period-start": 11125,
+      "iati-activity/budget/period-start/@iso-date": 11125,
+      "iati-activity/budget/period-end": 11125,
+      "iati-activity/budget/period-end/@iso-date": 11125,
+      "iati-activity/budget/value": 11125,
+      "iati-activity/budget/value/@currency": 11125,
+      "iati-activity/budget/value/@value-date": 11125,
       "iati-activity/transaction/recipient-region": 91648,
       "iati-activity/transaction/recipient-region/@code": 91648,
       "iati-activity/transaction/recipient-region/@vocabulary": 91648,
-      "iati-activity/transaction/recipient-region/@vocabulary-uri": 91648
+      "iati-activity/transaction/recipient-region/@vocabulary-uri": 91648,
+      "iati-activity/policy-marker/@significance": 2144
     },
     "forwardlooking_currency_year": {
-      "2014": {
-        "USD": 175076647.94
-      },
-      "2018": {
-        "USD": 189260866.64
-      },
-      "2013": {
-        "USD": 184141911.77
-      },
-      "2016": {
-        "USD": 359377307.3
-      },
-      "2025": {
-        "USD": 20955253.15
-      },
       "2022": {
         "USD": 358254124.28
-      },
-      "2020": {
-        "USD": 176501636.43
       },
       "2023": {
         "USD": 106175874.82
       },
-      "2019": {
-        "USD": 192452776.08
+      "2024": {
+        "USD": 36167778.02
+      },
+      "2025": {
+        "USD": 20955253.15
+      },
+      "2020": {
+        "USD": 176501636.43
+      },
+      "2013": {
+        "USD": 184141911.77
       },
       "2017": {
         "USD": 202719493.26
       },
-      "2024": {
-        "USD": 36167778.02
+      "2016": {
+        "USD": 359377307.3
+      },
+      "2019": {
+        "USD": 192452776.08
       },
       "2021": {
         "USD": 179846977.15
+      },
+      "2018": {
+        "USD": 189260866.64
+      },
+      "2014": {
+        "USD": 175076647.94
       }
     },
     "forwardlooking_activities_current": {

@@ -1,10 +1,10 @@
 {
   "2": {
     ".//@default-currency": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "USD": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "USD": 1
       },
       "bsr_admin-in.xml": {
@@ -12,10 +12,10 @@
       }
     },
     ".//activity-date/@type": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "2": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "2": 1
       },
       "bsr_admin-in.xml": {
@@ -23,10 +23,10 @@
       }
     },
     ".//activity-status/@code": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "3": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "3": 1
       },
       "bsr_admin-in.xml": {
@@ -35,21 +35,29 @@
       }
     },
     ".//budget/@status": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "1": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "1": 1
       },
       "bsr_admin-in.xml": {
         "1": 2
       }
     },
+    ".//budget/@type": {
+      "bsr_admin-fr.xml": {
+        "1": 1
+      },
+      "bsr_admin-in.xml": {
+        "2": 1
+      }
+    },
     ".//budget/value/@currency": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "USD": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "USD": 1
       },
       "bsr_admin-in.xml": {
@@ -57,10 +65,10 @@
       }
     },
     ".//collaboration-type/@code": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "1": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "1": 1
       },
       "bsr_admin-in.xml": {
@@ -68,10 +76,10 @@
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "C01": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "C01": 1
       },
       "bsr_admin-in.xml": {
@@ -79,10 +87,10 @@
       }
     },
     ".//default-finance-type/@code": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "110": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "110": 1
       },
       "bsr_admin-in.xml": {
@@ -90,10 +98,10 @@
       }
     },
     ".//default-flow-type/@code": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "20": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "20": 1
       },
       "bsr_admin-in.xml": {
@@ -101,10 +109,10 @@
       }
     },
     ".//default-tied-status/@code": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "3": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "3": 1
       },
       "bsr_admin-in.xml": {
@@ -112,10 +120,10 @@
       }
     },
     ".//description/@type": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "1": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "1": 1
       },
       "bsr_admin-in.xml": {
@@ -123,13 +131,13 @@
       }
     },
     ".//participating-org/@role": {
-      "bsr_admin-ke.xml": {
-        "2": 1,
-        "1": 1
-      },
       "bsr_admin-fr.xml": {
         "2": 1,
         "4": 1,
+        "1": 1
+      },
+      "bsr_admin-ke.xml": {
+        "2": 1,
         "1": 1
       },
       "bsr_admin-in.xml": {
@@ -139,11 +147,11 @@
       }
     },
     ".//participating-org/@type": {
-      "bsr_admin-ke.xml": {
-        "10": 1
-      },
       "bsr_admin-fr.xml": {
         "22": 1,
+        "10": 1
+      },
+      "bsr_admin-ke.xml": {
         "10": 1
       },
       "bsr_admin-in.xml": {
@@ -152,12 +160,12 @@
       }
     },
     ".//recipient-country/@code": {
+      "bsr_admin-fr.xml": {
+        "FR": 1
+      },
       "bsr_admin-ke.xml": {
         "IN": 1,
         "KE": 1
-      },
-      "bsr_admin-fr.xml": {
-        "FR": 1
       },
       "bsr_admin-in.xml": {
         "IN": 3,
@@ -165,10 +173,10 @@
       }
     },
     ".//reporting-org/@type": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "21": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "21": 1
       },
       "bsr_admin-in.xml": {
@@ -176,10 +184,10 @@
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "15160": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "15160": 1
       },
       "bsr_admin-in.xml": {
@@ -187,10 +195,10 @@
       }
     },
     ".//sector/@vocabulary": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "1": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "1": 1
       },
       "bsr_admin-in.xml": {
@@ -198,10 +206,10 @@
       }
     },
     ".//transaction/transaction-type/@code": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "11": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "11": 1
       },
       "bsr_admin-in.xml": {
@@ -209,10 +217,10 @@
       }
     },
     ".//transaction/value/@currency": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "USD": 1
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "USD": 1
       },
       "bsr_admin-in.xml": {
@@ -220,22 +228,14 @@
       }
     },
     ".//@xml:lang": {
-      "bsr_admin-ke.xml": {
+      "bsr_admin-fr.xml": {
         "en": 4
       },
-      "bsr_admin-fr.xml": {
+      "bsr_admin-ke.xml": {
         "en": 4
       },
       "bsr_admin-in.xml": {
         "en": 14
-      }
-    },
-    ".//budget/@type": {
-      "bsr_admin-fr.xml": {
-        "1": 1
-      },
-      "bsr_admin-in.xml": {
-        "2": 1
       }
     },
     ".//transaction/provider-org/@type": {

@@ -20,6 +20,9 @@
     ".//budget/value/@currency": {
       "EUR": 4
     },
+    ".//contact-info/@type": {
+      "2": 3
+    },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 4
     },
@@ -56,10 +59,10 @@
       "1": 8
     },
     ".//recipient-country/@code": {
-      "ET": 1,
+      "UG": 1,
       "BD": 1,
-      "NP": 1,
-      "UG": 1
+      "ET": 1,
+      "NP": 1
     },
     ".//related-activity/@type": {
       "3": 12
@@ -74,8 +77,8 @@
       "1": 4
     },
     ".//transaction/provider-org/@type": {
-      "22": 2,
-      "60": 18
+      "60": 18,
+      "22": 2
     },
     ".//transaction/receiver-org/@type": {
       "60": 11
@@ -89,9 +92,6 @@
     },
     ".//@xml:lang": {
       "en": 8
-    },
-    ".//contact-info/@type": {
-      "2": 3
     }
   }
 }

@@ -5,8 +5,8 @@
   ".//@xml:lang": {
     "fr": 540,
     "en": 18,
-    "es": 12,
-    "ga": 1
+    "ga": 1,
+    "es": 12
   },
   ".//activity-date/@type": {
     "2": 3,
@@ -34,17 +34,17 @@
   },
   ".//contact-info/@type": {
     "1": 13,
-    "2": 11,
     "3": 2,
-    "4": 1
+    "4": 1,
+    "2": 11
   },
   ".//default-aid-type/@vocabulary": {
     "1": 13
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "H01": 3,
     "C01": 9,
-    "G01": 1,
-    "H01": 3
+    "G01": 1
   },
   ".//default-finance-type/@code": {
     "110": 13
@@ -95,39 +95,39 @@
     "22": 39
   },
   ".//policy-marker/@significance": {
-    "2": 12,
-    "1": 46
+    "1": 46,
+    "2": 12
   },
   ".//policy-marker/@vocabulary": {
     "1": 57
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "2": 11,
+    "5": 2,
     "7": 5,
     "6": 6,
     "1": 11,
     "3": 11,
-    "4": 5,
     "9": 7,
-    "5": 2
+    "4": 5
   },
   ".//recipient-country/@code": {
-    "MA": 1,
-    "BO": 1,
     "BI": 1,
-    "CD": 1,
     "PS": 2,
+    "CO": 1,
+    "BO": 1,
+    "CD": 1,
     "BF": 1,
-    "SN": 1,
     "BE": 2,
-    "CO": 1
+    "SN": 1,
+    "MA": 1
   },
   ".//recipient-region/@vocabulary": {
     "1": 2
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "89": 1,
-    "998": 1
+    "998": 1,
+    "89": 1
   },
   ".//related-activity/@type": {
     "1": 12
@@ -151,19 +151,19 @@
     "91010": 1
   },
   ".//transaction/provider-org/@type": {
-    "22": 208,
-    "10": 8
+    "10": 8,
+    "22": 208
   },
   ".//transaction/receiver-org/@type": {
     "22": 109,
     "23": 1
   },
   ".//transaction/transaction-type/@code": {
-    "4": 60,
-    "3": 121,
-    "2": 25,
     "1": 10,
-    "11": 8
+    "11": 8,
+    "3": 121,
+    "4": 60,
+    "2": 25
   },
   ".//transaction/value/@currency": {
     "EUR": 218

@@ -1,10 +1,10 @@
 {
   "2": {
     ".//@default-currency": {
-      "cpi-998.xml": {
+      "cpi-cn.xml": {
         "USD": 1
       },
-      "cpi-cn.xml": {
+      "cpi-998.xml": {
         "USD": 1
       },
       "cpi-gb.xml": {
@@ -12,12 +12,12 @@
       }
     },
     ".//activity-date/@type": {
-      "cpi-998.xml": {
-        "2": 1
-      },
       "cpi-cn.xml": {
         "2": 1,
         "3": 1
+      },
+      "cpi-998.xml": {
+        "2": 1
       },
       "cpi-gb.xml": {
         "2": 1,
@@ -25,102 +25,14 @@
       }
     },
     ".//activity-status/@code": {
-      "cpi-998.xml": {
-        "2": 1
-      },
       "cpi-cn.xml": {
         "2": 1
       },
+      "cpi-998.xml": {
+        "2": 1
+      },
       "cpi-gb.xml": {
         "2": 1
-      }
-    },
-    ".//description/@type": {
-      "cpi-998.xml": {
-        "1": 1
-      },
-      "cpi-cn.xml": {
-        "1": 1
-      },
-      "cpi-gb.xml": {
-        "1": 1
-      }
-    },
-    ".//document-link/@format": {
-      "cpi-998.xml": {
-        "application/vnd.adobe.xfdf": 1
-      }
-    },
-    ".//document-link/category/@code": {
-      "cpi-998.xml": {
-        "B01": 1
-      }
-    },
-    ".//document-link/language/@code": {
-      "cpi-998.xml": {
-        "en": 1
-      }
-    },
-    ".//participating-org/@role": {
-      "cpi-998.xml": {
-        "4": 1
-      },
-      "cpi-cn.xml": {
-        "1": 1
-      },
-      "cpi-gb.xml": {
-        "2": 1,
-        "1": 1
-      }
-    },
-    ".//participating-org/@type": {
-      "cpi-998.xml": {
-        "21": 1
-      },
-      "cpi-cn.xml": {
-        "10": 1
-      },
-      "cpi-gb.xml": {
-        "10": 2
-      }
-    },
-    ".//reporting-org/@type": {
-      "cpi-998.xml": {
-        "21": 1
-      },
-      "cpi-cn.xml": {
-        "21": 1
-      },
-      "cpi-gb.xml": {
-        "21": 1
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "cpi-998.xml": {
-        "31193": 1,
-        "99810": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "cpi-998.xml": {
-        "1": 2
-      },
-      "cpi-cn.xml": {
-        "7": 1
-      },
-      "cpi-gb.xml": {
-        "7": 1
-      }
-    },
-    ".//@xml:lang": {
-      "cpi-998.xml": {
-        "en": 8
-      },
-      "cpi-cn.xml": {
-        "en": 5
-      },
-      "cpi-gb.xml": {
-        "en": 8
       }
     },
     ".//budget/@status": {
@@ -147,6 +59,40 @@
         "USD": 1
       }
     },
+    ".//description/@type": {
+      "cpi-cn.xml": {
+        "1": 1
+      },
+      "cpi-998.xml": {
+        "1": 1
+      },
+      "cpi-gb.xml": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "cpi-cn.xml": {
+        "1": 1
+      },
+      "cpi-998.xml": {
+        "4": 1
+      },
+      "cpi-gb.xml": {
+        "2": 1,
+        "1": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "cpi-cn.xml": {
+        "10": 1
+      },
+      "cpi-998.xml": {
+        "21": 1
+      },
+      "cpi-gb.xml": {
+        "10": 2
+      }
+    },
     ".//recipient-country/@code": {
       "cpi-cn.xml": {
         "CN": 1
@@ -155,12 +101,66 @@
         "GB": 1
       }
     },
+    ".//reporting-org/@type": {
+      "cpi-cn.xml": {
+        "21": 1
+      },
+      "cpi-998.xml": {
+        "21": 1
+      },
+      "cpi-gb.xml": {
+        "21": 1
+      }
+    },
     ".//sector[@vocabulary = '7']/@code": {
       "cpi-cn.xml": {
         "13": 1
       },
       "cpi-gb.xml": {
         "13": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "cpi-cn.xml": {
+        "7": 1
+      },
+      "cpi-998.xml": {
+        "1": 2
+      },
+      "cpi-gb.xml": {
+        "7": 1
+      }
+    },
+    ".//@xml:lang": {
+      "cpi-cn.xml": {
+        "en": 5
+      },
+      "cpi-998.xml": {
+        "en": 8
+      },
+      "cpi-gb.xml": {
+        "en": 8
+      }
+    },
+    ".//document-link/@format": {
+      "cpi-998.xml": {
+        "application/vnd.adobe.xfdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "cpi-998.xml": {
+        "B01": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "cpi-998.xml": {
+        "en": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cpi-998.xml": {
+        "31193": 1,
+        "99810": 1
       }
     },
     ".//participating-org/@crs-channel-code": {

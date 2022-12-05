@@ -41,8 +41,8 @@
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "298": 42,
-      "589": 1,
-      "1027": 2
+      "1027": 2,
+      "589": 1
     },
     ".//recipient-region/@vocabulary": {
       "1": 45
@@ -66,15 +66,6 @@
     ".//@xml:lang": {
       "en": 152
     },
-    ".//transaction/transaction-type/@code": {
-      "11": 3,
-      "1": 7,
-      "4": 12
-    },
-    ".//transaction/value/@currency": {
-      "EUR": 3,
-      "USD": 17
-    },
     ".//document-link/@format": {
       "application/pdf": 1
     },
@@ -92,6 +83,15 @@
     },
     ".//transaction/receiver-org/@type": {
       "21": 19
+    },
+    ".//transaction/transaction-type/@code": {
+      "4": 12,
+      "11": 3,
+      "1": 7
+    },
+    ".//transaction/value/@currency": {
+      "USD": 17,
+      "EUR": 3
     }
   }
 }

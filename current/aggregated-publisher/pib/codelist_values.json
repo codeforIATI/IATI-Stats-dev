@@ -3,16 +3,16 @@
     "EUR": 14
   },
   ".//@xml:lang": {
-    "fr": 174,
-    "en": 88,
     "nl": 45,
+    "en": 88,
+    "fr": 174,
     "es": 20
   },
   ".//activity-date/@type": {
-    "2": 13,
+    "1": 2,
     "3": 14,
     "4": 14,
-    "1": 2
+    "2": 13
   },
   ".//activity-status/@code": {
     "4": 14
@@ -39,9 +39,9 @@
     "1": 14
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 10,
     "H01": 3,
-    "G01": 1,
-    "C01": 10
+    "G01": 1
   },
   ".//default-finance-type/@code": {
     "110": 14
@@ -53,9 +53,9 @@
     "5": 14
   },
   ".//description/@type": {
+    "2": 12,
     "3": 12,
-    "1": 12,
-    "2": 12
+    "1": 12
   },
   ".//document-link/@format": {
     "application/pdf": 3
@@ -84,8 +84,8 @@
     "A9": 1
   },
   ".//participating-org/@role": {
-    "2": 13,
     "1": 27,
+    "2": 13,
     "4": 12
   },
   ".//participating-org/@type": {
@@ -94,29 +94,29 @@
     "24": 9
   },
   ".//policy-marker/@significance": {
-    "2": 26,
     "1": 31,
+    "2": 26,
     "0": 4
   },
   ".//policy-marker/@vocabulary": {
     "1": 61
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "2": 11,
     "1": 12,
     "3": 10,
-    "2": 11,
-    "7": 9,
     "9": 7,
-    "6": 7,
     "8": 2,
     "5": 2,
+    "7": 9,
+    "6": 7,
     "4": 1
   },
   ".//recipient-country/@code": {
+    "BJ": 2,
     "BE": 3,
     "VN": 2,
     "NE": 3,
-    "BJ": 2,
     "BO": 2
   },
   ".//recipient-region/@vocabulary": {
@@ -136,24 +136,24 @@
     "2": 12
   },
   ".//result/indicator/@measure": {
-    "1": 10,
-    "2": 35
+    "2": 35,
+    "1": 10
   },
   ".//sector/@vocabulary": {
     "1": 25
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "11110": 2,
+    "15180": 2,
     "99820": 3,
-    "91010": 1,
-    "99810": 1,
     "11240": 3,
     "12261": 1,
     "14081": 1,
     "12240": 2,
     "11220": 1,
     "41081": 1,
-    "15180": 2,
-    "11110": 2,
+    "91010": 1,
+    "99810": 1,
     "12220": 1,
     "15150": 2,
     "15160": 2,
@@ -165,15 +165,15 @@
     "10": 14
   },
   ".//transaction/receiver-org/@type": {
-    "22": 28,
-    "24": 56
+    "24": 56,
+    "22": 28
   },
   ".//transaction/transaction-type/@code": {
-    "4": 65,
-    "11": 18,
-    "1": 10,
     "3": 45,
-    "2": 9
+    "4": 65,
+    "2": 9,
+    "11": 18,
+    "1": 10
   },
   ".//transaction/value/@currency": {
     "EUR": 124

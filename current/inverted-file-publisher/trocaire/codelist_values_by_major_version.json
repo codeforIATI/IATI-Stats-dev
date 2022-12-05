@@ -1,12 +1,12 @@
 {
   "2": {
     ".//@default-currency": {
-      "trocaire-trocaire-ie-dataset.xml": {
-        "GBP": 1,
-        "USD": 1
-      },
       "trocaire-activities.xml": {
         "EUR": 1,
+        "USD": 1
+      },
+      "trocaire-trocaire-ie-dataset.xml": {
+        "GBP": 1,
         "USD": 1
       },
       "trocaire-iati-ie-closed-projects.xml": {
@@ -16,15 +16,15 @@
       }
     },
     ".//activity-date/@type": {
-      "trocaire-trocaire-ie-dataset.xml": {
-        "1": 2,
-        "2": 2,
-        "3": 2
-      },
       "trocaire-activities.xml": {
         "2": 2,
         "3": 2,
         "4": 1
+      },
+      "trocaire-trocaire-ie-dataset.xml": {
+        "1": 2,
+        "2": 2,
+        "3": 2
       },
       "trocaire-iati-ie-closed-projects.xml": {
         "2": 12,
@@ -33,10 +33,10 @@
       }
     },
     ".//activity-status/@code": {
-      "trocaire-trocaire-ie-dataset.xml": {
+      "trocaire-activities.xml": {
         "2": 2
       },
-      "trocaire-activities.xml": {
+      "trocaire-trocaire-ie-dataset.xml": {
         "2": 2
       },
       "trocaire-iati-ie-closed-projects.xml": {
@@ -44,12 +44,12 @@
       }
     },
     ".//budget/value/@currency": {
-      "trocaire-trocaire-ie-dataset.xml": {
-        "GBP": 5,
-        "USD": 1
-      },
       "trocaire-activities.xml": {
         "EUR": 1,
+        "USD": 1
+      },
+      "trocaire-trocaire-ie-dataset.xml": {
+        "GBP": 5,
         "USD": 1
       },
       "trocaire-iati-ie-closed-projects.xml": {
@@ -59,10 +59,10 @@
       }
     },
     ".//collaboration-type/@code": {
-      "trocaire-trocaire-ie-dataset.xml": {
+      "trocaire-activities.xml": {
         "1": 2
       },
-      "trocaire-activities.xml": {
+      "trocaire-trocaire-ie-dataset.xml": {
         "1": 2
       },
       "trocaire-iati-ie-closed-projects.xml": {
@@ -70,10 +70,10 @@
       }
     },
     ".//contact-info/@type": {
-      "trocaire-trocaire-ie-dataset.xml": {
+      "trocaire-activities.xml": {
         "1": 2
       },
-      "trocaire-activities.xml": {
+      "trocaire-trocaire-ie-dataset.xml": {
         "1": 2
       },
       "trocaire-iati-ie-closed-projects.xml": {
@@ -81,10 +81,10 @@
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "trocaire-trocaire-ie-dataset.xml": {
+      "trocaire-activities.xml": {
         "C01": 2
       },
-      "trocaire-activities.xml": {
+      "trocaire-trocaire-ie-dataset.xml": {
         "C01": 2
       },
       "trocaire-iati-ie-closed-projects.xml": {
@@ -92,10 +92,10 @@
       }
     },
     ".//default-finance-type/@code": {
-      "trocaire-trocaire-ie-dataset.xml": {
+      "trocaire-activities.xml": {
         "110": 2
       },
-      "trocaire-activities.xml": {
+      "trocaire-trocaire-ie-dataset.xml": {
         "110": 2
       },
       "trocaire-iati-ie-closed-projects.xml": {
@@ -103,10 +103,10 @@
       }
     },
     ".//default-flow-type/@code": {
-      "trocaire-trocaire-ie-dataset.xml": {
+      "trocaire-activities.xml": {
         "30": 2
       },
-      "trocaire-activities.xml": {
+      "trocaire-trocaire-ie-dataset.xml": {
         "30": 2
       },
       "trocaire-iati-ie-closed-projects.xml": {
@@ -114,10 +114,10 @@
       }
     },
     ".//default-tied-status/@code": {
-      "trocaire-trocaire-ie-dataset.xml": {
+      "trocaire-activities.xml": {
         "5": 2
       },
-      "trocaire-activities.xml": {
+      "trocaire-trocaire-ie-dataset.xml": {
         "5": 2
       },
       "trocaire-iati-ie-closed-projects.xml": {
@@ -125,11 +125,11 @@
       }
     },
     ".//description/@type": {
-      "trocaire-trocaire-ie-dataset.xml": {
+      "trocaire-activities.xml": {
         "1": 2,
         "2": 2
       },
-      "trocaire-activities.xml": {
+      "trocaire-trocaire-ie-dataset.xml": {
         "1": 2,
         "2": 2
       },
@@ -139,15 +139,15 @@
       }
     },
     ".//participating-org/@role": {
-      "trocaire-trocaire-ie-dataset.xml": {
-        "1": 3,
-        "2": 2,
-        "4": 12
-      },
       "trocaire-activities.xml": {
         "1": 2,
         "2": 2,
         "4": 7
+      },
+      "trocaire-trocaire-ie-dataset.xml": {
+        "1": 3,
+        "2": 2,
+        "4": 12
       },
       "trocaire-iati-ie-closed-projects.xml": {
         "1": 12,
@@ -156,15 +156,15 @@
       }
     },
     ".//participating-org/@type": {
+      "trocaire-activities.xml": {
+        "21": 5,
+        "22": 6
+      },
       "trocaire-trocaire-ie-dataset.xml": {
         "10": 2,
         "21": 3,
         "22": 11,
         "40": 1
-      },
-      "trocaire-activities.xml": {
-        "21": 5,
-        "22": 6
       },
       "trocaire-iati-ie-closed-projects.xml": {
         "10": 2,
@@ -173,13 +173,13 @@
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "trocaire-trocaire-ie-dataset.xml": {
-        "3": 1,
-        "9": 1
-      },
       "trocaire-activities.xml": {
         "9": 1,
         "3": 1
+      },
+      "trocaire-trocaire-ie-dataset.xml": {
+        "3": 1,
+        "9": 1
       },
       "trocaire-iati-ie-closed-projects.xml": {
         "7": 2,
@@ -190,10 +190,10 @@
       }
     },
     ".//policy-marker/@significance": {
-      "trocaire-trocaire-ie-dataset.xml": {
+      "trocaire-activities.xml": {
         "1": 2
       },
-      "trocaire-activities.xml": {
+      "trocaire-trocaire-ie-dataset.xml": {
         "1": 2
       },
       "trocaire-iati-ie-closed-projects.xml": {
@@ -201,10 +201,10 @@
       }
     },
     ".//policy-marker/@vocabulary": {
-      "trocaire-trocaire-ie-dataset.xml": {
+      "trocaire-activities.xml": {
         "1": 2
       },
-      "trocaire-activities.xml": {
+      "trocaire-trocaire-ie-dataset.xml": {
         "1": 2
       },
       "trocaire-iati-ie-closed-projects.xml": {
@@ -212,13 +212,13 @@
       }
     },
     ".//recipient-country/@code": {
-      "trocaire-trocaire-ie-dataset.xml": {
-        "ZW": 1,
-        "SO": 1
-      },
       "trocaire-activities.xml": {
         "SO": 1,
         "ZW": 1
+      },
+      "trocaire-trocaire-ie-dataset.xml": {
+        "ZW": 1,
+        "SO": 1
       },
       "trocaire-iati-ie-closed-projects.xml": {
         "KE": 3,
@@ -228,10 +228,10 @@
       }
     },
     ".//reporting-org/@type": {
-      "trocaire-trocaire-ie-dataset.xml": {
+      "trocaire-activities.xml": {
         "21": 2
       },
-      "trocaire-activities.xml": {
+      "trocaire-trocaire-ie-dataset.xml": {
         "21": 2
       },
       "trocaire-iati-ie-closed-projects.xml": {
@@ -239,13 +239,13 @@
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "trocaire-trocaire-ie-dataset.xml": {
-        "15160": 1,
-        "72010": 1
-      },
       "trocaire-activities.xml": {
         "72010": 1,
         "15150": 1
+      },
+      "trocaire-trocaire-ie-dataset.xml": {
+        "15160": 1,
+        "72010": 1
       },
       "trocaire-iati-ie-closed-projects.xml": {
         "41010": 3,
@@ -255,44 +255,39 @@
         "15150": 1
       }
     },
-    ".//sector/@vocabulary": {
-      "trocaire-trocaire-ie-dataset.xml": {
-        "1": 2
-      }
-    },
     ".//transaction/provider-org/@type": {
-      "trocaire-trocaire-ie-dataset.xml": {
-        "70": 33
-      },
       "trocaire-activities.xml": {
         "70": 296
+      },
+      "trocaire-trocaire-ie-dataset.xml": {
+        "70": 33
       },
       "trocaire-iati-ie-closed-projects.xml": {
         "70": 757
       }
     },
     ".//transaction/receiver-org/@type": {
-      "trocaire-trocaire-ie-dataset.xml": {
-        "21": 33
-      },
       "trocaire-activities.xml": {
         "21": 296
+      },
+      "trocaire-trocaire-ie-dataset.xml": {
+        "21": 33
       },
       "trocaire-iati-ie-closed-projects.xml": {
         "21": 757
       }
     },
     ".//transaction/transaction-type/@code": {
-      "trocaire-trocaire-ie-dataset.xml": {
-        "1": 8,
-        "4": 25
-      },
       "trocaire-activities.xml": {
         "1": 36,
         "4": 146,
         "11": 1,
         "2": 41,
         "3": 72
+      },
+      "trocaire-trocaire-ie-dataset.xml": {
+        "1": 8,
+        "4": 25
       },
       "trocaire-iati-ie-closed-projects.xml": {
         "1": 99,
@@ -303,12 +298,12 @@
       }
     },
     ".//transaction/value/@currency": {
-      "trocaire-trocaire-ie-dataset.xml": {
-        "GBP": 33
-      },
       "trocaire-activities.xml": {
         "GBP": 138,
         "USD": 158
+      },
+      "trocaire-trocaire-ie-dataset.xml": {
+        "GBP": 33
       },
       "trocaire-iati-ie-closed-projects.xml": {
         "GBP": 398,
@@ -316,14 +311,19 @@
       }
     },
     ".//@xml:lang": {
-      "trocaire-trocaire-ie-dataset.xml": {
+      "trocaire-activities.xml": {
         "en": 2
       },
-      "trocaire-activities.xml": {
+      "trocaire-trocaire-ie-dataset.xml": {
         "en": 2
       },
       "trocaire-iati-ie-closed-projects.xml": {
         "en": 12
+      }
+    },
+    ".//sector/@vocabulary": {
+      "trocaire-trocaire-ie-dataset.xml": {
+        "1": 2
       }
     }
   }

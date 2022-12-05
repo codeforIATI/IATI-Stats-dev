@@ -1,135 +1,236 @@
 {
   "2": {
     ".//@default-currency": {
-      "acodev-activities.xml": {
-        "EUR": 7
-      },
       "acodev-tesout22-26.xml": {
         "EUR": 1
+      },
+      "acodev-activities.xml": {
+        "EUR": 7
       },
       "acodev-testprogr22-26.xml": {
         "EUR": 1
       }
     },
     ".//activity-date/@type": {
+      "acodev-tesout22-26.xml": {
+        "2": 1
+      },
       "acodev-activities.xml": {
         "1": 6,
         "2": 7,
         "3": 6,
         "4": 6
-      },
-      "acodev-tesout22-26.xml": {
-        "2": 1
       }
     },
     ".//activity-status/@code": {
-      "acodev-activities.xml": {
-        "4": 6,
+      "acodev-tesout22-26.xml": {
         "2": 1
       },
-      "acodev-tesout22-26.xml": {
+      "acodev-activities.xml": {
+        "4": 6,
         "2": 1
       }
     },
     ".//budget/@status": {
-      "acodev-activities.xml": {
-        "2": 26
-      },
       "acodev-tesout22-26.xml": {
         "2": 1
+      },
+      "acodev-activities.xml": {
+        "2": 26
       }
     },
     ".//budget/@type": {
-      "acodev-activities.xml": {
-        "1": 26
-      },
       "acodev-tesout22-26.xml": {
         "1": 1
+      },
+      "acodev-activities.xml": {
+        "1": 26
       }
     },
     ".//collaboration-type/@code": {
-      "acodev-activities.xml": {
-        "1": 7
-      },
       "acodev-tesout22-26.xml": {
         "1": 1
+      },
+      "acodev-activities.xml": {
+        "1": 7
       },
       "acodev-testprogr22-26.xml": {
         "1": 1
       }
     },
     ".//contact-info/@type": {
-      "acodev-activities.xml": {
-        "1": 7
-      },
       "acodev-tesout22-26.xml": {
         "1": 1
+      },
+      "acodev-activities.xml": {
+        "1": 7
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "acodev-tesout22-26.xml": {
+        "C01": 1
+      },
       "acodev-activities.xml": {
         "C01": 6,
         "G01": 1
-      },
-      "acodev-tesout22-26.xml": {
-        "C01": 1
       },
       "acodev-testprogr22-26.xml": {
         "C01": 1
       }
     },
     ".//default-aid-type/@vocabulary": {
-      "acodev-activities.xml": {
-        "1": 7
-      },
       "acodev-tesout22-26.xml": {
         "1": 1
+      },
+      "acodev-activities.xml": {
+        "1": 7
       },
       "acodev-testprogr22-26.xml": {
         "1": 1
       }
     },
     ".//default-finance-type/@code": {
-      "acodev-activities.xml": {
-        "110": 7
-      },
       "acodev-tesout22-26.xml": {
         "110": 1
+      },
+      "acodev-activities.xml": {
+        "110": 7
       },
       "acodev-testprogr22-26.xml": {
         "110": 1
       }
     },
     ".//default-flow-type/@code": {
-      "acodev-activities.xml": {
-        "30": 7
-      },
       "acodev-tesout22-26.xml": {
         "30": 1
+      },
+      "acodev-activities.xml": {
+        "30": 7
       },
       "acodev-testprogr22-26.xml": {
         "30": 1
       }
     },
     ".//default-tied-status/@code": {
-      "acodev-activities.xml": {
-        "5": 7
-      },
       "acodev-tesout22-26.xml": {
         "5": 1
+      },
+      "acodev-activities.xml": {
+        "5": 7
       },
       "acodev-testprogr22-26.xml": {
         "5": 1
       }
     },
     ".//description/@type": {
+      "acodev-tesout22-26.xml": {
+        "2": 1
+      },
       "acodev-activities.xml": {
         "1": 6,
         "2": 2,
         "3": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "acodev-tesout22-26.xml": {
+        "1": 1
       },
+      "acodev-activities.xml": {
+        "1": 3,
+        "2": 16,
+        "4": 15
+      }
+    },
+    ".//participating-org/@type": {
+      "acodev-tesout22-26.xml": {
+        "10": 1
+      },
+      "acodev-activities.xml": {
+        "10": 3,
+        "22": 31
+      }
+    },
+    ".//recipient-country/@code": {
+      "acodev-tesout22-26.xml": {
+        "BE": 1
+      },
+      "acodev-activities.xml": {
+        "BE": 5
+      }
+    },
+    ".//related-activity/@type": {
       "acodev-tesout22-26.xml": {
         "2": 1
+      },
+      "acodev-activities.xml": {
+        "1": 5,
+        "2": 1
+      },
+      "acodev-testprogr22-26.xml": {
+        "1": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "acodev-tesout22-26.xml": {
+        "22": 1
+      },
+      "acodev-activities.xml": {
+        "22": 7
+      },
+      "acodev-testprogr22-26.xml": {
+        "22": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "acodev-tesout22-26.xml": {
+        "99810": 1
+      },
+      "acodev-activities.xml": {
+        "99810": 3,
+        "91010": 1,
+        "92010": 3
+      }
+    },
+    ".//sector/@vocabulary": {
+      "acodev-tesout22-26.xml": {
+        "1": 1
+      },
+      "acodev-activities.xml": {
+        "1": 7
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "acodev-tesout22-26.xml": {
+        "22": 1
+      },
+      "acodev-activities.xml": {
+        "10": 10,
+        "22": 25
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "acodev-tesout22-26.xml": {
+        "4": 1
+      },
+      "acodev-activities.xml": {
+        "1": 5,
+        "11": 5,
+        "4": 25
+      }
+    },
+    ".//@xml:lang": {
+      "acodev-tesout22-26.xml": {
+        "fr": 3,
+        "en": 1
+      },
+      "acodev-activities.xml": {
+        "fr": 26,
+        "en": 5,
+        "nl": 2
+      },
+      "acodev-testprogr22-26.xml": {
+        "fr": 2
       }
     },
     ".//document-link/@format": {
@@ -154,25 +255,6 @@
         "A9": 1
       }
     },
-    ".//participating-org/@role": {
-      "acodev-activities.xml": {
-        "1": 3,
-        "2": 16,
-        "4": 15
-      },
-      "acodev-tesout22-26.xml": {
-        "1": 1
-      }
-    },
-    ".//participating-org/@type": {
-      "acodev-activities.xml": {
-        "10": 3,
-        "22": 31
-      },
-      "acodev-tesout22-26.xml": {
-        "10": 1
-      }
-    },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "acodev-activities.xml": {
         "1": 5,
@@ -189,14 +271,6 @@
         "1": 10
       }
     },
-    ".//recipient-country/@code": {
-      "acodev-activities.xml": {
-        "BE": 5
-      },
-      "acodev-tesout22-26.xml": {
-        "BE": 1
-      }
-    },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "acodev-activities.xml": {
         "998": 1,
@@ -206,29 +280,6 @@
     ".//recipient-region/@vocabulary": {
       "acodev-activities.xml": {
         "1": 2
-      }
-    },
-    ".//related-activity/@type": {
-      "acodev-activities.xml": {
-        "1": 5,
-        "2": 1
-      },
-      "acodev-tesout22-26.xml": {
-        "2": 1
-      },
-      "acodev-testprogr22-26.xml": {
-        "1": 1
-      }
-    },
-    ".//reporting-org/@type": {
-      "acodev-activities.xml": {
-        "22": 7
-      },
-      "acodev-tesout22-26.xml": {
-        "22": 1
-      },
-      "acodev-testprogr22-26.xml": {
-        "22": 1
       }
     },
     ".//result/@type": {
@@ -241,65 +292,14 @@
         "2": 17
       }
     },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "acodev-activities.xml": {
-        "99810": 3,
-        "91010": 1,
-        "92010": 3
-      },
-      "acodev-tesout22-26.xml": {
-        "99810": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "acodev-activities.xml": {
-        "1": 7
-      },
-      "acodev-tesout22-26.xml": {
-        "1": 1
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "acodev-activities.xml": {
-        "10": 10,
-        "22": 25
-      },
-      "acodev-tesout22-26.xml": {
-        "22": 1
-      }
-    },
     ".//transaction/receiver-org/@type": {
       "acodev-activities.xml": {
         "22": 10
       }
     },
-    ".//transaction/transaction-type/@code": {
-      "acodev-activities.xml": {
-        "1": 5,
-        "11": 5,
-        "4": 25
-      },
-      "acodev-tesout22-26.xml": {
-        "4": 1
-      }
-    },
     ".//transaction/value/@currency": {
       "acodev-activities.xml": {
         "EUR": 1
-      }
-    },
-    ".//@xml:lang": {
-      "acodev-activities.xml": {
-        "fr": 26,
-        "en": 5,
-        "nl": 2
-      },
-      "acodev-tesout22-26.xml": {
-        "fr": 3,
-        "en": 1
-      },
-      "acodev-testprogr22-26.xml": {
-        "fr": 2
       }
     }
   }

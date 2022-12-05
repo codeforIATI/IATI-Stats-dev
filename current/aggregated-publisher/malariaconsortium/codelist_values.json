@@ -2,14 +2,14 @@
   ".//@default-currency": {
     "USD": 254,
     "GBP": 91,
-    "NOK": 2,
     "NGN": 4,
     "EUR": 10,
+    "NOK": 2,
     "UGX": 10,
     "THB": 2,
-    "ETB": 2,
+    "CAD": 2,
     "MZN": 2,
-    "CAD": 2
+    "ETB": 2
   },
   ".//@xml:lang": {
     "en": 2149
@@ -20,8 +20,8 @@
     "4": 239
   },
   ".//activity-status/@code": {
-    "2": 142,
-    "4": 237
+    "4": 237,
+    "2": 142
   },
   ".//budget/@type": {
     "1": 147,
@@ -30,15 +30,15 @@
   ".//budget/value/@currency": {
     "USD": 210,
     "GBP": 53,
-    "NOK": 1,
     "NGN": 3,
-    "EUR": 3,
+    "NOK": 1,
     "UGX": 8,
+    "Eur": 1,
     "THB": 3,
-    "ETB": 4,
-    "MZN": 1,
     "CAD": 1,
-    "Eur": 1
+    "EUR": 3,
+    "MZN": 1,
+    "ETB": 4
   },
   ".//contact-info/@type": {
     "1": 379
@@ -50,53 +50,53 @@
     "10": 379
   },
   ".//default-tied-status/@code": {
-    "3": 45,
-    "5": 334
+    "5": 334,
+    "3": 45
   },
   ".//description/@type": {
     "1": 379
   },
   ".//participating-org/@role": {
-    "4": 504,
-    "1": 184
+    "1": 184,
+    "4": 504
   },
   ".//participating-org/@type": {
-    "21": 396,
-    "10": 110,
     "40": 53,
-    "60": 18,
-    "80": 34,
-    "15": 9,
-    "70": 26,
+    "21": 396,
     "22": 41,
+    "80": 34,
+    "10": 110,
+    "70": 26,
+    "60": 18,
+    "15": 9,
     "23": 1
   },
   ".//recipient-country/@code": {
-    "MZ": 43,
-    "UG": 69,
-    "GB": 29,
     "SS": 61,
-    "NG": 62,
-    "ET": 33,
-    "NP": 2,
     "KH": 37,
-    "MM": 21,
-    "SL": 2,
-    "TH": 14,
+    "NG": 62,
     "BF": 5,
-    "GW": 2,
-    "TD": 5,
-    "TG": 2,
-    "MW": 2,
-    "TZ": 2,
-    "ZM": 4,
     "GM": 1,
     "GN": 1,
     "ML": 1,
     "NE": 1,
     "SN": 3,
+    "TD": 5,
+    "UG": 69,
+    "ET": 33,
+    "GB": 29,
+    "MM": 21,
+    "TH": 14,
+    "MZ": 43,
     "CM": 2,
-    "GH": 3
+    "MW": 2,
+    "TZ": 2,
+    "ZM": 4,
+    "SL": 2,
+    "GH": 3,
+    "NP": 2,
+    "GW": 2,
+    "TG": 2
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "298": 23,
@@ -113,11 +113,11 @@
     "1": 385
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12240": 18,
     "12262": 221,
     "12220": 29,
-    "12230": 37,
     "12250": 78,
-    "12240": 18,
+    "12230": 37,
     "51010": 2
   },
   ".//transaction/disbursement-channel/@code": {
@@ -130,30 +130,30 @@
     "10": 5837
   },
   ".//transaction/tied-status/@code": {
-    "3": 1035,
-    "5": 4802
+    "5": 4802,
+    "3": 1035
   },
   ".//transaction/transaction-type/@code": {
+    "1": 1473,
     "2": 153,
     "4": 1785,
-    "1": 1473,
     "3": 2427
   },
   ".//transaction/value/@currency": {
     "USD": 2967,
     "GBP": 1109,
-    "MZN": 39,
-    "UGX": 141,
-    "THB": 17,
-    "NOK": 15,
     "NGN": 379,
-    "EUR": 35,
     "XOF": 671,
     "XAF": 411,
-    "MMK": 8,
-    "ETB": 29,
-    "CAD": 15,
+    "EUR": 35,
+    "NOK": 15,
+    "MZN": 39,
+    "UGX": 141,
     "Eur": 1,
-    "SDG": 1
+    "MMK": 8,
+    "SDG": 1,
+    "THB": 17,
+    "ETB": 29,
+    "CAD": 15
   }
 }

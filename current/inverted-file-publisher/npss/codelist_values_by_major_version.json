@@ -4,11 +4,11 @@
       "npss-298.xml": {
         "USS": 42
       },
-      "npss-589.xml": {
-        "USS": 1
-      },
       "npss-1027.xml": {
         "USS": 2
+      },
+      "npss-589.xml": {
+        "USS": 1
       }
     },
     ".//activity-date/@type": {
@@ -16,12 +16,12 @@
         "1": 42,
         "3": 42
       },
-      "npss-589.xml": {
-        "1": 1
-      },
       "npss-1027.xml": {
         "2": 1,
         "4": 1,
+        "1": 1
+      },
+      "npss-589.xml": {
         "1": 1
       }
     },
@@ -29,11 +29,11 @@
       "npss-298.xml": {
         "2": 42
       },
-      "npss-589.xml": {
-        "2": 1
-      },
       "npss-1027.xml": {
         "4": 1,
+        "2": 1
+      },
+      "npss-589.xml": {
         "2": 1
       }
     },
@@ -41,12 +41,12 @@
       "npss-298.xml": {
         "1": 42
       },
+      "npss-1027.xml": {
+        "2": 2
+      },
       "npss-589.xml": {
         "1": 1,
         "2": 1
-      },
-      "npss-1027.xml": {
-        "2": 2
       }
     },
     ".//location/location-class/@code": {
@@ -72,92 +72,92 @@
       "npss-298.xml": {
         "4": 42
       },
-      "npss-589.xml": {
-        "4": 1,
-        "1": 1
-      },
       "npss-1027.xml": {
         "4": 2,
         "1": 2
+      },
+      "npss-589.xml": {
+        "4": 1,
+        "1": 1
       }
     },
     ".//participating-org/@type": {
       "npss-298.xml": {
         "21": 42
       },
-      "npss-589.xml": {
-        "21": 1,
-        "10": 1
-      },
       "npss-1027.xml": {
         "21": 2,
         "10": 2
+      },
+      "npss-589.xml": {
+        "21": 1,
+        "10": 1
       }
     },
     ".//recipient-country/@code": {
       "npss-298.xml": {
         "SS": 42
       },
-      "npss-589.xml": {
-        "IQ": 1
-      },
       "npss-1027.xml": {
         "SS": 2
+      },
+      "npss-589.xml": {
+        "IQ": 1
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "npss-298.xml": {
         "298": 42
       },
-      "npss-589.xml": {
-        "589": 1
-      },
       "npss-1027.xml": {
         "1027": 2
+      },
+      "npss-589.xml": {
+        "589": 1
       }
     },
     ".//recipient-region/@vocabulary": {
       "npss-298.xml": {
         "1": 42
       },
-      "npss-589.xml": {
-        "1": 1
-      },
       "npss-1027.xml": {
         "1": 2
+      },
+      "npss-589.xml": {
+        "1": 1
       }
     },
     ".//reporting-org/@type": {
       "npss-298.xml": {
         "21": 42
       },
-      "npss-589.xml": {
-        "21": 1
-      },
       "npss-1027.xml": {
         "21": 2
+      },
+      "npss-589.xml": {
+        "21": 1
       }
     },
     ".//result/@type": {
       "npss-298.xml": {
         "1": 59
       },
-      "npss-589.xml": {
-        "1": 7
-      },
       "npss-1027.xml": {
         "1": 42
+      },
+      "npss-589.xml": {
+        "1": 7
       }
     },
     ".//result/indicator/@measure": {
       "npss-298.xml": {
         "1": 59
       },
-      "npss-589.xml": {
-        "1": 7
-      },
       "npss-1027.xml": {
         "1": 42
+      },
+      "npss-589.xml": {
+        "1": 7
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -169,41 +169,22 @@
       "npss-298.xml": {
         "1": 42
       },
-      "npss-589.xml": {
-        "99": 1
-      },
       "npss-1027.xml": {
         "99": 2
+      },
+      "npss-589.xml": {
+        "99": 1
       }
     },
     ".//@xml:lang": {
       "npss-298.xml": {
         "en": 85
       },
-      "npss-589.xml": {
-        "en": 21
-      },
       "npss-1027.xml": {
         "en": 46
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "npss-589.xml": {
-        "11": 1,
-        "1": 2
       },
-      "npss-1027.xml": {
-        "4": 12,
-        "11": 2,
-        "1": 5
-      }
-    },
-    ".//transaction/value/@currency": {
       "npss-589.xml": {
-        "EUR": 3
-      },
-      "npss-1027.xml": {
-        "USD": 17
+        "en": 21
       }
     },
     ".//document-link/@format": {
@@ -234,6 +215,25 @@
     ".//transaction/receiver-org/@type": {
       "npss-1027.xml": {
         "21": 19
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "npss-1027.xml": {
+        "4": 12,
+        "11": 2,
+        "1": 5
+      },
+      "npss-589.xml": {
+        "11": 1,
+        "1": 2
+      }
+    },
+    ".//transaction/value/@currency": {
+      "npss-1027.xml": {
+        "USD": 17
+      },
+      "npss-589.xml": {
+        "EUR": 3
       }
     }
   }

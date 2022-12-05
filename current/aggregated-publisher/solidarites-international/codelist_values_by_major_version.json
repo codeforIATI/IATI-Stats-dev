@@ -15,8 +15,8 @@
       "2": 11
     },
     ".//budget/@type": {
-      "2": 2,
-      "1": 9
+      "1": 9,
+      "2": 2
     },
     ".//budget/value/@currency": {
       "GBP": 9,
@@ -44,8 +44,8 @@
       "5": 5
     },
     ".//description/@type": {
-      "2": 3,
       "1": 4,
+      "2": 3,
       "3": 3,
       "4": 3
     },
@@ -72,24 +72,29 @@
       "21": 7,
       "10": 3
     },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "9": 1,
+      "1": 1,
+      "2": 1
+    },
     ".//policy-marker/@significance": {
       "1": 3,
       "0": 1
     },
     ".//policy-marker/@vocabulary": {
-      "99": 1,
-      "1": 2
+      "1": 2,
+      "99": 1
     },
     ".//recipient-country/@code": {
-      "MM": 1,
-      "YE": 2,
       "CF": 1,
-      "CD": 1
+      "CD": 1,
+      "MM": 1,
+      "YE": 2
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "1028": 2,
       "679": 1,
-      "589": 2,
-      "1028": 2
+      "589": 2
     },
     ".//recipient-region/@vocabulary": {
       "1": 5
@@ -113,26 +118,24 @@
     },
     ".//result/indicator/@measure": {
       "1": 18,
-      "3": 2,
-      "2": 21
+      "2": 21,
+      "3": 2
+    },
+    ".//result/reference/@vocabulary": {
+      "99": 3
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "14030": 2,
+      "43010": 1,
+      "14032": 1,
+      "14031": 1
     },
     ".//sector/@vocabulary": {
-      "99": 1,
-      "1": 5
+      "1": 5,
+      "99": 1
     },
     ".//@xml:lang": {
       "en": 167
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "2": 1,
-      "9": 1,
-      "1": 1
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "14032": 1,
-      "14031": 1,
-      "14030": 2,
-      "43010": 1
     },
     ".//transaction/provider-org/@type": {
       "10": 2
@@ -145,9 +148,6 @@
     },
     ".//transaction/value/@currency": {
       "EUR": 2
-    },
-    ".//result/reference/@vocabulary": {
-      "99": 3
     }
   }
 }

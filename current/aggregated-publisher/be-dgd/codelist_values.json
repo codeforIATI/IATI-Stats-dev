@@ -13,20 +13,20 @@
     "4": 114
   },
   ".//activity-scope/@code": {
-    "1": 452,
     "4": 150,
-    "2": 12,
     "6": 27,
-    "3": 58,
+    "1": 452,
     "7": 8,
+    "2": 12,
     "5": 8,
-    "8": 3
+    "8": 3,
+    "3": 58
   },
   ".//activity-status/@code": {
-    "1": 332,
     "2": 349,
-    "4": 64,
-    "3": 34
+    "1": 332,
+    "3": 34,
+    "4": 64
   },
   ".//budget/@type": {
     "1": 1021
@@ -35,27 +35,27 @@
     "EUR": 1021
   },
   ".//collaboration-type/@code": {
-    "3": 187,
     "1": 329,
-    "2": 58
+    "2": 58,
+    "3": 187
   },
   ".//contact-info/@type": {
     "1": 779
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "B01": 218,
-    "B02": 65,
     "C01": 263,
-    "B03": 72,
-    "D01": 27,
-    "B04": 1,
     "D02": 13,
     "G01": 40,
+    "B03": 72,
+    "B02": 65,
+    "B01": 218,
     "F01": 1,
     "H01": 51,
+    "D01": 27,
     "E02": 1,
     "A01": 1,
-    "E01": 1
+    "E01": 1,
+    "B04": 1
   },
   ".//default-finance-type/@code": {
     "110": 741,
@@ -75,15 +75,15 @@
   },
   ".//document-link/@format": {
     "application/pdf": 2339,
-    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": 11,
     "application/msword": 26,
     "application/vnd.openxmlformats-officedocument.wordprocessingml.document": 68,
-    "application/x-zip-compressed": 38,
-    "application/vnd.ms-excel": 1,
     "image/tiff": 2,
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": 11,
     "application/vnd.ms-word.template.macroEnabled.12": 3,
+    "application/x-zip-compressed": 38,
     "application/octet-stream": 2,
-    "application/vnd.ms-excel.sheet.macroEnabled.12": 1
+    "application/vnd.ms-excel.sheet.macroEnabled.12": 1,
+    "application/vnd.ms-excel": 1
   },
   ".//document-link/category/@code": {
     "A01": 2062,
@@ -105,65 +105,53 @@
   },
   ".//participating-org/@type": {
     "10": 1013,
-    "22": 273,
-    "80": 4,
     "40": 190,
-    "21": 11,
+    "22": 273,
     "30": 8,
+    "21": 11,
     "70": 47,
+    "80": 4,
     "23": 5
   },
   ".//policy-marker/@significance": {
     "0": 1915,
     "1": 774,
-    "Not Screened": 228,
-    "2": 215
+    "2": 215,
+    "Not Screened": 228
   },
   ".//policy-marker/@vocabulary": {
     "1": 3132
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "2": 377,
-    "8": 371,
-    "5": 373,
-    "6": 374,
-    "7": 373,
     "1": 372,
+    "8": 371,
+    "6": 374,
+    "4": 296,
+    "2": 377,
     "3": 293,
-    "9": 303,
-    "4": 296
+    "5": 373,
+    "7": 373,
+    "9": 303
   },
   ".//recipient-country/@code": {
-    "SY": 20,
-    "IQ": 2,
-    "ML": 30,
-    "YE": 3,
-    "BI": 32,
-    "BF": 34,
-    "PS": 31,
-    "UG": 30,
     "CD": 62,
-    "LB": 9,
-    "TR": 2,
-    "ET": 5,
-    "AF": 1,
-    "UA": 4,
+    "ML": 30,
     "NE": 38,
-    "RW": 31,
-    "TZ": 21,
-    "JO": 7,
-    "NG": 3,
-    "SO": 1,
-    "SS": 1,
-    "CG": 1,
     "MA": 17,
+    "UG": 30,
+    "PS": 31,
     "BJ": 21,
+    "BF": 34,
     "GN": 13,
+    "RW": 31,
     "SN": 17,
+    "TZ": 21,
+    "BI": 32,
     "MZ": 11,
     "CI": 2,
     "GM": 1,
     "GW": 1,
+    "JO": 7,
     "MR": 1,
     "CF": 1,
     "KE": 9,
@@ -171,19 +159,31 @@
     "SD": 1,
     "GH": 2,
     "LK": 2,
+    "LB": 9,
+    "UA": 4,
     "ZM": 1,
     "MG": 1,
     "TD": 1,
     "BO": 2,
     "CM": 1,
     "EC": 2,
+    "ET": 5,
     "KH": 1,
     "LA": 1,
     "PE": 2,
     "ZA": 2,
     "TN": 1,
     "DZ": 2,
-    "VN": 2
+    "VN": 2,
+    "SY": 20,
+    "IQ": 2,
+    "YE": 3,
+    "TR": 2,
+    "AF": 1,
+    "NG": 3,
+    "SO": 1,
+    "SS": 1,
+    "CG": 1
   },
   ".//recipient-region/@vocabulary": {
     "1": 466
@@ -191,10 +191,10 @@
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "998": 452,
     "289": 9,
-    "298": 2,
-    "589": 1,
     "089": 1,
-    "189": 1
+    "189": 1,
+    "298": 2,
+    "589": 1
   },
   ".//reporting-org/@type": {
     "10": 779
@@ -203,14 +203,6 @@
     "1": 779
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "99810": 295,
-    "72050": 38,
-    "73010": 7,
-    "72011": 3,
-    "72012": 1,
-    "72040": 7,
-    "74020": 7,
-    "72010": 17,
     "14030": 2,
     "15110": 13,
     "31163": 2,
@@ -231,6 +223,7 @@
     "13020": 9,
     "12196": 1,
     "15132": 2,
+    "99810": 295,
     "43010": 19,
     "15111": 1,
     "31162": 1,
@@ -293,19 +286,26 @@
     "22040": 1,
     "23240": 1,
     "23230": 1,
-    "13040": 1
+    "13040": 1,
+    "72050": 38,
+    "73010": 7,
+    "72011": 3,
+    "72012": 1,
+    "72040": 7,
+    "74020": 7,
+    "72010": 17
   },
   ".//transaction/disbursement-channel/@code": {
     "1": 3876
   },
   ".//transaction/receiver-org/@type": {
-    "22": 1613,
-    "80": 17,
-    "40": 575,
-    "21": 27,
-    "30": 18,
     "10": 1486,
+    "40": 575,
+    "22": 1613,
+    "30": 18,
+    "21": 27,
     "70": 86,
+    "80": 17,
     "23": 10
   },
   ".//transaction/transaction-type/@code": {

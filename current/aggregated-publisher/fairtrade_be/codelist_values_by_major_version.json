@@ -98,8 +98,8 @@
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "99820": 9,
-      "99810": 1,
-      "91010": 1
+      "91010": 1,
+      "99810": 1
     },
     ".//sector/@vocabulary": {
       "1": 11
@@ -137,6 +137,13 @@
       "fr": 9,
       "en": 7
     },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "89": 1,
+      "998": 1
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 2
+    },
     ".//document-link/@format": {
       "application/pdf": 1
     },
@@ -152,13 +159,6 @@
     },
     ".//other-identifier/@type": {
       "A9": 1
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "998": 1,
-      "89": 1
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 2
     }
   }
 }

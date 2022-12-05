@@ -1,43 +1,43 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "tlmew-activities.xml": 2,
       "tlmew-mz.xml": 2,
       "tlmew-np.xml": 2,
-      "tlmew-mm.xml": 1
+      "tlmew-mm.xml": 1,
+      "tlmew-activities.xml": 2
     }
   },
   ".//@xml:lang": {
     "en": {
-      "tlmew-activities.xml": 51,
       "tlmew-mz.xml": 164,
       "tlmew-np.xml": 26,
-      "tlmew-mm.xml": 29
-    },
-    "my": {
-      "tlmew-activities.xml": 2,
-      "tlmew-mm.xml": 2
+      "tlmew-mm.xml": 29,
+      "tlmew-activities.xml": 51
     },
     "pt": {
-      "tlmew-activities.xml": 3,
-      "tlmew-mz.xml": 21
+      "tlmew-mz.xml": 21,
+      "tlmew-activities.xml": 3
+    },
+    "my": {
+      "tlmew-mm.xml": 2,
+      "tlmew-activities.xml": 2
     }
   },
   ".//activity-date/@type": {
-    "2": {
-      "tlmew-activities.xml": 1,
+    "1": {
       "tlmew-mz.xml": 1,
-      "tlmew-np.xml": 2,
-      "tlmew-mm.xml": 1
+      "tlmew-activities.xml": 1
     },
     "3": {
-      "tlmew-activities.xml": 2,
       "tlmew-mz.xml": 1,
-      "tlmew-mm.xml": 1
+      "tlmew-mm.xml": 1,
+      "tlmew-activities.xml": 2
     },
-    "1": {
-      "tlmew-activities.xml": 1,
-      "tlmew-mz.xml": 1
+    "2": {
+      "tlmew-mz.xml": 1,
+      "tlmew-np.xml": 2,
+      "tlmew-mm.xml": 1,
+      "tlmew-activities.xml": 1
     },
     "4": {
       "tlmew-mm.xml": 1
@@ -45,10 +45,10 @@
   },
   ".//activity-status/@code": {
     "2": {
-      "tlmew-activities.xml": 2,
       "tlmew-mz.xml": 2,
       "tlmew-np.xml": 2,
-      "tlmew-mm.xml": 1
+      "tlmew-mm.xml": 1,
+      "tlmew-activities.xml": 2
     }
   },
   ".//budget/@status": {
@@ -62,30 +62,30 @@
     }
   },
   ".//budget/@type": {
-    "1": {
-      "tlmew-activities.xml": 1,
-      "tlmew-mz.xml": 6,
-      "tlmew-mm.xml": 1
-    },
     "2": {
-      "tlmew-activities.xml": 1,
       "tlmew-mz.xml": 2,
-      "tlmew-np.xml": 7
+      "tlmew-np.xml": 7,
+      "tlmew-activities.xml": 1
+    },
+    "1": {
+      "tlmew-mz.xml": 6,
+      "tlmew-mm.xml": 1,
+      "tlmew-activities.xml": 1
     }
   },
   ".//budget/value/@currency": {
     "GBP": {
-      "tlmew-activities.xml": 1,
       "tlmew-mz.xml": 8,
       "tlmew-np.xml": 7,
-      "tlmew-mm.xml": 1
+      "tlmew-mm.xml": 1,
+      "tlmew-activities.xml": 1
     }
   },
   ".//contact-info/@type": {
     "2": {
-      "tlmew-activities.xml": 1,
       "tlmew-mz.xml": 2,
-      "tlmew-np.xml": 2
+      "tlmew-np.xml": 2,
+      "tlmew-activities.xml": 1
     },
     "3": {
       "tlmew-np.xml": 2
@@ -93,10 +93,10 @@
   },
   ".//description/@type": {
     "1": {
-      "tlmew-activities.xml": 2,
       "tlmew-mz.xml": 2,
       "tlmew-np.xml": 2,
-      "tlmew-mm.xml": 1
+      "tlmew-mm.xml": 1,
+      "tlmew-activities.xml": 2
     },
     "2": {
       "tlmew-np.xml": 2
@@ -107,32 +107,32 @@
   },
   ".//document-link/@format": {
     "application/msword": {
-      "tlmew-activities.xml": 1,
-      "tlmew-mz.xml": 1
+      "tlmew-mz.xml": 1,
+      "tlmew-activities.xml": 1
     },
     "application/vnd.ms-excel": {
-      "tlmew-activities.xml": 2,
-      "tlmew-mz.xml": 2
+      "tlmew-mz.xml": 2,
+      "tlmew-activities.xml": 2
     }
   },
   ".//document-link/category/@code": {
     "A02": {
-      "tlmew-activities.xml": 1,
-      "tlmew-mz.xml": 1
+      "tlmew-mz.xml": 1,
+      "tlmew-activities.xml": 1
     },
     "A05": {
-      "tlmew-activities.xml": 1,
-      "tlmew-mz.xml": 1
+      "tlmew-mz.xml": 1,
+      "tlmew-activities.xml": 1
     },
     "A08": {
-      "tlmew-activities.xml": 1,
-      "tlmew-mz.xml": 1
+      "tlmew-mz.xml": 1,
+      "tlmew-activities.xml": 1
     }
   },
   ".//document-link/language/@code": {
     "en": {
-      "tlmew-activities.xml": 3,
-      "tlmew-mz.xml": 3
+      "tlmew-mz.xml": 3,
+      "tlmew-activities.xml": 3
     }
   },
   ".//participating-org/@crs-channel-code": {
@@ -141,35 +141,35 @@
     }
   },
   ".//participating-org/@role": {
-    "4": {
-      "tlmew-activities.xml": 3,
-      "tlmew-mz.xml": 3,
-      "tlmew-np.xml": 2,
-      "tlmew-mm.xml": 1
-    },
     "1": {
-      "tlmew-activities.xml": 1,
       "tlmew-mz.xml": 1,
-      "tlmew-np.xml": 1
+      "tlmew-np.xml": 1,
+      "tlmew-activities.xml": 1
     },
     "2": {
-      "tlmew-activities.xml": 1,
-      "tlmew-mz.xml": 1
+      "tlmew-mz.xml": 1,
+      "tlmew-activities.xml": 1
+    },
+    "4": {
+      "tlmew-mz.xml": 3,
+      "tlmew-np.xml": 2,
+      "tlmew-mm.xml": 1,
+      "tlmew-activities.xml": 3
     },
     "3": {
       "tlmew-np.xml": 2
     }
   },
   ".//participating-org/@type": {
-    "21": {
-      "tlmew-activities.xml": 4,
-      "tlmew-mz.xml": 4,
-      "tlmew-mm.xml": 1
-    },
     "10": {
-      "tlmew-activities.xml": 1,
       "tlmew-mz.xml": 1,
-      "tlmew-np.xml": 1
+      "tlmew-np.xml": 1,
+      "tlmew-activities.xml": 1
+    },
+    "21": {
+      "tlmew-mz.xml": 4,
+      "tlmew-mm.xml": 1,
+      "tlmew-activities.xml": 4
     },
     "22": {
       "tlmew-np.xml": 2
@@ -179,69 +179,69 @@
     }
   },
   ".//recipient-country/@code": {
-    "MM": {
-      "tlmew-activities.xml": 1,
-      "tlmew-mm.xml": 1
-    },
     "MZ": {
-      "tlmew-activities.xml": 1,
-      "tlmew-mz.xml": 2
+      "tlmew-mz.xml": 2,
+      "tlmew-activities.xml": 1
     },
     "NP": {
       "tlmew-np.xml": 2
+    },
+    "MM": {
+      "tlmew-mm.xml": 1,
+      "tlmew-activities.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "21": {
-      "tlmew-activities.xml": 2,
       "tlmew-mz.xml": 2,
       "tlmew-np.xml": 2,
-      "tlmew-mm.xml": 1
+      "tlmew-mm.xml": 1,
+      "tlmew-activities.xml": 2
     }
   },
   ".//sector/@vocabulary": {
     "1": {
-      "tlmew-activities.xml": 11,
       "tlmew-mz.xml": 5,
       "tlmew-np.xml": 2,
-      "tlmew-mm.xml": 1
-    },
-    "99": {
-      "tlmew-activities.xml": 7
+      "tlmew-mm.xml": 1,
+      "tlmew-activities.xml": 11
     },
     "7": {
       "tlmew-np.xml": 2
     },
     "8": {
       "tlmew-np.xml": 1
+    },
+    "99": {
+      "tlmew-activities.xml": 7
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "16010": {
-      "tlmew-activities.xml": 7,
-      "tlmew-mm.xml": 1
-    },
     "12220": {
-      "tlmew-activities.xml": 1,
-      "tlmew-mz.xml": 2
+      "tlmew-mz.xml": 2,
+      "tlmew-activities.xml": 1
     },
     "12281": {
-      "tlmew-activities.xml": 1,
-      "tlmew-mz.xml": 1
+      "tlmew-mz.xml": 1,
+      "tlmew-activities.xml": 1
     },
     "31161": {
-      "tlmew-activities.xml": 1,
-      "tlmew-mz.xml": 1
+      "tlmew-mz.xml": 1,
+      "tlmew-activities.xml": 1
     },
     "24040": {
-      "tlmew-activities.xml": 1,
-      "tlmew-mz.xml": 1
+      "tlmew-mz.xml": 1,
+      "tlmew-activities.xml": 1
     },
     "16020": {
       "tlmew-np.xml": 1
     },
     "12250": {
       "tlmew-np.xml": 1
+    },
+    "16010": {
+      "tlmew-mm.xml": 1,
+      "tlmew-activities.xml": 7
     }
   },
   ".//sector[@vocabulary = '7']/@code": {
@@ -259,16 +259,16 @@
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": {
-      "tlmew-activities.xml": 24,
-      "tlmew-mm.xml": 24
+      "tlmew-mm.xml": 24,
+      "tlmew-activities.xml": 24
     }
   },
   ".//transaction/disbursement-channel/@code": {
     "2": {
-      "tlmew-activities.xml": 34,
       "tlmew-mz.xml": 39,
       "tlmew-np.xml": 16,
-      "tlmew-mm.xml": 28
+      "tlmew-mm.xml": 28,
+      "tlmew-activities.xml": 34
     },
     "1": {
       "tlmew-activities.xml": 1
@@ -276,14 +276,14 @@
   },
   ".//transaction/finance-type/@code": {
     "110": {
-      "tlmew-activities.xml": 24,
-      "tlmew-mm.xml": 24
+      "tlmew-mm.xml": 24,
+      "tlmew-activities.xml": 24
     }
   },
   ".//transaction/flow-type/@code": {
     "10": {
-      "tlmew-activities.xml": 24,
-      "tlmew-mm.xml": 24
+      "tlmew-mm.xml": 24,
+      "tlmew-activities.xml": 24
     }
   },
   ".//transaction/provider-org/@type": {
@@ -323,28 +323,28 @@
   },
   ".//transaction/tied-status/@code": {
     "5": {
-      "tlmew-activities.xml": 24,
-      "tlmew-mm.xml": 24
+      "tlmew-mm.xml": 24,
+      "tlmew-activities.xml": 24
     }
   },
   ".//transaction/transaction-type/@code": {
-    "3": {
-      "tlmew-activities.xml": 14,
-      "tlmew-mz.xml": 42,
-      "tlmew-np.xml": 9,
-      "tlmew-mm.xml": 8
-    },
     "1": {
-      "tlmew-activities.xml": 12,
       "tlmew-mz.xml": 13,
       "tlmew-np.xml": 18,
-      "tlmew-mm.xml": 11
+      "tlmew-mm.xml": 11,
+      "tlmew-activities.xml": 12
+    },
+    "3": {
+      "tlmew-mz.xml": 42,
+      "tlmew-np.xml": 9,
+      "tlmew-mm.xml": 8,
+      "tlmew-activities.xml": 14
     },
     "4": {
-      "tlmew-activities.xml": 9,
       "tlmew-mz.xml": 12,
       "tlmew-np.xml": 15,
-      "tlmew-mm.xml": 9
+      "tlmew-mm.xml": 9,
+      "tlmew-activities.xml": 9
     },
     "2": {
       "tlmew-mz.xml": 1
@@ -352,10 +352,10 @@
   },
   ".//transaction/value/@currency": {
     "GBP": {
-      "tlmew-activities.xml": 15,
       "tlmew-mz.xml": 66,
       "tlmew-np.xml": 28,
-      "tlmew-mm.xml": 11
+      "tlmew-mm.xml": 11,
+      "tlmew-activities.xml": 15
     }
   }
 }

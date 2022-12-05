@@ -8,29 +8,26 @@
       "start-planned": 5
     },
     ".//activity-status/@code": {
-      "1": 1,
-      "2": 4
+      "2": 4,
+      "1": 1
     },
     ".//participating-org/@role": {
       "Funding": 5,
       "Extending": 5,
       "Implementing": 5
     },
-    ".//reporting-org/@type": {
-      "": 1,
-      "70": 4
-    },
-    ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
-      "112": 1,
-      "140": 2,
-      "160": 1,
-      "230": 1
-    },
-    ".//@xml:lang": {
-      "en": 5
-    },
     ".//recipient-country/@code": {
       "GB": 4
+    },
+    ".//reporting-org/@type": {
+      "70": 4,
+      "": 1
+    },
+    ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+      "140": 2,
+      "160": 1,
+      "230": 1,
+      "112": 1
     },
     ".//transaction/aid-type/@code": {
       "C01": 44
@@ -40,6 +37,9 @@
     },
     ".//transaction/value/@currency": {
       "GBP": 44
+    },
+    ".//@xml:lang": {
+      "en": 5
     }
   },
   "2": {

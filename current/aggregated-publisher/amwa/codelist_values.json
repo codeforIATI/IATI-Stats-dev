@@ -1,12 +1,12 @@
 {
   ".//@default-currency": {
-    "EUR": 11,
-    "": 1
+    "": 1,
+    "EUR": 11
   },
   ".//@xml:lang": {
-    "en": 196,
     "EN": 15,
-    "nl": 24
+    "nl": 24,
+    "en": 196
   },
   ".//activity-date/@type": {
     "1": 8,
@@ -36,8 +36,8 @@
     "1": 7
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": 7,
-    "B03": 1
+    "B03": 1,
+    "C01": 7
   },
   ".//default-finance-type/@code": {
     "110": 12
@@ -61,51 +61,51 @@
     "B9": 7
   },
   ".//participating-org/@role": {
-    "1": 12,
     "2": 12,
+    "1": 12,
     "4": 12
   },
   ".//participating-org/@type": {
-    "21": 34,
-    "22": 2
+    "22": 2,
+    "21": 34
   },
   ".//policy-marker/@significance": {
-    "2": 33,
     "4": 1,
-    "1": 8
+    "1": 8,
+    "2": 33
   },
   ".//policy-marker/@vocabulary": {
     "1": 42
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "1": 11,
     "3": 12,
-    "9": 7,
+    "1": 11,
     "2": 4,
     "6": 4,
-    "7": 4
+    "7": 4,
+    "9": 7
   },
   ".//recipient-country/@code": {
-    "RW": 2,
-    "KE": 4,
-    "ET": 2,
+    "TN": 2,
     "ZM": 4,
     "UG": 5,
-    "TN": 2
+    "KE": 4,
+    "RW": 2,
+    "ET": 2
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "289": 1,
     "1027": 5,
     "1029": 1,
-    "189": 1
+    "189": 1,
+    "289": 1
   },
   ".//related-activity/@type": {
     "1": 11,
     "2": 3
   },
   ".//reporting-org/@type": {
-    "21": 11,
-    "22": 1
+    "22": 1,
+    "21": 11
   },
   ".//result/@type": {
     "2": 48,
@@ -121,10 +121,10 @@
     "1": 17
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "13020": 7,
     "15152": 1,
     "15150": 5,
-    "41010": 4
+    "41010": 4,
+    "13020": 7
   },
   ".//transaction/provider-org/@type": {
     "21": 19
@@ -145,8 +145,8 @@
   },
   ".//transaction/transaction-type/@code": {
     "11": 12,
-    "4": 10,
     "1": 4,
+    "4": 10,
     "2": 8
   },
   ".//transaction/value/@currency": {

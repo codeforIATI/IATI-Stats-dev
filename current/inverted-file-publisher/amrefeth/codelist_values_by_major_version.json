@@ -1,264 +1,67 @@
 {
   "2": {
     ".//@default-currency": {
-      "amrefeth-et.xml": {
-        "EUR": 3
-      },
       "amrefeth-89.xml": {
         "EUR": 1
+      },
+      "amrefeth-et.xml": {
+        "EUR": 3
       }
     },
     ".//activity-date/@type": {
+      "amrefeth-89.xml": {
+        "2": 4
+      },
       "amrefeth-et.xml": {
         "2": 3,
         "3": 3
-      },
-      "amrefeth-89.xml": {
-        "2": 4
       }
     },
     ".//activity-status/@code": {
-      "amrefeth-et.xml": {
-        "2": 3
-      },
       "amrefeth-89.xml": {
         "2": 1
-      }
-    },
-    ".//budget/@status": {
-      "amrefeth-et.xml": {
-        "2": 2
       },
-      "amrefeth-89.xml": {
-        "1": 1
-      }
-    },
-    ".//budget/@type": {
       "amrefeth-et.xml": {
-        "2": 1,
-        "1": 1
-      },
-      "amrefeth-89.xml": {
-        "1": 1
-      }
-    },
-    ".//budget/value/@currency": {
-      "amrefeth-et.xml": {
-        "GBP": 1,
-        "EUR": 1
-      },
-      "amrefeth-89.xml": {
-        "USD": 1
-      }
-    },
-    ".//collaboration-type/@code": {
-      "amrefeth-et.xml": {
-        "1": 3
-      },
-      "amrefeth-89.xml": {
-        "1": 1
-      }
-    },
-    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "amrefeth-et.xml": {
-        "C01": 3
-      },
-      "amrefeth-89.xml": {
-        "C01": 1
-      }
-    },
-    ".//default-aid-type/@vocabulary": {
-      "amrefeth-et.xml": {
-        "1": 2
-      },
-      "amrefeth-89.xml": {
-        "1": 1
-      }
-    },
-    ".//default-finance-type/@code": {
-      "amrefeth-et.xml": {
-        "110": 3
-      },
-      "amrefeth-89.xml": {
-        "110": 1
-      }
-    },
-    ".//default-flow-type/@code": {
-      "amrefeth-et.xml": {
-        "30": 3
-      },
-      "amrefeth-89.xml": {
-        "30": 1
-      }
-    },
-    ".//default-tied-status/@code": {
-      "amrefeth-et.xml": {
-        "5": 3
-      },
-      "amrefeth-89.xml": {
-        "5": 1
-      }
-    },
-    ".//description/@type": {
-      "amrefeth-et.xml": {
-        "1": 3
-      },
-      "amrefeth-89.xml": {
-        "1": 1
-      }
-    },
-    ".//participating-org/@role": {
-      "amrefeth-et.xml": {
-        "1": 3,
-        "4": 3,
         "2": 3
-      },
-      "amrefeth-89.xml": {
-        "1": 1,
-        "2": 1,
-        "4": 1
-      }
-    },
-    ".//participating-org/@type": {
-      "amrefeth-et.xml": {
-        "10": 1,
-        "21": 8
-      },
-      "amrefeth-89.xml": {
-        "21": 3
-      }
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "amrefeth-et.xml": {
-        "1": 1,
-        "3": 1,
-        "9": 1
-      }
-    },
-    ".//policy-marker/@significance": {
-      "amrefeth-et.xml": {
-        "1": 3
-      },
-      "amrefeth-89.xml": {
-        "1": 1
-      }
-    },
-    ".//policy-marker/@vocabulary": {
-      "amrefeth-et.xml": {
-        "1": 3
-      },
-      "amrefeth-89.xml": {
-        "99": 1
-      }
-    },
-    ".//recipient-country/@code": {
-      "amrefeth-et.xml": {
-        "ET": 3
-      },
-      "amrefeth-89.xml": {
-        "ET": 1
-      }
-    },
-    ".//reporting-org/@type": {
-      "amrefeth-et.xml": {
-        "21": 3
-      },
-      "amrefeth-89.xml": {
-        "21": 1
-      }
-    },
-    ".//result/@type": {
-      "amrefeth-et.xml": {
-        "2": 45,
-        "1": 4
-      },
-      "amrefeth-89.xml": {
-        "1": 12
-      }
-    },
-    ".//result/indicator/@measure": {
-      "amrefeth-et.xml": {
-        "2": 12,
-        "1": 34,
-        "5": 3
-      },
-      "amrefeth-89.xml": {
-        "1": 78
-      }
-    },
-    ".//result/indicator/reference/@vocabulary": {
-      "amrefeth-et.xml": {
-        "99": 49
-      },
-      "amrefeth-89.xml": {
-        "99": 78
-      }
-    },
-    ".//result/reference/@vocabulary": {
-      "amrefeth-et.xml": {
-        "99": 24
-      },
-      "amrefeth-89.xml": {
-        "99": 2,
-        "1": 1,
-        "2": 1,
-        "3": 1,
-        "4": 1
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "amrefeth-et.xml": {
-        "12261": 2,
-        "13020": 2,
-        "15150": 1
-      },
-      "amrefeth-89.xml": {
-        "14030": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "amrefeth-et.xml": {
-        "1": 5
-      },
-      "amrefeth-89.xml": {
-        "1": 1
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "amrefeth-et.xml": {
-        "10": 9,
-        "21": 5
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "amrefeth-et.xml": {
-        "21": 11
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "amrefeth-et.xml": {
-        "1": 9,
-        "4": 4,
-        "11": 1
-      }
-    },
-    ".//transaction/value/@currency": {
-      "amrefeth-et.xml": {
-        "GBP": 9,
-        "EUR": 5
-      }
-    },
-    ".//@xml:lang": {
-      "amrefeth-et.xml": {
-        "en": 245
-      },
-      "amrefeth-89.xml": {
-        "en": 206
       }
     },
     ".//activity-scope/@code": {
       "amrefeth-89.xml": {
         "5": 1
+      }
+    },
+    ".//budget/@status": {
+      "amrefeth-89.xml": {
+        "1": 1
+      },
+      "amrefeth-et.xml": {
+        "2": 2
+      }
+    },
+    ".//budget/@type": {
+      "amrefeth-89.xml": {
+        "1": 1
+      },
+      "amrefeth-et.xml": {
+        "2": 1,
+        "1": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "amrefeth-89.xml": {
+        "USD": 1
+      },
+      "amrefeth-et.xml": {
+        "GBP": 1,
+        "EUR": 1
+      }
+    },
+    ".//collaboration-type/@code": {
+      "amrefeth-89.xml": {
+        "1": 1
+      },
+      "amrefeth-et.xml": {
+        "1": 3
       }
     },
     ".//conditions/condition/@type": {
@@ -269,6 +72,54 @@
     ".//contact-info/@type": {
       "amrefeth-89.xml": {
         "2": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "amrefeth-89.xml": {
+        "C01": 1
+      },
+      "amrefeth-et.xml": {
+        "C01": 3
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "amrefeth-89.xml": {
+        "1": 1
+      },
+      "amrefeth-et.xml": {
+        "1": 2
+      }
+    },
+    ".//default-finance-type/@code": {
+      "amrefeth-89.xml": {
+        "110": 1
+      },
+      "amrefeth-et.xml": {
+        "110": 3
+      }
+    },
+    ".//default-flow-type/@code": {
+      "amrefeth-89.xml": {
+        "30": 1
+      },
+      "amrefeth-et.xml": {
+        "30": 3
+      }
+    },
+    ".//default-tied-status/@code": {
+      "amrefeth-89.xml": {
+        "5": 1
+      },
+      "amrefeth-et.xml": {
+        "5": 3
+      }
+    },
+    ".//description/@type": {
+      "amrefeth-89.xml": {
+        "1": 1
+      },
+      "amrefeth-et.xml": {
+        "1": 3
       }
     },
     ".//document-link/@format": {
@@ -323,9 +174,71 @@
         "21000": 2
       }
     },
+    ".//participating-org/@role": {
+      "amrefeth-89.xml": {
+        "1": 1,
+        "2": 1,
+        "4": 1
+      },
+      "amrefeth-et.xml": {
+        "1": 3,
+        "4": 3,
+        "2": 3
+      }
+    },
+    ".//participating-org/@type": {
+      "amrefeth-89.xml": {
+        "21": 3
+      },
+      "amrefeth-et.xml": {
+        "10": 1,
+        "21": 8
+      }
+    },
+    ".//policy-marker/@significance": {
+      "amrefeth-89.xml": {
+        "1": 1
+      },
+      "amrefeth-et.xml": {
+        "1": 3
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "amrefeth-89.xml": {
+        "99": 1
+      },
+      "amrefeth-et.xml": {
+        "1": 3
+      }
+    },
+    ".//recipient-country/@code": {
+      "amrefeth-89.xml": {
+        "ET": 1
+      },
+      "amrefeth-et.xml": {
+        "ET": 3
+      }
+    },
     ".//recipient-region/@vocabulary": {
       "amrefeth-89.xml": {
         "99": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "amrefeth-89.xml": {
+        "21": 1
+      },
+      "amrefeth-et.xml": {
+        "21": 3
+      }
+    },
+    ".//result/@type": {
+      "amrefeth-89.xml": {
+        "1": 12
+      },
+      "amrefeth-et.xml": {
+        "2": 45,
+        "1": 4
       }
     },
     ".//result/document-link/@format": {
@@ -343,6 +256,93 @@
     ".//result/document-link/language/@code": {
       "amrefeth-89.xml": {
         "en": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "amrefeth-89.xml": {
+        "1": 78
+      },
+      "amrefeth-et.xml": {
+        "2": 12,
+        "1": 34,
+        "5": 3
+      }
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "amrefeth-89.xml": {
+        "99": 78
+      },
+      "amrefeth-et.xml": {
+        "99": 49
+      }
+    },
+    ".//result/reference/@vocabulary": {
+      "amrefeth-89.xml": {
+        "99": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "amrefeth-et.xml": {
+        "99": 24
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "amrefeth-89.xml": {
+        "14030": 1
+      },
+      "amrefeth-et.xml": {
+        "12261": 2,
+        "13020": 2,
+        "15150": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "amrefeth-89.xml": {
+        "1": 1
+      },
+      "amrefeth-et.xml": {
+        "1": 5
+      }
+    },
+    ".//@xml:lang": {
+      "amrefeth-89.xml": {
+        "en": 206
+      },
+      "amrefeth-et.xml": {
+        "en": 245
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "amrefeth-et.xml": {
+        "1": 1,
+        "3": 1,
+        "9": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "amrefeth-et.xml": {
+        "10": 9,
+        "21": 5
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "amrefeth-et.xml": {
+        "21": 11
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "amrefeth-et.xml": {
+        "1": 9,
+        "4": 4,
+        "11": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "amrefeth-et.xml": {
+        "GBP": 9,
+        "EUR": 5
       }
     }
   }

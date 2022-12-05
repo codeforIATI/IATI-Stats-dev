@@ -483,11 +483,20 @@
       "iati-activity/result/@type": 702,
       "iati-activity/recipient-country": 957,
       "iati-activity/recipient-country/@code": 957,
+      "iati-activity/budget/{http://gavi.org/}fund-centre-id": 92,
+      "iati-activity/budget/{http://gavi.org/}country-name": 92,
+      "iati-activity/budget/{http://gavi.org/}iso3": 92,
+      "iati-activity/budget/{http://gavi.org/}applicant": 92,
+      "iati-activity/budget/{http://gavi.org/}budget-year": 92,
+      "iati-activity/budget/{http://gavi.org/}budget-type": 92,
+      "iati-activity/conditions/condition/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 92,
+      "iati-activity/result/indicator/period/target/@value": 606,
+      "iati-activity/result/indicator/period/actual/comment": 88,
+      "iati-activity/result/indicator/period/actual/comment/narrative": 88,
       "iati-activity/tag/narrative": 865,
       "iati-activity/tag/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 865,
       "iati-activity/result/indicator/description": 557,
       "iati-activity/result/indicator/description/narrative": 557,
-      "iati-activity/result/indicator/period/target/@value": 606,
       "iati-activity/result/document-link": 17,
       "iati-activity/result/document-link/title": 17,
       "iati-activity/result/document-link/title/narrative": 17,
@@ -497,19 +506,10 @@
       "iati-activity/result/document-link/category/@code": 17,
       "iati-activity/result/document-link/@format": 17,
       "iati-activity/result/document-link/@url": 17,
-      "iati-activity/result/indicator/period/actual/comment": 88,
-      "iati-activity/result/indicator/period/actual/comment/narrative": 88,
       "iati-activity/sector": 2,
       "iati-activity/sector/@code": 2,
       "iati-activity/result/indicator/period/target/comment": 18,
-      "iati-activity/result/indicator/period/target/comment/narrative": 18,
-      "iati-activity/budget/{http://gavi.org/}fund-centre-id": 92,
-      "iati-activity/budget/{http://gavi.org/}country-name": 92,
-      "iati-activity/budget/{http://gavi.org/}iso3": 92,
-      "iati-activity/budget/{http://gavi.org/}applicant": 92,
-      "iati-activity/budget/{http://gavi.org/}budget-year": 92,
-      "iati-activity/budget/{http://gavi.org/}budget-type": 92,
-      "iati-activity/conditions/condition/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 92
+      "iati-activity/result/indicator/period/target/comment/narrative": 18
     },
     "elements_total": {
       "iati-activity": 1049,
@@ -702,11 +702,20 @@
       "iati-activity/result/@type": 1698,
       "iati-activity/recipient-country": 957,
       "iati-activity/recipient-country/@code": 957,
+      "iati-activity/budget/{http://gavi.org/}fund-centre-id": 469,
+      "iati-activity/budget/{http://gavi.org/}country-name": 469,
+      "iati-activity/budget/{http://gavi.org/}iso3": 469,
+      "iati-activity/budget/{http://gavi.org/}applicant": 469,
+      "iati-activity/budget/{http://gavi.org/}budget-year": 469,
+      "iati-activity/budget/{http://gavi.org/}budget-type": 469,
+      "iati-activity/conditions/condition/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 184,
+      "iati-activity/result/indicator/period/target/@value": 12410,
+      "iati-activity/result/indicator/period/actual/comment": 3998,
+      "iati-activity/result/indicator/period/actual/comment/narrative": 3998,
       "iati-activity/tag/narrative": 1730,
       "iati-activity/tag/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 865,
       "iati-activity/result/indicator/description": 718,
       "iati-activity/result/indicator/description/narrative": 718,
-      "iati-activity/result/indicator/period/target/@value": 12410,
       "iati-activity/result/document-link": 34,
       "iati-activity/result/document-link/title": 34,
       "iati-activity/result/document-link/title/narrative": 34,
@@ -716,19 +725,10 @@
       "iati-activity/result/document-link/category/@code": 34,
       "iati-activity/result/document-link/@format": 34,
       "iati-activity/result/document-link/@url": 34,
-      "iati-activity/result/indicator/period/actual/comment": 3998,
-      "iati-activity/result/indicator/period/actual/comment/narrative": 3998,
       "iati-activity/sector": 2,
       "iati-activity/sector/@code": 2,
       "iati-activity/result/indicator/period/target/comment": 81,
-      "iati-activity/result/indicator/period/target/comment/narrative": 81,
-      "iati-activity/budget/{http://gavi.org/}fund-centre-id": 469,
-      "iati-activity/budget/{http://gavi.org/}country-name": 469,
-      "iati-activity/budget/{http://gavi.org/}iso3": 469,
-      "iati-activity/budget/{http://gavi.org/}applicant": 469,
-      "iati-activity/budget/{http://gavi.org/}budget-year": 469,
-      "iati-activity/budget/{http://gavi.org/}budget-type": 469,
-      "iati-activity/conditions/condition/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 184
+      "iati-activity/result/indicator/period/target/comment/narrative": 81
     },
     "forwardlooking_currency_year": {
       "2020": {
@@ -742,6 +742,15 @@
       },
       "2023": {
         "USD": 954671737.84
+      },
+      "2019": {
+        "USD": 2014361949.97
+      },
+      "2024": {
+        "USD": 897842301.45
+      },
+      "2025": {
+        "USD": 89462820.2
       },
       "2007": {
         "USD": 428824930.32
@@ -773,9 +782,6 @@
       "2018": {
         "USD": 1519144803.14
       },
-      "2019": {
-        "USD": 2014361949.97
-      },
       "2015": {
         "USD": 1564460409.95
       },
@@ -784,9 +790,6 @@
       },
       "2006": {
         "USD": 207848303.09
-      },
-      "2024": {
-        "USD": 897842301.45
       },
       "2002": {
         "USD": 112571477.28
@@ -799,9 +802,6 @@
       },
       "2004": {
         "USD": 199560375.48
-      },
-      "2025": {
-        "USD": 89462820.2
       },
       "2026": {
         "USD": 248091.0

@@ -12,11 +12,15 @@
     ".//activity-status/@code": {
       "2": 11,
       "1": 1,
-      "3": 1,
-      "4": 1
+      "4": 1,
+      "3": 1
     },
     ".//budget/@status": {
       "2": 14
+    },
+    ".//budget/@type": {
+      "2": 9,
+      "1": 4
     },
     ".//budget/value/@currency": {
       "GBP": 14
@@ -30,19 +34,14 @@
     },
     ".//participating-org/@type": {
       "60": 14,
+      "21": 4,
       "23": 1,
       "15": 1,
       "30": 1,
       "80": 4,
-      "21": 4,
       "22": 3
     },
     ".//recipient-country/@code": {
-      "JM": 2,
-      "DM": 1,
-      "LC": 1,
-      "BZ": 1,
-      "IN": 3,
       "KE": 1,
       "MW": 1,
       "MZ": 1,
@@ -50,26 +49,31 @@
       "UG": 1,
       "TZ": 1,
       "ZM": 2,
-      "BD": 2,
-      "PK": 1,
+      "JM": 2,
+      "DM": 1,
+      "LC": 1,
+      "BZ": 1,
+      "IN": 3,
+      "AU": 1,
       "GB": 2,
       "SL": 1,
       "SB": 3,
+      "BD": 2,
+      "PK": 1,
       "FJ": 2,
       "KI": 2,
       "VU": 2,
       "WS": 1,
-      "TO": 1,
-      "AU": 1
+      "TO": 1
     },
     ".//reporting-org/@type": {
       "60": 14
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "12250": 3,
       "12191": 5,
       "12181": 3,
       "11120": 3,
-      "12250": 3,
       "12182": 1
     },
     ".//sector/@vocabulary": {
@@ -77,10 +81,6 @@
     },
     ".//@xml:lang": {
       "en": 29
-    },
-    ".//budget/@type": {
-      "2": 9,
-      "1": 4
     }
   }
 }

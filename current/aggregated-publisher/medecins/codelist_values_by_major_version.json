@@ -26,8 +26,8 @@
       "1": 9
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "C01": 7,
       "H01": 1,
+      "C01": 7,
       "G01": 1
     },
     ".//default-aid-type/@vocabulary": {
@@ -46,8 +46,8 @@
       "1": 9
     },
     ".//location/location-class/@code": {
-      "1": 5,
-      "4": 2
+      "4": 2,
+      "1": 5
     },
     ".//location/exactness/@code": {
       "2": 7
@@ -63,24 +63,24 @@
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "1": 7,
-      "3": 6,
-      "9": 6
+      "9": 6,
+      "3": 6
     },
     ".//policy-marker/@significance": {
-      "2": 8,
-      "1": 11
+      "1": 11,
+      "2": 8
     },
     ".//policy-marker/@vocabulary": {
       "1": 19
     },
     ".//recipient-country/@code": {
-      "MA": 1,
-      "CD": 1,
-      "NE": 1,
-      "HT": 1,
       "BE": 1,
+      "CD": 1,
       "BF": 1,
-      "BJ": 1
+      "MA": 1,
+      "BJ": 1,
+      "HT": 1,
+      "NE": 1
     },
     ".//related-activity/@type": {
       "1": 8,
@@ -93,8 +93,8 @@
       "2": 7
     },
     ".//result/indicator/@measure": {
-      "2": 11,
-      "1": 11
+      "1": 11,
+      "2": 11
     },
     ".//sector[@vocabulary = '2']/@code": {
       "121": 7
@@ -103,6 +103,15 @@
       "2": 7,
       "1": 2
     },
+    ".//transaction/transaction-type/@code": {
+      "4": 20,
+      "3": 11,
+      "11": 10,
+      "1": 6
+    },
+    ".//@xml:lang": {
+      "fr": 18
+    },
     ".//transaction/provider-org/@type": {
       "22": 10,
       "10": 11
@@ -110,28 +119,19 @@
     ".//transaction/receiver-org/@type": {
       "22": 25
     },
-    ".//transaction/transaction-type/@code": {
-      "3": 11,
-      "4": 20,
-      "11": 10,
-      "1": 6
-    },
-    ".//@xml:lang": {
-      "fr": 18
-    },
-    ".//other-identifier/@type": {
-      "A9": 1
-    },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "998": 1,
-      "89": 1
+      "89": 1,
+      "998": 1
     },
     ".//recipient-region/@vocabulary": {
       "1": 2
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "99810": 1,
-      "91010": 1
+      "91010": 1,
+      "99810": 1
+    },
+    ".//other-identifier/@type": {
+      "A9": 1
     }
   }
 }

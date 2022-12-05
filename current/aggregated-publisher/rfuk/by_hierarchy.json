@@ -99,6 +99,7 @@
       "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 3,
       "iati-activity/participating-org/@ref": 3,
       "iati-activity/participating-org/@type": 3,
+      "iati-activity/participating-org/@activity-id": 2,
       "iati-activity/contact-info/organisation/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2,
       "iati-activity/contact-info/website": 3,
       "iati-activity/contact-info/mailing-address/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2,
@@ -106,12 +107,11 @@
       "iati-activity/sector/@percentage": 2,
       "iati-activity/default-aid-type/@vocabulary": 3,
       "iati-activity/budget/@status": 3,
-      "iati-activity/@humanitarian": 3,
-      "iati-activity/participating-org/@activity-id": 2,
       "iati-activity/transaction/provider-org/@type": 2,
       "iati-activity/transaction/receiver-org/@type": 2,
       "iati-activity/transaction/recipient-country": 2,
-      "iati-activity/transaction/recipient-country/@code": 2
+      "iati-activity/transaction/recipient-country/@code": 2,
+      "iati-activity/@humanitarian": 3
     },
     "elements_total": {
       "iati-activity": 4,
@@ -211,6 +211,7 @@
       "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 5,
       "iati-activity/participating-org/@ref": 5,
       "iati-activity/participating-org/@type": 17,
+      "iati-activity/participating-org/@activity-id": 4,
       "iati-activity/contact-info/organisation/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2,
       "iati-activity/contact-info/website": 3,
       "iati-activity/contact-info/mailing-address/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2,
@@ -218,19 +219,15 @@
       "iati-activity/sector/@percentage": 2,
       "iati-activity/default-aid-type/@vocabulary": 3,
       "iati-activity/budget/@status": 6,
-      "iati-activity/@humanitarian": 3,
-      "iati-activity/participating-org/@activity-id": 4,
       "iati-activity/transaction/provider-org/@type": 79,
       "iati-activity/transaction/receiver-org/@type": 79,
       "iati-activity/transaction/recipient-country": 96,
-      "iati-activity/transaction/recipient-country/@code": 96
+      "iati-activity/transaction/recipient-country/@code": 96,
+      "iati-activity/@humanitarian": 3
     },
     "forwardlooking_currency_year": {
       "2011": {
         "GBP": 109557.0
-      },
-      "2016": {
-        "GBP": 5675782.0
       },
       "2018": {
         "GBP": 695372.0
@@ -243,6 +240,9 @@
       },
       "2021": {
         "GBP": 699999.99
+      },
+      "2016": {
+        "GBP": 5675782.0
       }
     },
     "forwardlooking_activities_current": {

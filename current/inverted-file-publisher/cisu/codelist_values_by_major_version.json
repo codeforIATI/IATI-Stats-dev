@@ -1,73 +1,66 @@
 {
   "2": {
     ".//@default-currency": {
-      "cisu-gaia.xml": {
-        "DKK": 2361
-      },
       "cisu-dk.xml": {
         "DKK": 9
+      },
+      "cisu-gaia.xml": {
+        "DKK": 2361
       }
     },
     ".//activity-date/@type": {
+      "cisu-dk.xml": {
+        "2": 8,
+        "1": 1
+      },
       "cisu-gaia.xml": {
         "2": 2339,
         "3": 327,
         "4": 2034,
         "1": 22
-      },
-      "cisu-dk.xml": {
-        "2": 8,
-        "1": 1
       }
     },
     ".//activity-status/@code": {
+      "cisu-dk.xml": {
+        "4": 9
+      },
       "cisu-gaia.xml": {
         "2": 288,
         "4": 1858,
         "1": 29,
         "3": 186
-      },
+      }
+    },
+    ".//description/@type": {
       "cisu-dk.xml": {
-        "4": 9
-      }
-    },
-    ".//budget/@status": {
-      "cisu-gaia.xml": {
-        "1": 5415
-      }
-    },
-    ".//budget/@type": {
-      "cisu-gaia.xml": {
-        "1": 5415
-      }
-    },
-    ".//budget/value/@currency": {
-      "cisu-gaia.xml": {
-        "DKK": 5415
+        "1": 9
       }
     },
     ".//participating-org/@role": {
+      "cisu-dk.xml": {
+        "1": 9,
+        "4": 9
+      },
       "cisu-gaia.xml": {
         "3": 2361,
         "1": 2361,
         "4": 4894
-      },
-      "cisu-dk.xml": {
-        "1": 9,
-        "4": 9
       }
     },
     ".//participating-org/@type": {
-      "cisu-gaia.xml": {
-        "22": 7255,
-        "10": 2361
-      },
       "cisu-dk.xml": {
         "10": 9,
         "22": 9
+      },
+      "cisu-gaia.xml": {
+        "22": 7255,
+        "10": 2361
       }
     },
     ".//recipient-country/@code": {
+      "cisu-dk.xml": {
+        "DK": 9
+      },
       "cisu-gaia.xml": {
         "GH": 115,
         "UG": 218,
@@ -169,58 +162,25 @@
         "AR": 1,
         "SC": 1,
         "BE": 1
-      },
-      "cisu-dk.xml": {
-        "DK": 9
       }
     },
     ".//reporting-org/@type": {
-      "cisu-gaia.xml": {
-        "22": 2361
-      },
       "cisu-dk.xml": {
         "22": 9
+      },
+      "cisu-gaia.xml": {
+        "22": 2361
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "cisu-gaia.xml": {
-        "15150": 2361,
-        "15160": 2361
-      },
       "cisu-dk.xml": {
         "99810": 2,
         "92010": 6,
         "99820": 1
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "cisu-gaia.xml": {
-        "1": 5876,
-        "3": 1012
       },
-      "cisu-dk.xml": {
-        "1": 33
-      }
-    },
-    ".//transaction/value/@currency": {
       "cisu-gaia.xml": {
-        "DKK": 6888
-      },
-      "cisu-dk.xml": {
-        "DKK": 32
-      }
-    },
-    ".//@xml:lang": {
-      "cisu-gaia.xml": {
-        "da": 2361
-      },
-      "cisu-dk.xml": {
-        "en": 21
-      }
-    },
-    ".//description/@type": {
-      "cisu-dk.xml": {
-        "1": 9
+        "15150": 2361,
+        "15160": 2361
       }
     },
     ".//sector/@vocabulary": {
@@ -231,6 +191,46 @@
     ".//transaction/provider-org/@type": {
       "cisu-dk.xml": {
         "10": 4
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "cisu-dk.xml": {
+        "1": 33
+      },
+      "cisu-gaia.xml": {
+        "1": 5876,
+        "3": 1012
+      }
+    },
+    ".//transaction/value/@currency": {
+      "cisu-dk.xml": {
+        "DKK": 32
+      },
+      "cisu-gaia.xml": {
+        "DKK": 6888
+      }
+    },
+    ".//@xml:lang": {
+      "cisu-dk.xml": {
+        "en": 21
+      },
+      "cisu-gaia.xml": {
+        "da": 2361
+      }
+    },
+    ".//budget/@status": {
+      "cisu-gaia.xml": {
+        "1": 5415
+      }
+    },
+    ".//budget/@type": {
+      "cisu-gaia.xml": {
+        "1": 5415
+      }
+    },
+    ".//budget/value/@currency": {
+      "cisu-gaia.xml": {
+        "DKK": 5415
       }
     }
   }

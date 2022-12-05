@@ -1,107 +1,337 @@
 {
   "2": {
     ".//@default-currency": {
+      "cal-zw.xml": {
+        "GBP": 1
+      },
       "cal-679.xml": {
         "GBP": 4
       },
-      "cal-zw.xml": {
+      "cal-689.xml": {
         "GBP": 1
       },
       "cal-ng.xml": {
         "GBP": 1
-      },
-      "cal-689.xml": {
-        "GBP": 1
       }
     },
     ".//activity-date/@type": {
+      "cal-zw.xml": {
+        "2": 1,
+        "3": 1
+      },
       "cal-679.xml": {
         "2": 3,
         "3": 4,
         "1": 1
       },
-      "cal-zw.xml": {
-        "2": 1,
-        "3": 1
-      },
-      "cal-ng.xml": {
-        "2": 1,
-        "4": 1
-      },
       "cal-689.xml": {
         "2": 1,
         "3": 1,
         "4": 1
+      },
+      "cal-ng.xml": {
+        "2": 1,
+        "4": 1
       }
     },
     ".//activity-status/@code": {
+      "cal-zw.xml": {
+        "4": 1
+      },
       "cal-679.xml": {
         "4": 1,
         "2": 3
       },
-      "cal-zw.xml": {
-        "4": 1
+      "cal-689.xml": {
+        "2": 1
       },
       "cal-ng.xml": {
         "4": 1
-      },
-      "cal-689.xml": {
-        "2": 1
       }
     },
     ".//budget/@status": {
+      "cal-zw.xml": {
+        "2": 1
+      },
       "cal-679.xml": {
         "1": 20,
         "2": 30
       },
-      "cal-zw.xml": {
-        "2": 1
+      "cal-689.xml": {
+        "1": 3
       },
       "cal-ng.xml": {
         "1": 1
-      },
-      "cal-689.xml": {
-        "1": 3
       }
     },
     ".//budget/@type": {
+      "cal-zw.xml": {
+        "1": 1
+      },
       "cal-679.xml": {
         "2": 3,
         "1": 47
       },
-      "cal-zw.xml": {
-        "1": 1
+      "cal-689.xml": {
+        "1": 3
       },
       "cal-ng.xml": {
         "1": 1
-      },
-      "cal-689.xml": {
-        "1": 3
       }
     },
     ".//budget/value/@currency": {
+      "cal-zw.xml": {
+        "GBP": 1
+      },
       "cal-679.xml": {
         "GBP": 44
       },
-      "cal-zw.xml": {
-        "GBP": 1
+      "cal-689.xml": {
+        "GBP": 3
       },
       "cal-ng.xml": {
         "GBP": 1
-      },
-      "cal-689.xml": {
-        "GBP": 3
       }
     },
     ".//contact-info/@type": {
+      "cal-zw.xml": {
+        "1": 1
+      },
       "cal-679.xml": {
         "1": 4
       },
+      "cal-ng.xml": {
+        "1": 1
+      }
+    },
+    ".//description/@type": {
       "cal-zw.xml": {
+        "1": 1
+      },
+      "cal-679.xml": {
+        "2": 1,
+        "1": 3
+      },
+      "cal-689.xml": {
         "1": 1
       },
       "cal-ng.xml": {
         "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "cal-zw.xml": {
+        "application/vnd.ms-office.activeX+xml": 1
+      },
+      "cal-679.xml": {
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml": 1,
+        "text/html": 1,
+        "application/vnd.ms-office.activeX+xml": 1,
+        "application/pdf": 1
+      },
+      "cal-689.xml": {
+        "application/pdf": 1
+      },
+      "cal-ng.xml": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "cal-zw.xml": {
+        "A02": 1
+      },
+      "cal-679.xml": {
+        "A02": 4
+      },
+      "cal-689.xml": {
+        "A02": 1
+      },
+      "cal-ng.xml": {
+        "A02": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "cal-zw.xml": {
+        "en": 1
+      },
+      "cal-679.xml": {
+        "en": 4
+      },
+      "cal-689.xml": {
+        "en": 1
+      },
+      "cal-ng.xml": {
+        "en": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "cal-zw.xml": {
+        "1": 1,
+        "4": 1
+      },
+      "cal-679.xml": {
+        "4": 8,
+        "1": 4,
+        "2": 2
+      },
+      "cal-689.xml": {
+        "1": 1,
+        "4": 1
+      },
+      "cal-ng.xml": {
+        "1": 1,
+        "4": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "cal-zw.xml": {
+        "10": 1,
+        "70": 1
+      },
+      "cal-679.xml": {
+        "70": 5,
+        "10": 4,
+        "21": 5
+      },
+      "cal-689.xml": {
+        "10": 1,
+        "70": 1
+      },
+      "cal-ng.xml": {
+        "10": 1,
+        "70": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "cal-zw.xml": {
+        "ZW": 1
+      },
+      "cal-679.xml": {
+        "NP": 3,
+        "MM": 1
+      },
+      "cal-689.xml": {
+        "NP": 1
+      },
+      "cal-ng.xml": {
+        "NG": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "cal-zw.xml": {
+        "70": 1
+      },
+      "cal-679.xml": {
+        "70": 4
+      },
+      "cal-689.xml": {
+        "70": 1
+      },
+      "cal-ng.xml": {
+        "70": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cal-zw.xml": {
+        "23067": 1
+      },
+      "cal-679.xml": {
+        "23111": 1,
+        "15111": 2,
+        "72050": 1
+      },
+      "cal-689.xml": {
+        "11120": 1
+      },
+      "cal-ng.xml": {
+        "12191": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "cal-zw.xml": {
+        "1": 1
+      },
+      "cal-679.xml": {
+        "1": 4
+      },
+      "cal-689.xml": {
+        "1": 1
+      },
+      "cal-ng.xml": {
+        "1": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "cal-zw.xml": {
+        "60": 1
+      },
+      "cal-679.xml": {
+        "70": 447,
+        "10": 64,
+        "71": 1,
+        "90": 2
+      },
+      "cal-689.xml": {
+        "10": 14,
+        "70": 11,
+        "60": 1,
+        "21": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "cal-zw.xml": {
+        "4": 3,
+        "1": 2,
+        "3": 1
+      },
+      "cal-679.xml": {
+        "4": 68,
+        "11": 2,
+        "1": 62,
+        "3": 450
+      },
+      "cal-689.xml": {
+        "1": 13,
+        "4": 15,
+        "3": 9
+      },
+      "cal-ng.xml": {
+        "4": 4,
+        "1": 4,
+        "11": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "cal-zw.xml": {
+        "GBP": 5,
+        "USD": 1
+      },
+      "cal-679.xml": {
+        "GBP": 577
+      },
+      "cal-689.xml": {
+        "GBP": 37
+      },
+      "cal-ng.xml": {
+        "GBP": 8
+      }
+    },
+    ".//@xml:lang": {
+      "cal-zw.xml": {
+        "en": 11
+      },
+      "cal-679.xml": {
+        "en": 452,
+        "af": 1,
+        "ak": 2,
+        "eo": 1,
+        "aa": 1
+      },
+      "cal-689.xml": {
+        "en": 65
+      },
+      "cal-ng.xml": {
+        "en": 13
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -145,104 +375,6 @@
         "5": 1
       }
     },
-    ".//description/@type": {
-      "cal-679.xml": {
-        "2": 1,
-        "1": 3
-      },
-      "cal-zw.xml": {
-        "1": 1
-      },
-      "cal-ng.xml": {
-        "1": 1
-      },
-      "cal-689.xml": {
-        "1": 1
-      }
-    },
-    ".//document-link/@format": {
-      "cal-679.xml": {
-        "application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml": 1,
-        "text/html": 1,
-        "application/vnd.ms-office.activeX+xml": 1,
-        "application/pdf": 1
-      },
-      "cal-zw.xml": {
-        "application/vnd.ms-office.activeX+xml": 1
-      },
-      "cal-ng.xml": {
-        "application/pdf": 1
-      },
-      "cal-689.xml": {
-        "application/pdf": 1
-      }
-    },
-    ".//document-link/category/@code": {
-      "cal-679.xml": {
-        "A02": 4
-      },
-      "cal-zw.xml": {
-        "A02": 1
-      },
-      "cal-ng.xml": {
-        "A02": 1
-      },
-      "cal-689.xml": {
-        "A02": 1
-      }
-    },
-    ".//document-link/language/@code": {
-      "cal-679.xml": {
-        "en": 4
-      },
-      "cal-zw.xml": {
-        "en": 1
-      },
-      "cal-ng.xml": {
-        "en": 1
-      },
-      "cal-689.xml": {
-        "en": 1
-      }
-    },
-    ".//participating-org/@role": {
-      "cal-679.xml": {
-        "4": 8,
-        "1": 4,
-        "2": 2
-      },
-      "cal-zw.xml": {
-        "1": 1,
-        "4": 1
-      },
-      "cal-ng.xml": {
-        "1": 1,
-        "4": 1
-      },
-      "cal-689.xml": {
-        "1": 1,
-        "4": 1
-      }
-    },
-    ".//participating-org/@type": {
-      "cal-679.xml": {
-        "70": 5,
-        "10": 4,
-        "21": 5
-      },
-      "cal-zw.xml": {
-        "10": 1,
-        "70": 1
-      },
-      "cal-ng.xml": {
-        "10": 1,
-        "70": 1
-      },
-      "cal-689.xml": {
-        "10": 1,
-        "70": 1
-      }
-    },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "cal-679.xml": {
         "2": 1,
@@ -261,21 +393,6 @@
         "1": 1
       }
     },
-    ".//recipient-country/@code": {
-      "cal-679.xml": {
-        "NP": 3,
-        "MM": 1
-      },
-      "cal-zw.xml": {
-        "ZW": 1
-      },
-      "cal-ng.xml": {
-        "NG": 1
-      },
-      "cal-689.xml": {
-        "NP": 1
-      }
-    },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "cal-679.xml": {
         "679": 4
@@ -292,70 +409,9 @@
         "1": 1
       }
     },
-    ".//reporting-org/@type": {
-      "cal-679.xml": {
-        "70": 4
-      },
-      "cal-zw.xml": {
-        "70": 1
-      },
-      "cal-ng.xml": {
-        "70": 1
-      },
-      "cal-689.xml": {
-        "70": 1
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "cal-679.xml": {
-        "23111": 1,
-        "15111": 2,
-        "72050": 1
-      },
-      "cal-zw.xml": {
-        "23067": 1
-      },
-      "cal-ng.xml": {
-        "12191": 1
-      },
-      "cal-689.xml": {
-        "11120": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "cal-679.xml": {
-        "1": 4
-      },
-      "cal-zw.xml": {
-        "1": 1
-      },
-      "cal-ng.xml": {
-        "1": 1
-      },
-      "cal-689.xml": {
-        "1": 1
-      }
-    },
     ".//transaction/disbursement-channel/@code": {
       "cal-679.xml": {
         "2": 1
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "cal-679.xml": {
-        "70": 447,
-        "10": 64,
-        "71": 1,
-        "90": 2
-      },
-      "cal-zw.xml": {
-        "60": 1
-      },
-      "cal-689.xml": {
-        "10": 14,
-        "70": 11,
-        "60": 1,
-        "21": 1
       }
     },
     ".//transaction/receiver-org/@type": {
@@ -375,62 +431,6 @@
         "60": 3,
         "70": 15,
         "21": 7
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "cal-679.xml": {
-        "4": 68,
-        "11": 2,
-        "1": 62,
-        "3": 450
-      },
-      "cal-zw.xml": {
-        "4": 3,
-        "1": 2,
-        "3": 1
-      },
-      "cal-ng.xml": {
-        "4": 4,
-        "1": 4,
-        "11": 1
-      },
-      "cal-689.xml": {
-        "1": 13,
-        "4": 15,
-        "3": 9
-      }
-    },
-    ".//transaction/value/@currency": {
-      "cal-679.xml": {
-        "GBP": 577
-      },
-      "cal-zw.xml": {
-        "GBP": 5,
-        "USD": 1
-      },
-      "cal-ng.xml": {
-        "GBP": 8
-      },
-      "cal-689.xml": {
-        "GBP": 37
-      }
-    },
-    ".//@xml:lang": {
-      "cal-679.xml": {
-        "en": 452,
-        "af": 1,
-        "ak": 2,
-        "eo": 1,
-        "aa": 1
-      },
-      "cal-zw.xml": {
-        "en": 11
-      },
-      "cal-ng.xml": {
-        "en": 13
-      },
-      "cal-689.xml": {
-        "en": 65
       }
     }
   }

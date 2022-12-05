@@ -1,24 +1,24 @@
 {
   ".//@default-currency": {
     "EUR": {
-      "slf-linc1819.xml": 2,
-      "slf-makeway.xml": 7
+      "slf-makeway.xml": 7,
+      "slf-linc1819.xml": 2
     }
   },
   ".//@xml:lang": {
     "en": {
-      "slf-linc1819.xml": 17,
-      "slf-makeway.xml": 7
+      "slf-makeway.xml": 7,
+      "slf-linc1819.xml": 17
     }
   },
   ".//activity-date/@type": {
     "1": {
-      "slf-linc1819.xml": 2,
-      "slf-makeway.xml": 7
+      "slf-makeway.xml": 7,
+      "slf-linc1819.xml": 2
     },
     "3": {
-      "slf-linc1819.xml": 2,
-      "slf-makeway.xml": 7
+      "slf-makeway.xml": 7,
+      "slf-linc1819.xml": 2
     },
     "2": {
       "slf-linc1819.xml": 2
@@ -28,14 +28,14 @@
     }
   },
   ".//activity-status/@code": {
+    "2": {
+      "slf-makeway.xml": 7
+    },
     "3": {
       "slf-linc1819.xml": 1
     },
     "1": {
       "slf-linc1819.xml": 1
-    },
-    "2": {
-      "slf-makeway.xml": 7
     }
   },
   ".//budget/@status": {
@@ -60,26 +60,26 @@
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": {
-      "slf-linc1819.xml": 2,
-      "slf-makeway.xml": 7
+      "slf-makeway.xml": 7,
+      "slf-linc1819.xml": 2
     }
   },
   ".//default-finance-type/@code": {
     "110": {
-      "slf-linc1819.xml": 2,
-      "slf-makeway.xml": 7
+      "slf-makeway.xml": 7,
+      "slf-linc1819.xml": 2
     }
   },
   ".//default-flow-type/@code": {
     "30": {
-      "slf-linc1819.xml": 2,
-      "slf-makeway.xml": 7
+      "slf-makeway.xml": 7,
+      "slf-linc1819.xml": 2
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "slf-linc1819.xml": 2,
-      "slf-makeway.xml": 7
+      "slf-makeway.xml": 7,
+      "slf-linc1819.xml": 2
     }
   },
   ".//description/@type": {
@@ -103,56 +103,53 @@
     }
   },
   ".//participating-org/@role": {
-    "2": {
-      "slf-linc1819.xml": 2,
-      "slf-makeway.xml": 7
-    },
     "1": {
       "slf-makeway.xml": 7
+    },
+    "2": {
+      "slf-makeway.xml": 7,
+      "slf-linc1819.xml": 2
     },
     "4": {
       "slf-makeway.xml": 7
     }
   },
   ".//participating-org/@type": {
-    "22": {
-      "slf-linc1819.xml": 2,
-      "slf-makeway.xml": 5
-    },
     "21": {
       "slf-makeway.xml": 16
+    },
+    "22": {
+      "slf-makeway.xml": 5,
+      "slf-linc1819.xml": 2
     }
   },
   ".//policy-marker/@significance": {
-    "4": {
-      "slf-linc1819.xml": 2
-    },
     "2": {
       "slf-makeway.xml": 21
+    },
+    "4": {
+      "slf-linc1819.xml": 2
     }
   },
   ".//policy-marker/@vocabulary": {
     "1": {
-      "slf-linc1819.xml": 2,
-      "slf-makeway.xml": 21
+      "slf-makeway.xml": 21,
+      "slf-linc1819.xml": 2
     }
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "3": {
-      "slf-linc1819.xml": 2,
-      "slf-makeway.xml": 7
-    },
     "1": {
       "slf-makeway.xml": 7
+    },
+    "3": {
+      "slf-makeway.xml": 7,
+      "slf-linc1819.xml": 2
     },
     "9": {
       "slf-makeway.xml": 7
     }
   },
   ".//recipient-country/@code": {
-    "NL": {
-      "slf-linc1819.xml": 2
-    },
     "RW": {
       "slf-makeway.xml": 2
     },
@@ -167,6 +164,9 @@
     },
     "UG": {
       "slf-makeway.xml": 2
+    },
+    "NL": {
+      "slf-linc1819.xml": 2
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -180,11 +180,11 @@
     }
   },
   ".//reporting-org/@type": {
-    "22": {
-      "slf-linc1819.xml": 2
-    },
     "21": {
       "slf-makeway.xml": 7
+    },
+    "22": {
+      "slf-linc1819.xml": 2
     }
   },
   ".//result/@type": {
@@ -204,16 +204,16 @@
   },
   ".//sector/@vocabulary": {
     "1": {
-      "slf-linc1819.xml": 2,
-      "slf-makeway.xml": 7
+      "slf-makeway.xml": 7,
+      "slf-linc1819.xml": 2
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "92010": {
-      "slf-linc1819.xml": 2
-    },
     "13020": {
       "slf-makeway.xml": 7
+    },
+    "92010": {
+      "slf-linc1819.xml": 2
     }
   },
   ".//transaction/provider-org/@type": {
@@ -227,12 +227,12 @@
     }
   },
   ".//transaction/transaction-type/@code": {
-    "4": {
-      "slf-linc1819.xml": 19,
-      "slf-makeway.xml": 6
-    },
     "11": {
       "slf-makeway.xml": 7
+    },
+    "4": {
+      "slf-makeway.xml": 6,
+      "slf-linc1819.xml": 19
     },
     "1": {
       "slf-makeway.xml": 1

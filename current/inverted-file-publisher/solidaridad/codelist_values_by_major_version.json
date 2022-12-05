@@ -1,35 +1,307 @@
 {
   "2": {
     ".//@default-currency": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "EUR": 120
+      },
       "solidaridad-solidaridadhistoricalactivities.xml": {
         "EUR": 101,
         "KES": 1,
         "GBP": 1,
         "DKK": 1
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "EUR": 120
       }
     },
     ".//activity-date/@type": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "1": 104,
-        "3": 104
-      },
       "solidaridad-solidaridadnetworkactivities.xml": {
         "2": 120,
         "3": 120
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "1": 104,
+        "3": 104
       }
     },
     ".//activity-status/@code": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "2": 120
+      },
       "solidaridad-solidaridadhistoricalactivities.xml": {
         "2": 73,
         "4": 29,
         "5": 1,
         "1": 1
-      },
+      }
+    },
+    ".//budget/value/@currency": {
       "solidaridad-solidaridadnetworkactivities.xml": {
-        "2": 120
+        "EUR": 119
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "EUR": 240
+      }
+    },
+    ".//description/@type": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "1": 120,
+        "2": 2,
+        "3": 2
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "1": 104
+      }
+    },
+    ".//document-link/@format": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "application/pdf": 5
+      }
+    },
+    ".//document-link/category/@code": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "B01": 5
+      }
+    },
+    ".//document-link/language/@code": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "en": 5
+      }
+    },
+    ".//participating-org/@role": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "1": 120,
+        "4": 137,
+        "2": 119
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "4": 104,
+        "1": 94
+      }
+    },
+    ".//participating-org/@type": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "21": 356,
+        "10": 2,
+        "70": 8,
+        "80": 1,
+        "22": 9
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "21": 198
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "4": 113,
+        "1": 68,
+        "3": 62,
+        "2": 8,
+        "7": 23,
+        "6": 9
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "3": 35,
+        "7": 23,
+        "6": 23,
+        "4": 77,
+        "1": 22,
+        "2": 6
+      }
+    },
+    ".//policy-marker/@significance": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "2": 128,
+        "1": 155
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "2": 93,
+        "1": 93
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "1": 283
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "1": 186
+      }
+    },
+    ".//recipient-country/@code": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "CN": 5,
+        "IN": 8,
+        "ID": 5,
+        "BD": 4,
+        "MY": 1,
+        "MX": 3,
+        "GT": 2,
+        "HN": 3,
+        "NI": 3,
+        "ET": 3,
+        "KE": 6,
+        "TZ": 1,
+        "UG": 6,
+        "NL": 25,
+        "US": 1,
+        "GH": 7,
+        "ZM": 5,
+        "ZW": 2,
+        "MW": 3,
+        "MZ": 6,
+        "ZA": 4,
+        "EG": 2,
+        "BR": 1,
+        "CO": 2,
+        "PE": 2,
+        "PY": 1,
+        "NG": 1,
+        "CI": 2,
+        "SL": 3,
+        "LR": 1
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "NI": 8,
+        "HN": 7,
+        "SV": 2,
+        "MX": 5,
+        "GT": 6,
+        "DO": 2,
+        "CN": 9,
+        "US": 1,
+        "NL": 1,
+        "MZ": 8,
+        "ZM": 9,
+        "ZA": 9,
+        "MW": 5,
+        "ZW": 3,
+        "BW": 1,
+        "NA": 1,
+        "SZ": 1,
+        "CO": 9,
+        "BO": 3,
+        "PY": 5,
+        "AR": 3,
+        "PE": 5,
+        "BR": 4,
+        "KE": 10,
+        "ET": 9,
+        "TZ": 9,
+        "UG": 9,
+        "MM": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "998": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "1": 118
+      }
+    },
+    ".//reporting-org/@type": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "21": 120
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "21": 104
+      }
+    },
+    ".//result/@type": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "1": 106,
+        "3": 90,
+        "2": 85
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "1": 246,
+        "2": 109,
+        "3": 79,
+        "9": 57
+      }
+    },
+    ".//result/indicator/@measure": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "1": 512
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "1": 1747,
+        "5": 203,
+        "2": 296
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "32265": 10,
+        "31163": 13,
+        "31120": 78,
+        "15150": 4,
+        "99810": 7,
+        "51010": 1,
+        "33110": 1
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "41010": 10,
+        "32161": 10,
+        "92030": 8,
+        "99810": 19,
+        "31120": 14,
+        "43040": 4,
+        "15150": 1,
+        "33110": 6,
+        "32163": 7,
+        "22040": 5,
+        "31193": 3,
+        "51010": 3,
+        "15164": 2,
+        "31191": 2,
+        "41082": 1,
+        "31163": 4,
+        "32210": 3,
+        "31210": 2,
+        "32265": 3,
+        "31162": 1,
+        "52010": 5
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "10": 4
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "70": 11,
+        "21": 1,
+        "22": 10
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "4": 15815,
+        "11": 139,
+        "1": 4,
+        "3": 22,
+        "2": 17
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "11": 240,
+        "4": 300
+      }
+    },
+    ".//transaction/value/@currency": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "EUR": 15997
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "EUR": 540
+      }
+    },
+    ".//@xml:lang": {
+      "solidaridad-solidaridadnetworkactivities.xml": {
+        "en": 120
+      },
+      "solidaridad-solidaridadhistoricalactivities.xml": {
+        "en": 104
       }
     },
     ".//budget/@status": {
@@ -40,14 +312,6 @@
     ".//budget/@type": {
       "solidaridad-solidaridadhistoricalactivities.xml": {
         "1": 240
-      }
-    },
-    ".//budget/value/@currency": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "EUR": 240
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "EUR": 119
       }
     },
     ".//collaboration-type/@code": {
@@ -80,278 +344,14 @@
         "5": 104
       }
     },
-    ".//description/@type": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "1": 104
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "1": 120,
-        "2": 2,
-        "3": 2
-      }
-    },
-    ".//participating-org/@role": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "4": 104,
-        "1": 94
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "1": 120,
-        "4": 137,
-        "2": 119
-      }
-    },
-    ".//participating-org/@type": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "21": 198
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "21": 356,
-        "10": 2,
-        "70": 8,
-        "80": 1,
-        "22": 9
-      }
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "3": 35,
-        "7": 23,
-        "6": 23,
-        "4": 77,
-        "1": 22,
-        "2": 6
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "4": 113,
-        "1": 68,
-        "3": 62,
-        "2": 8,
-        "7": 23,
-        "6": 9
-      }
-    },
-    ".//policy-marker/@significance": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "2": 93,
-        "1": 93
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "2": 128,
-        "1": 155
-      }
-    },
-    ".//policy-marker/@vocabulary": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "1": 186
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "1": 283
-      }
-    },
-    ".//recipient-country/@code": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "NI": 8,
-        "HN": 7,
-        "SV": 2,
-        "MX": 5,
-        "GT": 6,
-        "DO": 2,
-        "CN": 9,
-        "US": 1,
-        "NL": 1,
-        "MZ": 8,
-        "ZM": 9,
-        "ZA": 9,
-        "MW": 5,
-        "ZW": 3,
-        "BW": 1,
-        "NA": 1,
-        "SZ": 1,
-        "CO": 9,
-        "BO": 3,
-        "PY": 5,
-        "AR": 3,
-        "PE": 5,
-        "BR": 4,
-        "KE": 10,
-        "ET": 9,
-        "TZ": 9,
-        "UG": 9,
-        "MM": 1
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "CN": 5,
-        "IN": 8,
-        "ID": 5,
-        "BD": 4,
-        "MY": 1,
-        "MX": 3,
-        "GT": 2,
-        "HN": 3,
-        "NI": 3,
-        "ET": 3,
-        "KE": 6,
-        "TZ": 1,
-        "UG": 6,
-        "NL": 25,
-        "US": 1,
-        "GH": 7,
-        "ZM": 5,
-        "ZW": 2,
-        "MW": 3,
-        "MZ": 6,
-        "ZA": 4,
-        "EG": 2,
-        "BR": 1,
-        "CO": 2,
-        "PE": 2,
-        "PY": 1,
-        "NG": 1,
-        "CI": 2,
-        "SL": 3,
-        "LR": 1
-      }
-    },
-    ".//reporting-org/@type": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "21": 104
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "21": 120
-      }
-    },
-    ".//result/@type": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "1": 246,
-        "2": 109,
-        "3": 79,
-        "9": 57
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "1": 106,
-        "3": 90,
-        "2": 85
-      }
-    },
-    ".//result/indicator/@measure": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "1": 1747,
-        "5": 203,
-        "2": 296
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "1": 512
-      }
-    },
     ".//result/indicator/reference/@vocabulary": {
       "solidaridad-solidaridadhistoricalactivities.xml": {
         "99": 2246
       }
     },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "41010": 10,
-        "32161": 10,
-        "92030": 8,
-        "99810": 19,
-        "31120": 14,
-        "43040": 4,
-        "15150": 1,
-        "33110": 6,
-        "32163": 7,
-        "22040": 5,
-        "31193": 3,
-        "51010": 3,
-        "15164": 2,
-        "31191": 2,
-        "41082": 1,
-        "31163": 4,
-        "32210": 3,
-        "31210": 2,
-        "32265": 3,
-        "31162": 1,
-        "52010": 5
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "32265": 10,
-        "31163": 13,
-        "31120": 78,
-        "15150": 4,
-        "99810": 7,
-        "51010": 1,
-        "33110": 1
-      }
-    },
     ".//sector/@vocabulary": {
       "solidaridad-solidaridadhistoricalactivities.xml": {
         "1": 113
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "11": 240,
-        "4": 300
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "4": 15815,
-        "11": 139,
-        "1": 4,
-        "3": 22,
-        "2": 17
-      }
-    },
-    ".//transaction/value/@currency": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "EUR": 540
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "EUR": 15997
-      }
-    },
-    ".//@xml:lang": {
-      "solidaridad-solidaridadhistoricalactivities.xml": {
-        "en": 104
-      },
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "en": 120
-      }
-    },
-    ".//document-link/@format": {
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "application/pdf": 5
-      }
-    },
-    ".//document-link/category/@code": {
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "B01": 5
-      }
-    },
-    ".//document-link/language/@code": {
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "en": 5
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "998": 1
-      }
-    },
-    ".//related-activity/@type": {
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "1": 118
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "10": 4
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "solidaridad-solidaridadnetworkactivities.xml": {
-        "70": 11,
-        "21": 1,
-        "22": 10
       }
     }
   }

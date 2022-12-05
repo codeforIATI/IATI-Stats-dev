@@ -10,8 +10,8 @@
       "1": 1
     },
     ".//activity-status/@code": {
-      "4": 1,
-      "2": 2
+      "2": 2,
+      "4": 1
     },
     ".//budget/@status": {
       "2": 14
@@ -24,8 +24,8 @@
       "EUR": 14
     },
     ".//contact-info/@type": {
-      "1": 2,
-      "2": 1
+      "2": 1,
+      "1": 2
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 3
@@ -37,14 +37,17 @@
       "110": 3
     },
     ".//default-flow-type/@code": {
-      "10": 2,
-      "30": 1
+      "30": 1,
+      "10": 2
     },
     ".//default-tied-status/@code": {
       "5": 3
     },
     ".//description/@type": {
       "1": 3
+    },
+    ".//participating-org/@crs-channel-code": {
+      "90000": 4
     },
     ".//participating-org/@role": {
       "1": 3,
@@ -56,56 +59,21 @@
       "80": 7,
       "60": 1
     },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "3": 3,
-      "1": 1
-    },
-    ".//policy-marker/@vocabulary": {
-      "1": 4
-    },
-    ".//recipient-country/@code": {
-      "LY": 2
-    },
-    ".//reporting-org/@type": {
-      "80": 3
-    },
-    ".//result/@type": {
-      "1": 12,
-      "2": 2
-    },
-    ".//result/indicator/@measure": {
-      "1": 39
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15130": 2,
-      "43082": 1
-    },
-    ".//sector/@vocabulary": {
-      "1": 3
-    },
-    ".//transaction/transaction-type/@code": {
-      "4": 15,
-      "1": 8,
-      "11": 2,
-      "2": 10
-    },
-    ".//transaction/value/@currency": {
-      "EUR": 34
-    },
-    ".//@xml:lang": {
-      "en": 103
-    },
-    ".//participating-org/@crs-channel-code": {
-      "90000": 4
-    },
     ".//planned-disbursement/@type": {
       "2": 2
     },
     ".//planned-disbursement/value/@currency": {
       "EUR": 2
     },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "1": 1,
+      "3": 3
+    },
     ".//policy-marker/@significance": {
       "1": 2
+    },
+    ".//policy-marker/@vocabulary": {
+      "1": 4
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "298": 1,
@@ -114,11 +82,43 @@
     ".//recipient-region/@vocabulary": {
       "1": 2
     },
+    ".//reporting-org/@type": {
+      "80": 3
+    },
+    ".//result/@type": {
+      "2": 2,
+      "1": 12
+    },
+    ".//result/indicator/@measure": {
+      "1": 39
+    },
     ".//result/indicator/reference/@vocabulary": {
       "99": 15
     },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "43082": 1,
+      "15130": 2
+    },
+    ".//sector/@vocabulary": {
+      "1": 3
+    },
     ".//transaction/provider-org/@type": {
       "10": 4
+    },
+    ".//transaction/transaction-type/@code": {
+      "1": 8,
+      "2": 10,
+      "4": 15,
+      "11": 2
+    },
+    ".//transaction/value/@currency": {
+      "EUR": 34
+    },
+    ".//@xml:lang": {
+      "en": 103
+    },
+    ".//recipient-country/@code": {
+      "LY": 2
     }
   }
 }

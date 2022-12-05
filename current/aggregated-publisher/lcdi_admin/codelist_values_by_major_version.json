@@ -51,8 +51,8 @@
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "11220": 2,
-      "11320": 1,
-      "11120": 17
+      "11120": 17,
+      "11320": 1
     },
     ".//sector/@vocabulary": {
       "1": 20
@@ -105,6 +105,15 @@
       "en": 401,
       "bn": 2
     },
+    ".//transaction/recipient-country/@code": {
+      "MW": 17
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "11120": 17
+    },
+    ".//transaction/sector/@vocabulary": {
+      "1": 17
+    },
     ".//activity-scope/@code": {
       "6": 1
     },
@@ -119,15 +128,6 @@
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "298": 1
-    },
-    ".//transaction/recipient-country/@code": {
-      "MW": 17
-    },
-    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "11120": 17
-    },
-    ".//transaction/sector/@vocabulary": {
-      "1": 17
     }
   }
 }

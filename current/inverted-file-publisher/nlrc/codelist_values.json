@@ -1,42 +1,42 @@
 {
   ".//@default-currency": {
     "EUR": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 1194
+      "nlrc-activities.xml": 1194,
+      "nlrc-dchi-activities.xml": 6
     }
   },
   ".//@xml:lang": {
+    "en": {
+      "nlrc-activities.xml": 1194,
+      "nlrc-dchi-activities.xml": 45
+    },
     "nl": {
       "nlrc-dchi-activities.xml": 6
-    },
-    "en": {
-      "nlrc-dchi-activities.xml": 45,
-      "nlrc-activities.xml": 1194
     }
   },
   ".//activity-date/@type": {
     "2": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 1194
+      "nlrc-activities.xml": 1194,
+      "nlrc-dchi-activities.xml": 6
+    },
+    "3": {
+      "nlrc-activities.xml": 1194,
+      "nlrc-dchi-activities.xml": 1
     },
     "4": {
       "nlrc-dchi-activities.xml": 5
-    },
-    "3": {
-      "nlrc-dchi-activities.xml": 1,
-      "nlrc-activities.xml": 1194
     }
   },
   ".//activity-status/@code": {
-    "4": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 774
-    },
     "2": {
       "nlrc-activities.xml": 368
     },
     "3": {
       "nlrc-activities.xml": 37
+    },
+    "4": {
+      "nlrc-activities.xml": 774,
+      "nlrc-dchi-activities.xml": 6
     },
     "1": {
       "nlrc-activities.xml": 15
@@ -49,20 +49,20 @@
   },
   ".//budget/@type": {
     "1": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 1192
+      "nlrc-activities.xml": 1192,
+      "nlrc-dchi-activities.xml": 6
     }
   },
   ".//budget/value/@currency": {
     "EUR": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 1192
+      "nlrc-activities.xml": 1192,
+      "nlrc-dchi-activities.xml": 6
     }
   },
   ".//collaboration-type/@code": {
     "1": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 1194
+      "nlrc-activities.xml": 1194,
+      "nlrc-dchi-activities.xml": 6
     }
   },
   ".//contact-info/@type": {
@@ -77,59 +77,53 @@
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 1194
+      "nlrc-activities.xml": 1194,
+      "nlrc-dchi-activities.xml": 6
     }
   },
   ".//default-finance-type/@code": {
     "110": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 1194
+      "nlrc-activities.xml": 1194,
+      "nlrc-dchi-activities.xml": 6
     }
   },
   ".//default-flow-type/@code": {
     "30": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 1194
+      "nlrc-activities.xml": 1194,
+      "nlrc-dchi-activities.xml": 6
     }
   },
   ".//default-tied-status/@code": {
     "5": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 1194
+      "nlrc-activities.xml": 1194,
+      "nlrc-dchi-activities.xml": 6
     }
   },
   ".//description/@type": {
     "1": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 2487
-    },
-    "4": {
-      "nlrc-dchi-activities.xml": 1
+      "nlrc-activities.xml": 2487,
+      "nlrc-dchi-activities.xml": 6
     },
     "2": {
       "nlrc-activities.xml": 643
     },
     "3": {
       "nlrc-activities.xml": 638
+    },
+    "4": {
+      "nlrc-dchi-activities.xml": 1
     }
   },
   ".//document-link/@format": {
     "application/pdf": {
-      "nlrc-dchi-activities.xml": 5,
-      "nlrc-activities.xml": 41
+      "nlrc-activities.xml": 41,
+      "nlrc-dchi-activities.xml": 5
     },
     "application/http": {
       "nlrc-dchi-activities.xml": 5
     }
   },
   ".//document-link/category/@code": {
-    "A08": {
-      "nlrc-dchi-activities.xml": 9
-    },
-    "A06": {
-      "nlrc-dchi-activities.xml": 1
-    },
     "B01": {
       "nlrc-activities.xml": 25
     },
@@ -138,6 +132,12 @@
     },
     "A02": {
       "nlrc-activities.xml": 15
+    },
+    "A08": {
+      "nlrc-dchi-activities.xml": 9
+    },
+    "A06": {
+      "nlrc-dchi-activities.xml": 1
     }
   },
   ".//document-link/language/@code": {
@@ -671,12 +671,12 @@
   },
   ".//participating-org/@role": {
     "2": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 1194
+      "nlrc-activities.xml": 1194,
+      "nlrc-dchi-activities.xml": 6
     },
     "4": {
-      "nlrc-dchi-activities.xml": 22,
-      "nlrc-activities.xml": 1228
+      "nlrc-activities.xml": 1228,
+      "nlrc-dchi-activities.xml": 22
     },
     "1": {
       "nlrc-activities.xml": 1676
@@ -684,18 +684,15 @@
   },
   ".//participating-org/@type": {
     "21": {
-      "nlrc-dchi-activities.xml": 21,
-      "nlrc-activities.xml": 3021
-    },
-    "10": {
-      "nlrc-dchi-activities.xml": 2,
-      "nlrc-activities.xml": 341
+      "nlrc-activities.xml": 3021,
+      "nlrc-dchi-activities.xml": 21
     },
     "22": {
-      "nlrc-dchi-activities.xml": 3,
-      "nlrc-activities.xml": 378
+      "nlrc-activities.xml": 378,
+      "nlrc-dchi-activities.xml": 3
     },
-    "90": {
+    "10": {
+      "nlrc-activities.xml": 341,
       "nlrc-dchi-activities.xml": 2
     },
     "15": {
@@ -709,6 +706,9 @@
     },
     "40": {
       "nlrc-activities.xml": 1
+    },
+    "90": {
+      "nlrc-dchi-activities.xml": 2
     }
   },
   ".//policy-marker/@significance": {
@@ -733,25 +733,9 @@
     }
   },
   ".//recipient-country/@code": {
-    "NL": {
-      "nlrc-dchi-activities.xml": 8,
-      "nlrc-activities.xml": 22
-    },
-    "UG": {
-      "nlrc-dchi-activities.xml": 1,
-      "nlrc-activities.xml": 48
-    },
-    "ET": {
-      "nlrc-dchi-activities.xml": 1,
-      "nlrc-activities.xml": 71
-    },
-    "SD": {
-      "nlrc-dchi-activities.xml": 1,
-      "nlrc-activities.xml": 39
-    },
     "MZ": {
-      "nlrc-dchi-activities.xml": 1,
-      "nlrc-activities.xml": 20
+      "nlrc-activities.xml": 20,
+      "nlrc-dchi-activities.xml": 1
     },
     "MW": {
       "nlrc-activities.xml": 33
@@ -771,11 +755,19 @@
     "BQ": {
       "nlrc-activities.xml": 21
     },
+    "ET": {
+      "nlrc-activities.xml": 71,
+      "nlrc-dchi-activities.xml": 1
+    },
     "PH": {
       "nlrc-activities.xml": 72
     },
     "CO": {
       "nlrc-activities.xml": 8
+    },
+    "NL": {
+      "nlrc-activities.xml": 22,
+      "nlrc-dchi-activities.xml": 8
     },
     "AF": {
       "nlrc-activities.xml": 10
@@ -873,6 +865,10 @@
     "SN": {
       "nlrc-activities.xml": 7
     },
+    "SD": {
+      "nlrc-activities.xml": 39,
+      "nlrc-dchi-activities.xml": 1
+    },
     "SL": {
       "nlrc-activities.xml": 9
     },
@@ -902,6 +898,10 @@
     },
     "IQ": {
       "nlrc-activities.xml": 11
+    },
+    "UG": {
+      "nlrc-activities.xml": 48,
+      "nlrc-dchi-activities.xml": 1
     },
     "CM": {
       "nlrc-activities.xml": 6
@@ -1026,23 +1026,17 @@
   },
   ".//recipient-region/@vocabulary": {
     "1": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 145
+      "nlrc-activities.xml": 145,
+      "nlrc-dchi-activities.xml": 6
     }
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "998": {
-      "nlrc-dchi-activities.xml": 2,
-      "nlrc-activities.xml": 121
-    },
-    "89": {
-      "nlrc-dchi-activities.xml": 3
-    },
-    "298": {
-      "nlrc-dchi-activities.xml": 1
-    },
     "Americas": {
       "nlrc-activities.xml": 18
+    },
+    "998": {
+      "nlrc-activities.xml": 121,
+      "nlrc-dchi-activities.xml": 2
     },
     "289": {
       "nlrc-activities.xml": 35
@@ -1055,6 +1049,12 @@
     },
     "Asia-Pac": {
       "nlrc-activities.xml": 5
+    },
+    "89": {
+      "nlrc-dchi-activities.xml": 3
+    },
+    "298": {
+      "nlrc-dchi-activities.xml": 1
     }
   },
   ".//related-activity/@type": {
@@ -1067,8 +1067,8 @@
   },
   ".//reporting-org/@type": {
     "21": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 1194
+      "nlrc-activities.xml": 1194,
+      "nlrc-dchi-activities.xml": 6
     }
   },
   ".//result/@type": {
@@ -1210,8 +1210,8 @@
   },
   ".//sector/@vocabulary": {
     "1": {
-      "nlrc-dchi-activities.xml": 11,
-      "nlrc-activities.xml": 1262
+      "nlrc-activities.xml": 1262,
+      "nlrc-dchi-activities.xml": 11
     },
     "99": {
       "nlrc-activities.xml": 1265
@@ -1221,12 +1221,6 @@
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "92020": {
-      "nlrc-dchi-activities.xml": 10
-    },
-    "11120": {
-      "nlrc-dchi-activities.xml": 1
-    },
     "72010": {
       "nlrc-activities.xml": 669
     },
@@ -1241,6 +1235,12 @@
     },
     "72040": {
       "nlrc-activities.xml": 172
+    },
+    "92020": {
+      "nlrc-dchi-activities.xml": 10
+    },
+    "11120": {
+      "nlrc-dchi-activities.xml": 1
     }
   },
   ".//transaction/aid-type/@vocabulary": {
@@ -1269,12 +1269,12 @@
     }
   },
   ".//transaction/provider-org/@type": {
-    "10": {
-      "nlrc-dchi-activities.xml": 12,
-      "nlrc-activities.xml": 507
-    },
     "21": {
       "nlrc-activities.xml": 13600
+    },
+    "10": {
+      "nlrc-activities.xml": 507,
+      "nlrc-dchi-activities.xml": 12
     },
     "22": {
       "nlrc-activities.xml": 40
@@ -1294,8 +1294,8 @@
   },
   ".//transaction/receiver-org/@type": {
     "21": {
-      "nlrc-dchi-activities.xml": 12,
-      "nlrc-activities.xml": 2792
+      "nlrc-activities.xml": 2792,
+      "nlrc-dchi-activities.xml": 12
     },
     "22": {
       "nlrc-activities.xml": 2616
@@ -1323,13 +1323,6 @@
     }
   },
   ".//transaction/transaction-type/@code": {
-    "2": {
-      "nlrc-dchi-activities.xml": 6,
-      "nlrc-activities.xml": 447
-    },
-    "1": {
-      "nlrc-dchi-activities.xml": 6
-    },
     "11": {
       "nlrc-activities.xml": 1799
     },
@@ -1338,12 +1331,19 @@
     },
     "3": {
       "nlrc-activities.xml": 3204
+    },
+    "2": {
+      "nlrc-activities.xml": 447,
+      "nlrc-dchi-activities.xml": 6
+    },
+    "1": {
+      "nlrc-dchi-activities.xml": 6
     }
   },
   ".//transaction/value/@currency": {
     "EUR": {
-      "nlrc-dchi-activities.xml": 12,
-      "nlrc-activities.xml": 14903
+      "nlrc-activities.xml": 14903,
+      "nlrc-dchi-activities.xml": 12
     }
   }
 }

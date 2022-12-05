@@ -11,8 +11,8 @@
     "1": 1
   },
   ".//activity-status/@code": {
-    "3": 13,
-    "2": 14
+    "2": 14,
+    "3": 13
   },
   ".//budget/@status": {
     "2": 7,
@@ -25,8 +25,8 @@
     "EUR": 70
   },
   ".//collaboration-type/@code": {
-    "3": 16,
-    "1": 11
+    "1": 11,
+    "3": 16
   },
   ".//contact-info/@type": {
     "1": 26,
@@ -36,8 +36,8 @@
     "1": 16
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "A01": 16,
-    "C01": 11
+    "C01": 11,
+    "A01": 16
   },
   ".//default-finance-type/@code": {
     "110": 27
@@ -69,21 +69,21 @@
     "20000": 2
   },
   ".//participating-org/@role": {
-    "4": 41,
+    "1": 16,
     "2": 27,
-    "1": 16
+    "4": 41
   },
   ".//participating-org/@type": {
-    "21": 56,
-    "60": 15,
     "10": 1,
+    "21": 56,
     "22": 6,
     "90": 5,
-    "24": 1
+    "24": 1,
+    "60": 15
   },
   ".//policy-marker/@significance": {
-    "2": 13,
-    "1": 14
+    "1": 14,
+    "2": 13
   },
   ".//policy-marker/@vocabulary": {
     "1": 27
@@ -92,26 +92,26 @@
     "1": 27
   },
   ".//recipient-country/@code": {
-    "MW": 5,
-    "ZW": 5,
-    "ID": 5,
-    "GT": 5,
-    "HN": 5,
     "US": 1,
+    "ZW": 5,
     "ZA": 2,
+    "MW": 5,
+    "ID": 5,
     "KH": 2,
     "MM": 2,
-    "KE": 2
+    "KE": 2,
+    "GT": 5,
+    "HN": 5
   },
   ".//recipient-region/@vocabulary": {
     "1": 13
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "389": 2,
     "998": 4,
     "798": 3,
     "498": 3,
-    "298": 3,
-    "389": 2
+    "298": 3
   },
   ".//related-activity/@type": {
     "1": 26
@@ -120,8 +120,8 @@
     "21": 27
   },
   ".//result/@type": {
-    "2": 451,
-    "1": 88
+    "1": 88,
+    "2": 451
   },
   ".//result/indicator/@measure": {
     "1": 1485
@@ -151,9 +151,9 @@
     "30": 8
   },
   ".//transaction/provider-org/@type": {
-    "60": 4,
+    "10": 3,
     "21": 130,
-    "10": 3
+    "60": 4
   },
   ".//transaction/receiver-org/@type": {
     "21": 108,
@@ -165,11 +165,11 @@
     "5": 8
   },
   ".//transaction/transaction-type/@code": {
-    "4": 147,
     "11": 2,
     "1": 6,
     "2": 15,
-    "3": 21
+    "3": 21,
+    "4": 147
   },
   ".//transaction/value/@currency": {
     "EUR": 65,

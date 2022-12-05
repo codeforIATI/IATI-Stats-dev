@@ -1,14 +1,14 @@
 {
   ".//@default-currency": {
-    "USD": 1,
-    "EUR": 6
+    "EUR": 6,
+    "USD": 1
   },
   ".//@xml:lang": {
     "en": 21
   },
   ".//activity-date/@type": {
-    "2": 7,
     "1": 6,
+    "2": 7,
     "3": 6
   },
   ".//activity-status/@code": {
@@ -63,14 +63,14 @@
   },
   ".//participating-org/@role": {
     "1": 7,
-    "4": 11,
-    "2": 7
+    "2": 7,
+    "4": 11
   },
   ".//participating-org/@type": {
-    "10": 3,
-    "90": 2,
     "21": 18,
-    "22": 2
+    "10": 3,
+    "22": 2,
+    "90": 2
   },
   ".//policy-marker/@significance": {
     "4": 5,
@@ -91,31 +91,31 @@
     "5": 3
   },
   ".//recipient-country/@code": {
-    "RW": 1,
     "TZ": 5,
-    "MZ": 5
+    "MZ": 5,
+    "RW": 1
   },
   ".//related-activity/@type": {
     "1": 6,
     "2": 14
   },
   ".//reporting-org/@type": {
-    "90": 1,
-    "21": 6
+    "21": 6,
+    "90": 1
   },
   ".//result/@type": {
-    "1": 10,
     "2": 20,
-    "3": 6
+    "3": 6,
+    "1": 10
   },
   ".//result/indicator/@measure": {
-    "5": 3,
     "1": 46,
-    "2": 8
+    "2": 8,
+    "5": 3
   },
   ".//sector/@vocabulary": {
-    "1": 1,
-    "2": 29
+    "2": 29,
+    "1": 1
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "14015": 1
@@ -131,19 +131,19 @@
     "1": 1
   },
   ".//transaction/provider-org/@type": {
-    "10": 8,
-    "21": 97
+    "21": 97,
+    "10": 8
   },
   ".//transaction/receiver-org/@type": {
-    "90": 1,
     "21": 84,
-    "22": 19
+    "22": 19,
+    "90": 1
   },
   ".//transaction/transaction-type/@code": {
-    "3": 37,
-    "4": 24,
     "11": 9,
     "1": 21,
+    "4": 24,
+    "3": 37,
     "2": 19
   },
   ".//transaction/value/@currency": {

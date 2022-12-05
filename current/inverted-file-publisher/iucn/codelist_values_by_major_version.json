@@ -1,199 +1,46 @@
 {
   "2": {
     ".//@default-currency": {
-      "iucn-activities.xml": {
-        "USD": 1
-      },
       "iucn-activity.xml": {
         "EUR": 6
+      },
+      "iucn-activities.xml": {
+        "USD": 1
       }
     },
     ".//activity-date/@type": {
-      "iucn-activities.xml": {
-        "2": 1
-      },
       "iucn-activity.xml": {
         "1": 6,
         "2": 6,
         "3": 6
+      },
+      "iucn-activities.xml": {
+        "2": 1
       }
     },
     ".//activity-status/@code": {
-      "iucn-activities.xml": {
-        "2": 1
-      },
       "iucn-activity.xml": {
         "2": 6
-      }
-    },
-    ".//budget/@status": {
+      },
       "iucn-activities.xml": {
         "2": 1
-      }
-    },
-    ".//budget/@type": {
-      "iucn-activities.xml": {
-        "1": 1
       }
     },
     ".//budget/value/@currency": {
-      "iucn-activities.xml": {
+      "iucn-activity.xml": {
         "EUR": 1
       },
-      "iucn-activity.xml": {
+      "iucn-activities.xml": {
         "EUR": 1
       }
     },
     ".//contact-info/@type": {
-      "iucn-activities.xml": {
-        "2": 1
-      },
       "iucn-activity.xml": {
         "2": 6,
         "4": 1
-      }
-    },
-    ".//description/@type": {
+      },
       "iucn-activities.xml": {
-        "1": 1,
         "2": 1
-      },
-      "iucn-activity.xml": {
-        "1": 12,
-        "2": 6
-      }
-    },
-    ".//participating-org/@crs-channel-code": {
-      "iucn-activities.xml": {
-        "11000": 1
-      }
-    },
-    ".//participating-org/@role": {
-      "iucn-activities.xml": {
-        "1": 1,
-        "4": 4,
-        "2": 1
-      },
-      "iucn-activity.xml": {
-        "1": 6,
-        "2": 6,
-        "4": 7
-      }
-    },
-    ".//participating-org/@type": {
-      "iucn-activities.xml": {
-        "10": 2,
-        "90": 2,
-        "21": 1,
-        "22": 1
-      },
-      "iucn-activity.xml": {
-        "21": 17,
-        "10": 1,
-        "22": 1
-      }
-    },
-    ".//recipient-country/@code": {
-      "iucn-activities.xml": {
-        "RW": 1
-      },
-      "iucn-activity.xml": {
-        "TZ": 5,
-        "MZ": 5
-      }
-    },
-    ".//reporting-org/@type": {
-      "iucn-activities.xml": {
-        "90": 1
-      },
-      "iucn-activity.xml": {
-        "21": 6
-      }
-    },
-    ".//result/@type": {
-      "iucn-activities.xml": {
-        "1": 9,
-        "2": 4,
-        "3": 1
-      },
-      "iucn-activity.xml": {
-        "2": 16,
-        "3": 5,
-        "1": 1
-      }
-    },
-    ".//result/indicator/@measure": {
-      "iucn-activities.xml": {
-        "5": 3,
-        "1": 15,
-        "2": 1
-      },
-      "iucn-activity.xml": {
-        "1": 31,
-        "2": 7
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "iucn-activities.xml": {
-        "14015": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "iucn-activities.xml": {
-        "1": 1
-      },
-      "iucn-activity.xml": {
-        "2": 29
-      }
-    },
-    ".//transaction/disbursement-channel/@code": {
-      "iucn-activities.xml": {
-        "1": 1
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "iucn-activities.xml": {
-        "10": 1
-      },
-      "iucn-activity.xml": {
-        "21": 97,
-        "10": 7
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "iucn-activities.xml": {
-        "90": 1
-      },
-      "iucn-activity.xml": {
-        "21": 84,
-        "22": 19
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "iucn-activities.xml": {
-        "3": 1,
-        "4": 1,
-        "11": 1
-      },
-      "iucn-activity.xml": {
-        "11": 8,
-        "1": 21,
-        "4": 23,
-        "3": 36,
-        "2": 19
-      }
-    },
-    ".//transaction/value/@currency": {
-      "iucn-activities.xml": {
-        "EUR": 3
-      }
-    },
-    ".//@xml:lang": {
-      "iucn-activities.xml": {
-        "en": 15
-      },
-      "iucn-activity.xml": {
-        "en": 6
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -221,6 +68,16 @@
         "5": 6
       }
     },
+    ".//description/@type": {
+      "iucn-activity.xml": {
+        "1": 12,
+        "2": 6
+      },
+      "iucn-activities.xml": {
+        "1": 1,
+        "2": 1
+      }
+    },
     ".//document-link/@format": {
       "iucn-activity.xml": {
         "image/jpeg": 6,
@@ -237,6 +94,31 @@
     ".//other-identifier/@type": {
       "iucn-activity.xml": {
         "B9": 6
+      }
+    },
+    ".//participating-org/@role": {
+      "iucn-activity.xml": {
+        "1": 6,
+        "2": 6,
+        "4": 7
+      },
+      "iucn-activities.xml": {
+        "1": 1,
+        "4": 4,
+        "2": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "iucn-activity.xml": {
+        "21": 17,
+        "10": 1,
+        "22": 1
+      },
+      "iucn-activities.xml": {
+        "10": 2,
+        "90": 2,
+        "21": 1,
+        "22": 1
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -263,10 +145,50 @@
         "1": 36
       }
     },
+    ".//recipient-country/@code": {
+      "iucn-activity.xml": {
+        "TZ": 5,
+        "MZ": 5
+      },
+      "iucn-activities.xml": {
+        "RW": 1
+      }
+    },
     ".//related-activity/@type": {
       "iucn-activity.xml": {
         "1": 6,
         "2": 14
+      }
+    },
+    ".//reporting-org/@type": {
+      "iucn-activity.xml": {
+        "21": 6
+      },
+      "iucn-activities.xml": {
+        "90": 1
+      }
+    },
+    ".//result/@type": {
+      "iucn-activity.xml": {
+        "2": 16,
+        "3": 5,
+        "1": 1
+      },
+      "iucn-activities.xml": {
+        "1": 9,
+        "2": 4,
+        "3": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "iucn-activity.xml": {
+        "1": 31,
+        "2": 7
+      },
+      "iucn-activities.xml": {
+        "5": 3,
+        "1": 15,
+        "2": 1
       }
     },
     ".//sector[@vocabulary = '2']/@code": {
@@ -276,6 +198,84 @@
         "311": 6,
         "312": 6,
         "410": 5
+      }
+    },
+    ".//sector/@vocabulary": {
+      "iucn-activity.xml": {
+        "2": 29
+      },
+      "iucn-activities.xml": {
+        "1": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "iucn-activity.xml": {
+        "21": 97,
+        "10": 7
+      },
+      "iucn-activities.xml": {
+        "10": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "iucn-activity.xml": {
+        "21": 84,
+        "22": 19
+      },
+      "iucn-activities.xml": {
+        "90": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "iucn-activity.xml": {
+        "11": 8,
+        "1": 21,
+        "4": 23,
+        "3": 36,
+        "2": 19
+      },
+      "iucn-activities.xml": {
+        "3": 1,
+        "4": 1,
+        "11": 1
+      }
+    },
+    ".//@xml:lang": {
+      "iucn-activity.xml": {
+        "en": 6
+      },
+      "iucn-activities.xml": {
+        "en": 15
+      }
+    },
+    ".//budget/@status": {
+      "iucn-activities.xml": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "iucn-activities.xml": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@crs-channel-code": {
+      "iucn-activities.xml": {
+        "11000": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "iucn-activities.xml": {
+        "14015": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "iucn-activities.xml": {
+        "1": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "iucn-activities.xml": {
+        "EUR": 3
       }
     }
   }

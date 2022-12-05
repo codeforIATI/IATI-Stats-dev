@@ -1,100 +1,95 @@
 {
   "2": {
     ".//@default-currency": {
-      "cku-activities.xml": {
-        "DKK": 6
-      },
       "cku-all.xml": {
         "DKK": 693
+      },
+      "cku-activities.xml": {
+        "DKK": 6
       }
     },
     ".//activity-date/@type": {
-      "cku-activities.xml": {
-        "1": 6,
-        "3": 6
-      },
       "cku-all.xml": {
         "1": 693,
         "2": 693,
         "3": 693,
         "4": 693
+      },
+      "cku-activities.xml": {
+        "1": 6,
+        "3": 6
       }
     },
     ".//activity-status/@code": {
-      "cku-activities.xml": {
-        "2": 6
-      },
       "cku-all.xml": {
         "4": 280,
         "2": 413
+      },
+      "cku-activities.xml": {
+        "2": 6
       }
     },
     ".//budget/@status": {
-      "cku-activities.xml": {
-        "2": 15
-      },
       "cku-all.xml": {
         "2": 1526
+      },
+      "cku-activities.xml": {
+        "2": 15
       }
     },
     ".//budget/@type": {
-      "cku-activities.xml": {
-        "1": 15
-      },
       "cku-all.xml": {
         "1": 1526
+      },
+      "cku-activities.xml": {
+        "1": 15
       }
     },
     ".//budget/value/@currency": {
-      "cku-activities.xml": {
-        "DKK": 15
-      },
       "cku-all.xml": {
         "DKK": 1526
+      },
+      "cku-activities.xml": {
+        "DKK": 15
       }
     },
     ".//description/@type": {
+      "cku-all.xml": {
+        "1": 693
+      },
       "cku-activities.xml": {
         "1": 5,
         "2": 5,
         "3": 4
-      },
-      "cku-all.xml": {
-        "1": 693
       }
     },
     ".//participating-org/@crs-channel-code": {
-      "cku-activities.xml": {
-        "11001": 6
-      },
       "cku-all.xml": {
         "20000": 2079
+      },
+      "cku-activities.xml": {
+        "11001": 6
       }
     },
     ".//participating-org/@role": {
-      "cku-activities.xml": {
-        "1": 6
-      },
       "cku-all.xml": {
         "3": 693,
         "1": 693,
         "2": 693
+      },
+      "cku-activities.xml": {
+        "1": 6
       }
     },
     ".//participating-org/@type": {
-      "cku-activities.xml": {
-        "10": 6
-      },
       "cku-all.xml": {
         "22": 2079
+      },
+      "cku-activities.xml": {
+        "10": 6
       }
     },
     ".//recipient-country/@code": {
-      "cku-activities.xml": {
-        "LB": 1,
-        "DK": 2,
-        "ID": 1
-      },
       "cku-all.xml": {
         "MM": 19,
         "ML": 17,
@@ -154,6 +149,85 @@
         "TJ": 1,
         "MG": 1,
         "SD": 2
+      },
+      "cku-activities.xml": {
+        "LB": 1,
+        "DK": 2,
+        "ID": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "cku-all.xml": {
+        "1": 693
+      },
+      "cku-activities.xml": {
+        "1": 6
+      }
+    },
+    ".//reporting-org/@type": {
+      "cku-all.xml": {
+        "22": 693
+      },
+      "cku-activities.xml": {
+        "21": 6
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cku-all.xml": {
+        "15150": 693,
+        "15160": 693
+      },
+      "cku-activities.xml": {
+        "15160": 6
+      }
+    },
+    ".//sector/@vocabulary": {
+      "cku-all.xml": {
+        "1": 1386
+      },
+      "cku-activities.xml": {
+        "1": 6
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "cku-all.xml": {
+        "22": 2245
+      },
+      "cku-activities.xml": {
+        "10": 28
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "cku-all.xml": {
+        "22": 2245
+      },
+      "cku-activities.xml": {
+        "22": 25,
+        "21": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "cku-all.xml": {
+        "3": 2245
+      },
+      "cku-activities.xml": {
+        "1": 30
+      }
+    },
+    ".//transaction/value/@currency": {
+      "cku-all.xml": {
+        "DKK": 2245
+      },
+      "cku-activities.xml": {
+        "DKK": 30
+      }
+    },
+    ".//@xml:lang": {
+      "cku-all.xml": {
+        "da": 2772
+      },
+      "cku-activities.xml": {
+        "en": 37
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -164,39 +238,6 @@
     ".//recipient-region/@vocabulary": {
       "cku-activities.xml": {
         "1": 5
-      }
-    },
-    ".//related-activity/@type": {
-      "cku-activities.xml": {
-        "1": 6
-      },
-      "cku-all.xml": {
-        "1": 693
-      }
-    },
-    ".//reporting-org/@type": {
-      "cku-activities.xml": {
-        "21": 6
-      },
-      "cku-all.xml": {
-        "22": 693
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "cku-activities.xml": {
-        "15160": 6
-      },
-      "cku-all.xml": {
-        "15150": 693,
-        "15160": 693
-      }
-    },
-    ".//sector/@vocabulary": {
-      "cku-activities.xml": {
-        "1": 6
-      },
-      "cku-all.xml": {
-        "1": 1386
       }
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -226,50 +267,9 @@
         "10": 1
       }
     },
-    ".//transaction/provider-org/@type": {
-      "cku-activities.xml": {
-        "10": 28
-      },
-      "cku-all.xml": {
-        "22": 2245
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "cku-activities.xml": {
-        "22": 25,
-        "21": 1
-      },
-      "cku-all.xml": {
-        "22": 2245
-      }
-    },
     ".//transaction/tied-status/@code": {
       "cku-activities.xml": {
         "5": 1
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "cku-activities.xml": {
-        "1": 30
-      },
-      "cku-all.xml": {
-        "3": 2245
-      }
-    },
-    ".//transaction/value/@currency": {
-      "cku-activities.xml": {
-        "DKK": 30
-      },
-      "cku-all.xml": {
-        "DKK": 2245
-      }
-    },
-    ".//@xml:lang": {
-      "cku-activities.xml": {
-        "en": 37
-      },
-      "cku-all.xml": {
-        "da": 2772
       }
     }
   }

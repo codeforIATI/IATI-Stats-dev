@@ -39,9 +39,9 @@
       "iati-activity/contact-info/@type": 283,
       "iati-activity/activity-scope": 283,
       "iati-activity/activity-scope/@code": 283,
-      "iati-activity/recipient-country": 212,
-      "iati-activity/recipient-country/narrative": 212,
-      "iati-activity/recipient-country/@code": 212,
+      "iati-activity/recipient-region": 60,
+      "iati-activity/recipient-region/narrative": 60,
+      "iati-activity/recipient-region/@code": 51,
       "iati-activity/sector": 283,
       "iati-activity/sector/narrative": 283,
       "iati-activity/sector/@code": 283,
@@ -74,12 +74,12 @@
       "iati-activity/transaction/description/narrative": 283,
       "iati-activity/transaction/provider-org": 283,
       "iati-activity/transaction/provider-org/narrative": 283,
+      "iati-activity/transaction/provider-org/@provider-activity-id": 283,
       "iati-activity/transaction/receiver-org": 283,
       "iati-activity/transaction/receiver-org/narrative": 283,
       "iati-activity/transaction/receiver-org/@receiver-activity-id": 283,
       "iati-activity/transaction/finance-type": 283,
       "iati-activity/transaction/finance-type/@code": 283,
-      "iati-activity/transaction/provider-org/@provider-activity-id": 283,
       "iati-activity/related-activity": 283,
       "iati-activity/related-activity/@ref": 283,
       "iati-activity/related-activity/@type": 283,
@@ -87,9 +87,9 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 283,
       "iati-activity/@default-currency": 283,
       "iati-activity/@hierarchy": 283,
-      "iati-activity/recipient-region": 60,
-      "iati-activity/recipient-region/narrative": 60,
-      "iati-activity/recipient-region/@code": 51
+      "iati-activity/recipient-country": 212,
+      "iati-activity/recipient-country/narrative": 212,
+      "iati-activity/recipient-country/@code": 212
     },
     "elements_total": {
       "iati-activity": 283,
@@ -129,9 +129,9 @@
       "iati-activity/contact-info/@type": 290,
       "iati-activity/activity-scope": 283,
       "iati-activity/activity-scope/@code": 283,
-      "iati-activity/recipient-country": 212,
-      "iati-activity/recipient-country/narrative": 212,
-      "iati-activity/recipient-country/@code": 212,
+      "iati-activity/recipient-region": 60,
+      "iati-activity/recipient-region/narrative": 60,
+      "iati-activity/recipient-region/@code": 51,
       "iati-activity/sector": 1349,
       "iati-activity/sector/narrative": 1349,
       "iati-activity/sector/@code": 1349,
@@ -164,12 +164,12 @@
       "iati-activity/transaction/description/narrative": 2227,
       "iati-activity/transaction/provider-org": 2227,
       "iati-activity/transaction/provider-org/narrative": 2227,
+      "iati-activity/transaction/provider-org/@provider-activity-id": 2219,
       "iati-activity/transaction/receiver-org": 2227,
       "iati-activity/transaction/receiver-org/narrative": 2227,
       "iati-activity/transaction/receiver-org/@receiver-activity-id": 2227,
       "iati-activity/transaction/finance-type": 2227,
       "iati-activity/transaction/finance-type/@code": 2227,
-      "iati-activity/transaction/provider-org/@provider-activity-id": 2219,
       "iati-activity/related-activity": 712,
       "iati-activity/related-activity/@ref": 712,
       "iati-activity/related-activity/@type": 712,
@@ -177,9 +177,9 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 283,
       "iati-activity/@default-currency": 283,
       "iati-activity/@hierarchy": 283,
-      "iati-activity/recipient-region": 60,
-      "iati-activity/recipient-region/narrative": 60,
-      "iati-activity/recipient-region/@code": 51
+      "iati-activity/recipient-country": 212,
+      "iati-activity/recipient-country/narrative": 212,
+      "iati-activity/recipient-country/@code": 212
     },
     "forwardlooking_currency_year": {
       "null": {
@@ -309,9 +309,9 @@
       "iati-activity/contact-info/@type": 712,
       "iati-activity/activity-scope": 712,
       "iati-activity/activity-scope/@code": 700,
-      "iati-activity/recipient-country": 590,
-      "iati-activity/recipient-country/narrative": 590,
-      "iati-activity/recipient-country/@code": 590,
+      "iati-activity/recipient-region": 110,
+      "iati-activity/recipient-region/narrative": 110,
+      "iati-activity/recipient-region/@code": 97,
       "iati-activity/sector": 705,
       "iati-activity/sector/narrative": 705,
       "iati-activity/sector/@code": 705,
@@ -350,6 +350,13 @@
       "iati-activity/transaction/receiver-org/@receiver-activity-id": 697,
       "iati-activity/transaction/finance-type": 697,
       "iati-activity/transaction/finance-type/@code": 697,
+      "iati-activity/related-activity": 712,
+      "iati-activity/related-activity/@ref": 712,
+      "iati-activity/related-activity/@type": 712,
+      "iati-activity/@last-updated-datetime": 712,
+      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 712,
+      "iati-activity/@default-currency": 712,
+      "iati-activity/@hierarchy": 712,
       "iati-activity/document-link": 655,
       "iati-activity/document-link/title": 655,
       "iati-activity/document-link/title/narrative": 655,
@@ -358,9 +365,6 @@
       "iati-activity/document-link/category/@code": 655,
       "iati-activity/document-link/@format": 655,
       "iati-activity/document-link/@url": 655,
-      "iati-activity/related-activity": 712,
-      "iati-activity/related-activity/@ref": 712,
-      "iati-activity/related-activity/@type": 712,
       "iati-activity/result": 577,
       "iati-activity/result/title": 577,
       "iati-activity/result/title/narrative": 577,
@@ -386,17 +390,13 @@
       "iati-activity/result/indicator/@ascending": 577,
       "iati-activity/result/@type": 577,
       "iati-activity/result/@aggregation-status": 577,
-      "iati-activity/@last-updated-datetime": 712,
-      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 712,
-      "iati-activity/@default-currency": 712,
-      "iati-activity/@hierarchy": 712,
       "iati-activity/result/indicator/period/target/comment": 53,
       "iati-activity/result/indicator/period/target/comment/narrative": 53,
       "iati-activity/result/indicator/period/actual/comment": 85,
       "iati-activity/result/indicator/period/actual/comment/narrative": 85,
-      "iati-activity/recipient-region": 110,
-      "iati-activity/recipient-region/narrative": 110,
-      "iati-activity/recipient-region/@code": 97
+      "iati-activity/recipient-country": 590,
+      "iati-activity/recipient-country/narrative": 590,
+      "iati-activity/recipient-country/@code": 590
     },
     "elements_total": {
       "iati-activity": 712,
@@ -436,9 +436,9 @@
       "iati-activity/contact-info/@type": 712,
       "iati-activity/activity-scope": 712,
       "iati-activity/activity-scope/@code": 700,
-      "iati-activity/recipient-country": 590,
-      "iati-activity/recipient-country/narrative": 590,
-      "iati-activity/recipient-country/@code": 590,
+      "iati-activity/recipient-region": 110,
+      "iati-activity/recipient-region/narrative": 110,
+      "iati-activity/recipient-region/@code": 97,
       "iati-activity/sector": 1746,
       "iati-activity/sector/narrative": 1746,
       "iati-activity/sector/@code": 1746,
@@ -477,6 +477,13 @@
       "iati-activity/transaction/receiver-org/@receiver-activity-id": 3168,
       "iati-activity/transaction/finance-type": 3168,
       "iati-activity/transaction/finance-type/@code": 3168,
+      "iati-activity/related-activity": 1364,
+      "iati-activity/related-activity/@ref": 1364,
+      "iati-activity/related-activity/@type": 1364,
+      "iati-activity/@last-updated-datetime": 712,
+      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 712,
+      "iati-activity/@default-currency": 712,
+      "iati-activity/@hierarchy": 712,
       "iati-activity/document-link": 8075,
       "iati-activity/document-link/title": 8075,
       "iati-activity/document-link/title/narrative": 8075,
@@ -485,9 +492,6 @@
       "iati-activity/document-link/category/@code": 21318,
       "iati-activity/document-link/@format": 8075,
       "iati-activity/document-link/@url": 8075,
-      "iati-activity/related-activity": 1364,
-      "iati-activity/related-activity/@ref": 1364,
-      "iati-activity/related-activity/@type": 1364,
       "iati-activity/result": 9400,
       "iati-activity/result/title": 9400,
       "iati-activity/result/title/narrative": 9400,
@@ -513,30 +517,29 @@
       "iati-activity/result/indicator/@ascending": 9400,
       "iati-activity/result/@type": 9400,
       "iati-activity/result/@aggregation-status": 9400,
-      "iati-activity/@last-updated-datetime": 712,
-      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 712,
-      "iati-activity/@default-currency": 712,
-      "iati-activity/@hierarchy": 712,
       "iati-activity/result/indicator/period/target/comment": 274,
       "iati-activity/result/indicator/period/target/comment/narrative": 274,
       "iati-activity/result/indicator/period/actual/comment": 660,
       "iati-activity/result/indicator/period/actual/comment/narrative": 660,
-      "iati-activity/recipient-region": 110,
-      "iati-activity/recipient-region/narrative": 110,
-      "iati-activity/recipient-region/@code": 97
+      "iati-activity/recipient-country": 590,
+      "iati-activity/recipient-country/narrative": 590,
+      "iati-activity/recipient-country/@code": 590
     },
     "forwardlooking_currency_year": {
       "null": {
         "USD": 15361519385.64
       },
-      "2014": {
-        "USD": 22940475.86
+      "2020": {
+        "USD": 4099169.04
+      },
+      "2008": {
+        "USD": 25000000.0
+      },
+      "2009": {
+        "USD": 2500000.0
       },
       "2016": {
         "USD": 17254749.51
-      },
-      "2020": {
-        "USD": 4099169.04
       },
       "2018": {
         "USD": 4670000.0
@@ -550,11 +553,8 @@
       "2021": {
         "USD": 1401685.92
       },
-      "2008": {
-        "USD": 25000000.0
-      },
-      "2009": {
-        "USD": 2500000.0
+      "2014": {
+        "USD": 22940475.86
       }
     },
     "forwardlooking_activities_current": {
