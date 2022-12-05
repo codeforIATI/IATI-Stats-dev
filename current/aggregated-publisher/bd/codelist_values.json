@@ -4,8 +4,8 @@
   },
   ".//@xml:lang": {
     "nl": 161,
-    "fr": 89,
     "es": 33,
+    "fr": 89,
     "en": 20
   },
   ".//activity-date/@type": {
@@ -101,19 +101,19 @@
     "8": 15
   },
   ".//recipient-country/@code": {
-    "BO": 1,
-    "PS": 1,
-    "SN": 1,
-    "CD": 1,
-    "RW": 1,
-    "PE": 1,
-    "BF": 1,
-    "BE": 3,
     "GT": 1,
-    "UG": 1,
+    "SN": 1,
+    "BO": 1,
+    "HT": 1,
+    "RW": 1,
     "BI": 1,
+    "PS": 1,
+    "PE": 1,
+    "BE": 3,
     "CO": 1,
-    "HT": 1
+    "CD": 1,
+    "BF": 1,
+    "UG": 1
   },
   ".//recipient-region/@vocabulary": {
     "1": 2
@@ -139,26 +139,26 @@
     "1": 38
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "99810": 1,
     "92030": 12,
     "15160": 10,
     "31120": 11,
+    "99810": 1,
     "99820": 3,
     "91010": 1
   },
   ".//transaction/provider-org/@type": {
-    "10": 10,
-    "22": 1118
+    "22": 1118,
+    "10": 10
   },
   ".//transaction/receiver-org/@type": {
     "22": 20
   },
   ".//transaction/transaction-type/@code": {
-    "11": 10,
-    "1": 10,
     "3": 587,
     "4": 80,
-    "2": 446
+    "2": 446,
+    "11": 10,
+    "1": 10
   },
   ".//transaction/value/@currency": {
     "EUR": 1130

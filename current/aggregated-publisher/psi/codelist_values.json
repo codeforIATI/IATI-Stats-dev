@@ -10,12 +10,12 @@
   ".//activity-date/@type": {
     "1": 12,
     "2": 15,
-    "4": 6,
-    "3": 8
+    "3": 8,
+    "4": 6
   },
   ".//activity-status/@code": {
-    "3": 6,
     "2": 11,
+    "3": 6,
     "4": 1
   },
   ".//budget/@status": {
@@ -27,14 +27,14 @@
     "2": 3
   },
   ".//budget/value/@currency": {
-    "EUR": 9,
     "USD": 6,
     "GBP": 13,
+    "EUR": 9,
     "XOF": 2
   },
   ".//contact-info/@type": {
-    "1": 10,
-    "2": 8
+    "2": 8,
+    "1": 10
   },
   ".//default-aid-type/@vocabulary": {
     "1": 18
@@ -97,21 +97,21 @@
     "99": 2
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "9": 7,
-    "1": 1
+    "1": 1,
+    "9": 7
   },
   ".//recipient-country/@code": {
-    "MZ": 6,
-    "HT": 1,
     "BI": 3,
-    "CI": 1,
     "SO": 2,
     "IN": 1,
-    "BJ": 2,
-    "KE": 1,
     "BF": 1,
-    "CD": 1,
-    "MW": 1
+    "MZ": 6,
+    "HT": 1,
+    "CI": 1,
+    "KE": 1,
+    "BJ": 2,
+    "MW": 1,
+    "CD": 1
   },
   ".//recipient-region/@vocabulary": {
     "1": 5,
@@ -143,12 +143,12 @@
     "99": 5
   },
   ".//sector/@vocabulary": {
-    "1": 14,
-    "99": 4
+    "99": 4,
+    "1": 14
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "13020": 11,
     "12240": 2,
+    "13020": 11,
     "13030": 1
   },
   ".//transaction/aid-type/@vocabulary": {
@@ -202,8 +202,8 @@
     "1": 1
   },
   ".//transaction/value/@currency": {
-    "EUR": 28,
     "USD": 4,
+    "EUR": 28,
     "GBP": 4,
     "XOF": 1
   }

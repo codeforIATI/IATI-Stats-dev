@@ -89,12 +89,9 @@
       "iati-activity/transaction/@humanitarian": 3366,
       "iati-activity/{https://explorer.usaid.gov}duns-number": 7197,
       "iati-activity/{https://explorer.usaid.gov}duns-number/narrative": 7197,
-      "iati-activity/transaction/recipient-region": 12677,
-      "iati-activity/transaction/recipient-region/@code": 12677,
       "iati-activity/transaction/description": 1469,
       "iati-activity/transaction/description/narrative": 1469,
       "iati-activity/transaction/{https://explorer.usaid.gov}humanitarian-scope/@code": 390,
-      "iati-activity/description/@type": 58,
       "iati-activity/budget": 133,
       "iati-activity/budget/period-start": 133,
       "iati-activity/budget/period-start/@iso-date": 133,
@@ -104,6 +101,8 @@
       "iati-activity/budget/value/@currency": 133,
       "iati-activity/budget/value/@value-date": 133,
       "iati-activity/budget/@status": 133,
+      "iati-activity/transaction/recipient-region": 12677,
+      "iati-activity/transaction/recipient-region/@code": 12677,
       "iati-activity/location": 89,
       "iati-activity/location/location-reach": 89,
       "iati-activity/location/location-reach/@code": 89,
@@ -116,6 +115,7 @@
       "iati-activity/location/exactness/@code": 89,
       "iati-activity/location/location-class": 89,
       "iati-activity/location/location-class/@code": 89,
+      "iati-activity/description/@type": 58,
       "iati-activity/recipient-country": 2,
       "iati-activity/recipient-country/@code": 2,
       "iati-activity/recipient-country/@percentage": 2,
@@ -259,12 +259,9 @@
       "iati-activity/transaction/@humanitarian": 54274,
       "iati-activity/{https://explorer.usaid.gov}duns-number": 7197,
       "iati-activity/{https://explorer.usaid.gov}duns-number/narrative": 7197,
-      "iati-activity/transaction/recipient-region": 306996,
-      "iati-activity/transaction/recipient-region/@code": 306996,
       "iati-activity/transaction/description": 12657,
       "iati-activity/transaction/description/narrative": 12657,
       "iati-activity/transaction/{https://explorer.usaid.gov}humanitarian-scope/@code": 7575,
-      "iati-activity/description/@type": 60,
       "iati-activity/budget": 133,
       "iati-activity/budget/period-start": 133,
       "iati-activity/budget/period-start/@iso-date": 133,
@@ -274,6 +271,8 @@
       "iati-activity/budget/value/@currency": 133,
       "iati-activity/budget/value/@value-date": 133,
       "iati-activity/budget/@status": 133,
+      "iati-activity/transaction/recipient-region": 306996,
+      "iati-activity/transaction/recipient-region/@code": 306996,
       "iati-activity/location": 15745,
       "iati-activity/location/location-reach": 15745,
       "iati-activity/location/location-reach/@code": 15745,
@@ -286,6 +285,7 @@
       "iati-activity/location/exactness/@code": 15745,
       "iati-activity/location/location-class": 15745,
       "iati-activity/location/location-class/@code": 15745,
+      "iati-activity/description/@type": 60,
       "iati-activity/recipient-country": 2,
       "iati-activity/recipient-country/@code": 2,
       "iati-activity/recipient-country/@percentage": 2,
@@ -342,17 +342,17 @@
       "iati-activity/result/indicator/actual/@value": 52
     },
     "forwardlooking_currency_year": {
-      "null": {
-        "USD": 208468498.0
-      },
       "2015": {
         "USD": 1406293.0
       },
-      "2014": {
-        "USD": 5153648.0
+      "null": {
+        "USD": 208468498.0
       },
       "2017": {
         "USD": 160000.0
+      },
+      "2014": {
+        "USD": 5153648.0
       },
       "2016": {
         "USD": 1375786.0

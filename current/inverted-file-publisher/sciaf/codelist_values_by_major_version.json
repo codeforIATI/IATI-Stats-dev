@@ -7,13 +7,13 @@
       "sciaf-kh.xml": {
         "GBP": 1
       },
-      "sciaf-ss.xml": {
-        "GBP": 1
-      },
       "sciaf-et.xml": {
         "GBP": 1
       },
       "sciaf-mw.xml": {
+        "GBP": 1
+      },
+      "sciaf-ss.xml": {
         "GBP": 1
       }
     },
@@ -27,10 +27,6 @@
         "2": 1,
         "4": 1
       },
-      "sciaf-ss.xml": {
-        "2": 1,
-        "3": 1
-      },
       "sciaf-et.xml": {
         "2": 1,
         "4": 1
@@ -38,6 +34,10 @@
       "sciaf-mw.xml": {
         "2": 1,
         "4": 2
+      },
+      "sciaf-ss.xml": {
+        "2": 1,
+        "3": 1
       }
     },
     ".//activity-status/@code": {
@@ -48,14 +48,14 @@
       "sciaf-kh.xml": {
         "4": 1
       },
-      "sciaf-ss.xml": {
-        "2": 1
-      },
       "sciaf-et.xml": {
         "4": 1
       },
       "sciaf-mw.xml": {
         "4": 1
+      },
+      "sciaf-ss.xml": {
+        "2": 1
       }
     },
     ".//budget/@status": {
@@ -66,10 +66,6 @@
       "sciaf-kh.xml": {
         "1": 4
       },
-      "sciaf-ss.xml": {
-        "1": 2,
-        "2": 2
-      },
       "sciaf-et.xml": {
         "2": 1,
         "1": 3
@@ -77,6 +73,10 @@
       "sciaf-mw.xml": {
         "2": 1,
         "1": 3
+      },
+      "sciaf-ss.xml": {
+        "1": 2,
+        "2": 2
       }
     },
     ".//budget/@type": {
@@ -86,14 +86,14 @@
       "sciaf-kh.xml": {
         "2": 4
       },
-      "sciaf-ss.xml": {
-        "1": 4
-      },
       "sciaf-et.xml": {
         "2": 4
       },
       "sciaf-mw.xml": {
         "2": 4
+      },
+      "sciaf-ss.xml": {
+        "1": 4
       }
     },
     ".//budget/value/@currency": {
@@ -103,13 +103,13 @@
       "sciaf-kh.xml": {
         "GBP": 4
       },
-      "sciaf-ss.xml": {
-        "GBP": 4
-      },
       "sciaf-et.xml": {
         "GBP": 4
       },
       "sciaf-mw.xml": {
+        "GBP": 4
+      },
+      "sciaf-ss.xml": {
         "GBP": 4
       }
     },
@@ -120,13 +120,13 @@
       "sciaf-kh.xml": {
         "2": 1
       },
-      "sciaf-ss.xml": {
-        "2": 1
-      },
       "sciaf-et.xml": {
         "2": 1
       },
       "sciaf-mw.xml": {
+        "2": 1
+      },
+      "sciaf-ss.xml": {
         "2": 1
       }
     },
@@ -137,13 +137,13 @@
       "sciaf-kh.xml": {
         "C01": 1
       },
-      "sciaf-ss.xml": {
-        "C01": 1
-      },
       "sciaf-et.xml": {
         "C01": 1
       },
       "sciaf-mw.xml": {
+        "C01": 1
+      },
+      "sciaf-ss.xml": {
         "C01": 1
       }
     },
@@ -154,13 +154,13 @@
       "sciaf-kh.xml": {
         "1": 1
       },
-      "sciaf-ss.xml": {
-        "1": 1
-      },
       "sciaf-et.xml": {
         "1": 1
       },
       "sciaf-mw.xml": {
+        "1": 1
+      },
+      "sciaf-ss.xml": {
         "1": 1
       }
     },
@@ -183,13 +183,13 @@
       "sciaf-kh.xml": {
         "30": 1
       },
-      "sciaf-ss.xml": {
-        "30": 1
-      },
       "sciaf-et.xml": {
         "30": 1
       },
       "sciaf-mw.xml": {
+        "30": 1
+      },
+      "sciaf-ss.xml": {
         "30": 1
       }
     },
@@ -211,13 +211,13 @@
       "sciaf-kh.xml": {
         "1": 1
       },
-      "sciaf-ss.xml": {
-        "1": 1
-      },
       "sciaf-et.xml": {
         "1": 1
       },
       "sciaf-mw.xml": {
+        "1": 1
+      },
+      "sciaf-ss.xml": {
         "1": 1
       }
     },
@@ -314,12 +314,6 @@
         "2": 1,
         "4": 1
       },
-      "sciaf-ss.xml": {
-        "1": 2,
-        "3": 1,
-        "2": 1,
-        "4": 1
-      },
       "sciaf-et.xml": {
         "3": 1,
         "4": 1,
@@ -329,6 +323,12 @@
         "3": 1,
         "4": 1,
         "2": 6
+      },
+      "sciaf-ss.xml": {
+        "1": 2,
+        "3": 1,
+        "2": 1,
+        "4": 1
       }
     },
     ".//participating-org/@type": {
@@ -345,12 +345,6 @@
         "21": 1,
         "24": 1
       },
-      "sciaf-ss.xml": {
-        "10": 1,
-        "70": 1,
-        "21": 2,
-        "24": 1
-      },
       "sciaf-et.xml": {
         "10": 1,
         "22": 3,
@@ -360,6 +354,12 @@
         "10": 1,
         "22": 6,
         "70": 1
+      },
+      "sciaf-ss.xml": {
+        "10": 1,
+        "70": 1,
+        "21": 2,
+        "24": 1
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -405,10 +405,6 @@
         "KH": 1,
         "GB": 1
       },
-      "sciaf-ss.xml": {
-        "SS": 1,
-        "GB": 1
-      },
       "sciaf-et.xml": {
         "ET": 1
       },
@@ -416,6 +412,10 @@
         "MW": 1,
         "CD": 1,
         "RW": 1
+      },
+      "sciaf-ss.xml": {
+        "SS": 1,
+        "GB": 1
       }
     },
     ".//reporting-org/@type": {
@@ -426,14 +426,14 @@
       "sciaf-kh.xml": {
         "21": 1
       },
-      "sciaf-ss.xml": {
-        "21": 1
-      },
       "sciaf-et.xml": {
         "22": 1
       },
       "sciaf-mw.xml": {
         "22": 1
+      },
+      "sciaf-ss.xml": {
+        "21": 1
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -453,18 +453,18 @@
         "31210": 1,
         "15170": 1
       },
+      "sciaf-et.xml": {
+        "14031": 1,
+        "31130": 1,
+        "24040": 1,
+        "74010": 1
+      },
       "sciaf-ss.xml": {
         "11120": 1,
         "11130": 1,
         "11220": 1,
         "11230": 1,
         "11231": 1
-      },
-      "sciaf-et.xml": {
-        "14031": 1,
-        "31130": 1,
-        "24040": 1,
-        "74010": 1
       }
     },
     ".//sector/@vocabulary": {
@@ -474,14 +474,14 @@
       "sciaf-kh.xml": {
         "1": 5
       },
-      "sciaf-ss.xml": {
-        "1": 5
-      },
       "sciaf-et.xml": {
         "1": 4
       },
       "sciaf-mw.xml": {
         "2": 3
+      },
+      "sciaf-ss.xml": {
+        "1": 5
       }
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -491,14 +491,14 @@
       "sciaf-kh.xml": {
         "C01": 34
       },
-      "sciaf-ss.xml": {
-        "C01": 10
-      },
       "sciaf-et.xml": {
         "C01": 84
       },
       "sciaf-mw.xml": {
         "C01": 100
+      },
+      "sciaf-ss.xml": {
+        "C01": 10
       }
     },
     ".//transaction/aid-type/@vocabulary": {
@@ -508,14 +508,14 @@
       "sciaf-kh.xml": {
         "1": 34
       },
-      "sciaf-ss.xml": {
-        "1": 10
-      },
       "sciaf-et.xml": {
         "1": 84
       },
       "sciaf-mw.xml": {
         "1": 100
+      },
+      "sciaf-ss.xml": {
+        "1": 10
       }
     },
     ".//transaction/disbursement-channel/@code": {
@@ -527,10 +527,6 @@
         "1": 24,
         "2": 10
       },
-      "sciaf-ss.xml": {
-        "1": 7,
-        "2": 3
-      },
       "sciaf-et.xml": {
         "1": 57,
         "2": 28
@@ -538,6 +534,10 @@
       "sciaf-mw.xml": {
         "1": 79,
         "2": 27
+      },
+      "sciaf-ss.xml": {
+        "1": 7,
+        "2": 3
       }
     },
     ".//transaction/finance-type/@code": {
@@ -547,15 +547,15 @@
       "sciaf-kh.xml": {
         "110": 34
       },
-      "sciaf-ss.xml": {
-        "110": 10
-      },
       "sciaf-et.xml": {
         "110": 84,
         "111": 1
       },
       "sciaf-mw.xml": {
         "110": 100
+      },
+      "sciaf-ss.xml": {
+        "110": 10
       }
     },
     ".//transaction/flow-type/@code": {
@@ -566,9 +566,6 @@
       "sciaf-kh.xml": {
         "10": 34
       },
-      "sciaf-ss.xml": {
-        "10": 10
-      },
       "sciaf-et.xml": {
         "10": 73,
         "30": 12
@@ -576,6 +573,9 @@
       "sciaf-mw.xml": {
         "10": 79,
         "30": 20
+      },
+      "sciaf-ss.xml": {
+        "10": 10
       }
     },
     ".//transaction/provider-org/@type": {
@@ -588,10 +588,6 @@
         "21": 1,
         "22": 1
       },
-      "sciaf-ss.xml": {
-        "10": 5,
-        "21": 5
-      },
       "sciaf-et.xml": {
         "10": 65,
         "22": 15,
@@ -600,6 +596,10 @@
       "sciaf-mw.xml": {
         "10": 52,
         "22": 11
+      },
+      "sciaf-ss.xml": {
+        "10": 5,
+        "21": 5
       }
     },
     ".//transaction/receiver-org/@type": {
@@ -613,10 +613,6 @@
         "21": 12,
         "24": 2
       },
-      "sciaf-ss.xml": {
-        "21": 5,
-        "24": 5
-      },
       "sciaf-et.xml": {
         "22": 46,
         "21": 37,
@@ -627,6 +623,10 @@
         "23": 27,
         "10": 1,
         "24": 4
+      },
+      "sciaf-ss.xml": {
+        "21": 5,
+        "24": 5
       }
     },
     ".//transaction/tied-status/@code": {
@@ -636,14 +636,14 @@
       "sciaf-kh.xml": {
         "4": 34
       },
-      "sciaf-ss.xml": {
-        "4": 10
-      },
       "sciaf-et.xml": {
         "4": 85
       },
       "sciaf-mw.xml": {
         "4": 99
+      },
+      "sciaf-ss.xml": {
+        "4": 10
       }
     },
     ".//transaction/transaction-type/@code": {
@@ -661,11 +661,6 @@
         "11": 1,
         "2": 1
       },
-      "sciaf-ss.xml": {
-        "1": 1,
-        "4": 4,
-        "3": 5
-      },
       "sciaf-et.xml": {
         "1": 15,
         "3": 26,
@@ -675,6 +670,11 @@
         "4": 31,
         "1": 24,
         "3": 51
+      },
+      "sciaf-ss.xml": {
+        "1": 1,
+        "4": 4,
+        "3": 5
       }
     },
     ".//transaction/value/@currency": {
@@ -684,14 +684,14 @@
       "sciaf-kh.xml": {
         "GBP": 36
       },
-      "sciaf-ss.xml": {
-        "GBP": 10
-      },
       "sciaf-et.xml": {
         "GBP": 85
       },
       "sciaf-mw.xml": {
         "GBP": 106
+      },
+      "sciaf-ss.xml": {
+        "GBP": 10
       }
     },
     ".//@xml:lang": {
@@ -700,9 +700,6 @@
       },
       "sciaf-kh.xml": {
         "en": 120
-      },
-      "sciaf-ss.xml": {
-        "en": 47
       },
       "sciaf-et.xml": {
         "en": 274,
@@ -713,6 +710,9 @@
         "en": 339,
         "fr": 1,
         "et": 1
+      },
+      "sciaf-ss.xml": {
+        "en": 47
       }
     },
     ".//sector[@vocabulary = '2']/@code": {

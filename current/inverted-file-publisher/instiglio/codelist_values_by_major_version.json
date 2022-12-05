@@ -1,73 +1,263 @@
 {
   "2": {
     ".//@default-currency": {
-      "instiglio-298.xml": {
+      "instiglio-rw.xml": {
         "GBP": 1
       },
-      "instiglio-rw.xml": {
+      "instiglio-298.xml": {
         "GBP": 1
       }
     },
     ".//activity-date/@type": {
-      "instiglio-298.xml": {
-        "1": 1,
-        "3": 1,
-        "2": 1
-      },
       "instiglio-rw.xml": {
         "1": 1,
         "2": 1,
         "3": 1,
         "4": 1
+      },
+      "instiglio-298.xml": {
+        "1": 1,
+        "3": 1,
+        "2": 1
       }
     },
     ".//activity-status/@code": {
-      "instiglio-298.xml": {
-        "2": 1
-      },
       "instiglio-rw.xml": {
         "4": 1
+      },
+      "instiglio-298.xml": {
+        "2": 1
       }
     },
     ".//budget/@status": {
-      "instiglio-298.xml": {
-        "1": 3
-      },
       "instiglio-rw.xml": {
         "2": 1,
         "1": 1
+      },
+      "instiglio-298.xml": {
+        "1": 3
       }
     },
     ".//budget/@type": {
-      "instiglio-298.xml": {
+      "instiglio-rw.xml": {
         "1": 2
       },
-      "instiglio-rw.xml": {
+      "instiglio-298.xml": {
         "1": 2
       }
     },
     ".//budget/value/@currency": {
-      "instiglio-298.xml": {
-        "USD": 3
-      },
       "instiglio-rw.xml": {
         "GBP": 2
+      },
+      "instiglio-298.xml": {
+        "USD": 3
       }
     },
     ".//contact-info/@type": {
-      "instiglio-298.xml": {
+      "instiglio-rw.xml": {
         "1": 1
       },
-      "instiglio-rw.xml": {
+      "instiglio-298.xml": {
         "1": 1
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "instiglio-298.xml": {
-        "C01": 1
-      },
       "instiglio-rw.xml": {
         "C01": 1
+      },
+      "instiglio-298.xml": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "instiglio-rw.xml": {
+        "110": 1
+      },
+      "instiglio-298.xml": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "instiglio-rw.xml": {
+        "10": 1
+      },
+      "instiglio-298.xml": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "instiglio-rw.xml": {
+        "5": 1
+      },
+      "instiglio-298.xml": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "instiglio-rw.xml": {
+        "1": 1
+      },
+      "instiglio-298.xml": {
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "instiglio-rw.xml": {
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document": 1
+      },
+      "instiglio-298.xml": {
+        "application/pdf": 6
+      }
+    },
+    ".//document-link/category/@code": {
+      "instiglio-rw.xml": {
+        "A11": 1
+      },
+      "instiglio-298.xml": {
+        "A08": 2,
+        "A11": 1,
+        "B01": 2,
+        "A07": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "instiglio-rw.xml": {
+        "2": 1,
+        "1": 1,
+        "4": 1
+      },
+      "instiglio-298.xml": {
+        "2": 1,
+        "4": 1,
+        "1": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "instiglio-rw.xml": {
+        "21": 2,
+        "10": 1
+      },
+      "instiglio-298.xml": {
+        "21": 3
+      }
+    },
+    ".//planned-disbursement/@type": {
+      "instiglio-rw.xml": {
+        "2": 4
+      },
+      "instiglio-298.xml": {
+        "1": 4
+      }
+    },
+    ".//planned-disbursement/provider-org/@type": {
+      "instiglio-rw.xml": {
+        "10": 4
+      }
+    },
+    ".//planned-disbursement/receiver-org/@type": {
+      "instiglio-rw.xml": {
+        "21": 4
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "instiglio-rw.xml": {
+        "GBP": 4
+      },
+      "instiglio-298.xml": {
+        "USD": 4
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "instiglio-rw.xml": {
+        "1": 1
+      },
+      "instiglio-298.xml": {
+        "1": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "instiglio-rw.xml": {
+        "0": 1
+      },
+      "instiglio-298.xml": {
+        "0": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "instiglio-rw.xml": {
+        "1": 1
+      },
+      "instiglio-298.xml": {
+        "1": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "instiglio-rw.xml": {
+        "RW": 1
+      },
+      "instiglio-298.xml": {
+        "UG": 1,
+        "KE": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "instiglio-rw.xml": {
+        "21": 1
+      },
+      "instiglio-298.xml": {
+        "21": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "instiglio-rw.xml": {
+        "24010": 1
+      },
+      "instiglio-298.xml": {
+        "24010": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "instiglio-rw.xml": {
+        "1": 1
+      },
+      "instiglio-298.xml": {
+        "1": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "instiglio-rw.xml": {
+        "10": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "instiglio-rw.xml": {
+        "21": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "instiglio-rw.xml": {
+        "1": 4
+      },
+      "instiglio-298.xml": {
+        "1": 15,
+        "3": 4
+      }
+    },
+    ".//transaction/value/@currency": {
+      "instiglio-rw.xml": {
+        "GBP": 3
+      },
+      "instiglio-298.xml": {
+        "USD": 18
+      }
+    },
+    ".//@xml:lang": {
+      "instiglio-rw.xml": {
+        "en": 9
+      },
+      "instiglio-298.xml": {
+        "en": 10
       }
     },
     ".//default-aid-type/@vocabulary": {
@@ -75,130 +265,9 @@
         "1": 1
       }
     },
-    ".//default-finance-type/@code": {
-      "instiglio-298.xml": {
-        "110": 1
-      },
-      "instiglio-rw.xml": {
-        "110": 1
-      }
-    },
-    ".//default-flow-type/@code": {
-      "instiglio-298.xml": {
-        "10": 1
-      },
-      "instiglio-rw.xml": {
-        "10": 1
-      }
-    },
-    ".//default-tied-status/@code": {
-      "instiglio-298.xml": {
-        "5": 1
-      },
-      "instiglio-rw.xml": {
-        "5": 1
-      }
-    },
-    ".//description/@type": {
-      "instiglio-298.xml": {
-        "1": 1
-      },
-      "instiglio-rw.xml": {
-        "1": 1
-      }
-    },
-    ".//document-link/@format": {
-      "instiglio-298.xml": {
-        "application/pdf": 6
-      },
-      "instiglio-rw.xml": {
-        "application/vnd.openxmlformats-officedocument.wordprocessingml.document": 1
-      }
-    },
-    ".//document-link/category/@code": {
-      "instiglio-298.xml": {
-        "A08": 2,
-        "A11": 1,
-        "B01": 2,
-        "A07": 1
-      },
-      "instiglio-rw.xml": {
-        "A11": 1
-      }
-    },
     ".//document-link/language/@code": {
       "instiglio-298.xml": {
         "en": 6
-      }
-    },
-    ".//participating-org/@role": {
-      "instiglio-298.xml": {
-        "2": 1,
-        "4": 1,
-        "1": 1
-      },
-      "instiglio-rw.xml": {
-        "2": 1,
-        "1": 1,
-        "4": 1
-      }
-    },
-    ".//participating-org/@type": {
-      "instiglio-298.xml": {
-        "21": 3
-      },
-      "instiglio-rw.xml": {
-        "21": 2,
-        "10": 1
-      }
-    },
-    ".//planned-disbursement/@type": {
-      "instiglio-298.xml": {
-        "1": 4
-      },
-      "instiglio-rw.xml": {
-        "2": 4
-      }
-    },
-    ".//planned-disbursement/value/@currency": {
-      "instiglio-298.xml": {
-        "USD": 4
-      },
-      "instiglio-rw.xml": {
-        "GBP": 4
-      }
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "instiglio-298.xml": {
-        "1": 1
-      },
-      "instiglio-rw.xml": {
-        "1": 1
-      }
-    },
-    ".//policy-marker/@significance": {
-      "instiglio-298.xml": {
-        "0": 1
-      },
-      "instiglio-rw.xml": {
-        "0": 1
-      }
-    },
-    ".//policy-marker/@vocabulary": {
-      "instiglio-298.xml": {
-        "1": 1
-      },
-      "instiglio-rw.xml": {
-        "1": 1
-      }
-    },
-    ".//recipient-country/@code": {
-      "instiglio-298.xml": {
-        "UG": 1,
-        "KE": 1
-      },
-      "instiglio-rw.xml": {
-        "RW": 1
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -214,75 +283,6 @@
     ".//related-activity/@type": {
       "instiglio-298.xml": {
         "5": 1
-      }
-    },
-    ".//reporting-org/@type": {
-      "instiglio-298.xml": {
-        "21": 1
-      },
-      "instiglio-rw.xml": {
-        "21": 1
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "instiglio-298.xml": {
-        "24010": 1
-      },
-      "instiglio-rw.xml": {
-        "24010": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "instiglio-298.xml": {
-        "1": 1
-      },
-      "instiglio-rw.xml": {
-        "1": 1
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "instiglio-298.xml": {
-        "1": 15,
-        "3": 4
-      },
-      "instiglio-rw.xml": {
-        "1": 4
-      }
-    },
-    ".//transaction/value/@currency": {
-      "instiglio-298.xml": {
-        "USD": 18
-      },
-      "instiglio-rw.xml": {
-        "GBP": 3
-      }
-    },
-    ".//@xml:lang": {
-      "instiglio-298.xml": {
-        "en": 10
-      },
-      "instiglio-rw.xml": {
-        "en": 9
-      }
-    },
-    ".//planned-disbursement/provider-org/@type": {
-      "instiglio-rw.xml": {
-        "10": 4
-      }
-    },
-    ".//planned-disbursement/receiver-org/@type": {
-      "instiglio-rw.xml": {
-        "21": 4
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "instiglio-rw.xml": {
-        "10": 1
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "instiglio-rw.xml": {
-        "21": 1
       }
     }
   }

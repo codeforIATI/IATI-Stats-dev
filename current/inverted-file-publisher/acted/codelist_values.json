@@ -1,16 +1,16 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "acted-cd.xml": 1,
       "acted-lb.xml": 1,
+      "acted-cd.xml": 1,
       "acted-pk.xml": 1,
       "acted-activities.xml": 1
     }
   },
   ".//@xml:lang": {
     "en": {
-      "acted-cd.xml": 8,
       "acted-lb.xml": 26,
+      "acted-cd.xml": 8,
       "acted-pk.xml": 13,
       "acted-activities.xml": 2
     },
@@ -20,42 +20,42 @@
     }
   },
   ".//activity-date/@type": {
-    "1": {
-      "acted-cd.xml": 1
-    },
     "2": {
       "acted-lb.xml": 1,
       "acted-pk.xml": 1
+    },
+    "1": {
+      "acted-cd.xml": 1
     }
   },
   ".//activity-status/@code": {
     "2": {
-      "acted-cd.xml": 1,
       "acted-lb.xml": 1,
+      "acted-cd.xml": 1,
       "acted-pk.xml": 1,
       "acted-activities.xml": 1
     }
   },
   ".//budget/@status": {
-    "1": {
-      "acted-cd.xml": 1
-    },
     "2": {
       "acted-lb.xml": 1
+    },
+    "1": {
+      "acted-cd.xml": 1
     }
   },
   ".//budget/@type": {
     "1": {
-      "acted-cd.xml": 1,
-      "acted-lb.xml": 1
+      "acted-lb.xml": 1,
+      "acted-cd.xml": 1
     }
   },
   ".//budget/value/@currency": {
-    "GBP": {
-      "acted-cd.xml": 1
-    },
     "EUR": {
       "acted-lb.xml": 1
+    },
+    "GBP": {
+      "acted-cd.xml": 1
     }
   },
   ".//contact-info/@type": {
@@ -65,8 +65,8 @@
   },
   ".//description/@type": {
     "1": {
-      "acted-cd.xml": 1,
       "acted-lb.xml": 1,
+      "acted-cd.xml": 1,
       "acted-pk.xml": 1,
       "acted-activities.xml": 1
     },
@@ -83,9 +83,6 @@
     }
   },
   ".//document-link/@format": {
-    "application/iges": {
-      "acted-cd.xml": 1
-    },
     "application/http": {
       "acted-lb.xml": 24
     },
@@ -106,13 +103,12 @@
     },
     "application/msword": {
       "acted-lb.xml": 2
+    },
+    "application/iges": {
+      "acted-cd.xml": 1
     }
   },
   ".//document-link/category/@code": {
-    "A05": {
-      "acted-cd.xml": 1,
-      "acted-lb.xml": 1
-    },
     "A04": {
       "acted-lb.xml": 6
     },
@@ -124,6 +120,10 @@
     },
     "A07": {
       "acted-lb.xml": 3
+    },
+    "A05": {
+      "acted-lb.xml": 1,
+      "acted-cd.xml": 1
     },
     "A09": {
       "acted-lb.xml": 3
@@ -149,38 +149,38 @@
   },
   ".//document-link/language/@code": {
     "en": {
-      "acted-cd.xml": 1,
-      "acted-lb.xml": 60
+      "acted-lb.xml": 60,
+      "acted-cd.xml": 1
     }
   },
   ".//participating-org/@role": {
-    "4": {
-      "acted-cd.xml": 1,
-      "acted-lb.xml": 4,
-      "acted-pk.xml": 3
-    },
     "1": {
       "acted-lb.xml": 1,
       "acted-pk.xml": 1
+    },
+    "4": {
+      "acted-lb.xml": 4,
+      "acted-cd.xml": 1,
+      "acted-pk.xml": 3
     }
   },
   ".//participating-org/@type": {
-    "21": {
-      "acted-cd.xml": 1,
-      "acted-lb.xml": 4,
-      "acted-pk.xml": 3
-    },
     "10": {
       "acted-lb.xml": 1,
       "acted-pk.xml": 1
+    },
+    "21": {
+      "acted-lb.xml": 4,
+      "acted-cd.xml": 1,
+      "acted-pk.xml": 3
     }
   },
   ".//recipient-country/@code": {
-    "CD": {
-      "acted-cd.xml": 1
-    },
     "LB": {
       "acted-lb.xml": 1
+    },
+    "CD": {
+      "acted-cd.xml": 1
     },
     "PK": {
       "acted-pk.xml": 1
@@ -191,28 +191,28 @@
   },
   ".//reporting-org/@type": {
     "21": {
-      "acted-cd.xml": 1,
       "acted-lb.xml": 1,
+      "acted-cd.xml": 1,
       "acted-pk.xml": 1,
       "acted-activities.xml": 1
     }
   },
   ".//result/@type": {
-    "2": {
-      "acted-cd.xml": 1,
-      "acted-lb.xml": 5
-    },
     "1": {
       "acted-lb.xml": 15
     },
     "9": {
       "acted-lb.xml": 6
+    },
+    "2": {
+      "acted-lb.xml": 5,
+      "acted-cd.xml": 1
     }
   },
   ".//result/indicator/@measure": {
     "1": {
-      "acted-cd.xml": 1,
-      "acted-lb.xml": 26
+      "acted-lb.xml": 26,
+      "acted-cd.xml": 1
     }
   },
   ".//result/indicator/reference/@vocabulary": {
@@ -221,12 +221,12 @@
     }
   },
   ".//sector/@vocabulary": {
-    "98": {
-      "acted-cd.xml": 1
-    },
     "1": {
       "acted-lb.xml": 1,
       "acted-pk.xml": 1
+    },
+    "98": {
+      "acted-cd.xml": 1
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -242,8 +242,8 @@
   },
   ".//transaction/transaction-type/@code": {
     "1": {
-      "acted-cd.xml": 1,
-      "acted-lb.xml": 1
+      "acted-lb.xml": 1,
+      "acted-cd.xml": 1
     }
   },
   ".//transaction/value/@currency": {

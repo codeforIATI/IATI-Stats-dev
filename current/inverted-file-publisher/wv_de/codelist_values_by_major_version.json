@@ -1,156 +1,114 @@
 {
   "2": {
     ".//@default-currency": {
-      "wv_de-activities.xml": {
-        "EUR": 133,
-        "USD": 1
-      },
       "wv_de-org.xml": {
         "EUR": 164,
+        "USD": 1
+      },
+      "wv_de-activities.xml": {
+        "EUR": 133,
         "USD": 1
       }
     },
     ".//activity-date/@type": {
-      "wv_de-activities.xml": {
-        "1": 134,
-        "2": 134,
-        "3": 134
-      },
       "wv_de-org.xml": {
         "1": 165,
         "2": 165,
         "3": 165
+      },
+      "wv_de-activities.xml": {
+        "1": 134,
+        "2": 134,
+        "3": 134
       }
     },
     ".//activity-status/@code": {
-      "wv_de-activities.xml": {
-        "2": 134
-      },
       "wv_de-org.xml": {
         "2": 165
+      },
+      "wv_de-activities.xml": {
+        "2": 134
       }
     },
     ".//collaboration-type/@code": {
-      "wv_de-activities.xml": {
-        "3": 134
-      },
       "wv_de-org.xml": {
         "3": 165
+      },
+      "wv_de-activities.xml": {
+        "3": 134
       }
     },
     ".//contact-info/@type": {
-      "wv_de-activities.xml": {
-        "1": 134
-      },
       "wv_de-org.xml": {
         "1": 165
+      },
+      "wv_de-activities.xml": {
+        "1": 134
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "wv_de-activities.xml": {
-        "C01": 134
-      },
       "wv_de-org.xml": {
         "C01": 165
+      },
+      "wv_de-activities.xml": {
+        "C01": 134
       }
     },
     ".//default-finance-type/@code": {
-      "wv_de-activities.xml": {
-        "110": 134
-      },
       "wv_de-org.xml": {
         "110": 165
+      },
+      "wv_de-activities.xml": {
+        "110": 134
       }
     },
     ".//default-flow-type/@code": {
-      "wv_de-activities.xml": {
-        "30": 134
-      },
       "wv_de-org.xml": {
         "30": 165
+      },
+      "wv_de-activities.xml": {
+        "30": 134
       }
     },
     ".//default-tied-status/@code": {
-      "wv_de-activities.xml": {
-        "5": 134
-      },
       "wv_de-org.xml": {
         "5": 165
+      },
+      "wv_de-activities.xml": {
+        "5": 134
       }
     },
     ".//participating-org/@role": {
-      "wv_de-activities.xml": {
-        "2": 134,
-        "3": 134,
-        "4": 268,
-        "1": 187
-      },
       "wv_de-org.xml": {
         "2": 165,
         "3": 165,
         "4": 330,
         "1": 241
+      },
+      "wv_de-activities.xml": {
+        "2": 134,
+        "3": 134,
+        "4": 268,
+        "1": 187
       }
     },
     ".//participating-org/@type": {
-      "wv_de-activities.xml": {
-        "21": 602,
-        "15": 57,
-        "10": 34,
-        "40": 25,
-        "60": 5
-      },
       "wv_de-org.xml": {
         "21": 761,
         "40": 31,
         "15": 62,
         "10": 40,
         "60": 6
+      },
+      "wv_de-activities.xml": {
+        "21": 602,
+        "15": 57,
+        "10": 34,
+        "40": 25,
+        "60": 5
       }
     },
     ".//recipient-country/@code": {
-      "wv_de-activities.xml": {
-        "KE": 7,
-        "HT": 2,
-        "JO": 7,
-        "LK": 2,
-        "MR": 2,
-        "ID": 3,
-        "NI": 1,
-        "PE": 1,
-        "LB": 6,
-        "SN": 3,
-        "CD": 6,
-        "SO": 9,
-        "SD": 4,
-        "BI": 5,
-        "SS": 5,
-        "IQ": 3,
-        "AM": 3,
-        "GE": 4,
-        "TD": 4,
-        "MM": 2,
-        "PS": 2,
-        "KH": 1,
-        "IN": 4,
-        "ZW": 4,
-        "TZ": 1,
-        "ML": 2,
-        "TL": 1,
-        "ET": 5,
-        "MN": 3,
-        "AF": 8,
-        "MZ": 2,
-        "NE": 3,
-        "VN": 3,
-        "HN": 2,
-        "UG": 1,
-        "GT": 1,
-        "BO": 1,
-        "BD": 5,
-        "BA": 3,
-        "PH": 1
-      },
       "wv_de-org.xml": {
         "SN": 5,
         "KE": 8,
@@ -195,45 +153,69 @@
         "CF": 2,
         "UA": 3,
         "BF": 1
+      },
+      "wv_de-activities.xml": {
+        "KE": 7,
+        "HT": 2,
+        "JO": 7,
+        "LK": 2,
+        "MR": 2,
+        "ID": 3,
+        "NI": 1,
+        "PE": 1,
+        "LB": 6,
+        "SN": 3,
+        "CD": 6,
+        "SO": 9,
+        "SD": 4,
+        "BI": 5,
+        "SS": 5,
+        "IQ": 3,
+        "AM": 3,
+        "GE": 4,
+        "TD": 4,
+        "MM": 2,
+        "PS": 2,
+        "KH": 1,
+        "IN": 4,
+        "ZW": 4,
+        "TZ": 1,
+        "ML": 2,
+        "TL": 1,
+        "ET": 5,
+        "MN": 3,
+        "AF": 8,
+        "MZ": 2,
+        "NE": 3,
+        "VN": 3,
+        "HN": 2,
+        "UG": 1,
+        "GT": 1,
+        "BO": 1,
+        "BD": 5,
+        "BA": 3,
+        "PH": 1
       }
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "wv_de-activities.xml": {
+      "wv_de-org.xml": {
         "289": 1,
         "798": 1
       },
-      "wv_de-org.xml": {
+      "wv_de-activities.xml": {
         "289": 1,
         "798": 1
       }
     },
     ".//reporting-org/@type": {
-      "wv_de-activities.xml": {
-        "21": 134
-      },
       "wv_de-org.xml": {
         "21": 165
+      },
+      "wv_de-activities.xml": {
+        "21": 134
       }
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "wv_de-activities.xml": {
-        "52010": 16,
-        "15110": 17,
-        "16064": 1,
-        "41010": 6,
-        "15150": 6,
-        "11120": 10,
-        "14030": 14,
-        "15180": 2,
-        "74010": 9,
-        "12220": 9,
-        "73010": 1,
-        "15160": 13,
-        "12240": 6,
-        "72010": 20,
-        "15220": 3,
-        "15170": 1
-      },
       "wv_de-org.xml": {
         "12220": 12,
         "52010": 23,
@@ -253,48 +235,66 @@
         "15170": 1,
         "43060": 4,
         "32310": 1
+      },
+      "wv_de-activities.xml": {
+        "52010": 16,
+        "15110": 17,
+        "16064": 1,
+        "41010": 6,
+        "15150": 6,
+        "11120": 10,
+        "14030": 14,
+        "15180": 2,
+        "74010": 9,
+        "12220": 9,
+        "73010": 1,
+        "15160": 13,
+        "12240": 6,
+        "72010": 20,
+        "15220": 3,
+        "15170": 1
       }
     },
     ".//sector/@vocabulary": {
-      "wv_de-activities.xml": {
-        "99": 134
-      },
       "wv_de-org.xml": {
         "99": 165
+      },
+      "wv_de-activities.xml": {
+        "99": 134
       }
     },
     ".//transaction/provider-org/@type": {
-      "wv_de-activities.xml": {
-        "15": 57,
-        "10": 34,
-        "40": 25,
-        "21": 66,
-        "60": 5
-      },
       "wv_de-org.xml": {
         "40": 31,
         "15": 62,
         "10": 40,
         "21": 101,
         "60": 6
+      },
+      "wv_de-activities.xml": {
+        "15": 57,
+        "10": 34,
+        "40": 25,
+        "21": 66,
+        "60": 5
       }
     },
     ".//transaction/transaction-type/@code": {
-      "wv_de-activities.xml": {
-        "2": 134,
-        "11": 187
-      },
       "wv_de-org.xml": {
         "2": 165,
         "11": 241
+      },
+      "wv_de-activities.xml": {
+        "2": 134,
+        "11": 187
       }
     },
     ".//@xml:lang": {
-      "wv_de-activities.xml": {
-        "en": 134
-      },
       "wv_de-org.xml": {
         "en": 165
+      },
+      "wv_de-activities.xml": {
+        "en": 134
       }
     }
   }

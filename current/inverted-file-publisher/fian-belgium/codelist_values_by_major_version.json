@@ -1,150 +1,261 @@
 {
   "2": {
     ".//@default-currency": {
-      "fian-belgium-be.xml": {
-        "EUR": 3
-      },
       "fian-belgium-89.xml": {
         "EUR": 2
+      },
+      "fian-belgium-be.xml": {
+        "EUR": 3
       }
     },
     ".//activity-date/@type": {
-      "fian-belgium-be.xml": {
-        "1": 3,
-        "3": 3,
-        "2": 3
-      },
       "fian-belgium-89.xml": {
         "1": 2,
         "2": 2,
         "3": 2
+      },
+      "fian-belgium-be.xml": {
+        "1": 3,
+        "3": 3,
+        "2": 3
       }
     },
     ".//activity-status/@code": {
-      "fian-belgium-be.xml": {
-        "2": 3
-      },
       "fian-belgium-89.xml": {
         "2": 2
+      },
+      "fian-belgium-be.xml": {
+        "2": 3
+      }
+    },
+    ".//budget/@status": {
+      "fian-belgium-89.xml": {
+        "2": 5
+      },
+      "fian-belgium-be.xml": {
+        "2": 15
+      }
+    },
+    ".//budget/@type": {
+      "fian-belgium-89.xml": {
+        "2": 5
+      },
+      "fian-belgium-be.xml": {
+        "2": 14
+      }
+    },
+    ".//budget/value/@currency": {
+      "fian-belgium-89.xml": {
+        "EUR": 1
+      },
+      "fian-belgium-be.xml": {
+        "EUR": 3
+      }
+    },
+    ".//collaboration-type/@code": {
+      "fian-belgium-89.xml": {
+        "1": 2
+      },
+      "fian-belgium-be.xml": {
+        "1": 3
+      }
+    },
+    ".//contact-info/@type": {
+      "fian-belgium-89.xml": {
+        "1": 1,
+        "2": 1
+      },
+      "fian-belgium-be.xml": {
+        "1": 3
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "fian-belgium-89.xml": {
+        "H01": 1,
+        "G01": 1
+      },
+      "fian-belgium-be.xml": {
+        "H01": 3
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "fian-belgium-89.xml": {
+        "1": 2
+      },
+      "fian-belgium-be.xml": {
+        "1": 3
+      }
+    },
+    ".//default-finance-type/@code": {
+      "fian-belgium-89.xml": {
+        "110": 2
+      },
+      "fian-belgium-be.xml": {
+        "110": 3
+      }
+    },
+    ".//default-flow-type/@code": {
+      "fian-belgium-89.xml": {
+        "30": 2
+      },
+      "fian-belgium-be.xml": {
+        "30": 3
+      }
+    },
+    ".//default-tied-status/@code": {
+      "fian-belgium-89.xml": {
+        "5": 2
+      },
+      "fian-belgium-be.xml": {
+        "5": 3
+      }
+    },
+    ".//description/@type": {
+      "fian-belgium-89.xml": {
+        "1": 2
+      },
+      "fian-belgium-be.xml": {
+        "1": 3,
+        "2": 3,
+        "3": 3
+      }
+    },
+    ".//document-link/@format": {
+      "fian-belgium-89.xml": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "fian-belgium-89.xml": {
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 1,
+        "A08": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "fian-belgium-89.xml": {
+        "fr": 1
+      }
+    },
+    ".//other-identifier/@type": {
+      "fian-belgium-89.xml": {
+        "A9": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "fian-belgium-89.xml": {
+        "1": 3,
+        "2": 2,
+        "4": 2
+      },
+      "fian-belgium-be.xml": {
+        "1": 6,
+        "2": 3,
+        "4": 3
+      }
+    },
+    ".//participating-org/@type": {
+      "fian-belgium-89.xml": {
+        "10": 2,
+        "22": 5
+      },
+      "fian-belgium-be.xml": {
+        "10": 3,
+        "22": 9
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "fian-belgium-89.xml": {
+        "89": 2
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "fian-belgium-89.xml": {
+        "1": 2
+      }
+    },
+    ".//related-activity/@type": {
+      "fian-belgium-89.xml": {
+        "2": 4,
+        "1": 1
+      },
+      "fian-belgium-be.xml": {
+        "1": 3
+      }
+    },
+    ".//reporting-org/@type": {
+      "fian-belgium-89.xml": {
+        "22": 2
+      },
+      "fian-belgium-be.xml": {
+        "22": 3
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "fian-belgium-89.xml": {
+        "99820": 1,
+        "91010": 1
+      },
+      "fian-belgium-be.xml": {
+        "99820": 3
+      }
+    },
+    ".//sector/@vocabulary": {
+      "fian-belgium-89.xml": {
+        "1": 2
+      },
+      "fian-belgium-be.xml": {
+        "1": 3
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "fian-belgium-89.xml": {
+        "10": 12,
+        "22": 5
+      },
+      "fian-belgium-be.xml": {
+        "22": 12,
+        "10": 3
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "fian-belgium-89.xml": {
+        "22": 15
+      },
+      "fian-belgium-be.xml": {
+        "22": 15
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "fian-belgium-89.xml": {
+        "1": 10,
+        "11": 4,
+        "4": 5
+      },
+      "fian-belgium-be.xml": {
+        "4": 15
+      }
+    },
+    ".//transaction/value/@currency": {
+      "fian-belgium-89.xml": {
+        "EUR": 8
+      }
+    },
+    ".//@xml:lang": {
+      "fian-belgium-89.xml": {
+        "fr": 10,
+        "en": 4
+      },
+      "fian-belgium-be.xml": {
+        "fr": 50,
+        "en": 6
       }
     },
     ".//activity-scope/@code": {
       "fian-belgium-be.xml": {
         "4": 3
-      }
-    },
-    ".//budget/@status": {
-      "fian-belgium-be.xml": {
-        "2": 15
-      },
-      "fian-belgium-89.xml": {
-        "2": 5
-      }
-    },
-    ".//budget/@type": {
-      "fian-belgium-be.xml": {
-        "2": 14
-      },
-      "fian-belgium-89.xml": {
-        "2": 5
-      }
-    },
-    ".//budget/value/@currency": {
-      "fian-belgium-be.xml": {
-        "EUR": 3
-      },
-      "fian-belgium-89.xml": {
-        "EUR": 1
-      }
-    },
-    ".//collaboration-type/@code": {
-      "fian-belgium-be.xml": {
-        "1": 3
-      },
-      "fian-belgium-89.xml": {
-        "1": 2
-      }
-    },
-    ".//contact-info/@type": {
-      "fian-belgium-be.xml": {
-        "1": 3
-      },
-      "fian-belgium-89.xml": {
-        "1": 1,
-        "2": 1
-      }
-    },
-    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "fian-belgium-be.xml": {
-        "H01": 3
-      },
-      "fian-belgium-89.xml": {
-        "H01": 1,
-        "G01": 1
-      }
-    },
-    ".//default-aid-type/@vocabulary": {
-      "fian-belgium-be.xml": {
-        "1": 3
-      },
-      "fian-belgium-89.xml": {
-        "1": 2
-      }
-    },
-    ".//default-finance-type/@code": {
-      "fian-belgium-be.xml": {
-        "110": 3
-      },
-      "fian-belgium-89.xml": {
-        "110": 2
-      }
-    },
-    ".//default-flow-type/@code": {
-      "fian-belgium-be.xml": {
-        "30": 3
-      },
-      "fian-belgium-89.xml": {
-        "30": 2
-      }
-    },
-    ".//default-tied-status/@code": {
-      "fian-belgium-be.xml": {
-        "5": 3
-      },
-      "fian-belgium-89.xml": {
-        "5": 2
-      }
-    },
-    ".//description/@type": {
-      "fian-belgium-be.xml": {
-        "1": 3,
-        "2": 3,
-        "3": 3
-      },
-      "fian-belgium-89.xml": {
-        "1": 2
-      }
-    },
-    ".//participating-org/@role": {
-      "fian-belgium-be.xml": {
-        "1": 6,
-        "2": 3,
-        "4": 3
-      },
-      "fian-belgium-89.xml": {
-        "1": 3,
-        "2": 2,
-        "4": 2
-      }
-    },
-    ".//participating-org/@type": {
-      "fian-belgium-be.xml": {
-        "10": 3,
-        "22": 9
-      },
-      "fian-belgium-89.xml": {
-        "10": 2,
-        "22": 5
       }
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -177,23 +288,6 @@
         "BE": 3
       }
     },
-    ".//related-activity/@type": {
-      "fian-belgium-be.xml": {
-        "1": 3
-      },
-      "fian-belgium-89.xml": {
-        "2": 4,
-        "1": 1
-      }
-    },
-    ".//reporting-org/@type": {
-      "fian-belgium-be.xml": {
-        "22": 3
-      },
-      "fian-belgium-89.xml": {
-        "22": 2
-      }
-    },
     ".//result/@type": {
       "fian-belgium-be.xml": {
         "2": 3
@@ -202,100 +296,6 @@
     ".//result/indicator/@measure": {
       "fian-belgium-be.xml": {
         "1": 7
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "fian-belgium-be.xml": {
-        "99820": 3
-      },
-      "fian-belgium-89.xml": {
-        "99820": 1,
-        "91010": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "fian-belgium-be.xml": {
-        "1": 3
-      },
-      "fian-belgium-89.xml": {
-        "1": 2
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "fian-belgium-be.xml": {
-        "22": 12,
-        "10": 3
-      },
-      "fian-belgium-89.xml": {
-        "10": 12,
-        "22": 5
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "fian-belgium-be.xml": {
-        "22": 15
-      },
-      "fian-belgium-89.xml": {
-        "22": 15
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "fian-belgium-be.xml": {
-        "4": 15
-      },
-      "fian-belgium-89.xml": {
-        "1": 10,
-        "11": 4,
-        "4": 5
-      }
-    },
-    ".//@xml:lang": {
-      "fian-belgium-be.xml": {
-        "fr": 50,
-        "en": 6
-      },
-      "fian-belgium-89.xml": {
-        "fr": 10,
-        "en": 4
-      }
-    },
-    ".//document-link/@format": {
-      "fian-belgium-89.xml": {
-        "application/pdf": 1
-      }
-    },
-    ".//document-link/category/@code": {
-      "fian-belgium-89.xml": {
-        "A02": 1,
-        "A03": 1,
-        "A04": 1,
-        "A05": 1,
-        "A08": 1
-      }
-    },
-    ".//document-link/language/@code": {
-      "fian-belgium-89.xml": {
-        "fr": 1
-      }
-    },
-    ".//other-identifier/@type": {
-      "fian-belgium-89.xml": {
-        "A9": 1
-      }
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "fian-belgium-89.xml": {
-        "89": 2
-      }
-    },
-    ".//recipient-region/@vocabulary": {
-      "fian-belgium-89.xml": {
-        "1": 2
-      }
-    },
-    ".//transaction/value/@currency": {
-      "fian-belgium-89.xml": {
-        "EUR": 8
       }
     }
   }

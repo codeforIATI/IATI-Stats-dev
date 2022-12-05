@@ -6,47 +6,31 @@
     },
     ".//activity-date/@type": {
       "2": 197,
-      "3": 2,
+      "4": 163,
       "start-actual": 5,
       "end-actual": 5,
-      "1": 2,
-      "4": 163
+      "3": 2,
+      "1": 2
     },
     ".//activity-status/@code": {
-      "2": 4,
       "3": 198,
+      "2": 4,
       "4": 2
     },
-    ".//activity-scope/@code": {
-      "2": 1,
-      "5": 2
-    },
-    ".//budget/@status": {
-      "1": 8,
-      "2": 39
-    },
     ".//budget/@type": {
-      "1": 43,
-      "2": 123
+      "2": 123,
+      "1": 43
     },
     ".//budget/value/@currency": {
-      "GBP": 8,
-      "USD": 61
+      "USD": 61,
+      "GBP": 8
     },
     ".//collaboration-type/@code": {
       "3": 203,
       "7": 1
     },
-    ".//contact-info/@type": {
-      "2": 1,
-      "3": 3,
-      "1": 2
-    },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "B03": 204
-    },
-    ".//default-aid-type/@vocabulary": {
-      "1": 6
     },
     ".//default-finance-type/@code": {
       "110": 202,
@@ -56,24 +40,26 @@
       "10": 202,
       "30": 2
     },
+    ".//default-tied-status/@code": {
+      "5": 203
+    },
     ".//description/@type": {
-      "1": 161,
       "2": 36,
+      "1": 161,
       "3": 1
     },
-    ".//participating-org/@crs-channel-code": {
-      "21000": 5,
-      "11000": 1
+    ".//other-identifier/@type": {
+      "B1": 157
     },
     ".//participating-org/@role": {
       "4": 827,
-      "1": 203,
-      "2": 123
+      "2": 123,
+      "1": 203
     },
     ".//participating-org/@type": {
+      "22": 534,
       "21": 231,
       "10": 219,
-      "22": 534,
       "15": 70,
       "80": 68,
       "70": 12,
@@ -81,10 +67,14 @@
       "60": 4
     },
     ".//recipient-country/@code": {
-      "AF": 1,
-      "PH": 22,
-      "MM": 34,
       "PK": 16,
+      "LK": 15,
+      "TH": 19,
+      "ID": 11,
+      "MM": 34,
+      "PH": 22,
+      "TL": 21,
+      "AF": 1,
       "BD": 1,
       "SY": 1,
       "IQ": 1,
@@ -96,59 +86,77 @@
       "SS": 1,
       "ET": 1,
       "EG": 1,
-      "ID": 11,
-      "LK": 15,
-      "NP": 16,
-      "TH": 19,
-      "TL": 21
+      "NP": 16
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "679": 63,
+      "619": 1,
+      "789": 52,
+      "798": 83
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 82,
+      "99": 35
     },
     ".//reporting-org/@type": {
       "21": 199
     },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "15123": 1,
-      "41010": 3,
-      "15220": 2,
-      "16062": 1
-    },
     ".//sector/@vocabulary": {
-      "1": 7,
-      "6": 194
+      "6": 194,
+      "1": 7
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "B03": 165,
+      "A01": 1,
+      "D02": 1
     },
     ".//transaction/disbursement-channel/@code": {
       "2": 208,
-      "3": 9,
-      "4": 1
+      "4": 1,
+      "3": 9
     },
-    ".//transaction/provider-org/@type": {
-      "21": 22,
-      "10": 12,
-      "70": 18
+    ".//transaction/finance-type/@code": {
+      "110": 175,
+      "422": 18
     },
-    ".//transaction/receiver-org/@type": {
-      "21": 37,
-      "70": 6,
-      "80": 4,
-      "24": 2,
-      "22": 3
+    ".//transaction/flow-type/@code": {
+      "10": 169,
+      "50": 4,
+      "30": 18
+    },
+    ".//transaction/tied-status/@code": {
+      "5": 184
     },
     ".//transaction/transaction-type/@code": {
-      "2": 26,
-      "1": 17,
-      "E": 5,
       "4": 214,
+      "E": 5,
+      "1": 17,
+      "2": 26,
       "3": 1
     },
     ".//transaction/value/@currency": {
-      "GBP": 56,
-      "USD": 84
+      "USD": 84,
+      "GBP": 56
     },
     ".//@xml:lang": {
       "en": 869,
       "id": 9
     },
-    ".//default-tied-status/@code": {
-      "5": 203
+    ".//activity-scope/@code": {
+      "5": 2,
+      "2": 1
+    },
+    ".//budget/@status": {
+      "2": 39,
+      "1": 8
+    },
+    ".//contact-info/@type": {
+      "1": 2,
+      "3": 3,
+      "2": 1
+    },
+    ".//default-aid-type/@vocabulary": {
+      "1": 6
     },
     ".//document-link/@format": {
       "application/pdf": 2
@@ -166,6 +174,10 @@
     ".//location/location-reach/@code": {
       "1": 2
     },
+    ".//participating-org/@crs-channel-code": {
+      "11000": 1,
+      "21000": 5
+    },
     ".//planned-disbursement/@type": {
       "1": 20
     },
@@ -182,16 +194,6 @@
       "IDR": 15,
       "GBP": 1
     },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "798": 83,
-      "679": 63,
-      "619": 1,
-      "789": 52
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 82,
-      "99": 35
-    },
     ".//result/@type": {
       "2": 4,
       "1": 9
@@ -200,22 +202,14 @@
       "1": 20,
       "3": 1
     },
-    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "B03": 165,
-      "A01": 1,
-      "D02": 1
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "41010": 3,
+      "15220": 2,
+      "15123": 1,
+      "16062": 1
     },
     ".//transaction/aid-type/@vocabulary": {
       "1": 1
-    },
-    ".//transaction/finance-type/@code": {
-      "110": 175,
-      "422": 18
-    },
-    ".//transaction/flow-type/@code": {
-      "10": 169,
-      "50": 4,
-      "30": 18
     },
     ".//transaction/recipient-country/@code": {
       "ID": 11,
@@ -229,17 +223,23 @@
       "99": 3,
       "1": 1
     },
+    ".//transaction/provider-org/@type": {
+      "10": 12,
+      "21": 22,
+      "70": 18
+    },
+    ".//transaction/receiver-org/@type": {
+      "21": 37,
+      "22": 3,
+      "70": 6,
+      "80": 4,
+      "24": 2
+    },
     ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "41010": 3
     },
     ".//transaction/sector/@vocabulary": {
       "1": 3
-    },
-    ".//transaction/tied-status/@code": {
-      "5": 184
-    },
-    ".//other-identifier/@type": {
-      "B1": 157
     },
     ".//country-budget-items/@vocabulary": {
       "1": 1

@@ -104,11 +104,13 @@
     "iati-activity/contact-info/@type": 6670,
     "iati-activity/activity-scope": 6670,
     "iati-activity/activity-scope/@code": 6670,
-    "iati-activity/recipient-country": 5717,
-    "iati-activity/recipient-country/narrative": 5717,
-    "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 5717,
-    "iati-activity/recipient-country/@code": 5717,
-    "iati-activity/recipient-country/@percentage": 5717,
+    "iati-activity/recipient-region": 993,
+    "iati-activity/recipient-region/narrative": 993,
+    "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 993,
+    "iati-activity/recipient-region/@code": 993,
+    "iati-activity/recipient-region/@vocabulary": 993,
+    "iati-activity/recipient-region/@vocabulary-uri": 993,
+    "iati-activity/recipient-region/@percentage": 993,
     "iati-activity/location": 6670,
     "iati-activity/location/location-reach": 6670,
     "iati-activity/location/location-reach/@code": 6670,
@@ -165,22 +167,20 @@
     "iati-activity/@last-updated-datetime": 6670,
     "iati-activity/@default-currency": 6670,
     "iati-activity/@humanitarian": 6670,
-    "iati-activity/recipient-region": 993,
-    "iati-activity/recipient-region/narrative": 993,
-    "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 993,
-    "iati-activity/recipient-region/@code": 993,
-    "iati-activity/recipient-region/@vocabulary": 993,
-    "iati-activity/recipient-region/@vocabulary-uri": 993,
-    "iati-activity/recipient-region/@percentage": 993,
+    "iati-activity/recipient-country": 5717,
+    "iati-activity/recipient-country/narrative": 5717,
+    "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 5717,
+    "iati-activity/recipient-country/@code": 5717,
+    "iati-activity/recipient-country/@percentage": 5717,
     "iati-activity/sector/narrative": 892,
     "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 892,
     "iati-activity/humanitarian-scope": 396,
-    "iati-activity/humanitarian-scope/narrative": 320,
-    "iati-activity/humanitarian-scope/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 320,
     "iati-activity/humanitarian-scope/@type": 360,
     "iati-activity/humanitarian-scope/@vocabulary": 396,
     "iati-activity/humanitarian-scope/@vocabulary-uri": 396,
-    "iati-activity/humanitarian-scope/@code": 396
+    "iati-activity/humanitarian-scope/@code": 396,
+    "iati-activity/humanitarian-scope/narrative": 320,
+    "iati-activity/humanitarian-scope/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 320
   },
   "elements_total": {
     "iati-activity": 6670,
@@ -222,11 +222,13 @@
     "iati-activity/contact-info/@type": 6670,
     "iati-activity/activity-scope": 6670,
     "iati-activity/activity-scope/@code": 6670,
-    "iati-activity/recipient-country": 7921,
-    "iati-activity/recipient-country/narrative": 7921,
-    "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 7921,
-    "iati-activity/recipient-country/@code": 7921,
-    "iati-activity/recipient-country/@percentage": 7921,
+    "iati-activity/recipient-region": 1128,
+    "iati-activity/recipient-region/narrative": 1128,
+    "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1128,
+    "iati-activity/recipient-region/@code": 1128,
+    "iati-activity/recipient-region/@vocabulary": 1128,
+    "iati-activity/recipient-region/@vocabulary-uri": 1128,
+    "iati-activity/recipient-region/@percentage": 1128,
     "iati-activity/location": 6670,
     "iati-activity/location/location-reach": 6670,
     "iati-activity/location/location-reach/@code": 6670,
@@ -283,22 +285,20 @@
     "iati-activity/@last-updated-datetime": 6670,
     "iati-activity/@default-currency": 6670,
     "iati-activity/@humanitarian": 6670,
-    "iati-activity/recipient-region": 1128,
-    "iati-activity/recipient-region/narrative": 1128,
-    "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1128,
-    "iati-activity/recipient-region/@code": 1128,
-    "iati-activity/recipient-region/@vocabulary": 1128,
-    "iati-activity/recipient-region/@vocabulary-uri": 1128,
-    "iati-activity/recipient-region/@percentage": 1128,
+    "iati-activity/recipient-country": 7921,
+    "iati-activity/recipient-country/narrative": 7921,
+    "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 7921,
+    "iati-activity/recipient-country/@code": 7921,
+    "iati-activity/recipient-country/@percentage": 7921,
     "iati-activity/sector/narrative": 2025,
     "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 2025,
     "iati-activity/humanitarian-scope": 504,
-    "iati-activity/humanitarian-scope/narrative": 320,
-    "iati-activity/humanitarian-scope/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 320,
     "iati-activity/humanitarian-scope/@type": 453,
     "iati-activity/humanitarian-scope/@vocabulary": 504,
     "iati-activity/humanitarian-scope/@vocabulary-uri": 504,
-    "iati-activity/humanitarian-scope/@code": 504
+    "iati-activity/humanitarian-scope/@code": 504,
+    "iati-activity/humanitarian-scope/narrative": 320,
+    "iati-activity/humanitarian-scope/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 320
   },
   "forwardlooking_activities_current": {
     "2022": 272,
@@ -316,23 +316,20 @@
     "2024": 81
   },
   "forwardlooking_currency_year": {
-    "2014": {
-      "EUR": 2493280.39
+    "2017": {
+      "EUR": 1575265824.788
+    },
+    "2019": {
+      "EUR": 2864501505.4768
+    },
+    "2018": {
+      "EUR": 2077526891.2786
     },
     "2015": {
       "EUR": 72856181.3063
     },
     "2016": {
       "EUR": 465436669.774
-    },
-    "2017": {
-      "EUR": 1575265824.788
-    },
-    "2018": {
-      "EUR": 2077526891.2786
-    },
-    "2019": {
-      "EUR": 2864501505.4768
     },
     "2020": {
       "EUR": 3096101537.5928
@@ -343,11 +340,23 @@
     "2022": {
       "EUR": 1932391447.17
     },
+    "2023": {
+      "EUR": 95542190.52
+    },
     "2024": {
       "EUR": 18211417.37
     },
-    "2023": {
-      "EUR": 95542190.52
+    "1900": {
+      "EUR": 0.0
+    },
+    "2014": {
+      "EUR": 2493280.39
+    },
+    "2026": {
+      "EUR": 0.0
+    },
+    "2025": {
+      "EUR": 0.0
     },
     "2009": {
       "EUR": 0.0
@@ -363,15 +372,6 @@
     },
     "1901": {
       "EUR": 20000.0
-    },
-    "2025": {
-      "EUR": 0.0
-    },
-    "2026": {
-      "EUR": 0.0
-    },
-    "1900": {
-      "EUR": 0.0
     }
   }
 }

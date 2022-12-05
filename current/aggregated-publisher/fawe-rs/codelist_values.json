@@ -1,7 +1,7 @@
 {
   ".//@default-currency": {
-    "USD": 9,
-    "EUR": 7
+    "EUR": 7,
+    "USD": 9
   },
   ".//@xml:lang": {
     "en": 141,
@@ -25,8 +25,8 @@
     "EUR": 8
   },
   ".//contact-info/@type": {
-    "1": 7,
-    "2": 7
+    "2": 7,
+    "1": 7
   },
   ".//default-aid-type/@vocabulary": {
     "1": 7
@@ -61,10 +61,10 @@
     "11004": 5
   },
   ".//participating-org/@role": {
+    "1": 13,
     "2": 14,
     "4": 22,
-    "3": 1,
-    "1": 13
+    "3": 1
   },
   ".//participating-org/@type": {
     "22": 37,
@@ -80,27 +80,27 @@
     "1": 48
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "9": 16,
     "1": 17,
-    "3": 15
+    "3": 15,
+    "9": 16
   },
   ".//recipient-country/@code": {
-    "KE": 5,
-    "ZM": 3,
+    "RW": 2,
     "ET": 3,
+    "KE": 5,
+    "UG": 2,
+    "ZM": 3,
     "MW": 1,
     "ML": 1,
     "BF": 1,
-    "MZ": 1,
-    "RW": 2,
-    "UG": 2
+    "MZ": 1
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "289": 2
   },
   ".//related-activity/@type": {
-    "2": 8,
-    "1": 16
+    "1": 16,
+    "2": 8
   },
   ".//reporting-org/@type": {
     "22": 16
@@ -132,20 +132,20 @@
     "2": 5
   },
   ".//transaction/provider-org/@type": {
-    "23": 7,
+    "22": 15,
     "21": 3,
-    "22": 15
+    "23": 7
   },
   ".//transaction/receiver-org/@type": {
     "22": 21,
     "23": 1
   },
   ".//transaction/transaction-type/@code": {
-    "2": 20,
-    "1": 2,
-    "3": 1,
     "11": 7,
-    "4": 6
+    "4": 6,
+    "1": 2,
+    "2": 20,
+    "3": 1
   },
   ".//transaction/value/@currency": {
     "EUR": 15

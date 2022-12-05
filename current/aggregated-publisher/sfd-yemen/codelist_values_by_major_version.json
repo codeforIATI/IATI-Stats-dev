@@ -1,46 +1,24 @@
 {
   "2": {
     ".//@default-currency": {
-      "GBP": 122,
       "USD": 42,
-      " USD ": 10
-    },
-    ".//budget/value/@currency": {
-      "GBP": 119,
-      " USD ": 8,
-      "USD": 40
+      " USD ": 10,
+      "GBP": 122
     },
     ".//description/@type": {
       "1": 169,
       "2": 1
     },
-    ".//other-identifier/@type": {
-      "A1": 5,
-      "B1": 3
-    },
     ".//participating-org/@role": {
-      "4": 173,
-      "1": 174
+      "1": 174,
+      "4": 173
     },
-    ".//recipient-country/@code": {
-      "YE": 168
-    },
-    ".//related-activity/@type": {
-      "1": 129
+    ".//participating-org/@type": {
+      "10": 3
     },
     ".//reporting-org/@type": {
       "40": 173,
       "15": 1
-    },
-    ".//sector/@vocabulary": {
-      "DAC-3": 167,
-      "1": 2
-    },
-    ".//@xml:lang": {
-      "en": 184
-    },
-    ".//participating-org/@type": {
-      "10": 3
     },
     ".//result/@type": {
       "1": 1
@@ -48,24 +26,17 @@
     ".//result/indicator/@measure": {
       "3": 4
     },
-    ".//activity-status/@code": {
-      "2": 9,
-      "4": 39,
-      "5": 1
-    },
-    ".//transaction/transaction-type/@code": {
-      "D": 4,
-      "2": 1,
-      "4": 1,
-      "3": 1
-    },
-    ".//transaction/value/@currency": {
-      " USD ": 4,
-      "USD": 3
+    ".//@xml:lang": {
+      "en": 184
     },
     ".//activity-date/@type": {
       "1": 1,
       "3": 1
+    },
+    ".//activity-status/@code": {
+      "2": 9,
+      "4": 39,
+      "5": 1
     },
     ".//budget/@status": {
       "2": 1
@@ -98,9 +69,16 @@
       "11000": 1,
       "12004": 1
     },
+    ".//recipient-country/@code": {
+      "YE": 168
+    },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "14021": 1,
       "14010": 1
+    },
+    ".//sector/@vocabulary": {
+      "1": 2,
+      "DAC-3": 167
     },
     ".//transaction/disbursement-channel/@code": {
       "2": 1
@@ -110,6 +88,28 @@
     },
     ".//transaction/receiver-org/@type": {
       "15": 3
+    },
+    ".//transaction/transaction-type/@code": {
+      "2": 1,
+      "4": 1,
+      "3": 1,
+      "D": 4
+    },
+    ".//transaction/value/@currency": {
+      "USD": 3,
+      " USD ": 4
+    },
+    ".//budget/value/@currency": {
+      " USD ": 8,
+      "GBP": 119,
+      "USD": 40
+    },
+    ".//other-identifier/@type": {
+      "A1": 5,
+      "B1": 3
+    },
+    ".//related-activity/@type": {
+      "1": 129
     }
   }
 }

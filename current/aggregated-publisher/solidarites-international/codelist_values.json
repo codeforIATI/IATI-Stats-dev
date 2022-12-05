@@ -83,23 +83,23 @@
     "1": 2
   },
   ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "2": 1,
     "9": 1,
-    "1": 1,
-    "2": 1
+    "1": 1
   },
   ".//recipient-country/@code": {
     "MM": 1,
+    "YE": 2,
     "CF": 1,
-    "CD": 1,
-    "YE": 2
+    "CD": 1
   },
   ".//recipient-region/@vocabulary": {
     "1": 5
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "679": 1,
-    "1028": 2,
-    "589": 2
+    "589": 2,
+    "1028": 2
   },
   ".//reporting-org/@type": {
     "21": 5
@@ -120,8 +120,8 @@
   },
   ".//result/indicator/@measure": {
     "1": 18,
-    "2": 21,
-    "3": 2
+    "3": 2,
+    "2": 21
   },
   ".//result/reference/@vocabulary": {
     "99": 3
@@ -131,10 +131,10 @@
     "1": 5
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "14030": 2,
-    "43010": 1,
     "14032": 1,
-    "14031": 1
+    "14031": 1,
+    "14030": 2,
+    "43010": 1
   },
   ".//transaction/provider-org/@type": {
     "10": 2

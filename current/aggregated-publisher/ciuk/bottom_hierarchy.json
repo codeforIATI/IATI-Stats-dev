@@ -77,9 +77,9 @@
     "iati-activity/description/narrative": 287,
     "iati-activity/participating-org": 287,
     "iati-activity/participating-org/narrative": 287,
-    "iati-activity/participating-org/@ref": 287,
     "iati-activity/participating-org/@role": 287,
     "iati-activity/participating-org/@type": 287,
+    "iati-activity/participating-org/@ref": 287,
     "iati-activity/activity-status": 287,
     "iati-activity/activity-status/@code": 287,
     "iati-activity/activity-date": 287,
@@ -131,12 +131,12 @@
     "iati-activity/transaction/description/narrative": 203,
     "iati-activity/transaction/provider-org": 203,
     "iati-activity/transaction/provider-org/narrative": 203,
+    "iati-activity/transaction/provider-org/@provider-activity-id": 202,
     "iati-activity/transaction/provider-org/@ref": 191,
     "iati-activity/transaction/receiver-org": 203,
     "iati-activity/transaction/receiver-org/narrative": 203,
     "iati-activity/transaction/receiver-org/@receiver-activity-id": 200,
     "iati-activity/transaction/receiver-org/@ref": 188,
-    "iati-activity/transaction/provider-org/@provider-activity-id": 202,
     "iati-activity/document-link": 1,
     "iati-activity/document-link/title": 1,
     "iati-activity/document-link/title/narrative": 1,
@@ -163,9 +163,9 @@
     "iati-activity/description/narrative": 287,
     "iati-activity/participating-org": 1219,
     "iati-activity/participating-org/narrative": 1219,
-    "iati-activity/participating-org/@ref": 865,
     "iati-activity/participating-org/@role": 1219,
     "iati-activity/participating-org/@type": 1219,
+    "iati-activity/participating-org/@ref": 865,
     "iati-activity/activity-status": 287,
     "iati-activity/activity-status/@code": 287,
     "iati-activity/activity-date": 574,
@@ -217,12 +217,12 @@
     "iati-activity/transaction/description/narrative": 2008,
     "iati-activity/transaction/provider-org": 2008,
     "iati-activity/transaction/provider-org/narrative": 2008,
+    "iati-activity/transaction/provider-org/@provider-activity-id": 1977,
     "iati-activity/transaction/provider-org/@ref": 1942,
     "iati-activity/transaction/receiver-org": 2008,
     "iati-activity/transaction/receiver-org/narrative": 2006,
     "iati-activity/transaction/receiver-org/@receiver-activity-id": 1983,
     "iati-activity/transaction/receiver-org/@ref": 1057,
-    "iati-activity/transaction/provider-org/@provider-activity-id": 1977,
     "iati-activity/document-link": 22,
     "iati-activity/document-link/title": 22,
     "iati-activity/document-link/title/narrative": 22,
@@ -258,8 +258,22 @@
       "USD": 6628174.78,
       "CHF": 24900.0
     },
-    "2013": {
-      "GBP": 4949773.38
+    "2019": {
+      "GBP": 4736792.46,
+      "EUR": 1500000.0
+    },
+    "2022": {
+      "GBP": 5024901.23,
+      "CHF": 3836.21,
+      "USD": 277044.9
+    },
+    "2020": {
+      "GBP": 10663023.36
+    },
+    "2021": {
+      "GBP": 2428250.03,
+      "USD": 75706.36,
+      "EUR": 30000.0
     },
     "2014": {
       "GBP": 9169170.31
@@ -277,22 +291,8 @@
       "GBP": 5202258.4,
       "EUR": 263526.6
     },
-    "2019": {
-      "GBP": 4736792.46,
-      "EUR": 1500000.0
-    },
-    "2020": {
-      "GBP": 10663023.36
-    },
-    "2021": {
-      "GBP": 2428250.03,
-      "USD": 75706.36,
-      "EUR": 30000.0
-    },
-    "2022": {
-      "GBP": 5024901.23,
-      "CHF": 3836.21,
-      "USD": 277044.9
+    "2013": {
+      "GBP": 4949773.38
     },
     "2012": {
       "GBP": 1131009.0

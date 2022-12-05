@@ -2,14 +2,14 @@
   "2": {
     ".//@default-currency": {
       "NPR": 1,
-      "SLL": 1,
+      "ZMK": 1,
       "USD": 1,
+      "TZS": 1,
+      "SLL": 1,
       "ZAR": 1,
       "GBP": 7,
-      "TZS": 1,
-      "UGX": 1,
       "INR": 1,
-      "ZMK": 1
+      "UGX": 1
     },
     ".//activity-date/@type": {
       "2": 15,
@@ -30,15 +30,15 @@
     },
     ".//budget/value/@currency": {
       "NPR": 6,
-      "SLL": 6,
+      "ZMK": 5,
       "GBP": 39,
       "USD": 5,
-      "ZAR": 6,
       "TZS": 5,
-      "UGX": 6,
-      "EUR": 5,
+      "SLL": 6,
+      "ZAR": 6,
       "INR": 6,
-      "ZMK": 5
+      "UGX": 6,
+      "EUR": 5
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 15
@@ -63,10 +63,10 @@
       "B01": 13,
       "B02": 11,
       "A12": 10,
-      "A02": 21,
-      "A01": 4,
-      "A07": 6,
       "B03": 3,
+      "A02": 21,
+      "A07": 6,
+      "A01": 4,
       "A08": 1
     },
     ".//document-link/language/@code": {
@@ -90,14 +90,16 @@
     },
     ".//recipient-country/@code": {
       "NP": 1,
-      "SL": 17,
+      "ZM": 1,
       "ZW": 1,
+      "TZ": 1,
+      "SL": 17,
       "ZA": 1,
       "GB": 47,
       "DE": 9,
       "LB": 8,
       "IQ": 9,
-      "TZ": 1,
+      "IN": 1,
       "UG": 2,
       "GT": 1,
       "HN": 1,
@@ -105,9 +107,7 @@
       "MZ": 1,
       "NE": 1,
       "NG": 1,
-      "JO": 1,
-      "IN": 1,
-      "ZM": 1
+      "JO": 1
     },
     ".//reporting-org/@type": {
       "21": 15
@@ -144,15 +144,15 @@
     },
     ".//transaction/value/@currency": {
       "NPR": 159,
-      "SLL": 212,
-      "USD": 185,
       "ZMK": 186,
+      "USD": 185,
+      "TZS": 172,
+      "SLL": 212,
       "ZAR": 130,
       "GBP": 382,
-      "TZS": 172,
+      "INR": 165,
       "UGX": 239,
-      "EUR": 3,
-      "INR": 165
+      "EUR": 3
     },
     ".//@xml:lang": {
       "en": 1506,

@@ -1,68 +1,68 @@
 {
   ".//@default-currency": {
     "EUR": {
-      "eip-ye.xml": 6,
       "eip-sy.xml": 1,
-      "eip-998.xml": 1
+      "eip-998.xml": 1,
+      "eip-ye.xml": 6
     }
   },
   ".//@xml:lang": {
     "en": {
-      "eip-ye.xml": 25,
       "eip-sy.xml": 76,
-      "eip-998.xml": 7
+      "eip-998.xml": 7,
+      "eip-ye.xml": 25
     }
   },
   ".//activity-date/@type": {
-    "2": {
-      "eip-ye.xml": 6,
-      "eip-998.xml": 1
-    },
-    "4": {
-      "eip-ye.xml": 1
-    },
     "1": {
       "eip-sy.xml": 1
     },
     "3": {
       "eip-sy.xml": 1
+    },
+    "2": {
+      "eip-998.xml": 1,
+      "eip-ye.xml": 6
+    },
+    "4": {
+      "eip-ye.xml": 1
     }
   },
   ".//activity-status/@code": {
-    "4": {
-      "eip-ye.xml": 1,
-      "eip-998.xml": 1
-    },
     "2": {
-      "eip-ye.xml": 5,
-      "eip-sy.xml": 1
+      "eip-sy.xml": 1,
+      "eip-ye.xml": 5
+    },
+    "4": {
+      "eip-998.xml": 1,
+      "eip-ye.xml": 1
     }
   },
   ".//budget/@status": {
     "2": {
-      "eip-ye.xml": 1,
-      "eip-sy.xml": 2
+      "eip-sy.xml": 2,
+      "eip-ye.xml": 1
     }
   },
   ".//budget/@type": {
-    "2": {
-      "eip-ye.xml": 1
-    },
     "1": {
       "eip-sy.xml": 2
+    },
+    "2": {
+      "eip-ye.xml": 1
     }
   },
   ".//budget/value/@currency": {
     "EUR": {
-      "eip-ye.xml": 1,
-      "eip-sy.xml": 2
+      "eip-sy.xml": 2,
+      "eip-ye.xml": 1
     }
   },
   ".//collaboration-type/@code": {
     "1": {
-      "eip-ye.xml": 6,
       "eip-sy.xml": 1,
-      "eip-998.xml": 1
+      "eip-998.xml": 1,
+      "eip-ye.xml": 6
     }
   },
   ".//contact-info/@type": {
@@ -97,9 +97,9 @@
   },
   ".//description/@type": {
     "1": {
-      "eip-ye.xml": 6,
       "eip-sy.xml": 1,
-      "eip-998.xml": 1
+      "eip-998.xml": 1,
+      "eip-ye.xml": 6
     },
     "2": {
       "eip-ye.xml": 1
@@ -107,20 +107,20 @@
   },
   ".//document-link/@format": {
     "application/pdf": {
-      "eip-ye.xml": 1,
-      "eip-998.xml": 1
+      "eip-998.xml": 1,
+      "eip-ye.xml": 1
     }
   },
   ".//document-link/category/@code": {
     "B01": {
-      "eip-ye.xml": 1,
-      "eip-998.xml": 1
+      "eip-998.xml": 1,
+      "eip-ye.xml": 1
     }
   },
   ".//document-link/language/@code": {
     "en": {
-      "eip-ye.xml": 1,
-      "eip-998.xml": 1
+      "eip-998.xml": 1,
+      "eip-ye.xml": 1
     }
   },
   ".//participating-org/@crs-channel-code": {
@@ -129,24 +129,24 @@
     }
   },
   ".//participating-org/@role": {
-    "4": {
-      "eip-ye.xml": 6,
-      "eip-998.xml": 1
-    },
     "1": {
       "eip-sy.xml": 1
+    },
+    "4": {
+      "eip-998.xml": 1,
+      "eip-ye.xml": 6
     }
   },
   ".//participating-org/@type": {
-    "60": {
-      "eip-ye.xml": 5
-    },
-    "15": {
-      "eip-ye.xml": 1,
-      "eip-998.xml": 1
-    },
     "10": {
       "eip-sy.xml": 1
+    },
+    "15": {
+      "eip-998.xml": 1,
+      "eip-ye.xml": 1
+    },
+    "60": {
+      "eip-ye.xml": 5
     }
   },
   ".//planned-disbursement/@type": {
@@ -175,10 +175,6 @@
     }
   },
   ".//recipient-country/@code": {
-    "YE": {
-      "eip-ye.xml": 6,
-      "eip-sy.xml": 1
-    },
     "SY": {
       "eip-sy.xml": 1
     },
@@ -187,13 +183,17 @@
     },
     "AF": {
       "eip-sy.xml": 1
+    },
+    "YE": {
+      "eip-sy.xml": 1,
+      "eip-ye.xml": 6
     }
   },
   ".//reporting-org/@type": {
     "15": {
-      "eip-ye.xml": 6,
       "eip-sy.xml": 1,
-      "eip-998.xml": 1
+      "eip-998.xml": 1,
+      "eip-ye.xml": 6
     }
   },
   ".//result/@type": {
@@ -226,24 +226,24 @@
   },
   ".//sector/@vocabulary": {
     "1": {
-      "eip-ye.xml": 6,
       "eip-sy.xml": 1,
-      "eip-998.xml": 1
+      "eip-998.xml": 1,
+      "eip-ye.xml": 6
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15162": {
+      "eip-sy.xml": 1
+    },
+    "15220": {
+      "eip-998.xml": 1,
+      "eip-ye.xml": 2
+    },
     "15121": {
       "eip-ye.xml": 1
     },
-    "15220": {
-      "eip-ye.xml": 2,
-      "eip-998.xml": 1
-    },
     "99810": {
       "eip-ye.xml": 3
-    },
-    "15162": {
-      "eip-sy.xml": 1
     }
   }
 }

@@ -1,11 +1,11 @@
 {
   ".//@default-currency": {
+    "GBP": {
+      "wvuk-activitiesarchive.xml": 71,
+      "wvuk-activitiesfile.xml": 60
+    },
     "EUR": {
       "wvuk-activitiesfile.xml": 20
-    },
-    "GBP": {
-      "wvuk-activitiesfile.xml": 60,
-      "wvuk-activitiesarchive.xml": 71
     },
     "USD": {
       "wvuk-activitiesfile.xml": 41
@@ -20,35 +20,35 @@
     }
   },
   ".//activity-date/@type": {
-    "1": {
-      "wvuk-activitiesfile.xml": 122,
-      "wvuk-activitiesarchive.xml": 17
-    },
     "2": {
-      "wvuk-activitiesfile.xml": 121,
-      "wvuk-activitiesarchive.xml": 57
+      "wvuk-activitiesarchive.xml": 57,
+      "wvuk-activitiesfile.xml": 121
     },
     "3": {
-      "wvuk-activitiesfile.xml": 122,
-      "wvuk-activitiesarchive.xml": 59
+      "wvuk-activitiesarchive.xml": 59,
+      "wvuk-activitiesfile.xml": 122
     },
     "4": {
-      "wvuk-activitiesfile.xml": 54,
-      "wvuk-activitiesarchive.xml": 24
+      "wvuk-activitiesarchive.xml": 24,
+      "wvuk-activitiesfile.xml": 54
+    },
+    "1": {
+      "wvuk-activitiesarchive.xml": 17,
+      "wvuk-activitiesfile.xml": 122
     }
   },
   ".//activity-status/@code": {
-    "4": {
-      "wvuk-activitiesfile.xml": 54,
-      "wvuk-activitiesarchive.xml": 13
-    },
     "2": {
-      "wvuk-activitiesfile.xml": 41,
-      "wvuk-activitiesarchive.xml": 53
+      "wvuk-activitiesarchive.xml": 53,
+      "wvuk-activitiesfile.xml": 41
+    },
+    "4": {
+      "wvuk-activitiesarchive.xml": 13,
+      "wvuk-activitiesfile.xml": 54
     },
     "3": {
-      "wvuk-activitiesfile.xml": 24,
-      "wvuk-activitiesarchive.xml": 5
+      "wvuk-activitiesarchive.xml": 5,
+      "wvuk-activitiesfile.xml": 24
     },
     "1": {
       "wvuk-activitiesfile.xml": 1
@@ -85,8 +85,8 @@
   },
   ".//contact-info/@type": {
     "1": {
-      "wvuk-activitiesfile.xml": 121,
-      "wvuk-activitiesarchive.xml": 20
+      "wvuk-activitiesarchive.xml": 20,
+      "wvuk-activitiesfile.xml": 121
     }
   },
   ".//default-aid-type/@vocabulary": {
@@ -95,12 +95,12 @@
     }
   },
   ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "C01": {
-      "wvuk-activitiesfile.xml": 121,
-      "wvuk-activitiesarchive.xml": 31
-    },
     "B01": {
       "wvuk-activitiesarchive.xml": 40
+    },
+    "C01": {
+      "wvuk-activitiesarchive.xml": 31,
+      "wvuk-activitiesfile.xml": 121
     }
   },
   ".//default-finance-type/@code": {
@@ -110,8 +110,8 @@
   },
   ".//default-flow-type/@code": {
     "30": {
-      "wvuk-activitiesfile.xml": 121,
-      "wvuk-activitiesarchive.xml": 71
+      "wvuk-activitiesarchive.xml": 71,
+      "wvuk-activitiesfile.xml": 121
     }
   },
   ".//default-tied-status/@code": {
@@ -146,38 +146,41 @@
     }
   },
   ".//participating-org/@role": {
-    "2": {
-      "wvuk-activitiesfile.xml": 122,
-      "wvuk-activitiesarchive.xml": 20
-    },
-    "3": {
-      "wvuk-activitiesfile.xml": 244,
-      "wvuk-activitiesarchive.xml": 23
+    "4": {
+      "wvuk-activitiesarchive.xml": 48,
+      "wvuk-activitiesfile.xml": 120
     },
     "1": {
-      "wvuk-activitiesfile.xml": 137,
-      "wvuk-activitiesarchive.xml": 38
+      "wvuk-activitiesarchive.xml": 38,
+      "wvuk-activitiesfile.xml": 137
     },
-    "4": {
-      "wvuk-activitiesfile.xml": 120,
-      "wvuk-activitiesarchive.xml": 48
+    "2": {
+      "wvuk-activitiesarchive.xml": 20,
+      "wvuk-activitiesfile.xml": 122
+    },
+    "3": {
+      "wvuk-activitiesarchive.xml": 23,
+      "wvuk-activitiesfile.xml": 244
     }
   },
   ".//participating-org/@type": {
-    "21": {
-      "wvuk-activitiesfile.xml": 531,
-      "wvuk-activitiesarchive.xml": 42
-    },
-    "15": {
+    "22": {
+      "wvuk-activitiesarchive.xml": 51,
       "wvuk-activitiesfile.xml": 20
     },
     "10": {
-      "wvuk-activitiesfile.xml": 14,
-      "wvuk-activitiesarchive.xml": 34
+      "wvuk-activitiesarchive.xml": 34,
+      "wvuk-activitiesfile.xml": 14
     },
-    "22": {
-      "wvuk-activitiesfile.xml": 20,
-      "wvuk-activitiesarchive.xml": 51
+    "21": {
+      "wvuk-activitiesarchive.xml": 42,
+      "wvuk-activitiesfile.xml": 531
+    },
+    "70": {
+      "wvuk-activitiesarchive.xml": 2
+    },
+    "15": {
+      "wvuk-activitiesfile.xml": 20
     },
     "40": {
       "wvuk-activitiesfile.xml": 34
@@ -187,19 +190,111 @@
     },
     "71": {
       "wvuk-activitiesfile.xml": 1
-    },
-    "70": {
-      "wvuk-activitiesarchive.xml": 2
     }
   },
   ".//recipient-country/@code": {
-    "SD": {
-      "wvuk-activitiesfile.xml": 9,
-      "wvuk-activitiesarchive.xml": 2
+    "PK": {
+      "wvuk-activitiesarchive.xml": 3
+    },
+    "ML": {
+      "wvuk-activitiesarchive.xml": 1
+    },
+    "NE": {
+      "wvuk-activitiesarchive.xml": 1,
+      "wvuk-activitiesfile.xml": 2
+    },
+    "SN": {
+      "wvuk-activitiesarchive.xml": 6,
+      "wvuk-activitiesfile.xml": 1
+    },
+    "MM": {
+      "wvuk-activitiesarchive.xml": 1,
+      "wvuk-activitiesfile.xml": 1
+    },
+    "SL": {
+      "wvuk-activitiesarchive.xml": 7
+    },
+    "BO": {
+      "wvuk-activitiesarchive.xml": 1
+    },
+    "NP": {
+      "wvuk-activitiesarchive.xml": 1
     },
     "SO": {
-      "wvuk-activitiesfile.xml": 10,
-      "wvuk-activitiesarchive.xml": 4
+      "wvuk-activitiesarchive.xml": 4,
+      "wvuk-activitiesfile.xml": 10
+    },
+    "SS": {
+      "wvuk-activitiesarchive.xml": 3,
+      "wvuk-activitiesfile.xml": 2
+    },
+    "UG": {
+      "wvuk-activitiesarchive.xml": 2,
+      "wvuk-activitiesfile.xml": 4
+    },
+    "IN": {
+      "wvuk-activitiesarchive.xml": 6,
+      "wvuk-activitiesfile.xml": 1
+    },
+    "SY": {
+      "wvuk-activitiesarchive.xml": 2,
+      "wvuk-activitiesfile.xml": 2
+    },
+    "BD": {
+      "wvuk-activitiesarchive.xml": 2,
+      "wvuk-activitiesfile.xml": 7
+    },
+    "GB": {
+      "wvuk-activitiesarchive.xml": 5,
+      "wvuk-activitiesfile.xml": 1
+    },
+    "KE": {
+      "wvuk-activitiesarchive.xml": 2,
+      "wvuk-activitiesfile.xml": 3
+    },
+    "SD": {
+      "wvuk-activitiesarchive.xml": 2,
+      "wvuk-activitiesfile.xml": 9
+    },
+    "MZ": {
+      "wvuk-activitiesarchive.xml": 1,
+      "wvuk-activitiesfile.xml": 6
+    },
+    "MW": {
+      "wvuk-activitiesarchive.xml": 4,
+      "wvuk-activitiesfile.xml": 2
+    },
+    "KH": {
+      "wvuk-activitiesarchive.xml": 2
+    },
+    "AF": {
+      "wvuk-activitiesarchive.xml": 1,
+      "wvuk-activitiesfile.xml": 8
+    },
+    "AM": {
+      "wvuk-activitiesarchive.xml": 2
+    },
+    "AL": {
+      "wvuk-activitiesarchive.xml": 2
+    },
+    "ZM": {
+      "wvuk-activitiesarchive.xml": 2,
+      "wvuk-activitiesfile.xml": 2
+    },
+    "PH": {
+      "wvuk-activitiesarchive.xml": 1,
+      "wvuk-activitiesfile.xml": 1
+    },
+    "LB": {
+      "wvuk-activitiesarchive.xml": 1
+    },
+    "CD": {
+      "wvuk-activitiesarchive.xml": 4,
+      "wvuk-activitiesfile.xml": 13
+    },
+    "ZW": {
+      "wvuk-activitiesarchive.xml": 3,
+      "wvuk-activitiesfile.xml": 13
     },
     "TH": {
       "wvuk-activitiesfile.xml": 1
@@ -207,35 +302,11 @@
     "AO": {
       "wvuk-activitiesfile.xml": 2
     },
-    "BD": {
-      "wvuk-activitiesfile.xml": 7,
-      "wvuk-activitiesarchive.xml": 2
-    },
-    "ZM": {
-      "wvuk-activitiesfile.xml": 2,
-      "wvuk-activitiesarchive.xml": 2
-    },
     "HT": {
       "wvuk-activitiesfile.xml": 1
     },
     "SV": {
       "wvuk-activitiesfile.xml": 1
-    },
-    "ZW": {
-      "wvuk-activitiesfile.xml": 13,
-      "wvuk-activitiesarchive.xml": 3
-    },
-    "CD": {
-      "wvuk-activitiesfile.xml": 13,
-      "wvuk-activitiesarchive.xml": 4
-    },
-    "KE": {
-      "wvuk-activitiesfile.xml": 3,
-      "wvuk-activitiesarchive.xml": 2
-    },
-    "UG": {
-      "wvuk-activitiesfile.xml": 4,
-      "wvuk-activitiesarchive.xml": 2
     },
     "ET": {
       "wvuk-activitiesfile.xml": 5
@@ -249,26 +320,6 @@
     "VN": {
       "wvuk-activitiesfile.xml": 1
     },
-    "AF": {
-      "wvuk-activitiesfile.xml": 8,
-      "wvuk-activitiesarchive.xml": 1
-    },
-    "MW": {
-      "wvuk-activitiesfile.xml": 2,
-      "wvuk-activitiesarchive.xml": 4
-    },
-    "MZ": {
-      "wvuk-activitiesfile.xml": 6,
-      "wvuk-activitiesarchive.xml": 1
-    },
-    "SS": {
-      "wvuk-activitiesfile.xml": 2,
-      "wvuk-activitiesarchive.xml": 3
-    },
-    "NE": {
-      "wvuk-activitiesfile.xml": 2,
-      "wvuk-activitiesarchive.xml": 1
-    },
     "PE": {
       "wvuk-activitiesfile.xml": 1
     },
@@ -277,10 +328,6 @@
     },
     "LK": {
       "wvuk-activitiesfile.xml": 3
-    },
-    "SN": {
-      "wvuk-activitiesfile.xml": 1,
-      "wvuk-activitiesarchive.xml": 6
     },
     "HN": {
       "wvuk-activitiesfile.xml": 1
@@ -294,64 +341,17 @@
     "MX": {
       "wvuk-activitiesfile.xml": 1
     },
-    "PH": {
-      "wvuk-activitiesfile.xml": 1,
-      "wvuk-activitiesarchive.xml": 1
-    },
-    "SY": {
-      "wvuk-activitiesfile.xml": 2,
-      "wvuk-activitiesarchive.xml": 2
-    },
-    "GB": {
-      "wvuk-activitiesfile.xml": 1,
-      "wvuk-activitiesarchive.xml": 5
-    },
     "TL": {
       "wvuk-activitiesfile.xml": 1
     },
-    "IN": {
-      "wvuk-activitiesfile.xml": 1,
-      "wvuk-activitiesarchive.xml": 6
-    },
     "BI": {
       "wvuk-activitiesfile.xml": 1
-    },
-    "MM": {
-      "wvuk-activitiesfile.xml": 1,
-      "wvuk-activitiesarchive.xml": 1
     },
     "MO": {
       "wvuk-activitiesfile.xml": 3
     },
     "RO": {
       "wvuk-activitiesfile.xml": 2
-    },
-    "PK": {
-      "wvuk-activitiesarchive.xml": 3
-    },
-    "ML": {
-      "wvuk-activitiesarchive.xml": 1
-    },
-    "SL": {
-      "wvuk-activitiesarchive.xml": 7
-    },
-    "BO": {
-      "wvuk-activitiesarchive.xml": 1
-    },
-    "NP": {
-      "wvuk-activitiesarchive.xml": 1
-    },
-    "KH": {
-      "wvuk-activitiesarchive.xml": 2
-    },
-    "AM": {
-      "wvuk-activitiesarchive.xml": 2
-    },
-    "AL": {
-      "wvuk-activitiesarchive.xml": 2
-    },
-    "LB": {
-      "wvuk-activitiesarchive.xml": 1
     }
   },
   ".//recipient-region/@vocabulary": {
@@ -384,14 +384,11 @@
   },
   ".//reporting-org/@type": {
     "21": {
-      "wvuk-activitiesfile.xml": 121,
-      "wvuk-activitiesarchive.xml": 38
+      "wvuk-activitiesarchive.xml": 38,
+      "wvuk-activitiesfile.xml": 121
     }
   },
   ".//sector/@vocabulary": {
-    "99": {
-      "wvuk-activitiesfile.xml": 122
-    },
     "1": {
       "wvuk-activitiesarchive.xml": 38
     },
@@ -400,45 +397,12 @@
     },
     "2": {
       "wvuk-activitiesarchive.xml": 3
+    },
+    "99": {
+      "wvuk-activitiesfile.xml": 122
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "52010": {
-      "wvuk-activitiesfile.xml": 40,
-      "wvuk-activitiesarchive.xml": 2
-    },
-    "74010": {
-      "wvuk-activitiesfile.xml": 16,
-      "wvuk-activitiesarchive.xml": 2
-    },
-    "15160": {
-      "wvuk-activitiesfile.xml": 15
-    },
-    "11120": {
-      "wvuk-activitiesfile.xml": 8,
-      "wvuk-activitiesarchive.xml": 2
-    },
-    "15110": {
-      "wvuk-activitiesfile.xml": 7
-    },
-    "12220": {
-      "wvuk-activitiesfile.xml": 11,
-      "wvuk-activitiesarchive.xml": 1
-    },
-    "72010": {
-      "wvuk-activitiesfile.xml": 6
-    },
-    "14030": {
-      "wvuk-activitiesfile.xml": 16,
-      "wvuk-activitiesarchive.xml": 4
-    },
-    "15150": {
-      "wvuk-activitiesfile.xml": 2,
-      "wvuk-activitiesarchive.xml": 3
-    },
-    "15220": {
-      "wvuk-activitiesfile.xml": 1
-    },
     "173": {
       "wvuk-activitiesarchive.xml": 1
     },
@@ -448,8 +412,20 @@
     "12281": {
       "wvuk-activitiesarchive.xml": 1
     },
+    "11120": {
+      "wvuk-activitiesarchive.xml": 2,
+      "wvuk-activitiesfile.xml": 8
+    },
+    "14030": {
+      "wvuk-activitiesarchive.xml": 4,
+      "wvuk-activitiesfile.xml": 16
+    },
     "32140": {
       "wvuk-activitiesarchive.xml": 1
+    },
+    "15150": {
+      "wvuk-activitiesarchive.xml": 3,
+      "wvuk-activitiesfile.xml": 2
     },
     "99810": {
       "wvuk-activitiesarchive.xml": 1
@@ -463,11 +439,23 @@
     "11220": {
       "wvuk-activitiesarchive.xml": 1
     },
+    "12220": {
+      "wvuk-activitiesarchive.xml": 1,
+      "wvuk-activitiesfile.xml": 11
+    },
     "72050": {
       "wvuk-activitiesarchive.xml": 3
     },
     "73010": {
       "wvuk-activitiesarchive.xml": 1
+    },
+    "52010": {
+      "wvuk-activitiesarchive.xml": 2,
+      "wvuk-activitiesfile.xml": 40
+    },
+    "74010": {
+      "wvuk-activitiesarchive.xml": 2,
+      "wvuk-activitiesfile.xml": 16
     },
     "16010": {
       "wvuk-activitiesarchive.xml": 1
@@ -492,6 +480,18 @@
     },
     "11110": {
       "wvuk-activitiesarchive.xml": 1
+    },
+    "15160": {
+      "wvuk-activitiesfile.xml": 15
+    },
+    "15110": {
+      "wvuk-activitiesfile.xml": 7
+    },
+    "72010": {
+      "wvuk-activitiesfile.xml": 6
+    },
+    "15220": {
+      "wvuk-activitiesfile.xml": 1
     }
   },
   ".//sector[@vocabulary = '2']/@code": {
@@ -534,20 +534,20 @@
     }
   },
   ".//transaction/provider-org/@type": {
-    "15": {
-      "wvuk-activitiesfile.xml": 37
-    },
     "21": {
-      "wvuk-activitiesfile.xml": 899,
-      "wvuk-activitiesarchive.xml": 13
+      "wvuk-activitiesarchive.xml": 13,
+      "wvuk-activitiesfile.xml": 899
     },
     "10": {
-      "wvuk-activitiesfile.xml": 78,
-      "wvuk-activitiesarchive.xml": 7
+      "wvuk-activitiesarchive.xml": 7,
+      "wvuk-activitiesfile.xml": 78
     },
     "22": {
-      "wvuk-activitiesfile.xml": 65,
-      "wvuk-activitiesarchive.xml": 2
+      "wvuk-activitiesarchive.xml": 2,
+      "wvuk-activitiesfile.xml": 65
+    },
+    "15": {
+      "wvuk-activitiesfile.xml": 37
     },
     "80": {
       "wvuk-activitiesfile.xml": 3
@@ -560,12 +560,12 @@
     }
   },
   ".//transaction/receiver-org/@type": {
-    "21": {
-      "wvuk-activitiesfile.xml": 1018,
-      "wvuk-activitiesarchive.xml": 18
-    },
     "22": {
       "wvuk-activitiesarchive.xml": 14
+    },
+    "21": {
+      "wvuk-activitiesarchive.xml": 18,
+      "wvuk-activitiesfile.xml": 1018
     }
   },
   ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -579,14 +579,6 @@
     }
   },
   ".//transaction/transaction-type/@code": {
-    "1": {
-      "wvuk-activitiesfile.xml": 285,
-      "wvuk-activitiesarchive.xml": 12
-    },
-    "3": {
-      "wvuk-activitiesfile.xml": 824,
-      "wvuk-activitiesarchive.xml": 36
-    },
     "C": {
       "wvuk-activitiesarchive.xml": 33
     },
@@ -596,6 +588,14 @@
     "2": {
       "wvuk-activitiesarchive.xml": 30
     },
+    "3": {
+      "wvuk-activitiesarchive.xml": 36,
+      "wvuk-activitiesfile.xml": 824
+    },
+    "1": {
+      "wvuk-activitiesarchive.xml": 12,
+      "wvuk-activitiesfile.xml": 285
+    },
     "IF": {
       "wvuk-activitiesarchive.xml": 8
     },
@@ -604,16 +604,16 @@
     }
   },
   ".//transaction/value/@currency": {
-    "EUR": {
-      "wvuk-activitiesfile.xml": 52
+    "GBP": {
+      "wvuk-activitiesarchive.xml": 37,
+      "wvuk-activitiesfile.xml": 208
     },
     "USD": {
-      "wvuk-activitiesfile.xml": 760,
-      "wvuk-activitiesarchive.xml": 14
+      "wvuk-activitiesarchive.xml": 14,
+      "wvuk-activitiesfile.xml": 760
     },
-    "GBP": {
-      "wvuk-activitiesfile.xml": 208,
-      "wvuk-activitiesarchive.xml": 37
+    "EUR": {
+      "wvuk-activitiesfile.xml": 52
     }
   }
 }

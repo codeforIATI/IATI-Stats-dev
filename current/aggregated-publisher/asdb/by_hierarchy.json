@@ -150,18 +150,18 @@
       "iati-activity/@hierarchy": 2374,
       "iati-activity/@last-updated-datetime": 2374,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 2374,
-      "iati-activity/sector/@percentage": 85,
       "iati-activity/country-budget-items/budget-item/description": 27,
       "iati-activity/country-budget-items/budget-item/description/narrative": 27,
       "iati-activity/country-budget-items/budget-item/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 27,
-      "iati-activity/description/@type": 3,
-      "iati-activity/recipient-region": 21,
-      "iati-activity/recipient-region/@code": 21,
+      "iati-activity/sector/@percentage": 85,
       "iati-activity/related-activity": 31,
       "iati-activity/related-activity/@ref": 31,
       "iati-activity/related-activity/@type": 31,
       "iati-activity/result/indicator/period/target/comment": 1,
-      "iati-activity/result/indicator/period/target/comment/narrative": 1
+      "iati-activity/result/indicator/period/target/comment/narrative": 1,
+      "iati-activity/recipient-region": 21,
+      "iati-activity/recipient-region/@code": 21,
+      "iati-activity/description/@type": 3
     },
     "elements_total": {
       "iati-activity": 2374,
@@ -312,26 +312,20 @@
       "iati-activity/@hierarchy": 2374,
       "iati-activity/@last-updated-datetime": 2374,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 2374,
-      "iati-activity/sector/@percentage": 232,
       "iati-activity/country-budget-items/budget-item/description": 54,
       "iati-activity/country-budget-items/budget-item/description/narrative": 54,
       "iati-activity/country-budget-items/budget-item/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 54,
-      "iati-activity/description/@type": 3,
-      "iati-activity/recipient-region": 21,
-      "iati-activity/recipient-region/@code": 21,
+      "iati-activity/sector/@percentage": 232,
       "iati-activity/related-activity": 80,
       "iati-activity/related-activity/@ref": 80,
       "iati-activity/related-activity/@type": 80,
       "iati-activity/result/indicator/period/target/comment": 1,
-      "iati-activity/result/indicator/period/target/comment/narrative": 1
+      "iati-activity/result/indicator/period/target/comment/narrative": 1,
+      "iati-activity/recipient-region": 21,
+      "iati-activity/recipient-region/@code": 21,
+      "iati-activity/description/@type": 3
     },
     "forwardlooking_currency_year": {
-      "2009": {
-        "USD": 6306288351.34
-      },
-      "2010": {
-        "USD": 15096160242.97
-      },
       "2011": {
         "USD": 8024113076.71
       },
@@ -346,9 +340,6 @@
       },
       "2015": {
         "USD": 12547152768.42
-      },
-      "2016": {
-        "USD": 13132027532.21
       },
       "2017": {
         "USD": 12832542302.93
@@ -374,18 +365,6 @@
       "2024": {
         "USD": 9819892554.88
       },
-      "2005": {
-        "USD": 571727620.02
-      },
-      "2006": {
-        "USD": 2165615020.23
-      },
-      "2007": {
-        "USD": 2729034654.22
-      },
-      "2008": {
-        "USD": 3838960319.4
-      },
       "2025": {
         "USD": 5442837288.76
       },
@@ -395,23 +374,26 @@
       "2027": {
         "USD": 1076777252.31
       },
+      "2010": {
+        "USD": 15096160242.97
+      },
+      "2016": {
+        "USD": 13132027532.21
+      },
+      "2009": {
+        "USD": 6306288351.34
+      },
+      "2007": {
+        "USD": 2729034654.22
+      },
+      "2008": {
+        "USD": 3838960319.4
+      },
       "2028": {
         "USD": 164827626.64
       },
       "2029": {
         "USD": 45748695.64
-      },
-      "2001": {
-        "USD": 29698529.42
-      },
-      "2002": {
-        "USD": 57248823.51
-      },
-      "2003": {
-        "USD": 104763529.39
-      },
-      "2004": {
-        "USD": 181904338.2
       },
       "2030": {
         "USD": 5008695.64
@@ -431,6 +413,27 @@
       "2035": {
         "USD": 3756521.73
       },
+      "2002": {
+        "USD": 57248823.51
+      },
+      "2003": {
+        "USD": 104763529.39
+      },
+      "2004": {
+        "USD": 181904338.2
+      },
+      "2005": {
+        "USD": 571727620.02
+      },
+      "2006": {
+        "USD": 2165615020.23
+      },
+      "2000": {
+        "USD": 42970588.24
+      },
+      "2001": {
+        "USD": 29698529.42
+      },
       "1996": {
         "USD": 7058823.53
       },
@@ -442,9 +445,6 @@
       },
       "1999": {
         "USD": 36470588.24
-      },
-      "2000": {
-        "USD": 42970588.24
       }
     },
     "forwardlooking_activities_current": {

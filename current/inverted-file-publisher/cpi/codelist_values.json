@@ -1,61 +1,61 @@
 {
   ".//@default-currency": {
     "USD": {
-      "cpi-gb.xml": 1,
+      "cpi-998.xml": 1,
       "cpi-cn.xml": 1,
-      "cpi-998.xml": 1
+      "cpi-gb.xml": 1
     }
   },
   ".//@xml:lang": {
     "en": {
-      "cpi-gb.xml": 8,
+      "cpi-998.xml": 8,
       "cpi-cn.xml": 5,
-      "cpi-998.xml": 8
+      "cpi-gb.xml": 8
     }
   },
   ".//activity-date/@type": {
     "2": {
-      "cpi-gb.xml": 1,
+      "cpi-998.xml": 1,
       "cpi-cn.xml": 1,
-      "cpi-998.xml": 1
+      "cpi-gb.xml": 1
     },
     "3": {
-      "cpi-gb.xml": 1,
-      "cpi-cn.xml": 1
+      "cpi-cn.xml": 1,
+      "cpi-gb.xml": 1
     }
   },
   ".//activity-status/@code": {
     "2": {
-      "cpi-gb.xml": 1,
+      "cpi-998.xml": 1,
       "cpi-cn.xml": 1,
-      "cpi-998.xml": 1
+      "cpi-gb.xml": 1
     }
   },
   ".//budget/@status": {
     "2": {
-      "cpi-gb.xml": 1,
-      "cpi-cn.xml": 1
+      "cpi-cn.xml": 1,
+      "cpi-gb.xml": 1
     }
   },
   ".//budget/@type": {
     "1": {
-      "cpi-gb.xml": 1,
-      "cpi-cn.xml": 1
+      "cpi-cn.xml": 1,
+      "cpi-gb.xml": 1
     }
   },
   ".//budget/value/@currency": {
-    "USD": {
-      "cpi-gb.xml": 1
-    },
     "GBP": {
       "cpi-cn.xml": 1
+    },
+    "USD": {
+      "cpi-gb.xml": 1
     }
   },
   ".//description/@type": {
     "1": {
-      "cpi-gb.xml": 1,
+      "cpi-998.xml": 1,
       "cpi-cn.xml": 1,
-      "cpi-998.xml": 1
+      "cpi-gb.xml": 1
     }
   },
   ".//document-link/@format": {
@@ -82,48 +82,48 @@
     }
   },
   ".//participating-org/@role": {
-    "2": {
-      "cpi-gb.xml": 1
-    },
-    "1": {
-      "cpi-gb.xml": 1,
-      "cpi-cn.xml": 1
-    },
     "4": {
       "cpi-998.xml": 1
+    },
+    "1": {
+      "cpi-cn.xml": 1,
+      "cpi-gb.xml": 1
+    },
+    "2": {
+      "cpi-gb.xml": 1
     }
   },
   ".//participating-org/@type": {
-    "10": {
-      "cpi-gb.xml": 2,
-      "cpi-cn.xml": 1
-    },
     "21": {
       "cpi-998.xml": 1
+    },
+    "10": {
+      "cpi-cn.xml": 1,
+      "cpi-gb.xml": 2
     }
   },
   ".//recipient-country/@code": {
-    "GB": {
-      "cpi-gb.xml": 1
-    },
     "CN": {
       "cpi-cn.xml": 1
+    },
+    "GB": {
+      "cpi-gb.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "21": {
-      "cpi-gb.xml": 1,
+      "cpi-998.xml": 1,
       "cpi-cn.xml": 1,
-      "cpi-998.xml": 1
+      "cpi-gb.xml": 1
     }
   },
   ".//sector/@vocabulary": {
-    "7": {
-      "cpi-gb.xml": 1,
-      "cpi-cn.xml": 1
-    },
     "1": {
       "cpi-998.xml": 2
+    },
+    "7": {
+      "cpi-cn.xml": 1,
+      "cpi-gb.xml": 1
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -136,8 +136,8 @@
   },
   ".//sector[@vocabulary = '7']/@code": {
     "13": {
-      "cpi-gb.xml": 1,
-      "cpi-cn.xml": 1
+      "cpi-cn.xml": 1,
+      "cpi-gb.xml": 1
     }
   }
 }

@@ -82,8 +82,14 @@
       "iati-activity/policy-marker/@code": 27346,
       "iati-activity/policy-marker/@significance": 27346,
       "iati-activity/policy-marker/@vocabulary": 27346,
+      "iati-activity/collaboration-type": 6264,
+      "iati-activity/collaboration-type/@code": 6264,
       "iati-activity/default-flow-type": 27888,
       "iati-activity/default-flow-type/@code": 27888,
+      "iati-activity/default-finance-type": 21445,
+      "iati-activity/default-finance-type/@code": 21445,
+      "iati-activity/default-aid-type": 21263,
+      "iati-activity/default-aid-type/@code": 21263,
       "iati-activity/default-tied-status": 27888,
       "iati-activity/default-tied-status/@code": 27888,
       "iati-activity/budget": 27756,
@@ -123,12 +129,6 @@
       "iati-activity/@hierarchy": 27888,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 27888,
       "iati-activity/@last-updated-datetime": 27888,
-      "iati-activity/collaboration-type": 6264,
-      "iati-activity/collaboration-type/@code": 6264,
-      "iati-activity/default-finance-type": 21445,
-      "iati-activity/default-finance-type/@code": 21445,
-      "iati-activity/default-aid-type": 21263,
-      "iati-activity/default-aid-type/@code": 21263,
       "iati-activity/conditions/condition/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 3142,
       "iati-activity/transaction/description": 525,
       "iati-activity/transaction/description/narrative": 525,
@@ -226,8 +226,14 @@
       "iati-activity/policy-marker/@code": 213049,
       "iati-activity/policy-marker/@significance": 213049,
       "iati-activity/policy-marker/@vocabulary": 213049,
+      "iati-activity/collaboration-type": 6264,
+      "iati-activity/collaboration-type/@code": 6264,
       "iati-activity/default-flow-type": 27888,
       "iati-activity/default-flow-type/@code": 27888,
+      "iati-activity/default-finance-type": 21445,
+      "iati-activity/default-finance-type/@code": 21445,
+      "iati-activity/default-aid-type": 21263,
+      "iati-activity/default-aid-type/@code": 21263,
       "iati-activity/default-tied-status": 27888,
       "iati-activity/default-tied-status/@code": 27888,
       "iati-activity/budget": 49623,
@@ -267,12 +273,6 @@
       "iati-activity/@hierarchy": 27888,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 27888,
       "iati-activity/@last-updated-datetime": 27888,
-      "iati-activity/collaboration-type": 6264,
-      "iati-activity/collaboration-type/@code": 6264,
-      "iati-activity/default-finance-type": 21445,
-      "iati-activity/default-finance-type/@code": 21445,
-      "iati-activity/default-aid-type": 21263,
-      "iati-activity/default-aid-type/@code": 21263,
       "iati-activity/conditions/condition/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 6284,
       "iati-activity/transaction/description": 1711,
       "iati-activity/transaction/description/narrative": 1711,
@@ -293,35 +293,17 @@
       "null": {
         "EUR": 53534409690.77
       },
-      "2022": {
-        "EUR": 8378929397.96
-      },
-      "1994": {
-        "EUR": 31945669.8
-      },
-      "1995": {
-        "EUR": 36091675.75
-      },
-      "1996": {
-        "EUR": 46283617.59
-      },
       "1997": {
         "EUR": 79611831.28
       },
       "1998": {
         "EUR": 47973696.53
       },
-      "2003": {
-        "EUR": 158191083.91
-      },
-      "2004": {
-        "EUR": 97937166.11
-      },
       "2005": {
         "EUR": 262195267.63
       },
-      "2006": {
-        "EUR": 363418931.19
+      "2022": {
+        "EUR": 8378929397.96
       },
       "2007": {
         "EUR": 438102067.43
@@ -329,35 +311,35 @@
       "2008": {
         "EUR": 568357740.37
       },
-      "2009": {
-        "EUR": 985989944.02
-      },
       "2010": {
         "EUR": 1268982530.33
       },
       "2011": {
         "EUR": 1860639311.16
       },
-      "2012": {
-        "EUR": 2116647552.94
-      },
-      "2013": {
-        "EUR": 2717246620.65
-      },
       "2014": {
         "EUR": 3115168477.99
-      },
-      "2015": {
-        "EUR": 3819282304.38
       },
       "2016": {
         "EUR": 4570200542.89
       },
-      "2018": {
-        "EUR": 5263045050.77
+      "2009": {
+        "EUR": 985989944.02
+      },
+      "2012": {
+        "EUR": 2116647552.94
+      },
+      "2015": {
+        "EUR": 3819282304.38
+      },
+      "2013": {
+        "EUR": 2717246620.65
       },
       "2017": {
         "EUR": 4712657755.73
+      },
+      "2018": {
+        "EUR": 5263045050.77
       },
       "2019": {
         "EUR": 6349353542.46
@@ -374,35 +356,59 @@
       "2024": {
         "EUR": 1416648507.61
       },
-      "1999": {
-        "EUR": 49383304.69
-      },
       "2025": {
         "EUR": 338623563.04
       },
-      "2002": {
-        "EUR": 77097785.87
+      "1995": {
+        "EUR": 36091675.75
+      },
+      "1996": {
+        "EUR": 46283617.59
+      },
+      "1999": {
+        "EUR": 49383304.69
+      },
+      "1992": {
+        "EUR": 13438548.17
+      },
+      "1994": {
+        "EUR": 31945669.8
+      },
+      "2006": {
+        "EUR": 363418931.19
       },
       "2026": {
         "EUR": 87985761.29
       },
+      "2002": {
+        "EUR": 77097785.87
+      },
+      "2003": {
+        "EUR": 158191083.91
+      },
+      "2004": {
+        "EUR": 97937166.11
+      },
       "2001": {
         "EUR": 49958043.53
+      },
+      "1987": {
+        "EUR": 11002159.04
       },
       "1989": {
         "EUR": 25242227.59
       },
-      "2027": {
-        "EUR": 1085839.32
+      "1990": {
+        "EUR": 16340652.13
+      },
+      "1993": {
+        "EUR": 27368275.94
+      },
+      "1991": {
+        "EUR": 64014857.57
       },
       "2000": {
         "EUR": 69335159.92
-      },
-      "1982": {
-        "EUR": 247428.46
-      },
-      "1983": {
-        "EUR": 4090909.73
       },
       "1984": {
         "EUR": 7431892.19
@@ -413,29 +419,23 @@
       "1986": {
         "EUR": 1102699.63
       },
-      "1987": {
-        "EUR": 11002159.04
-      },
-      "1988": {
-        "EUR": 40135596.02
-      },
-      "1993": {
-        "EUR": 27368275.94
-      },
-      "1990": {
-        "EUR": 16340652.13
-      },
-      "1992": {
-        "EUR": 13438548.17
-      },
-      "1991": {
-        "EUR": 64014857.57
-      },
       "1980": {
         "EUR": 4401711.81
       },
       "1981": {
         "EUR": 3216556.14
+      },
+      "1982": {
+        "EUR": 247428.46
+      },
+      "1983": {
+        "EUR": 4090909.73
+      },
+      "1988": {
+        "EUR": 40135596.02
+      },
+      "2027": {
+        "EUR": 1085839.32
       },
       "1977": {
         "EUR": 189305.82

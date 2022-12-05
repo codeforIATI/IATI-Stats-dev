@@ -1,33 +1,33 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "across-ss.xml": 1,
-      "across-activity.xml": 1
+      "across-activity.xml": 1,
+      "across-ss.xml": 1
     }
   },
   ".//@xml:lang": {
+    "EN": {
+      "across-activity.xml": 1
+    },
     "en": {
       "across-ss.xml": 64
     },
     "nl": {
       "across-ss.xml": 9
-    },
-    "EN": {
-      "across-activity.xml": 1
     }
   },
   ".//activity-date/@type": {
-    "3": {
-      "across-ss.xml": 1
-    },
-    "2": {
-      "across-ss.xml": 1
-    },
     "end-planned": {
       "across-activity.xml": 1
     },
     "start-actual": {
       "across-activity.xml": 1
+    },
+    "3": {
+      "across-ss.xml": 1
+    },
+    "2": {
+      "across-ss.xml": 1
     }
   },
   ".//activity-scope/@code": {
@@ -37,8 +37,8 @@
   },
   ".//activity-status/@code": {
     "2": {
-      "across-ss.xml": 1,
-      "across-activity.xml": 1
+      "across-activity.xml": 1,
+      "across-ss.xml": 1
     }
   },
   ".//budget/@status": {
@@ -57,48 +57,48 @@
     }
   },
   ".//participating-org/@role": {
-    "2": {
-      "across-ss.xml": 1
-    },
-    "1": {
-      "across-ss.xml": 1
-    },
     "Funding": {
       "across-activity.xml": 1
     },
     "Implementing": {
       "across-activity.xml": 1
+    },
+    "2": {
+      "across-ss.xml": 1
+    },
+    "1": {
+      "across-ss.xml": 1
     }
   },
   ".//participating-org/@type": {
+    "INGO": {
+      "across-activity.xml": 2
+    },
     "21": {
       "across-ss.xml": 1
     },
     "10": {
       "across-ss.xml": 1
-    },
-    "INGO": {
-      "across-activity.xml": 2
     }
   },
   ".//recipient-country/@code": {
     "SS": {
-      "across-ss.xml": 1,
-      "across-activity.xml": 1
+      "across-activity.xml": 1,
+      "across-ss.xml": 1
     }
   },
   ".//reporting-org/@type": {
     "21": {
-      "across-ss.xml": 1,
-      "across-activity.xml": 1
+      "across-activity.xml": 1,
+      "across-ss.xml": 1
     }
   },
   ".//sector/@vocabulary": {
-    "1": {
-      "across-ss.xml": 1
-    },
     "OECD-DAC": {
       "across-activity.xml": 1
+    },
+    "1": {
+      "across-ss.xml": 1
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -142,12 +142,6 @@
     }
   },
   ".//transaction/transaction-type/@code": {
-    "4": {
-      "across-ss.xml": 22
-    },
-    "1": {
-      "across-ss.xml": 9
-    },
     "IF": {
       "across-activity.xml": 3
     },
@@ -156,12 +150,18 @@
     },
     "E": {
       "across-activity.xml": 119
+    },
+    "4": {
+      "across-ss.xml": 22
+    },
+    "1": {
+      "across-ss.xml": 9
     }
   },
   ".//transaction/value/@currency": {
     "GBP": {
-      "across-ss.xml": 31,
-      "across-activity.xml": 123
+      "across-activity.xml": 123,
+      "across-ss.xml": 31
     }
   }
 }

@@ -184,13 +184,13 @@
     "iati-activity/@default-currency": 74,
     "iati-activity/@humanitarian": 74,
     "iati-activity/@hierarchy": 74,
-    "iati-activity/participating-org/@activity-id": 25,
     "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 73,
     "iati-activity/participating-org/@ref": 73,
+    "iati-activity/participating-org/@activity-id": 25,
     "iati-activity/policy-marker": 36,
-    "iati-activity/policy-marker/@vocabulary": 20,
     "iati-activity/policy-marker/@code": 36,
     "iati-activity/policy-marker/@significance": 35,
+    "iati-activity/policy-marker/@vocabulary": 20,
     "iati-activity/transaction": 5,
     "iati-activity/transaction/transaction-type": 5,
     "iati-activity/transaction/transaction-type/@code": 5,
@@ -337,13 +337,13 @@
     "iati-activity/@default-currency": 74,
     "iati-activity/@humanitarian": 74,
     "iati-activity/@hierarchy": 74,
-    "iati-activity/participating-org/@activity-id": 177,
     "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 254,
     "iati-activity/participating-org/@ref": 254,
+    "iati-activity/participating-org/@activity-id": 177,
     "iati-activity/policy-marker": 42,
-    "iati-activity/policy-marker/@vocabulary": 26,
     "iati-activity/policy-marker/@code": 42,
     "iati-activity/policy-marker/@significance": 41,
+    "iati-activity/policy-marker/@vocabulary": 26,
     "iati-activity/transaction": 834,
     "iati-activity/transaction/transaction-type": 834,
     "iati-activity/transaction/transaction-type/@code": 834,
@@ -388,35 +388,28 @@
   "forwardlooking_currency_year": {
     "2022": {
       "AUD": 100000.0,
-      "GBP": 12773754.76,
-      "EUR": 29960505.98
+      "EUR": 29960505.98,
+      "GBP": 12773754.76
+    },
+    "2019": {
+      "EUR": 13369208.41,
+      "GBP": 30791486.48
+    },
+    "2020": {
+      "EUR": 13853156.13,
+      "GBP": 27379528.1
+    },
+    "2021": {
+      "EUR": 34770224.64,
+      "GBP": 39558785.77747778
     },
     "2018": {
       "GBP": 29916550.58,
       "EUR": 13065553.16
     },
-    "2019": {
-      "GBP": 30791486.48,
-      "EUR": 13369208.41
-    },
-    "2020": {
-      "GBP": 27379528.1,
-      "EUR": 13853156.13
-    },
-    "2021": {
-      "GBP": 39558785.77747778,
-      "EUR": 34770224.64
-    },
-    "2023": {
-      "GBP": 9231749.0,
-      "EUR": 9659331.0
-    },
     "2017": {
       "GBP": 9995041.29,
       "EUR": 4839602.35
-    },
-    "2024": {
-      "EUR": 1464089.21
     },
     "2016": {
       "EUR": 512298.02,
@@ -424,6 +417,13 @@
     },
     "2015": {
       "GBP": 777040.0
+    },
+    "2023": {
+      "EUR": 9659331.0,
+      "GBP": 9231749.0
+    },
+    "2024": {
+      "EUR": 1464089.21
     }
   }
 }

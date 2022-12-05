@@ -72,11 +72,10 @@
       "iati-activity/transaction/value": 584,
       "iati-activity/transaction/value/@value-date": 584,
       "iati-activity/transaction/provider-org": 584,
+      "iati-activity/transaction/provider-org/@provider-activity-id": 584,
       "iati-activity/transaction/provider-org/@ref": 584,
       "iati-activity/transaction/receiver-org": 584,
-      "iati-activity/transaction/receiver-org/@receiver-activity-id": 1,
       "iati-activity/transaction/receiver-org/@ref": 584,
-      "iati-activity/transaction/provider-org/@provider-activity-id": 584,
       "iati-activity/@default-currency": 1171,
       "iati-activity/@humanitarian": 1171,
       "iati-activity/@last-updated-datetime": 1171,
@@ -148,7 +147,8 @@
       "iati-activity/result/indicator/period/target/comment": 16,
       "iati-activity/result/indicator/period/target/comment/narrative": 16,
       "iati-activity/result/indicator/period/actual/comment": 17,
-      "iati-activity/result/indicator/period/actual/comment/narrative": 17
+      "iati-activity/result/indicator/period/actual/comment/narrative": 17,
+      "iati-activity/transaction/receiver-org/@receiver-activity-id": 1
     },
     "elements_total": {
       "iati-activity": 1171,
@@ -221,11 +221,10 @@
       "iati-activity/transaction/value": 8284,
       "iati-activity/transaction/value/@value-date": 8284,
       "iati-activity/transaction/provider-org": 8284,
+      "iati-activity/transaction/provider-org/@provider-activity-id": 4439,
       "iati-activity/transaction/provider-org/@ref": 8282,
       "iati-activity/transaction/receiver-org": 8284,
-      "iati-activity/transaction/receiver-org/@receiver-activity-id": 3,
       "iati-activity/transaction/receiver-org/@ref": 8274,
-      "iati-activity/transaction/provider-org/@provider-activity-id": 4439,
       "iati-activity/@default-currency": 1171,
       "iati-activity/@humanitarian": 1171,
       "iati-activity/@last-updated-datetime": 1171,
@@ -297,15 +296,10 @@
       "iati-activity/result/indicator/period/target/comment": 370,
       "iati-activity/result/indicator/period/target/comment/narrative": 370,
       "iati-activity/result/indicator/period/actual/comment": 517,
-      "iati-activity/result/indicator/period/actual/comment/narrative": 517
+      "iati-activity/result/indicator/period/actual/comment/narrative": 517,
+      "iati-activity/transaction/receiver-org/@receiver-activity-id": 3
     },
     "forwardlooking_currency_year": {
-      "2019": {
-        "GBP": 12908068.0
-      },
-      "2020": {
-        "GBP": 7378910.0
-      },
       "2012": {
         "GBP": 8235036.0
       },
@@ -329,6 +323,12 @@
       },
       "2018": {
         "GBP": 14684203.0
+      },
+      "2019": {
+        "GBP": 12908068.0
+      },
+      "2020": {
+        "GBP": 7378910.0
       },
       "2021": {
         "GBP": 1594420.0

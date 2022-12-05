@@ -106,9 +106,10 @@
     "iati-activity/contact-info/@type": 5833,
     "iati-activity/activity-scope": 4761,
     "iati-activity/activity-scope/@code": 4761,
-    "iati-activity/recipient-country": 4701,
-    "iati-activity/recipient-country/@percentage": 4701,
-    "iati-activity/recipient-country/@code": 4701,
+    "iati-activity/recipient-region": 1266,
+    "iati-activity/recipient-region/@percentage": 1266,
+    "iati-activity/recipient-region/@code": 1266,
+    "iati-activity/recipient-region/@vocabulary": 1266,
     "iati-activity/location": 4962,
     "iati-activity/location/location-reach": 4962,
     "iati-activity/location/location-reach/@code": 4962,
@@ -188,17 +189,16 @@
     "iati-activity/@default-currency": 5833,
     "iati-activity/@hierarchy": 5833,
     "iati-activity/@humanitarian": 5833,
-    "iati-activity/capital-spend": 1038,
-    "iati-activity/capital-spend/@percentage": 1038,
-    "iati-activity/transaction/receiver-org": 4306,
-    "iati-activity/transaction/receiver-org/@ref": 4306,
-    "iati-activity/recipient-region": 1266,
-    "iati-activity/recipient-region/@percentage": 1266,
-    "iati-activity/recipient-region/@code": 1266,
-    "iati-activity/recipient-region/@vocabulary": 1266,
+    "iati-activity/recipient-country": 4701,
+    "iati-activity/recipient-country/@percentage": 4701,
+    "iati-activity/recipient-country/@code": 4701,
     "iati-activity/related-activity": 810,
     "iati-activity/related-activity/@type": 810,
     "iati-activity/related-activity/@ref": 810,
+    "iati-activity/transaction/receiver-org": 4306,
+    "iati-activity/transaction/receiver-org/@ref": 4306,
+    "iati-activity/capital-spend": 1038,
+    "iati-activity/capital-spend/@percentage": 1038,
     "iati-activity/planned-disbursement": 795,
     "iati-activity/planned-disbursement/period-start": 795,
     "iati-activity/planned-disbursement/period-start/@iso-date": 795,
@@ -249,9 +249,10 @@
     "iati-activity/contact-info/@type": 5833,
     "iati-activity/activity-scope": 4761,
     "iati-activity/activity-scope/@code": 4761,
-    "iati-activity/recipient-country": 8804,
-    "iati-activity/recipient-country/@percentage": 8804,
-    "iati-activity/recipient-country/@code": 8804,
+    "iati-activity/recipient-region": 3391,
+    "iati-activity/recipient-region/@percentage": 3391,
+    "iati-activity/recipient-region/@code": 3391,
+    "iati-activity/recipient-region/@vocabulary": 3391,
     "iati-activity/location": 12828,
     "iati-activity/location/location-reach": 12828,
     "iati-activity/location/location-reach/@code": 12828,
@@ -331,17 +332,16 @@
     "iati-activity/@default-currency": 5833,
     "iati-activity/@hierarchy": 5833,
     "iati-activity/@humanitarian": 5833,
-    "iati-activity/capital-spend": 1038,
-    "iati-activity/capital-spend/@percentage": 1038,
-    "iati-activity/transaction/receiver-org": 21025,
-    "iati-activity/transaction/receiver-org/@ref": 21025,
-    "iati-activity/recipient-region": 3391,
-    "iati-activity/recipient-region/@percentage": 3391,
-    "iati-activity/recipient-region/@code": 3391,
-    "iati-activity/recipient-region/@vocabulary": 3391,
+    "iati-activity/recipient-country": 8804,
+    "iati-activity/recipient-country/@percentage": 8804,
+    "iati-activity/recipient-country/@code": 8804,
     "iati-activity/related-activity": 1846,
     "iati-activity/related-activity/@type": 1846,
     "iati-activity/related-activity/@ref": 1846,
+    "iati-activity/transaction/receiver-org": 21025,
+    "iati-activity/transaction/receiver-org/@ref": 21025,
+    "iati-activity/capital-spend": 1038,
+    "iati-activity/capital-spend/@percentage": 1038,
     "iati-activity/planned-disbursement": 1529,
     "iati-activity/planned-disbursement/period-start": 1529,
     "iati-activity/planned-disbursement/period-start/@iso-date": 1529,
@@ -366,21 +366,6 @@
     "2024": 176
   },
   "forwardlooking_currency_year": {
-    "1997": {
-      "CAD": 686860.0
-    },
-    "1998": {
-      "CAD": 2146171.0
-    },
-    "1999": {
-      "CAD": 4536515.0
-    },
-    "2000": {
-      "CAD": 9453533.0
-    },
-    "2001": {
-      "CAD": 37551360.0
-    },
     "2002": {
       "CAD": 75657732.0
     },
@@ -393,8 +378,14 @@
     "2005": {
       "CAD": 416643654.0
     },
-    "1996": {
-      "CAD": 69414.0
+    "2006": {
+      "CAD": 838228968.0
+    },
+    "2010": {
+      "CAD": 2596795504.0
+    },
+    "2012": {
+      "CAD": 3122014496.0
     },
     "2008": {
       "CAD": 1891508106.0
@@ -402,20 +393,8 @@
     "2009": {
       "CAD": 2343570960.0
     },
-    "2010": {
-      "CAD": 2596795504.0
-    },
-    "2006": {
-      "CAD": 838228968.0
-    },
-    "2007": {
-      "CAD": 1247028449.0
-    },
     "2011": {
       "CAD": 3265492894.0
-    },
-    "2012": {
-      "CAD": 3122014496.0
     },
     "2013": {
       "CAD": 2811347464.0
@@ -426,41 +405,62 @@
     "2015": {
       "CAD": 2473614145.0
     },
+    "2007": {
+      "CAD": 1247028449.0
+    },
     "2016": {
       "CAD": 2809684232.0
     },
     "2017": {
       "CAD": 3317308885.0
     },
-    "2022": {
-      "CAD": 1488577341.0
-    },
     "2019": {
       "CAD": 3684284416.0
     },
-    "2021": {
-      "CAD": 2335031667.0
-    },
-    "2020": {
-      "CAD": 3856123493.0
+    "2001": {
+      "CAD": 37551360.0
     },
     "2018": {
       "CAD": 3518897433.0
     },
-    "2024": {
-      "CAD": 785259681.0
+    "2020": {
+      "CAD": 3856123493.0
     },
-    "2023": {
-      "CAD": 1029639331.0
+    "2021": {
+      "CAD": 2335031667.0
     },
-    "2025": {
-      "CAD": 378099833.0
+    "2022": {
+      "CAD": 1488577341.0
     },
     "2026": {
       "CAD": 157492847.0
     },
+    "2023": {
+      "CAD": 1029639331.0
+    },
+    "2024": {
+      "CAD": 785259681.0
+    },
+    "2025": {
+      "CAD": 378099833.0
+    },
     "2027": {
       "CAD": 25437373.0
+    },
+    "1997": {
+      "CAD": 686860.0
+    },
+    "1998": {
+      "CAD": 2146171.0
+    },
+    "1999": {
+      "CAD": 4536515.0
+    },
+    "2000": {
+      "CAD": 9453533.0
+    },
+    "1996": {
+      "CAD": 69414.0
     }
   }
 }

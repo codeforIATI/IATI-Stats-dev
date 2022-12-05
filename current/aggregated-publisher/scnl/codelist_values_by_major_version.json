@@ -5,22 +5,22 @@
     },
     ".//activity-date/@type": {
       "2": 122,
-      "4": 47,
       "3": 91,
+      "4": 47,
       "1": 11
     },
     ".//activity-status/@code": {
-      "4": 39,
+      "3": 39,
       "2": 50,
-      "3": 39
+      "4": 39
     },
     ".//activity-scope/@code": {
       "4": 79,
-      "5": 4,
+      "1": 5,
       "3": 3,
+      "5": 4,
       "6": 4,
-      "2": 3,
-      "1": 5
+      "2": 3
     },
     ".//budget/@status": {
       "2": 226,
@@ -74,60 +74,60 @@
     },
     ".//participating-org/@type": {
       "21": 466,
-      "22": 13,
       "10": 18,
+      "80": 1,
+      "22": 13,
       "15": 2,
-      "60": 1,
-      "80": 1
+      "60": 1
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "1": 103,
       "3": 13,
-      "9": 4,
-      "12": 4
+      "12": 4,
+      "9": 4
     },
     ".//policy-marker/@significance": {
       "1": 67,
-      "0": 4,
       "4": 7,
-      "2": 8
+      "2": 8,
+      "0": 4
     },
     ".//policy-marker/@vocabulary": {
       "1": 109
     },
     ".//recipient-country/@code": {
-      "ET": 4,
-      "NG": 19,
-      "PK": 1,
-      "SS": 33,
-      "MZ": 2,
-      "PS": 1,
+      "ZM": 1,
       "CI": 1,
+      "UA": 5,
+      "MZ": 2,
+      "BD": 2,
+      "VN": 1,
+      "CF": 1,
+      "PK": 1,
+      "IN": 3,
+      "NG": 19,
       "UG": 2,
-      "YE": 7,
-      "SO": 6,
+      "AF": 3,
       "KE": 1,
       "MG": 1,
-      "ID": 3,
+      "YE": 7,
       "SY": 4,
-      "IQ": 2,
-      "CO": 1,
-      "BF": 3,
-      "BD": 2,
-      "IN": 3,
+      "PS": 1,
+      "ID": 3,
+      "SS": 33,
+      "MW": 1,
       "NE": 2,
-      "JO": 1,
-      "LB": 4,
-      "CF": 1,
-      "UA": 5,
-      "ML": 3,
-      "ZM": 1,
-      "VN": 1,
-      "AF": 3,
-      "NL": 2,
+      "SO": 6,
+      "ET": 4,
+      "CO": 1,
       "PL": 1,
       "RO": 1,
-      "MW": 1
+      "BF": 3,
+      "JO": 1,
+      "NL": 2,
+      "IQ": 2,
+      "LB": 4,
+      "ML": 3
     },
     ".//related-activity/@type": {
       "1": 95,
@@ -146,35 +146,82 @@
       "2": 62
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "72010": 77,
       "72040": 27,
-      "72050": 33,
-      "15180": 1,
-      "99810": 3,
-      "12240": 6,
       "16070": 7,
-      "23183": 1,
-      "14020": 1,
-      "14031": 1,
-      "11231": 5,
+      "72010": 77,
+      "72050": 33,
+      "12240": 6,
       "15150": 4,
       "15110": 4,
       "14030": 4,
-      "12340": 3,
-      "15160": 6,
-      "32182": 2,
       "11220": 1,
       "16010": 1,
       "15220": 1,
+      "15160": 6,
+      "11231": 5,
+      "23183": 1,
+      "32182": 2,
+      "12340": 3,
+      "72011": 1,
+      "14020": 1,
       "73010": 1,
-      "72011": 1
+      "15180": 1,
+      "99810": 3,
+      "14031": 1
     },
     ".//sector/@vocabulary": {
       "1": 190
     },
+    ".//transaction/provider-org/@type": {
+      "21": 1056,
+      "10": 45,
+      "15": 5,
+      "60": 1
+    },
+    ".//transaction/receiver-org/@type": {
+      "21": 1017,
+      "80": 1,
+      "10": 2
+    },
+    ".//transaction/transaction-type/@code": {
+      "1": 233,
+      "7": 336,
+      "2": 190,
+      "11": 97,
+      "4": 165,
+      "3": 295
+    },
+    ".//transaction/value/@currency": {
+      "EUR": 603,
+      "USD": 1
+    },
+    ".//@xml:lang": {
+      "en": 1433,
+      "fr": 23,
+      "nl": 1
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "619": 1,
+      "289": 2,
+      "998": 6,
+      "298": 11,
+      "589": 5,
+      "679": 1,
+      "689": 1
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 24,
+      "99": 1
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "99": 255
+    },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 155,
       "B03": 2
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "1": 149
     },
     ".//transaction/disbursement-channel/@code": {
       "2": 56
@@ -185,70 +232,32 @@
     ".//transaction/flow-type/@code": {
       "10": 153
     },
-    ".//transaction/provider-org/@type": {
-      "21": 1056,
-      "10": 45,
-      "15": 5,
-      "60": 1
-    },
-    ".//transaction/receiver-org/@type": {
-      "21": 1017,
-      "10": 2,
-      "80": 1
-    },
     ".//transaction/tied-status/@code": {
       "5": 143,
       "4": 1
     },
-    ".//transaction/transaction-type/@code": {
-      "1": 233,
-      "2": 190,
-      "4": 165,
-      "7": 336,
-      "11": 97,
-      "3": 295
-    },
-    ".//transaction/value/@currency": {
-      "EUR": 603,
-      "USD": 1
-    },
-    ".//@xml:lang": {
-      "en": 1433,
-      "nl": 1,
-      "fr": 23
-    },
     ".//document-link/@format": {
-      "application/http": 11,
       "application/pdf": 18,
+      "application/http": 11,
       "application/1d-interleaved-parityfec": 4
     },
     ".//document-link/category/@code": {
       "B01": 18,
       "A08": 10,
-      "A05": 1,
-      "A07": 4
+      "A07": 4,
+      "A05": 1
     },
     ".//document-link/language/@code": {
       "en": 28
     },
-    ".//result/indicator/reference/@vocabulary": {
-      "99": 255
+    ".//result/reference/@vocabulary": {
+      "99": 12
     },
-    ".//transaction/aid-type/@vocabulary": {
-      "1": 149
+    ".//result/document-link/@format": {
+      "application/1d-interleaved-parityfec": 4
     },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "298": 11,
-      "689": 1,
-      "589": 5,
-      "679": 1,
-      "998": 6,
-      "619": 1,
-      "289": 2
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 24,
-      "99": 1
+    ".//result/document-link/category/@code": {
+      "A08": 4
     },
     ".//humanitarian-scope/@type": {
       "1": 2
@@ -257,17 +266,8 @@
       "99": 1,
       "2-1": 1
     },
-    ".//result/reference/@vocabulary": {
-      "99": 12
-    },
     ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
       "HCOVD20": 1
-    },
-    ".//result/document-link/@format": {
-      "application/1d-interleaved-parityfec": 4
-    },
-    ".//result/document-link/category/@code": {
-      "A08": 4
     }
   }
 }

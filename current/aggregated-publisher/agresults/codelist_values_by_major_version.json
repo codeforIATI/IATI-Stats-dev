@@ -4,14 +4,14 @@
       "USD": 11
     },
     ".//activity-date/@type": {
-      "2": 6,
-      "3": 7,
       "1": 5,
-      "4": 2
+      "3": 7,
+      "4": 2,
+      "2": 6
     },
     ".//activity-status/@code": {
-      "2": 6,
-      "4": 5
+      "4": 5,
+      "2": 6
     },
     ".//budget/@status": {
       "2": 61
@@ -31,30 +31,34 @@
       "1": 1
     },
     ".//participating-org/@type": {
-      "22": 3,
-      "80": 2,
-      "72": 1,
       "21": 5,
       "70": 6,
+      "80": 2,
+      "22": 3,
+      "72": 1,
       "40": 1
     },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "998": 1,
-      "289": 1
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 2
+    ".//recipient-country/@code": {
+      "VN": 1,
+      "KE": 1,
+      "NG": 1,
+      "TZ": 1,
+      "SN": 1,
+      "ID": 1,
+      "US": 1,
+      "ZM": 1,
+      "UG": 1
     },
     ".//reporting-org/@type": {
       "40": 11
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "31163": 1,
       "31120": 6,
+      "31163": 1,
       "31150": 1,
+      "31193": 1,
       "31320": 1,
-      "31195": 1,
-      "31193": 1
+      "31195": 1
     },
     ".//sector/@vocabulary": {
       "1": 11
@@ -62,16 +66,12 @@
     ".//@xml:lang": {
       "en": 30
     },
-    ".//recipient-country/@code": {
-      "NG": 1,
-      "TZ": 1,
-      "ZM": 1,
-      "ID": 1,
-      "UG": 1,
-      "VN": 1,
-      "US": 1,
-      "KE": 1,
-      "SN": 1
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "998": 1,
+      "289": 1
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 2
     }
   }
 }

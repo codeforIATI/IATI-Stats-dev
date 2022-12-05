@@ -5,12 +5,12 @@
     },
     ".//activity-date/@type": {
       "2": 23,
-      "3": 18,
-      "4": 5
+      "4": 5,
+      "3": 18
     },
     ".//activity-status/@code": {
-      "2": 18,
-      "4": 5
+      "4": 5,
+      "2": 18
     },
     ".//budget/value/@currency": {
       "EUR": 111
@@ -40,13 +40,13 @@
       "4": 13
     },
     ".//document-link/@format": {
-      "text/html": 8,
-      "application/pdf": 39
+      "application/pdf": 39,
+      "text/html": 8
     },
     ".//document-link/category/@code": {
-      "A12": 8,
       "B01": 37,
-      "A07": 2
+      "A07": 2,
+      "A12": 8
     },
     ".//document-link/language/@code": {
       "en": 46,
@@ -69,19 +69,20 @@
       "2": 3
     },
     ".//policy-marker/@significance": {
-      "1": 22,
-      "2": 15
+      "2": 15,
+      "1": 22
     },
     ".//policy-marker/@vocabulary": {
       "1": 37
     },
     ".//recipient-country/@code": {
+      "SS": 8,
       "BE": 3,
       "IQ": 5,
       "NL": 3,
-      "SS": 8,
       "US": 2,
       "DE": 1,
+      "UA": 1,
       "CD": 1,
       "LB": 1,
       "PS": 1,
@@ -89,18 +90,14 @@
       "ML": 1,
       "NE": 1,
       "SY": 1,
-      "YE": 1,
-      "UA": 1
-    },
-    ".//related-activity/@type": {
-      "1": 13
+      "YE": 1
     },
     ".//reporting-org/@type": {
       "21": 23
     },
     ".//result/@type": {
-      "1": 37,
       "2": 47,
+      "1": 37,
       "9": 3
     },
     ".//result/indicator/@measure": {
@@ -112,13 +109,16 @@
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "15220": 17,
-      "15210": 3,
       "15160": 10,
+      "15210": 3,
       "15180": 6,
+      "15170": 8,
       "25040": 5,
       "15150": 8,
-      "15261": 1,
-      "15170": 8
+      "15261": 1
+    },
+    ".//sector/@vocabulary": {
+      "1": 52
     },
     ".//transaction/provider-org/@type": {
       "10": 45,
@@ -127,14 +127,14 @@
     },
     ".//transaction/receiver-org/@type": {
       "21": 312,
-      "80": 12,
-      "22": 10
+      "22": 10,
+      "80": 12
     },
     ".//transaction/transaction-type/@code": {
-      "11": 51,
       "1": 130,
       "2": 39,
       "3": 180,
+      "11": 51,
       "4": 99
     },
     ".//transaction/value/@currency": {
@@ -146,12 +146,12 @@
       "eng": 11
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "998": 3,
       "298": 2,
-      "589": 2,
-      "998": 3
+      "589": 2
     },
-    ".//sector/@vocabulary": {
-      "1": 52
+    ".//related-activity/@type": {
+      "1": 13
     }
   }
 }

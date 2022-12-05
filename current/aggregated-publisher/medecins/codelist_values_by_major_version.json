@@ -27,8 +27,8 @@
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 7,
-      "G01": 1,
-      "H01": 1
+      "H01": 1,
+      "G01": 1
     },
     ".//default-aid-type/@vocabulary": {
       "1": 9
@@ -67,20 +67,20 @@
       "9": 6
     },
     ".//policy-marker/@significance": {
-      "1": 11,
-      "2": 8
+      "2": 8,
+      "1": 11
     },
     ".//policy-marker/@vocabulary": {
       "1": 19
     },
     ".//recipient-country/@code": {
-      "BF": 1,
-      "NE": 1,
-      "CD": 1,
-      "HT": 1,
       "MA": 1,
-      "BJ": 1,
-      "BE": 1
+      "CD": 1,
+      "NE": 1,
+      "HT": 1,
+      "BE": 1,
+      "BF": 1,
+      "BJ": 1
     },
     ".//related-activity/@type": {
       "1": 8,
@@ -119,19 +119,19 @@
     ".//@xml:lang": {
       "fr": 18
     },
+    ".//other-identifier/@type": {
+      "A9": 1
+    },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "89": 1,
-      "998": 1
+      "998": 1,
+      "89": 1
     },
     ".//recipient-region/@vocabulary": {
       "1": 2
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "91010": 1,
-      "99810": 1
-    },
-    ".//other-identifier/@type": {
-      "A9": 1
+      "99810": 1,
+      "91010": 1
     }
   }
 }

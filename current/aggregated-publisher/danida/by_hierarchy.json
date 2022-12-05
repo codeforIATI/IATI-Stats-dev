@@ -270,10 +270,10 @@
       "iati-activity/participating-org": 12034,
       "iati-activity/participating-org/narrative": 12034,
       "iati-activity/participating-org/@{http://www.w3.org/XML/1998/namespace}lang": 12034,
-      "iati-activity/participating-org/@ref": 12034,
       "iati-activity/participating-org/@type": 12034,
       "iati-activity/participating-org/@role": 12034,
       "iati-activity/participating-org/@crs-channel-code": 12007,
+      "iati-activity/participating-org/@ref": 12034,
       "iati-activity/other-identifier": 11991,
       "iati-activity/other-identifier/owner-org": 11991,
       "iati-activity/other-identifier/owner-org/narrative": 11991,
@@ -293,9 +293,9 @@
       "iati-activity/contact-info/mailing-address": 12034,
       "iati-activity/contact-info/mailing-address/narrative": 12034,
       "iati-activity/contact-info/@type": 12034,
-      "iati-activity/recipient-country": 6121,
-      "iati-activity/recipient-country/@code": 6121,
-      "iati-activity/recipient-country/@percentage": 6121,
+      "iati-activity/recipient-region": 5913,
+      "iati-activity/recipient-region/@code": 5913,
+      "iati-activity/recipient-region/@percentage": 5913,
       "iati-activity/sector": 12034,
       "iati-activity/sector/narrative": 12034,
       "iati-activity/sector/@{http://www.w3.org/XML/1998/namespace}lang": 12034,
@@ -341,8 +341,6 @@
       "iati-activity/transaction/value": 11959,
       "iati-activity/transaction/value/@currency": 11959,
       "iati-activity/transaction/value/@value-date": 11959,
-      "iati-activity/transaction/receiver-org": 2732,
-      "iati-activity/transaction/receiver-org/@ref": 2732,
       "iati-activity/transaction/flow-type": 11959,
       "iati-activity/transaction/flow-type/@code": 11959,
       "iati-activity/transaction/finance-type": 11959,
@@ -355,6 +353,12 @@
       "iati-activity/related-activity": 12034,
       "iati-activity/related-activity/@ref": 12034,
       "iati-activity/related-activity/@type": 12034,
+      "iati-activity/@last-updated-datetime": 12034,
+      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 12034,
+      "iati-activity/@default-currency": 12034,
+      "iati-activity/@hierarchy": 12034,
+      "iati-activity/transaction/receiver-org": 2732,
+      "iati-activity/transaction/receiver-org/@ref": 2732,
       "iati-activity/result": 1529,
       "iati-activity/result/title": 1529,
       "iati-activity/result/title/narrative": 1529,
@@ -377,14 +381,10 @@
       "iati-activity/result/indicator/@ascending": 1529,
       "iati-activity/result/indicator/@aggregation-status": 1529,
       "iati-activity/result/@type": 1529,
-      "iati-activity/@last-updated-datetime": 12034,
-      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 12034,
-      "iati-activity/@default-currency": 12034,
-      "iati-activity/@hierarchy": 12034,
-      "iati-activity/recipient-region": 5913,
-      "iati-activity/recipient-region/@code": 5913,
-      "iati-activity/recipient-region/@percentage": 5913,
       "iati-activity/contact-info/website": 2899,
+      "iati-activity/recipient-country": 6121,
+      "iati-activity/recipient-country/@code": 6121,
+      "iati-activity/recipient-country/@percentage": 6121,
       "iati-activity/@humanitarian": 1324,
       "iati-activity/transaction/description": 16,
       "iati-activity/transaction/description/narrative": 16
@@ -407,10 +407,10 @@
       "iati-activity/participating-org": 24041,
       "iati-activity/participating-org/narrative": 24041,
       "iati-activity/participating-org/@{http://www.w3.org/XML/1998/namespace}lang": 24041,
-      "iati-activity/participating-org/@ref": 14766,
       "iati-activity/participating-org/@type": 24041,
       "iati-activity/participating-org/@role": 24041,
       "iati-activity/participating-org/@crs-channel-code": 12007,
+      "iati-activity/participating-org/@ref": 14766,
       "iati-activity/other-identifier": 36709,
       "iati-activity/other-identifier/owner-org": 36709,
       "iati-activity/other-identifier/owner-org/narrative": 36709,
@@ -430,9 +430,9 @@
       "iati-activity/contact-info/mailing-address": 12034,
       "iati-activity/contact-info/mailing-address/narrative": 12034,
       "iati-activity/contact-info/@type": 12034,
-      "iati-activity/recipient-country": 6121,
-      "iati-activity/recipient-country/@code": 6121,
-      "iati-activity/recipient-country/@percentage": 6121,
+      "iati-activity/recipient-region": 5913,
+      "iati-activity/recipient-region/@code": 5913,
+      "iati-activity/recipient-region/@percentage": 5913,
       "iati-activity/sector": 24070,
       "iati-activity/sector/narrative": 24070,
       "iati-activity/sector/@{http://www.w3.org/XML/1998/namespace}lang": 24070,
@@ -478,8 +478,6 @@
       "iati-activity/transaction/value": 173765,
       "iati-activity/transaction/value/@currency": 173765,
       "iati-activity/transaction/value/@value-date": 173765,
-      "iati-activity/transaction/receiver-org": 23097,
-      "iati-activity/transaction/receiver-org/@ref": 23097,
       "iati-activity/transaction/flow-type": 173765,
       "iati-activity/transaction/flow-type/@code": 173765,
       "iati-activity/transaction/finance-type": 173765,
@@ -492,6 +490,12 @@
       "iati-activity/related-activity": 12034,
       "iati-activity/related-activity/@ref": 12034,
       "iati-activity/related-activity/@type": 12034,
+      "iati-activity/@last-updated-datetime": 12034,
+      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 12034,
+      "iati-activity/@default-currency": 12034,
+      "iati-activity/@hierarchy": 12034,
+      "iati-activity/transaction/receiver-org": 23097,
+      "iati-activity/transaction/receiver-org/@ref": 23097,
       "iati-activity/result": 7415,
       "iati-activity/result/title": 7415,
       "iati-activity/result/title/narrative": 7415,
@@ -514,24 +518,17 @@
       "iati-activity/result/indicator/@ascending": 7415,
       "iati-activity/result/indicator/@aggregation-status": 7415,
       "iati-activity/result/@type": 7415,
-      "iati-activity/@last-updated-datetime": 12034,
-      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 12034,
-      "iati-activity/@default-currency": 12034,
-      "iati-activity/@hierarchy": 12034,
-      "iati-activity/recipient-region": 5913,
-      "iati-activity/recipient-region/@code": 5913,
-      "iati-activity/recipient-region/@percentage": 5913,
       "iati-activity/contact-info/website": 2899,
+      "iati-activity/recipient-country": 6121,
+      "iati-activity/recipient-country/@code": 6121,
+      "iati-activity/recipient-country/@percentage": 6121,
       "iati-activity/@humanitarian": 1324,
       "iati-activity/transaction/description": 102,
       "iati-activity/transaction/description/narrative": 102
     },
     "forwardlooking_currency_year": {
-      "2017": {
-        "DKK": 12660611169.0
-      },
-      "2018": {
-        "DKK": 13434195702.0
+      "2020": {
+        "DKK": 12972067220.0
       },
       "2019": {
         "DKK": 16381568263.0
@@ -539,17 +536,44 @@
       "2021": {
         "DKK": 13633313795.0
       },
-      "2020": {
-        "DKK": 12972067220.0
+      "2023": {
+        "DKK": 3009985954.0
       },
       "2022": {
         "DKK": 6847181861.0
       },
-      "2023": {
-        "DKK": 3009985954.0
+      "2018": {
+        "DKK": 13434195702.0
       },
-      "1998": {
-        "DKK": -209511644.0
+      "2017": {
+        "DKK": 12660611169.0
+      },
+      "2024": {
+        "DKK": 1287047642.0
+      },
+      "2025": {
+        "DKK": 685089453.0
+      },
+      "2026": {
+        "DKK": -29165215.0
+      },
+      "2011": {
+        "DKK": 12222605740.0
+      },
+      "2012": {
+        "DKK": 12416105163.0
+      },
+      "2013": {
+        "DKK": 15427081715.0
+      },
+      "2014": {
+        "DKK": 14005198843.0
+      },
+      "2015": {
+        "DKK": 10259195489.0
+      },
+      "2016": {
+        "DKK": 10785874755.0
       },
       "1999": {
         "DKK": 1980740878.0
@@ -559,30 +583,6 @@
       },
       "2001": {
         "DKK": 1609394312.0
-      },
-      "2008": {
-        "DKK": 8597269447.0
-      },
-      "2009": {
-        "DKK": 9208781245.0
-      },
-      "2010": {
-        "DKK": 10673364858.0
-      },
-      "2011": {
-        "DKK": 12222605740.0
-      },
-      "2026": {
-        "DKK": -29165215.0
-      },
-      "2029": {
-        "DKK": -89809420.0
-      },
-      "2028": {
-        "DKK": 2854901.0
-      },
-      "2016": {
-        "DKK": 10785874755.0
       },
       "2002": {
         "DKK": 2469485440.0
@@ -599,26 +599,26 @@
       "2006": {
         "DKK": 6867391248.0
       },
+      "2008": {
+        "DKK": 8597269447.0
+      },
+      "2009": {
+        "DKK": 9208781245.0
+      },
+      "2010": {
+        "DKK": 10673364858.0
+      },
+      "1998": {
+        "DKK": -209511644.0
+      },
       "2007": {
         "DKK": 7929602327.0
       },
-      "2012": {
-        "DKK": 12416105163.0
+      "2029": {
+        "DKK": -89809420.0
       },
-      "2013": {
-        "DKK": 15427081715.0
-      },
-      "2014": {
-        "DKK": 14005198843.0
-      },
-      "2015": {
-        "DKK": 10259195489.0
-      },
-      "2024": {
-        "DKK": 1287047642.0
-      },
-      "2025": {
-        "DKK": 685089453.0
+      "2028": {
+        "DKK": 2854901.0
       },
       "2030": {
         "DKK": 217714416.0

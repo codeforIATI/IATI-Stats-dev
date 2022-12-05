@@ -8,8 +8,8 @@
     },
     ".//activity-status/@code": {
       "3": 5361,
-      "4": 4829,
       "2": 1543,
+      "4": 4829,
       "1": 50
     },
     ".//activity-scope/@code": {
@@ -56,34 +56,34 @@
       "1": 11607
     },
     ".//participating-org/@type": {
-      "21": 9893,
       "40": 15122,
+      "21": 9893,
       "22": 9880,
       "10": 2058
     },
     ".//recipient-country/@code": {
-      "YE": 884,
-      "JO": 202,
-      "IQ": 587,
+      "ET": 912,
+      "NG": 472,
       "UA": 238,
       "SO": 956,
-      "VE": 69,
-      "PS": 470,
-      "ET": 912,
-      "CO": 29,
-      "CD": 677,
       "CF": 624,
+      "PS": 470,
       "SY": 638,
-      "BF": 57,
-      "NG": 472,
+      "MM": 325,
       "AF": 963,
       "LB": 306,
-      "SD": 698,
-      "MM": 325,
-      "NE": 43,
       "SS": 1339,
-      "TR": 1154,
       "PK": 138,
+      "IQ": 587,
+      "CD": 677,
+      "JO": 202,
+      "YE": 884,
+      "SD": 698,
+      "CO": 29,
+      "TR": 1154,
+      "VE": 69,
+      "NE": 43,
+      "BF": 57,
       "HT": 2
     },
     ".//related-activity/@type": {
@@ -109,17 +109,14 @@
       "2": 9549,
       "3": 18234,
       "7": 3127,
-      "1": 2007,
-      "11": 2058
+      "11": 2058,
+      "1": 2007
     },
     ".//transaction/value/@currency": {
       "USD": 34975
     },
     ".//@xml:lang": {
       "en": 11607
-    },
-    ".//transaction/receiver-org/@type": {
-      "40": 4065
     },
     ".//humanitarian-scope/@type": {
       "2": 1345
@@ -131,37 +128,40 @@
       "A9": 1842
     },
     ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
-      "HPSE22": 7,
-      "HCOVD20": 10,
-      "HSYR20": 227,
       "HUKR19": 8,
-      "HSDN20": 28,
-      "HNER21": 2,
-      "HSYR19": 159,
-      "HPSE20": 14,
-      "HNGA20": 6,
-      "HSDN21": 25,
-      "HIRQ19": 59,
-      "HSYR21": 206,
-      "HBFA22": 3,
-      "HUKR20": 8,
-      "HNGA22": 6,
-      "HSSD20": 103,
-      "HNGA21": 6,
-      "HSYR22": 99,
-      "HSSD21": 81,
-      "HSOM22": 10,
-      "HUKR21": 7,
-      "HNGA19": 4,
-      "HPSE21": 9,
-      "HPSE19": 13,
-      "HSSD19": 146,
-      "HSDN22": 14,
       "HSOM20": 3,
+      "HCOVD20": 10,
+      "HPSE21": 9,
+      "HBFA22": 3,
+      "HNGA19": 4,
+      "HNER21": 2,
+      "HSDN22": 14,
       "HSOM21": 14,
-      "HSSD22": 43,
+      "HSSD20": 103,
+      "HSYR20": 227,
+      "HSDN21": 25,
+      "HSOM22": 10,
+      "HPSE22": 7,
+      "HSYR19": 159,
+      "HSDN20": 28,
+      "HSSD21": 81,
+      "HSDN19": 23,
+      "HIRQ19": 59,
+      "HUKR21": 7,
+      "HNGA20": 6,
       "HVEN21": 2,
-      "HSDN19": 23
+      "HSYR22": 99,
+      "HUKR20": 8,
+      "HPSE19": 13,
+      "HSYR21": 206,
+      "HNGA21": 6,
+      "HSSD19": 146,
+      "HPSE20": 14,
+      "HNGA22": 6,
+      "HSSD22": 43
+    },
+    ".//transaction/receiver-org/@type": {
+      "40": 4065
     }
   }
 }

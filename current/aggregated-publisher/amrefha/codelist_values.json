@@ -8,18 +8,18 @@
   ".//activity-date/@type": {
     "2": 22,
     "3": 19,
-    "1": 4,
-    "4": 4
+    "4": 4,
+    "1": 4
   },
   ".//activity-status/@code": {
     "2": 18,
-    "1": 2,
     "3": 5,
-    "4": 1
+    "4": 1,
+    "1": 2
   },
   ".//budget/@status": {
-    "1": 18,
-    "2": 39
+    "2": 39,
+    "1": 18
   },
   ".//budget/@type": {
     "1": 45,
@@ -56,13 +56,13 @@
     "4": 1
   },
   ".//document-link/@format": {
-    "application/pdf": 1,
     "application/xslt+xml": 4,
-    "application/msword": 4
+    "application/msword": 4,
+    "application/pdf": 1
   },
   ".//document-link/category/@code": {
-    "A02": 2,
     "A05": 4,
+    "A02": 2,
     "A08": 3
   },
   ".//document-link/language/@code": {
@@ -75,26 +75,29 @@
     "A1": 1
   },
   ".//participating-org/@role": {
-    "4": 24,
     "1": 32,
+    "4": 24,
     "2": 17,
     "3": 1
   },
   ".//participating-org/@type": {
-    "21": 36,
     "71": 7,
-    "22": 9,
+    "21": 36,
     "60": 16,
+    "10": 1,
+    "70": 1,
+    "22": 9,
     "40": 1,
     "90": 2,
-    "15": 1,
-    "10": 1,
-    "70": 1
+    "15": 1
   },
   ".//recipient-country/@code": {
-    "KE": 9,
-    "MW": 2,
     "ET": 7,
+    "UG": 6,
+    "KE": 9,
+    "ZA": 1,
+    "TZ": 3,
+    "MW": 2,
     "AO": 1,
     "BI": 1,
     "LS": 1,
@@ -102,19 +105,16 @@
     "MZ": 1,
     "RW": 1,
     "SS": 1,
-    "TZ": 3,
-    "UG": 6,
     "ZM": 1,
     "NA": 1,
-    "BW": 1,
-    "ZA": 1
+    "BW": 1
   },
   ".//recipient-region/@vocabulary": {
     "1": 24
   },
   ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "289": 18,
-    "298": 6
+    "298": 6,
+    "289": 18
   },
   ".//reporting-org/@type": {
     "21": 26
@@ -123,24 +123,24 @@
     "1": 31
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-    "12182": 1,
-    "12220": 3,
-    "12261": 2,
-    "12181": 9,
+    "12250": 2,
     "13020": 6,
-    "12310": 1,
     "14030": 3,
+    "12220": 3,
+    "12181": 9,
+    "12182": 1,
+    "12261": 2,
+    "12310": 1,
     "14032": 1,
     "16020": 1,
     "14050": 1,
-    "12250": 2,
     "12191": 1
   },
   ".//transaction/provider-org/@type": {
-    "21": 13,
-    "70": 5,
     "15": 7,
-    "71": 1
+    "21": 13,
+    "71": 1,
+    "70": 5
   },
   ".//transaction/receiver-org/@type": {
     "21": 18,

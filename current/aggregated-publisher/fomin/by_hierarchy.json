@@ -48,7 +48,6 @@
       "iati-activity/collaboration-type": 267,
       "iati-activity/collaboration-type/@code": 267,
       "iati-activity/default-flow-type": 267,
-      "iati-activity/default-flow-type/@code": 103,
       "iati-activity/default-finance-type": 267,
       "iati-activity/default-finance-type/@code": 267,
       "iati-activity/default-aid-type": 267,
@@ -80,6 +79,7 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 267,
       "iati-activity/@default-currency": 267,
       "iati-activity/@linked-data-uri": 267,
+      "iati-activity/default-flow-type/@code": 103,
       "iati-activity/budget": 20,
       "iati-activity/budget/period-start": 20,
       "iati-activity/budget/period-start/@iso-date": 20,
@@ -142,7 +142,6 @@
       "iati-activity/collaboration-type": 267,
       "iati-activity/collaboration-type/@code": 267,
       "iati-activity/default-flow-type": 267,
-      "iati-activity/default-flow-type/@code": 103,
       "iati-activity/default-finance-type": 267,
       "iati-activity/default-finance-type/@code": 267,
       "iati-activity/default-aid-type": 267,
@@ -174,6 +173,7 @@
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 267,
       "iati-activity/@default-currency": 267,
       "iati-activity/@linked-data-uri": 267,
+      "iati-activity/default-flow-type/@code": 103,
       "iati-activity/budget": 35,
       "iati-activity/budget/period-start": 35,
       "iati-activity/budget/period-start/@iso-date": 35,
@@ -190,20 +190,14 @@
       "iati-activity/recipient-region/@vocabulary": 30
     },
     "forwardlooking_currency_year": {
-      "2016": {
-        "USD": 8661000.0
-      },
-      "2017": {
-        "USD": 8400000.0
-      },
-      "2009": {
-        "USD": 150000.0
-      },
       "2018": {
         "USD": 5750000.0
       },
       "2019": {
         "USD": 3250000.0
+      },
+      "2017": {
+        "USD": 8400000.0
       },
       "2020": {
         "USD": 250000.0
@@ -214,8 +208,14 @@
       "2015": {
         "USD": 450000.0
       },
+      "2016": {
+        "USD": 8661000.0
+      },
       "2011": {
         "USD": 80000.0
+      },
+      "2009": {
+        "USD": 150000.0
       },
       "2010": {
         "USD": 1500000.0

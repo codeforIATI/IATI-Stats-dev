@@ -1,44 +1,44 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "apt-ke.xml": 1,
+      "apt-998.xml": 1,
       "apt-ug.xml": 3,
-      "apt-998.xml": 1
+      "apt-ke.xml": 1
     }
   },
   ".//@xml:lang": {
     "en": {
-      "apt-ke.xml": 11,
+      "apt-998.xml": 83,
       "apt-ug.xml": 86,
-      "apt-998.xml": 83
+      "apt-ke.xml": 11
     },
     "bn": {
       "apt-ke.xml": 1
     }
   },
   ".//activity-date/@type": {
-    "2": {
-      "apt-ke.xml": 1,
-      "apt-ug.xml": 3,
+    "1": {
       "apt-998.xml": 1
     },
-    "3": {
-      "apt-ke.xml": 1,
+    "2": {
+      "apt-998.xml": 1,
       "apt-ug.xml": 3,
-      "apt-998.xml": 1
+      "apt-ke.xml": 1
+    },
+    "3": {
+      "apt-998.xml": 1,
+      "apt-ug.xml": 3,
+      "apt-ke.xml": 1
     },
     "4": {
       "apt-ug.xml": 1
-    },
-    "1": {
-      "apt-998.xml": 1
     }
   },
   ".//activity-status/@code": {
     "2": {
-      "apt-ke.xml": 1,
+      "apt-998.xml": 1,
       "apt-ug.xml": 1,
-      "apt-998.xml": 1
+      "apt-ke.xml": 1
     },
     "3": {
       "apt-ug.xml": 1
@@ -48,41 +48,41 @@
     }
   },
   ".//budget/@status": {
+    "2": {
+      "apt-998.xml": 4,
+      "apt-ug.xml": 5
+    },
     "1": {
       "apt-ke.xml": 4
-    },
-    "2": {
-      "apt-ug.xml": 5,
-      "apt-998.xml": 4
     }
   },
   ".//budget/@type": {
     "2": {
-      "apt-ke.xml": 3,
+      "apt-998.xml": 4,
       "apt-ug.xml": 4,
-      "apt-998.xml": 4
+      "apt-ke.xml": 3
     },
     "1": {
-      "apt-ke.xml": 1,
-      "apt-ug.xml": 5
+      "apt-ug.xml": 5,
+      "apt-ke.xml": 1
     }
   },
   ".//budget/value/@currency": {
     "GBP": {
-      "apt-ke.xml": 4,
+      "apt-998.xml": 4,
       "apt-ug.xml": 2,
-      "apt-998.xml": 4
+      "apt-ke.xml": 4
     },
     "NOK": {
       "apt-ug.xml": 3
     }
   },
   ".//contact-info/@type": {
-    "2": {
-      "apt-ug.xml": 2
-    },
     "1": {
       "apt-998.xml": 1
+    },
+    "2": {
+      "apt-ug.xml": 2
     }
   },
   ".//default-aid-type/@vocabulary": {
@@ -115,9 +115,9 @@
   },
   ".//description/@type": {
     "1": {
-      "apt-ke.xml": 1,
+      "apt-998.xml": 1,
       "apt-ug.xml": 3,
-      "apt-998.xml": 1
+      "apt-ke.xml": 1
     }
   },
   ".//document-link/@format": {
@@ -138,14 +138,14 @@
   },
   ".//participating-org/@role": {
     "1": {
-      "apt-ke.xml": 2,
+      "apt-998.xml": 2,
       "apt-ug.xml": 5,
-      "apt-998.xml": 2
+      "apt-ke.xml": 2
     },
     "4": {
-      "apt-ke.xml": 1,
+      "apt-998.xml": 1,
       "apt-ug.xml": 4,
-      "apt-998.xml": 1
+      "apt-ke.xml": 1
     },
     "3": {
       "apt-ug.xml": 1
@@ -156,22 +156,22 @@
   },
   ".//participating-org/@type": {
     "10": {
-      "apt-ke.xml": 1,
+      "apt-998.xml": 1,
       "apt-ug.xml": 3,
-      "apt-998.xml": 1
-    },
-    "22": {
-      "apt-ke.xml": 1,
-      "apt-ug.xml": 3
+      "apt-ke.xml": 1
     },
     "60": {
-      "apt-ke.xml": 1,
+      "apt-998.xml": 1,
       "apt-ug.xml": 1,
-      "apt-998.xml": 1
+      "apt-ke.xml": 1
     },
     "21": {
-      "apt-ug.xml": 2,
-      "apt-998.xml": 1
+      "apt-998.xml": 1,
+      "apt-ug.xml": 2
+    },
+    "22": {
+      "apt-ug.xml": 3,
+      "apt-ke.xml": 1
     },
     "70": {
       "apt-ug.xml": 1
@@ -181,14 +181,14 @@
     }
   },
   ".//recipient-country/@code": {
-    "KE": {
-      "apt-ke.xml": 1
+    "SL": {
+      "apt-998.xml": 1
     },
     "UG": {
       "apt-ug.xml": 3
     },
-    "SL": {
-      "apt-998.xml": 1
+    "KE": {
+      "apt-ke.xml": 1
     }
   },
   ".//recipient-region/@vocabulary": {
@@ -203,20 +203,20 @@
   },
   ".//reporting-org/@type": {
     "21": {
-      "apt-ke.xml": 1,
+      "apt-998.xml": 1,
       "apt-ug.xml": 3,
-      "apt-998.xml": 1
+      "apt-ke.xml": 1
     }
   },
   ".//sector/@vocabulary": {
-    "2": {
-      "apt-ke.xml": 1
+    "7": {
+      "apt-998.xml": 86
     },
     "1": {
       "apt-ug.xml": 2
     },
-    "7": {
-      "apt-998.xml": 86
+    "2": {
+      "apt-ke.xml": 1
     }
   },
   ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
@@ -248,43 +248,43 @@
   },
   ".//transaction/aid-type/@vocabulary": {
     "1": {
-      "apt-ke.xml": 75,
+      "apt-998.xml": 85,
       "apt-ug.xml": 22,
-      "apt-998.xml": 85
+      "apt-ke.xml": 75
     }
   },
   ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
     "C01": {
-      "apt-ke.xml": 75,
+      "apt-998.xml": 85,
       "apt-ug.xml": 78,
-      "apt-998.xml": 85
+      "apt-ke.xml": 75
     }
   },
   ".//transaction/disbursement-channel/@code": {
     "2": {
-      "apt-ke.xml": 86,
+      "apt-998.xml": 33,
       "apt-ug.xml": 79,
-      "apt-998.xml": 33
-    },
-    "3": {
-      "apt-ug.xml": 2
+      "apt-ke.xml": 86
     },
     "1": {
       "apt-998.xml": 1
+    },
+    "3": {
+      "apt-ug.xml": 2
     }
   },
   ".//transaction/finance-type/@code": {
     "110": {
-      "apt-ke.xml": 75,
+      "apt-998.xml": 86,
       "apt-ug.xml": 76,
-      "apt-998.xml": 86
+      "apt-ke.xml": 75
     }
   },
   ".//transaction/flow-type/@code": {
     "30": {
-      "apt-ke.xml": 75,
+      "apt-998.xml": 86,
       "apt-ug.xml": 75,
-      "apt-998.xml": 86
+      "apt-ke.xml": 75
     },
     "10": {
       "apt-ug.xml": 3
@@ -292,28 +292,28 @@
   },
   ".//transaction/provider-org/@type": {
     "21": {
-      "apt-ug.xml": 29,
-      "apt-998.xml": 15
-    },
-    "70": {
-      "apt-ug.xml": 8
-    },
-    "10": {
-      "apt-ug.xml": 4,
-      "apt-998.xml": 2
+      "apt-998.xml": 15,
+      "apt-ug.xml": 29
     },
     "60": {
       "apt-998.xml": 4
+    },
+    "10": {
+      "apt-998.xml": 2,
+      "apt-ug.xml": 4
+    },
+    "70": {
+      "apt-ug.xml": 8
     }
   },
   ".//transaction/receiver-org/@type": {
     "21": {
-      "apt-ug.xml": 11,
-      "apt-998.xml": 5
+      "apt-998.xml": 5,
+      "apt-ug.xml": 11
     },
     "24": {
-      "apt-ug.xml": 8,
-      "apt-998.xml": 2
+      "apt-998.xml": 2,
+      "apt-ug.xml": 8
     },
     "70": {
       "apt-ug.xml": 1
@@ -339,26 +339,26 @@
   },
   ".//transaction/tied-status/@code": {
     "5": {
-      "apt-ke.xml": 75,
+      "apt-998.xml": 86,
       "apt-ug.xml": 75,
-      "apt-998.xml": 86
+      "apt-ke.xml": 75
     }
   },
   ".//transaction/transaction-type/@code": {
     "4": {
-      "apt-ke.xml": 38,
+      "apt-998.xml": 52,
       "apt-ug.xml": 50,
-      "apt-998.xml": 52
+      "apt-ke.xml": 38
     },
     "3": {
-      "apt-ke.xml": 20,
+      "apt-998.xml": 15,
       "apt-ug.xml": 30,
-      "apt-998.xml": 15
+      "apt-ke.xml": 20
     },
     "1": {
-      "apt-ke.xml": 28,
+      "apt-998.xml": 19,
       "apt-ug.xml": 24,
-      "apt-998.xml": 19
+      "apt-ke.xml": 28
     },
     "2": {
       "apt-ug.xml": 1
@@ -366,9 +366,9 @@
   },
   ".//transaction/value/@currency": {
     "GBP": {
-      "apt-ke.xml": 27,
+      "apt-998.xml": 82,
       "apt-ug.xml": 37,
-      "apt-998.xml": 82
+      "apt-ke.xml": 27
     },
     "NOK": {
       "apt-ug.xml": 4

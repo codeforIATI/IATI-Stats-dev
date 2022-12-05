@@ -12,8 +12,8 @@
       "2": 15
     },
     ".//budget/@status": {
-      "2": 8,
-      "1": 14
+      "1": 14,
+      "2": 8
     },
     ".//budget/@type": {
       "1": 20,
@@ -49,31 +49,31 @@
       "1": 15
     },
     ".//document-link/@format": {
+      "application/pdf": 12,
       "application/msword": 1,
       "application/vnd.oma.poc.detailed-progress-report+xml": 1,
-      "application/vnd.sealedmedia.softseal.pdf": 3,
-      "application/pdf": 12
+      "application/vnd.sealedmedia.softseal.pdf": 3
     },
     ".//document-link/category/@code": {
-      "A01": 1,
-      "A08": 1,
-      "A02": 8,
       "B01": 6,
-      "B08": 1
+      "A02": 8,
+      "B08": 1,
+      "A01": 1,
+      "A08": 1
     },
     ".//document-link/language/@code": {
       "en": 17
     },
     ".//participating-org/@role": {
-      "2": 14,
       "1": 15,
-      "4": 27
+      "4": 27,
+      "2": 14
     },
     ".//participating-org/@type": {
+      "10": 2,
+      "21": 4,
       "22": 46,
       "60": 1,
-      "21": 4,
-      "10": 2,
       "23": 1,
       "80": 1
     },
@@ -90,33 +90,20 @@
       "10": 1
     },
     ".//policy-marker/@significance": {
+      "4": 6,
       "1": 15,
       "2": 50,
-      "0": 5,
-      "4": 6
+      "0": 5
     },
     ".//policy-marker/@vocabulary": {
       "1": 63
     },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "89": 3,
-      "289": 3,
-      "389": 2,
-      "489": 2,
-      "689": 3,
-      "789": 3,
-      "998": 7,
-      "189": 2,
-      "498": 2,
-      "798": 2,
-      "298": 2
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 31
+    ".//recipient-country/@code": {
+      "NL": 2
     },
     ".//related-activity/@type": {
-      "1": 13,
       "2": 18,
+      "1": 13,
       "3": 2
     },
     ".//reporting-org/@type": {
@@ -134,12 +121,16 @@
       "99": 56
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "92010": 1,
       "15160": 10,
+      "14010": 9,
+      "15150": 10,
+      "15170": 9,
+      "31110": 9,
+      "31120": 8,
       "41010": 11,
       "24010": 2,
       "24030": 1,
-      "31110": 9,
-      "31120": 8,
       "31130": 1,
       "31162": 1,
       "31210": 2,
@@ -150,44 +141,11 @@
       "33140": 2,
       "92030": 2,
       "99820": 1,
-      "14010": 9,
       "15110": 1,
-      "15111": 1,
-      "15150": 10,
-      "15170": 9,
-      "92010": 1
+      "15111": 1
     },
     ".//sector/@vocabulary": {
       "1": 85
-    },
-    ".//transaction/provider-org/@type": {
-      "22": 246,
-      "60": 1,
-      "10": 11,
-      "21": 4
-    },
-    ".//transaction/receiver-org/@type": {
-      "22": 82,
-      "21": 20,
-      "80": 5,
-      "60": 5
-    },
-    ".//transaction/transaction-type/@code": {
-      "4": 195,
-      "1": 75,
-      "3": 104,
-      "2": 10,
-      "11": 3
-    },
-    ".//transaction/value/@currency": {
-      "EUR": 51,
-      "AED": 2
-    },
-    ".//@xml:lang": {
-      "en": 612
-    },
-    ".//recipient-country/@code": {
-      "NL": 2
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 3
@@ -204,8 +162,50 @@
     ".//transaction/flow-type/@code": {
       "10": 3
     },
+    ".//transaction/provider-org/@type": {
+      "10": 11,
+      "22": 246,
+      "60": 1,
+      "21": 4
+    },
+    ".//transaction/receiver-org/@type": {
+      "22": 82,
+      "21": 20,
+      "80": 5,
+      "60": 5
+    },
     ".//transaction/tied-status/@code": {
       "3": 4
+    },
+    ".//transaction/transaction-type/@code": {
+      "3": 104,
+      "11": 3,
+      "1": 75,
+      "4": 195,
+      "2": 10
+    },
+    ".//transaction/value/@currency": {
+      "EUR": 51,
+      "AED": 2
+    },
+    ".//@xml:lang": {
+      "en": 612
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "798": 2,
+      "298": 2,
+      "498": 2,
+      "89": 3,
+      "289": 3,
+      "389": 2,
+      "489": 2,
+      "689": 3,
+      "789": 3,
+      "998": 7,
+      "189": 2
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 31
     }
   }
 }

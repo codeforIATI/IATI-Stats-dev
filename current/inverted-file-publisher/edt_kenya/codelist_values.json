@@ -1,19 +1,25 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "edt_kenya-298.xml": 2,
-      "edt_kenya-scw5252.xml": 6
+      "edt_kenya-scw5252.xml": 6,
+      "edt_kenya-298.xml": 2
     }
   },
   ".//@xml:lang": {
-    "en": {
-      "edt_kenya-298.xml": 13
-    },
     "EN": {
       "edt_kenya-scw5252.xml": 6
+    },
+    "en": {
+      "edt_kenya-298.xml": 13
     }
   },
   ".//activity-date/@type": {
+    "end-planned": {
+      "edt_kenya-scw5252.xml": 6
+    },
+    "start-actual": {
+      "edt_kenya-scw5252.xml": 6
+    },
     "2": {
       "edt_kenya-298.xml": 2
     },
@@ -22,12 +28,6 @@
     },
     "3": {
       "edt_kenya-298.xml": 1
-    },
-    "end-planned": {
-      "edt_kenya-scw5252.xml": 6
-    },
-    "start-actual": {
-      "edt_kenya-scw5252.xml": 6
     }
   },
   ".//activity-scope/@code": {
@@ -39,11 +39,11 @@
     }
   },
   ".//activity-status/@code": {
-    "2": {
-      "edt_kenya-298.xml": 2
-    },
     "IMPLEMENTATION": {
       "edt_kenya-scw5252.xml": 6
+    },
+    "2": {
+      "edt_kenya-298.xml": 2
     }
   },
   ".//collaboration-type/@code": {
@@ -116,6 +116,12 @@
     }
   },
   ".//participating-org/@role": {
+    "Funding": {
+      "edt_kenya-scw5252.xml": 6
+    },
+    "Implementing": {
+      "edt_kenya-scw5252.xml": 6
+    },
     "1": {
       "edt_kenya-298.xml": 2
     },
@@ -124,15 +130,12 @@
     },
     "4": {
       "edt_kenya-298.xml": 5
-    },
-    "Funding": {
-      "edt_kenya-scw5252.xml": 6
-    },
-    "Implementing": {
-      "edt_kenya-scw5252.xml": 6
     }
   },
   ".//participating-org/@type": {
+    "INGO": {
+      "edt_kenya-scw5252.xml": 6
+    },
     "10": {
       "edt_kenya-298.xml": 1
     },
@@ -144,15 +147,12 @@
     },
     "22": {
       "edt_kenya-298.xml": 3
-    },
-    "INGO": {
-      "edt_kenya-scw5252.xml": 6
     }
   },
   ".//recipient-country/@code": {
     "KE": {
-      "edt_kenya-298.xml": 2,
-      "edt_kenya-scw5252.xml": 6
+      "edt_kenya-scw5252.xml": 6,
+      "edt_kenya-298.xml": 2
     }
   },
   ".//recipient-region/@vocabulary": {
@@ -166,11 +166,11 @@
     }
   },
   ".//reporting-org/@type": {
-    "21": {
-      "edt_kenya-298.xml": 2
-    },
     "INGO": {
       "edt_kenya-scw5252.xml": 6
+    },
+    "21": {
+      "edt_kenya-298.xml": 2
     }
   },
   ".//sector/@vocabulary": {
@@ -214,15 +214,6 @@
     }
   },
   ".//transaction/transaction-type/@code": {
-    "1": {
-      "edt_kenya-298.xml": 45
-    },
-    "4": {
-      "edt_kenya-298.xml": 693
-    },
-    "3": {
-      "edt_kenya-298.xml": 71
-    },
     "E": {
       "edt_kenya-scw5252.xml": 440
     },
@@ -231,12 +222,21 @@
     },
     "if": {
       "edt_kenya-scw5252.xml": 2
+    },
+    "1": {
+      "edt_kenya-298.xml": 45
+    },
+    "4": {
+      "edt_kenya-298.xml": 693
+    },
+    "3": {
+      "edt_kenya-298.xml": 71
     }
   },
   ".//transaction/value/@currency": {
     "GBP": {
-      "edt_kenya-298.xml": 809,
-      "edt_kenya-scw5252.xml": 454
+      "edt_kenya-scw5252.xml": 454,
+      "edt_kenya-298.xml": 809
     }
   }
 }

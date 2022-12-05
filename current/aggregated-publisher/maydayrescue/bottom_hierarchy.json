@@ -93,6 +93,8 @@
     "iati-activity/recipient-country/@code": 2,
     "iati-activity/recipient-country/@percentage": 2,
     "iati-activity/sector": 2,
+    "iati-activity/sector/narrative": 1,
+    "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
     "iati-activity/sector/@code": 2,
     "iati-activity/sector/@percentage": 2,
     "iati-activity/sector/@vocabulary": 2,
@@ -106,13 +108,6 @@
     "iati-activity/budget/value/@value-date": 2,
     "iati-activity/budget/@type": 2,
     "iati-activity/budget/@status": 2,
-    "iati-activity/@last-updated-datetime": 2,
-    "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 2,
-    "iati-activity/@default-currency": 2,
-    "iati-activity/@humanitarian": 2,
-    "iati-activity/@hierarchy": 2,
-    "iati-activity/sector/narrative": 1,
-    "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
     "iati-activity/transaction": 1,
     "iati-activity/transaction/transaction-type": 1,
     "iati-activity/transaction/transaction-type/@code": 1,
@@ -141,7 +136,12 @@
     "iati-activity/transaction/aid-type": 1,
     "iati-activity/transaction/aid-type/@code": 1,
     "iati-activity/transaction/tied-status": 1,
-    "iati-activity/transaction/tied-status/@code": 1
+    "iati-activity/transaction/tied-status/@code": 1,
+    "iati-activity/@last-updated-datetime": 2,
+    "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 2,
+    "iati-activity/@default-currency": 2,
+    "iati-activity/@humanitarian": 2,
+    "iati-activity/@hierarchy": 2
   },
   "elements_total": {
     "iati-activity": 2,
@@ -172,6 +172,8 @@
     "iati-activity/recipient-country/@code": 2,
     "iati-activity/recipient-country/@percentage": 2,
     "iati-activity/sector": 2,
+    "iati-activity/sector/narrative": 1,
+    "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
     "iati-activity/sector/@code": 2,
     "iati-activity/sector/@percentage": 2,
     "iati-activity/sector/@vocabulary": 2,
@@ -185,13 +187,6 @@
     "iati-activity/budget/value/@value-date": 2,
     "iati-activity/budget/@type": 2,
     "iati-activity/budget/@status": 2,
-    "iati-activity/@last-updated-datetime": 2,
-    "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 2,
-    "iati-activity/@default-currency": 2,
-    "iati-activity/@humanitarian": 2,
-    "iati-activity/@hierarchy": 2,
-    "iati-activity/sector/narrative": 1,
-    "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
     "iati-activity/transaction": 10,
     "iati-activity/transaction/transaction-type": 10,
     "iati-activity/transaction/transaction-type/@code": 10,
@@ -220,7 +215,12 @@
     "iati-activity/transaction/aid-type": 1,
     "iati-activity/transaction/aid-type/@code": 1,
     "iati-activity/transaction/tied-status": 1,
-    "iati-activity/transaction/tied-status/@code": 1
+    "iati-activity/transaction/tied-status/@code": 1,
+    "iati-activity/@last-updated-datetime": 2,
+    "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 2,
+    "iati-activity/@default-currency": 2,
+    "iati-activity/@humanitarian": 2,
+    "iati-activity/@hierarchy": 2
   },
   "forwardlooking_activities_current": {
     "2022": 1,
@@ -238,11 +238,11 @@
     "2024": 0
   },
   "forwardlooking_currency_year": {
-    "2016": {
-      "USD": 74959.75
-    },
     "2017": {
       "EUR": 4886375.0
+    },
+    "2016": {
+      "USD": 74959.75
     }
   }
 }

@@ -2,15 +2,15 @@
   "2": {
     ".//@default-currency": {
       "USD": 254,
-      "UGX": 10,
-      "EUR": 10,
       "GBP": 91,
-      "THB": 2,
-      "NGN": 4,
       "NOK": 2,
+      "NGN": 4,
+      "EUR": 10,
+      "UGX": 10,
+      "THB": 2,
       "ETB": 2,
-      "CAD": 2,
-      "MZN": 2
+      "MZN": 2,
+      "CAD": 2
     },
     ".//activity-date/@type": {
       "2": 377,
@@ -27,16 +27,16 @@
     },
     ".//budget/value/@currency": {
       "USD": 210,
-      "UGX": 8,
       "GBP": 53,
-      "EUR": 3,
-      "THB": 3,
-      "NGN": 3,
       "NOK": 1,
+      "NGN": 3,
+      "EUR": 3,
+      "UGX": 8,
+      "THB": 3,
       "ETB": 4,
-      "Eur": 1,
+      "MZN": 1,
       "CAD": 1,
-      "MZN": 1
+      "Eur": 1
     },
     ".//contact-info/@type": {
       "1": 379
@@ -48,53 +48,53 @@
       "10": 379
     },
     ".//default-tied-status/@code": {
-      "5": 334,
-      "3": 45
+      "3": 45,
+      "5": 334
     },
     ".//description/@type": {
       "1": 379
     },
     ".//participating-org/@role": {
-      "1": 184,
-      "4": 504
+      "4": 504,
+      "1": 184
     },
     ".//participating-org/@type": {
-      "60": 18,
       "21": 396,
-      "40": 53,
-      "15": 9,
-      "22": 41,
-      "70": 26,
-      "80": 34,
       "10": 110,
+      "40": 53,
+      "60": 18,
+      "80": 34,
+      "15": 9,
+      "70": 26,
+      "22": 41,
       "23": 1
     },
     ".//recipient-country/@code": {
       "MZ": 43,
       "UG": 69,
       "GB": 29,
+      "SS": 61,
+      "NG": 62,
+      "ET": 33,
+      "NP": 2,
+      "KH": 37,
+      "MM": 21,
+      "SL": 2,
+      "TH": 14,
+      "BF": 5,
+      "GW": 2,
+      "TD": 5,
+      "TG": 2,
       "MW": 2,
       "TZ": 2,
       "ZM": 4,
-      "KH": 37,
-      "ET": 33,
-      "NG": 62,
-      "CM": 2,
-      "SS": 61,
-      "MM": 21,
-      "NP": 2,
-      "BF": 5,
       "GM": 1,
       "GN": 1,
       "ML": 1,
       "NE": 1,
       "SN": 3,
-      "TD": 5,
-      "TH": 14,
-      "GH": 3,
-      "GW": 2,
-      "TG": 2,
-      "SL": 2
+      "CM": 2,
+      "GH": 3
     },
     ".//related-activity/@type": {
       "2": 233,
@@ -105,10 +105,10 @@
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "12262": 221,
+      "12220": 29,
+      "12230": 37,
       "12250": 78,
       "12240": 18,
-      "12230": 37,
-      "12220": 29,
       "51010": 2
     },
     ".//sector/@vocabulary": {
@@ -124,38 +124,38 @@
       "10": 5837
     },
     ".//transaction/tied-status/@code": {
-      "5": 4802,
-      "3": 1035
+      "3": 1035,
+      "5": 4802
     },
     ".//transaction/transaction-type/@code": {
-      "1": 1473,
       "2": 153,
       "4": 1785,
+      "1": 1473,
       "3": 2427
     },
     ".//transaction/value/@currency": {
       "USD": 2967,
-      "UGX": 141,
       "GBP": 1109,
       "MZN": 39,
+      "UGX": 141,
+      "THB": 17,
+      "NOK": 15,
+      "NGN": 379,
       "EUR": 35,
       "XOF": 671,
       "XAF": 411,
       "MMK": 8,
-      "NGN": 379,
-      "THB": 17,
-      "NOK": 15,
       "ETB": 29,
+      "CAD": 15,
       "Eur": 1,
-      "SDG": 1,
-      "CAD": 15
+      "SDG": 1
     },
     ".//@xml:lang": {
       "en": 2149
     },
     ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "798": 15,
-      "298": 23
+      "298": 23,
+      "798": 15
     }
   }
 }

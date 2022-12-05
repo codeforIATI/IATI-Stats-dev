@@ -1,23 +1,17 @@
 {
   ".//@default-currency": {
     "GBP": {
-      "ukmod-activity2013.xml": 10,
-      "ukmod-activities.xml": 33
+      "ukmod-activities.xml": 33,
+      "ukmod-activity2013.xml": 10
     }
   },
   ".//@xml:lang": {
     "en": {
-      "ukmod-activity2013.xml": 10,
-      "ukmod-activities.xml": 290
+      "ukmod-activities.xml": 290,
+      "ukmod-activity2013.xml": 10
     }
   },
   ".//activity-date/@type": {
-    "end-actual": {
-      "ukmod-activity2013.xml": 10
-    },
-    "start-actual": {
-      "ukmod-activity2013.xml": 10
-    },
     "2": {
       "ukmod-activities.xml": 33
     },
@@ -29,17 +23,23 @@
     },
     "1": {
       "ukmod-activities.xml": 1
+    },
+    "end-actual": {
+      "ukmod-activity2013.xml": 10
+    },
+    "start-actual": {
+      "ukmod-activity2013.xml": 10
     }
   },
   ".//activity-status/@code": {
-    "4": {
-      "ukmod-activity2013.xml": 10
-    },
     "3": {
       "ukmod-activities.xml": 24
     },
     "2": {
       "ukmod-activities.xml": 9
+    },
+    "4": {
+      "ukmod-activity2013.xml": 10
     }
   },
   ".//budget/@status": {
@@ -57,8 +57,8 @@
   },
   ".//budget/value/@currency": {
     "GBP": {
-      "ukmod-activity2013.xml": 10,
-      "ukmod-activities.xml": 28
+      "ukmod-activities.xml": 28,
+      "ukmod-activity2013.xml": 10
     }
   },
   ".//collaboration-type/@code": {
@@ -196,9 +196,6 @@
     }
   },
   ".//participating-org/@role": {
-    "Funding": {
-      "ukmod-activity2013.xml": 10
-    },
     "1": {
       "ukmod-activities.xml": 32
     },
@@ -207,12 +204,15 @@
     },
     "2": {
       "ukmod-activities.xml": 1
+    },
+    "Funding": {
+      "ukmod-activity2013.xml": 10
     }
   },
   ".//participating-org/@type": {
     "10": {
-      "ukmod-activity2013.xml": 10,
-      "ukmod-activities.xml": 33
+      "ukmod-activities.xml": 33,
+      "ukmod-activity2013.xml": 10
     },
     "15": {
       "ukmod-activities.xml": 1
@@ -246,8 +246,8 @@
   },
   ".//reporting-org/@type": {
     "10": {
-      "ukmod-activity2013.xml": 10,
-      "ukmod-activities.xml": 33
+      "ukmod-activities.xml": 33,
+      "ukmod-activity2013.xml": 10
     }
   },
   ".//sector/@vocabulary": {
@@ -335,8 +335,8 @@
   },
   ".//transaction/finance-type/@code": {
     "110": {
-      "ukmod-activity2013.xml": 20,
-      "ukmod-activities.xml": 49
+      "ukmod-activities.xml": 49,
+      "ukmod-activity2013.xml": 20
     },
     "421": {
       "ukmod-activities.xml": 1
@@ -344,8 +344,8 @@
   },
   ".//transaction/flow-type/@code": {
     "10": {
-      "ukmod-activity2013.xml": 20,
-      "ukmod-activities.xml": 50
+      "ukmod-activities.xml": 50,
+      "ukmod-activity2013.xml": 20
     }
   },
   ".//transaction/provider-org/@type": {
@@ -371,28 +371,28 @@
   },
   ".//transaction/tied-status/@code": {
     "5": {
-      "ukmod-activity2013.xml": 20,
-      "ukmod-activities.xml": 49
+      "ukmod-activities.xml": 49,
+      "ukmod-activity2013.xml": 20
     }
   },
   ".//transaction/transaction-type/@code": {
-    "C": {
-      "ukmod-activity2013.xml": 10
-    },
-    "E": {
-      "ukmod-activity2013.xml": 10
-    },
     "4": {
       "ukmod-activities.xml": 59
     },
     "2": {
       "ukmod-activities.xml": 10
+    },
+    "C": {
+      "ukmod-activity2013.xml": 10
+    },
+    "E": {
+      "ukmod-activity2013.xml": 10
     }
   },
   ".//transaction/value/@currency": {
     "GBP": {
-      "ukmod-activity2013.xml": 20,
-      "ukmod-activities.xml": 53
+      "ukmod-activities.xml": 53,
+      "ukmod-activity2013.xml": 20
     }
   }
 }

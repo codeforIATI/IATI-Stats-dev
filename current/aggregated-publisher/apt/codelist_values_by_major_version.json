@@ -4,10 +4,10 @@
       "GBP": 5
     },
     ".//activity-date/@type": {
+      "1": 1,
       "2": 5,
       "3": 5,
-      "4": 1,
-      "1": 1
+      "4": 1
     },
     ".//activity-status/@code": {
       "2": 3,
@@ -15,8 +15,8 @@
       "4": 1
     },
     ".//budget/@status": {
-      "1": 4,
-      "2": 9
+      "2": 9,
+      "1": 4
     },
     ".//budget/@type": {
       "2": 11,
@@ -25,6 +25,10 @@
     ".//budget/value/@currency": {
       "GBP": 10,
       "NOK": 3
+    },
+    ".//contact-info/@type": {
+      "1": 1,
+      "2": 2
     },
     ".//description/@type": {
       "1": 5
@@ -37,27 +41,33 @@
     },
     ".//participating-org/@type": {
       "10": 5,
-      "22": 4,
       "60": 3,
       "21": 3,
+      "22": 4,
       "70": 1,
       "24": 1
     },
     ".//recipient-country/@code": {
-      "KE": 1,
+      "SL": 1,
       "UG": 3,
-      "SL": 1
+      "KE": 1
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "998": 1
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 1
     },
     ".//reporting-org/@type": {
       "21": 5
     },
-    ".//sector[@vocabulary = '2']/@code": {
-      "520": 1
+    ".//sector[@vocabulary = '7']/@code": {
+      "1": 86
     },
     ".//sector/@vocabulary": {
-      "2": 1,
+      "7": 86,
       "1": 2,
-      "7": 86
+      "2": 1
     },
     ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 238
@@ -67,8 +77,8 @@
     },
     ".//transaction/disbursement-channel/@code": {
       "2": 198,
-      "3": 2,
-      "1": 1
+      "1": 1,
+      "3": 2
     },
     ".//transaction/finance-type/@code": {
       "110": 237
@@ -76,6 +86,24 @@
     ".//transaction/flow-type/@code": {
       "30": 236,
       "10": 3
+    },
+    ".//transaction/provider-org/@type": {
+      "21": 44,
+      "60": 4,
+      "10": 6,
+      "70": 8
+    },
+    ".//transaction/receiver-org/@type": {
+      "21": 16,
+      "24": 10,
+      "70": 1,
+      "22": 9
+    },
+    ".//transaction/sector[@vocabulary = '7']/@code": {
+      "1": 86
+    },
+    ".//transaction/sector/@vocabulary": {
+      "7": 86
     },
     ".//transaction/tied-status/@code": {
       "5": 236
@@ -93,10 +121,6 @@
     ".//@xml:lang": {
       "en": 180,
       "bn": 1
-    },
-    ".//contact-info/@type": {
-      "2": 2,
-      "1": 1
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "C01": 2
@@ -129,35 +153,11 @@
       "11231": 1,
       "15160": 1
     },
-    ".//transaction/provider-org/@type": {
-      "21": 44,
-      "70": 8,
-      "10": 6,
-      "60": 4
-    },
-    ".//transaction/receiver-org/@type": {
-      "21": 16,
-      "24": 10,
-      "70": 1,
-      "22": 9
-    },
     ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
       "168": 3
     },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "998": 1
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 1
-    },
-    ".//sector[@vocabulary = '7']/@code": {
-      "1": 86
-    },
-    ".//transaction/sector[@vocabulary = '7']/@code": {
-      "1": 86
-    },
-    ".//transaction/sector/@vocabulary": {
-      "7": 86
+    ".//sector[@vocabulary = '2']/@code": {
+      "520": 1
     }
   }
 }

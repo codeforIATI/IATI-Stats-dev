@@ -6,17 +6,17 @@
     ".//activity-date/@type": {
       "2": 36,
       "3": 36,
-      "1": 2,
-      "4": 2
+      "4": 2,
+      "1": 2
     },
     ".//activity-status/@code": {
       "2": 34,
-      "3": 2,
-      "4": 2
+      "4": 2,
+      "3": 2
     },
     ".//activity-scope/@code": {
-      "2": 6,
       "4": 16,
+      "2": 6,
       "1": 14
     },
     ".//budget/@status": {
@@ -60,64 +60,49 @@
       "21": 72
     },
     ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "7": 34,
-      "6": 34,
       "5": 34,
+      "6": 34,
+      "7": 34,
       "8": 34
     },
     ".//policy-marker/@significance": {
-      "1": 9,
-      "0": 127
+      "0": 127,
+      "1": 9
     },
     ".//policy-marker/@vocabulary": {
       "1": 136
     },
     ".//recipient-country/@code": {
+      "SS": 2,
+      "KH": 1,
+      "LK": 1,
+      "DK": 1,
       "ML": 2,
       "BF": 1,
-      "KH": 1,
-      "DK": 1,
-      "SL": 1,
-      "AF": 1,
-      "SO": 2,
-      "LK": 1,
-      "SS": 2,
-      "YE": 1,
-      "BD": 1,
       "SY": 1,
+      "AF": 1,
+      "BD": 1,
+      "SL": 1,
+      "SO": 2,
+      "YE": 1,
       "ET": 1
-    },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "998": 24
-    },
-    ".//recipient-region/@vocabulary": {
-      "1": 24
     },
     ".//reporting-org/@type": {
       "21": 38
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "99810": 2
     },
     ".//sector[@vocabulary = '2']/@code": {
       "151": 12,
       "152": 16,
       "160": 17,
       "111": 12,
+      "220": 1,
       "121": 2,
       "998": 3,
-      "910": 2,
-      "220": 1
+      "910": 2
     },
     ".//sector/@vocabulary": {
       "2": 65,
       "1": 2
-    },
-    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "B03": 11
-    },
-    ".//transaction/aid-type/@vocabulary": {
-      "1": 11
     },
     ".//transaction/provider-org/@type": {
       "21": 35,
@@ -136,6 +121,21 @@
     },
     ".//@xml:lang": {
       "en": 147
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "998": 24
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 24
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "99810": 2
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "B03": 11
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "1": 11
     }
   }
 }

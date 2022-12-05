@@ -49,22 +49,18 @@
       "1": 16
     },
     ".//policy-marker/@significance": {
-      "1": 10,
-      "2": 6
+      "2": 6,
+      "1": 10
     },
     ".//policy-marker/@vocabulary": {
       "1": 16
     },
-    ".//recipient-country/@code": {
-      "UG": 2,
-      "KE": 2,
-      "NG": 2,
-      "NE": 2,
-      "MZ": 2,
-      "GT": 2,
-      "HN": 2,
-      "LB": 2,
-      "JO": 2
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "589": 2,
+      "1030": 2,
+      "1027": 2,
+      "1029": 2,
+      "679": 2
     },
     ".//related-activity/@type": {
       "1": 14
@@ -73,8 +69,8 @@
       "21": 16
     },
     ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "13020": 10,
-      "15160": 6
+      "15160": 6,
+      "13020": 10
     },
     ".//sector/@vocabulary": {
       "1": 16
@@ -96,12 +92,16 @@
     ".//@xml:lang": {
       "en": 16
     },
-    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "589": 2,
-      "1030": 2,
-      "1027": 2,
-      "1029": 2,
-      "679": 2
+    ".//recipient-country/@code": {
+      "UG": 2,
+      "KE": 2,
+      "NG": 2,
+      "NE": 2,
+      "MZ": 2,
+      "GT": 2,
+      "HN": 2,
+      "LB": 2,
+      "JO": 2
     }
   }
 }

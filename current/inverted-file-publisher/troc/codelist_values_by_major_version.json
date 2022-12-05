@@ -1,253 +1,115 @@
 {
   "2": {
     ".//@default-currency": {
-      "troc-trocaire-gb-dataset.xml": {
-        "GBP": 1
-      },
       "troc-iatiactivityarchivegb.xml": {
         "GBP": 5
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "GBP": 1
       }
     },
     ".//activity-date/@type": {
-      "troc-trocaire-gb-dataset.xml": {
-        "2": 1,
-        "3": 1
-      },
       "troc-iatiactivityarchivegb.xml": {
         "2": 5,
         "4": 1,
         "3": 4
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "2": 1,
+        "3": 1
       }
     },
     ".//activity-status/@code": {
-      "troc-trocaire-gb-dataset.xml": {
-        "2": 1
-      },
       "troc-iatiactivityarchivegb.xml": {
         "4": 5
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "2": 1
       }
     },
     ".//budget/@status": {
-      "troc-trocaire-gb-dataset.xml": {
-        "2": 3
-      },
       "troc-iatiactivityarchivegb.xml": {
         "1": 7,
+        "2": 3
+      },
+      "troc-trocaire-gb-dataset.xml": {
         "2": 3
       }
     },
     ".//budget/@type": {
-      "troc-trocaire-gb-dataset.xml": {
-        "1": 3
-      },
       "troc-iatiactivityarchivegb.xml": {
         "2": 5,
         "1": 5
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "1": 3
       }
     },
     ".//budget/value/@currency": {
-      "troc-trocaire-gb-dataset.xml": {
-        "GBP": 3
-      },
       "troc-iatiactivityarchivegb.xml": {
         "GBP": 11
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "GBP": 3
       }
     },
     ".//collaboration-type/@code": {
-      "troc-trocaire-gb-dataset.xml": {
-        "1": 1
-      },
       "troc-iatiactivityarchivegb.xml": {
         "1": 4,
         "3": 1
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "1": 1
       }
     },
     ".//contact-info/@type": {
-      "troc-trocaire-gb-dataset.xml": {
-        "1": 1
-      },
       "troc-iatiactivityarchivegb.xml": {
         "1": 3
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "1": 1
       }
     },
     ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "troc-trocaire-gb-dataset.xml": {
-        "C01": 1
-      },
       "troc-iatiactivityarchivegb.xml": {
         "C01": 5
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "C01": 1
       }
     },
     ".//default-finance-type/@code": {
-      "troc-trocaire-gb-dataset.xml": {
-        "110": 1
-      },
       "troc-iatiactivityarchivegb.xml": {
         "110": 5
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "110": 1
       }
     },
     ".//default-flow-type/@code": {
-      "troc-trocaire-gb-dataset.xml": {
-        "10": 1
-      },
       "troc-iatiactivityarchivegb.xml": {
         "10": 5
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "10": 1
       }
     },
     ".//default-tied-status/@code": {
-      "troc-trocaire-gb-dataset.xml": {
-        "5": 1
-      },
       "troc-iatiactivityarchivegb.xml": {
         "5": 5
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "5": 1
       }
     },
     ".//description/@type": {
-      "troc-trocaire-gb-dataset.xml": {
-        "1": 1,
-        "2": 1
-      },
       "troc-iatiactivityarchivegb.xml": {
         "1": 5,
         "2": 1
-      }
-    },
-    ".//participating-org/@role": {
+      },
       "troc-trocaire-gb-dataset.xml": {
         "1": 1,
-        "3": 1,
-        "2": 1,
-        "4": 1
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "1": 7,
-        "4": 9,
-        "2": 2
-      }
-    },
-    ".//participating-org/@type": {
-      "troc-trocaire-gb-dataset.xml": {
-        "10": 1,
-        "70": 1,
-        "21": 2
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "10": 5,
-        "21": 4,
-        "70": 2,
-        "22": 7
-      }
-    },
-    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "troc-trocaire-gb-dataset.xml": {
-        "6": 1
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "1": 1,
-        "2": 3,
-        "7": 1
-      }
-    },
-    ".//policy-marker/@significance": {
-      "troc-trocaire-gb-dataset.xml": {
-        "1": 1
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "1": 5
-      }
-    },
-    ".//policy-marker/@vocabulary": {
-      "troc-trocaire-gb-dataset.xml": {
-        "1": 1
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "1": 5
-      }
-    },
-    ".//recipient-country/@code": {
-      "troc-trocaire-gb-dataset.xml": {
-        "SS": 1
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "CD": 1,
-        "MW": 2,
-        "ET": 1,
-        "KE": 1,
-        "ZW": 1
-      }
-    },
-    ".//reporting-org/@type": {
-      "troc-trocaire-gb-dataset.xml": {
-        "21": 1
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "21": 5
-      }
-    },
-    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
-      "troc-trocaire-gb-dataset.xml": {
-        "31120": 1,
-        "15170": 1,
-        "74010": 1
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "15150": 1,
-        "31120": 3,
-        "43040": 1
-      }
-    },
-    ".//sector/@vocabulary": {
-      "troc-trocaire-gb-dataset.xml": {
-        "1": 3
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "1": 5
-      }
-    },
-    ".//transaction/provider-org/@type": {
-      "troc-trocaire-gb-dataset.xml": {
-        "70": 3
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "10": 2,
-        "70": 113
-      }
-    },
-    ".//transaction/receiver-org/@type": {
-      "troc-trocaire-gb-dataset.xml": {
-        "21": 3
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "21": 115
-      }
-    },
-    ".//transaction/transaction-type/@code": {
-      "troc-trocaire-gb-dataset.xml": {
-        "2": 1,
-        "3": 2
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "11": 3,
-        "1": 10,
-        "2": 27,
-        "3": 29,
-        "4": 46
-      }
-    },
-    ".//transaction/value/@currency": {
-      "troc-trocaire-gb-dataset.xml": {
-        "GBP": 3
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "GBP": 115
-      }
-    },
-    ".//@xml:lang": {
-      "troc-trocaire-gb-dataset.xml": {
-        "en": 1
-      },
-      "troc-iatiactivityarchivegb.xml": {
-        "en": 5
+        "2": 1
       }
     },
     ".//document-link/@format": {
@@ -265,6 +127,78 @@
         "en": 6
       }
     },
+    ".//participating-org/@role": {
+      "troc-iatiactivityarchivegb.xml": {
+        "1": 7,
+        "4": 9,
+        "2": 2
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "1": 1,
+        "3": 1,
+        "2": 1,
+        "4": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "troc-iatiactivityarchivegb.xml": {
+        "10": 5,
+        "21": 4,
+        "70": 2,
+        "22": 7
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "10": 1,
+        "70": 1,
+        "21": 2
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "troc-iatiactivityarchivegb.xml": {
+        "1": 1,
+        "2": 3,
+        "7": 1
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "6": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "troc-iatiactivityarchivegb.xml": {
+        "1": 5
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "1": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "troc-iatiactivityarchivegb.xml": {
+        "1": 5
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "1": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "troc-iatiactivityarchivegb.xml": {
+        "CD": 1,
+        "MW": 2,
+        "ET": 1,
+        "KE": 1,
+        "ZW": 1
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "SS": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "troc-iatiactivityarchivegb.xml": {
+        "21": 5
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "21": 1
+      }
+    },
     ".//result/@type": {
       "troc-iatiactivityarchivegb.xml": {
         "2": 1
@@ -273,6 +207,72 @@
     ".//result/indicator/@measure": {
       "troc-iatiactivityarchivegb.xml": {
         "1": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "troc-iatiactivityarchivegb.xml": {
+        "15150": 1,
+        "31120": 3,
+        "43040": 1
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "31120": 1,
+        "15170": 1,
+        "74010": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "troc-iatiactivityarchivegb.xml": {
+        "1": 5
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "1": 3
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "troc-iatiactivityarchivegb.xml": {
+        "10": 2,
+        "70": 113
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "70": 3
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "troc-iatiactivityarchivegb.xml": {
+        "21": 115
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "21": 3
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "troc-iatiactivityarchivegb.xml": {
+        "11": 3,
+        "1": 10,
+        "2": 27,
+        "3": 29,
+        "4": 46
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "2": 1,
+        "3": 2
+      }
+    },
+    ".//transaction/value/@currency": {
+      "troc-iatiactivityarchivegb.xml": {
+        "GBP": 115
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "GBP": 3
+      }
+    },
+    ".//@xml:lang": {
+      "troc-iatiactivityarchivegb.xml": {
+        "en": 5
+      },
+      "troc-trocaire-gb-dataset.xml": {
+        "en": 1
       }
     }
   }

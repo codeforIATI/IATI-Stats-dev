@@ -16,7 +16,6 @@
       "iati-activity/description/@type": 14,
       "iati-activity/participating-org": 14,
       "iati-activity/participating-org/narrative": 14,
-      "iati-activity/participating-org/@ref": 13,
       "iati-activity/participating-org/@type": 14,
       "iati-activity/participating-org/@role": 14,
       "iati-activity/activity-status": 14,
@@ -29,7 +28,6 @@
       "iati-activity/recipient-country/@percentage": 10,
       "iati-activity/sector": 14,
       "iati-activity/sector/@code": 14,
-      "iati-activity/sector/@percentage": 1,
       "iati-activity/sector/@vocabulary": 14,
       "iati-activity/budget": 14,
       "iati-activity/budget/period-start": 14,
@@ -39,14 +37,16 @@
       "iati-activity/budget/value": 14,
       "iati-activity/budget/value/@currency": 14,
       "iati-activity/budget/value/@value-date": 14,
-      "iati-activity/budget/@type": 13,
       "iati-activity/budget/@status": 14,
       "iati-activity/@last-updated-datetime": 14,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 14,
       "iati-activity/@default-currency": 14,
       "iati-activity/@humanitarian": 14,
       "iati-activity/@hierarchy": 14,
-      "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1
+      "iati-activity/participating-org/@ref": 13,
+      "iati-activity/budget/@type": 13,
+      "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
+      "iati-activity/sector/@percentage": 1
     },
     "elements_total": {
       "iati-activity": 14,
@@ -63,7 +63,6 @@
       "iati-activity/description/@type": 14,
       "iati-activity/participating-org": 28,
       "iati-activity/participating-org/narrative": 28,
-      "iati-activity/participating-org/@ref": 22,
       "iati-activity/participating-org/@type": 28,
       "iati-activity/participating-org/@role": 28,
       "iati-activity/activity-status": 14,
@@ -76,7 +75,6 @@
       "iati-activity/recipient-country/@percentage": 34,
       "iati-activity/sector": 15,
       "iati-activity/sector/@code": 15,
-      "iati-activity/sector/@percentage": 2,
       "iati-activity/sector/@vocabulary": 15,
       "iati-activity/budget": 14,
       "iati-activity/budget/period-start": 14,
@@ -86,24 +84,26 @@
       "iati-activity/budget/value": 14,
       "iati-activity/budget/value/@currency": 14,
       "iati-activity/budget/value/@value-date": 14,
-      "iati-activity/budget/@type": 13,
       "iati-activity/budget/@status": 14,
       "iati-activity/@last-updated-datetime": 14,
       "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 14,
       "iati-activity/@default-currency": 14,
       "iati-activity/@humanitarian": 14,
       "iati-activity/@hierarchy": 14,
-      "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1
+      "iati-activity/participating-org/@ref": 22,
+      "iati-activity/budget/@type": 13,
+      "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 1,
+      "iati-activity/sector/@percentage": 2
     },
     "forwardlooking_currency_year": {
       "2014": {
         "GBP": 63507446.0
       },
-      "2013": {
-        "GBP": 12200000.0
-      },
       "2016": {
         "GBP": 200000.0
+      },
+      "2013": {
+        "GBP": 12200000.0
       },
       "2015": {
         "GBP": 1900000.0
